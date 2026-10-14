@@ -1,39 +1,29 @@
 <script lang="ts">
-	import EscrutinioHeader from '#lib/components/EscrutinioHeader.svelte';
 	import BarraEscanos from '#lib/components/BarraEscanos.svelte';
 	import Hemiciclo from '#lib/components/Hemiciclo.svelte';
 	import TablaPartidos from '#lib/components/TablaPartidos.svelte';
 	import MapaProvincias from '#lib/components/MapaProvincias.svelte';
 </script>
 
-<div class="page">
-	<EscrutinioHeader />
+<main class="main">
+	<div class="barra-section">
+		<BarraEscanos />
+	</div>
 
-	<main class="main">
-		<div class="barra-section">
-			<BarraEscanos />
+	<div class="grid">
+		<div class="col-tabla">
+			<TablaPartidos />
 		</div>
-
-		<div class="grid">
-			<div class="col-tabla">
-				<TablaPartidos />
-			</div>
-			<div class="col-hemiciclo">
-				<Hemiciclo />
-			</div>
-			<div class="col-mapa">
-				<MapaProvincias />
-			</div>
+		<div class="col-hemiciclo">
+			<Hemiciclo />
 		</div>
-	</main>
-</div>
+		<div class="col-mapa">
+			<MapaProvincias />
+		</div>
+	</div>
+</main>
 
 <style>
-	.page {
-		min-height: 100vh;
-		background: var(--paper);
-	}
-
 	.main {
 		padding: 32px 24px;
 	}

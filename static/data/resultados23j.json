@@ -132,5 +132,1775 @@
       "totalEscanos": 350,
       "mayoria": 176
     }
+  },
+  "provincias": {
+    "04": {
+      "nombre": "Almería",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 131524,
+          "escanos": 3,
+          "pctVotos": 41.26,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 93282,
+          "escanos": 2,
+          "pctVotos": 29.26,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 68364,
+          "escanos": 1,
+          "pctVotos": 21.45,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "11": {
+      "nombre": "Cádiz",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 4
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 221703,
+          "escanos": 4,
+          "pctVotos": 35.19,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 211200,
+          "escanos": 3,
+          "pctVotos": 33.52,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 96720,
+          "escanos": 1,
+          "pctVotos": 15.35,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "14": {
+      "nombre": "Córdoba",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 169976,
+          "escanos": 2,
+          "pctVotos": 38.26,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 144080,
+          "escanos": 2,
+          "pctVotos": 32.43,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 62526,
+          "escanos": 1,
+          "pctVotos": 14.07,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "18": {
+      "nombre": "Granada",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 185996,
+          "escanos": 3,
+          "pctVotos": 37.29,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 165862,
+          "escanos": 2,
+          "pctVotos": 33.25,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 81080,
+          "escanos": 1,
+          "pctVotos": 16.26,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "21": {
+      "nombre": "Huelva",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 93565,
+          "escanos": 2,
+          "pctVotos": 36.78,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 92326,
+          "escanos": 2,
+          "pctVotos": 36.29,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 37572,
+          "escanos": 1,
+          "pctVotos": 14.77,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "23": {
+      "nombre": "Jaén",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 137617,
+          "escanos": 2,
+          "pctVotos": 37.58,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 133819,
+          "escanos": 2,
+          "pctVotos": 36.54,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 54400,
+          "escanos": 1,
+          "pctVotos": 14.85,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "29": {
+      "nombre": "Málaga",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 5
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 302000,
+          "escanos": 5,
+          "pctVotos": 38.68,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 239172,
+          "escanos": 3,
+          "pctVotos": 30.63,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 129758,
+          "escanos": 2,
+          "pctVotos": 16.62,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "41": {
+      "nombre": "Sevilla",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 5
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 387760,
+          "escanos": 5,
+          "pctVotos": 36.99,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 353663,
+          "escanos": 4,
+          "pctVotos": 33.73,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 148745,
+          "escanos": 2,
+          "pctVotos": 14.19,
+          "color": "#E0218A"
+        }
+      ]
+    },
+    "22": {
+      "nombre": "Huesca",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 45783,
+          "escanos": 2,
+          "pctVotos": 38.58,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 40307,
+          "escanos": 1,
+          "pctVotos": 33.96,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 15155,
+          "escanos": 0,
+          "pctVotos": 12.77,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "44": {
+      "nombre": "Teruel",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 26586,
+          "escanos": 2,
+          "pctVotos": 35.21,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 22226,
+          "escanos": 1,
+          "pctVotos": 29.44,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "EXISTE",
+          "nombre": "ARAGÓN EXISTE - COALICIÓN EXISTE",
+          "votos": 11348,
+          "escanos": 0,
+          "pctVotos": 15.03,
+          "color": "#94a3b8"
+        }
+      ]
+    },
+    "50": {
+      "nombre": "Zaragoza",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 186776,
+          "escanos": 3,
+          "pctVotos": 36.34,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 159858,
+          "escanos": 2,
+          "pctVotos": 31.1,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 79376,
+          "escanos": 1,
+          "pctVotos": 15.44,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "33": {
+      "nombre": "Asturias",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 212816,
+          "escanos": 3,
+          "pctVotos": 36.01,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 205049,
+          "escanos": 2,
+          "pctVotos": 34.7,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 88630,
+          "escanos": 1,
+          "pctVotos": 15.0,
+          "color": "#E0218A"
+        }
+      ]
+    },
+    "07": {
+      "nombre": "Illes Balears",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 179303,
+          "escanos": 3,
+          "pctVotos": 35.96,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 151786,
+          "escanos": 3,
+          "pctVotos": 30.44,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 83487,
+          "escanos": 1,
+          "pctVotos": 16.75,
+          "color": "#E0218A"
+        }
+      ]
+    },
+    "35": {
+      "nombre": "Las Palmas",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 175671,
+          "escanos": 3,
+          "pctVotos": 33.38,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 136857,
+          "escanos": 3,
+          "pctVotos": 26.0,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 77343,
+          "escanos": 1,
+          "pctVotos": 14.7,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "38": {
+      "nombre": "Santa Cruz de Tenerife",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 174770,
+          "escanos": 3,
+          "pctVotos": 35.72,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 165590,
+          "escanos": 3,
+          "pctVotos": 33.84,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "CCa",
+          "nombre": "COALICIÓN CANARIA",
+          "votos": 82805,
+          "escanos": 1,
+          "pctVotos": 16.92,
+          "color": "#FFCC00"
+        }
+      ]
+    },
+    "39": {
+      "nombre": "Cantabria",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 147326,
+          "escanos": 2,
+          "pctVotos": 42.47,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 116596,
+          "escanos": 2,
+          "pctVotos": 33.61,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 49243,
+          "escanos": 1,
+          "pctVotos": 14.2,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "02": {
+      "nombre": "Albacete",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 88299,
+          "escanos": 2,
+          "pctVotos": 40.25,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 76322,
+          "escanos": 2,
+          "pctVotos": 34.79,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 36750,
+          "escanos": 0,
+          "pctVotos": 16.75,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "13": {
+      "nombre": "Ciudad Real",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 114709,
+          "escanos": 2,
+          "pctVotos": 40.88,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 100102,
+          "escanos": 2,
+          "pctVotos": 35.67,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 46046,
+          "escanos": 1,
+          "pctVotos": 16.41,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "16": {
+      "nombre": "Cuenca",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 45255,
+          "escanos": 2,
+          "pctVotos": 40.11,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 42528,
+          "escanos": 1,
+          "pctVotos": 37.69,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 17700,
+          "escanos": 0,
+          "pctVotos": 15.69,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "19": {
+      "nombre": "Guadalajara",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 1
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 51195,
+          "escanos": 1,
+          "pctVotos": 36.63,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 46479,
+          "escanos": 1,
+          "pctVotos": 33.25,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 27126,
+          "escanos": 1,
+          "pctVotos": 19.41,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "45": {
+      "nombre": "Toledo",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 146533,
+          "escanos": 3,
+          "pctVotos": 38.1,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 126072,
+          "escanos": 2,
+          "pctVotos": 32.78,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 76044,
+          "escanos": 1,
+          "pctVotos": 19.77,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "05": {
+      "nombre": "Ávila",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 42369,
+          "escanos": 2,
+          "pctVotos": 43.53,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 26828,
+          "escanos": 1,
+          "pctVotos": 27.57,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 15068,
+          "escanos": 0,
+          "pctVotos": 15.48,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "09": {
+      "nombre": "Burgos",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 82329,
+          "escanos": 2,
+          "pctVotos": 41.02,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 69775,
+          "escanos": 2,
+          "pctVotos": 34.76,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 25858,
+          "escanos": 0,
+          "pctVotos": 12.88,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "24": {
+      "nombre": "León",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 101605,
+          "escanos": 2,
+          "pctVotos": 37.13,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 92578,
+          "escanos": 2,
+          "pctVotos": 33.83,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 35451,
+          "escanos": 0,
+          "pctVotos": 12.95,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "34": {
+      "nombre": "Palencia",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 40709,
+          "escanos": 2,
+          "pctVotos": 42.35,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 33613,
+          "escanos": 1,
+          "pctVotos": 34.97,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 12504,
+          "escanos": 0,
+          "pctVotos": 13.01,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "37": {
+      "nombre": "Salamanca",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 93318,
+          "escanos": 3,
+          "pctVotos": 47.26,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 60718,
+          "escanos": 1,
+          "pctVotos": 30.75,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 29203,
+          "escanos": 0,
+          "pctVotos": 14.79,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "40": {
+      "nombre": "Segovia",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 39894,
+          "escanos": 2,
+          "pctVotos": 45.47,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 27113,
+          "escanos": 1,
+          "pctVotos": 30.9,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 12510,
+          "escanos": 0,
+          "pctVotos": 14.26,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "42": {
+      "nombre": "Soria",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 1
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 18895,
+          "escanos": 1,
+          "pctVotos": 37.43,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 14966,
+          "escanos": 1,
+          "pctVotos": 29.65,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SY",
+          "nombre": "SORIA ¡YA!",
+          "votos": 9697,
+          "escanos": 0,
+          "pctVotos": 19.21,
+          "color": "#94a3b8"
+        }
+      ]
+    },
+    "47": {
+      "nombre": "Valladolid",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 129170,
+          "escanos": 2,
+          "pctVotos": 41.15,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 103596,
+          "escanos": 2,
+          "pctVotos": 33.0,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 47948,
+          "escanos": 1,
+          "pctVotos": 15.28,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "49": {
+      "nombre": "Zamora",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 46196,
+          "escanos": 2,
+          "pctVotos": 45.07,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 33601,
+          "escanos": 1,
+          "pctVotos": 32.79,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 13652,
+          "escanos": 0,
+          "pctVotos": 13.32,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "08": {
+      "nombre": "Barcelona",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 13
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 952347,
+          "escanos": 13,
+          "pctVotos": 35.99,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 405993,
+          "escanos": 5,
+          "pctVotos": 15.34,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 367519,
+          "escanos": 5,
+          "pctVotos": 13.89,
+          "color": "#0557A1"
+        }
+      ]
+    },
+    "17": {
+      "nombre": "Girona",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 93448,
+          "escanos": 2,
+          "pctVotos": 29.2,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "votos": 63251,
+          "escanos": 2,
+          "pctVotos": 19.77,
+          "color": "#0B8457"
+        },
+        {
+          "siglas": "ERC",
+          "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+          "votos": 47531,
+          "escanos": 1,
+          "pctVotos": 14.85,
+          "color": "#FFB400"
+        }
+      ]
+    },
+    "25": {
+      "nombre": "Lleida",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 54414,
+          "escanos": 2,
+          "pctVotos": 29.82,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "ERC",
+          "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+          "votos": 34331,
+          "escanos": 1,
+          "pctVotos": 18.81,
+          "color": "#FFB400"
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "votos": 33228,
+          "escanos": 1,
+          "pctVotos": 18.21,
+          "color": "#0B8457"
+        }
+      ]
+    },
+    "43": {
+      "nombre": "Tarragona",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 121126,
+          "escanos": 2,
+          "pctVotos": 33.2,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "ERC",
+          "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+          "votos": 55461,
+          "escanos": 1,
+          "pctVotos": 15.2,
+          "color": "#FFB400"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 51061,
+          "escanos": 1,
+          "pctVotos": 13.99,
+          "color": "#0557A1"
+        }
+      ]
+    },
+    "06": {
+      "nombre": "Badajoz",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 153473,
+          "escanos": 2,
+          "pctVotos": 39.53,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 148068,
+          "escanos": 2,
+          "pctVotos": 38.14,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 53492,
+          "escanos": 1,
+          "pctVotos": 13.78,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "10": {
+      "nombre": "Cáceres",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 91692,
+          "escanos": 2,
+          "pctVotos": 39.16,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 89633,
+          "escanos": 2,
+          "pctVotos": 38.28,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 32076,
+          "escanos": 0,
+          "pctVotos": 13.7,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "15": {
+      "nombre": "A Coruña",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 4
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 292272,
+          "escanos": 4,
+          "pctVotos": 43.46,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 190897,
+          "escanos": 2,
+          "pctVotos": 28.39,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 82618,
+          "escanos": 1,
+          "pctVotos": 12.29,
+          "color": "#E0218A"
+        }
+      ]
+    },
+    "27": {
+      "nombre": "Lugo",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 99769,
+          "escanos": 3,
+          "pctVotos": 50.56,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 60163,
+          "escanos": 1,
+          "pctVotos": 30.49,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "B.N.G.",
+          "nombre": "BLOQUE NACIONALISTA GALEGO",
+          "votos": 17197,
+          "escanos": 0,
+          "pctVotos": 8.72,
+          "color": "#860033"
+        }
+      ]
+    },
+    "32": {
+      "nombre": "Ourense",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 93182,
+          "escanos": 3,
+          "pctVotos": 50.32,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 56035,
+          "escanos": 1,
+          "pctVotos": 30.26,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "B.N.G.",
+          "nombre": "BLOQUE NACIONALISTA GALEGO",
+          "votos": 15317,
+          "escanos": 0,
+          "pctVotos": 8.27,
+          "color": "#860033"
+        }
+      ]
+    },
+    "36": {
+      "nombre": "Pontevedra",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 227658,
+          "escanos": 3,
+          "pctVotos": 39.99,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 179737,
+          "escanos": 3,
+          "pctVotos": 31.57,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 75615,
+          "escanos": 1,
+          "pctVotos": 13.28,
+          "color": "#E0218A"
+        }
+      ]
+    },
+    "28": {
+      "nombre": "Madrid",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 16
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 1463183,
+          "escanos": 16,
+          "pctVotos": 40.87,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 1004599,
+          "escanos": 10,
+          "pctVotos": 28.06,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 557780,
+          "escanos": 6,
+          "pctVotos": 15.58,
+          "color": "#E0218A"
+        }
+      ]
+    },
+    "31": {
+      "nombre": "Navarra",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 93553,
+          "escanos": 2,
+          "pctVotos": 27.6,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "votos": 58954,
+          "escanos": 1,
+          "pctVotos": 17.39,
+          "color": "#A4CE4E"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 57134,
+          "escanos": 1,
+          "pctVotos": 16.86,
+          "color": "#0557A1"
+        }
+      ]
+    },
+    "01": {
+      "nombre": "Araba/Álava",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 1
+      },
+      "top3": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 46775,
+          "escanos": 1,
+          "pctVotos": 27.78,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "votos": 32987,
+          "escanos": 1,
+          "pctVotos": 19.59,
+          "color": "#A4CE4E"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 30212,
+          "escanos": 1,
+          "pctVotos": 17.94,
+          "color": "#0557A1"
+        }
+      ]
+    },
+    "20": {
+      "nombre": "Gipuzkoa",
+      "ganador": {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "votos": 117321,
+          "escanos": 2,
+          "pctVotos": 31.32,
+          "color": "#A4CE4E"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 87709,
+          "escanos": 2,
+          "pctVotos": 23.41,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "votos": 85026,
+          "escanos": 2,
+          "pctVotos": 22.7,
+          "color": "#00843D"
+        }
+      ]
+    },
+    "48": {
+      "nombre": "Bizkaia",
+      "ganador": {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "votos": 164188,
+          "escanos": 2,
+          "pctVotos": 27.08,
+          "color": "#00843D"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 157448,
+          "escanos": 2,
+          "pctVotos": 25.97,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "votos": 125867,
+          "escanos": 2,
+          "pctVotos": 20.76,
+          "color": "#A4CE4E"
+        }
+      ]
+    },
+    "30": {
+      "nombre": "Murcia",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 4
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 307972,
+          "escanos": 4,
+          "pctVotos": 41.46,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 189210,
+          "escanos": 3,
+          "pctVotos": 25.47,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 163124,
+          "escanos": 2,
+          "pctVotos": 21.96,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "26": {
+      "nombre": "La Rioja",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 79715,
+          "escanos": 2,
+          "pctVotos": 46.06,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 62322,
+          "escanos": 2,
+          "pctVotos": 36.01,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 17056,
+          "escanos": 0,
+          "pctVotos": 9.86,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "03": {
+      "nombre": "Alacant/Alicante",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 5
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 330293,
+          "escanos": 5,
+          "pctVotos": 37.0,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 287737,
+          "escanos": 4,
+          "pctVotos": 32.24,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 146133,
+          "escanos": 2,
+          "pctVotos": 16.37,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "12": {
+      "nombre": "Castelló/Castellón",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 108302,
+          "escanos": 2,
+          "pctVotos": 35.48,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 100530,
+          "escanos": 2,
+          "pctVotos": 32.93,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 48913,
+          "escanos": 1,
+          "pctVotos": 16.02,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "46": {
+      "nombre": "València/Valencia",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 6
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 483469,
+          "escanos": 6,
+          "pctVotos": 33.9,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 461353,
+          "escanos": 5,
+          "pctVotos": 32.34,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 242839,
+          "escanos": 3,
+          "pctVotos": 17.03,
+          "color": "#E0218A"
+        }
+      ]
+    },
+    "51": {
+      "nombre": "Ceuta",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 1
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 12918,
+          "escanos": 1,
+          "pctVotos": 39.15,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 11332,
+          "escanos": 0,
+          "pctVotos": 34.35,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 7752,
+          "escanos": 0,
+          "pctVotos": 23.5,
+          "color": "#02C119"
+        }
+      ]
+    },
+    "52": {
+      "nombre": "Melilla",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 1
+      },
+      "top3": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 13446,
+          "escanos": 1,
+          "pctVotos": 49.62,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "votos": 6943,
+          "escanos": 0,
+          "pctVotos": 25.62,
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 4359,
+          "escanos": 0,
+          "pctVotos": 16.09,
+          "color": "#02C119"
+        }
+      ]
+    }
   }
 }

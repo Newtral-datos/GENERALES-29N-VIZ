@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { asset } from '$app/paths';
+	import { getResultados23j, type Provincia } from '#lib/data';
 
 	type Geometry = { type: string; coordinates: unknown };
 	type Feature = { type: 'Feature'; properties: { name: string; cod_prov: string }; geometry: Geometry };
@@ -11,6 +12,7 @@
 	const CANARIAS_CODES = new Set(['35', '38']);
 
 	let allFeatures = $state<Feature[] | null>(null);
+	let provincias = $state<Record<string, Provincia> | null>(null);
 
 	$effect(() => {
 		fetch(asset('data/provincias.geojson'), { cache: 'force-cache' })
@@ -19,6 +21,45 @@
 				allFeatures = d.features;
 			});
 	});
+
+	$effect(() => {
+		getResultados23j().then((d) => {
+			provincias = d.provincias;
+		});
+	});
+
+	function colorFor(codProv: string): string {
+		return provincias?.[codProv]?.ganador.color ?? 'var(--paper)';
+	}
+
+	// Popup con las tres primeras fuerzas de la provincia bajo el cursor.
+	let activeCod = $state<string | null>(null);
+	let popupPos = $state({ x: 0, y: 0 });
+
+	const POPUP_W = 190;
+	const POPUP_H = 150;
+
+	function setPopupPos(x: number, y: number) {
+		popupPos = {
+			x: Math.min(Math.max(x + 12, 8), window.innerWidth - POPUP_W - 8),
+			y: Math.min(Math.max(y + 12, 8), window.innerHeight - POPUP_H - 8)
+		};
+	}
+
+	function onProvinceEnter(e: MouseEvent, codProv: string) {
+		activeCod = codProv;
+		setPopupPos(e.clientX, e.clientY);
+	}
+
+	function onProvinceMove(e: MouseEvent) {
+		setPopupPos(e.clientX, e.clientY);
+	}
+
+	function onProvinceLeave() {
+		activeCod = null;
+	}
+
+	let activeProvincia = $derived(activeCod && provincias ? provincias[activeCod] : null);
 
 	const SIZE = 440;
 	const INSET_W = SIZE * 0.3;
@@ -108,14 +149,25 @@
 	<p class="kicker">Resultados por provincia</p>
 
 	<div class="panel-body">
-		{#if !allFeatures}
+		{#if !allFeatures || !provincias}
 			<p class="loading">Cargando mapa…</p>
 		{:else}
 			<div class="wrap">
 				<svg viewBox="0 0 {mainVp.w} {totalH}" class="mapa">
 					{#each mainFeatures as f (f.properties.cod_prov)}
 						{#each featurePaths(f, mainBounds!, mainVp.w, mainVp.h) as d, i (i)}
-							<path {d} fill="var(--paper)" stroke="var(--border)" stroke-width="0.6" />
+							<path
+								{d}
+								fill={colorFor(f.properties.cod_prov)}
+								stroke="#d8d8d8"
+								stroke-width="0.6"
+								class="prov"
+								role="img"
+								aria-label={f.properties.name}
+								onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
+								onmousemove={onProvinceMove}
+								onmouseleave={onProvinceLeave}
+							/>
 						{/each}
 					{/each}
 
@@ -133,16 +185,47 @@
 						<text x={INSET_X + 3} y={insetY + 10} class="inset-label">Canarias</text>
 						{#each canaryFeatures as f (f.properties.cod_prov)}
 							{#each featurePaths(f, canaryBounds, canaryFit.w, canaryFit.h, canaryOffset.x, canaryOffset.y) as d, i (i)}
-								<path {d} fill="var(--paper)" stroke="var(--border)" stroke-width="0.6" />
+								<path
+									{d}
+									fill={colorFor(f.properties.cod_prov)}
+									stroke="#d8d8d8"
+									stroke-width="0.6"
+									class="prov"
+									role="img"
+									aria-label={f.properties.name}
+									onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
+									onmousemove={onProvinceMove}
+									onmouseleave={onProvinceLeave}
+								/>
 							{/each}
 						{/each}
 					{/if}
 				</svg>
-				<p class="nota">Pendiente de resultados por circunscripción</p>
+				<p class="nota">Partido ganador por circunscripción — 23J — pasa el ratón para ver el detalle</p>
 			</div>
 		{/if}
 	</div>
 </div>
+
+{#if activeProvincia}
+	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
+		<p class="popup-title">{activeProvincia.nombre}</p>
+		<table class="popup-table">
+			<tbody>
+				{#each activeProvincia.top3 as p (p.siglas)}
+					<tr>
+						<td class="popup-party">
+							<span class="swatch" style="background:{p.color}"></span>
+							{p.siglas}
+						</td>
+						<td class="popup-num">{p.escanos}</td>
+						<td class="popup-num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</td>
+					</tr>
+				{/each}
+			</tbody>
+		</table>
+	</div>
+{/if}
 
 <style>
 	.panel {
@@ -188,6 +271,14 @@
 		max-width: 520px;
 	}
 
+	.prov {
+		cursor: pointer;
+	}
+
+	.prov:hover {
+		filter: brightness(0.92);
+	}
+
 	.inset-label {
 		font-family: var(--font-body);
 		font-size: 6px;
@@ -202,5 +293,58 @@
 		font-style: italic;
 		margin: 10px 0 0 0;
 		text-align: center;
+	}
+
+	.popup {
+		position: fixed;
+		z-index: 60;
+		width: 190px;
+		background: var(--paper);
+		border: 1px solid var(--ink);
+		padding: 8px 10px;
+		box-shadow: 2px 2px 0 rgba(10, 14, 20, 0.15);
+	}
+
+	.popup-title {
+		font-family: var(--font-display);
+		font-size: 11px;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: var(--ink);
+		margin: 0 0 6px 0;
+		padding-bottom: 4px;
+		border-bottom: 1px solid var(--border);
+	}
+
+	.popup-table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.popup-table td {
+		padding: 2px 0;
+		font-size: 11px;
+	}
+
+	.popup-party {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		font-family: var(--font-body);
+		color: var(--ink);
+	}
+
+	.swatch {
+		width: 7px;
+		height: 7px;
+		flex-shrink: 0;
+	}
+
+	.popup-num {
+		text-align: right;
+		font-family: var(--font-mono);
+		color: var(--grey);
+		font-variant-numeric: tabular-nums;
 	}
 </style>

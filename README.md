@@ -1,73 +1,86 @@
 # elecciones-panel
 
-Proyecto de visualización de los resultados de las elecciones generales del 29 de noviembre.
+Panel de visualización de resultados de las Elecciones Generales del 29 de noviembre (Congreso de los Diputados y Senado). SvelteKit + TypeScript, desplegado como sitio estático en GitHub Pages.
+
+> Normas de marca y convenciones compartidas con el resto de paneles de Newtral: ver `AGENTS.md` en la raíz de `ELECCIONES/`. Este README solo cubre lo específico de este proyecto.
 
 ## Arrancar
 
 ```bash
 npm install
 npm run dev       # servidor de desarrollo
-npm run build     # build de producción
+npm run build     # build de producción (adapter-static → carpeta build/)
 npm run preview   # sirve el build de producción
 npm run check     # comprueba tipos con svelte-check
+npm run deploy    # build + publica build/ en la rama gh-pages
 ```
 
-SvelteKit con TypeScript y `adapter-static`, desplegado en GitHub Pages.
+## Estado actual
 
-No procesa datos: solo lee los JSON publicados por el repositorio `elecciones-datos`, que vive aparte para que quien trabaje con los datos no necesite Node ni acceso al panel, y para que actualizar resultados no obligue a volver a desplegar la web.
+Toda la vista de **Congreso** está construida con los resultados de las Generales del 23 de julio de 2023 como datos de referencia (no son los del 29N — todavía no existen). Está marcado como tal en el propio código (`// TODO` + "datos simulados"/"23J" en la UI) para que no se confunda con un resultado real. La vista de **Senado** es un marcador de posición: se construirá cuando empiecen a llegar simulacros de datos de esa cámara.
+
+## Estructura real
 
 ```
 elecciones-panel/
 ├── src/
+│   ├── app.css                      # tokens de diseño (color, tipografía, bordes) + estilos base
+│   ├── app.html / app.d.ts
 │   ├── lib/
-│   │   ├── components/
-│   │   │   ├── charts/
-│   │   │   ├── ui/
-│   │   │   └── layout/
-│   │   ├── services/
-│   │   ├── utils/
-│   │   ├── stores/
-│   │   ├── actions/
-│   │   ├── config/
-│   │   ├── types/
-│   │   └── styles/
+│   │   ├── data.ts                  # fetch + caché en memoria de static/data/resultados23j.json, tipos
+│   │   ├── assets/favicon.svg
+│   │   └── components/              # un componente = un archivo, sin subcarpetas por tipo
+│   │       ├── EscrutinioHeader.svelte   # cabecera fija: % escrutado simulado, animado
+│   │       ├── ChamberTabs.svelte        # pestañas Congreso / Senado (navegación real, no estado)
+│   │       ├── CongresoView.svelte       # vista de la ruta "/": barra + grid (tabla/hemiciclo/mapa)
+│   │       ├── SenadoView.svelte         # vista de la ruta "/senado": marcador de posición
+│   │       ├── BarraEscanos.svelte       # barra apilada horizontal de escaños
+│   │       ├── Hemiciclo.svelte          # hemiciclo SVG (anillo actual + anillo "anterior" simulado)
+│   │       ├── TablaPartidos.svelte      # tabla de resultados por partido
+│   │       └── MapaProvincias.svelte     # mapa coroplético por provincia + popup hover
 │   └── routes/
-│       └── [slug]/
+│       ├── +layout.svelte           # monta EscrutinioHeader + ChamberTabs + la vista de cada ruta
+│       ├── +layout.ts               # export const prerender = true (requisito de adapter-static)
+│       ├── +page.svelte             # ruta "/" → Congreso
+│       └── senado/+page.svelte      # ruta "/senado" → Senado
 ├── static/
-└── svelte.config.js
+│   ├── .nojekyll                    # ver nota de despliegue más abajo
+│   ├── robots.txt
+│   └── data/
+│       ├── resultados23j.json       # resultados nacionales + por circunscripción (23J, histórico)
+│       └── provincias.geojson       # geometría de las 52 provincias, simplificada con mapshaper (~75KB)
+├── vite.config.ts                   # sveltekit() con adapter-static + paths.base condicional
+└── package.json
 ```
 
-### src/routes/
+No hay carpetas `charts/`, `ui/`, `layout/`, `services/`, `stores/`, `actions/`, `config/`, `types/` ni `styles/` — con ocho componentes y un único módulo de datos, esa subdivisión sería prematura (ver "no crear abstracciones hasta que haga falta" en `AGENTS.md`). Si el panel crece mucho, se revisa entonces.
 
-Cada carpeta es una URL. `[slug]` es la ruta dinámica: cada convocatoria o vista tiene su propia página, que se puede embeber por separado. Aquí solo van las páginas y la carga de sus datos.
+## Rutas
 
-### src/lib/
+| Ruta | Vista | Contenido |
+|---|---|---|
+| `/` | `CongresoView.svelte` | Barra de escaños + tabla de partidos + hemiciclo + mapa de provincias |
+| `/senado` | `SenadoView.svelte` | Marcador de posición, sin datos todavía |
 
-Todo lo reutilizable. Se importa con el alias `$lib`.
+`EscrutinioHeader` y `ChamberTabs` viven en `+layout.svelte`, así que son compartidos entre ambas rutas y no se remontan al navegar.
 
-- `components/`: componentes Svelte. `charts/` para gráficos (hemiciclo, barras, mapa), `ui/` para piezas de interfaz (tooltip, selector, leyenda) y `layout/` para cabecera, fuentes y notas.
-- `services/`: las peticiones a los JSON de `elecciones-datos`. Va aparte de `utils` porque depende de la red y puede fallar.
-- `utils/`: funciones puras: formato de números y porcentajes, escalas, cálculo de variaciones.
-- `stores/`: estado compartido entre componentes, como el territorio seleccionado.
-- `actions/`: funciones que se aplican a elementos con `use:` (detectar cuándo un gráfico entra en pantalla, clics fuera de un tooltip).
-- `config/`: valores fijos del panel, como la URL base de los datos o los breakpoints.
-- `types/`: tipos de TypeScript (resultado, partido, circunscripción).
-- `styles/`: CSS compartido y variables.
+## Datos
 
-### static/
+- Fuente original: `GENERALES_29N/data-23j/PROV_02_202307_1.xlsx` (resultados oficiales del 23J, fuera de este proyecto).
+- `static/data/resultados23j.json` se generó con un script Python puntual (no versionado todavía — ver más abajo) a partir de ese Excel: totales nacionales por partido, comparativa "anterior" inventada para el anillo interior del hemiciclo, y resultados por provincia (ganador + top 3 por votos) para el mapa.
+- `static/data/provincias.geojson`: geometría de las 52 provincias (incluye Ceuta y Melilla), descargada de una fuente pública y simplificada con `mapshaper` (`-simplify 10% keep-shapes`) para quedarse en ~75KB en vez del ~1.3MB original.
+- `src/lib/data.ts` centraliza el `fetch` de `resultados23j.json` con caché en memoria; todos los componentes que necesitan datos nacionales/por partido pasan por ahí. `MapaProvincias.svelte` hace su propio `fetch` del `.geojson` porque es el único componente que lo usa.
+- **Pendiente, a propósito:** el script que generó `resultados23j.json` desde el Excel no está guardado en el repo todavía — estamos en fase de pruebas con datos del 23J como referencia. Cuando empiecen a llegar simulacros reales del 29N se construirá un pipeline versionado (similar al de `ANDALUCIA_2026/scripts/`), probablemente en `GENERALES_29N/elecciones-datos/` (hoy solo un scaffold vacío).
+- Cruce de resultados con geometría: siempre por `cod_prov` (código INE de dos dígitos), nunca por nombre — ver detalle en `AGENTS.md`.
 
-Archivos que se sirven tal cual: favicon, imágenes, fuentes.
+## Despliegue
 
----
+GitHub Pages, repo `Newtral-datos/GENERALES-29N-VIZ`: https://newtral-datos.github.io/GENERALES-29N-VIZ/
 
-## Cómo se conecta con los datos
+`npm run deploy` ejecuta `predeploy` (`npm run build`) y publica `build/` en la rama `gh-pages` con `gh-pages -d build --nojekyll`. El flag `--nojekyll` es imprescindible: sin él, GitHub Pages aplica Jekyll y descarta la carpeta `_app/` (empieza por `_`), dejando toda la web sin JS ni CSS. No basta con tener `static/.nojekyll` porque `gh-pages` excluye los dotfiles del *build* por defecto al copiarlos — el flag crea el archivo directamente en la rama publicada.
 
-1. `elecciones-datos` ejecuta su pipeline y deja los JSON en su carpeta `public/`.
-2. Esa carpeta se publica en GitHub Pages.
-3. `elecciones-panel` descarga los JSON desde esa URL al cargar la página.
-
-Los colores de los partidos viven en `elecciones-datos/config/` y se publican junto a los resultados, para que haya una sola versión.
+`vite.config.ts` fija `paths.base` a `/GENERALES-29N-VIZ` solo cuando `command === 'build'` (en `vite dev` se queda vacío), para que el sitio funcione bajo esa subruta de Pages.
 
 ## Credenciales
 
-El panel es una web estática y todo lo que contiene es público, así que no debe llevar ninguna clave. Las credenciales solo se usan en `elecciones-datos`.
+Panel estático, público. No debe llevar ninguna clave ni token.

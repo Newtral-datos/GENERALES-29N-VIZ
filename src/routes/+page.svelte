@@ -1,9 +1,9 @@
 <script lang="ts">
-	import App from '#lib/App.svelte';
+	import CongresoView from '#lib/components/CongresoView.svelte';
 </script>
 
 <svelte:head>
-	<title>Generales 29N — Panel de visualizaciones</title>
+	<title>Generales 29N — Congreso</title>
 </svelte:head>
 
-<App />
+<CongresoView />
