@@ -33,42 +33,43 @@
 			{/each}
 		</div>
 		<div class="maj-marker" style="left:{mayoriaPct}%">
+			<span class="maj-text">Mayoría<br /><b>{nacional.mayoria}</b></span>
 			<span class="maj-line"></span>
-			<span class="maj-text">Mayoría — {nacional.mayoria}</span>
 		</div>
 	</div>
 
-	<div class="legend">
+	<ul class="legend">
 		{#each nacional.partidos as p (p.siglas)}
-			<div class="chip">
-				<span class="dot" style="background:{p.color}"></span>
-				<span class="chip-name">{p.siglas}</span>
-				<span class="chip-value">{p.escanos}</span>
-			</div>
+			<li class="entry">
+				<span class="swatch" style="background:{p.color}"></span>
+				<span class="entry-name">{p.siglas}</span>
+				<span class="entry-value">{p.escanos}</span>
+			</li>
 		{/each}
-	</div>
+	</ul>
 {/if}
 
 <style>
 	.loading {
 		font-size: 12px;
 		color: var(--grey);
-		font-family: 'Instrument Sans', system-ui;
+		font-family: var(--font-body);
 		padding: 16px 0;
 		text-align: center;
 	}
 
 	.barra-wrap {
 		position: relative;
-		padding-top: 22px;
+		padding-top: 24px;
 	}
 
 	.barra {
 		display: flex;
 		width: 100%;
-		height: 36px;
+		height: 34px;
 		overflow: hidden;
-		border-radius: 0;
+		border-top: 1px solid var(--border);
+		border-bottom: 1px solid var(--border);
 	}
 
 	.seg {
@@ -76,7 +77,7 @@
 		align-items: center;
 		justify-content: center;
 		height: 100%;
-		border-right: 1.5px solid rgba(255, 255, 255, 0.6);
+		border-right: 1px solid var(--border);
 	}
 	.seg:last-child {
 		border-right: none;
@@ -84,9 +85,10 @@
 
 	.seg-label {
 		color: #fff;
+		font-family: var(--font-mono);
 		font-size: 12px;
 		font-weight: 700;
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-variant-numeric: tabular-nums;
 	}
 
 	.maj-marker {
@@ -98,65 +100,62 @@
 		align-items: center;
 	}
 
-	.maj-line {
-		width: 2px;
-		height: 36px;
-		margin-top: 22px;
-		background: repeating-linear-gradient(
-			to bottom,
-			#0d1117 0,
-			#0d1117 4px,
-			transparent 4px,
-			transparent 7px
-		);
+	.maj-text {
+		white-space: nowrap;
+		font-family: var(--font-body);
+		font-size: 9px;
+		font-weight: 600;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: var(--ink);
+		text-align: center;
+		line-height: 1.3;
 	}
 
-	.maj-text {
-		position: absolute;
-		top: 0;
-		white-space: nowrap;
-		font-size: 10px;
-		font-weight: 600;
-		letter-spacing: 0.04em;
-		color: var(--ink);
-		font-family: 'Instrument Sans', system-ui;
+	.maj-text b {
+		font-family: var(--font-mono);
+		font-size: 11px;
+	}
+
+	.maj-line {
+		width: 1px;
+		height: 34px;
+		background: var(--ink);
 	}
 
 	.legend {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
-		gap: 6px;
-		margin-top: 16px;
+		gap: 4px 18px;
+		margin: 14px 0 0 0;
+		padding: 0;
+		list-style: none;
 	}
 
-	.chip {
+	.entry {
 		display: flex;
-		align-items: center;
-		gap: 5px;
-		padding: 3px 8px;
-		border-radius: 5px;
-		border: 1px solid #f3f4f6;
-		background: #f8fafc;
+		align-items: baseline;
+		gap: 6px;
 	}
 
-	.dot {
-		width: 8px;
-		height: 8px;
-		border-radius: 50%;
+	.swatch {
+		width: 7px;
+		height: 7px;
 		flex-shrink: 0;
+		transform: translateY(1px);
 	}
 
-	.chip-name {
+	.entry-name {
+		font-family: var(--font-body);
 		font-size: 11px;
-		color: #6b7280;
-		font-family: 'Instrument Sans', system-ui;
+		color: var(--grey);
 	}
 
-	.chip-value {
+	.entry-value {
+		font-family: var(--font-mono);
 		font-size: 11px;
 		font-weight: 700;
 		color: var(--ink);
-		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-variant-numeric: tabular-nums;
 	}
 </style>

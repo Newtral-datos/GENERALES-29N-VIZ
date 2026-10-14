@@ -1,8 +1,17 @@
 :root {
 	--c: #01f3b3;
 	--cd: #00b38a;
-	--ink: #0d1117;
-	--grey: #9ca3af;
+	--ink: #0a0e14;
+	--paper: #ffffff;
+	--rule: #d9dcdf;
+	--border: rgba(73, 73, 73, 0.8);
+	--grey: #6b7280;
+	--stamp: #d7263d;
+	--header-bg: #494949;
+	--font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-mono:
+		ui-monospace, 'SF Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
 }
 
 html,
@@ -16,8 +25,8 @@ html {
 }
 
 body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	background: #f8fafc;
+	font-family: var(--font-body);
+	background: var(--paper);
 	color: var(--ink);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -34,36 +43,14 @@ body {
 	height: 6px;
 }
 ::-webkit-scrollbar-track {
-	background: #f1f5f9;
+	background: #f1f1ee;
 }
 ::-webkit-scrollbar-thumb {
-	background: #e2e8f0;
-	border-radius: 99px;
+	background: #cfd2d6;
+	border-radius: 0;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #cbd5e1;
-}
-
-@keyframes pulse-live {
-	0%,
-	100% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0.3;
-	}
-}
-.pulse-live {
-	animation: pulse-live 2s ease-in-out infinite;
-}
-
-@keyframes shimmer {
-	0% {
-		transform: translateX(-200%);
-	}
-	100% {
-		transform: translateX(200%);
-	}
+	background: #b7bbc0;
 }
 
 svg {
