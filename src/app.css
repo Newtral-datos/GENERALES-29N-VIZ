@@ -1,0 +1,71 @@
+:root {
+	--c: #01f3b3;
+	--cd: #00b38a;
+	--ink: #0d1117;
+	--grey: #9ca3af;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: #f8fafc;
+	color: var(--ink);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+::selection {
+	background-color: var(--c);
+	color: var(--ink);
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+	background: #e2e8f0;
+	border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #cbd5e1;
+}
+
+@keyframes pulse-live {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.3;
+	}
+}
+.pulse-live {
+	animation: pulse-live 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+	0% {
+		transform: translateX(-200%);
+	}
+	100% {
+		transform: translateX(200%);
+	}
+}
+
+svg {
+	overflow: visible;
+}
