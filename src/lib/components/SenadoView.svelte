@@ -1,7 +1,21 @@
+<script lang="ts">
+	import BarraSenado from '#lib/components/BarraSenado.svelte';
+	import TablaSenado from '#lib/components/TablaSenado.svelte';
+	import MapaSenado from '#lib/components/MapaSenado.svelte';
+</script>
+
 <main class="main">
-	<div class="placeholder">
-		<p class="kicker">Senado</p>
-		<p class="note">Pendiente — se construirá cuando empiecen a llegar datos del Senado.</p>
+	<div class="barra-section">
+		<BarraSenado />
+	</div>
+
+	<div class="grid">
+		<div class="col-tabla">
+			<TablaSenado />
+		</div>
+		<div class="col-mapa">
+			<MapaSenado />
+		</div>
 	</div>
 </main>
 
@@ -10,32 +24,33 @@
 		padding: 32px 24px;
 	}
 
-	.placeholder {
-		padding: 60px 0;
-		text-align: center;
+	.barra-section {
+		margin-bottom: 32px;
 	}
 
-	.kicker {
-		font-family: var(--font-display);
-		font-size: 11px;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink);
-		margin: 0 0 10px 0;
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 32px;
+		min-width: 0;
 	}
 
-	.note {
-		font-size: 12px;
-		color: var(--grey);
-		font-family: var(--font-body);
-		font-style: italic;
-		margin: 0;
+	.col-tabla,
+	.col-mapa {
+		min-width: 0;
 	}
 
 	@media (max-width: 640px) {
 		.main {
 			padding: 16px;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.grid {
+			grid-template-columns: 1fr 1.3fr;
+			gap: 32px;
+			align-items: stretch;
 		}
 	}
 </style>

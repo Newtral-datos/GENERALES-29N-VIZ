@@ -60,7 +60,8 @@ No hay carpetas `charts/`, `ui/`, `layout/`, `services/`, `stores/`, `actions/`,
 | Ruta | Vista | Contenido |
 |---|---|---|
 | `/` | `CongresoView.svelte` | Barra de escaños + tabla de partidos + hemiciclo + mapa de provincias |
-| `/senado` | `SenadoView.svelte` | Marcador de posición, sin datos todavía |
+| `/senado` | `SenadoView.svelte` | Barra de escaños + tabla de partidos + mapa por provincia |
+| `/pactos` | `PactosView.svelte` | Simulador de pactos (coalición PP/PSOE + aliados) |
 
 `EscrutinioHeader` y `ChamberTabs` viven en `+layout.svelte`, así que son compartidos entre ambas rutas y no se remontan al navegar.
 
@@ -69,8 +70,9 @@ No hay carpetas `charts/`, `ui/`, `layout/`, `services/`, `stores/`, `actions/`,
 - Fuente original: `GENERALES_29N/data-23j/PROV_02_202307_1.xlsx` (resultados oficiales del 23J, fuera de este proyecto).
 - `static/data/resultados23j.json` se generó con un script Python puntual (no versionado todavía — ver más abajo) a partir de ese Excel: totales nacionales por partido, comparativa "anterior" inventada para el anillo interior del hemiciclo, y resultados por provincia (ganador + top 3 por votos) para el mapa.
 - `static/data/provincias.geojson`: geometría de las 52 provincias (incluye Ceuta y Melilla), descargada de una fuente pública y simplificada con `mapshaper` (`-simplify 10% keep-shapes`) para quedarse en ~75KB en vez del ~1.3MB original.
-- `src/lib/data.ts` centraliza el `fetch` de `resultados23j.json` con caché en memoria; todos los componentes que necesitan datos nacionales/por partido pasan por ahí. `MapaProvincias.svelte` hace su propio `fetch` del `.geojson` porque es el único componente que lo usa.
-- **Pendiente, a propósito:** el script que generó `resultados23j.json` desde el Excel no está guardado en el repo todavía — estamos en fase de pruebas con datos del 23J como referencia. Cuando empiecen a llegar simulacros reales del 29N se construirá un pipeline versionado (similar al de `ANDALUCIA_2026/scripts/`), probablemente en `GENERALES_29N/elecciones-datos/` (hoy solo un scaffold vacío).
+- `src/lib/data.ts` centraliza el `fetch` de `resultados23j.json` (`getResultados23j()`) con caché en memoria; todos los componentes que necesitan datos nacionales/por partido pasan por ahí — **incluido el simulador de pactos** (`SimuladorPactos.svelte`). No tiene ni debe tener su propio JSON ni datos aparte: lee `nacional.partidos`, `nacional.mayoria` y `nacional.totalEscanos` del mismo objeto que ya consumen `BarraEscanos`, `Hemiciclo` y `TablaPartidos`. `MapaProvincias.svelte` hace su propio `fetch` del `.geojson` porque es el único componente que lo usa, pero los escaños salen siempre de `resultados23j.json`.
+- **Importante de cara al futuro pipeline real:** cuando se sustituya el script puntual de Python por uno versionado (ver `elecciones-datos/pipeline/procesado/`), debe seguir escribiendo a este mismo `resultados23j.json` con esta misma forma. No crear un JSON o un endpoint separado para el simulador — si el pipeline cambia el formato de `nacional`, hay que actualizar `src/lib/data.ts` (tipo `Nacional`/`Partido`) una sola vez y los tres consumidores (hemiciclo, barra y simulador) se actualizan solos.
+- **Pendiente, a propósito:** el script que generó `resultados23j.json` desde el Excel no está guardado en el repo todavía — estamos en fase de pruebas con datos del 23J como referencia. Cuando empiecen a llegar simulacros reales del 29N se construirá un pipeline versionado (similar al de `ANDALUCIA_2026/scripts/`), probablemente en `GENERALES_29N/elecciones-datos/` (hoy solo un scaffold vacío, salvo `pipeline/procesado/senado_23j.py` que ya genera `resultadosSenado23j.json` del mismo modo).
 - Cruce de resultados con geometría: siempre por `cod_prov` (código INE de dos dígitos), nunca por nombre — ver detalle en `AGENTS.md`.
 
 ## Despliegue

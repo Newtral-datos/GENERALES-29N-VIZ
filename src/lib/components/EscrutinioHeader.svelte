@@ -20,8 +20,6 @@
 <header class="ticker">
 	<div class="masthead">
 		<span class="wordmark">Generales 29N</span>
-		<span class="wordmark-sep"></span>
-		<span class="wordmark-sub">Congreso de los Diputados</span>
 	</div>
 
 	<div class="row">
@@ -69,20 +67,6 @@
 		font-weight: 800;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
-	}
-
-	.wordmark-sep {
-		width: 14px;
-		height: 1px;
-		background: rgba(255, 255, 255, 0.3);
-	}
-
-	.wordmark-sub {
-		font-family: var(--font-body);
-		font-size: 11px;
-		font-weight: 400;
-		color: rgba(255, 255, 255, 0.55);
-		font-style: italic;
 	}
 
 	.row {
@@ -174,10 +158,6 @@
 	@media (max-width: 640px) {
 		.masthead {
 			padding: 10px 16px 0;
-		}
-
-		.wordmark-sub {
-			display: none;
 		}
 
 		.row {

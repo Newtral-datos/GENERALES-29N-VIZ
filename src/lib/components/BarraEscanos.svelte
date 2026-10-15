@@ -17,6 +17,35 @@
 	});
 
 	let mayoriaPct = $derived(nacional ? (nacional.mayoria / nacional.totalEscanos) * 100 : 0);
+
+	let activeSiglas = $state<string | null>(null);
+	let popupPos = $state({ x: 0, y: 0 });
+
+	const POPUP_W = 140;
+
+	function setPopupPos(x: number, y: number) {
+		popupPos = {
+			x: Math.min(Math.max(x + 12, 8), window.innerWidth - POPUP_W - 8),
+			y: y + 16
+		};
+	}
+
+	function onSegEnter(e: MouseEvent, siglas: string) {
+		activeSiglas = siglas;
+		setPopupPos(e.clientX, e.clientY);
+	}
+
+	function onSegMove(e: MouseEvent) {
+		setPopupPos(e.clientX, e.clientY);
+	}
+
+	function onSegLeave() {
+		activeSiglas = null;
+	}
+
+	let activePartido = $derived(
+		activeSiglas ? (segments.find((s) => s.siglas === activeSiglas) ?? null) : null
+	);
 </script>
 
 {#if !nacional}
@@ -25,7 +54,15 @@
 	<div class="barra-wrap">
 		<div class="barra">
 			{#each segments as s (s.siglas)}
-				<div class="seg" style="width:{s.pct}%; background:{s.color}" title="{s.siglas}: {s.escanos}">
+				<div
+					class="seg"
+					style="width:{s.pct}%; background:{s.color}"
+					role="img"
+					aria-label="{s.nombre}: {s.escanos} escaños"
+					onmouseenter={(e) => onSegEnter(e, s.siglas)}
+					onmousemove={onSegMove}
+					onmouseleave={onSegLeave}
+				>
 					{#if s.pct >= 4}
 						<span class="seg-label">{s.escanos}</span>
 					{/if}
@@ -37,16 +74,13 @@
 			<span class="maj-line"></span>
 		</div>
 	</div>
+{/if}
 
-	<ul class="legend">
-		{#each nacional.partidos as p (p.siglas)}
-			<li class="entry">
-				<span class="swatch" style="background:{p.color}"></span>
-				<span class="entry-name">{p.siglas}</span>
-				<span class="entry-value">{p.escanos}</span>
-			</li>
-		{/each}
-	</ul>
+{#if activePartido}
+	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
+		<span class="popup-swatch" style="background:{activePartido.color}"></span>
+		<span class="popup-name">{activePartido.nombre}</span>
+	</div>
 {/if}
 
 <style>
@@ -60,7 +94,7 @@
 
 	.barra-wrap {
 		position: relative;
-		padding-top: 24px;
+		padding-top: 30px;
 	}
 
 	.barra {
@@ -78,6 +112,7 @@
 		justify-content: center;
 		height: 100%;
 		border-right: 1px solid var(--border);
+		cursor: pointer;
 	}
 	.seg:last-child {
 		border-right: none;
@@ -109,7 +144,8 @@
 		text-transform: uppercase;
 		color: var(--ink);
 		text-align: center;
-		line-height: 1.3;
+		line-height: 1.1;
+		margin-bottom: 8px;
 	}
 
 	.maj-text b {
@@ -123,39 +159,30 @@
 		background: var(--ink);
 	}
 
-	.legend {
+	.popup {
+		position: fixed;
+		z-index: 60;
 		display: flex;
-		flex-wrap: wrap;
-		gap: 4px 18px;
-		margin: 14px 0 0 0;
-		padding: 0;
-		list-style: none;
-	}
-
-	.entry {
-		display: flex;
-		align-items: baseline;
+		align-items: center;
 		gap: 6px;
+		background: var(--paper);
+		border: 1px solid var(--ink);
+		padding: 6px 10px;
+		box-shadow: 2px 2px 0 rgba(10, 14, 20, 0.15);
+		pointer-events: none;
 	}
 
-	.swatch {
+	.popup-swatch {
 		width: 7px;
 		height: 7px;
 		flex-shrink: 0;
-		transform: translateY(1px);
 	}
 
-	.entry-name {
+	.popup-name {
 		font-family: var(--font-body);
 		font-size: 11px;
-		color: var(--grey);
-	}
-
-	.entry-value {
-		font-family: var(--font-mono);
-		font-size: 11px;
-		font-weight: 700;
+		font-weight: 600;
 		color: var(--ink);
-		font-variant-numeric: tabular-nums;
+		white-space: nowrap;
 	}
 </style>

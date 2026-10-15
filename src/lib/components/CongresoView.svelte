@@ -3,6 +3,7 @@
 	import Hemiciclo from '#lib/components/Hemiciclo.svelte';
 	import TablaPartidos from '#lib/components/TablaPartidos.svelte';
 	import MapaProvincias from '#lib/components/MapaProvincias.svelte';
+	import SimuladorTeaser from '#lib/components/SimuladorTeaser.svelte';
 </script>
 
 <main class="main">
@@ -22,6 +23,8 @@
 		</div>
 	</div>
 </main>
+
+<SimuladorTeaser />
 
 <style>
 	.main {
