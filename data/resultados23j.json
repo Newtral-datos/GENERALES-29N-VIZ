@@ -141,7 +141,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -165,8 +165,37 @@
           "escanos": 1,
           "pctVotos": 21.45,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 21485,
+          "escanos": 0,
+          "pctVotos": 6.74,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1962,
+          "escanos": 0,
+          "pctVotos": 0.62,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "ALM",
+          "nombre": "ALMERIENSES - REGIONALISTAS PRO ALMERÍA",
+          "votos": 874,
+          "escanos": 0,
+          "pctVotos": 0.27,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1287,
+        "pctVotos": 0.4,
+        "numCandidaturas": 4
+      }
     },
     "11": {
       "nombre": "Cádiz",
@@ -175,7 +204,7 @@
         "color": "#0557A1",
         "escanos": 4
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -199,8 +228,37 @@
           "escanos": 1,
           "pctVotos": 15.35,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 82115,
+          "escanos": 1,
+          "pctVotos": 13.03,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "ADELANTE ANDALUCÍA",
+          "nombre": "ADELANTE ANDALUCÍA",
+          "votos": 9191,
+          "escanos": 0,
+          "pctVotos": 1.46,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 5937,
+          "escanos": 0,
+          "pctVotos": 0.94,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 3129,
+        "pctVotos": 0.5,
+        "numCandidaturas": 4
+      }
     },
     "14": {
       "nombre": "Córdoba",
@@ -209,7 +267,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -233,8 +291,37 @@
           "escanos": 1,
           "pctVotos": 14.07,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 61594,
+          "escanos": 1,
+          "pctVotos": 13.86,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 2699,
+          "escanos": 0,
+          "pctVotos": 0.61,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+          "votos": 942,
+          "escanos": 0,
+          "pctVotos": 0.21,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 2437,
+        "pctVotos": 0.55,
+        "numCandidaturas": 4
+      }
     },
     "18": {
       "nombre": "Granada",
@@ -243,7 +330,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -267,8 +354,37 @@
           "escanos": 1,
           "pctVotos": 16.26,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 58567,
+          "escanos": 1,
+          "pctVotos": 11.74,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 3143,
+          "escanos": 0,
+          "pctVotos": 0.63,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "JxG",
+          "nombre": "JUNTOS POR GRANADA",
+          "votos": 1218,
+          "escanos": 0,
+          "pctVotos": 0.24,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 2922,
+        "pctVotos": 0.59,
+        "numCandidaturas": 5
+      }
     },
     "21": {
       "nombre": "Huelva",
@@ -277,7 +393,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -301,8 +417,37 @@
           "escanos": 1,
           "pctVotos": 14.77,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 26752,
+          "escanos": 0,
+          "pctVotos": 10.52,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "XH",
+          "nombre": "POR HUELVA",
+          "votos": 1931,
+          "escanos": 0,
+          "pctVotos": 0.76,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1663,
+          "escanos": 0,
+          "pctVotos": 0.65,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 585,
+        "pctVotos": 0.23,
+        "numCandidaturas": 2
+      }
     },
     "23": {
       "nombre": "Jaén",
@@ -311,7 +456,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -335,8 +480,37 @@
           "escanos": 1,
           "pctVotos": 14.85,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 29461,
+          "escanos": 0,
+          "pctVotos": 8.04,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "JM+",
+          "nombre": "JAÉN MERECE MÁS",
+          "votos": 8293,
+          "escanos": 0,
+          "pctVotos": 2.26,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1671,
+          "escanos": 0,
+          "pctVotos": 0.46,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 973,
+        "pctVotos": 0.27,
+        "numCandidaturas": 3
+      }
     },
     "29": {
       "nombre": "Málaga",
@@ -345,7 +519,7 @@
         "color": "#0557A1",
         "escanos": 5
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -369,8 +543,37 @@
           "escanos": 2,
           "pctVotos": 16.62,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 96652,
+          "escanos": 1,
+          "pctVotos": 12.38,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 8487,
+          "escanos": 0,
+          "pctVotos": 1.09,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 1662,
+          "escanos": 0,
+          "pctVotos": 0.21,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 3098,
+        "pctVotos": 0.4,
+        "numCandidaturas": 3
+      }
     },
     "41": {
       "nombre": "Sevilla",
@@ -379,7 +582,7 @@
         "color": "#E10819",
         "escanos": 5
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -403,8 +606,37 @@
           "escanos": 2,
           "pctVotos": 14.19,
           "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 141087,
+          "escanos": 1,
+          "pctVotos": 13.46,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 9288,
+          "escanos": 0,
+          "pctVotos": 0.89,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 1950,
+          "escanos": 0,
+          "pctVotos": 0.19,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 5914,
+        "pctVotos": 0.56,
+        "numCandidaturas": 5
+      }
     },
     "22": {
       "nombre": "Huesca",
@@ -413,7 +645,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -437,8 +669,37 @@
           "escanos": 0,
           "pctVotos": 12.77,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 13774,
+          "escanos": 0,
+          "pctVotos": 11.61,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "EXISTE",
+          "nombre": "ARAGÓN EXISTE - COALICIÓN EXISTE",
+          "votos": 1312,
+          "escanos": 0,
+          "pctVotos": 1.11,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PAR",
+          "nombre": "PARTIDO ARAGONÉS",
+          "votos": 717,
+          "escanos": 0,
+          "pctVotos": 0.6,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1630,
+        "pctVotos": 1.37,
+        "numCandidaturas": 7
+      }
     },
     "44": {
       "nombre": "Teruel",
@@ -447,7 +708,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -470,9 +731,38 @@
           "votos": 11348,
           "escanos": 0,
           "pctVotos": 15.03,
-          "color": "#94a3b8"
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 9932,
+          "escanos": 0,
+          "pctVotos": 13.15,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 4126,
+          "escanos": 0,
+          "pctVotos": 5.46,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PAR",
+          "nombre": "PARTIDO ARAGONÉS",
+          "votos": 711,
+          "escanos": 0,
+          "pctVotos": 0.94,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 574,
+        "pctVotos": 0.76,
+        "numCandidaturas": 7
+      }
     },
     "50": {
       "nombre": "Zaragoza",
@@ -481,7 +771,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -505,8 +795,37 @@
           "escanos": 1,
           "pctVotos": 15.44,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 69925,
+          "escanos": 1,
+          "pctVotos": 13.6,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "EXISTE",
+          "nombre": "ARAGÓN EXISTE - COALICIÓN EXISTE",
+          "votos": 7780,
+          "escanos": 0,
+          "pctVotos": 1.51,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PAR",
+          "nombre": "PARTIDO ARAGONÉS",
+          "votos": 2745,
+          "escanos": 0,
+          "pctVotos": 0.53,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 7552,
+        "pctVotos": 1.47,
+        "numCandidaturas": 8
+      }
     },
     "33": {
       "nombre": "Asturias",
@@ -515,7 +834,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -539,8 +858,37 @@
           "escanos": 1,
           "pctVotos": 15.0,
           "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 74571,
+          "escanos": 1,
+          "pctVotos": 12.62,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 3167,
+          "escanos": 0,
+          "pctVotos": 0.54,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "ASTURIAS EXISTE EV",
+          "nombre": "ASTURIAS EXISTE-ESPAÑA VACIADA",
+          "votos": 2314,
+          "escanos": 0,
+          "pctVotos": 0.39,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 4406,
+        "pctVotos": 0.75,
+        "numCandidaturas": 5
+      }
     },
     "07": {
       "nombre": "Illes Balears",
@@ -549,7 +897,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -573,8 +921,37 @@
           "escanos": 1,
           "pctVotos": 16.75,
           "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 76547,
+          "escanos": 1,
+          "pctVotos": 15.35,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 4969,
+          "escanos": 0,
+          "pctVotos": 1.0,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 1039,
+          "escanos": 0,
+          "pctVotos": 0.21,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1445,
+        "pctVotos": 0.29,
+        "numCandidaturas": 2
+      }
     },
     "35": {
       "nombre": "Las Palmas",
@@ -583,7 +960,7 @@
         "color": "#E10819",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -607,8 +984,37 @@
           "escanos": 1,
           "pctVotos": 14.7,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 54369,
+          "escanos": 1,
+          "pctVotos": 10.33,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "NC-bc",
+          "nombre": "NUEVA CANARIAS - BLOQUE CANARISTA",
+          "votos": 42430,
+          "escanos": 0,
+          "pctVotos": 8.06,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "CCa",
+          "nombre": "COALICIÓN CANARIA",
+          "votos": 33558,
+          "escanos": 0,
+          "pctVotos": 6.38,
+          "color": "#FFCC00"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 6047,
+        "pctVotos": 1.15,
+        "numCandidaturas": 5
+      }
     },
     "38": {
       "nombre": "Santa Cruz de Tenerife",
@@ -617,7 +1023,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -641,8 +1047,37 @@
           "escanos": 1,
           "pctVotos": 16.92,
           "color": "#FFCC00"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 53632,
+          "escanos": 0,
+          "pctVotos": 10.96,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 6147,
+          "escanos": 0,
+          "pctVotos": 1.26,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "NC-bc",
+          "nombre": "NUEVA CANARIAS - BLOQUE CANARISTA",
+          "votos": 3165,
+          "escanos": 0,
+          "pctVotos": 0.65,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 3176,
+        "pctVotos": 0.65,
+        "numCandidaturas": 3
+      }
     },
     "39": {
       "nombre": "Cantabria",
@@ -651,7 +1086,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -675,8 +1110,37 @@
           "escanos": 1,
           "pctVotos": 14.2,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 29713,
+          "escanos": 0,
+          "pctVotos": 8.57,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 2089,
+          "escanos": 0,
+          "pctVotos": 0.6,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 790,
+          "escanos": 0,
+          "pctVotos": 0.23,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1131,
+        "pctVotos": 0.33,
+        "numCandidaturas": 2
+      }
     },
     "02": {
       "nombre": "Albacete",
@@ -685,7 +1149,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -709,8 +1173,37 @@
           "escanos": 0,
           "pctVotos": 16.75,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 15834,
+          "escanos": 0,
+          "pctVotos": 7.22,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1261,
+          "escanos": 0,
+          "pctVotos": 0.57,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 381,
+          "escanos": 0,
+          "pctVotos": 0.17,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 510,
+        "pctVotos": 0.23,
+        "numCandidaturas": 2
+      }
     },
     "13": {
       "nombre": "Ciudad Real",
@@ -719,7 +1212,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -743,8 +1236,37 @@
           "escanos": 1,
           "pctVotos": 16.41,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 17405,
+          "escanos": 0,
+          "pctVotos": 6.2,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1319,
+          "escanos": 0,
+          "pctVotos": 0.47,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 447,
+          "escanos": 0,
+          "pctVotos": 0.16,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 598,
+        "pctVotos": 0.21,
+        "numCandidaturas": 2
+      }
     },
     "16": {
       "nombre": "Cuenca",
@@ -753,7 +1275,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -777,8 +1299,37 @@
           "escanos": 0,
           "pctVotos": 15.69,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 6325,
+          "escanos": 0,
+          "pctVotos": 5.61,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 387,
+          "escanos": 0,
+          "pctVotos": 0.34,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 207,
+          "escanos": 0,
+          "pctVotos": 0.18,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 437,
+        "pctVotos": 0.39,
+        "numCandidaturas": 4
+      }
     },
     "19": {
       "nombre": "Guadalajara",
@@ -787,7 +1338,7 @@
         "color": "#0557A1",
         "escanos": 1
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -811,8 +1362,37 @@
           "escanos": 1,
           "pctVotos": 19.41,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 12907,
+          "escanos": 0,
+          "pctVotos": 9.23,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1039,
+          "escanos": 0,
+          "pctVotos": 0.74,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 304,
+          "escanos": 0,
+          "pctVotos": 0.22,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 720,
+        "pctVotos": 0.52,
+        "numCandidaturas": 4
+      }
     },
     "45": {
       "nombre": "Toledo",
@@ -821,7 +1401,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -845,8 +1425,37 @@
           "escanos": 1,
           "pctVotos": 19.77,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 31876,
+          "escanos": 0,
+          "pctVotos": 8.29,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 2024,
+          "escanos": 0,
+          "pctVotos": 0.53,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 985,
+          "escanos": 0,
+          "pctVotos": 0.26,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1055,
+        "pctVotos": 0.27,
+        "numCandidaturas": 3
+      }
     },
     "05": {
       "nombre": "Ávila",
@@ -855,7 +1464,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -879,8 +1488,37 @@
           "escanos": 0,
           "pctVotos": 15.48,
           "color": "#02C119"
+        },
+        {
+          "siglas": "XAV",
+          "nombre": "POR ÁVILA",
+          "votos": 7362,
+          "escanos": 0,
+          "pctVotos": 7.56,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 5027,
+          "escanos": 0,
+          "pctVotos": 5.17,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 275,
+          "escanos": 0,
+          "pctVotos": 0.28,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 395,
+        "pctVotos": 0.41,
+        "numCandidaturas": 5
+      }
     },
     "09": {
       "nombre": "Burgos",
@@ -889,7 +1527,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -913,8 +1551,37 @@
           "escanos": 0,
           "pctVotos": 12.88,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 17508,
+          "escanos": 0,
+          "pctVotos": 8.72,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VB",
+          "nombre": "VÍA BURGALESA",
+          "votos": 1774,
+          "escanos": 0,
+          "pctVotos": 0.88,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "EV-PCAS-TC",
+          "nombre": "ESPAÑA VACIADA-PARTIDO CASTELLANO-TIERRA COMUNERA",
+          "votos": 1184,
+          "escanos": 0,
+          "pctVotos": 0.59,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 2290,
+        "pctVotos": 1.14,
+        "numCandidaturas": 5
+      }
     },
     "24": {
       "nombre": "León",
@@ -923,7 +1590,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -947,8 +1614,37 @@
           "escanos": 0,
           "pctVotos": 12.95,
           "color": "#02C119"
+        },
+        {
+          "siglas": "U.P.L.",
+          "nombre": "UNIÓN DEL PUEBLO LEONÉS",
+          "votos": 22675,
+          "escanos": 0,
+          "pctVotos": 8.29,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 18577,
+          "escanos": 0,
+          "pctVotos": 6.79,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 895,
+          "escanos": 0,
+          "pctVotos": 0.33,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1882,
+        "pctVotos": 0.69,
+        "numCandidaturas": 6
+      }
     },
     "34": {
       "nombre": "Palencia",
@@ -957,7 +1653,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -981,8 +1677,37 @@
           "escanos": 0,
           "pctVotos": 13.01,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 5877,
+          "escanos": 0,
+          "pctVotos": 6.11,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VP",
+          "nombre": "VAMOS PALENCIA",
+          "votos": 1917,
+          "escanos": 0,
+          "pctVotos": 1.99,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "ESPAÑA VACIADA",
+          "nombre": "ESPAÑA VACIADA",
+          "votos": 384,
+          "escanos": 0,
+          "pctVotos": 0.4,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1125,
+        "pctVotos": 1.17,
+        "numCandidaturas": 8
+      }
     },
     "37": {
       "nombre": "Salamanca",
@@ -991,7 +1716,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1015,8 +1740,37 @@
           "escanos": 0,
           "pctVotos": 14.79,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 11012,
+          "escanos": 0,
+          "pctVotos": 5.58,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "ESPAÑA VACIADA",
+          "nombre": "ESPAÑA VACIADA",
+          "votos": 1062,
+          "escanos": 0,
+          "pctVotos": 0.54,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 631,
+          "escanos": 0,
+          "pctVotos": 0.32,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1517,
+        "pctVotos": 0.77,
+        "numCandidaturas": 6
+      }
     },
     "40": {
       "nombre": "Segovia",
@@ -1025,7 +1779,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1049,8 +1803,37 @@
           "escanos": 0,
           "pctVotos": 14.26,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 7137,
+          "escanos": 0,
+          "pctVotos": 8.13,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 307,
+          "escanos": 0,
+          "pctVotos": 0.35,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "3e",
+          "nombre": "TERCERA EDAD EN ACCIÓN",
+          "votos": 198,
+          "escanos": 0,
+          "pctVotos": 0.23,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 579,
+        "pctVotos": 0.66,
+        "numCandidaturas": 5
+      }
     },
     "42": {
       "nombre": "Soria",
@@ -1059,7 +1842,7 @@
         "color": "#0557A1",
         "escanos": 1
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1082,9 +1865,38 @@
           "votos": 9697,
           "escanos": 0,
           "pctVotos": 19.21,
-          "color": "#94a3b8"
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 4978,
+          "escanos": 0,
+          "pctVotos": 9.86,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 1711,
+          "escanos": 0,
+          "pctVotos": 3.39,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 94,
+          "escanos": 0,
+          "pctVotos": 0.19,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 143,
+        "pctVotos": 0.28,
+        "numCandidaturas": 4
+      }
     },
     "47": {
       "nombre": "Valladolid",
@@ -1093,7 +1905,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1117,8 +1929,37 @@
           "escanos": 1,
           "pctVotos": 15.28,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 28049,
+          "escanos": 0,
+          "pctVotos": 8.94,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "ESPAÑA VACIADA",
+          "nombre": "ESPAÑA VACIADA",
+          "votos": 1226,
+          "escanos": 0,
+          "pctVotos": 0.39,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1105,
+          "escanos": 0,
+          "pctVotos": 0.35,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 2796,
+        "pctVotos": 0.89,
+        "numCandidaturas": 8
+      }
     },
     "49": {
       "nombre": "Zamora",
@@ -1127,7 +1968,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1151,8 +1992,37 @@
           "escanos": 0,
           "pctVotos": 13.32,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 5839,
+          "escanos": 0,
+          "pctVotos": 5.7,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "Zsi",
+          "nombre": "ZAMORA SÍ",
+          "votos": 1843,
+          "escanos": 0,
+          "pctVotos": 1.8,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "U.P.L.",
+          "nombre": "UNIÓN DEL PUEBLO LEONÉS",
+          "votos": 526,
+          "escanos": 0,
+          "pctVotos": 0.51,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 831,
+        "pctVotos": 0.81,
+        "numCandidaturas": 6
+      }
     },
     "08": {
       "nombre": "Barcelona",
@@ -1161,7 +2031,7 @@
         "color": "#E10819",
         "escanos": 13
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1185,8 +2055,37 @@
           "escanos": 5,
           "pctVotos": 13.89,
           "color": "#0557A1"
+        },
+        {
+          "siglas": "ERC",
+          "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+          "votos": 328697,
+          "escanos": 4,
+          "pctVotos": 12.42,
+          "color": "#FFB400"
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "votos": 258159,
+          "escanos": 3,
+          "pctVotos": 9.76,
+          "color": "#0B8457"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 201775,
+          "escanos": 2,
+          "pctVotos": 7.62,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 131929,
+        "pctVotos": 4.99,
+        "numCandidaturas": 6
+      }
     },
     "17": {
       "nombre": "Girona",
@@ -1195,7 +2094,7 @@
         "color": "#E10819",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1219,8 +2118,37 @@
           "escanos": 1,
           "pctVotos": 14.85,
           "color": "#FFB400"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 35344,
+          "escanos": 1,
+          "pctVotos": 11.04,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 31341,
+          "escanos": 0,
+          "pctVotos": 9.79,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 22706,
+          "escanos": 0,
+          "pctVotos": 7.1,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 26386,
+        "pctVotos": 8.25,
+        "numCandidaturas": 6
+      }
     },
     "25": {
       "nombre": "Lleida",
@@ -1229,7 +2157,7 @@
         "color": "#E10819",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1253,8 +2181,37 @@
           "escanos": 1,
           "pctVotos": 18.21,
           "color": "#0B8457"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 23699,
+          "escanos": 0,
+          "pctVotos": 12.99,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 14561,
+          "escanos": 0,
+          "pctVotos": 7.98,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 12560,
+          "escanos": 0,
+          "pctVotos": 6.88,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 9687,
+        "pctVotos": 5.31,
+        "numCandidaturas": 7
+      }
     },
     "43": {
       "nombre": "Tarragona",
@@ -1263,7 +2220,7 @@
         "color": "#E10819",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1287,8 +2244,37 @@
           "escanos": 1,
           "pctVotos": 13.99,
           "color": "#0557A1"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 41719,
+          "escanos": 1,
+          "pctVotos": 11.43,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "votos": 40791,
+          "escanos": 1,
+          "pctVotos": 11.18,
+          "color": "#0B8457"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 38039,
+          "escanos": 0,
+          "pctVotos": 10.43,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 16659,
+        "pctVotos": 4.57,
+        "numCandidaturas": 8
+      }
     },
     "06": {
       "nombre": "Badajoz",
@@ -1297,7 +2283,7 @@
         "color": "#E10819",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1321,8 +2307,37 @@
           "escanos": 1,
           "pctVotos": 13.78,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 26778,
+          "escanos": 0,
+          "pctVotos": 6.9,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "BQEX",
+          "nombre": "BLOQUE EXTREMEÑO",
+          "votos": 3885,
+          "escanos": 0,
+          "pctVotos": 1.0,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1395,
+          "escanos": 0,
+          "pctVotos": 0.36,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1145,
+        "pctVotos": 0.29,
+        "numCandidaturas": 3
+      }
     },
     "10": {
       "nombre": "Cáceres",
@@ -1331,7 +2346,7 @@
         "color": "#E10819",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1355,8 +2370,37 @@
           "escanos": 0,
           "pctVotos": 13.7,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 16354,
+          "escanos": 0,
+          "pctVotos": 6.99,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "BQEX",
+          "nombre": "BLOQUE EXTREMEÑO",
+          "votos": 1922,
+          "escanos": 0,
+          "pctVotos": 0.82,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "Somos Cc",
+          "nombre": "SOMOS CÁCERES",
+          "votos": 963,
+          "escanos": 0,
+          "pctVotos": 0.41,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1490,
+        "pctVotos": 0.64,
+        "numCandidaturas": 4
+      }
     },
     "15": {
       "nombre": "A Coruña",
@@ -1365,7 +2409,7 @@
         "color": "#0557A1",
         "escanos": 4
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1389,8 +2433,37 @@
           "escanos": 1,
           "pctVotos": 12.29,
           "color": "#E0218A"
+        },
+        {
+          "siglas": "B.N.G.",
+          "nombre": "BLOQUE NACIONALISTA GALEGO",
+          "votos": 67653,
+          "escanos": 1,
+          "pctVotos": 10.06,
+          "color": "#860033"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 34410,
+          "escanos": 0,
+          "pctVotos": 5.12,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 3096,
+          "escanos": 0,
+          "pctVotos": 0.46,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1559,
+        "pctVotos": 0.23,
+        "numCandidaturas": 2
+      }
     },
     "27": {
       "nombre": "Lugo",
@@ -1399,7 +2472,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1423,8 +2496,37 @@
           "escanos": 0,
           "pctVotos": 8.72,
           "color": "#860033"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 10287,
+          "escanos": 0,
+          "pctVotos": 5.21,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 8643,
+          "escanos": 0,
+          "pctVotos": 4.38,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 645,
+          "escanos": 0,
+          "pctVotos": 0.33,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 611,
+        "pctVotos": 0.31,
+        "numCandidaturas": 4
+      }
     },
     "32": {
       "nombre": "Ourense",
@@ -1433,7 +2535,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1457,8 +2559,37 @@
           "escanos": 0,
           "pctVotos": 8.27,
           "color": "#860033"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 10171,
+          "escanos": 0,
+          "pctVotos": 5.49,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 9080,
+          "escanos": 0,
+          "pctVotos": 4.9,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 700,
+          "escanos": 0,
+          "pctVotos": 0.38,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 677,
+        "pctVotos": 0.37,
+        "numCandidaturas": 5
+      }
     },
     "36": {
       "nombre": "Pontevedra",
@@ -1467,7 +2598,7 @@
         "color": "#0557A1",
         "escanos": 3
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1491,8 +2622,37 @@
           "escanos": 1,
           "pctVotos": 13.28,
           "color": "#E0218A"
+        },
+        {
+          "siglas": "B.N.G.",
+          "nombre": "BLOQUE NACIONALISTA GALEGO",
+          "votos": 53828,
+          "escanos": 0,
+          "pctVotos": 9.46,
+          "color": "#860033"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 27539,
+          "escanos": 0,
+          "pctVotos": 4.84,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 3003,
+          "escanos": 0,
+          "pctVotos": 0.53,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1879,
+        "pctVotos": 0.33,
+        "numCandidaturas": 3
+      }
     },
     "28": {
       "nombre": "Madrid",
@@ -1501,7 +2661,7 @@
         "color": "#0557A1",
         "escanos": 16
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1525,8 +2685,37 @@
           "escanos": 6,
           "pctVotos": 15.58,
           "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 506164,
+          "escanos": 5,
+          "pctVotos": 14.14,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 21742,
+          "escanos": 0,
+          "pctVotos": 0.61,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 7652,
+          "escanos": 0,
+          "pctVotos": 0.21,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 18593,
+        "pctVotos": 0.52,
+        "numCandidaturas": 5
+      }
     },
     "31": {
       "nombre": "Navarra",
@@ -1535,7 +2724,7 @@
         "color": "#E10819",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1559,8 +2748,37 @@
           "escanos": 1,
           "pctVotos": 16.86,
           "color": "#0557A1"
+        },
+        {
+          "siglas": "U.P.N.",
+          "nombre": "UNION DEL PUEBLO NAVARRO",
+          "votos": 52188,
+          "escanos": 1,
+          "pctVotos": 15.4,
+          "color": "#1B3A6B"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 43922,
+          "escanos": 0,
+          "pctVotos": 12.96,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 19491,
+          "escanos": 0,
+          "pctVotos": 5.75,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 13712,
+        "pctVotos": 4.05,
+        "numCandidaturas": 6
+      }
     },
     "01": {
       "nombre": "Araba/Álava",
@@ -1569,7 +2787,7 @@
         "color": "#E10819",
         "escanos": 1
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -1593,8 +2811,37 @@
           "escanos": 1,
           "pctVotos": 17.94,
           "color": "#0557A1"
+        },
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "votos": 28075,
+          "escanos": 1,
+          "pctVotos": 16.67,
+          "color": "#00843D"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 21561,
+          "escanos": 0,
+          "pctVotos": 12.8,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 6573,
+          "escanos": 0,
+          "pctVotos": 3.9,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 2202,
+        "pctVotos": 1.31,
+        "numCandidaturas": 6
+      }
     },
     "20": {
       "nombre": "Gipuzkoa",
@@ -1603,7 +2850,7 @@
         "color": "#A4CE4E",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "EH Bildu",
           "nombre": "EUSKAL HERRIA BILDU",
@@ -1627,8 +2874,37 @@
           "escanos": 2,
           "pctVotos": 22.7,
           "color": "#00843D"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 40081,
+          "escanos": 0,
+          "pctVotos": 10.7,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 32721,
+          "escanos": 0,
+          "pctVotos": 8.73,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 7877,
+          "escanos": 0,
+          "pctVotos": 2.1,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 3881,
+        "pctVotos": 1.04,
+        "numCandidaturas": 6
+      }
     },
     "48": {
       "nombre": "Bizkaia",
@@ -1637,7 +2913,7 @@
         "color": "#00843D",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "EAJ-PNV",
           "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
@@ -1661,8 +2937,37 @@
           "escanos": 2,
           "pctVotos": 20.76,
           "color": "#A4CE4E"
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "votos": 70533,
+          "escanos": 1,
+          "pctVotos": 11.63,
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 66592,
+          "escanos": 1,
+          "pctVotos": 10.98,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 16069,
+          "escanos": 0,
+          "pctVotos": 2.65,
+          "color": "#02C119"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 5605,
+        "pctVotos": 0.92,
+        "numCandidaturas": 5
+      }
     },
     "30": {
       "nombre": "Murcia",
@@ -1671,7 +2976,7 @@
         "color": "#0557A1",
         "escanos": 4
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1695,8 +3000,37 @@
           "escanos": 2,
           "pctVotos": 21.96,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 71578,
+          "escanos": 1,
+          "pctVotos": 9.64,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 5063,
+          "escanos": 0,
+          "pctVotos": 0.68,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "POR MI REGIÓN",
+          "nombre": "POR MI REGIÓN",
+          "votos": 1698,
+          "escanos": 0,
+          "pctVotos": 0.23,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 4118,
+        "pctVotos": 0.55,
+        "numCandidaturas": 6
+      }
     },
     "26": {
       "nombre": "La Rioja",
@@ -1705,7 +3039,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1729,8 +3063,37 @@
           "escanos": 0,
           "pctVotos": 9.86,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 11470,
+          "escanos": 0,
+          "pctVotos": 6.63,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 723,
+          "escanos": 0,
+          "pctVotos": 0.42,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO",
+          "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+          "votos": 608,
+          "escanos": 0,
+          "pctVotos": 0.35,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 1161,
+        "pctVotos": 0.67,
+        "numCandidaturas": 5
+      }
     },
     "03": {
       "nombre": "Alacant/Alicante",
@@ -1739,7 +3102,7 @@
         "color": "#0557A1",
         "escanos": 5
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1763,8 +3126,37 @@
           "escanos": 2,
           "pctVotos": 16.37,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 115787,
+          "escanos": 1,
+          "pctVotos": 12.97,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 7335,
+          "escanos": 0,
+          "pctVotos": 0.82,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 1724,
+          "escanos": 0,
+          "pctVotos": 0.19,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 3608,
+        "pctVotos": 0.4,
+        "numCandidaturas": 3
+      }
     },
     "12": {
       "nombre": "Castelló/Castellón",
@@ -1773,7 +3165,7 @@
         "color": "#0557A1",
         "escanos": 2
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1797,8 +3189,37 @@
           "escanos": 1,
           "pctVotos": 16.02,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 44187,
+          "escanos": 0,
+          "pctVotos": 14.47,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 1968,
+          "escanos": 0,
+          "pctVotos": 0.64,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 721,
+          "escanos": 0,
+          "pctVotos": 0.24,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 654,
+        "pctVotos": 0.21,
+        "numCandidaturas": 2
+      }
     },
     "46": {
       "nombre": "València/Valencia",
@@ -1807,7 +3228,7 @@
         "color": "#0557A1",
         "escanos": 6
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1831,8 +3252,37 @@
           "escanos": 3,
           "pctVotos": 17.03,
           "color": "#E0218A"
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "votos": 218657,
+          "escanos": 2,
+          "pctVotos": 15.33,
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 10334,
+          "escanos": 0,
+          "pctVotos": 0.72,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 2919,
+          "escanos": 0,
+          "pctVotos": 0.2,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 6780,
+        "pctVotos": 0.48,
+        "numCandidaturas": 5
+      }
     },
     "51": {
       "nombre": "Ceuta",
@@ -1841,7 +3291,7 @@
         "color": "#0557A1",
         "escanos": 1
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1865,8 +3315,37 @@
           "escanos": 0,
           "pctVotos": 23.5,
           "color": "#02C119"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 821,
+          "escanos": 0,
+          "pctVotos": 2.49,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "FO",
+          "nombre": "FRENTE OBRERO",
+          "votos": 53,
+          "escanos": 0,
+          "pctVotos": 0.16,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "LB",
+          "nombre": "LIBRES",
+          "votos": 53,
+          "escanos": 0,
+          "pctVotos": 0.16,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 64,
+        "pctVotos": 0.19,
+        "numCandidaturas": 2
+      }
     },
     "52": {
       "nombre": "Melilla",
@@ -1875,7 +3354,7 @@
         "color": "#0557A1",
         "escanos": 1
       },
-      "top3": [
+      "principales": [
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
@@ -1899,8 +3378,37 @@
           "escanos": 0,
           "pctVotos": 16.09,
           "color": "#02C119"
+        },
+        {
+          "siglas": "CpM",
+          "nombre": "COALICIÓN POR MELILLA",
+          "votos": 1298,
+          "escanos": 0,
+          "pctVotos": 4.79,
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "SUMAR",
+          "nombre": "SUMAR",
+          "votos": 827,
+          "escanos": 0,
+          "pctVotos": 3.05,
+          "color": "#E0218A"
+        },
+        {
+          "siglas": "PACMA",
+          "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+          "votos": 160,
+          "escanos": 0,
+          "pctVotos": 0.59,
+          "color": "#9AA0A6"
         }
-      ]
+      ],
+      "otros": {
+        "votos": 63,
+        "pctVotos": 0.23,
+        "numCandidaturas": 2
+      }
     }
   }
 }
