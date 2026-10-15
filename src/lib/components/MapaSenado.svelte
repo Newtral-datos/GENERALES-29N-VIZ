@@ -15,7 +15,7 @@
 	let provincias = $state<Record<string, ProvinciaSenado> | null>(null);
 
 	$effect(() => {
-		fetch(asset('data/provincias.geojson'), { cache: 'force-cache' })
+		fetch(asset('data/provincias.geojson'), { cache: 'no-cache' })
 			.then((res) => res.json())
 			.then((d: FeatureCollection) => {
 				allFeatures = d.features;

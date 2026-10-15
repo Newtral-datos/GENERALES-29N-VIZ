@@ -115,9 +115,14 @@
 	@media (max-width: 640px) {
 		.teaser {
 			flex-direction: column;
-			align-items: flex-start;
+			align-items: center;
+			text-align: center;
 			padding: 22px 16px;
 			gap: 18px;
+		}
+
+		.teaser-text {
+			align-items: center;
 		}
 
 		.headline {

@@ -50,30 +50,31 @@
 	.col-hemiciclo,
 	.col-mapa {
 		min-width: 0;
-		order: 2;
+	}
+
+	.col-tabla {
+		order: 1;
 	}
 
 	.col-hemiciclo {
-		order: 1;
+		order: 2;
 		justify-self: center;
 		width: 100%;
 		max-width: 400px;
 	}
 
+	.col-mapa {
+		order: 3;
+	}
+
 	.teasers {
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	@media (max-width: 640px) {
 		.main {
 			padding: 16px;
-		}
-	}
-
-	@media (min-width: 720px) {
-		.teasers {
-			grid-template-columns: 1fr 1fr;
 		}
 	}
 

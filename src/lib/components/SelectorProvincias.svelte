@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { replaceState } from '$app/navigation';
+	import { formatMiles } from '#lib/format';
 	import MapaMunicipios, { type MunicipioSeleccionado } from '#lib/components/MapaMunicipios.svelte';
 	import {
 		getResultados23j,
@@ -164,13 +165,13 @@
 					{#if municipioSeleccionado.resultado}
 						{@const r = municipioSeleccionado.resultado}
 						<ul class="stats">
-							<li><span class="stat-label">Censo</span><span class="stat-value">{r.censo.toLocaleString('es-ES')}</span></li>
-							<li><span class="stat-label">Mesas</span><span class="stat-value">{r.mesas.toLocaleString('es-ES')}</span></li>
-							<li><span class="stat-label">Votantes</span><span class="stat-value">{r.votantes.toLocaleString('es-ES')}</span></li>
+							<li><span class="stat-label">Censo</span><span class="stat-value">{formatMiles(r.censo)}</span></li>
+							<li><span class="stat-label">Mesas</span><span class="stat-value">{formatMiles(r.mesas)}</span></li>
+							<li><span class="stat-label">Votantes</span><span class="stat-value">{formatMiles(r.votantes)}</span></li>
 							<li><span class="stat-label">Participación</span><span class="stat-value">{r.participacionPct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</span></li>
-							<li><span class="stat-label">Válidos</span><span class="stat-value">{r.validos.toLocaleString('es-ES')}</span></li>
-							<li><span class="stat-label">Blanco</span><span class="stat-value">{r.blanco.toLocaleString('es-ES')}</span></li>
-							<li><span class="stat-label">Nulos</span><span class="stat-value">{r.nulos.toLocaleString('es-ES')}</span></li>
+							<li><span class="stat-label">Válidos</span><span class="stat-value">{formatMiles(r.validos)}</span></li>
+							<li><span class="stat-label">Blanco</span><span class="stat-value">{formatMiles(r.blanco)}</span></li>
+							<li><span class="stat-label">Nulos</span><span class="stat-value">{formatMiles(r.nulos)}</span></li>
 						</ul>
 
 						<div class="tabla-scroll">
@@ -191,7 +192,7 @@
 													<span class="party-name">{p.siglas}</span>
 												</div>
 											</td>
-											<td class="num">{p.votos.toLocaleString('es-ES')}</td>
+											<td class="num">{formatMiles(p.votos)}</td>
 											<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 										</tr>
 									{/each}
@@ -203,7 +204,7 @@
 													<span class="party-name">Otros ({r.otros.numCandidaturas})</span>
 												</div>
 											</td>
-											<td class="num">{r.otros.votos.toLocaleString('es-ES')}</td>
+											<td class="num">{formatMiles(r.otros.votos)}</td>
 											<td class="num">{r.otros.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 										</tr>
 									{/if}
@@ -252,7 +253,7 @@
 												<span class="party-name">{p.siglas}</span>
 											</div>
 										</td>
-										<td class="num">{p.votos.toLocaleString('es-ES')}</td>
+										<td class="num">{formatMiles(p.votos)}</td>
 										<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 										<td class="num seats">{p.escanos}</td>
 									</tr>
@@ -265,7 +266,7 @@
 												<span class="party-name">Otros ({activa.otros.numCandidaturas})</span>
 											</div>
 										</td>
-										<td class="num">{activa.otros.votos.toLocaleString('es-ES')}</td>
+										<td class="num">{formatMiles(activa.otros.votos)}</td>
 										<td class="num">{activa.otros.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 										<td class="num seats">—</td>
 									</tr>

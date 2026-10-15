@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { getResultados23j, type Nacional } from '#lib/data';
+	import { formatMiles } from '#lib/format';
 
 	let nacional = $state<Nacional | null>(null);
 
@@ -38,7 +39,7 @@
 										<span class="party-name">{p.siglas}</span>
 									</div>
 								</td>
-								<td class="num">{p.votos.toLocaleString('es-ES')}</td>
+								<td class="num">{formatMiles(p.votos)}</td>
 								<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 								<td class="num seats">{p.escanos}</td>
 								<td class="num">

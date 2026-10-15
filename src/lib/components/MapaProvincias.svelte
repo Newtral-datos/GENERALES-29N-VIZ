@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { asset, resolve } from '$app/paths';
 	import { goto } from '$app/navigation';
-	import { getResultados23j, type Provincia } from '#lib/data';
+	import { getResultados23j, getIndiceMunicipios, type Provincia, type MunicipioIndice } from '#lib/data';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
 
 	type Feature = GeoFeature<{ name: string; cod_prov: string }>;
@@ -15,7 +15,7 @@
 	let provincias = $state<Record<string, Provincia> | null>(null);
 
 	$effect(() => {
-		fetch(asset('data/provincias.geojson'), { cache: 'force-cache' })
+		fetch(asset('data/provincias.geojson'), { cache: 'no-cache' })
 			.then((res) => res.json())
 			.then((d: FeatureCollection) => {
 				allFeatures = d.features;
@@ -59,6 +59,40 @@
 		goto(`${resolve('/provincias')}?cod=${codProv}`);
 	}
 
+	// Buscador de municipios: lleva directo al resultado de la provincia con el municipio preseleccionado.
+	let indiceMunicipios = $state<MunicipioIndice[] | null>(null);
+	let busqueda = $state('');
+	let dropdownAbierto = $state(false);
+
+	$effect(() => {
+		getIndiceMunicipios().then((d) => {
+			indiceMunicipios = d;
+		});
+	});
+
+	function normalizar(s: string): string {
+		return s
+			.normalize('NFD')
+			.replace(/[̀-ͯ]/g, '')
+			.toLowerCase();
+	}
+
+	let resultadosBusqueda = $derived.by(() => {
+		const q = normalizar(busqueda.trim());
+		if (!indiceMunicipios || q.length < 2) return [];
+		return indiceMunicipios.filter((m) => normalizar(m.nombre).includes(q)).slice(0, 8);
+	});
+
+	function irAMunicipio(m: MunicipioIndice) {
+		goto(`${resolve('/provincias')}?cod=${m.codProv}&muni=${m.ine}`);
+		busqueda = '';
+		dropdownAbierto = false;
+	}
+
+	function onBuscadorBlur() {
+		setTimeout(() => (dropdownAbierto = false), 150);
+	}
+
 	function onProvinceLeave() {
 		activeCod = null;
 	}
@@ -91,6 +125,32 @@
 
 <div class="panel">
 	<p class="kicker">Resultados por provincia</p>
+
+	<div class="buscador">
+		<input
+			type="text"
+			class="buscador-input"
+			placeholder="Buscar municipio…"
+			bind:value={busqueda}
+			onfocus={() => (dropdownAbierto = true)}
+			onblur={onBuscadorBlur}
+		/>
+		{#if dropdownAbierto && resultadosBusqueda.length}
+			<ul class="buscador-resultados">
+				{#each resultadosBusqueda as m (m.codProv + m.ine)}
+					<li>
+						<button type="button" class="buscador-opcion" onclick={() => irAMunicipio(m)}>
+							{m.nombre} <span class="buscador-provincia">({m.provincia})</span>
+						</button>
+					</li>
+				{/each}
+			</ul>
+		{:else if dropdownAbierto && normalizar(busqueda.trim()).length >= 2}
+			<ul class="buscador-resultados">
+				<li class="buscador-sin-resultados">Sin coincidencias</li>
+			</ul>
+		{/if}
+	</div>
 
 	<div class="panel-body">
 		{#if !allFeatures || !provincias}
@@ -204,6 +264,72 @@
 		color: var(--grey);
 		font-family: var(--font-body);
 		padding: 24px 0;
+	}
+
+	.buscador {
+		position: relative;
+		margin: 0 0 12px 0;
+	}
+
+	.buscador-input {
+		width: 100%;
+		box-sizing: border-box;
+		font-family: var(--font-body);
+		font-size: 12px;
+		color: var(--ink);
+		background: var(--paper);
+		border: 1px solid var(--border);
+		padding: 8px 10px;
+	}
+
+	.buscador-input:focus {
+		outline: none;
+		border-color: var(--ink);
+	}
+
+	.buscador-resultados {
+		position: absolute;
+		z-index: 50;
+		top: calc(100% + 2px);
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		background: var(--paper);
+		border: 1px solid var(--ink);
+		box-shadow: var(--shadow-hard);
+		max-height: 220px;
+		overflow-y: auto;
+	}
+
+	.buscador-opcion {
+		display: block;
+		width: 100%;
+		text-align: left;
+		background: none;
+		border: none;
+		padding: 7px 10px;
+		font-family: var(--font-body);
+		font-size: 12px;
+		color: var(--ink);
+		cursor: pointer;
+	}
+
+	.buscador-opcion:hover {
+		background: #fafafa;
+	}
+
+	.buscador-provincia {
+		color: var(--grey);
+	}
+
+	.buscador-sin-resultados {
+		padding: 8px 10px;
+		font-family: var(--font-body);
+		font-size: 11px;
+		font-style: italic;
+		color: var(--grey);
 	}
 
 	.wrap {

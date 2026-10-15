@@ -74,6 +74,33 @@
 			? buildSegments(nacional.partidos, (p) => p.escanosAnterior, nacional.anterior.totalEscanos, iR2, oR2, 'ant')
 			: []
 	);
+
+	type Segmento = { nombre: string; siglas: string; color: string; seats: number };
+
+	let activeSeg = $state<Segmento | null>(null);
+	let popupPos = $state({ x: 0, y: 0 });
+
+	const POPUP_W = 160;
+
+	function setPopupPos(x: number, y: number) {
+		popupPos = {
+			x: Math.min(Math.max(x + 12, 8), window.innerWidth - POPUP_W - 8),
+			y: y + 16
+		};
+	}
+
+	function onSegEnter(e: MouseEvent, s: Segmento) {
+		activeSeg = s;
+		setPopupPos(e.clientX, e.clientY);
+	}
+
+	function onSegMove(e: MouseEvent) {
+		setPopupPos(e.clientX, e.clientY);
+	}
+
+	function onSegLeave() {
+		activeSeg = null;
+	}
 </script>
 
 <div class="panel">
@@ -97,7 +124,18 @@
 
 			{#each segments as s (s.key)}
 				<g>
-					<path d={s.path} fill={s.color} stroke="var(--border)" stroke-width="1" />
+					<path
+						d={s.path}
+						fill={s.color}
+						stroke="var(--border)"
+						stroke-width="1"
+						class="seg-hover"
+						role="img"
+						aria-label="{s.nombre}: {s.seats} escaños"
+						onmouseenter={(e) => onSegEnter(e, s)}
+						onmousemove={onSegMove}
+						onmouseleave={onSegLeave}
+					/>
 					{#if s.seats >= 10}
 						<text x={s.lx} y={s.ly} text-anchor="middle" dominant-baseline="middle" class="seg-label">
 							{s.seats}
@@ -108,7 +146,18 @@
 
 			{#each segmentsAnterior as s (s.key)}
 				<g opacity="0.55">
-					<path d={s.path} fill={s.color} stroke="var(--border)" stroke-width="0.75" />
+					<path
+						d={s.path}
+						fill={s.color}
+						stroke="var(--border)"
+						stroke-width="0.75"
+						class="seg-hover"
+						role="img"
+						aria-label="{s.nombre}: {s.seats} escaños (elección anterior)"
+						onmouseenter={(e) => onSegEnter(e, s)}
+						onmousemove={onSegMove}
+						onmouseleave={onSegLeave}
+					/>
 					<path d={s.path} fill="url(#hatch)" />
 					{#if s.seats >= 15}
 						<text x={s.lx} y={s.ly} text-anchor="middle" dominant-baseline="middle" class="seg-label-sm">
@@ -131,6 +180,14 @@
 			<text x={cx - oR2 + 14} y={cy + 16} text-anchor="middle" class="pole-label-sm">ant.</text>
 			<text x={cx + oR2 - 14} y={cy + 16} text-anchor="middle" class="pole-label-sm">ant.</text>
 		</svg>
+
+		{#if activeSeg}
+			<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
+				<span class="popup-swatch" style="background:{activeSeg.color}"></span>
+				<span class="popup-name">{activeSeg.nombre}</span>
+				<span class="popup-seats">{activeSeg.seats} esc.</span>
+			</div>
+		{/if}
 
 		<p class="nota-anterior">Elecciones anteriores</p>
 
@@ -197,6 +254,50 @@
 		font-family: var(--font-mono);
 		font-size: 14px;
 		font-weight: 700;
+	}
+
+	.seg-hover {
+		cursor: pointer;
+	}
+
+	.seg-hover:hover {
+		filter: brightness(0.92);
+	}
+
+	.popup {
+		position: fixed;
+		z-index: 60;
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		background: var(--paper);
+		border: 1px solid var(--ink);
+		padding: 6px 10px;
+		box-shadow: var(--shadow-hard);
+		pointer-events: none;
+	}
+
+	.popup-swatch {
+		width: 7px;
+		height: 7px;
+		flex-shrink: 0;
+	}
+
+	.popup-name {
+		font-family: var(--font-body);
+		font-size: 11px;
+		font-weight: 600;
+		color: var(--ink);
+		white-space: nowrap;
+	}
+
+	.popup-seats {
+		font-family: var(--font-mono);
+		font-size: 11px;
+		font-weight: 700;
+		color: var(--grey);
+		white-space: nowrap;
+		font-variant-numeric: tabular-nums;
 	}
 
 	.centre-label {

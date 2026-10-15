@@ -55,7 +55,7 @@ let cacheEscanosProvincias: Promise<Record<string, EscanosProvincia>> | null = n
 export function getEscanosCongresoProvincias(): Promise<Record<string, EscanosProvincia>> {
 	if (!cacheEscanosProvincias) {
 		cacheEscanosProvincias = fetch(asset('data/escanos-congreso-provincias.json'), {
-			cache: 'force-cache'
+			cache: 'no-cache'
 		}).then((res) => {
 			if (!res.ok) throw new Error(`HTTP ${res.status}`);
 			return res.json();
@@ -68,12 +68,26 @@ let cacheCcaaProvincias: Promise<Record<string, string>> | null = null;
 
 export function getCcaaProvincias(): Promise<Record<string, string>> {
 	if (!cacheCcaaProvincias) {
-		cacheCcaaProvincias = fetch(asset('data/ccaa-provincias.json'), { cache: 'force-cache' }).then((res) => {
+		cacheCcaaProvincias = fetch(asset('data/ccaa-provincias.json'), { cache: 'no-cache' }).then((res) => {
 			if (!res.ok) throw new Error(`HTTP ${res.status}`);
 			return res.json();
 		});
 	}
 	return cacheCcaaProvincias;
+}
+
+export type MunicipioIndice = { nombre: string; provincia: string; codProv: string; ine: string };
+
+let cacheIndiceMunicipios: Promise<MunicipioIndice[]> | null = null;
+
+export function getIndiceMunicipios(): Promise<MunicipioIndice[]> {
+	if (!cacheIndiceMunicipios) {
+		cacheIndiceMunicipios = fetch(asset('data/indice-municipios.json'), { cache: 'no-cache' }).then((res) => {
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return res.json();
+		});
+	}
+	return cacheIndiceMunicipios;
 }
 
 export type PartidoMunicipio = { siglas: string; color: string; votos: number; pctVotos: number };
