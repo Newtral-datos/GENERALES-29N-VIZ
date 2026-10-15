@@ -57,13 +57,13 @@
 	.masthead {
 		display: flex;
 		align-items: baseline;
-		gap: 10px;
-		padding: 10px 24px 0;
+		gap: 8px;
+		padding: 7px 20px 0;
 	}
 
 	.wordmark {
 		font-family: var(--font-display);
-		font-size: 13px;
+		font-size: 11px;
 		font-weight: 800;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
@@ -72,19 +72,19 @@
 	.row {
 		display: flex;
 		align-items: center;
-		gap: 18px;
-		padding: 10px 24px 16px;
+		gap: 14px;
+		padding: 7px 20px 10px;
 	}
 
 	.stamp {
 		display: inline-flex;
 		align-items: center;
-		gap: 6px;
-		padding: 3px 7px;
+		gap: 5px;
+		padding: 2px 6px;
 		border: 1px solid var(--stamp);
 		color: var(--stamp);
 		font-family: var(--font-display);
-		font-size: 10px;
+		font-size: 9px;
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
@@ -92,15 +92,15 @@
 	}
 
 	.stamp-dot {
-		width: 5px;
-		height: 5px;
+		width: 4px;
+		height: 4px;
 		background: var(--stamp);
 		flex-shrink: 0;
 	}
 
 	.label {
 		font-family: var(--font-body);
-		font-size: 11px;
+		font-size: 10px;
 		font-weight: 600;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
@@ -110,7 +110,7 @@
 
 	.number {
 		font-family: var(--font-mono);
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 700;
 		color: var(--c);
 		letter-spacing: -0.01em;
@@ -120,7 +120,7 @@
 	}
 
 	.number-unit {
-		font-size: 16px;
+		font-size: 13px;
 		font-weight: 500;
 		color: rgba(1, 243, 179, 0.6);
 		margin-left: 1px;
@@ -129,7 +129,7 @@
 	.bar {
 		flex: 1;
 		position: relative;
-		height: 10px;
+		height: 8px;
 		background: rgba(255, 255, 255, 0.14);
 	}
 
@@ -157,23 +157,23 @@
 
 	@media (max-width: 640px) {
 		.masthead {
-			padding: 10px 16px 0;
+			padding: 8px 16px 0;
 		}
 
 		.row {
-			padding: 10px 16px 14px;
-			gap: 12px;
+			padding: 8px 16px 10px;
+			gap: 10px;
 			flex-wrap: wrap;
 		}
 
 		.number {
-			font-size: 26px;
+			font-size: 20px;
 		}
 
 		.bar {
 			order: 3;
 			flex-basis: 100%;
-			height: 10px;
+			height: 8px;
 		}
 	}
 </style>

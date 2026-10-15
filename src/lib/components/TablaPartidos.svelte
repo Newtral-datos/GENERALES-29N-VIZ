@@ -72,12 +72,12 @@
 
 	.kicker {
 		font-family: var(--font-display);
-		font-size: 11px;
+		font-size: 10px;
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 		color: var(--ink);
-		margin: 0 0 14px 0;
+		margin: 0 0 10px 0;
 		text-align: center;
 	}
 
@@ -106,10 +106,10 @@
 	}
 
 	.tabla th {
-		padding: 6px 6px;
+		padding: 4px 6px;
 		text-align: center;
 		font-family: var(--font-body);
-		font-size: 10px;
+		font-size: 9px;
 		font-weight: 600;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
@@ -125,7 +125,7 @@
 	}
 
 	.tabla td {
-		padding: 6px 6px;
+		padding: 4px 6px;
 	}
 
 	.swatch {
@@ -143,7 +143,7 @@
 
 	.party-name {
 		font-family: var(--font-body);
-		font-size: 12px;
+		font-size: 11px;
 		font-weight: 500;
 		color: var(--ink);
 	}
@@ -151,20 +151,20 @@
 	.num {
 		text-align: center;
 		font-family: var(--font-mono);
-		font-size: 12px;
+		font-size: 11px;
 		color: var(--grey);
 		font-variant-numeric: tabular-nums;
 	}
 
 	.num.seats {
-		font-size: 13px;
+		font-size: 12px;
 		font-weight: 700;
 		color: var(--ink);
 	}
 
 	.dif {
 		font-family: var(--font-mono);
-		font-size: 12px;
+		font-size: 11px;
 		font-weight: 700;
 		color: var(--grey);
 	}

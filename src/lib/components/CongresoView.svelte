@@ -28,17 +28,17 @@
 
 <style>
 	.main {
-		padding: 32px 24px;
+		padding: 20px 24px;
 	}
 
 	.barra-section {
-		margin-bottom: 32px;
+		margin-bottom: 20px;
 	}
 
 	.grid {
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 32px;
+		gap: 20px;
 		min-width: 0;
 	}
 
@@ -53,7 +53,7 @@
 		order: 1;
 		justify-self: center;
 		width: 100%;
-		max-width: 480px;
+		max-width: 400px;
 	}
 
 	@media (max-width: 640px) {
@@ -65,7 +65,7 @@
 	@media (min-width: 900px) {
 		.grid {
 			grid-template-columns: 1fr 1.3fr 1fr;
-			gap: 32px;
+			gap: 24px;
 			align-items: stretch;
 		}
 

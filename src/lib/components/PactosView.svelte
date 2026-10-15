@@ -16,7 +16,7 @@
 
 <style>
 	.main {
-		padding: 32px 24px 48px;
+		padding: 20px 24px 32px;
 		max-width: 900px;
 		margin: 0 auto;
 	}
@@ -28,7 +28,7 @@
 		font-weight: 600;
 		color: var(--grey);
 		text-decoration: none;
-		margin-bottom: 24px;
+		margin-bottom: 16px;
 	}
 
 	.volver:hover {
@@ -37,22 +37,22 @@
 
 	.intro {
 		text-align: center;
-		margin-bottom: 32px;
+		margin-bottom: 20px;
 	}
 
 	.kicker {
 		font-family: var(--font-display);
-		font-size: 11px;
+		font-size: 10px;
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 		color: var(--c);
-		margin: 0 0 8px 0;
+		margin: 0 0 6px 0;
 	}
 
 	.titulo {
 		font-family: var(--font-display);
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 800;
 		color: var(--ink);
 		margin: 0 0 10px 0;
@@ -68,11 +68,11 @@
 
 	@media (max-width: 640px) {
 		.main {
-			padding: 20px 16px 40px;
+			padding: 16px 16px 32px;
 		}
 
 		.titulo {
-			font-size: 22px;
+			font-size: 18px;
 		}
 	}
 </style>

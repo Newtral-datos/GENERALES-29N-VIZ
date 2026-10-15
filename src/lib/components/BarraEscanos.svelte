@@ -94,13 +94,13 @@
 
 	.barra-wrap {
 		position: relative;
-		padding-top: 30px;
+		padding-top: 22px;
 	}
 
 	.barra {
 		display: flex;
 		width: 100%;
-		height: 34px;
+		height: 26px;
 		overflow: hidden;
 		border-top: 1px solid var(--border);
 		border-bottom: 1px solid var(--border);
@@ -121,7 +121,7 @@
 	.seg-label {
 		color: #fff;
 		font-family: var(--font-mono);
-		font-size: 12px;
+		font-size: 11px;
 		font-weight: 700;
 		font-variant-numeric: tabular-nums;
 	}
@@ -138,24 +138,24 @@
 	.maj-text {
 		white-space: nowrap;
 		font-family: var(--font-body);
-		font-size: 9px;
+		font-size: 8px;
 		font-weight: 600;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 		color: var(--ink);
 		text-align: center;
 		line-height: 1.1;
-		margin-bottom: 8px;
+		margin-bottom: 6px;
 	}
 
 	.maj-text b {
 		font-family: var(--font-mono);
-		font-size: 11px;
+		font-size: 10px;
 	}
 
 	.maj-line {
 		width: 1px;
-		height: 34px;
+		height: 26px;
 		background: var(--ink);
 	}
 

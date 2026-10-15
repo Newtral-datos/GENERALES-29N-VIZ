@@ -165,12 +165,12 @@
 
 	.kicker {
 		font-family: var(--font-display);
-		font-size: 11px;
+		font-size: 10px;
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 		color: var(--ink);
-		margin: 0 0 14px 0;
+		margin: 0 0 8px 0;
 		text-align: center;
 	}
 
@@ -189,7 +189,7 @@
 
 	.hemiciclo {
 		width: 100%;
-		max-width: 560px;
+		max-width: 420px;
 	}
 
 	.seg-label {
@@ -247,8 +247,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		gap: 4px 16px;
-		margin: 14px 0 20px 0;
+		gap: 3px 12px;
+		margin: 8px 0 12px 0;
 		padding: 0;
 		list-style: none;
 		width: 100%;
@@ -257,25 +257,25 @@
 	.entry {
 		display: flex;
 		align-items: baseline;
-		gap: 6px;
+		gap: 5px;
 	}
 
 	.swatch {
-		width: 7px;
-		height: 7px;
+		width: 6px;
+		height: 6px;
 		flex-shrink: 0;
 		transform: translateY(1px);
 	}
 
 	.entry-name {
 		font-family: var(--font-body);
-		font-size: 11px;
+		font-size: 10px;
 		color: var(--grey);
 	}
 
 	.entry-value {
 		font-family: var(--font-mono);
-		font-size: 11px;
+		font-size: 10px;
 		font-weight: 700;
 		color: var(--ink);
 		font-variant-numeric: tabular-nums;
