@@ -22,17 +22,28 @@
 	}
 
 	.volver {
-		display: inline-block;
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
 		font-family: var(--font-body);
 		font-size: 11px;
-		font-weight: 600;
-		color: var(--grey);
+		font-weight: 700;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: var(--ink);
 		text-decoration: none;
+		border: 1.5px solid var(--ink);
+		padding: 7px 12px;
 		margin-bottom: 16px;
+		background: var(--paper);
+		transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.15s ease, color 0.15s ease;
 	}
 
 	.volver:hover {
-		color: var(--ink);
+		background: var(--ink);
+		color: var(--paper);
+		box-shadow: var(--shadow-hard-lift);
+		transform: translate(-2px, -2px);
 	}
 
 	.intro {

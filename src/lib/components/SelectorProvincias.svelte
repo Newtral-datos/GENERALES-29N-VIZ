@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import MapaMunicipios from '#lib/components/MapaMunicipios.svelte';
+	import { replaceState } from '$app/navigation';
+	import MapaMunicipios, { type MunicipioSeleccionado } from '#lib/components/MapaMunicipios.svelte';
 	import {
 		getResultados23j,
 		getEscanosCongresoProvincias,
@@ -29,6 +30,7 @@
 	let ccaaProvincias = $state<Record<string, string> | null>(null);
 	let seleccion = $state<string | null>(null);
 	let ccaaAbierta = $state<string | null>(null);
+	let municipioSeleccionado = $state<MunicipioSeleccionado | null>(null);
 	let inicializadoDesdeUrl = false;
 
 	$effect(() => {
@@ -95,6 +97,15 @@
 		const right = conEscanos.filter((p) => LADO[p.siglas] === 2).sort((a, b) => a.escanos - b.escanos);
 		return [...left, ...right].map((p) => ({ ...p, pct: total ? (p.escanos / total) * 100 : 0 }));
 	});
+
+	function volverAProvincia() {
+		municipioSeleccionado = null;
+		if (page.url.searchParams.has('muni')) {
+			const params = new URLSearchParams(page.url.searchParams);
+			params.delete('muni');
+			replaceState(`${page.url.pathname}?${params.toString()}`, page.state);
+		}
+	}
 </script>
 
 <div class="panel">
@@ -143,6 +154,66 @@
 			<div class="detalle">
 				{#if !activa}
 					<p class="placeholder">Selecciona una provincia de la lista para ver sus resultados.</p>
+				{:else if municipioSeleccionado}
+					<button type="button" class="volver-muni" onclick={volverAProvincia}>
+						← Volver a {activa.nombre}
+					</button>
+
+					<p class="sub-kicker">{municipioSeleccionado.nombre}</p>
+
+					{#if municipioSeleccionado.resultado}
+						{@const r = municipioSeleccionado.resultado}
+						<ul class="stats">
+							<li><span class="stat-label">Censo</span><span class="stat-value">{r.censo.toLocaleString('es-ES')}</span></li>
+							<li><span class="stat-label">Mesas</span><span class="stat-value">{r.mesas.toLocaleString('es-ES')}</span></li>
+							<li><span class="stat-label">Votantes</span><span class="stat-value">{r.votantes.toLocaleString('es-ES')}</span></li>
+							<li><span class="stat-label">Participación</span><span class="stat-value">{r.participacionPct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</span></li>
+							<li><span class="stat-label">Válidos</span><span class="stat-value">{r.validos.toLocaleString('es-ES')}</span></li>
+							<li><span class="stat-label">Blanco</span><span class="stat-value">{r.blanco.toLocaleString('es-ES')}</span></li>
+							<li><span class="stat-label">Nulos</span><span class="stat-value">{r.nulos.toLocaleString('es-ES')}</span></li>
+						</ul>
+
+						<div class="tabla-scroll">
+							<table class="tabla">
+								<thead>
+									<tr>
+										<th class="th-left">Partido</th>
+										<th>Votos</th>
+										<th>%</th>
+									</tr>
+								</thead>
+								<tbody>
+									{#each r.principales as p (p.siglas)}
+										<tr>
+											<td>
+												<div class="party-cell">
+													<span class="swatch" style="background:{p.color}"></span>
+													<span class="party-name">{p.siglas}</span>
+												</div>
+											</td>
+											<td class="num">{p.votos.toLocaleString('es-ES')}</td>
+											<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
+										</tr>
+									{/each}
+									{#if r.otros.numCandidaturas > 0}
+										<tr class="fila-otros">
+											<td>
+												<div class="party-cell">
+													<span class="swatch swatch-otros"></span>
+													<span class="party-name">Otros ({r.otros.numCandidaturas})</span>
+												</div>
+											</td>
+											<td class="num">{r.otros.votos.toLocaleString('es-ES')}</td>
+											<td class="num">{r.otros.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
+										</tr>
+									{/if}
+								</tbody>
+							</table>
+						</div>
+						<p class="nota">Resultados del municipio — 23J</p>
+					{:else}
+						<p class="placeholder">Sin datos para este municipio.</p>
+					{/if}
 				{:else}
 					<p class="sub-kicker">
 						{activa.nombre}{#if escanosTotalActiva !== null}
@@ -203,10 +274,12 @@
 						</table>
 					</div>
 					<p class="nota">Candidaturas con representación y principales minoritarias — 23J</p>
+				{/if}
 
+				{#if activa}
 					<div class="mapa-municipal">
 						{#key seleccion}
-							<MapaMunicipios cod={seleccion!} />
+							<MapaMunicipios cod={seleccion!} bind:seleccionado={municipioSeleccionado} />
 						{/key}
 					</div>
 				{/if}
@@ -247,6 +320,59 @@
 	.prov-total-escanos {
 		font-weight: 400;
 		color: var(--grey);
+	}
+
+	.volver-muni {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		background: var(--paper);
+		border: 1.5px solid var(--ink);
+		padding: 7px 12px;
+		margin: 0 0 12px 0;
+		font-family: var(--font-body);
+		font-size: 11px;
+		font-weight: 700;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: var(--ink);
+		cursor: pointer;
+		transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+	}
+
+	.volver-muni:hover {
+		background: var(--ink);
+		color: var(--paper);
+		box-shadow: var(--shadow-hard-lift);
+		transform: translate(-2px, -2px);
+	}
+
+	.stats {
+		list-style: none;
+		margin: 0 0 12px 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 4px 16px;
+	}
+
+	.stats li {
+		display: flex;
+		justify-content: space-between;
+		gap: 6px;
+		font-family: var(--font-body);
+		font-size: 12px;
+	}
+
+	.stat-label {
+		color: var(--grey);
+	}
+
+	.stat-value {
+		font-family: var(--font-mono);
+		font-weight: 700;
+		color: var(--ink);
+		font-variant-numeric: tabular-nums;
 	}
 
 	.lista-wrap {

@@ -80,8 +80,17 @@ export type PartidoMunicipio = { siglas: string; color: string; votos: number; p
 
 export type ResultadoMunicipio = {
 	nombre: string;
-	principales: PartidoMunicipio[];
+	poblacion: number;
+	mesas: number;
+	censo: number;
+	votantes: number;
+	validos: number;
+	votosCandidaturas: number;
+	blanco: number;
+	nulos: number;
 	participacionPct: number;
+	principales: PartidoMunicipio[];
+	otros: { votos: number; pctVotos: number; numCandidaturas: number };
 };
 
 const cacheResultadosMunicipios = new Map<string, Promise<Record<string, ResultadoMunicipio>>>();
@@ -89,7 +98,7 @@ const cacheResultadosMunicipios = new Map<string, Promise<Record<string, Resulta
 export function getResultadosMunicipios(codProv: string): Promise<Record<string, ResultadoMunicipio>> {
 	let promise = cacheResultadosMunicipios.get(codProv);
 	if (!promise) {
-		promise = fetch(asset(`data/resultados-municipios/${codProv}.json`), { cache: 'force-cache' }).then((res) => {
+		promise = fetch(asset(`data/resultados-municipios/${codProv}.json`), { cache: 'no-cache' }).then((res) => {
 			if (!res.ok) throw new Error(`HTTP ${res.status}`);
 			return res.json();
 		});

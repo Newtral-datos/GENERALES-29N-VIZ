@@ -1,22 +1,32 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { asset } from '$app/paths';
+	import { replaceState } from '$app/navigation';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection } from '#lib/geo';
 	import { getResultadosMunicipios, type ResultadoMunicipio } from '#lib/data';
 
 	type MuniProps = { NATCODE: string; NAMEUNIT: string; cod_prov: string };
 	type Feature = GeoFeature<MuniProps>;
 
-	let { cod }: { cod: string } = $props();
+	export type MunicipioSeleccionado = { natcode: string; nombre: string; resultado: ResultadoMunicipio | null };
+
+	let {
+		cod,
+		seleccionado = $bindable(null)
+	}: { cod: string; seleccionado?: MunicipioSeleccionado | null } = $props();
 
 	let features = $state<Feature[] | null>(null);
 	let resultados = $state<Record<string, ResultadoMunicipio> | null>(null);
 	let loadedCod = $state<string | null>(null);
+	let inicializadoDesdeUrl = false;
 
 	$effect(() => {
 		const codActual = cod;
 		features = null;
 		resultados = null;
-		fetch(asset(`data/municipios/${codActual}.geojson`), { cache: 'force-cache' })
+		seleccionado = null;
+		inicializadoDesdeUrl = false;
+		fetch(asset(`data/municipios/${codActual}.geojson`), { cache: 'no-cache' })
 			.then((res) => res.json())
 			.then((d: FeatureCollection<MuniProps>) => {
 				features = d.features;
@@ -37,6 +47,36 @@
 
 	function colorFor(natcode: string): string {
 		return resultadoFor(natcode)?.principales[0]?.color ?? 'var(--paper)';
+	}
+
+	// Si la URL ya trae ?muni=<ine>, preseleccionamos ese municipio al cargar.
+	$effect(() => {
+		if (inicializadoDesdeUrl || !features) return;
+		const ine = page.url.searchParams.get('muni');
+		const match = ine ? features.find((f) => f.properties.NATCODE.endsWith(ine)) : null;
+		if (match) {
+			seleccionado = { natcode: match.properties.NATCODE, nombre: match.properties.NAMEUNIT, resultado: resultadoFor(match.properties.NATCODE) };
+		}
+		inicializadoDesdeUrl = true;
+	});
+
+	function syncUrlMuni(ine: string | null) {
+		if (page.url.searchParams.get('muni') === ine) return;
+		const params = new URLSearchParams(page.url.searchParams);
+		if (ine) {
+			params.set('muni', ine);
+		} else {
+			params.delete('muni');
+		}
+		replaceState(`${page.url.pathname}?${params.toString()}`, page.state);
+	}
+
+	function onMuniClick(f: Feature) {
+		seleccionado =
+			seleccionado?.natcode === f.properties.NATCODE
+				? null
+				: { natcode: f.properties.NATCODE, nombre: f.properties.NAMEUNIT, resultado: resultadoFor(f.properties.NATCODE) };
+		syncUrlMuni(seleccionado ? codIne(seleccionado.natcode) : null);
 	}
 
 	let activeIdx = $state<number | null>(null);
@@ -88,19 +128,20 @@
 						<path
 							{d}
 							fill={colorFor(f.properties.NATCODE)}
-							stroke="#d8d8d8"
-							stroke-width="0.5"
+							stroke={seleccionado?.natcode === f.properties.NATCODE ? 'var(--ink)' : '#d8d8d8'}
+							stroke-width={seleccionado?.natcode === f.properties.NATCODE ? 1.5 : 0.5}
 							class="muni"
 							role="img"
 							aria-label={f.properties.NAMEUNIT}
 							onmouseenter={(e) => onMuniEnter(e, idx)}
 							onmousemove={onMuniMove}
 							onmouseleave={onMuniLeave}
+							onclick={() => onMuniClick(f)}
 						/>
 					{/each}
 				{/each}
 			</svg>
-			<p class="nota">Partido ganador por municipio — 23J — pasa el ratón para ver el detalle</p>
+			<p class="nota">Partido ganador por municipio — 23J — pasa el ratón para un vistazo, haz clic para el detalle completo</p>
 		</div>
 	{/if}
 </div>
@@ -109,7 +150,7 @@
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 		<p class="popup-title">{activeMuni.properties.NAMEUNIT}</p>
 		{#if activeResultado}
-			{#each activeResultado.principales as p (p.siglas)}
+			{#each activeResultado.principales.slice(0, 3) as p (p.siglas)}
 				<div class="popup-row">
 					<span class="swatch" style="background:{p.color}"></span>
 					<span class="popup-siglas">{p.siglas}</span>
