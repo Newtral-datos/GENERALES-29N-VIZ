@@ -4,6 +4,7 @@
 	import TablaPartidos from '#lib/components/TablaPartidos.svelte';
 	import MapaProvincias from '#lib/components/MapaProvincias.svelte';
 	import SimuladorTeaser from '#lib/components/SimuladorTeaser.svelte';
+	import ProvinciasTeaser from '#lib/components/ProvinciasTeaser.svelte';
 </script>
 
 <main class="main">
@@ -24,7 +25,10 @@
 	</div>
 </main>
 
-<SimuladorTeaser />
+<div class="teasers">
+	<SimuladorTeaser />
+	<ProvinciasTeaser />
+</div>
 
 <style>
 	.main {
@@ -56,9 +60,20 @@
 		max-width: 400px;
 	}
 
+	.teasers {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
 	@media (max-width: 640px) {
 		.main {
 			padding: 16px;
+		}
+	}
+
+	@media (min-width: 720px) {
+		.teasers {
+			grid-template-columns: 1fr 1fr;
 		}
 	}
 

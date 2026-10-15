@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { asset } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
+	import { goto } from '$app/navigation';
 	import { getResultados23j, type Provincia } from '#lib/data';
 
 	type Geometry = { type: string; coordinates: unknown };
@@ -53,6 +54,10 @@
 
 	function onProvinceMove(e: MouseEvent) {
 		setPopupPos(e.clientX, e.clientY);
+	}
+
+	function onProvinceClick(codProv: string) {
+		goto(`${resolve('/provincias')}?cod=${codProv}`);
 	}
 
 	function onProvinceLeave() {
@@ -167,6 +172,7 @@
 								onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
 								onmousemove={onProvinceMove}
 								onmouseleave={onProvinceLeave}
+								onclick={() => onProvinceClick(f.properties.cod_prov)}
 							/>
 						{/each}
 					{/each}
@@ -196,12 +202,13 @@
 									onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
 									onmousemove={onProvinceMove}
 									onmouseleave={onProvinceLeave}
+									onclick={() => onProvinceClick(f.properties.cod_prov)}
 								/>
 							{/each}
 						{/each}
 					{/if}
 				</svg>
-				<p class="nota">Partido ganador por circunscripción — 23J — pasa el ratón para ver el detalle</p>
+				<p class="nota">Partido ganador por circunscripción — 23J — pasa el ratón para un vistazo, haz clic para ver el detalle completo</p>
 			</div>
 		{/if}
 	</div>
@@ -212,7 +219,7 @@
 		<p class="popup-title">{activeProvincia.nombre}</p>
 		<table class="popup-table">
 			<tbody>
-				{#each activeProvincia.top3 as p (p.siglas)}
+				{#each activeProvincia.principales.slice(0, 3) as p (p.siglas)}
 					<tr>
 						<td class="popup-party">
 							<span class="swatch" style="background:{p.color}"></span>

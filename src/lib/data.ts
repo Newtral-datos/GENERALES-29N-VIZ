@@ -39,13 +39,42 @@ export type PartidoProvincia = {
 export type Provincia = {
 	nombre: string;
 	ganador: { siglas: string; color: string; escanos: number };
-	top3: PartidoProvincia[];
+	principales: PartidoProvincia[];
+	otros: { votos: number; pctVotos: number; numCandidaturas: number };
 };
 
 export type Resultados23J = {
 	nacional: Nacional;
 	provincias: Record<string, Provincia>;
 };
+
+export type EscanosProvincia = { nombre: string; escanos: number };
+
+let cacheEscanosProvincias: Promise<Record<string, EscanosProvincia>> | null = null;
+
+export function getEscanosCongresoProvincias(): Promise<Record<string, EscanosProvincia>> {
+	if (!cacheEscanosProvincias) {
+		cacheEscanosProvincias = fetch(asset('data/escanos-congreso-provincias.json'), {
+			cache: 'force-cache'
+		}).then((res) => {
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return res.json();
+		});
+	}
+	return cacheEscanosProvincias;
+}
+
+let cacheCcaaProvincias: Promise<Record<string, string>> | null = null;
+
+export function getCcaaProvincias(): Promise<Record<string, string>> {
+	if (!cacheCcaaProvincias) {
+		cacheCcaaProvincias = fetch(asset('data/ccaa-provincias.json'), { cache: 'force-cache' }).then((res) => {
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return res.json();
+		});
+	}
+	return cacheCcaaProvincias;
+}
 
 let cache: Promise<Resultados23J> | null = null;
 
