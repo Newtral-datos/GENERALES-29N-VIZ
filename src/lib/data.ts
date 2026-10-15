@@ -76,6 +76,28 @@ export function getCcaaProvincias(): Promise<Record<string, string>> {
 	return cacheCcaaProvincias;
 }
 
+export type PartidoMunicipio = { siglas: string; color: string; votos: number; pctVotos: number };
+
+export type ResultadoMunicipio = {
+	nombre: string;
+	principales: PartidoMunicipio[];
+	participacionPct: number;
+};
+
+const cacheResultadosMunicipios = new Map<string, Promise<Record<string, ResultadoMunicipio>>>();
+
+export function getResultadosMunicipios(codProv: string): Promise<Record<string, ResultadoMunicipio>> {
+	let promise = cacheResultadosMunicipios.get(codProv);
+	if (!promise) {
+		promise = fetch(asset(`data/resultados-municipios/${codProv}.json`), { cache: 'force-cache' }).then((res) => {
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return res.json();
+		});
+		cacheResultadosMunicipios.set(codProv, promise);
+	}
+	return promise;
+}
+
 let cache: Promise<Resultados23J> | null = null;
 
 export function getResultados23j(): Promise<Resultados23J> {

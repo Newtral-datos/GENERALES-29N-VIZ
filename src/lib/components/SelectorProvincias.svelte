@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import MapaMunicipios from '#lib/components/MapaMunicipios.svelte';
 	import {
 		getResultados23j,
 		getEscanosCongresoProvincias,
@@ -202,6 +203,12 @@
 						</table>
 					</div>
 					<p class="nota">Candidaturas con representación y principales minoritarias — 23J</p>
+
+					<div class="mapa-municipal">
+						{#key seleccion}
+							<MapaMunicipios cod={seleccion!} />
+						{/key}
+					</div>
 				{/if}
 			</div>
 		</div>
@@ -496,6 +503,12 @@
 		font-style: italic;
 		margin: 6px 0 0 0;
 		text-align: center;
+	}
+
+	.mapa-municipal {
+		margin-top: 16px;
+		padding-top: 16px;
+		border-top: 1px solid var(--border);
 	}
 
 	@media (min-width: 720px) {
