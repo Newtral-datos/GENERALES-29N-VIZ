@@ -50,8 +50,11 @@
 	}
 
 	// Si la URL ya trae ?muni=<ine>, preseleccionamos ese municipio al cargar.
+	// Hay que esperar a que lleguen TANTO la geometría como los resultados:
+	// si se resuelve en cuanto llega la geometría (que normalmente va primero),
+	// el resultado se congela en null aunque los datos lleguen justo después.
 	$effect(() => {
-		if (inicializadoDesdeUrl || !features) return;
+		if (inicializadoDesdeUrl || !features || !resultados) return;
 		const ine = page.url.searchParams.get('muni');
 		const match = ine ? features.find((f) => f.properties.NATCODE.endsWith(ine)) : null;
 		if (match) {
