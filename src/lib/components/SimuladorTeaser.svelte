@@ -92,6 +92,14 @@
 		text-transform: uppercase;
 		color: var(--c);
 		white-space: nowrap;
+		border: 1px solid var(--c);
+		padding: 6px 10px;
+		transition: box-shadow 0.15s ease, transform 0.15s ease;
+	}
+
+	.teaser:hover .cta {
+		box-shadow: 2px 2px 0 rgba(1, 243, 179, 0.3);
+		transform: translate(-2px, -2px);
 	}
 
 	.arrow {

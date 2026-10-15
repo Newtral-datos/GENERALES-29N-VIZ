@@ -120,6 +120,11 @@
 
 	.tabla tbody tr {
 		border-bottom: 1px solid var(--border);
+		transition: background 0.1s ease;
+	}
+
+	.tabla tbody tr:hover {
+		background: #fafafa;
 	}
 
 	.tabla td {

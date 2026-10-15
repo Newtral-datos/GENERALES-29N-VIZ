@@ -107,7 +107,7 @@
 			{/each}
 
 			{#each segmentsAnterior as s (s.key)}
-				<g>
+				<g opacity="0.55">
 					<path d={s.path} fill={s.color} stroke="var(--border)" stroke-width="0.75" />
 					<path d={s.path} fill="url(#hatch)" />
 					{#if s.seats >= 15}
@@ -132,7 +132,7 @@
 			<text x={cx + oR2 - 14} y={cy + 16} text-anchor="middle" class="pole-label-sm">ant.</text>
 		</svg>
 
-		<p class="nota-anterior">Trama — elección anterior (datos simulados)</p>
+		<p class="nota-anterior">Elecciones anteriores</p>
 
 		<ul class="legend">
 			{#each nacional.partidos as p (p.siglas)}

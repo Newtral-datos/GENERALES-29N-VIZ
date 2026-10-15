@@ -317,7 +317,7 @@
 		background: var(--paper);
 		border: 1px solid var(--ink);
 		padding: 8px 10px;
-		box-shadow: 2px 2px 0 rgba(10, 14, 20, 0.15);
+		box-shadow: var(--shadow-hard);
 	}
 
 	.popup-title {

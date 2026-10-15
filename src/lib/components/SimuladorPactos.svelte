@@ -221,26 +221,26 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 16px;
+		gap: 24px;
 	}
 
 	.candidatos {
 		display: grid;
 		grid-template-columns: 1fr auto 1fr;
 		align-items: center;
-		gap: 12px;
+		gap: 16px;
 		width: 100%;
-		max-width: 640px;
+		max-width: 760px;
 	}
 
 	.candidato {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 4px;
+		gap: 6px;
 		background: var(--paper);
 		border: 1px solid var(--border);
-		padding: 14px 12px;
+		padding: 20px 16px;
 		font-family: inherit;
 		cursor: pointer;
 		transition: border-color 0.15s ease, background 0.15s ease;
@@ -278,12 +278,12 @@
 	}
 
 	.avatar {
-		width: 48px;
-		height: 48px;
+		width: 64px;
+		height: 64px;
 		border-radius: 50%;
 		overflow: hidden;
 		border: 2px solid;
-		margin-bottom: 2px;
+		margin-bottom: 4px;
 	}
 
 	.avatar-img {
@@ -295,7 +295,7 @@
 
 	.candidato-nombre {
 		font-family: var(--font-display);
-		font-size: 12px;
+		font-size: 13px;
 		font-weight: 700;
 		color: var(--ink);
 		text-align: center;
@@ -303,7 +303,7 @@
 
 	.candidato-partido {
 		font-family: var(--font-body);
-		font-size: 9px;
+		font-size: 10px;
 		font-weight: 600;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
@@ -312,21 +312,21 @@
 
 	.candidato-count {
 		font-family: var(--font-mono);
-		font-size: 22px;
+		font-size: 28px;
 		font-weight: 700;
 		color: var(--ink);
-		margin-top: 2px;
+		margin-top: 4px;
 	}
 
 	.candidato-total {
-		font-size: 12px;
+		font-size: 14px;
 		font-weight: 500;
 		color: var(--grey);
 	}
 
 	.candidato-status {
 		font-family: var(--font-body);
-		font-size: 10px;
+		font-size: 11px;
 		font-weight: 600;
 		color: var(--grey);
 	}
@@ -347,26 +347,26 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 8px;
+		gap: 10px;
 	}
 
 	.versus-vs {
 		font-family: var(--font-display);
-		font-size: 11px;
+		font-size: 12px;
 		font-weight: 800;
 		color: var(--grey);
 	}
 
 	.reset {
 		font-family: var(--font-body);
-		font-size: 9px;
+		font-size: 10px;
 		font-weight: 600;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		color: var(--grey);
 		background: none;
 		border: 1px solid var(--border);
-		padding: 5px 8px;
+		padding: 6px 10px;
 		cursor: pointer;
 		white-space: nowrap;
 	}
@@ -378,7 +378,7 @@
 
 	.instrucciones {
 		font-family: var(--font-body);
-		font-size: 11px;
+		font-size: 12px;
 		font-style: italic;
 		color: var(--grey);
 		text-align: center;
@@ -389,14 +389,14 @@
 	.barra-wrap {
 		position: relative;
 		width: 100%;
-		max-width: 620px;
-		padding-top: 22px;
+		max-width: 680px;
+		padding-top: 30px;
 	}
 
 	.barra-track {
 		display: flex;
 		width: 100%;
-		height: 26px;
+		height: 34px;
 		background: #f0f0f0;
 		border-top: 1px solid var(--border);
 		border-bottom: 1px solid var(--border);
@@ -429,7 +429,7 @@
 	.barra-seg-label {
 		color: #fff;
 		font-family: var(--font-mono);
-		font-size: 10px;
+		font-size: 11px;
 		font-weight: 700;
 	}
 
@@ -451,24 +451,24 @@
 	.maj-text {
 		white-space: nowrap;
 		font-family: var(--font-body);
-		font-size: 8px;
+		font-size: 9px;
 		font-weight: 600;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 		color: var(--ink);
 		text-align: center;
 		line-height: 1.1;
-		margin-bottom: 6px;
+		margin-bottom: 8px;
 	}
 
 	.maj-text b {
 		font-family: var(--font-mono);
-		font-size: 10px;
+		font-size: 11px;
 	}
 
 	.maj-line {
 		width: 1px;
-		height: 26px;
+		height: 34px;
 		background: var(--ink);
 	}
 
@@ -476,21 +476,21 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		gap: 6px;
+		gap: 8px;
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		max-width: 620px;
+		max-width: 680px;
 	}
 
 	.chip {
 		display: flex;
 		align-items: center;
-		gap: 5px;
+		gap: 6px;
 		font-family: inherit;
 		background: var(--paper);
 		border: 1px solid var(--border);
-		padding: 4px 8px;
+		padding: 6px 10px;
 		cursor: pointer;
 	}
 
@@ -499,21 +499,21 @@
 	}
 
 	.chip-swatch {
-		width: 7px;
-		height: 7px;
+		width: 8px;
+		height: 8px;
 		flex-shrink: 0;
 	}
 
 	.chip-name {
 		font-family: var(--font-body);
-		font-size: 10px;
+		font-size: 11px;
 		font-weight: 600;
 		color: var(--ink);
 	}
 
 	.chip-seats {
 		font-family: var(--font-mono);
-		font-size: 10px;
+		font-size: 11px;
 		color: var(--grey);
 	}
 
@@ -540,24 +540,21 @@
 		.versus {
 			grid-column: 1 / -1;
 			order: 3;
-			margin-top: 4px;
-		}
-
-		.versus-vs {
-			display: none;
+			flex-direction: row;
+			gap: 12px;
 		}
 
 		.candidato {
-			padding: 10px 8px;
+			padding: 14px 10px;
 		}
 
 		.avatar {
-			width: 38px;
-			height: 38px;
+			width: 44px;
+			height: 44px;
 		}
 
 		.candidato-count {
-			font-size: 18px;
+			font-size: 22px;
 		}
 
 		.candidato-aliados {
