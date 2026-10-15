@@ -1,0 +1,2940 @@
+{
+  "nacional": {
+    "fecha": "2023-07-23",
+    "totalEscanos": 208,
+    "totalEscanosCamara": 266,
+    "escanosDesignadosPendientes": 58,
+    "mayoria": 134,
+    "partidos": [
+      {
+        "nombre": "PARTIDO POPULAR",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "escanos": 120,
+        "escanosAnterior": 135
+      },
+      {
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "escanos": 73,
+        "escanosAnterior": 61
+      },
+      {
+        "nombre": "EUSKAL HERRIA BILDU",
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "escanos": 4,
+        "escanosAnterior": 3
+      },
+      {
+        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "escanos": 4,
+        "escanosAnterior": 5
+      },
+      {
+        "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+        "siglas": "ERC",
+        "color": "#FFB400",
+        "lado": 1,
+        "escanos": 3,
+        "escanosAnterior": 1
+      },
+      {
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "siglas": "ASG",
+        "color": "#7B3FA0",
+        "lado": 1,
+        "escanos": 1,
+        "escanosAnterior": 1
+      },
+      {
+        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+        "siglas": "A.H.I.",
+        "color": "#B5651D",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": 1
+      },
+      {
+        "nombre": "JUNTS PER CATALUNYA - JUNTS",
+        "siglas": "JxCAT - JUNTS",
+        "color": "#0B8457",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": 0
+      },
+      {
+        "nombre": "UNION DEL PUEBLO NAVARRO",
+        "siglas": "U.P.N.",
+        "color": "#1B3A6B",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": 1
+      }
+    ],
+    "anterior": {
+      "etiqueta": "Elección anterior (datos simulados)",
+      "totalEscanos": 208,
+      "mayoria": 134
+    }
+  },
+  "provincias": {
+    "04": {
+      "nombre": "Almería",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Almería",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Miguel Ángel Castellón Rubio",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 129806
+            },
+            {
+              "nombre": "Juan José Matarí Sáez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 125559
+            },
+            {
+              "nombre": "Carmen Belén López Zapata",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 124493
+            },
+            {
+              "nombre": "Antonio Martínez Rodríguez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 91868
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "nombre": "Cádiz",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Cádiz",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "José Ignacio Landaluce Calleja",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 223648
+            },
+            {
+              "nombre": "María José García-Pelayo Jurado",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 216236
+            },
+            {
+              "nombre": "María del Carmen Pérez Becerra",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 208400
+            },
+            {
+              "nombre": "Alfonso Carlos Moscoso González",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 206747
+            }
+          ]
+        }
+      ]
+    },
+    "14": {
+      "nombre": "Córdoba",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Córdoba",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Fernando Priego Chacón",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 174571
+            },
+            {
+              "nombre": "Cristina Casanueva Jiménez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 170525
+            },
+            {
+              "nombre": "Lorena Guerra Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 166484
+            },
+            {
+              "nombre": "María de los Ángeles Luna Morales",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 146697
+            }
+          ]
+        }
+      ]
+    },
+    "18": {
+      "nombre": "Granada",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Granada",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Vicente Azpitarte Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 188627
+            },
+            {
+              "nombre": "Francisco Joaquín Camacho Borrego",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 184219
+            },
+            {
+              "nombre": "María Eva Martín Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 182755
+            },
+            {
+              "nombre": "José Entrena Ávila",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 168819
+            }
+          ]
+        }
+      ]
+    },
+    "21": {
+      "nombre": "Huelva",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Huelva",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Carmelo Romero Hernández",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 93630
+            },
+            {
+              "nombre": "María Eugenia Limón Bayo",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 92269
+            },
+            {
+              "nombre": "Juan Manuel González Camacho",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 89953
+            },
+            {
+              "nombre": "Amaro Huelva Betanzos",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 87611
+            }
+          ]
+        }
+      ]
+    },
+    "23": {
+      "nombre": "Jaén",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Jaén",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Francisco Javier Márquez Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 141443
+            },
+            {
+              "nombre": "Mariola Aranda García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 138351
+            },
+            {
+              "nombre": "José Latorre Ruiz",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 133826
+            },
+            {
+              "nombre": "Francisco Javier Bermúdez Carrillo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 133344
+            }
+          ]
+        }
+      ]
+    },
+    "29": {
+      "nombre": "Málaga",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Málaga",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "José Alberto Armijo Navas",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 304853
+            },
+            {
+              "nombre": "Ángel Luis González Muñoz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 292062
+            },
+            {
+              "nombre": "Lucía Yeves Leal",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 288692
+            },
+            {
+              "nombre": "Rafael Granados Ruiz",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 239075
+            }
+          ]
+        }
+      ]
+    },
+    "41": {
+      "nombre": "Sevilla",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Sevilla",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Antonio Gutiérrez Limones",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 382095
+            },
+            {
+              "nombre": "Eva Patricia Bueno Campanario",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 374032
+            },
+            {
+              "nombre": "Juan Manuel Ávila Gutiérrez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 356631
+            },
+            {
+              "nombre": "Antonio Muñoz Martínez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 356536
+            }
+          ]
+        }
+      ]
+    },
+    "22": {
+      "nombre": "Huesca",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Huesca",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Melania Mur Sangrá",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 46025
+            },
+            {
+              "nombre": "Javier Campoy Monreal",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 44828
+            },
+            {
+              "nombre": "Ana María Beltrán Villalba",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 43718
+            },
+            {
+              "nombre": "Rosa María Serrano Sierra",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 41182
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "nombre": "Teruel",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Teruel",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Emma Buj Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 27056
+            },
+            {
+              "nombre": "Carmen Pobo Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 25719
+            },
+            {
+              "nombre": "Manuel Blasco Marqués",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 25359
+            },
+            {
+              "nombre": "María José Villalba Chavarría",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 21524
+            }
+          ]
+        }
+      ]
+    },
+    "50": {
+      "nombre": "Zaragoza",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Zaragoza",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Luisa Fernanda Rudi Úbeda",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 191671
+            },
+            {
+              "nombre": "María del Rocío Divar Conde",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 184753
+            },
+            {
+              "nombre": "José Manuel Aranda Lassa",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 181503
+            },
+            {
+              "nombre": "Miguel Carmelo Dalmau Blanco",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 165978
+            }
+          ]
+        }
+      ]
+    },
+    "33": {
+      "nombre": "Asturias",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Asturias",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Pablo González Menéndez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 216691
+            },
+            {
+              "nombre": "María Fernández Álvarez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 215066
+            },
+            {
+              "nombre": "María Teresa Mallada de Castro",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 213858
+            },
+            {
+              "nombre": "José Manuel Fernández Díaz (Chami)",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 209295
+            }
+          ]
+        }
+      ]
+    },
+    "07": {
+      "nombre": "Illes Balears",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Mallorca",
+          "escanos": 3,
+          "ganadores": [
+            {
+              "nombre": "María Salom Coll",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 143225
+            },
+            {
+              "nombre": "Martí Ángel Torres Valls",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 135984
+            },
+            {
+              "nombre": "Pere Joan Pons Sampietro",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 120255
+            }
+          ]
+        },
+        {
+          "nombre": "Menorca",
+          "escanos": 1,
+          "ganadores": [
+            {
+              "nombre": "Cristóbal Marqués Palliser",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 16222
+            }
+          ]
+        },
+        {
+          "nombre": "Eivissa-Formentera",
+          "escanos": 1,
+          "ganadores": [
+            {
+              "nombre": "Juanjo Ferrer Martínez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 26389
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "nombre": "Las Palmas",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 4
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 4
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Gran Canaria",
+          "escanos": 3,
+          "ganadores": [
+            {
+              "nombre": "Ramón Morales Quesada",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 149463
+            },
+            {
+              "nombre": "Marta Jorgina Saavedra Doménech",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 143368
+            },
+            {
+              "nombre": "Sergio Ramos Acosta",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 124098
+            }
+          ]
+        },
+        {
+          "nombre": "Lanzarote",
+          "escanos": 1,
+          "ganadores": [
+            {
+              "nombre": "Francisco Manuel Fajardo Palarea",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 21618
+            }
+          ]
+        },
+        {
+          "nombre": "Fuerteventura",
+          "escanos": 1,
+          "ganadores": [
+            {
+              "nombre": "Paloma Hernández Cerezo",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 10878
+            }
+          ]
+        }
+      ]
+    },
+    "38": {
+      "nombre": "Santa Cruz de Tenerife",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        },
+        {
+          "siglas": "ASG",
+          "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+          "color": "#7B3FA0",
+          "escanos": 1
+        },
+        {
+          "siglas": "A.H.I.",
+          "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+          "color": "#B5651D",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Tenerife",
+          "escanos": 3,
+          "ganadores": [
+            {
+              "nombre": "Pedro Manuel Martín Domínguez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 147040
+            },
+            {
+              "nombre": "Marta Arocha Correa",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 138640
+            },
+            {
+              "nombre": "Emilio José Navarro Castanedo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 122111
+            }
+          ]
+        },
+        {
+          "nombre": "La Palma",
+          "escanos": 1,
+          "ganadores": [
+            {
+              "nombre": "Kilian Sánchez San Juan",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 12912
+            }
+          ]
+        },
+        {
+          "nombre": "La Gomera",
+          "escanos": 1,
+          "ganadores": [
+            {
+              "nombre": "Fabián Chinea Correa",
+              "siglas": "ASG",
+              "color": "#7B3FA0",
+              "votos": 3996
+            }
+          ]
+        },
+        {
+          "nombre": "El Hierro",
+          "escanos": 1,
+          "ganadores": [
+            {
+              "nombre": "Aniceto Javier Armas González",
+              "siglas": "A.H.I.",
+              "color": "#B5651D",
+              "votos": 2189
+            }
+          ]
+        }
+      ]
+    },
+    "39": {
+      "nombre": "Cantabria",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Cantabria",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Elena Castillo López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 151183
+            },
+            {
+              "nombre": "Severiano Ángel Cuesta Alonso",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 147367
+            },
+            {
+              "nombre": "Juan Carlos García Diego",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 145735
+            },
+            {
+              "nombre": "Secundino Caso Roiz",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 116730
+            }
+          ]
+        }
+      ]
+    },
+    "02": {
+      "nombre": "Albacete",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Albacete",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Simón Valentín Bueno Vargas",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 91216
+            },
+            {
+              "nombre": "Miriam García Navarro",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 89492
+            },
+            {
+              "nombre": "Pilar Milagros Rojo Noguera",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 87462
+            },
+            {
+              "nombre": "Amparo Torres Valencoso",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 77585
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "nombre": "Ciudad Real",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Ciudad Real",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Rosa María Romero Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 117847
+            },
+            {
+              "nombre": "Leopoldo Jerónimo Sierra Gallardo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 116163
+            },
+            {
+              "nombre": "Raúl Dalmacio Valero Mejía",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 114024
+            },
+            {
+              "nombre": "Julián Nieva Delgado",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 100666
+            }
+          ]
+        }
+      ]
+    },
+    "16": {
+      "nombre": "Cuenca",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Cuenca",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Benjamín Prieto Valencia",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 46726
+            },
+            {
+              "nombre": "María Jesús Bonilla Domínguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 45986
+            },
+            {
+              "nombre": "Alejo Joaquín Miranda de Larra Arnaiz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 44687
+            },
+            {
+              "nombre": "Carmen Torralba Valiente",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 42177
+            }
+          ]
+        }
+      ]
+    },
+    "19": {
+      "nombre": "Guadalajara",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Guadalajara",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Lucas Castillo Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 52910
+            },
+            {
+              "nombre": "María Patricio Zafra",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 51531
+            },
+            {
+              "nombre": "María Montserrat Rivas de la Torre",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 50376
+            },
+            {
+              "nombre": "Araceli Martínez Esteban",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 47313
+            }
+          ]
+        }
+      ]
+    },
+    "45": {
+      "nombre": "Toledo",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Toledo",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Vicente Tirado Ochoa",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 152356
+            },
+            {
+              "nombre": "Israel Roberto Pérez Jiménez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 148728
+            },
+            {
+              "nombre": "Carmen Riolobos Regadera",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 147509
+            },
+            {
+              "nombre": "José Manuel Tofiño Pérez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 130046
+            }
+          ]
+        }
+      ]
+    },
+    "05": {
+      "nombre": "Ávila",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Ávila",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Juan Pablo Martín Martín",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 42755
+            },
+            {
+              "nombre": "Alicia García Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 41693
+            },
+            {
+              "nombre": "Piedad Sánchez García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 40692
+            },
+            {
+              "nombre": "Jesús Caro Adanero",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 25946
+            }
+          ]
+        }
+      ]
+    },
+    "09": {
+      "nombre": "Burgos",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Burgos",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Francisco Javier Lacalle Lacalle",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 81393
+            },
+            {
+              "nombre": "Salvador de Foronda Vaquero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 80357
+            },
+            {
+              "nombre": "Raquel González Benito",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 78401
+            },
+            {
+              "nombre": "Ander Gil García",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 69754
+            }
+          ]
+        }
+      ]
+    },
+    "24": {
+      "nombre": "León",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "León",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Antonio Silván Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 101403
+            },
+            {
+              "nombre": "María Asunción Mayo Fernández",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 99272
+            },
+            {
+              "nombre": "Jorge García Vega",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 97396
+            },
+            {
+              "nombre": "Salvador Vidal Varela",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 90619
+            }
+          ]
+        }
+      ]
+    },
+    "34": {
+      "nombre": "Palencia",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Palencia",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Jorge Domingo Martínez Antolín",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 40929
+            },
+            {
+              "nombre": "Carlos Alfonso Polanco Rebolleda",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 39469
+            },
+            {
+              "nombre": "María José Ortega Gómez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 39366
+            },
+            {
+              "nombre": "Rosa María Aldea Gómez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 34903
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "nombre": "Salamanca",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Salamanca",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Bienvenido De Arriba Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 93848
+            },
+            {
+              "nombre": "Gonzalo Jesús Robles Orozco",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 91723
+            },
+            {
+              "nombre": "Esther Basilia Del Brío González",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 91148
+            },
+            {
+              "nombre": "Elena Diego Castellanos",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 59967
+            }
+          ]
+        }
+      ]
+    },
+    "40": {
+      "nombre": "Segovia",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Segovia",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Paloma Inés Sanz Jerónimo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 40424
+            },
+            {
+              "nombre": "Juan José Sanz Vitorio",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 39439
+            },
+            {
+              "nombre": "María Angeles García Herrero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 38781
+            },
+            {
+              "nombre": "María del Lirio Martín García",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 27996
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "nombre": "Soria",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Soria",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "José Manuel Hernando García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 18456
+            },
+            {
+              "nombre": "Javier Jiménez Santamaría",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 17796
+            },
+            {
+              "nombre": "María Cristina Rubio Blasco",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 17280
+            },
+            {
+              "nombre": "Javier Antón Cacho",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 14611
+            }
+          ]
+        }
+      ]
+    },
+    "47": {
+      "nombre": "Valladolid",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Valladolid",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Jesús Julio Carnero García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 130827
+            },
+            {
+              "nombre": "José Ángel Alonso Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 129357
+            },
+            {
+              "nombre": "María Arenales Serrano Argüello",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 127564
+            },
+            {
+              "nombre": "José Javier Izquierdo Roncero",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 105958
+            }
+          ]
+        }
+      ]
+    },
+    "49": {
+      "nombre": "Zamora",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Zamora",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "José María Barrios Tejero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 45476
+            },
+            {
+              "nombre": "Natalia Ucero Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 44350
+            },
+            {
+              "nombre": "Fernando Martínez-Maíllo Toribio",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 44167
+            },
+            {
+              "nombre": "José Fernández Blanco",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 33553
+            }
+          ]
+        }
+      ]
+    },
+    "08": {
+      "nombre": "Barcelona",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "ERC",
+          "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+          "color": "#FFB400",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Barcelona",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "MANUEL CRUZ RODRÍGUEZ",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 858698
+            },
+            {
+              "nombre": "ELENA VILA GÓMEZ",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 829562
+            },
+            {
+              "nombre": "GABRIEL COLOMÉ GARCÍA",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 769248
+            },
+            {
+              "nombre": "Joan Queralt i Jiménez",
+              "siglas": "ERC",
+              "color": "#FFB400",
+              "votos": 488137
+            }
+          ]
+        }
+      ]
+    },
+    "17": {
+      "nombre": "Girona",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "color": "#0B8457",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Girona",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Consol Canteny Arbolí",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 83432
+            },
+            {
+              "nombre": "Martí Sans Pairuto",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 76372
+            },
+            {
+              "nombre": "Lluïsa Blanch Fulcarà",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 74739
+            },
+            {
+              "nombre": "Joan Bagué Roura",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 73006
+            }
+          ]
+        }
+      ]
+    },
+    "25": {
+      "nombre": "Lleida",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "ERC",
+          "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+          "color": "#FFB400",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Lleida",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Dionís Oña Martín",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 48601
+            },
+            {
+              "nombre": "Pasión Gador Romero García",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 45632
+            },
+            {
+              "nombre": "Jan Pomés López",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 44353
+            },
+            {
+              "nombre": "Sara Bailac i Ardanuy",
+              "siglas": "ERC",
+              "color": "#FFB400",
+              "votos": 43919
+            }
+          ]
+        }
+      ]
+    },
+    "43": {
+      "nombre": "Tarragona",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "ERC",
+          "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+          "color": "#FFB400",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Tarragona",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Manel de la Vega Carrera",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 108820
+            },
+            {
+              "nombre": "Núria Rovira Costas",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 106336
+            },
+            {
+              "nombre": "Mario Soler Santos",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 99154
+            },
+            {
+              "nombre": "Jordi Gaseni Blanch",
+              "siglas": "ERC",
+              "color": "#FFB400",
+              "votos": 71440
+            }
+          ]
+        }
+      ]
+    },
+    "06": {
+      "nombre": "Badajoz",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 2
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 2
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Badajoz",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Rafael Damián Lemus Rubiales",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 151087
+            },
+            {
+              "nombre": "María Teresa Macías Mateos",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 150764
+            },
+            {
+              "nombre": "José Antonio Monago Terraza",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 148448
+            },
+            {
+              "nombre": "Carmen Pagador López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 147020
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "nombre": "Cáceres",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Cáceres",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Mónica Grados Caro",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 90104
+            },
+            {
+              "nombre": "Miguel Ángel Nacarino Muriel",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 89108
+            },
+            {
+              "nombre": "María Isabel Moreno Duque",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 88668
+            },
+            {
+              "nombre": "María Dolores Marcos Moyano",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 88062
+            }
+          ]
+        }
+      ]
+    },
+    "15": {
+      "nombre": "A Coruña",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "A Coruña",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Rosa María Gallego Neira",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 282314
+            },
+            {
+              "nombre": "Verónica María Casal Míguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 274545
+            },
+            {
+              "nombre": "Manuel Santos Ruiz Rivas",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 271990
+            },
+            {
+              "nombre": "José Antonio Sánchez Bugallo",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 191809
+            }
+          ]
+        }
+      ]
+    },
+    "27": {
+      "nombre": "Lugo",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Lugo",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "José Manuel Barreiro Fernández",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 95897
+            },
+            {
+              "nombre": "María José Gómez Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 94187
+            },
+            {
+              "nombre": "Juan Carlos Serrano López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 92419
+            },
+            {
+              "nombre": "César Alejandro Mogo Zaro",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 58773
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "nombre": "Ourense",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Ourense",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "María del Carmen Leyte Coello",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 88910
+            },
+            {
+              "nombre": "Luis Menor Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 87593
+            },
+            {
+              "nombre": "Rosa María Sánchez Gándara",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 85657
+            },
+            {
+              "nombre": "Rafael Rodríguez Villarino",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 52444
+            }
+          ]
+        }
+      ]
+    },
+    "36": {
+      "nombre": "Pontevedra",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Pontevedra",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "María José Pardo Pumar «Pepa»",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 220415
+            },
+            {
+              "nombre": "José Crespo Iglesias",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 215311
+            },
+            {
+              "nombre": "Nidia María Arévalo Gómez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 212456
+            },
+            {
+              "nombre": "María del Carmen Silva Rego «Carmela»",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 186980
+            }
+          ]
+        }
+      ]
+    },
+    "28": {
+      "nombre": "Madrid",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Madrid",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Pedro Rollán Ojeda",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 1505318
+            },
+            {
+              "nombre": "Pío García-Escudero Márquez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 1468969
+            },
+            {
+              "nombre": "Paloma Martín Martín",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 1453394
+            },
+            {
+              "nombre": "José Manuel Franco Pardo",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 1063568
+            }
+          ]
+        }
+      ]
+    },
+    "31": {
+      "nombre": "Navarra",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "U.P.N.",
+          "nombre": "UNION DEL PUEBLO NAVARRO",
+          "color": "#1B3A6B",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Navarra",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Javier Remírez Apesteguía",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 93448
+            },
+            {
+              "nombre": "Nuria Medina Santos",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 89107
+            },
+            {
+              "nombre": "Antonio Magdaleno Alegria",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 83435
+            },
+            {
+              "nombre": "María Mar Caballero Martínez",
+              "siglas": "U.P.N.",
+              "color": "#1B3A6B",
+              "votos": 66132
+            }
+          ]
+        }
+      ]
+    },
+    "01": {
+      "nombre": "Araba / Álava",
+      "ganador": {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Araba/Álava",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Julia María Liberal Liberal",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 45868
+            },
+            {
+              "nombre": "Adolfo Lander Vera",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 42738
+            },
+            {
+              "nombre": "Paula Somalo García",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 42148
+            },
+            {
+              "nombre": "Josu Estarrona Elizondo",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 35535
+            }
+          ]
+        }
+      ]
+    },
+    "20": {
+      "nombre": "Gipuzkoa",
+      "ganador": {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 3
+        },
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "color": "#00843D",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Gipuzkoa",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Gorka Elejabarrieta Díaz",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 118906
+            },
+            {
+              "nombre": "Olaia Duarte Lopez",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 117073
+            },
+            {
+              "nombre": "Mario Zubiaga Garate",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 112565
+            },
+            {
+              "nombre": "Luke Uribe-Etxebarria Apalategi",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 90080
+            }
+          ]
+        }
+      ]
+    },
+    "48": {
+      "nombre": "Bizkaia",
+      "ganador": {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "color": "#00843D",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Bizkaia",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Nerea Ahedo Ceza",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 176614
+            },
+            {
+              "nombre": "María Dolores Etxano Varela",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 167622
+            },
+            {
+              "nombre": "Igotz Lopez Torre",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 164577
+            },
+            {
+              "nombre": "Txema Oleaga Zalvidea",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 154134
+            }
+          ]
+        }
+      ]
+    },
+    "30": {
+      "nombre": "Murcia",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Murcia",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Francisco Martín Bernabé Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 303628
+            },
+            {
+              "nombre": "Antonio Luengo Zapata",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 295678
+            },
+            {
+              "nombre": "Antonia López Moya",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 292705
+            },
+            {
+              "nombre": "Inmaculada Sánchez Roca",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 199680
+            }
+          ]
+        }
+      ]
+    },
+    "26": {
+      "nombre": "La Rioja",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "La Rioja",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Luis Martínez Portillo Subero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 79729
+            },
+            {
+              "nombre": "Carlos Yécora Roca",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 78360
+            },
+            {
+              "nombre": "María del Mar San Martín Ibarra",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 77762
+            },
+            {
+              "nombre": "Concepción Andreu Rodríguez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 62066
+            }
+          ]
+        }
+      ]
+    },
+    "03": {
+      "nombre": "Alicante / Alacant",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Alacant/Alicante",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Eva Ortiz Vilella",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 338386
+            },
+            {
+              "nombre": "Agustín Almodóbar Barceló",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 326809
+            },
+            {
+              "nombre": "María Dolores Esteve Juan",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 322094
+            },
+            {
+              "nombre": "Ana Martínez Zaragoza",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 300586
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "nombre": "Castellón / Castelló",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Castelló/Castellón",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Vicente Martínez Mus",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 111393
+            },
+            {
+              "nombre": "Susana Marqués Escoín",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 109397
+            },
+            {
+              "nombre": "Amparo Marco Gual",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 107391
+            },
+            {
+              "nombre": "Vicente Tejedo Tormo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 105932
+            }
+          ]
+        }
+      ]
+    },
+    "46": {
+      "nombre": "Valencia / València",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "València/Valencia",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Estela Del Carmen Darocas Marin",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 503009
+            },
+            {
+              "nombre": "Juan Antonio Sagredo Marco",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 496571
+            },
+            {
+              "nombre": "Luis Javier Santamaría Ruiz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 485817
+            },
+            {
+              "nombre": "Cristina Moreno Fernández",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 482194
+            }
+          ]
+        }
+      ]
+    },
+    "51": {
+      "nombre": "Ceuta",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Ceuta",
+          "escanos": 2,
+          "ganadores": [
+            {
+              "nombre": "Cristina Díaz Moreno",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 12219
+            },
+            {
+              "nombre": "Abdelhakim Abdeselam Al Lal",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 11715
+            }
+          ]
+        }
+      ]
+    },
+    "52": {
+      "nombre": "Melilla",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Melilla",
+          "escanos": 2,
+          "ganadores": [
+            {
+              "nombre": "Fernando Adolfo Gutiérrez Díaz de Otazu",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 13501
+            },
+            {
+              "nombre": "Isabel María Moreno Mohamed",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 12961
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

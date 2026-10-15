@@ -1,1 +1,0 @@
-import"./BGNIosyP.js";
