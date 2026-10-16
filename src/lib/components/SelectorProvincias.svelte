@@ -166,7 +166,6 @@
 						{@const r = municipioSeleccionado.resultado}
 						<ul class="stats">
 							<li><span class="stat-label">Censo</span><span class="stat-value">{formatMiles(r.censo)}</span></li>
-							<li><span class="stat-label">Mesas</span><span class="stat-value">{formatMiles(r.mesas)}</span></li>
 							<li><span class="stat-label">Votantes</span><span class="stat-value">{formatMiles(r.votantes)}</span></li>
 							<li><span class="stat-label">Participación</span><span class="stat-value">{r.participacionPct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</span></li>
 							<li><span class="stat-label">Válidos</span><span class="stat-value">{formatMiles(r.validos)}</span></li>
@@ -181,10 +180,12 @@
 										<th class="th-left">Partido</th>
 										<th>Votos</th>
 										<th>%</th>
+										<th>Dif. %</th>
 									</tr>
 								</thead>
 								<tbody>
 									{#each r.principales as p (p.siglas)}
+										{@const difPct = p.pctVotosAnterior === null ? null : Math.round((p.pctVotos - p.pctVotosAnterior) * 100) / 100}
 										<tr>
 											<td>
 												<div class="party-cell">
@@ -194,6 +195,15 @@
 											</td>
 											<td class="num">{formatMiles(p.votos)}</td>
 											<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
+											<td class="num">
+												{#if difPct === null}
+													<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+												{:else}
+													<span class="dif" class:up={difPct > 0} class:down={difPct < 0}>
+														{difPct > 0 ? '+' : ''}{difPct.toLocaleString('es-ES', { minimumFractionDigits: 2 })}
+													</span>
+												{/if}
+											</td>
 										</tr>
 									{/each}
 									{#if r.otros.numCandidaturas > 0}
@@ -206,6 +216,7 @@
 											</td>
 											<td class="num">{formatMiles(r.otros.votos)}</td>
 											<td class="num">{r.otros.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
+											<td class="num">—</td>
 										</tr>
 									{/if}
 								</tbody>
@@ -241,11 +252,15 @@
 									<th class="th-left">Partido</th>
 									<th>Votos</th>
 									<th>%</th>
+									<th>Dif. %</th>
 									<th>Escaños</th>
+									<th>Dif.</th>
 								</tr>
 							</thead>
 							<tbody>
 								{#each activa.principales as p (p.siglas)}
+									{@const dif = p.escanosAnterior === null ? null : p.escanos - p.escanosAnterior}
+									{@const difPct = p.pctVotosAnterior === null ? null : Math.round((p.pctVotos - p.pctVotosAnterior) * 100) / 100}
 									<tr>
 										<td>
 											<div class="party-cell">
@@ -255,7 +270,25 @@
 										</td>
 										<td class="num">{formatMiles(p.votos)}</td>
 										<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
+										<td class="num">
+											{#if difPct === null}
+												<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+											{:else}
+												<span class="dif" class:up={difPct > 0} class:down={difPct < 0}>
+													{difPct > 0 ? '+' : ''}{difPct.toLocaleString('es-ES', { minimumFractionDigits: 2 })}
+												</span>
+											{/if}
+										</td>
 										<td class="num seats">{p.escanos}</td>
+										<td class="num">
+											{#if dif === null}
+												<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+											{:else}
+												<span class="dif" class:up={dif > 0} class:down={dif < 0}>
+													{dif > 0 ? '+' : ''}{dif}
+												</span>
+											{/if}
+										</td>
 									</tr>
 								{/each}
 								{#if activa.otros.numCandidaturas > 0}
@@ -268,7 +301,9 @@
 										</td>
 										<td class="num">{formatMiles(activa.otros.votos)}</td>
 										<td class="num">{activa.otros.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
+										<td class="num">—</td>
 										<td class="num seats">—</td>
+										<td class="num">—</td>
 									</tr>
 								{/if}
 							</tbody>
@@ -342,8 +377,8 @@
 	}
 
 	.volver-muni:hover {
-		background: var(--ink);
-		color: var(--paper);
+		background: var(--c);
+		color: var(--ink);
 		box-shadow: var(--shadow-hard-lift);
 		transform: translate(-2px, -2px);
 	}
@@ -621,6 +656,21 @@
 		font-size: 12px;
 		font-weight: 700;
 		color: var(--ink);
+	}
+
+	.dif {
+		font-family: var(--font-mono);
+		font-size: 11px;
+		font-weight: 700;
+		color: var(--grey);
+	}
+
+	.dif.up {
+		color: #0a7a4a;
+	}
+
+	.dif.down {
+		color: var(--stamp);
 	}
 
 	.nota {

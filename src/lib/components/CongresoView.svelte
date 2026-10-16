@@ -5,6 +5,7 @@
 	import MapaProvincias from '#lib/components/MapaProvincias.svelte';
 	import SimuladorTeaser from '#lib/components/SimuladorTeaser.svelte';
 	import ProvinciasTeaser from '#lib/components/ProvinciasTeaser.svelte';
+	import ParticipacionTeaser from '#lib/components/ParticipacionTeaser.svelte';
 </script>
 
 <main class="main">
@@ -28,6 +29,7 @@
 <div class="teasers">
 	<SimuladorTeaser />
 	<ProvinciasTeaser />
+	<ParticipacionTeaser />
 </div>
 
 <style>
@@ -69,7 +71,13 @@
 
 	.teasers {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
+	}
+
+	@media (min-width: 900px) {
+		.teasers {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 	}
 
 	@media (max-width: 640px) {

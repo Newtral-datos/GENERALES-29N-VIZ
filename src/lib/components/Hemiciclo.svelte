@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getResultados23j, type Nacional, type Partido } from '#lib/data';
+	import { getResultados23j, type Nacional } from '#lib/data';
 
 	let nacional = $state<Nacional | null>(null);
 
@@ -36,13 +36,14 @@
 		oR = 180,
 		iR = 132;
 
-	// Anillo interior: comparativa con la elección anterior (datos simulados, ver JSON).
+	// Anillo interior: composición real de la elección anterior (ver
+	// nacional.anterior.partidos, roster propio e independiente del actual).
 	const oR2 = 116,
 		iR2 = 72;
 
-	const buildSegments = (
-		items: Partido[],
-		getSeats: (p: Partido) => number,
+	const buildSegments = <T extends { lado: number; nombre: string; siglas: string; color: string }>(
+		items: T[],
+		getSeats: (p: T) => number,
 		total: number,
 		ri: number,
 		ro: number,
@@ -71,7 +72,7 @@
 	);
 	let segmentsAnterior = $derived(
 		nacional
-			? buildSegments(nacional.partidos, (p) => p.escanosAnterior, nacional.anterior.totalEscanos, iR2, oR2, 'ant')
+			? buildSegments(nacional.anterior.partidos, (p) => p.escanos, nacional.anterior.totalEscanos, iR2, oR2, 'ant')
 			: []
 	);
 
@@ -158,7 +159,7 @@
 						onmousemove={onSegMove}
 						onmouseleave={onSegLeave}
 					/>
-					<path d={s.path} fill="url(#hatch)" />
+					<path d={s.path} fill="url(#hatch)" pointer-events="none" />
 					{#if s.seats >= 15}
 						<text x={s.lx} y={s.ly} text-anchor="middle" dominant-baseline="middle" class="seg-label-sm">
 							{s.seats}

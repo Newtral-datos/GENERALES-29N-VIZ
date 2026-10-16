@@ -40,8 +40,8 @@
 	}
 
 	.volver:hover {
-		background: var(--ink);
-		color: var(--paper);
+		background: var(--c);
+		color: var(--ink);
 		box-shadow: var(--shadow-hard-lift);
 		transform: translate(-2px, -2px);
 	}

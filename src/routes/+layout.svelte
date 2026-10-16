@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '#lib/assets/favicon.svg';
+	import favicon from '#lib/assets/favicon.png';
 	import EscrutinioHeader from '#lib/components/EscrutinioHeader.svelte';
 	import ChamberTabs from '#lib/components/ChamberTabs.svelte';
 	import type { LayoutProps } from './$types';
@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" type="image/png" href={favicon} />
 </svelte:head>
 
 <div class="page">

@@ -40,8 +40,10 @@
 	const POPUP_H = 150;
 
 	function setPopupPos(x: number, y: number) {
+		const cabeHueco = window.innerWidth - x >= POPUP_W + 20;
+		const left = cabeHueco ? x + 12 : x - POPUP_W - 12;
 		popupPos = {
-			x: Math.min(Math.max(x + 12, 8), window.innerWidth - POPUP_W - 8),
+			x: Math.min(Math.max(left, 8), window.innerWidth - POPUP_W - 8),
 			y: Math.min(Math.max(y + 12, 8), window.innerHeight - POPUP_H - 8)
 		};
 	}
@@ -215,8 +217,14 @@
 
 {#if activeProvincia}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
-		<p class="popup-title">{activeProvincia.nombre}</p>
 		<table class="popup-table">
+			<thead>
+				<tr>
+					<th class="th-left popup-title-cell">{activeProvincia.nombre}</th>
+					<th>Dip.</th>
+					<th>% Voto</th>
+				</tr>
+			</thead>
 			<tbody>
 				{#each activeProvincia.principales.slice(0, 3) as p (p.siglas)}
 					<tr>
@@ -377,21 +385,37 @@
 		box-shadow: var(--shadow-hard);
 	}
 
-	.popup-title {
+	.popup-table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.popup-table thead tr {
+		border-bottom: 1px solid var(--border);
+	}
+
+	.popup-table th {
+		padding: 0 0 4px 0;
+		font-family: var(--font-body);
+		font-size: 9px;
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		text-align: right;
+		color: var(--grey);
+	}
+
+	.popup-title-cell {
 		font-family: var(--font-display);
 		font-size: 11px;
 		font-weight: 700;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		color: var(--ink);
-		margin: 0 0 6px 0;
-		padding-bottom: 4px;
-		border-bottom: 1px solid var(--border);
 	}
 
-	.popup-table {
-		width: 100%;
-		border-collapse: collapse;
+	.popup-table th.th-left {
+		text-align: left;
 	}
 
 	.popup-table td {

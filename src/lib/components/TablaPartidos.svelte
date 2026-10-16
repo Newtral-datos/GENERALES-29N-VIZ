@@ -31,7 +31,7 @@
 					</thead>
 					<tbody>
 						{#each nacional.partidos as p (p.siglas)}
-							{@const dif = p.escanos - p.escanosAnterior}
+							{@const dif = p.escanosAnterior === null ? null : p.escanos - p.escanosAnterior}
 							<tr>
 								<td>
 									<div class="party-cell">
@@ -43,9 +43,13 @@
 								<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 								<td class="num seats">{p.escanos}</td>
 								<td class="num">
-									<span class="dif" class:up={dif > 0} class:down={dif < 0}>
-										{dif > 0 ? '+' : ''}{dif}
-									</span>
+									{#if dif === null}
+										<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+									{:else}
+										<span class="dif" class:up={dif > 0} class:down={dif < 0}>
+											{dif > 0 ? '+' : ''}{dif}
+										</span>
+									{/if}
 								</td>
 							</tr>
 						{/each}

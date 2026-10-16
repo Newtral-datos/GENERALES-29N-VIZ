@@ -1,4 +1,6 @@
 <script lang="ts">
+	import logo from '#lib/assets/logo-newtral.png';
+
 	// TODO: sustituir por el % de escrutinio real cuando haya datos en vivo de la jornada.
 	const ESCRUTINIO_SIMULADO = 92.3;
 
@@ -41,12 +43,16 @@
 			</div>
 		</div>
 	</div>
+
+	<span class="logo-badge">
+		<img class="logo" src={logo} alt="Newtral" />
+	</span>
 </header>
 
 <style>
 	.ticker {
-		background: var(--header-bg);
-		color: #fff;
+		background: var(--paper);
+		color: var(--ink);
 		position: sticky;
 		top: 0;
 		z-index: 50;
@@ -73,7 +79,7 @@
 		display: flex;
 		align-items: center;
 		gap: 14px;
-		padding: 7px 20px 10px;
+		padding: 7px 110px 10px 20px;
 	}
 
 	.stamp {
@@ -104,7 +110,7 @@
 		font-weight: 600;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(10, 14, 20, 0.5);
 		flex-shrink: 0;
 	}
 
@@ -130,7 +136,22 @@
 		flex: 1;
 		position: relative;
 		height: 8px;
-		background: rgba(255, 255, 255, 0.14);
+		background: rgba(10, 14, 20, 0.08);
+	}
+
+	.logo-badge {
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		transform: translateY(-50%);
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		height: 16px;
+		width: auto;
+		display: block;
 	}
 
 	.fill {
@@ -152,7 +173,7 @@
 		top: 0;
 		bottom: 0;
 		width: 1px;
-		background: var(--header-bg);
+		background: var(--paper);
 	}
 
 	@media (max-width: 640px) {
@@ -161,7 +182,7 @@
 		}
 
 		.row {
-			padding: 8px 16px 10px;
+			padding: 8px 100px 10px 16px;
 			gap: 10px;
 			flex-wrap: wrap;
 		}
@@ -174,6 +195,10 @@
 			order: 3;
 			flex-basis: 100%;
 			height: 8px;
+		}
+
+		.logo-badge {
+			right: 16px;
 		}
 	}
 </style>

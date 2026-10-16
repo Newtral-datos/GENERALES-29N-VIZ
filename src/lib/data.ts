@@ -8,8 +8,13 @@ export type Partido = {
 	color: string;
 	lado: number;
 	pctVotos: number;
-	escanosAnterior: number;
+	// null = sin continuidad de marca directa con la convocatoria anterior
+	// (p. ej. SUMAR no existía en 2019, U.P.N. no se presentó sola) — no hay
+	// cifra "propia" con la que comparar, no es un 0 real.
+	escanosAnterior: number | null;
 };
+
+export type PartidoAnterior = { siglas: string; nombre: string; escanos: number; color: string; lado: number };
 
 export type Nacional = {
 	fecha: string;
@@ -24,7 +29,10 @@ export type Nacional = {
 	mayoria: number;
 	partidos: Partido[];
 	otros: { votos: number; pctVotos: number; numCandidaturas: number };
-	anterior: { etiqueta: string; totalEscanos: number; mayoria: number };
+	// Composición real y completa del Congreso en la convocatoria anterior —
+	// lista propia e independiente de `partidos`, puede incluir partidos que
+	// hoy no se presentan (ver congreso_2019_anterior.py).
+	anterior: { etiqueta: string; totalEscanos: number; mayoria: number; partidos: PartidoAnterior[] };
 };
 
 export type PartidoProvincia = {
@@ -34,6 +42,10 @@ export type PartidoProvincia = {
 	escanos: number;
 	pctVotos: number;
 	color: string;
+	// null = sin continuidad de marca directa con 2019, o partido local no
+	// verificado uno a uno (ver congreso_2019_provincias.py) — no es un 0 real.
+	escanosAnterior: number | null;
+	pctVotosAnterior: number | null;
 };
 
 export type Provincia = {
@@ -90,7 +102,15 @@ export function getIndiceMunicipios(): Promise<MunicipioIndice[]> {
 	return cacheIndiceMunicipios;
 }
 
-export type PartidoMunicipio = { siglas: string; color: string; votos: number; pctVotos: number };
+export type PartidoMunicipio = {
+	siglas: string;
+	color: string;
+	votos: number;
+	pctVotos: number;
+	// null = sin continuidad de marca directa con 2019, o partido local no
+	// verificado uno a uno (ver congreso_2019_municipios.py) — no es un 0 real.
+	pctVotosAnterior: number | null;
+};
 
 export type ResultadoMunicipio = {
 	nombre: string;
@@ -131,6 +151,44 @@ export function getResultados23j(): Promise<Resultados23J> {
 		});
 	}
 	return cache;
+}
+
+export type ParticipacionNacional = {
+	censo: number;
+	votantes: number;
+	participacionPct: number;
+	censoAnterior: number;
+	votantesAnterior: number;
+	participacionPctAnterior: number;
+};
+
+export type ParticipacionProvincia = {
+	nombre: string;
+	poblacion: number;
+	mesas: number;
+	censo: number;
+	votantes: number;
+	participacionPct: number;
+	censoAnterior: number;
+	votantesAnterior: number;
+	participacionPctAnterior: number;
+};
+
+export type Participacion23J = {
+	nacional: ParticipacionNacional;
+	provincias: Record<string, ParticipacionProvincia>;
+};
+
+let cacheParticipacion23j: Promise<Participacion23J> | null = null;
+
+export function getParticipacion23j(): Promise<Participacion23J> {
+	if (!cacheParticipacion23j) {
+		cacheParticipacion23j = fetch(asset('data/participacion23j.json'), { cache: 'no-cache' }).then((res) => {
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return res.json();
+		});
+	}
+	return cacheParticipacion23j;
 }
 
 export type PartidoSenado = {
