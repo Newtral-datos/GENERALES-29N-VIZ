@@ -5,7 +5,30 @@
     "participacionPct": 66.59,
     "censoAnterior": 37001379,
     "votantesAnterior": 24507715,
-    "participacionPctAnterior": 66.23
+    "participacionPctAnterior": 66.23,
+    "avances": [
+      {
+        "hora": "14:00",
+        "etiqueta": "Primer avance",
+        "votantes": 14226892,
+        "participacionPct": 37.97,
+        "participacionPctAnterior": 35.74
+      },
+      {
+        "hora": "18:00",
+        "etiqueta": "Segundo avance",
+        "votantes": 18671607,
+        "participacionPct": 49.83,
+        "participacionPctAnterior": 53.58
+      },
+      {
+        "hora": "Cierre",
+        "etiqueta": "Cierre de la jornada",
+        "votantes": 24952447,
+        "participacionPct": 66.59,
+        "participacionPctAnterior": 66.23
+      }
+    ]
   },
   "provincias": {
     "04": {
@@ -17,7 +40,30 @@
       "participacionPct": 62.86,
       "censoAnterior": 502627,
       "votantesAnterior": 305414,
-      "participacionPctAnterior": 60.76
+      "participacionPctAnterior": 60.76,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 192996,
+          "participacionPct": 37.39,
+          "participacionPctAnterior": 32.84
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 246896,
+          "participacionPct": 47.84,
+          "participacionPctAnterior": 48.34
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 324405,
+          "participacionPct": 62.86,
+          "participacionPctAnterior": 60.76
+        }
+      ]
     },
     "11": {
       "nombre": "Cádiz",
@@ -28,7 +74,30 @@
       "participacionPct": 63.34,
       "censoAnterior": 1002295,
       "votantesAnterior": 624195,
-      "participacionPctAnterior": 62.28
+      "participacionPctAnterior": 62.28,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 388082,
+          "participacionPct": 38.12,
+          "participacionPctAnterior": 32.97
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 509085,
+          "participacionPct": 50.01,
+          "participacionPctAnterior": 50.35
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 644801,
+          "participacionPct": 63.34,
+          "participacionPctAnterior": 62.28
+        }
+      ]
     },
     "14": {
       "nombre": "Córdoba",
@@ -39,7 +108,30 @@
       "participacionPct": 70.6,
       "censoAnterior": 648341,
       "votantesAnterior": 451775,
-      "participacionPctAnterior": 69.68
+      "participacionPctAnterior": 69.68,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 288454,
+          "participacionPct": 44.7,
+          "participacionPctAnterior": 36.17
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 351709,
+          "participacionPct": 54.5,
+          "participacionPctAnterior": 55.37
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 455564,
+          "participacionPct": 70.6,
+          "participacionPctAnterior": 69.68
+        }
+      ]
     },
     "18": {
       "nombre": "Granada",
@@ -50,7 +142,30 @@
       "participacionPct": 66.56,
       "censoAnterior": 755007,
       "votantesAnterior": 490902,
-      "participacionPctAnterior": 65.02
+      "participacionPctAnterior": 65.02,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 309560,
+          "participacionPct": 40.44,
+          "participacionPctAnterior": 33.74
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 384334,
+          "participacionPct": 50.21,
+          "participacionPctAnterior": 51.64
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 509486,
+          "participacionPct": 66.56,
+          "participacionPctAnterior": 65.02
+        }
+      ]
     },
     "21": {
       "nombre": "Huelva",
@@ -61,7 +176,30 @@
       "participacionPct": 64.81,
       "censoAnterior": 399019,
       "votantesAnterior": 255329,
-      "participacionPctAnterior": 63.99
+      "participacionPctAnterior": 63.99,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 155282,
+          "participacionPct": 38.58,
+          "participacionPctAnterior": 31.86
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 195554,
+          "participacionPct": 48.58,
+          "participacionPctAnterior": 49.43
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 260861,
+          "participacionPct": 64.81,
+          "participacionPctAnterior": 63.99
+        }
+      ]
     },
     "23": {
       "nombre": "Jaén",
@@ -72,7 +210,30 @@
       "participacionPct": 72.08,
       "censoAnterior": 526659,
       "votantesAnterior": 371043,
-      "participacionPctAnterior": 70.45
+      "participacionPctAnterior": 70.45,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 231732,
+          "participacionPct": 44.7,
+          "participacionPctAnterior": 36.5
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 279134,
+          "participacionPct": 53.85,
+          "participacionPctAnterior": 54.94
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 373657,
+          "participacionPct": 72.08,
+          "participacionPctAnterior": 70.45
+        }
+      ]
     },
     "29": {
       "nombre": "Málaga",
@@ -83,7 +244,30 @@
       "participacionPct": 64.41,
       "censoAnterior": 1197688,
       "votantesAnterior": 766819,
-      "participacionPctAnterior": 64.02
+      "participacionPctAnterior": 64.02,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 472991,
+          "participacionPct": 38.15,
+          "participacionPctAnterior": 33.45
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 623854,
+          "participacionPct": 50.32,
+          "participacionPctAnterior": 51.65
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 798557,
+          "participacionPct": 64.41,
+          "participacionPctAnterior": 64.02
+        }
+      ]
     },
     "41": {
       "nombre": "Sevilla",
@@ -94,7 +278,30 @@
       "participacionPct": 68.74,
       "censoAnterior": 1547744,
       "votantesAnterior": 1071247,
-      "participacionPctAnterior": 69.21
+      "participacionPctAnterior": 69.21,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 652536,
+          "participacionPct": 41.72,
+          "participacionPctAnterior": 36.28
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 813677,
+          "participacionPct": 52.02,
+          "participacionPctAnterior": 56.17
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 1075133,
+          "participacionPct": 68.74,
+          "participacionPctAnterior": 69.21
+        }
+      ]
     },
     "22": {
       "nombre": "Huesca",
@@ -105,7 +312,30 @@
       "participacionPct": 69.87,
       "censoAnterior": 172722,
       "votantesAnterior": 114791,
-      "participacionPctAnterior": 66.46
+      "participacionPctAnterior": 66.46,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 68223,
+          "participacionPct": 39.35,
+          "participacionPctAnterior": 35.99
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 86785,
+          "participacionPct": 50.05,
+          "participacionPctAnterior": 51.82
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 121148,
+          "participacionPct": 69.87,
+          "participacionPctAnterior": 66.46
+        }
+      ]
     },
     "44": {
       "nombre": "Teruel",
@@ -116,7 +346,30 @@
       "participacionPct": 71.99,
       "censoAnterior": 107467,
       "votantesAnterior": 74661,
-      "participacionPctAnterior": 69.47
+      "participacionPctAnterior": 69.47,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 42452,
+          "participacionPct": 39.92,
+          "participacionPctAnterior": 37.69
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 54938,
+          "participacionPct": 51.66,
+          "participacionPctAnterior": 55.43
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 76561,
+          "participacionPct": 71.99,
+          "participacionPctAnterior": 69.47
+        }
+      ]
     },
     "50": {
       "nombre": "Zaragoza",
@@ -127,7 +380,30 @@
       "participacionPct": 70.73,
       "censoAnterior": 739573,
       "votantesAnterior": 517639,
-      "participacionPctAnterior": 69.99
+      "participacionPctAnterior": 69.99,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 301703,
+          "participacionPct": 40.77,
+          "participacionPctAnterior": 40.86
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 373385,
+          "participacionPct": 50.45,
+          "participacionPctAnterior": 56.78
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 523410,
+          "participacionPct": 70.73,
+          "participacionPctAnterior": 69.99
+        }
+      ]
     },
     "33": {
       "nombre": "Asturias",
@@ -138,7 +414,30 @@
       "participacionPct": 62.9,
       "censoAnterior": 972580,
       "votantesAnterior": 565231,
-      "participacionPctAnterior": 58.12
+      "participacionPctAnterior": 58.12,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 326255,
+          "participacionPct": 34.02,
+          "participacionPctAnterior": 30.21
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 452161,
+          "participacionPct": 47.15,
+          "participacionPctAnterior": 46.97
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 603183,
+          "participacionPct": 62.9,
+          "participacionPctAnterior": 58.12
+        }
+      ]
     },
     "07": {
       "nombre": "Illes Balears",
@@ -149,7 +448,30 @@
       "participacionPct": 61.32,
       "censoAnterior": 807170,
       "votantesAnterior": 458592,
-      "participacionPctAnterior": 56.81
+      "participacionPctAnterior": 56.81,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 296641,
+          "participacionPct": 35.79,
+          "participacionPctAnterior": 29.87
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 386678,
+          "participacionPct": 46.66,
+          "participacionPctAnterior": 45.74
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 508233,
+          "participacionPct": 61.32,
+          "participacionPctAnterior": 56.81
+        }
+      ]
     },
     "35": {
       "nombre": "Las Palmas",
@@ -160,7 +482,30 @@
       "participacionPct": 59.51,
       "censoAnterior": 871728,
       "votantesAnterior": 489354,
-      "participacionPctAnterior": 56.14
+      "participacionPctAnterior": 56.14,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 242408,
+          "participacionPct": 26.97,
+          "participacionPctAnterior": 25.08
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 379437,
+          "participacionPct": 42.21,
+          "participacionPctAnterior": 40.93
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 534912,
+          "participacionPct": 59.51,
+          "participacionPctAnterior": 56.14
+        }
+      ]
     },
     "38": {
       "nombre": "Santa Cruz de Tenerife",
@@ -171,7 +516,30 @@
       "participacionPct": 56.83,
       "censoAnterior": 855138,
       "votantesAnterior": 468022,
-      "participacionPctAnterior": 54.73
+      "participacionPctAnterior": 54.73,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 225044,
+          "participacionPct": 25.54,
+          "participacionPctAnterior": 24.42
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 354777,
+          "participacionPct": 40.26,
+          "participacionPctAnterior": 40.17
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 500777,
+          "participacionPct": 56.83,
+          "participacionPctAnterior": 54.73
+        }
+      ]
     },
     "39": {
       "nombre": "Cantabria",
@@ -182,7 +550,30 @@
       "participacionPct": 69.94,
       "censoAnterior": 501676,
       "votantesAnterior": 329821,
-      "participacionPctAnterior": 65.74
+      "participacionPctAnterior": 65.74,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 200621,
+          "participacionPct": 39.51,
+          "participacionPctAnterior": 36.08
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 282036,
+          "participacionPct": 55.54,
+          "participacionPctAnterior": 54.67
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 355145,
+          "participacionPct": 69.94,
+          "participacionPctAnterior": 65.74
+        }
+      ]
     },
     "02": {
       "nombre": "Albacete",
@@ -193,7 +584,30 @@
       "participacionPct": 72.7,
       "censoAnterior": 309996,
       "votantesAnterior": 216917,
-      "participacionPctAnterior": 69.97
+      "participacionPctAnterior": 69.97,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 133681,
+          "participacionPct": 43.4,
+          "participacionPctAnterior": 36.98
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 163984,
+          "participacionPct": 53.24,
+          "participacionPctAnterior": 55.62
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 223917,
+          "participacionPct": 72.7,
+          "participacionPctAnterior": 69.97
+        }
+      ]
     },
     "13": {
       "nombre": "Ciudad Real",
@@ -204,7 +618,30 @@
       "participacionPct": 73.28,
       "censoAnterior": 395785,
       "votantesAnterior": 272470,
-      "participacionPctAnterior": 68.84
+      "participacionPctAnterior": 68.84,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 174800,
+          "participacionPct": 44.65,
+          "participacionPctAnterior": 35.59
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 216794,
+          "participacionPct": 55.38,
+          "participacionPctAnterior": 54.36
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 286895,
+          "participacionPct": 73.28,
+          "participacionPctAnterior": 68.84
+        }
+      ]
     },
     "16": {
       "nombre": "Cuenca",
@@ -215,7 +652,30 @@
       "participacionPct": 75.5,
       "censoAnterior": 154441,
       "votantesAnterior": 110537,
-      "participacionPctAnterior": 71.57
+      "participacionPctAnterior": 71.57,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 67864,
+          "participacionPct": 44.44,
+          "participacionPctAnterior": 37.53
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 86100,
+          "participacionPct": 56.39,
+          "participacionPctAnterior": 56.9
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 115280,
+          "participacionPct": 75.5,
+          "participacionPctAnterior": 71.57
+        }
+      ]
     },
     "19": {
       "nombre": "Guadalajara",
@@ -226,7 +686,30 @@
       "participacionPct": 72.47,
       "censoAnterior": 187371,
       "votantesAnterior": 133796,
-      "participacionPctAnterior": 71.41
+      "participacionPctAnterior": 71.41,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 78708,
+          "participacionPct": 39.96,
+          "participacionPctAnterior": 38.13
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 103703,
+          "participacionPct": 52.65,
+          "participacionPctAnterior": 57.16
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 142744,
+          "participacionPct": 72.47,
+          "participacionPctAnterior": 71.41
+        }
+      ]
     },
     "45": {
       "nombre": "Toledo",
@@ -237,7 +720,30 @@
       "participacionPct": 72.43,
       "censoAnterior": 525752,
       "votantesAnterior": 368619,
-      "participacionPctAnterior": 70.11
+      "participacionPctAnterior": 70.11,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 240010,
+          "participacionPct": 44.24,
+          "participacionPctAnterior": 38.31
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 304577,
+          "participacionPct": 56.14,
+          "participacionPctAnterior": 57.45
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 392988,
+          "participacionPct": 72.43,
+          "participacionPctAnterior": 70.11
+        }
+      ]
     },
     "05": {
       "nombre": "Ávila",
@@ -248,7 +754,30 @@
       "participacionPct": 72.53,
       "censoAnterior": 136717,
       "votantesAnterior": 94793,
-      "participacionPctAnterior": 69.34
+      "participacionPctAnterior": 69.34,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 55491,
+          "participacionPct": 40.6,
+          "participacionPctAnterior": 36.97
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 74915,
+          "participacionPct": 54.81,
+          "participacionPctAnterior": 55.87
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 99120,
+          "participacionPct": 72.53,
+          "participacionPctAnterior": 69.34
+        }
+      ]
     },
     "09": {
       "nombre": "Burgos",
@@ -259,7 +788,30 @@
       "participacionPct": 69.12,
       "censoAnterior": 298989,
       "votantesAnterior": 201664,
-      "participacionPctAnterior": 67.45
+      "participacionPctAnterior": 67.45,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 111754,
+          "participacionPct": 37.7,
+          "participacionPctAnterior": 35.67
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 145116,
+          "participacionPct": 48.96,
+          "participacionPctAnterior": 53.11
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 204886,
+          "participacionPct": 69.12,
+          "participacionPctAnterior": 67.45
+        }
+      ]
     },
     "24": {
       "nombre": "León",
@@ -270,7 +822,30 @@
       "participacionPct": 65.67,
       "censoAnterior": 432073,
       "votantesAnterior": 265711,
-      "participacionPctAnterior": 61.5
+      "participacionPctAnterior": 61.5,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 148014,
+          "participacionPct": 35.0,
+          "participacionPctAnterior": 30.74
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 203048,
+          "participacionPct": 48.01,
+          "participacionPctAnterior": 47.78
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 277726,
+          "participacionPct": 65.67,
+          "participacionPctAnterior": 61.5
+        }
+      ]
     },
     "34": {
       "nombre": "Palencia",
@@ -281,7 +856,30 @@
       "participacionPct": 71.26,
       "censoAnterior": 141321,
       "votantesAnterior": 97038,
-      "participacionPctAnterior": 68.66
+      "participacionPctAnterior": 68.66,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 53458,
+          "participacionPct": 38.84,
+          "participacionPctAnterior": 34.77
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 71161,
+          "participacionPct": 51.7,
+          "participacionPctAnterior": 53.59
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 98079,
+          "participacionPct": 71.26,
+          "participacionPctAnterior": 68.66
+        }
+      ]
     },
     "37": {
       "nombre": "Salamanca",
@@ -292,7 +890,30 @@
       "participacionPct": 67.03,
       "censoAnterior": 305536,
       "votantesAnterior": 197673,
-      "participacionPctAnterior": 64.7
+      "participacionPctAnterior": 64.7,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 112231,
+          "participacionPct": 37.35,
+          "participacionPctAnterior": 34.06
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 146996,
+          "participacionPct": 48.92,
+          "participacionPctAnterior": 51.05
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 201419,
+          "participacionPct": 67.03,
+          "participacionPctAnterior": 64.7
+        }
+      ]
     },
     "40": {
       "nombre": "Segovia",
@@ -303,7 +924,30 @@
       "participacionPct": 75.3,
       "censoAnterior": 119492,
       "votantesAnterior": 86451,
-      "participacionPctAnterior": 72.35
+      "participacionPctAnterior": 72.35,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 50811,
+          "participacionPct": 42.54,
+          "participacionPctAnterior": 38.94
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 67168,
+          "participacionPct": 56.23,
+          "participacionPctAnterior": 58.54
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 89945,
+          "participacionPct": 75.3,
+          "participacionPctAnterior": 72.35
+        }
+      ]
     },
     "42": {
       "nombre": "Soria",
@@ -314,7 +958,30 @@
       "participacionPct": 67.52,
       "censoAnterior": 76827,
       "votantesAnterior": 47248,
-      "participacionPctAnterior": 61.5
+      "participacionPctAnterior": 61.5,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 27871,
+          "participacionPct": 36.78,
+          "participacionPctAnterior": 32.14
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 36221,
+          "participacionPct": 47.81,
+          "participacionPctAnterior": 47.44
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 51157,
+          "participacionPct": 67.52,
+          "participacionPctAnterior": 61.5
+        }
+      ]
     },
     "47": {
       "nombre": "Valladolid",
@@ -325,7 +992,30 @@
       "participacionPct": 74.02,
       "censoAnterior": 432655,
       "votantesAnterior": 314787,
-      "participacionPctAnterior": 72.76
+      "participacionPctAnterior": 72.76,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 177472,
+          "participacionPct": 41.14,
+          "participacionPctAnterior": 37.97
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 232158,
+          "participacionPct": 53.82,
+          "participacionPctAnterior": 57.9
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 319312,
+          "participacionPct": 74.02,
+          "participacionPctAnterior": 72.76
+        }
+      ]
     },
     "49": {
       "nombre": "Zamora",
@@ -336,7 +1026,30 @@
       "participacionPct": 64.22,
       "censoAnterior": 168268,
       "votantesAnterior": 101334,
-      "participacionPctAnterior": 60.22
+      "participacionPctAnterior": 60.22,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 58114,
+          "participacionPct": 35.65,
+          "participacionPctAnterior": 30.1
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 77440,
+          "participacionPct": 47.51,
+          "participacionPctAnterior": 46.9
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 104671,
+          "participacionPct": 64.22,
+          "participacionPctAnterior": 60.22
+        }
+      ]
     },
     "08": {
       "nombre": "Barcelona",
@@ -347,7 +1060,30 @@
       "participacionPct": 63.36,
       "censoAnterior": 4201151,
       "votantesAnterior": 2942354,
-      "participacionPctAnterior": 70.04
+      "participacionPctAnterior": 70.04,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 1492966,
+          "participacionPct": 35.18,
+          "participacionPctAnterior": 39.06
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 1980677,
+          "participacionPct": 46.68,
+          "participacionPctAnterior": 57.75
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 2688720,
+          "participacionPct": 63.36,
+          "participacionPctAnterior": 70.04
+        }
+      ]
     },
     "17": {
       "nombre": "Girona",
@@ -358,7 +1094,30 @@
       "participacionPct": 59.88,
       "censoAnterior": 524978,
       "votantesAnterior": 357801,
-      "participacionPctAnterior": 68.16
+      "participacionPctAnterior": 68.16,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 181058,
+          "participacionPct": 33.14,
+          "participacionPctAnterior": 38.58
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 242786,
+          "participacionPct": 44.44,
+          "participacionPctAnterior": 57.11
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 327159,
+          "participacionPct": 59.88,
+          "participacionPctAnterior": 68.16
+        }
+      ]
     },
     "25": {
       "nombre": "Lleida",
@@ -369,7 +1128,30 @@
       "participacionPct": 58.93,
       "censoAnterior": 314425,
       "votantesAnterior": 208731,
-      "participacionPctAnterior": 66.38
+      "participacionPctAnterior": 66.38,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 104797,
+          "participacionPct": 33.04,
+          "participacionPctAnterior": 35.8
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 134840,
+          "participacionPct": 42.51,
+          "participacionPctAnterior": 53.49
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 186929,
+          "participacionPct": 58.93,
+          "participacionPctAnterior": 66.38
+        }
+      ]
     },
     "43": {
       "nombre": "Tarragona",
@@ -380,7 +1162,30 @@
       "participacionPct": 62.42,
       "censoAnterior": 574866,
       "votantesAnterior": 388088,
-      "participacionPctAnterior": 67.51
+      "participacionPctAnterior": 67.51,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 215971,
+          "participacionPct": 36.19,
+          "participacionPctAnterior": 38.89
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 283641,
+          "participacionPct": 47.54,
+          "participacionPctAnterior": 55.9
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 372426,
+          "participacionPct": 62.42,
+          "participacionPctAnterior": 67.51
+        }
+      ]
     },
     "06": {
       "nombre": "Badajoz",
@@ -391,7 +1196,30 @@
       "participacionPct": 72.31,
       "censoAnterior": 554994,
       "votantesAnterior": 376940,
-      "participacionPctAnterior": 67.92
+      "participacionPctAnterior": 67.92,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 241838,
+          "participacionPct": 43.91,
+          "participacionPctAnterior": 36.1
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 298397,
+          "participacionPct": 54.18,
+          "participacionPctAnterior": 52.97
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 398233,
+          "participacionPct": 72.31,
+          "participacionPctAnterior": 67.92
+        }
+      ]
     },
     "10": {
       "nombre": "Cáceres",
@@ -402,7 +1230,30 @@
       "participacionPct": 70.62,
       "censoAnterior": 344445,
       "votantesAnterior": 227621,
-      "participacionPctAnterior": 66.08
+      "participacionPctAnterior": 66.08,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 147181,
+          "participacionPct": 43.35,
+          "participacionPctAnterior": 35.89
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 182348,
+          "participacionPct": 53.71,
+          "participacionPctAnterior": 52.34
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 239747,
+          "participacionPct": 70.62,
+          "participacionPctAnterior": 66.08
+        }
+      ]
     },
     "15": {
       "nombre": "A Coruña",
@@ -413,7 +1264,30 @@
       "participacionPct": 62.93,
       "censoAnterior": 1087839,
       "votantesAnterior": 620550,
-      "participacionPctAnterior": 57.04
+      "participacionPctAnterior": 57.04,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 354382,
+          "participacionPct": 32.64,
+          "participacionPctAnterior": 26.8
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 516142,
+          "participacionPct": 47.54,
+          "participacionPctAnterior": 45.05
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 683187,
+          "participacionPct": 62.93,
+          "participacionPctAnterior": 57.04
+        }
+      ]
     },
     "27": {
       "nombre": "Lugo",
@@ -424,7 +1298,30 @@
       "participacionPct": 59.42,
       "censoAnterior": 344446,
       "votantesAnterior": 183141,
-      "participacionPctAnterior": 53.17
+      "participacionPctAnterior": 53.17,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 100111,
+          "participacionPct": 29.64,
+          "participacionPctAnterior": 24.32
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 145261,
+          "participacionPct": 43.01,
+          "participacionPctAnterior": 41.38
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 200709,
+          "participacionPct": 59.42,
+          "participacionPctAnterior": 53.17
+        }
+      ]
     },
     "32": {
       "nombre": "Ourense",
@@ -435,7 +1332,30 @@
       "participacionPct": 52.86,
       "censoAnterior": 360302,
       "votantesAnterior": 173598,
-      "participacionPctAnterior": 48.18
+      "participacionPctAnterior": 48.18,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 98689,
+          "participacionPct": 27.74,
+          "participacionPctAnterior": 23.87
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 135210,
+          "participacionPct": 38.01,
+          "participacionPctAnterior": 37.42
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 188065,
+          "participacionPct": 52.86,
+          "participacionPctAnterior": 48.18
+        }
+      ]
     },
     "36": {
       "nombre": "Pontevedra",
@@ -446,7 +1366,30 @@
       "participacionPct": 63.68,
       "censoAnterior": 906111,
       "votantesAnterior": 530077,
-      "participacionPctAnterior": 58.5
+      "participacionPctAnterior": 58.5,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 311525,
+          "participacionPct": 34.25,
+          "participacionPctAnterior": 28.0
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 443924,
+          "participacionPct": 48.81,
+          "participacionPctAnterior": 46.77
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 579125,
+          "participacionPct": 63.68,
+          "participacionPctAnterior": 58.5
+        }
+      ]
     },
     "28": {
       "nombre": "Madrid",
@@ -457,7 +1400,30 @@
       "participacionPct": 69.66,
       "censoAnterior": 5088093,
       "votantesAnterior": 3591464,
-      "participacionPctAnterior": 70.59
+      "participacionPctAnterior": 70.59,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 1979419,
+          "participacionPct": 37.89,
+          "participacionPctAnterior": 38.45
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 2603364,
+          "participacionPct": 49.83,
+          "participacionPctAnterior": 57.7
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 3639500,
+          "participacionPct": 69.66,
+          "participacionPctAnterior": 70.59
+        }
+      ]
     },
     "31": {
       "nombre": "Navarra",
@@ -468,7 +1434,30 @@
       "participacionPct": 66.37,
       "censoAnterior": 512826,
       "votantesAnterior": 337996,
-      "participacionPctAnterior": 65.91
+      "participacionPctAnterior": 65.91,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 202244,
+          "participacionPct": 38.9,
+          "participacionPctAnterior": 37.24
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 253658,
+          "participacionPct": 48.79,
+          "participacionPctAnterior": 53.39
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 345095,
+          "participacionPct": 66.37,
+          "participacionPctAnterior": 65.91
+        }
+      ]
     },
     "01": {
       "nombre": "Araba/Álava",
@@ -479,7 +1468,30 @@
       "participacionPct": 65.54,
       "censoAnterior": 258495,
       "votantesAnterior": 172199,
-      "participacionPctAnterior": 66.62
+      "participacionPctAnterior": 66.62,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 91328,
+          "participacionPct": 35.1,
+          "participacionPctAnterior": 36.77
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 121406,
+          "participacionPct": 46.66,
+          "participacionPctAnterior": 53.59
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 170538,
+          "participacionPct": 65.54,
+          "participacionPctAnterior": 66.62
+        }
+      ]
     },
     "20": {
       "nombre": "Gipuzkoa",
@@ -490,7 +1502,30 @@
       "participacionPct": 64.68,
       "censoAnterior": 584461,
       "votantesAnterior": 384546,
-      "participacionPctAnterior": 65.79
+      "participacionPctAnterior": 65.79,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 214787,
+          "participacionPct": 36.66,
+          "participacionPctAnterior": 38.0
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 293737,
+          "participacionPct": 50.14,
+          "participacionPctAnterior": 54.1
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 378965,
+          "participacionPct": 64.68,
+          "participacionPctAnterior": 65.79
+        }
+      ]
     },
     "48": {
       "nombre": "Bizkaia",
@@ -501,7 +1536,30 @@
       "participacionPct": 65.21,
       "censoAnterior": 949598,
       "votantesAnterior": 633977,
-      "participacionPctAnterior": 66.76
+      "participacionPctAnterior": 66.76,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 329580,
+          "participacionPct": 34.95,
+          "participacionPctAnterior": 39.27
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 480794,
+          "participacionPct": 50.99,
+          "participacionPctAnterior": 56.3
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 614944,
+          "participacionPct": 65.21,
+          "participacionPctAnterior": 66.76
+        }
+      ]
     },
     "30": {
       "nombre": "Murcia",
@@ -512,7 +1570,30 @@
       "participacionPct": 68.68,
       "censoAnterior": 1061841,
       "votantesAnterior": 722345,
-      "participacionPctAnterior": 68.03
+      "participacionPctAnterior": 68.03,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 469830,
+          "participacionPct": 42.72,
+          "participacionPctAnterior": 37.78
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 585015,
+          "participacionPct": 53.2,
+          "participacionPctAnterior": 56.07
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 755255,
+          "participacionPct": 68.68,
+          "participacionPctAnterior": 68.03
+        }
+      ]
     },
     "26": {
       "nombre": "La Rioja",
@@ -523,7 +1604,30 @@
       "participacionPct": 70.19,
       "censoAnterior": 250213,
       "votantesAnterior": 167549,
-      "participacionPctAnterior": 66.96
+      "participacionPctAnterior": 66.96,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 107246,
+          "participacionPct": 42.54,
+          "participacionPctAnterior": 37.76
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 133890,
+          "participacionPct": 53.11,
+          "participacionPctAnterior": 53.67
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 176945,
+          "participacionPct": 70.19,
+          "participacionPctAnterior": 66.96
+        }
+      ]
     },
     "03": {
       "nombre": "Alacant/Alicante",
@@ -534,7 +1638,30 @@
       "participacionPct": 69.57,
       "censoAnterior": 1276691,
       "votantesAnterior": 860050,
-      "participacionPctAnterior": 67.37
+      "participacionPctAnterior": 67.37,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 571994,
+          "participacionPct": 43.79,
+          "participacionPctAnterior": 39.64
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 715213,
+          "participacionPct": 54.75,
+          "participacionPctAnterior": 55.89
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 908842,
+          "participacionPct": 69.57,
+          "participacionPctAnterior": 67.37
+        }
+      ]
     },
     "12": {
       "nombre": "Castelló/Castellón",
@@ -545,7 +1672,30 @@
       "participacionPct": 72.32,
       "censoAnterior": 420741,
       "votantesAnterior": 297492,
-      "participacionPctAnterior": 70.71
+      "participacionPctAnterior": 70.71,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 195100,
+          "participacionPct": 45.28,
+          "participacionPctAnterior": 41.4
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 247159,
+          "participacionPct": 57.37,
+          "participacionPctAnterior": 59.12
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 311581,
+          "participacionPct": 72.32,
+          "participacionPctAnterior": 70.71
+        }
+      ]
     },
     "46": {
       "nombre": "València/Valencia",
@@ -556,7 +1706,30 @@
       "participacionPct": 72.58,
       "censoAnterior": 1970196,
       "votantesAnterior": 1402405,
-      "participacionPctAnterior": 71.18
+      "participacionPctAnterior": 71.18,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 902181,
+          "participacionPct": 45.12,
+          "participacionPctAnterior": 42.18
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 1128997,
+          "participacionPct": 56.47,
+          "participacionPctAnterior": 59.39
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 1451187,
+          "participacionPct": 72.58,
+          "participacionPctAnterior": 71.18
+        }
+      ]
     },
     "51": {
       "nombre": "Ceuta",
@@ -567,7 +1740,30 @@
       "participacionPct": 53.19,
       "censoAnterior": 62513,
       "votantesAnterior": 33746,
-      "participacionPctAnterior": 53.98
+      "participacionPctAnterior": 53.98,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 16557,
+          "participacionPct": 26.15,
+          "participacionPctAnterior": 26.1
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 23714,
+          "participacionPct": 37.46,
+          "participacionPctAnterior": 41.88
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 33674,
+          "participacionPct": 53.19,
+          "participacionPctAnterior": 53.98
+        }
+      ]
     },
     "52": {
       "nombre": "Melilla",
@@ -578,7 +1774,30 @@
       "participacionPct": 45.24,
       "censoAnterior": 59497,
       "votantesAnterior": 31172,
-      "participacionPctAnterior": 52.39
+      "participacionPctAnterior": 52.39,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 12849,
+          "participacionPct": 21.02,
+          "participacionPctAnterior": 22.46
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 17613,
+          "participacionPct": 28.82,
+          "participacionPctAnterior": 35.57
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": 27649,
+          "participacionPct": 45.24,
+          "participacionPctAnterior": 52.39
+        }
+      ]
     }
   }
 }
