@@ -8,10 +8,17 @@
 		<span class="headline">¿Cuánta gente ha votado?</span>
 		<span class="sub">Mapa y ranking de participación por provincia</span>
 	</div>
-	<div class="teaser-gauge">
-		<svg viewBox="0 0 120 68" class="mini-gauge">
-			<path d="M8,62 A52,52 0 0 1 112,62" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="13" stroke-linecap="round" />
-			<path d="M8,62 A52,52 0 0 1 88,15" fill="none" stroke="var(--c)" stroke-width="13" stroke-linecap="round" />
+	<div class="teaser-urna">
+		<svg viewBox="0 0 120 68" class="mini-urna">
+			<path
+				d="M28,28 L92,28 L84,63 L36,63 Z"
+				fill="none"
+				stroke="rgba(255,255,255,0.35)"
+				stroke-width="3.5"
+				stroke-linejoin="round"
+			/>
+			<rect x="47" y="23" width="26" height="7" rx="2" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="3.5" />
+			<rect x="50" y="2" width="18" height="26" rx="1.5" fill="var(--c)" transform="rotate(-10 59 15)" />
 		</svg>
 		<span class="cta">Ver participación <span class="arrow">→</span></span>
 	</div>
@@ -68,7 +75,7 @@
 		max-width: 46ch;
 	}
 
-	.teaser-gauge {
+	.teaser-urna {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -76,7 +83,7 @@
 		flex-shrink: 0;
 	}
 
-	.mini-gauge {
+	.mini-urna {
 		width: 96px;
 		height: auto;
 	}
@@ -123,7 +130,7 @@
 			font-size: 20px;
 		}
 
-		.teaser-gauge {
+		.teaser-urna {
 			align-self: center;
 		}
 	}

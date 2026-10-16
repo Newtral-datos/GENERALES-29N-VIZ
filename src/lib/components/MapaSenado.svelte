@@ -28,7 +28,19 @@
 		});
 	});
 
+	// Empate real a escaños entre dos o más partidos (p. ej. Cáceres 23J,
+	// 2-2 PP/PSOE): "ganador" se queda con un color arbitrario del primero
+	// que encuentra, así que la pintamos gris con rayado en vez de como si
+	// tuviera un ganador claro.
+	function empateFor(codProv: string): boolean {
+		const p = provincias?.[codProv];
+		if (!p) return false;
+		const max = Math.max(...p.composicion.map((c) => c.escanos));
+		return p.composicion.filter((c) => c.escanos === max).length > 1;
+	}
+
 	function colorFor(codProv: string): string {
+		if (empateFor(codProv)) return '#9AA0A6';
 		return provincias?.[codProv]?.ganador.color ?? 'var(--paper)';
 	}
 
@@ -155,6 +167,13 @@
 		{:else}
 			<div class="wrap">
 				<svg viewBox="0 0 {mainVp.w} {totalH}" class="mapa">
+					<defs>
+						<pattern id="hatch-senado" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+							<rect width="4" height="4" fill="transparent" />
+							<line x1="0" y1="0" x2="0" y2="4" stroke="rgba(255,255,255,0.75)" stroke-width="1.1" />
+						</pattern>
+					</defs>
+
 					{#each mainFeatures as f (f.properties.cod_prov)}
 						{#each featurePaths(f, mainBounds!, mainVp.w, mainVp.h) as d, i (i)}
 							<path
@@ -169,6 +188,9 @@
 								onmousemove={onProvinceMove}
 								onmouseleave={onProvinceLeave}
 							/>
+							{#if empateFor(f.properties.cod_prov)}
+								<path {d} fill="url(#hatch-senado)" pointer-events="none" />
+							{/if}
 						{/each}
 					{/each}
 
@@ -198,11 +220,17 @@
 									onmousemove={onProvinceMove}
 									onmouseleave={onProvinceLeave}
 								/>
+								{#if empateFor(f.properties.cod_prov)}
+									<path {d} fill="url(#hatch-senado)" pointer-events="none" />
+								{/if}
 							{/each}
 						{/each}
 					{/if}
 				</svg>
-				<p class="nota">Senadores de elección directa por provincia — 23J — pasa el ratón para ver el detalle</p>
+				<p class="nota">
+				Senadores de elección directa por provincia — 23J — pasa el ratón para ver el detalle. Rayado = empate a
+				escaños entre partidos.
+			</p>
 			</div>
 		{/if}
 	</div>
@@ -210,7 +238,9 @@
 
 {#if activeProvincia}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
-		<p class="popup-title">{activeProvincia.nombre}</p>
+		<p class="popup-title">
+			{activeProvincia.nombre}{#if activeCod && empateFor(activeCod)}<span class="popup-empate"> — empate</span>{/if}
+		</p>
 		<table class="popup-table">
 			<tbody>
 				{#each activeProvincia.composicion as p (p.siglas)}
@@ -330,6 +360,10 @@
 		margin: 0 0 6px 0;
 		padding-bottom: 4px;
 		border-bottom: 1px solid var(--border);
+	}
+
+	.popup-empate {
+		color: var(--stamp);
 	}
 
 	.popup-sub {

@@ -28,7 +28,7 @@
 					</thead>
 					<tbody>
 						{#each nacional.partidos as p (p.siglas)}
-							{@const dif = p.escanos - p.escanosAnterior}
+							{@const dif = p.escanosAnterior === null ? null : p.escanos - p.escanosAnterior}
 							<tr>
 								<td>
 									<div class="party-cell">
@@ -38,9 +38,13 @@
 								</td>
 								<td class="num seats">{p.escanos}</td>
 								<td class="num">
-									<span class="dif" class:up={dif > 0} class:down={dif < 0}>
-										{dif > 0 ? '+' : ''}{dif}
-									</span>
+									{#if dif === null}
+										<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+									{:else}
+										<span class="dif" class:up={dif > 0} class:down={dif < 0}>
+											{dif > 0 ? '+' : ''}{dif}
+										</span>
+									{/if}
 								</td>
 							</tr>
 						{/each}
@@ -48,7 +52,7 @@
 				</table>
 			</div>
 			<p class="nota">Senadores de elección directa — no incluye a los designados por las comunidades autónomas</p>
-			<p class="nota">Columna "Dif." — comparativa con la elección anterior (datos simulados)</p>
+			<p class="nota">Columna "Dif." — comparativa con el Senado de noviembre 2019 (10N)</p>
 		{/if}
 	</div>
 </div>

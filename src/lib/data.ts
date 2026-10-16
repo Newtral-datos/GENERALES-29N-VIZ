@@ -210,7 +210,8 @@ export type PartidoSenado = {
 	color: string;
 	lado: number;
 	escanos: number;
-	escanosAnterior: number;
+	// null = sin continuidad de marca directa con 2019 (ver senado_2019_anterior.py)
+	escanosAnterior: number | null;
 };
 
 export type GanadorCirc = {
