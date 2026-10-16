@@ -4,9 +4,9 @@
 
 <a href={resolve('/provincias')} class="teaser">
 	<div class="teaser-text">
-		<span class="eyebrow">Resultados por provincia</span>
-		<span class="headline">Cómo ha votado tu provincia</span>
-		<span class="sub">Escaños, partidos más votados y reparto completo en cada provincia</span>
+		<span class="eyebrow">Resultados por provincia y municipio</span>
+		<span class="headline">Cómo ha votado tu provincia/municipio</span>
+		<span class="sub">Escaños, partidos más votados y reparto completo en cada provincia y municipio</span>
 	</div>
 	<div class="teaser-mapa">
 		<svg viewBox="0 0 120 68" class="mini-mapa">

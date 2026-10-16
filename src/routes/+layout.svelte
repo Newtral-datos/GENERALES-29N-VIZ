@@ -3,6 +3,7 @@
 	import favicon from '#lib/assets/favicon.png';
 	import EscrutinioHeader from '#lib/components/EscrutinioHeader.svelte';
 	import ChamberTabs from '#lib/components/ChamberTabs.svelte';
+	import TickerUltimaHora from '#lib/components/TickerUltimaHora.svelte';
 	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 	import type { LayoutProps } from './$types';
 
@@ -18,6 +19,7 @@
 	{#if ESCRUTINIO_ABIERTO}
 		<ChamberTabs />
 	{/if}
+	<TickerUltimaHora />
 	{@render children()}
 </div>
 
