@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { getParticipacion23j, type ParticipacionNacional } from '#lib/data';
+	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 	import MapaParticipacion from '#lib/components/MapaParticipacion.svelte';
 	import RankingParticipacion from '#lib/components/RankingParticipacion.svelte';
 	import AvancesParticipacion from '#lib/components/AvancesParticipacion.svelte';
@@ -28,7 +29,9 @@
 </script>
 
 <main class="main">
-	<a href={resolve('/')} class="volver">← Volver al Congreso</a>
+	{#if ESCRUTINIO_ABIERTO}
+		<a href={resolve('/')} class="volver">← Volver al Congreso</a>
+	{/if}
 
 	<div class="intro">
 		<p class="kicker">Participación electoral</p>

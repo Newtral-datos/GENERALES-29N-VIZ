@@ -3,6 +3,7 @@
 	import favicon from '#lib/assets/favicon.png';
 	import EscrutinioHeader from '#lib/components/EscrutinioHeader.svelte';
 	import ChamberTabs from '#lib/components/ChamberTabs.svelte';
+	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 	import type { LayoutProps } from './$types';
 
 	let { children }: LayoutProps = $props();
@@ -14,7 +15,9 @@
 
 <div class="page">
 	<EscrutinioHeader />
-	<ChamberTabs />
+	{#if ESCRUTINIO_ABIERTO}
+		<ChamberTabs />
+	{/if}
 	{@render children()}
 </div>
 

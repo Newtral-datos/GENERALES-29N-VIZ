@@ -1,5 +1,6 @@
 <script lang="ts">
 	import logo from '#lib/assets/logo-newtral.png';
+	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 
 	// TODO: sustituir por el % de escrutinio real cuando haya datos en vivo de la jornada.
 	const ESCRUTINIO_SIMULADO = 92.3;
@@ -7,6 +8,7 @@
 	let escrutinio = $state(0);
 
 	$effect(() => {
+		if (!ESCRUTINIO_ABIERTO) return;
 		const steps = 30;
 		const inc = ESCRUTINIO_SIMULADO / steps;
 		let step = 0;
@@ -30,18 +32,20 @@
 			En directo
 		</span>
 
-		<span class="label">Escrutinio</span>
+		{#if ESCRUTINIO_ABIERTO}
+			<span class="label">Escrutinio</span>
 
-		<span class="number">{escrutinio.toLocaleString('es-ES', { minimumIntegerDigits: 2, maximumFractionDigits: 1 })}<span class="number-unit">%</span></span>
+			<span class="number">{escrutinio.toLocaleString('es-ES', { minimumIntegerDigits: 2, maximumFractionDigits: 1 })}<span class="number-unit">%</span></span>
 
-		<div class="bar">
-			<div class="fill" style="width:{escrutinio}%"></div>
-			<div class="ticks">
-				{#each [25, 50, 75] as t (t)}
-					<span class="tick" style="left:{t}%"></span>
-				{/each}
+			<div class="bar">
+				<div class="fill" style="width:{escrutinio}%"></div>
+				<div class="ticks">
+					{#each [25, 50, 75] as t (t)}
+						<span class="tick" style="left:{t}%"></span>
+					{/each}
+				</div>
 			</div>
-		</div>
+		{/if}
 	</div>
 
 	<span class="logo-badge">
