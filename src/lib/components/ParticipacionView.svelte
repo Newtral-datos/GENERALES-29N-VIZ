@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { getParticipacion23j, type ParticipacionNacional } from '#lib/data';
-	import { formatMiles } from '#lib/format';
 	import MapaParticipacion from '#lib/components/MapaParticipacion.svelte';
 	import RankingParticipacion from '#lib/components/RankingParticipacion.svelte';
+	import AvancesParticipacion from '#lib/components/AvancesParticipacion.svelte';
 
 	let nacional = $state<ParticipacionNacional | null>(null);
 
@@ -11,6 +11,19 @@
 		getParticipacion23j().then((d) => {
 			nacional = d.nacional;
 		});
+	});
+
+	// Qué avance manda en todo el bloque de participación (cajitas, mapa y
+	// ranking a la vez): el último publicado a nivel nacional. Se calcula una
+	// sola vez aquí y se reparte hacia abajo para que todo el bloque se mueva
+	// junto según avanza la jornada, no cada pieza por su cuenta.
+	let activeIdx = $derived.by(() => {
+		if (!nacional) return -1;
+		let idx = -1;
+		nacional.avances.forEach((a, i) => {
+			if (a.participacionPct !== null) idx = i;
+		});
+		return idx;
 	});
 </script>
 
@@ -23,23 +36,17 @@
 	</div>
 
 	{#if nacional}
-		{@const delta = Math.round((nacional.participacionPct - nacional.participacionPctAnterior) * 100) / 100}
-		<div class="hero">
-			<span class="hero-valor">{nacional.participacionPct.toLocaleString('es-ES', { minimumFractionDigits: 2 })}<span class="hero-unit">%</span></span>
-			<span class="hero-label">Participación nacional — 23J</span>
-			<span class="hero-sub">{formatMiles(nacional.votantes)} votantes de {formatMiles(nacional.censo)} censados</span>
-			<span class="hero-delta" class:up={delta > 0} class:down={delta < 0}>
-				{delta > 0 ? '+' : ''}{delta.toLocaleString('es-ES', { minimumFractionDigits: 2 })} pts vs 2019 ({nacional.participacionPctAnterior.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%)
-			</span>
+		<div class="hero-wrap">
+			<AvancesParticipacion {nacional} {activeIdx} />
 		</div>
 	{/if}
 
 	<div class="grid">
 		<div class="col-mapa">
-			<MapaParticipacion />
+			<MapaParticipacion {activeIdx} />
 		</div>
 		<div class="col-ranking">
-			<RankingParticipacion />
+			<RankingParticipacion {activeIdx} />
 		</div>
 	</div>
 </main>
@@ -99,62 +106,8 @@
 		margin: 0 0 10px 0;
 	}
 
-	.hero {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 2px;
-		text-align: center;
-		padding: 16px 0 24px;
-	}
-
-	.hero-valor {
-		font-family: var(--font-display);
-		font-size: 56px;
-		font-weight: 800;
-		color: var(--c);
-		letter-spacing: -0.02em;
-		line-height: 1;
-	}
-
-	.hero-unit {
-		font-size: 28px;
-		font-weight: 600;
-		color: var(--grey);
-		margin-left: 2px;
-	}
-
-	.hero-label {
-		font-family: var(--font-body);
-		font-size: 11px;
-		font-weight: 600;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-		color: var(--grey);
-		margin-top: 6px;
-	}
-
-	.hero-sub {
-		font-family: var(--font-body);
-		font-size: 12px;
-		color: var(--grey);
-		margin-top: 2px;
-	}
-
-	.hero-delta {
-		font-family: var(--font-mono);
-		font-size: 11px;
-		font-weight: 700;
-		color: var(--grey);
-		margin-top: 8px;
-	}
-
-	.hero-delta.up {
-		color: #0a7a4a;
-	}
-
-	.hero-delta.down {
-		color: var(--stamp);
+	.hero-wrap {
+		padding: 0 0 20px;
 	}
 
 	.grid {
@@ -182,14 +135,6 @@
 
 		.titulo {
 			font-size: 19px;
-		}
-
-		.hero-valor {
-			font-size: 44px;
-		}
-
-		.hero-unit {
-			font-size: 22px;
 		}
 	}
 </style>

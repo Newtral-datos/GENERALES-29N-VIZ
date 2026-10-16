@@ -1,12 +1,24 @@
 <script lang="ts">
 	import { getParticipacion23j, type ParticipacionProvincia } from '#lib/data';
 
-	let provincias = $state<[string, ParticipacionProvincia][] | null>(null);
+	// activeIdx viene de ParticipacionView: mismo avance activo que las
+	// cajitas de arriba y el mapa.
+	let { activeIdx }: { activeIdx: number } = $props();
+
+	let provincias = $state<Record<string, ParticipacionProvincia> | null>(null);
 
 	$effect(() => {
 		getParticipacion23j().then((d) => {
-			provincias = Object.entries(d.provincias).sort((a, b) => b[1].participacionPct - a[1].participacionPct);
+			provincias = d.provincias;
 		});
+	});
+
+	let ranking = $derived.by(() => {
+		if (!provincias || activeIdx < 0) return [];
+		return Object.entries(provincias)
+			.map(([cod, p]) => ({ cod, nombre: p.nombre, pct: p.avances[activeIdx]?.participacionPct ?? null }))
+			.filter((p): p is { cod: string; nombre: string; pct: number } => p.pct !== null)
+			.sort((a, b) => b.pct - a.pct);
 	});
 </script>
 
@@ -15,16 +27,18 @@
 
 	{#if !provincias}
 		<p class="loading">Cargando…</p>
+	{:else if activeIdx < 0}
+		<p class="loading">Esperando el primer avance de participación…</p>
 	{:else}
 		<ul class="ranking">
-			{#each provincias as [cod, p], i (cod)}
+			{#each ranking as p, i (p.cod)}
 				<li>
 					<span class="rank">{i + 1}</span>
 					<span class="nombre">{p.nombre}</span>
 					<span class="bar-track">
-						<span class="bar-fill" style="width:{p.participacionPct}%"></span>
+						<span class="bar-fill" style="width:{p.pct}%"></span>
 					</span>
-					<span class="valor">{p.participacionPct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</span>
+					<span class="valor">{p.pct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</span>
 				</li>
 			{/each}
 		</ul>

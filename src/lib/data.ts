@@ -153,6 +153,17 @@ export function getResultados23j(): Promise<Resultados23J> {
 	return cache;
 }
 
+export type AvanceParticipacion = {
+	hora: string;
+	etiqueta: string;
+	// null = corte todavía no publicado por el Ministerio esa noche (no aplica
+	// a los datos históricos de 23J, que ya están cerrados, pero sí a futuras
+	// convocatorias mientras el pipeline se vaya ejecutando a lo largo del día).
+	votantes: number | null;
+	participacionPct: number | null;
+	participacionPctAnterior: number | null;
+};
+
 export type ParticipacionNacional = {
 	censo: number;
 	votantes: number;
@@ -160,6 +171,7 @@ export type ParticipacionNacional = {
 	censoAnterior: number;
 	votantesAnterior: number;
 	participacionPctAnterior: number;
+	avances: AvanceParticipacion[];
 };
 
 export type ParticipacionProvincia = {
@@ -172,6 +184,7 @@ export type ParticipacionProvincia = {
 	censoAnterior: number;
 	votantesAnterior: number;
 	participacionPctAnterior: number;
+	avances: AvanceParticipacion[];
 };
 
 export type Participacion23J = {

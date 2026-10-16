@@ -7,6 +7,11 @@
 	type Feature = GeoFeature<{ name: string; cod_prov: string }>;
 	type FeatureCollection = FC<{ name: string; cod_prov: string }>;
 
+	// activeIdx viene de ParticipacionView: mismo avance activo que las cajitas
+	// de arriba y el ranking, para que el mapa se mueva junto con el resto del
+	// bloque según avanza la jornada (-1 = todavía sin ningún avance publicado).
+	let { activeIdx }: { activeIdx: number } = $props();
+
 	// Las Palmas (35) y Santa Cruz de Tenerife (38) se dibujan aparte: su posición
 	// geográfica real deja un hueco enorme de océano entre ellas y la Península.
 	const CANARIAS_CODES = new Set(['35', '38']);
@@ -40,9 +45,17 @@
 		return RAMP[i === -1 ? RAMP.length - 1 : i];
 	}
 
+	// Valor del avance activo para una provincia; null si ese corte todavía no
+	// tiene dato (antes de que se publique, o antes del primer avance de todos).
+	function pctFor(p: ParticipacionProvincia): number | null {
+		if (activeIdx < 0) return null;
+		return p.avances[activeIdx]?.participacionPct ?? null;
+	}
+
 	function colorFor(codProv: string): string {
 		const p = provincias?.[codProv];
-		return p ? colorForPct(p.participacionPct) : 'var(--paper)';
+		const pct = p ? pctFor(p) : null;
+		return pct !== null ? colorForPct(pct) : 'var(--paper)';
 	}
 
 	let activeCod = $state<string | null>(null);
@@ -74,6 +87,13 @@
 	}
 
 	let activeProvincia = $derived(activeCod && provincias ? provincias[activeCod] : null);
+
+	// hora/etiqueta del avance activo son iguales en todas las provincias —
+	// cogemos cualquiera para rotular el mapa.
+	let avanceActivo = $derived.by(() => {
+		if (activeIdx < 0 || !provincias) return null;
+		return Object.values(provincias)[0]?.avances[activeIdx] ?? null;
+	});
 
 	const SIZE = 440;
 	const INSET_W = SIZE * 0.3;
@@ -163,23 +183,35 @@
 					{/each}
 				</ul>
 
-				<p class="nota">23J — pasa el ratón por una provincia para ver el detalle</p>
+				<p class="nota">
+					23J{#if avanceActivo}
+						— {avanceActivo.etiqueta.toLowerCase()}{avanceActivo.hora !== 'Cierre' ? ` (${avanceActivo.hora})` : ''}
+					{/if} — pasa el ratón por una provincia para ver el detalle
+				</p>
 			</div>
 		{/if}
 	</div>
 </div>
 
 {#if activeProvincia}
-	{@const delta = Math.round((activeProvincia.participacionPct - activeProvincia.participacionPctAnterior) * 100) / 100}
+	{@const avance = activeIdx >= 0 ? activeProvincia.avances[activeIdx] : null}
+	{@const pct = avance?.participacionPct ?? null}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 		<p class="popup-title">{activeProvincia.nombre}</p>
-		<p class="popup-pct">
-			{activeProvincia.participacionPct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}<span class="popup-pct-unit">%</span>
-		</p>
-		<p class="popup-sub">{formatMiles(activeProvincia.votantes)} de {formatMiles(activeProvincia.censo)} censados</p>
-		<p class="popup-delta" class:up={delta > 0} class:down={delta < 0}>
-			{delta > 0 ? '+' : ''}{delta.toLocaleString('es-ES', { minimumFractionDigits: 1 })} pts vs 2019
-		</p>
+		{#if pct !== null && avance}
+			<p class="popup-pct">
+				{pct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}<span class="popup-pct-unit">%</span>
+			</p>
+			<p class="popup-sub">{formatMiles(avance.votantes!)} de {formatMiles(activeProvincia.censo)} censados — {avance.hora}</p>
+			{#if avance.participacionPctAnterior !== null}
+				{@const delta = Math.round((pct - avance.participacionPctAnterior) * 100) / 100}
+				<p class="popup-delta" class:up={delta > 0} class:down={delta < 0}>
+					{delta > 0 ? '+' : ''}{delta.toLocaleString('es-ES', { minimumFractionDigits: 1 })} pts vs {avance.hora} de 2019
+				</p>
+			{/if}
+		{:else}
+			<p class="popup-sub">Sin datos todavía</p>
+		{/if}
 	</div>
 {/if}
 
