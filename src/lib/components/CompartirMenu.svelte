@@ -1,7 +1,8 @@
 <script lang="ts">
 	import {
+		abrirRed,
 		canvasABlob,
-		compartirARed,
+		copiarAlPortapapeles,
 		descargarBlob,
 		exportarOCompartir,
 		type RedSocial
@@ -23,23 +24,24 @@
 
 	let abierto = $state(false);
 	let generando = $state(false);
-	let mensaje = $state('');
 
-	// navigator.share con ficheros solo tiene soporte fiable en móvil — en
-	// Chrome/Safari de escritorio normalmente no existe, así que esa opción
-	// extra solo se ofrece cuando el propio navegador dice que puede.
+	// En móvil (Chrome/Android, Safari/iOS) navigator.share con ficheros abre
+	// el share sheet del sistema, que ahí sí lista las apps de redes
+	// instaladas (X, WhatsApp, Mensajes...) y les entrega imagen + texto
+	// juntos — es la única vía fiable ahí, así que se vuelve la acción
+	// principal del botón, sin menú de por medio.
+	//
+	// En escritorio (Safari/Mac incluido) navigator.canShare también existe
+	// como función, pero el share sheet del sistema solo enseña Mail/
+	// Mensajes/AirDrop — nunca X ni WhatsApp — así que comprobar solo si la
+	// API existe toma el escritorio por móvil y esconde los botones de red.
+	// Hace falta distinguir plataforma de verdad, no solo soporte de API.
 	let compartirNativoDisponible = $state(false);
 	$effect(() => {
-		const nav = navigator as Navigator & { canShare?: (data?: ShareData) => boolean };
-		compartirNativoDisponible = typeof nav.canShare === 'function';
+		const nav = navigator as Navigator & { canShare?: (data?: ShareData) => boolean; userAgentData?: { mobile?: boolean } };
+		const esMovil = nav.userAgentData?.mobile ?? /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+		compartirNativoDisponible = esMovil && typeof nav.canShare === 'function';
 	});
-
-	function avisar(texto: string) {
-		mensaje = texto;
-		setTimeout(() => {
-			if (mensaje === texto) mensaje = '';
-		}, 4000);
-	}
 
 	async function conCanvas(accion: (canvas: HTMLCanvasElement) => Promise<void>) {
 		if (generando) return;
@@ -53,16 +55,26 @@
 		}
 	}
 
+	// Ninguna red deja que una web le pegue una imagen por detrás — hay que
+	// pegarla a mano con ⌘V/Ctrl+V en su cuadro de texto. Un aviso flotente
+	// que aparece a la vez que el foco salta a la pestaña nueva pasa
+	// desapercibido (comprobado), así que se usa un confirm() que bloquea
+	// hasta que se lee, ANTES de abrir la pestaña — y de paso, al ser un
+	// gesto de usuario, evita que el navegador bloquee el popup.
 	function aRed(red: RedSocial) {
 		conCanvas(async (canvas) => {
 			const blob = await canvasABlob(canvas);
 			if (!blob) return;
-			const { copiada } = await compartirARed(red, { blob, nombreArchivo, texto });
-			avisar(
+			const copiada = await copiarAlPortapapeles(blob);
+			if (!copiada) descargarBlob(blob, nombreArchivo);
+			const nombreRed = red === 'x' ? 'X' : 'WhatsApp';
+			const seguir = window.confirm(
 				copiada
-					? 'Imagen copiada — pégala con ⌘V / Ctrl+V en la ventana que se acaba de abrir.'
-					: 'Se ha descargado la imagen — adjúntala a mano en la ventana que se acaba de abrir.'
+					? `Imagen copiada. Al pulsar Aceptar se abre ${nombreRed} — pégala con ⌘V (Mac) o Ctrl+V (Windows) en el cuadro de texto.`
+					: `No se ha podido copiar la imagen, así que se ha descargado. Al pulsar Aceptar se abre ${nombreRed} — adjúntala a mano desde la descarga.`
 			);
+			if (!seguir) return;
+			abrirRed(red, texto);
 		});
 	}
 
@@ -78,6 +90,14 @@
 		conCanvas((canvas) => exportarOCompartir(canvas, nombreArchivo, { title: etiqueta, text: texto }));
 	}
 
+	function onClickTrigger() {
+		if (compartirNativoDisponible) {
+			compartirNativo();
+		} else {
+			abierto = !abierto;
+		}
+	}
+
 	function onBlur() {
 		setTimeout(() => (abierto = false), 150);
 	}
@@ -89,25 +109,18 @@
 		class="trigger"
 		class:primaria={variante === 'primaria'}
 		disabled={generando}
-		onclick={() => (abierto = !abierto)}
+		onclick={onClickTrigger}
 		onblur={onBlur}
 	>
 		{generando ? 'Generando…' : etiqueta}
 	</button>
 
-	{#if abierto}
+	{#if abierto && !compartirNativoDisponible}
 		<ul class="opciones">
 			<li><button type="button" class="opcion" onmousedown={() => aRed('x')}>Compartir en X</button></li>
 			<li><button type="button" class="opcion" onmousedown={() => aRed('whatsapp')}>Compartir en WhatsApp</button></li>
-			{#if compartirNativoDisponible}
-				<li><button type="button" class="opcion" onmousedown={compartirNativo}>Más opciones…</button></li>
-			{/if}
 			<li><button type="button" class="opcion" onmousedown={descargar}>Descargar imagen</button></li>
 		</ul>
-	{/if}
-
-	{#if mensaje}
-		<p class="aviso">{mensaje}</p>
 	{/if}
 </div>
 
@@ -200,23 +213,5 @@
 
 	.opcion:hover {
 		background: #fafafa;
-	}
-
-	.aviso {
-		position: absolute;
-		top: calc(100% + 4px);
-		left: 50%;
-		transform: translateX(-50%);
-		z-index: 50;
-		width: max-content;
-		max-width: 260px;
-		margin: 0;
-		background: var(--ink);
-		color: var(--paper);
-		font-family: var(--font-body);
-		font-size: 11px;
-		line-height: 1.4;
-		padding: 8px 10px;
-		text-align: center;
 	}
 </style>

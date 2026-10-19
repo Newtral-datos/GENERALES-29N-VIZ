@@ -230,11 +230,10 @@ export async function copiarAlPortapapeles(blob: Blob): Promise<boolean> {
 	}
 }
 
-// Exporta el canvas como PNG: si el share sheet nativo soporta ficheros
-// (sobre todo móvil), lo usa directamente; si no, cae a una descarga normal.
-// Pensado como opción "Más opciones" además de los botones de red directos
-// (ver compartirARed) — en Chrome/Safari de escritorio normalmente no hay
-// share sheet con ficheros, así que ahí esto equivale a una descarga.
+// Exporta el canvas como PNG: si el share sheet nativo soporta ficheros (hoy,
+// sobre todo móvil), lo usa directamente — entrega imagen + texto a la app
+// que elija el usuario (X, WhatsApp, Mensajes...). Si no existe (Chrome/Safari
+// de escritorio normalmente no lo soportan), cae a una descarga normal.
 export async function exportarOCompartir(
 	canvas: HTMLCanvasElement,
 	nombreArchivo: string,
@@ -265,19 +264,13 @@ const URL_RED: Record<RedSocial, (texto: string) => string> = {
 	whatsapp: (texto) => `https://wa.me/?text=${encodeURIComponent(texto)}`
 };
 
-// Ninguna red social deja adjuntar una imagen vía URL (solo texto/enlace) —
-// es una limitación de la propia red, no algo que se pueda rodear desde el
-// cliente sin subir la imagen a algún sitio público primero (este panel no
-// tiene backend). La solución: copiar la imagen al portapapeles y abrir el
-// compositor de la red con el texto ya puesto, para que solo haga falta
-// pegarla con Cmd/Ctrl+V. Si copiar falla (navegador sin soporte, permiso
-// denegado), cae a descargarla para adjuntarla a mano.
-export async function compartirARed(
-	red: RedSocial,
-	opts: { blob: Blob; nombreArchivo: string; texto: string }
-): Promise<{ copiada: boolean }> {
-	const copiada = await copiarAlPortapapeles(opts.blob);
-	if (!copiada) descargarBlob(opts.blob, opts.nombreArchivo);
-	window.open(URL_RED[red](opts.texto), '_blank', 'noopener,noreferrer');
-	return { copiada };
+// Esta ruta (copiar + abrir el compositor web) solo es fiable en escritorio.
+// En móvil, el enlace de intent de X no lleva ficheros (solo texto/enlace, es
+// una limitación de la propia red) y además, si abre la app nativa en vez
+// del navegador, el texto del intent muchas veces ni siquiera llega — ahí la
+// única vía que de verdad entrega imagen + texto a la app es el share sheet
+// del sistema (ver exportarOCompartir). Por eso CompartirMenu solo ofrece
+// estos botones de red cuando el share sheet nativo no está disponible.
+export function abrirRed(red: RedSocial, texto: string) {
+	window.open(URL_RED[red](texto), '_blank', 'noopener,noreferrer');
 }
