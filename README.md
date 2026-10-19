@@ -19,7 +19,7 @@ Las vistas de **Congreso** y **Senado** están construidas con los resultados de
 
 La comparativa "elección anterior" (columna "Dif.", anillo interior del hemiciclo, delta de participación) **ya no es simulada**: sale de los exports oficiales en bruto del Ministerio del Interior de noviembre 2019 (10N), procesados por los scripts `*_2019_*` de `elecciones-datos/pipeline/procesado/` — ver "Datos" más abajo.
 
-El panel tiene un interruptor manual para controlar qué se ve públicamente antes de que empiece el escrutinio real: `src/lib/config.ts` → `ESCRUTINIO_ABIERTO`. Con `false` (valor actual), quedan ocultos el `%` de escrutinio y su barra en la cabecera, las pestañas Congreso/Senado, el botón de vuelta a Congreso desde Participación, y el ticker "Última hora" muestra una lista de frases fijas en vez de titulares calculados. Cambiar a `true` + build + deploy es el propio mecanismo de "abrir" el panel la noche electoral — no hay lógica de fecha/hora automática.
+El panel tiene un interruptor manual para controlar qué se ve públicamente antes de que empiece el escrutinio real: `src/lib/config.ts` → `ESCRUTINIO_ABIERTO`. Con `false`, quedan ocultos el `%` de escrutinio y su barra en la cabecera, las pestañas Congreso/Senado, el botón de vuelta a Congreso desde Participación, y el ticker "Última hora" muestra una lista de frases fijas en vez de titulares calculados. Cambiar a `true` + build + deploy es el propio mecanismo de "abrir" el panel la noche electoral — no hay lógica de fecha/hora automática. El mismo fichero tiene `ESCRUTINIO_SIMULADO`, el % de relleno mientras no hay escrutinio real (usado también por la imagen de "Compartir resultados").
 
 ## Estructura real
 
@@ -29,18 +29,21 @@ elecciones-panel/
 │   ├── app.css                        # tokens de diseño (color, tipografía, bordes) + estilos base
 │   ├── app.html / app.d.ts
 │   ├── lib/
-│   │   ├── config.ts                  # ESCRUTINIO_ABIERTO — interruptor manual de lanzamiento
+│   │   ├── config.ts                  # ESCRUTINIO_ABIERTO (interruptor de lanzamiento) + ESCRUTINIO_SIMULADO
 │   │   ├── data.ts                    # fetch + caché en memoria de todo static/data/*.json, tipos
 │   │   ├── format.ts                  # formatoMiles() y similares
 │   │   ├── geo.ts                     # proyección/paths compartidos por los mapas coropléticos
+│   │   ├── lideres.ts                 # foto + nombre de líder por sigla (solo partidos con URL confirmada)
+│   │   ├── compartir-imagen.ts        # helpers de <canvas> para generar las imágenes "compartir en redes"
 │   │   ├── ticker-content.ts          # titulares fijos (pre-apertura) + calculados (en directo)
 │   │   ├── assets/                    # favicon.png, logo-newtral.png
 │   │   └── components/                # un componente = un archivo, sin subcarpetas por tipo
 │   │       ├── EscrutinioHeader.svelte      # cabecera fija: wordmark, "en directo", % escrutado (gateado)
 │   │       ├── ChamberTabs.svelte           # pestañas Congreso / Senado (gateadas)
 │   │       ├── TickerUltimaHora.svelte      # cinta de titulares en directo bajo la cabecera
-│   │       ├── CongresoView.svelte          # ruta "/": barra + grid (tabla/hemiciclo/mapa) + teasers
+│   │       ├── CongresoView.svelte          # ruta "/": barra + grid (tabla/hemiciclo/mapa) + compartir + teasers
 │   │       ├── SenadoView.svelte            # ruta "/senado": barra + tabla + mapa por provincia
+│   │       ├── CompartirResultados.svelte   # botón discreto en la home: genera PNG (barra + tabla + mapa) para redes
 │   │       ├── BarraEscanos.svelte          # barra apilada de escaños (Congreso)
 │   │       ├── BarraSenado.svelte           # barra apilada de senadores de elección directa (208)
 │   │       ├── Hemiciclo.svelte             # hemiciclo SVG, anillo actual + anillo "anterior" (2019 real)
@@ -57,7 +60,7 @@ elecciones-panel/
 │   │       ├── RankingParticipacion.svelte  # ranking de provincias por % participación
 │   │       ├── ParticipacionView.svelte     # ruta "/participacion"
 │   │       ├── ParticipacionTeaser.svelte   # banner de acceso desde la home
-│   │       ├── SimuladorPactos.svelte       # simulador de investidura
+│   │       ├── SimuladorPactos.svelte       # simulador de investidura: cualquier partido con escaño, "compartir mi apuesta"
 │   │       └── SimuladorTeaser.svelte       # banner de acceso desde la home
 │   └── routes/
 │       ├── +layout.svelte             # monta EscrutinioHeader + ChamberTabs + TickerUltimaHora + la vista
@@ -88,13 +91,26 @@ elecciones-panel/
 
 | Ruta | Vista | Contenido |
 |---|---|---|
-| `/` | `CongresoView.svelte` | Barra de escaños + tabla de partidos + hemiciclo + mapa de provincias + teasers |
+| `/` | `CongresoView.svelte` | Barra de escaños + tabla de partidos + hemiciclo + mapa de provincias + botón "Compartir resultados" + teasers |
 | `/senado` | `SenadoView.svelte` | Barra de senadores + tabla de partidos + mapa por provincia |
 | `/provincias` | `ProvinciasView.svelte` | Selector de provincia/municipio, resultados detallados y buscador |
 | `/participacion` | `ParticipacionView.svelte` | Cajitas de avance, mapa y ranking de participación por provincia |
-| `/pactos` | `PactosView.svelte` | Simulador de pactos (coalición PP/PSOE + aliados) |
+| `/pactos` | `PactosView.svelte` | Simulador de pactos: cualquier partido con escaño puede ser candidato, el resto se suman como aliados; "Compartir mi apuesta" genera un PNG |
 
 `EscrutinioHeader`, `ChamberTabs` y `TickerUltimaHora` viven en `+layout.svelte`, así que son compartidos entre todas las rutas y no se remontan al navegar.
+
+## Compartir en redes
+
+Dos puntos del panel generan una imagen PNG para compartir, dibujada entera en un `<canvas>` en el cliente (sin backend ni servicio externo de imágenes):
+
+- **`CompartirResultados.svelte`** (home de Congreso): escrutinio, barra de escaños, tabla completa por partido y el mapa de provincias.
+- **`SimuladorPactos.svelte`** → "Compartir mi apuesta": candidato elegido, aliados y la barra de reparto de esa coalición.
+
+Ambos reutilizan `src/lib/compartir-imagen.ts` (texto con huecos calculados a partir del tamaño real de cada fuente — nunca píxeles fijos a ojo, porque un número grande como el de escaños se come el texto de arriba si no se calcula bien —, insignia circular de líder con o sin foto, recorte del lienzo al contenido real, y exportar vía Web Share API con fallback a descarga) y `src/lib/lideres.ts` (foto + nombre por sigla).
+
+**Restricción importante con las fotos:** solo se dibujan en el `<canvas>` las que vienen de un host que sirve cabecera `Access-Control-Allow-Origin` (comprobado con `curl -I`) — hoy eso es `live.staticflickr.com`. El bucket `s3transparentia` de Newtral no la manda, así que una foto de ahí dejaría el lienzo "tainted" y rompería la exportación entera; por eso `lideres.ts` solo debe apuntar a fuentes verificadas como seguras, y cualquier sigla sin entrada (o con foto de un host no verificado) cae automáticamente a un distintivo de color + sigla en vez de romper la imagen.
+
+El mapa de provincias de `CompartirResultados.svelte` reutiliza la proyección y los `d` de SVG de `src/lib/geo.ts` (los mismos que usa `MapaProvincias.svelte`), convertidos a `Path2D` para dibujarlos en canvas — ninguna lógica de proyección duplicada entre el mapa interactivo y la imagen para compartir.
 
 ## Datos
 
@@ -115,11 +131,11 @@ Todo el procesado vive en `GENERALES_29N/elecciones-datos/pipeline/procesado/` (
 
 Notas importantes para quien toque estos scripts:
 
-- Los ficheros en bruto del Ministerio (`nnxxaamm.DAT`, ancho fijo, Windows-1252) no vienen ya normalizados entre territorios: una misma marca nacional se presenta con siglas locales distintas (PSC-PSOE, PSE-EE, PSdeG-PSOE, PP-FORO...). Para Congreso, el fichero de candidaturas trae una "cabecera de acumulación nacional" que resuelve esto; para Senado no existe ese campo y hay que mapear a mano. Ver `AGENTS.md` → "Comparativa con la convocatoria anterior" para el detalle completo.
+- Los ficheros en bruto del Ministerio (`nnxxaamm.DAT`, ancho fijo, Windows-1252) no vienen ya normalizados entre territorios: una misma marca nacional se presenta con siglas locales distintas (PSC-PSOE, PSE-EE, PSdeG-PSOE, PP-FORO...). Para Congreso, el fichero de candidaturas trae una "cabecera de acumulación nacional" que resuelve esto; para Senado no existe ese campo y hay que mapear a mano, comprobando cada sigla dudosa contra su denominación completa antes de darla por buena.
 - `escanosAnterior` / `pctVotosAnterior` es `number | null`. `null` significa "sin continuidad de marca con 2019" (SUMAR no existía, U.P.N. y A.H.I. concurrieron entonces en coaliciones conjuntas) — nunca se fuerza a `0`.
-- `src/lib/data.ts` centraliza el `fetch` de todos estos JSON (`getResultados23j()`, `getResultadosSenado23j()`, `getParticipacion23j()`, etc.) con caché en memoria — ningún componente hace su propio `fetch` de datos de resultados. `MapaProvincias`/`MapaSenado`/`MapaParticipacion`/`MapaMunicipios` sí hacen su propio `fetch` del `.geojson` correspondiente, porque son los únicos que lo usan.
-- Cruce de resultados con geometría: siempre por `cod_prov` (código INE de dos dígitos), nunca por nombre — ver detalle en `AGENTS.md`.
-- Geometría: `provincias.geojson` descargado de una fuente pública y simplificado con `mapshaper` (~75KB); `municipios/*.geojson` repartido por provincia tras simplificar la topología nacional completa — ver `AGENTS.md` → "Resultados por municipio" para el pipeline exacto.
+- `src/lib/data.ts` centraliza el `fetch` de todos estos JSON (`getResultados23j()`, `getResultadosSenado23j()`, `getParticipacion23j()`, etc.) con caché en memoria — ningún componente hace su propio `fetch` de datos de resultados. `MapaProvincias`/`MapaSenado`/`MapaParticipacion`/`MapaMunicipios` sí hacen su propio `fetch` del `.geojson` correspondiente, porque son los únicos que lo usan. Esa caché es por sesión de pestaña: tras cada `build` + deploy con datos nuevos, hay que recargar la página para que se pida el JSON otra vez (no hay recarga periódica automática todavía).
+- Cruce de resultados con geometría: siempre por `cod_prov` (código INE de dos dígitos), nunca por nombre — los nombres oficiales no coinciden entre fuentes ("Alicante" vs. "Alacant/Alicante", "Guipúzcoa" vs. "Gipuzkoa/Guipúzcoa"...).
+- Geometría: `provincias.geojson` descargado de una fuente pública y simplificado con `mapshaper` (~75KB); `municipios/*.geojson` repartido por provincia tras simplificar la topología nacional completa con `mapshaper -simplify visvalingam 2% keep-shapes planar` y luego `-split cod_prov`.
 
 **Pendiente, a propósito:** el bloque `nacional` de `resultados23j.json` (totales 23J, no la comparativa 2019) se generó a mano antes de que existiera `congreso_23j_provincias.py` y no tiene todavía un script propio que lo reproduzca. Cuando se toque, versionarlo igual que el resto.
 

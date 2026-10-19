@@ -1,45 +1,20 @@
 <script lang="ts">
 	import { getResultados23j, type Nacional, type Partido } from '#lib/data';
 	import logoUrl from '#lib/assets/logo-newtral.png';
-
-	// Fotos de líder por sigla. Se comprobó cada URL con un HEAD antes de usarla
-	// (ver AGENTS.md: nunca inventar avatar ni buscar foto fuera de una fuente
-	// de confianza). Las de Flickr (live.staticflickr.com) llevan cabecera
-	// Access-Control-Allow-Origin: *, así que además de salir en la ficha
-	// pueden dibujarse en el <canvas> de "Compartir mi apuesta" sin problema
-	// de tainted canvas — al contrario que el bucket s3transparentia (sin
-	// CORS), por eso Feijóo/Sánchez se han movido también a Flickr.
-	// SUMAR ahora se presenta como "Frente Amplio" con Ada Colau — el dato
-	// sigue llegando con siglas:"SUMAR" en el JSON (23J de prueba), así que la
-	// clave aquí tiene que seguir siendo esa para que la ficha la recoja; el
-	// nombre visible de la marca es cosa del pipeline de datos, no de este
-	// mapa. "Podemos" no tiene fila propia todavía en nacional.partidos (en
-	// los datos de prueba de 23J va dentro de SUMAR) — se deja ya cargada para
-	// cuando la convocatoria real sí la traiga desglosada. El resto se deja en
-	// blanco hasta tener URL confirmada; no hace falta tocar nada más, el
-	// resto del componente ya resuelve el líder que falte con un hueco vacío.
-	const LIDERES: Record<string, { nombre: string; foto: string }> = {
-		PP: {
-			nombre: 'Alberto Núñez Feijóo',
-			foto: 'https://live.staticflickr.com/65535/55597696582_a1af1a748c.jpg'
-		},
-		PSOE: {
-			nombre: 'Pedro Sánchez',
-			foto: 'https://live.staticflickr.com/65535/55599113145_0c862ce7c6_t.jpg'
-		},
-		VOX: {
-			nombre: 'Santiago Abascal',
-			foto: 'https://live.staticflickr.com/65535/55598714331_8286c5b4cb_t.jpg'
-		},
-		SUMAR: {
-			nombre: 'Ada Colau',
-			foto: 'https://live.staticflickr.com/65535/55598714326_0554aa72c2.jpg'
-		},
-		Podemos: {
-			nombre: 'Irene Montero',
-			foto: 'https://live.staticflickr.com/65535/55598907244_3d57d2db05_t.jpg'
-		}
-	};
+	import {
+		COLOR,
+		URL_COMPARTIR,
+		cargarImagen,
+		dibujarTextoEspaciado,
+		partirEnLineas,
+		tituloCaso,
+		dibujarLinea,
+		dibujarLineas,
+		dibujarInsigniaCircular,
+		recortarCanvas
+	} from '#lib/compartir-imagen';
+	import CompartirMenu from '#lib/components/CompartirMenu.svelte';
+	import { LIDERES } from '#lib/lideres';
 
 	let nacional = $state<Nacional | null>(null);
 
@@ -109,156 +84,45 @@
 	let mayoriaPct = $derived(nacional ? (nacional.mayoria / nacional.totalEscanos) * 100 : 0);
 
 	// --- Compartir la apuesta como imagen ---------------------------------
-	// Dibujar una foto de líder en un <canvas> y luego exportarlo
-	// (toBlob/toDataURL) solo funciona si el servidor que la sirve manda
-	// Access-Control-Allow-Origin — si no, el canvas queda "tainted" y la
-	// exportación entera falla con SecurityError. Comprobado con curl -I:
-	// el bucket s3transparentia de Newtral NO manda esa cabecera, pero
-	// live.staticflickr.com (donde viven las fotos de LIDERES) sí. Por eso
-	// solo se intenta cargar la foto real cuando la URL es de ese host
-	// conocido — cualquier otra fuente (o ausencia de foto) cae al
-	// distintivo de color+sigla, para no reventar la imagen entera si en el
-	// futuro se añade una URL de un sitio sin CORS sin darse cuenta.
-	let generandoImagen = $state(false);
+	// Los helpers de dibujo/exportación del canvas viven en
+	// #lib/compartir-imagen (compartidos con el botón de "Compartir
+	// resultados" de la home del Congreso) — ver ese fichero para el porqué
+	// de la comprobación de CORS en las fotos. CompartirMenu llama a
+	// generarImagenApuesta() y decide él mismo qué hacer con el canvas
+	// resultante (copiar+abrir red, descargar, share nativo...).
+	let textoCompartir = $derived(
+		partidoPresidente
+			? `Esta es mi predicción de los resultados de las elecciones del #29N en el simulador de pactos de @Newtral: www.newtral.es/directo-resultados-elecciones-29n/`
+			: ''
+	);
 
-	const HOST_FOTO_CON_CORS = /^https:\/\/live\.staticflickr\.com\//;
-
-	// Enlace fijo del pie de la imagen para compartir (no la URL del panel en
-	// sí, sino la cobertura en directo de Newtral de la jornada).
-	const URL_COMPARTIR = 'www.newtral.es/directo-resultados-elecciones-29n';
-
-	let logoImgPromise: Promise<HTMLImageElement> | null = null;
-	function cargarLogo(): Promise<HTMLImageElement> {
-		if (!logoImgPromise) {
-			logoImgPromise = new Promise((resolve, reject) => {
-				const img = new Image();
-				img.onload = () => resolve(img);
-				img.onerror = () => reject(new Error('No se ha podido cargar el logo'));
-				img.src = logoUrl;
-			});
-		}
-		return logoImgPromise;
-	}
-
-	function cargarFotoConCors(url: string): Promise<HTMLImageElement> {
-		return new Promise((resolve, reject) => {
-			const img = new Image();
-			img.crossOrigin = 'anonymous';
-			img.onload = () => resolve(img);
-			img.onerror = () => reject(new Error('No se ha podido cargar la foto'));
-			img.src = url;
-		});
-	}
-
-	function dibujarTextoEspaciado(
-		ctx: CanvasRenderingContext2D,
-		texto: string,
-		x: number,
-		y: number,
-		espacio: number
-	) {
-		let cx = x;
-		for (const letra of texto) {
-			ctx.fillText(letra, cx, y);
-			cx += ctx.measureText(letra).width + espacio;
-		}
-	}
-
-	function partirEnLineas(ctx: CanvasRenderingContext2D, texto: string, anchoMax: number): string[] {
-		const palabras = texto.split(' ');
-		const lineas: string[] = [];
-		let actual = '';
-		for (const palabra of palabras) {
-			const prueba = actual ? `${actual} ${palabra}` : palabra;
-			if (actual && ctx.measureText(prueba).width > anchoMax) {
-				lineas.push(actual);
-				actual = palabra;
-			} else {
-				actual = prueba;
-			}
-		}
-		if (actual) lineas.push(actual);
-		return lineas;
-	}
-
-	function tituloCaso(texto: string): string {
-		return texto
-			.toLowerCase()
-			.split(' ')
-			.map((p) => (p ? p[0].toUpperCase() + p.slice(1) : p))
-			.join(' ');
-	}
-
-	// Dibujar texto en <canvas> coloca la línea base donde le digas, pero el
-	// propio glifo sube por encima de esa línea (el "ascent") una cantidad que
-	// depende del tamaño de fuente — con el número de escaños a 130px eso son
-	// ~100px. Calcular el hueco entre bloques a base de sumar píxeles fijos a
-	// ojo (como se hacía antes) se queda corto en cuanto cambia el tamaño de
-	// letra y el número se come el texto de arriba. Estos helpers reciben
-	// siempre el borde SUPERIOR del siguiente bloque (nunca una línea base) y
-	// devuelven el borde superior del bloque que viene después, calculado a
-	// partir del tamaño real de fuente — así el hueco entre bloques es
-	// siempre el que se pide, sin importar lo grande que sea la letra.
-	const ASCENSO = 0.78;
-	const DESCENSO = 0.22;
-
-	function dibujarLinea(
-		ctx: CanvasRenderingContext2D,
-		texto: string,
-		x: number,
-		yArriba: number,
-		fontSizePx: number,
-		huecoDespues: number
-	): number {
-		ctx.fillText(texto, x, yArriba + fontSizePx * ASCENSO);
-		return yArriba + fontSizePx * (ASCENSO + DESCENSO) + huecoDespues;
-	}
-
-	function dibujarLineas(
-		ctx: CanvasRenderingContext2D,
-		lineas: string[],
-		x: number,
-		yArriba: number,
-		fontSizePx: number,
-		altoLinea: number,
-		huecoDespues: number
-	): number {
-		let base = yArriba + fontSizePx * ASCENSO;
-		for (const linea of lineas) {
-			ctx.fillText(linea, x, base);
-			base += altoLinea;
-		}
-		return base - altoLinea + fontSizePx * DESCENSO + huecoDespues;
-	}
-
-	async function compartirApuesta() {
-		if (!nacional || !partidoPresidente || generandoImagen) return;
-		generandoImagen = true;
-		try {
+	async function generarImagenApuesta(): Promise<HTMLCanvasElement> {
+		if (!nacional || !partidoPresidente) throw new Error('No hay candidato elegido todavía');
+		{
 			const W = 1080;
 			const MAX_H = 1800;
 			const lienzo = document.createElement('canvas');
 			lienzo.width = W;
 			lienzo.height = MAX_H;
 			const ctx = lienzo.getContext('2d');
-			if (!ctx) return;
+			if (!ctx) throw new Error('No se ha podido crear el lienzo');
 
 			const margen = 64;
 			const anchoContenido = W - margen * 2;
 
-			ctx.fillStyle = '#f8fafc';
+			ctx.fillStyle = COLOR.paper;
 			ctx.fillRect(0, 0, W, MAX_H);
-			ctx.fillStyle = '#01f3b3';
+			ctx.fillStyle = COLOR.teal;
 			ctx.fillRect(0, 0, W, 10);
 
-			const logoImg = await cargarLogo();
+			const logoImg = await cargarImagen(logoUrl);
 			const logoW = 220;
 			const logoH = logoW * (logoImg.height / logoImg.width);
 			ctx.drawImage(logoImg, margen, 64, logoW, logoH);
 
 			let y = 64 + logoH + 48;
 
-			ctx.fillStyle = '#6b7280';
+			ctx.fillStyle = COLOR.grey;
 			ctx.font = '700 15px "Helvetica Neue", Arial, sans-serif';
 			ctx.textAlign = 'left';
 			ctx.textBaseline = 'alphabetic';
@@ -269,55 +133,18 @@
 			const cx = W / 2;
 			const r = 90;
 
-			let fotoLider: HTMLImageElement | null = null;
-			if (liderPresidente && HOST_FOTO_CON_CORS.test(liderPresidente.foto)) {
-				try {
-					fotoLider = await cargarFotoConCors(liderPresidente.foto);
-				} catch {
-					fotoLider = null;
-				}
-			}
-
-			if (fotoLider) {
-				ctx.save();
-				ctx.beginPath();
-				ctx.arc(cx, y + r, r, 0, Math.PI * 2);
-				ctx.closePath();
-				ctx.clip();
-				const lado = Math.min(fotoLider.width, fotoLider.height);
-				const sx = (fotoLider.width - lado) / 2;
-				// Los retratos (más altos que anchos) suelen tener la cara en el
-				// tercio superior, no en el centro — anclar el recorte cerca de
-				// arriba (en vez de centrado) evita dejarla pequeña y hundida
-				// hacia abajo dentro del círculo. Comprobado recortando la foto
-				// real de Feijóo con distintos anclajes antes de fijar el 0.15.
-				const esRetrato = fotoLider.height > fotoLider.width;
-				const sy = (fotoLider.height - lado) * (esRetrato ? 0.15 : 0.5);
-				ctx.drawImage(fotoLider, sx, sy, lado, lado, cx - r, y, r * 2, r * 2);
-				ctx.restore();
-				ctx.lineWidth = 5;
-				ctx.strokeStyle = partidoPresidente.color;
-				ctx.beginPath();
-				ctx.arc(cx, y + r, r, 0, Math.PI * 2);
-				ctx.stroke();
-			} else {
-				ctx.beginPath();
-				ctx.arc(cx, y + r, r, 0, Math.PI * 2);
-				ctx.fillStyle = '#ffffff';
-				ctx.fill();
-				ctx.lineWidth = 5;
-				ctx.strokeStyle = partidoPresidente.color;
-				ctx.stroke();
-				ctx.fillStyle = partidoPresidente.color;
-				ctx.font = '800 38px "Helvetica Neue", Arial, sans-serif';
-				ctx.textAlign = 'center';
-				ctx.textBaseline = 'middle';
-				ctx.fillText(partidoPresidente.siglas, cx, y + r);
-			}
+			await dibujarInsigniaCircular(ctx, {
+				cx,
+				yTop: y,
+				r,
+				color: partidoPresidente.color,
+				siglas: partidoPresidente.siglas,
+				foto: liderPresidente?.foto
+			});
 
 			y += r * 2 + 40;
 
-			ctx.fillStyle = '#0a0e14';
+			ctx.fillStyle = COLOR.ink;
 			ctx.textAlign = 'center';
 			ctx.textBaseline = 'alphabetic';
 			const FS_TITULO = 46;
@@ -360,7 +187,7 @@
 			);
 
 			const barH = 50;
-			ctx.fillStyle = '#f0f0f0';
+			ctx.fillStyle = COLOR.chip;
 			ctx.fillRect(margen, y, anchoContenido, barH);
 			let bx = margen;
 			for (const p of segmentos) {
@@ -371,19 +198,19 @@
 			}
 
 			const mx = margen + (nacional.mayoria / nacional.totalEscanos) * anchoContenido;
-			ctx.strokeStyle = '#0a0e14';
+			ctx.strokeStyle = COLOR.ink;
 			ctx.lineWidth = 2;
 			ctx.beginPath();
 			ctx.moveTo(mx, y - 10);
 			ctx.lineTo(mx, y + barH + 10);
 			ctx.stroke();
-			ctx.fillStyle = '#0a0e14';
+			ctx.fillStyle = COLOR.ink;
 			ctx.font = '700 18px "Helvetica Neue", Arial, sans-serif';
 			ctx.fillText(`Mayoría (${nacional.mayoria})`, mx, y - 20);
 
 			y += barH + 70;
 
-			ctx.strokeStyle = '#d9dcdf';
+			ctx.strokeStyle = COLOR.rule;
 			ctx.lineWidth = 1;
 			ctx.beginPath();
 			ctx.moveTo(margen, y);
@@ -392,50 +219,17 @@
 
 			y += 42;
 
-			ctx.fillStyle = '#6b7280';
+			ctx.fillStyle = COLOR.grey;
 			const FS_PIE1 = 24;
 			ctx.font = `600 ${FS_PIE1}px "Helvetica Neue", Arial, sans-serif`;
 			y = dibujarLinea(ctx, 'Haz tu propia apuesta en', cx, y, FS_PIE1, 6);
 
-			ctx.fillStyle = '#00b38a';
+			ctx.fillStyle = COLOR.tealDark;
 			const FS_PIE2 = 26;
 			ctx.font = `700 ${FS_PIE2}px "Helvetica Neue", Arial, sans-serif`;
 			y = dibujarLinea(ctx, URL_COMPARTIR.replace(/^https?:\/\//, ''), cx, y, FS_PIE2, 40);
 
-			const final = document.createElement('canvas');
-			final.width = W;
-			final.height = y;
-			const ctxFinal = final.getContext('2d');
-			if (!ctxFinal) return;
-			ctxFinal.drawImage(lienzo, 0, 0, W, y, 0, 0, W, y);
-
-			const blob: Blob | null = await new Promise((resolve) => ctxFinal.canvas.toBlob(resolve, 'image/png'));
-			if (!blob) return;
-
-			const archivo = new File([blob], 'mi-apuesta-generales29n.png', { type: 'image/png' });
-			const nav = navigator as Navigator & { canShare?: (data?: ShareData) => boolean };
-
-			if (nav.canShare?.({ files: [archivo] })) {
-				try {
-					await navigator.share({
-						files: [archivo],
-						title: 'Mi apuesta de Gobierno',
-						text: 'Esta es mi predicción de los resultados de las elecciones del 29N en el simulador de pactos de @Newtral: www.newtral.es/directo-resultados-elecciones-29n/'
-					});
-					return;
-				} catch (err) {
-					if ((err as Error).name === 'AbortError') return;
-				}
-			}
-
-			const url = URL.createObjectURL(blob);
-			const a = document.createElement('a');
-			a.href = url;
-			a.download = 'mi-apuesta-generales29n.png';
-			a.click();
-			URL.revokeObjectURL(url);
-		} finally {
-			generandoImagen = false;
+			return recortarCanvas(lienzo, W, y);
 		}
 	}
 </script>
@@ -519,9 +313,13 @@
 			</div>
 
 			{#if partidoPresidente}
-				<button class="compartir" onclick={compartirApuesta} disabled={generandoImagen}>
-					{generandoImagen ? 'Generando…' : 'Compartir mi apuesta'}
-				</button>
+				<CompartirMenu
+					generar={generarImagenApuesta}
+					nombreArchivo="mi-apuesta-generales29n.png"
+					texto={textoCompartir}
+					etiqueta="Compartir mi apuesta"
+					variante="primaria"
+				/>
 			{/if}
 		</div>
 
@@ -861,36 +659,6 @@
 		width: 1px;
 		height: 34px;
 		background: var(--ink);
-	}
-
-	.compartir {
-		font-family: var(--font-body);
-		font-size: 11px;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		color: var(--ink);
-		background: var(--c);
-		border: 1px solid var(--ink);
-		padding: 10px 20px;
-		cursor: pointer;
-		transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.15s ease;
-	}
-
-	.compartir:hover:not(:disabled) {
-		background: var(--cd);
-		box-shadow: var(--shadow-hard);
-		transform: translate(-2px, -2px);
-	}
-
-	.compartir:focus-visible {
-		outline: 2px solid var(--ink);
-		outline-offset: 2px;
-	}
-
-	.compartir:disabled {
-		opacity: 0.6;
-		cursor: wait;
 	}
 
 	.sin-escano {

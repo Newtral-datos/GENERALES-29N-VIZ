@@ -1,9 +1,6 @@
 <script lang="ts">
 	import logo from '#lib/assets/logo-newtral.png';
-	import { ESCRUTINIO_ABIERTO } from '#lib/config';
-
-	// TODO: sustituir por el % de escrutinio real cuando haya datos en vivo de la jornada.
-	const ESCRUTINIO_SIMULADO = 92.3;
+	import { ESCRUTINIO_ABIERTO, ESCRUTINIO_SIMULADO } from '#lib/config';
 
 	let escrutinio = $state(0);
 

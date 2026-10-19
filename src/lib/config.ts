@@ -7,3 +7,8 @@
 // arranque la jornada electoral y volver a desplegar — no hay lógica de
 // fecha/hora automática, es manual a propósito.
 export const ESCRUTINIO_ABIERTO = true;
+
+// TODO: sustituir por el % de escrutinio real cuando haya datos en vivo de la
+// jornada. Centralizado aquí (en vez de en EscrutinioHeader.svelte) porque el
+// botón de "Compartir resultados" también lo necesita para la imagen.
+export const ESCRUTINIO_SIMULADO = 92.3;

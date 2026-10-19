@@ -6,6 +6,7 @@
 	import SimuladorTeaser from '#lib/components/SimuladorTeaser.svelte';
 	import ProvinciasTeaser from '#lib/components/ProvinciasTeaser.svelte';
 	import ParticipacionTeaser from '#lib/components/ParticipacionTeaser.svelte';
+	import CompartirResultados from '#lib/components/CompartirResultados.svelte';
 </script>
 
 <main class="main">
@@ -24,6 +25,10 @@
 			<MapaProvincias />
 		</div>
 	</div>
+
+	<div class="compartir-section">
+		<CompartirResultados />
+	</div>
 </main>
 
 <div class="teasers">
@@ -39,6 +44,12 @@
 
 	.barra-section {
 		margin-bottom: 20px;
+	}
+
+	.compartir-section {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
 	}
 
 	.grid {
