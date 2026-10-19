@@ -1,0 +1,1 @@
+var e=new URL(`../assets/logo-newtral.X2om2jps.png`,import.meta.url).href;export{e as t};
