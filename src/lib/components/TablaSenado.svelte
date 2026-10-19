@@ -36,7 +36,12 @@
 										<span class="party-name">{p.siglas}</span>
 									</div>
 								</td>
-								<td class="num seats">{p.escanos}</td>
+								<td class="num seats">
+									{p.escanos}
+									{#if dif !== null && dif !== 0}
+										<span class="tendencia" class:sube={dif > 0} class:baja={dif < 0}>{dif > 0 ? '▲' : '▼'}</span>
+									{/if}
+								</td>
 								<td class="num">
 									{#if dif === null}
 										<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
@@ -167,6 +172,19 @@
 		font-size: 12px;
 		font-weight: 700;
 		color: var(--ink);
+	}
+
+	.tendencia {
+		font-size: 8px;
+		margin-left: 2px;
+	}
+
+	.tendencia.sube {
+		color: #0a7a4a;
+	}
+
+	.tendencia.baja {
+		color: var(--stamp);
 	}
 
 	.dif {

@@ -9,16 +9,20 @@
 		});
 	});
 
-	// La barra representa solo los 208 senadores de elección directa (lo
-	// único que hay el 23J): los porcentajes se escalan sobre totalEscanos,
-	// no sobre totalEscanosCamara (266, que incluye los 58 autonómicos) — ver
-	// la nota al pie para esa aclaración en vez de dibujar un tramo "pendiente".
+	// La mayoría (134) se calcula sobre los 266 escaños de la Cámara completa,
+	// no sobre los 208 de elección directa que hay el 23J — escalar los
+	// segmentos sobre totalEscanos dejaba la marca de mayoría muy a la
+	// derecha de lo que le correspondía. Igual que en el hemiciclo y el
+	// simulador de pactos: la barra se escala sobre el total de la Cámara
+	// (totalEscanosCamara) y el resto (escanosDesignadosPendientes, los 58
+	// autonómicos) se dibuja como un tramo neutro al final, para que la marca
+	// de mayoría caiga en su sitio real.
 	let segmentsLeft = $derived.by(() => {
 		if (!nacional) return [];
 		return nacional.partidos
 			.filter((p) => p.lado === 1)
 			.sort((a, b) => b.escanos - a.escanos)
-			.map((p) => ({ ...p, pct: (p.escanos / nacional!.totalEscanos) * 100 }));
+			.map((p) => ({ ...p, pct: (p.escanos / nacional!.totalEscanosCamara) * 100 }));
 	});
 
 	let segmentsRight = $derived.by(() => {
@@ -26,12 +30,16 @@
 		return nacional.partidos
 			.filter((p) => p.lado === 2)
 			.sort((a, b) => a.escanos - b.escanos)
-			.map((p) => ({ ...p, pct: (p.escanos / nacional!.totalEscanos) * 100 }));
+			.map((p) => ({ ...p, pct: (p.escanos / nacional!.totalEscanosCamara) * 100 }));
 	});
 
 	let segments = $derived([...segmentsLeft, ...segmentsRight]);
 
-	let mayoriaPct = $derived(nacional ? (nacional.mayoria / nacional.totalEscanos) * 100 : 0);
+	let pctPendiente = $derived(
+		nacional ? (nacional.escanosDesignadosPendientes / nacional.totalEscanosCamara) * 100 : 0
+	);
+
+	let mayoriaPct = $derived(nacional ? (nacional.mayoria / nacional.totalEscanosCamara) * 100 : 0);
 
 	let activeSiglas = $state<string | null>(null);
 	let popupPos = $state({ x: 0, y: 0 });
@@ -98,6 +106,12 @@
 					{/if}
 				</div>
 			{/each}
+			<div
+				class="seg pendiente"
+				style="width:{pctPendiente}%"
+				role="img"
+				aria-label="{nacional.escanosDesignadosPendientes} escaños designados por los parlamentos autonómicos, pendientes"
+			></div>
 		</div>
 		<div class="maj-marker" style="left:{mayoriaPct}%">
 			<span class="maj-text">Mayoría<br /><b>{nacional.mayoria}</b></span>
@@ -105,9 +119,9 @@
 		</div>
 	</div>
 	<p class="nota">
-		{nacional.totalEscanos} senadores de elección directa — 23J. La Cámara completa tiene {nacional.totalEscanosCamara},
-		con otros {nacional.escanosDesignadosPendientes} designados por los parlamentos autonómicos, no representados en
-		esta barra.
+		{nacional.totalEscanos} senadores de elección directa — 23J, sobre un total de {nacional.totalEscanosCamara} en la
+		Cámara completa. El tramo rayado representa los otros {nacional.escanosDesignadosPendientes} designados por los
+		parlamentos autonómicos, aún sin asignar.
 	</p>
 {/if}
 
@@ -146,11 +160,18 @@
 		align-items: center;
 		justify-content: center;
 		height: 100%;
-		border-right: 1px solid var(--border);
 		cursor: pointer;
 	}
-	.seg:last-child {
-		border-right: none;
+
+	.seg.pendiente {
+		background: repeating-linear-gradient(
+			45deg,
+			rgba(10, 14, 20, 0.06),
+			rgba(10, 14, 20, 0.06) 4px,
+			rgba(10, 14, 20, 0.12) 4px,
+			rgba(10, 14, 20, 0.12) 8px
+		);
+		cursor: default;
 	}
 
 	.seg-label {

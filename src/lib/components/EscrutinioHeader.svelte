@@ -4,6 +4,10 @@
 
 	let escrutinio = $state(0);
 
+	// Placeholder de fecha/hora de actualización mientras no hay dato real de
+	// la jornada — fecha de hoy, hora fija a las 00:00.
+	let fechaActualizacion = $derived(`Última actualización: ${new Date().toLocaleDateString('es-ES')} — 00:00h`);
+
 	$effect(() => {
 		if (!ESCRUTINIO_ABIERTO) return;
 		const steps = 30;
@@ -21,6 +25,7 @@
 <header class="ticker">
 	<div class="masthead">
 		<span class="wordmark">Generales 29N</span>
+		<span class="fecha-actualizacion">{fechaActualizacion}</span>
 	</div>
 
 	<div class="row">
@@ -58,7 +63,6 @@
 		top: 0;
 		z-index: 50;
 		width: 100%;
-		border-bottom: 2px solid var(--c);
 	}
 
 	.masthead {
@@ -76,11 +80,18 @@
 		text-transform: uppercase;
 	}
 
+	.fecha-actualizacion {
+		font-family: var(--font-body);
+		font-size: 12px;
+		font-style: italic;
+		color: rgba(10, 14, 20, 0.5);
+	}
+
 	.row {
 		display: flex;
 		align-items: center;
 		gap: 14px;
-		padding: 7px 110px 10px 20px;
+		padding: 7px 110px 4px 20px;
 	}
 
 	.stamp {
@@ -117,7 +128,7 @@
 
 	.number {
 		font-family: var(--font-mono);
-		font-size: 22px;
+		font-size: 32px;
 		font-weight: 700;
 		color: var(--c);
 		letter-spacing: -0.01em;
@@ -127,7 +138,7 @@
 	}
 
 	.number-unit {
-		font-size: 13px;
+		font-size: 18px;
 		font-weight: 500;
 		color: rgba(1, 243, 179, 0.6);
 		margin-left: 1px;
@@ -183,13 +194,13 @@
 		}
 
 		.row {
-			padding: 8px 100px 10px 16px;
+			padding: 8px 100px 4px 16px;
 			gap: 10px;
 			flex-wrap: wrap;
 		}
 
 		.number {
-			font-size: 20px;
+			font-size: 28px;
 		}
 
 		.bar {

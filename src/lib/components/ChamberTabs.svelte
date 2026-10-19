@@ -26,7 +26,7 @@
 
 	.tab {
 		display: inline-block;
-		padding: 10px 2px;
+		padding: 5px 2px;
 		margin-bottom: -1px;
 		font-family: var(--font-display);
 		font-size: 12px;

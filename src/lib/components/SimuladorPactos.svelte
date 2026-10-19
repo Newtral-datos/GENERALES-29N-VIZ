@@ -154,12 +154,28 @@
 			y = dibujarLineas(ctx, lineasTitulo, cx, y, FS_TITULO, FS_TITULO * 1.18, 18);
 
 			if (partidosAliados.length) {
-				ctx.fillStyle = '#6b7280';
 				const FS_ALIADOS = 24;
 				ctx.font = `600 ${FS_ALIADOS}px "Helvetica Neue", Arial, sans-serif`;
-				const aliadosTxt = `Con ${partidosAliados.map((p) => p.siglas).join(' | ')}`;
-				const lineasAliados = partirEnLineas(ctx, aliadosTxt, anchoContenido);
-				y = dibujarLineas(ctx, lineasAliados, cx, y, FS_ALIADOS, FS_ALIADOS * 1.3, 0);
+				const prefijo = 'Con ';
+				const separador = ' | ';
+				const piezas = [
+					{ texto: prefijo, color: '#6b7280' },
+					...partidosAliados.flatMap((p, i) => [
+						...(i > 0 ? [{ texto: separador, color: '#6b7280' }] : []),
+						{ texto: p.siglas, color: p.color }
+					])
+				];
+				const anchoTotal = piezas.reduce((acc, pieza) => acc + ctx.measureText(pieza.texto).width, 0);
+				ctx.textAlign = 'left';
+				let px = cx - anchoTotal / 2;
+				const baseline = y + FS_ALIADOS * 0.78;
+				for (const pieza of piezas) {
+					ctx.fillStyle = pieza.color;
+					ctx.fillText(pieza.texto, px, baseline);
+					px += ctx.measureText(pieza.texto).width;
+				}
+				ctx.textAlign = 'center';
+				y += FS_ALIADOS * 1.0 + 0;
 			}
 
 			y += 36;
@@ -167,12 +183,7 @@
 			ctx.fillStyle = '#0a0e14';
 			const FS_NUM = 130;
 			ctx.font = `800 ${FS_NUM}px ui-monospace, "SF Mono", Menlo, monospace`;
-			y = dibujarLinea(ctx, String(seatsPacto), cx, y, FS_NUM, 14);
-
-			ctx.fillStyle = '#6b7280';
-			const FS_SUB = 30;
-			ctx.font = `500 ${FS_SUB}px ui-monospace, "SF Mono", Menlo, monospace`;
-			y = dibujarLinea(ctx, `de ${nacional.mayoria} para la mayoría`, cx, y, FS_SUB, 28);
+			y = dibujarLinea(ctx, String(seatsPacto), cx, y, FS_NUM, 40);
 
 			ctx.fillStyle = seatsPacto >= nacional.mayoria ? '#0a7a4a' : '#6b7280';
 			const FS_STATUS = 30;

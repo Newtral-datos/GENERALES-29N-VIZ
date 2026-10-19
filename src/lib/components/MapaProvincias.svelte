@@ -128,32 +128,6 @@
 <div class="panel">
 	<p class="kicker">Resultados por provincia y municipio</p>
 
-	<div class="buscador">
-		<input
-			type="text"
-			class="buscador-input"
-			placeholder="Buscar municipio…"
-			bind:value={busqueda}
-			onfocus={() => (dropdownAbierto = true)}
-			onblur={onBuscadorBlur}
-		/>
-		{#if dropdownAbierto && resultadosBusqueda.length}
-			<ul class="buscador-resultados">
-				{#each resultadosBusqueda as m (m.codProv + m.ine)}
-					<li>
-						<button type="button" class="buscador-opcion" onclick={() => irAMunicipio(m)}>
-							{m.nombre} <span class="buscador-provincia">({m.provincia})</span>
-						</button>
-					</li>
-				{/each}
-			</ul>
-		{:else if dropdownAbierto && normalizar(busqueda.trim()).length >= 2}
-			<ul class="buscador-resultados">
-				<li class="buscador-sin-resultados">Sin coincidencias</li>
-			</ul>
-		{/if}
-	</div>
-
 	<div class="panel-body">
 		{#if !allFeatures || !provincias}
 			<p class="loading">Cargando mapa…</p>
@@ -211,6 +185,32 @@
 				</svg>
 				<p class="nota">Partido ganador por circunscripción — 23J — pasa el ratón para un vistazo, haz clic para ver el detalle completo</p>
 			</div>
+		{/if}
+	</div>
+
+	<div class="buscador">
+		<input
+			type="text"
+			class="buscador-input"
+			placeholder="Buscar municipio…"
+			bind:value={busqueda}
+			onfocus={() => (dropdownAbierto = true)}
+			onblur={onBuscadorBlur}
+		/>
+		{#if dropdownAbierto && resultadosBusqueda.length}
+			<ul class="buscador-resultados">
+				{#each resultadosBusqueda as m (m.codProv + m.ine)}
+					<li>
+						<button type="button" class="buscador-opcion" onclick={() => irAMunicipio(m)}>
+							{m.nombre} <span class="buscador-provincia">({m.provincia})</span>
+						</button>
+					</li>
+				{/each}
+			</ul>
+		{:else if dropdownAbierto && normalizar(busqueda.trim()).length >= 2}
+			<ul class="buscador-resultados">
+				<li class="buscador-sin-resultados">Sin coincidencias</li>
+			</ul>
 		{/if}
 	</div>
 </div>
@@ -276,7 +276,7 @@
 
 	.buscador {
 		position: relative;
-		margin: 0 0 12px 0;
+		margin: 12px 0 0 0;
 	}
 
 	.buscador-input {

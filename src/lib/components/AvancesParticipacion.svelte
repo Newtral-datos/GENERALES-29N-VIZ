@@ -41,7 +41,7 @@
 					<span class="avance-delta sin-dato">Pendiente</span>
 				{:else if d !== null}
 					<span class="avance-delta" class:up={d > 0} class:down={d < 0}>
-						{d > 0 ? '+' : ''}{d.toLocaleString('es-ES', { minimumFractionDigits: 2 })} vs 2019
+						{d > 0 ? '+' : ''}{d.toLocaleString('es-ES', { minimumFractionDigits: 2 })} respecto a 2019
 					</span>
 				{/if}
 			</div>
@@ -74,7 +74,7 @@
 	.hero-unit {
 		font-size: 28px;
 		font-weight: 600;
-		color: var(--grey);
+		color: var(--c);
 		margin-left: 2px;
 	}
 

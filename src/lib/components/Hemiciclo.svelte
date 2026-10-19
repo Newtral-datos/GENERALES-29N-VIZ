@@ -128,8 +128,6 @@
 					<path
 						d={s.path}
 						fill={s.color}
-						stroke="var(--border)"
-						stroke-width="1"
 						class="seg-hover"
 						role="img"
 						aria-label="{s.nombre}: {s.seats} escaños"
@@ -150,8 +148,6 @@
 					<path
 						d={s.path}
 						fill={s.color}
-						stroke="var(--border)"
-						stroke-width="0.75"
 						class="seg-hover"
 						role="img"
 						aria-label="{s.nombre}: {s.seats} escaños (elección anterior)"
@@ -189,8 +185,6 @@
 				<span class="popup-seats">{activeSeg.seats} esc.</span>
 			</div>
 		{/if}
-
-		<p class="nota-anterior">Elecciones anteriores</p>
 
 		<ul class="legend">
 			{#each nacional.partidos as p (p.siglas)}
@@ -334,15 +328,6 @@
 		fill: var(--grey);
 		font-family: var(--font-mono);
 		font-size: 9px;
-	}
-
-	.nota-anterior {
-		font-size: 10px;
-		color: var(--grey);
-		font-family: var(--font-body);
-		font-style: italic;
-		margin: 4px 0 2px 0;
-		text-align: center;
 	}
 
 	.legend {

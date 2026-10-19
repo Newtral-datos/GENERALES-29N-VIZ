@@ -111,11 +111,7 @@
 		align-items: center;
 		justify-content: center;
 		height: 100%;
-		border-right: 1px solid var(--border);
 		cursor: pointer;
-	}
-	.seg:last-child {
-		border-right: none;
 	}
 
 	.seg-label {
