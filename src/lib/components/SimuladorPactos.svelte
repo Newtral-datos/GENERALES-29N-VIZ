@@ -123,6 +123,10 @@
 
 	const HOST_FOTO_CON_CORS = /^https:\/\/live\.staticflickr\.com\//;
 
+	// Enlace fijo del pie de la imagen para compartir (no la URL del panel en
+	// sí, sino la cobertura en directo de Newtral de la jornada).
+	const URL_COMPARTIR = 'www.newtral.es/directo-resultados-elecciones-29n';
+
 	let logoImgPromise: Promise<HTMLImageElement> | null = null;
 	function cargarLogo(): Promise<HTMLImageElement> {
 		if (!logoImgPromise) {
@@ -396,14 +400,7 @@
 			ctx.fillStyle = '#00b38a';
 			const FS_PIE2 = 26;
 			ctx.font = `700 ${FS_PIE2}px "Helvetica Neue", Arial, sans-serif`;
-			y = dibujarLinea(
-				ctx,
-				typeof window !== 'undefined' ? window.location.href.replace(/^https?:\/\//, '') : '',
-				cx,
-				y,
-				FS_PIE2,
-				40
-			);
+			y = dibujarLinea(ctx, URL_COMPARTIR.replace(/^https?:\/\//, ''), cx, y, FS_PIE2, 40);
 
 			const final = document.createElement('canvas');
 			final.width = W;
@@ -423,7 +420,7 @@
 					await navigator.share({
 						files: [archivo],
 						title: 'Mi apuesta de Gobierno',
-						text: 'Así formaría yo gobierno en el simulador de pactos de Newtral.'
+						text: 'Esta es mi predicción de los resultados de las elecciones del 29N en el simulador de pactos de @Newtral: www.newtral.es/directo-resultados-elecciones-29n/'
 					});
 					return;
 				} catch (err) {
