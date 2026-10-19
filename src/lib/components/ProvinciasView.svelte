@@ -7,8 +7,8 @@
 	<a href={resolve('/')} class="volver">← Volver al Congreso</a>
 
 	<div class="intro">
-		<p class="kicker">Resultados por provincia</p>
-		<h1 class="titulo">Elige una provincia para ver su reparto de escaños</h1>
+		<p class="kicker">Resultados por provincia y municipio</p>
+		<h1 class="titulo">Elige una provincia o municipio para ver sus resultados</h1>
 	</div>
 
 	<SelectorProvincias />
@@ -24,26 +24,21 @@
 	.volver {
 		display: inline-flex;
 		align-items: center;
-		gap: 4px;
+		gap: 5px;
 		font-family: var(--font-body);
-		font-size: 11px;
-		font-weight: 700;
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 600;
 		color: var(--ink);
 		text-decoration: none;
-		border: 1.5px solid var(--ink);
+		border: 1px solid var(--ink);
 		padding: 7px 12px;
 		margin-bottom: 16px;
 		background: var(--paper);
-		transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+		transition: background 0.15s ease;
 	}
 
 	.volver:hover {
 		background: var(--c);
-		color: var(--ink);
-		box-shadow: var(--shadow-hard-lift);
-		transform: translate(-2px, -2px);
 	}
 
 	.intro {

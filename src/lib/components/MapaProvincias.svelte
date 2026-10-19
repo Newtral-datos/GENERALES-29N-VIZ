@@ -126,7 +126,7 @@
 </script>
 
 <div class="panel">
-	<p class="kicker">Resultados por provincia</p>
+	<p class="kicker">Resultados por provincia y municipio</p>
 
 	<div class="buscador">
 		<input

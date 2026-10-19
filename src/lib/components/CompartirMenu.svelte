@@ -92,7 +92,7 @@
 		onclick={() => (abierto = !abierto)}
 		onblur={onBlur}
 	>
-		{generando ? 'Generando…' : `↗ ${etiqueta}`}
+		{generando ? 'Generando…' : etiqueta}
 	</button>
 
 	{#if abierto}
@@ -127,38 +127,31 @@
 	}
 
 	.trigger:not(.primaria) {
-		font-size: 10px;
+		font-size: 12px;
 		font-weight: 600;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		color: var(--grey);
-		background: none;
-		border: 1px solid var(--border);
-		padding: 6px 10px;
-		transition: color 0.15s ease, border-color 0.15s ease;
+		color: var(--ink);
+		background: var(--c);
+		border: 1px solid var(--ink);
+		padding: 7px 12px;
+		transition: background 0.15s ease;
 	}
 
 	.trigger:not(.primaria):hover:not(:disabled) {
-		color: var(--ink);
-		border-color: var(--ink);
+		background: var(--cd);
 	}
 
 	.trigger.primaria {
-		font-size: 11px;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
+		font-size: 13px;
+		font-weight: 600;
 		color: var(--ink);
 		background: var(--c);
 		border: 1px solid var(--ink);
 		padding: 10px 20px;
-		transition: box-shadow 0.15s ease, transform 0.15s ease, background 0.15s ease;
+		transition: background 0.15s ease;
 	}
 
 	.trigger.primaria:hover:not(:disabled) {
 		background: var(--cd);
-		box-shadow: var(--shadow-hard);
-		transform: translate(-2px, -2px);
 	}
 
 	.trigger:focus-visible {
