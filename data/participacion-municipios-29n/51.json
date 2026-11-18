@@ -1,0 +1,42 @@
+{
+  "51001": {
+    "nombre": "CEUTA",
+    "poblacion": 83117,
+    "censo": 62231,
+    "mesas": 96,
+    "mesasConstituidas": 96,
+    "avances": [
+      {
+        "hora": "14:00",
+        "etiqueta": "Primer avance",
+        "votantes": 15776,
+        "participacionPct": 26.74,
+        "pctSobreCensoTotal": 25.35,
+        "pctMesasNotificadas": 94.79,
+        "mesasNotificadas": 91
+      },
+      {
+        "hora": "18:00",
+        "etiqueta": "Segundo avance",
+        "votantes": 20448,
+        "participacionPct": 38.64,
+        "pctSobreCensoTotal": 32.86,
+        "pctMesasNotificadas": 85.42,
+        "mesasNotificadas": 82
+      },
+      {
+        "hora": "Cierre",
+        "etiqueta": "Cierre de la jornada",
+        "votantes": null,
+        "participacionPct": null,
+        "pctSobreCensoTotal": null,
+        "pctEscrutado": null,
+        "pctMesasNotificadas": null,
+        "mesasNotificadas": null,
+        "participacionPctAnterior": 55.66,
+        "censoAnterior": 60335,
+        "votantesAnterior": 33585
+      }
+    ]
+  }
+}

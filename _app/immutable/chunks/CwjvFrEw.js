@@ -1,0 +1,1 @@
+function e(e){return Math.round(e).toString().replace(/\B(?=(\d{3})+(?!\d))/g,`.`)}export{e as t};

@@ -1,4 +1,5 @@
 {
+  "_guia": "Senado 29N. Ojo con tres cosas antes de tocar nada: (1) los 208 son los senadores que se ELIGEN en las urnas; los 58 designados por los parlamentos autonómicos llegan semanas después y no están aquí, pero sí cuentan para la mayoría absoluta de 134 sobre 266. (2) No hay escaños por municipio: se adjudican por circunscripción. (3) La comparativa con 23J solo puede ser de escaños — el fichero ANT del Senado no trae votos ni candidatos. Partidos ordenados por escaños, votos y resultado anterior.",
   "nacional": {
     "fecha": "2026-11-18",
     "horaTotalizacion": "00:00",
@@ -11,7 +12,276 @@
     "anterior": {
       "etiqueta": "Elección anterior (23J, julio 2023)",
       "totalEscanos": 208,
-      "mayoria": 134
+      "mayoria": 134,
+      "partidos": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "escanos": 120,
+          "color": "#0557A1",
+          "lado": 2
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "escanos": 73,
+          "color": "#E10819",
+          "lado": 1
+        },
+        {
+          "siglas": "IZQUIERDAS POR LA INDEPENDENCIA",
+          "nombre": "IZQUIERDAS POR LA INDEPENDENCIA",
+          "escanos": 7,
+          "color": "#9AA0A6",
+          "lado": 2
+        },
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "escanos": 4,
+          "color": "#00843D",
+          "lado": 2
+        },
+        {
+          "siglas": "A.H.I.",
+          "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+          "escanos": 1,
+          "color": "#B5651D",
+          "lado": 2
+        },
+        {
+          "siglas": "ASG",
+          "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+          "escanos": 1,
+          "color": "#7B3FA0",
+          "lado": 1
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "escanos": 1,
+          "color": "#0B8457",
+          "lado": 2
+        },
+        {
+          "siglas": "U.P.N.",
+          "nombre": "UNIÓN DEL PUEBLO NAVARRO",
+          "escanos": 1,
+          "color": "#1B3A6B",
+          "lado": 2
+        }
+      ]
+    }
+  },
+  "comunidades": {
+    "01": {
+      "nombre": "Andalucía",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "02": {
+      "nombre": "Aragón",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "03": {
+      "nombre": "Principado de Asturias",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "04": {
+      "nombre": "Illes Balears",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "05": {
+      "nombre": "Canarias",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "06": {
+      "nombre": "Cantabria",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "07": {
+      "nombre": "Castilla-La Mancha",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "08": {
+      "nombre": "Castilla y León",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "09": {
+      "nombre": "Catalunya",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "10": {
+      "nombre": "Extremadura",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "11": {
+      "nombre": "Galicia",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "12": {
+      "nombre": "Comunidad de Madrid",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "13": {
+      "nombre": "Comunidad Foral de Navarra",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "14": {
+      "nombre": "País Vasco",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "15": {
+      "nombre": "Región de Murcia",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "16": {
+      "nombre": "La Rioja",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "17": {
+      "nombre": "Comunitat Valenciana",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "18": {
+      "nombre": "Ciudad Autónoma de Ceuta",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
+    },
+    "19": {
+      "nombre": "Ciudad Autónoma de Melilla",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": []
     }
   },
   "provincias": {
