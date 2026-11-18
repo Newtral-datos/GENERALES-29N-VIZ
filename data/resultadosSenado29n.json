@@ -14,5 +14,982 @@
       "mayoria": 134
     }
   },
-  "provincias": {}
+  "provincias": {
+    "01": {
+      "nombre": "Araba/Álava",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Araba/Álava",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "02": {
+      "nombre": "Albacete",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Albacete",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "03": {
+      "nombre": "Alacant/Alicante",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Alacant/Alicante",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "04": {
+      "nombre": "Almería",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Almería",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "05": {
+      "nombre": "Ávila",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Ávila",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "06": {
+      "nombre": "Badajoz",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Badajoz",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "07": {
+      "nombre": "Illes Balears",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Mallorca",
+          "escanos": 3,
+          "ganadores": []
+        },
+        {
+          "nombre": "Menorca",
+          "escanos": 1,
+          "ganadores": []
+        },
+        {
+          "nombre": "Eivissa",
+          "escanos": 1,
+          "ganadores": []
+        },
+        {
+          "nombre": "Formentera",
+          "escanos": 1,
+          "ganadores": []
+        }
+      ]
+    },
+    "08": {
+      "nombre": "Barcelona",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Barcelona",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "09": {
+      "nombre": "Burgos",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Burgos",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "10": {
+      "nombre": "Cáceres",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Cáceres",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "11": {
+      "nombre": "Cádiz",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Cádiz",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "12": {
+      "nombre": "Castelló/Castellón",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Castelló/Castellón",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "13": {
+      "nombre": "Ciudad Real",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Ciudad Real",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "14": {
+      "nombre": "Córdoba",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Córdoba",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "15": {
+      "nombre": "A Coruña",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "A Coruña",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "16": {
+      "nombre": "Cuenca",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Cuenca",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "17": {
+      "nombre": "Girona",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Girona",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "18": {
+      "nombre": "Granada",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Granada",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "19": {
+      "nombre": "Guadalajara",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Guadalajara",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "20": {
+      "nombre": "Gipuzkoa",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Gipuzkoa",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "21": {
+      "nombre": "Huelva",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Huelva",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "22": {
+      "nombre": "Huesca",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Huesca",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "23": {
+      "nombre": "Jaén",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Jaén",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "24": {
+      "nombre": "León",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "León",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "25": {
+      "nombre": "Lleida",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Lleida",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "26": {
+      "nombre": "La Rioja",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "La Rioja",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "27": {
+      "nombre": "Lugo",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Lugo",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "28": {
+      "nombre": "Madrid",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Madrid",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "29": {
+      "nombre": "Málaga",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Málaga",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "30": {
+      "nombre": "Murcia",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Murcia",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "31": {
+      "nombre": "Navarra",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Navarra",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "32": {
+      "nombre": "Ourense",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Ourense",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "33": {
+      "nombre": "Asturias",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Asturias",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "34": {
+      "nombre": "Palencia",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Palencia",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "35": {
+      "nombre": "Las Palmas",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Gran Canaria",
+          "escanos": 3,
+          "ganadores": []
+        },
+        {
+          "nombre": "Lanzarote",
+          "escanos": 1,
+          "ganadores": []
+        },
+        {
+          "nombre": "Fuerteventura",
+          "escanos": 1,
+          "ganadores": []
+        }
+      ]
+    },
+    "36": {
+      "nombre": "Pontevedra",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Pontevedra",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "37": {
+      "nombre": "Salamanca",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Salamanca",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "38": {
+      "nombre": "Santa Cruz de Tenerife",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Tenerife",
+          "escanos": 3,
+          "ganadores": []
+        },
+        {
+          "nombre": "La Palma",
+          "escanos": 1,
+          "ganadores": []
+        },
+        {
+          "nombre": "La Gomera",
+          "escanos": 1,
+          "ganadores": []
+        },
+        {
+          "nombre": "El Hierro",
+          "escanos": 1,
+          "ganadores": []
+        }
+      ]
+    },
+    "39": {
+      "nombre": "Cantabria",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Cantabria",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "40": {
+      "nombre": "Segovia",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Segovia",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "41": {
+      "nombre": "Sevilla",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Sevilla",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "42": {
+      "nombre": "Soria",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Soria",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "43": {
+      "nombre": "Tarragona",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Tarragona",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "44": {
+      "nombre": "Teruel",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Teruel",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "45": {
+      "nombre": "Toledo",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Toledo",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "46": {
+      "nombre": "València/Valencia",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "València/Valencia",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "47": {
+      "nombre": "Valladolid",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Valladolid",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "48": {
+      "nombre": "Bizkaia",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Bizkaia",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "49": {
+      "nombre": "Zamora",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Zamora",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "50": {
+      "nombre": "Zaragoza",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Zaragoza",
+          "escanos": 4,
+          "ganadores": []
+        }
+      ]
+    },
+    "51": {
+      "nombre": "Ceuta",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Ceuta",
+          "escanos": 2,
+          "ganadores": []
+        }
+      ]
+    },
+    "52": {
+      "nombre": "Melilla",
+      "ganador": {
+        "siglas": null,
+        "color": null,
+        "escanos": 0,
+        "estado": "sinDatos",
+        "empatados": []
+      },
+      "composicion": [],
+      "circunscripciones": [
+        {
+          "nombre": "Melilla",
+          "escanos": 2,
+          "ganadores": []
+        }
+      ]
+    }
+  }
 }
