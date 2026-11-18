@@ -1,6 +1,7 @@
 // Contenido del ticker "Última hora" (TickerUltimaHora.svelte).
 
-import type { Nacional, Participacion23J } from '#lib/data';
+import { CONVOCATORIA_ANTERIOR } from '#lib/config';
+import type { Nacional, Participacion } from '#lib/data';
 
 // Antes de la jornada (ESCRUTINIO_ABIERTO = false): frases fijas, no hay
 // resultados reales que mostrar todavía — nada que parezca un dato en vivo.
@@ -23,7 +24,7 @@ function formatoDelta(n: number): string {
 
 // Último avance con dato real a nivel nacional (null si todavía no se ha
 // publicado ninguno) — mismo criterio que AvancesParticipacion.svelte.
-function avanceActivo(participacion: Participacion23J) {
+function avanceActivo(participacion: Participacion) {
 	let idx = -1;
 	participacion.nacional.avances.forEach((a, i) => {
 		if (a.participacionPct !== null) idx = i;
@@ -35,7 +36,7 @@ function avanceActivo(participacion: Participacion23J) {
 // de los datos reales ya cargados en el panel (resultados23j.json +
 // participacion23j.json), no texto escrito a mano. Solo se generan los que
 // de verdad se pueden derivar con garantías de los datos disponibles.
-export function generarTitularesDirecto(nacional: Nacional, participacion: Participacion23J): string[] {
+export function generarTitularesDirecto(nacional: Nacional, participacion: Participacion): string[] {
 	const titulares: string[] = [];
 
 	// 1. Partido más votado en escaños.
@@ -51,10 +52,10 @@ export function generarTitularesDirecto(nacional: Nacional, participacion: Parti
 	if (avance && avance.participacionPct !== null && avance.participacionPctAnterior !== null) {
 		const delta = avance.participacionPct - avance.participacionPctAnterior;
 		const momento = avance.hora === 'Cierre' ? 'al <b>cierre</b>' : `a las <b>${avance.hora}</b>`;
-		titulares.push(`Participación ${momento}: ${formatoPct(avance.participacionPct)}%, ${formatoDelta(delta)} pts que en 2019`);
+		titulares.push(`Participación ${momento}: ${formatoPct(avance.participacionPct)}%, ${formatoDelta(delta)} pts que en ${CONVOCATORIA_ANTERIOR}`);
 	}
 
-	// 3. Mayor vuelco de escaños respecto a 2019 (solo partidos con
+	// 3. Mayor vuelco de escaños respecto a la convocatoria anterior (solo partidos con
 	// continuidad de marca verificada — ver data.ts).
 	const conSwing = nacional.partidos
 		.filter((p): p is typeof p & { escanosAnterior: number } => p.escanosAnterior !== null)
@@ -63,7 +64,7 @@ export function generarTitularesDirecto(nacional: Nacional, participacion: Parti
 	const mayorSwing = conSwing[0];
 	if (mayorSwing && mayorSwing.dif !== 0) {
 		const verbo = mayorSwing.dif > 0 ? 'gana' : 'pierde';
-		titulares.push(`<b>${mayorSwing.siglas}</b> ${verbo} ${Math.abs(mayorSwing.dif)} escaños respecto a 2019`);
+		titulares.push(`<b>${mayorSwing.siglas}</b> ${verbo} ${Math.abs(mayorSwing.dif)} escaños respecto a ${CONVOCATORIA_ANTERIOR}`);
 	}
 
 	// 4. Provincia con mayor participación en el avance activo.
@@ -77,12 +78,12 @@ export function generarTitularesDirecto(nacional: Nacional, participacion: Parti
 		}
 	}
 
-	// 5. Abstención nacional en el avance activo, vs 2019.
+	// 5. Abstención nacional en el avance activo, vs la convocatoria anterior.
 	if (avance && avance.participacionPct !== null && avance.participacionPctAnterior !== null) {
 		const abstencion = 100 - avance.participacionPct;
 		const abstencionAnterior = 100 - avance.participacionPctAnterior;
 		const comparativa = abstencion > abstencionAnterior ? 'por encima' : 'por debajo';
-		titulares.push(`La abstención se sitúa en <b>${formatoPct(abstencion)}%</b>, ${comparativa} de 2019 (${formatoPct(abstencionAnterior)}%)`);
+		titulares.push(`La abstención se sitúa en <b>${formatoPct(abstencion)}%</b>, ${comparativa} de ${CONVOCATORIA_ANTERIOR} (${formatoPct(abstencionAnterior)}%)`);
 	}
 
 	return titulares;

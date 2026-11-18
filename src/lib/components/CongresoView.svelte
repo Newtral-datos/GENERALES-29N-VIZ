@@ -2,7 +2,7 @@
 	import BarraEscanos from '#lib/components/BarraEscanos.svelte';
 	import Hemiciclo from '#lib/components/Hemiciclo.svelte';
 	import TablaPartidos from '#lib/components/TablaPartidos.svelte';
-	import MapaProvincias from '#lib/components/MapaProvincias.svelte';
+	import MapaTerritorios from '#lib/components/MapaTerritorios.svelte';
 	import SimuladorTeaser from '#lib/components/SimuladorTeaser.svelte';
 	import ProvinciasTeaser from '#lib/components/ProvinciasTeaser.svelte';
 	import ParticipacionTeaser from '#lib/components/ParticipacionTeaser.svelte';
@@ -22,7 +22,7 @@
 			<Hemiciclo />
 		</div>
 		<div class="col-mapa">
-			<MapaProvincias />
+			<MapaTerritorios />
 		</div>
 	</div>
 
@@ -46,10 +46,26 @@
 		margin-bottom: 20px;
 	}
 
+	/* Solo en móvil. En escritorio el botón no puede hacer lo que promete:
+	   ninguna red deja adjuntar una imagen por URL y ninguna web puede meterle
+	   contenido al compositor de otra, así que lo máximo desde el navegador es
+	   copiar la imagen al portapapeles y pedir que se pegue a mano. En el móvil
+	   sí hay `navigator.share` nativo, que entrega imagen y texto directamente a
+	   la app que elija quien comparte — que es el caso de uso real de esta
+	   portada. Ver #lib/compartir-imagen.
+
+	   Se oculta por CSS y no por JS a propósito: el panel se prerenderiza, y
+	   decidir esto en el cliente dejaría el botón parpadeando al hidratar. */
 	.compartir-section {
-		display: flex;
-		justify-content: center;
-		margin-top: 20px;
+		display: none;
+	}
+
+	@media (max-width: 640px) {
+		.compartir-section {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+		}
 	}
 
 	.grid {

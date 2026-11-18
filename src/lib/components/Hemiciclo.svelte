@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { getResultados23j, type Nacional } from '#lib/data';
+	import { getResultados, type Nacional } from '#lib/data';
 
 	let nacional = $state<Nacional | null>(null);
 
 	$effect(() => {
-		getResultados23j().then((d) => {
+		getResultados().then((d) => {
 			nacional = d.nacional;
 		});
 	});

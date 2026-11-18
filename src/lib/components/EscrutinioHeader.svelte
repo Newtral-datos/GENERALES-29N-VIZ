@@ -1,21 +1,71 @@
 <script lang="ts">
 	import logo from '#lib/assets/logo-newtral.png';
 	import { ESCRUTINIO_ABIERTO, ESCRUTINIO_SIMULADO } from '#lib/config';
+	import { getResultados } from '#lib/data';
 
 	let escrutinio = $state(0);
 
-	// Placeholder de fecha/hora de actualización mientras no hay dato real de
-	// la jornada — fecha de hoy, hora fija a las 00:00.
-	let fechaActualizacion = $derived(`Última actualización: ${new Date().toLocaleDateString('es-ES')} — 00:00h`);
+	// Dato real de la jornada cuando el JSON lo trae (los del 29N llevan
+	// `pctEscrutado` y `horaTotalizacion`; los de 23J no, porque ese escrutinio
+	// está cerrado). Mientras no haya, se cae al valor simulado — marcado como
+	// tal en config.ts.
+	let objetivo = $state(ESCRUTINIO_SIMULADO);
+	let esSimulado = $state(true);
+	let horaDato = $state<string | null>(null);
+	let fechaDato = $state<string | null>(null);
+
+	$effect(() => {
+		getResultados()
+			.then((d) => {
+				if (typeof d.nacional.pctEscrutado === 'number') {
+					objetivo = d.nacional.pctEscrutado;
+					esSimulado = false;
+					horaDato = d.nacional.horaTotalizacion ?? null;
+					fechaDato = d.nacional.fecha ?? null;
+				}
+			})
+			.catch(() => {
+				// Sin datos no se inventa nada: se queda el valor simulado, que ya
+				// va rotulado como simulado en la UI.
+			});
+	});
+
+	/**
+	 * Fecha y hora del dato, las dos del propio fichero del Ministerio.
+	 *
+	 * La hora ya salía de `horaTotalizacion` —cuándo se totalizó el envío, que
+	 * es lo que hay que contar—, pero la fecha venía de `new Date()`, o sea del
+	 * reloj del visitante. Mezclar las dos fuentes da combinaciones imposibles:
+	 * quien abriera el panel a las 02:00 del día siguiente vería la fecha de ese
+	 * día con la hora del último envío de la noche anterior.
+	 *
+	 * La ISO se parte a mano en vez de `new Date('2026-11-29')`: esa cadena se
+	 * interpreta como UTC y en husos negativos retrocede un día, que en una
+	 * fecha electoral es justo el error que nadie perdona.
+	 */
+	function fechaEs(iso: string | null): string | null {
+		if (!iso) return null;
+		const [a, m, d] = iso.split('-');
+		return a && m && d ? `${d}/${m}/${a}` : null;
+	}
+
+	let fechaActualizacion = $derived.by(() => {
+		const fecha = fechaEs(fechaDato);
+		// Sin dato de la jornada no se inventa un sello de tiempo: los JSON de
+		// 23J no traen hora de totalización porque ese escrutinio está cerrado.
+		if (!fecha || !horaDato) return 'Esperando datos de la jornada';
+		return `Última actualización: ${fecha} — ${horaDato}h`;
+	});
 
 	$effect(() => {
 		if (!ESCRUTINIO_ABIERTO) return;
+		const destino = objetivo;
 		const steps = 30;
-		const inc = ESCRUTINIO_SIMULADO / steps;
+		const inc = destino / steps;
 		let step = 0;
 		const t = setInterval(() => {
 			step++;
-			escrutinio = Math.min(ESCRUTINIO_SIMULADO, inc * step);
+			escrutinio = Math.min(destino, inc * step);
 			if (step >= steps) clearInterval(t);
 		}, 1000 / steps);
 		return () => clearInterval(t);
@@ -35,7 +85,7 @@
 		</span>
 
 		{#if ESCRUTINIO_ABIERTO}
-			<span class="label">Escrutinio</span>
+			<span class="label">Escrutinio{#if esSimulado} <span class="aviso-simulado">(simulado)</span>{/if}</span>
 
 			<span class="number">{escrutinio.toLocaleString('es-ES', { minimumIntegerDigits: 2, maximumFractionDigits: 1 })}<span class="number-unit">%</span></span>
 
@@ -114,6 +164,15 @@
 		height: 4px;
 		background: var(--stamp);
 		flex-shrink: 0;
+	}
+
+	.aviso-simulado {
+		/* Un dato inventado nunca debe poder pasar por real (AGENTS.md): el
+		   rótulo desaparece solo cuando el JSON trae `pctEscrutado`. */
+		font-weight: 400;
+		text-transform: none;
+		letter-spacing: 0;
+		opacity: 0.75;
 	}
 
 	.label {

@@ -4,10 +4,10 @@
 	import { formatMiles } from '#lib/format';
 	import MapaMunicipios, { type MunicipioSeleccionado } from '#lib/components/MapaMunicipios.svelte';
 	import {
-		getResultados23j,
+		getResultados,
 		getEscanosCongresoProvincias,
 		getCcaaProvincias,
-		type Resultados23J,
+		type Resultados,
 		type EscanosProvincia
 	} from '#lib/data';
 
@@ -26,7 +26,7 @@
 		'U.P.N.': 2
 	};
 
-	let datos = $state<Resultados23J | null>(null);
+	let datos = $state<Resultados | null>(null);
 	let escanosProvincias = $state<Record<string, EscanosProvincia> | null>(null);
 	let ccaaProvincias = $state<Record<string, string> | null>(null);
 	let seleccion = $state<string | null>(null);
@@ -35,7 +35,7 @@
 	let inicializadoDesdeUrl = false;
 
 	$effect(() => {
-		getResultados23j().then((d) => {
+		getResultados().then((d) => {
 			datos = d;
 		});
 	});
@@ -102,7 +102,7 @@
 	function volverAProvincia() {
 		municipioSeleccionado = null;
 		if (page.url.searchParams.has('muni')) {
-			const params = new URLSearchParams(page.url.searchParams);
+			const params = new URLSearchParams(page.url.searchParams.toString());
 			params.delete('muni');
 			replaceState(`${page.url.pathname}?${params.toString()}`, page.state);
 		}

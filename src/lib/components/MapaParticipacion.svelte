@@ -1,6 +1,8 @@
 <script lang="ts">
+	import { CONVOCATORIA } from '#lib/config';
 	import { asset } from '$app/paths';
-	import { getParticipacion23j, type ParticipacionProvincia } from '#lib/data';
+	import { getParticipacion, type ParticipacionProvincia } from '#lib/data';
+	import { RAMPA, LEYENDA, colorDeAmbito } from '#lib/escala-participacion';
 	import { formatMiles } from '#lib/format';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
 
@@ -28,22 +30,14 @@
 	});
 
 	$effect(() => {
-		getParticipacion23j().then((d) => {
+		getParticipacion().then((d) => {
 			provincias = d.provincias;
 		});
 	});
 
-	// Escala secuencial de un solo tono (hue del teal de marca #01f3b3) en OKLCH,
-	// L de 0.96 a 0.37 — a más participación, más oscuro. Cortes en valores
-	// redondos para que la leyenda se lea igual aunque cambie el reparto real.
-	const RAMP = ['#e6f6ef', '#5dd8aa', '#00c287', '#009f66', '#005230'];
-	const CORTES = [55, 60, 65, 70];
-	const LEYENDA = ['< 55%', '55–60%', '60–65%', '65–70%', '≥ 70%'];
-
-	function colorForPct(pct: number): string {
-		const i = CORTES.findIndex((c) => pct < c);
-		return RAMP[i === -1 ? RAMP.length - 1 : i];
-	}
+	// La escala vive en #lib/escala-participacion: la comparte con el mapa
+	// municipal de esta misma página, y dos rampas distintas para la misma
+	// medida harían que el mismo porcentaje saliera de dos colores.
 
 	// Valor del avance activo para una provincia; null si ese corte todavía no
 	// tiene dato (antes de que se publique, o antes del primer avance de todos).
@@ -55,7 +49,7 @@
 	function colorFor(codProv: string): string {
 		const p = provincias?.[codProv];
 		const pct = p ? pctFor(p) : null;
-		return pct !== null ? colorForPct(pct) : 'var(--paper)';
+		return colorDeAmbito(pct);
 	}
 
 	let activeCod = $state<string | null>(null);
@@ -177,14 +171,14 @@
 				<ul class="leyenda">
 					{#each LEYENDA as label, i (label)}
 						<li>
-							<span class="leyenda-swatch" style="background:{RAMP[i]}"></span>
+							<span class="leyenda-swatch" style="background:{RAMPA[i]}"></span>
 							{label}
 						</li>
 					{/each}
 				</ul>
 
 				<p class="nota">
-					23J{#if avanceActivo}
+					{CONVOCATORIA}{#if avanceActivo}
 						— {avanceActivo.etiqueta.toLowerCase()}{avanceActivo.hora !== 'Cierre' ? ` (${avanceActivo.hora})` : ''}
 					{/if} — pasa el ratón por una provincia para ver el detalle
 				</p>

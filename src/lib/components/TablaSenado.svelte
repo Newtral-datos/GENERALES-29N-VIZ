@@ -1,10 +1,11 @@
 <script lang="ts">
-	import { getResultadosSenado23j, type NacionalSenado } from '#lib/data';
+	import { CONVOCATORIA_ANTERIOR } from '#lib/config';
+	import { getResultadosSenado, type NacionalSenado } from '#lib/data';
 
 	let nacional = $state<NacionalSenado | null>(null);
 
 	$effect(() => {
-		getResultadosSenado23j().then((d) => {
+		getResultadosSenado().then((d) => {
 			nacional = d.nacional;
 		});
 	});
@@ -27,6 +28,14 @@
 						</tr>
 					</thead>
 					<tbody>
+						{#if nacional.partidos.length === 0}
+							<!-- Antes del primer escrutinio la tabla salía con la
+							     cabecera y nada debajo, que parece un fallo de carga.
+							     Mejor decir en qué punto estamos. -->
+							<tr>
+								<td colspan="3" class="vacio">Sin senadores electos todavía</td>
+							</tr>
+						{/if}
 						{#each nacional.partidos as p (p.siglas)}
 							{@const dif = p.escanosAnterior === null ? null : p.escanos - p.escanosAnterior}
 							<tr>
@@ -44,7 +53,7 @@
 								</td>
 								<td class="num">
 									{#if dif === null}
-										<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+										<span class="dif sin-dato" title="No se presentó con esta marca en {CONVOCATORIA_ANTERIOR}, no es comparable">—</span>
 									{:else}
 										<span class="dif" class:up={dif > 0} class:down={dif < 0}>
 											{dif > 0 ? '+' : ''}{dif}
@@ -57,7 +66,7 @@
 				</table>
 			</div>
 			<p class="nota">Senadores de elección directa — no incluye a los designados por las comunidades autónomas</p>
-			<p class="nota">Columna "Dif." — comparativa con el Senado de noviembre 2019 (10N)</p>
+			<p class="nota">Columna "Dif." — comparativa con el Senado de {CONVOCATORIA_ANTERIOR}</p>
 		{/if}
 	</div>
 </div>
@@ -200,6 +209,13 @@
 
 	.dif.down {
 		color: var(--stamp);
+	}
+
+	.vacio {
+		padding: 18px 0;
+		text-align: center;
+		color: #9ca3af;
+		font-style: italic;
 	}
 
 	.nota {

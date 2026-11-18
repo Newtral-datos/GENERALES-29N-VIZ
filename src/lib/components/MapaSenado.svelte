@@ -1,6 +1,9 @@
 <script lang="ts">
+	import { CONVOCATORIA } from '#lib/config';
 	import { asset } from '$app/paths';
-	import { getResultadosSenado23j, type ProvinciaSenado } from '#lib/data';
+	import { getResultadosSenado, type ProvinciaSenado } from '#lib/data';
+	import { fillDe, etiquetaDe } from '#lib/empates';
+	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
 
 	type Geometry = { type: string; coordinates: unknown };
 	type Feature = { type: 'Feature'; properties: { name: string; cod_prov: string }; geometry: Geometry };
@@ -23,26 +26,20 @@
 	});
 
 	$effect(() => {
-		getResultadosSenado23j().then((d) => {
+		getResultadosSenado().then((d) => {
 			provincias = d.provincias;
 		});
 	});
 
-	// Empate real a escaños entre dos o más partidos (p. ej. Cáceres 23J,
-	// 2-2 PP/PSOE): "ganador" se queda con un color arbitrario del primero
-	// que encuentra, así que la pintamos gris con rayado en vez de como si
-	// tuviera un ganador claro.
-	function empateFor(codProv: string): boolean {
-		const p = provincias?.[codProv];
-		if (!p) return false;
-		const max = Math.max(...p.composicion.map((c) => c.escanos));
-		return p.composicion.filter((c) => c.escanos === max).length > 1;
+	// El empate (p. ej. Cáceres 23J, 2-2 PP/PSOE) y el "sin escrutar" los marca
+	// ahora el pipeline, igual que en los mapas del Congreso — ver #lib/empates.
+	// Esto lo recalculaba por su cuenta con `Math.max(...[])`, que con una
+	// provincia sin composición da -Infinity en vez de un empate.
+	function colorFor(codProv: string): string {
+		return fillDe(provincias?.[codProv]?.ganador);
 	}
 
-	function colorFor(codProv: string): string {
-		if (empateFor(codProv)) return '#9AA0A6';
-		return provincias?.[codProv]?.ganador.color ?? 'var(--paper)';
-	}
+	let ganadores = $derived(Object.values(provincias ?? {}).map((p) => p.ganador));
 
 	// Popup con el reparto de senadores de la provincia bajo el cursor (y, si
 	// tiene varias circunscripciones — Baleares, Canarias —, el detalle de cada una).
@@ -168,6 +165,7 @@
 			<div class="wrap">
 				<svg viewBox="0 0 {mainVp.w} {totalH}" class="mapa">
 					<defs>
+						<PatronesEmpate {ganadores} />
 						<pattern id="hatch-senado" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
 							<rect width="4" height="4" fill="transparent" />
 							<line x1="0" y1="0" x2="0" y2="4" stroke="rgba(255,255,255,0.75)" stroke-width="1.1" />
@@ -188,9 +186,6 @@
 								onmousemove={onProvinceMove}
 								onmouseleave={onProvinceLeave}
 							/>
-							{#if empateFor(f.properties.cod_prov)}
-								<path {d} fill="url(#hatch-senado)" pointer-events="none" />
-							{/if}
 						{/each}
 					{/each}
 
@@ -220,15 +215,12 @@
 									onmousemove={onProvinceMove}
 									onmouseleave={onProvinceLeave}
 								/>
-								{#if empateFor(f.properties.cod_prov)}
-									<path {d} fill="url(#hatch-senado)" pointer-events="none" />
-								{/if}
 							{/each}
 						{/each}
 					{/if}
 				</svg>
 				<p class="nota">
-				Senadores de elección directa por provincia — 23J — pasa el ratón para ver el detalle. Rayado = empate a
+				Senadores de elección directa por provincia — {CONVOCATORIA} — pasa el ratón para ver el detalle. Rayado = empate a
 				escaños entre partidos.
 			</p>
 			</div>
@@ -239,7 +231,7 @@
 {#if activeProvincia}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 		<p class="popup-title">
-			{activeProvincia.nombre}{#if activeCod && empateFor(activeCod)}<span class="popup-empate"> — empate</span>{/if}
+			{activeProvincia.nombre}{#if etiquetaDe(activeProvincia.ganador)}<span class="popup-empate"> — {etiquetaDe(activeProvincia.ganador)}</span>{/if}
 		</p>
 		<table class="popup-table">
 			<tbody>

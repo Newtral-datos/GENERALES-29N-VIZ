@@ -1,9 +1,11 @@
 <script lang="ts">
+	import { CONVOCATORIA } from '#lib/config';
 	import { page } from '$app/state';
-	import { asset } from '$app/paths';
 	import { replaceState } from '$app/navigation';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection } from '#lib/geo';
-	import { getResultadosMunicipios, type ResultadoMunicipio } from '#lib/data';
+	import { fillDe, etiquetaDe } from '#lib/empates';
+	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
+	import { assetDinamico, getResultadosMunicipios, type ResultadoMunicipio } from '#lib/data';
 
 	type MuniProps = { NATCODE: string; NAMEUNIT: string; cod_prov: string };
 	type Feature = GeoFeature<MuniProps>;
@@ -26,7 +28,7 @@
 		resultados = null;
 		seleccionado = null;
 		inicializadoDesdeUrl = false;
-		fetch(asset(`data/municipios/${codActual}.geojson`), { cache: 'no-cache' })
+		fetch(assetDinamico(`data/municipios/${codActual}.geojson`), { cache: 'no-cache' })
 			.then((res) => res.json())
 			.then((d: FeatureCollection<MuniProps>) => {
 				features = d.features;
@@ -45,9 +47,17 @@
 		return resultados?.[codIne(natcode)] ?? null;
 	}
 
+	// `principales[0]` era el primero al ordenar, que con 0 votos escrutados no
+	// es un ganador. Ahora el estado lo marca el pipeline (ver #lib/empates):
+	// gris liso sin escrutar, rayado con los colores de los empatados si hay
+	// empate real — en municipios pequeños pasa de verdad.
 	function colorFor(natcode: string): string {
-		return resultadoFor(natcode)?.principales[0]?.color ?? 'var(--paper)';
+		const r = resultadoFor(natcode);
+		if (!r) return 'var(--paper)';
+		return fillDe(r.ganador ?? null);
 	}
+
+	let ganadores = $derived(Object.values(resultados ?? {}).map((r) => r.ganador));
 
 	// Si la URL ya trae ?muni=<ine>, preseleccionamos ese municipio al cargar.
 	// Hay que esperar a que lleguen TANTO la geometría como los resultados:
@@ -65,7 +75,7 @@
 
 	function syncUrlMuni(ine: string | null) {
 		if (page.url.searchParams.get('muni') === ine) return;
-		const params = new URLSearchParams(page.url.searchParams);
+		const params = new URLSearchParams(page.url.searchParams.toString());
 		if (ine) {
 			params.set('muni', ine);
 		} else {
@@ -126,6 +136,9 @@
 	{:else}
 		<div class="wrap">
 			<svg viewBox="0 0 {vp.w} {vp.h}" class="mapa">
+				<defs>
+					<PatronesEmpate {ganadores} />
+				</defs>
 				{#each mostrando as f, idx (f.properties.NATCODE)}
 					{#each featurePaths(f, bounds!, vp.w, vp.h) as d, i (i)}
 						<path
@@ -144,7 +157,10 @@
 					{/each}
 				{/each}
 			</svg>
-			<p class="nota">Partido ganador por municipio — 23J — pasa el ratón para un vistazo, haz clic para el detalle completo</p>
+			<p class="nota">
+				Partido ganador por municipio — {CONVOCATORIA} — pasa el ratón para un vistazo, haz clic para el
+				detalle completo. Gris = sin escrutar; rayado = empate
+			</p>
 		</div>
 	{/if}
 </div>

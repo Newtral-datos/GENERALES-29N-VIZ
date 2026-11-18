@@ -1,18 +1,40 @@
 <script lang="ts">
+	import { CONVOCATORIA } from '#lib/config';
 	import { asset, resolve } from '$app/paths';
 	import { goto } from '$app/navigation';
-	import { getResultados23j, getIndiceMunicipios, type Provincia, type MunicipioIndice } from '#lib/data';
+	import { getResultados, getIndiceMunicipios, type Provincia, type MunicipioIndice } from '#lib/data';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
+	import { fillDe, etiquetaDe } from '#lib/empates';
+	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
+	import MapaMunicipios from '#lib/components/MapaMunicipios.svelte';
 
-	type Feature = GeoFeature<{ name: string; cod_prov: string }>;
-	type FeatureCollection = FC<{ name: string; cod_prov: string }>;
+	// Las dos geometrías comparten forma: un código y un nombre. El geojson de
+	// provincias lleva además `cod_ccaa`, que es lo que permite filtrar las de
+	// una comunidad sin cargar una tabla de correspondencias aparte (lo escribe
+	// scripts/generar_geometria_ccaa.py).
+	type PropsProv = { name: string; cod_prov: string; cod_ccaa: string; ccaa: string };
+	type PropsCcaa = { ccaa: string; cod_ccaa: string };
+	type Feature = GeoFeature<PropsProv>;
+	type FeatureCcaa = GeoFeature<PropsCcaa>;
+	type FeatureCollection = FC<PropsProv>;
+
+	type Nivel = 'ccaa' | 'provincia' | 'municipio';
 
 	// Las Palmas (35) y Santa Cruz de Tenerife (38) se dibujan aparte: su posición
 	// geográfica real deja un hueco enorme de océano entre ellas y la Península.
+	// A nivel de comunidad el archipiélago entero es el código 05.
 	const CANARIAS_CODES = new Set(['35', '38']);
+	const CANARIAS_CCAA = '05';
+
+	let nivel = $state<Nivel>('ccaa');
+	let codCcaaSel = $state<string | null>(null);
+	let codProvSel = $state<string | null>(null);
+
+	let ccaaFeatures = $state<FeatureCcaa[] | null>(null);
 
 	let allFeatures = $state<Feature[] | null>(null);
 	let provincias = $state<Record<string, Provincia> | null>(null);
+	let comunidades = $state<Record<string, Provincia> | null>(null);
 
 	$effect(() => {
 		fetch(asset('data/provincias.geojson'), { cache: 'no-cache' })
@@ -20,17 +42,38 @@
 			.then((d: FeatureCollection) => {
 				allFeatures = d.features;
 			});
+		// 60 KB más. Se cargan las dos de entrada en vez de al bajar de nivel:
+		// el salto comunidad -> provincia tiene que ser inmediato, y esperar a
+		// una petición después del clic se nota.
+		fetch(asset('data/ccaa.geojson'), { cache: 'no-cache' })
+			.then((res) => res.json())
+			.then((d: FC<PropsCcaa>) => {
+				ccaaFeatures = d.features;
+			});
 	});
 
 	$effect(() => {
-		getResultados23j().then((d) => {
+		getResultados().then((d) => {
 			provincias = d.provincias;
+			comunidades = d.comunidades;
 		});
 	});
 
-	function colorFor(codProv: string): string {
-		return provincias?.[codProv]?.ganador.color ?? 'var(--paper)';
+	// Qué conjunto de ámbitos manda en el nivel actual. Los dos niveles tienen
+	// la misma forma de datos (el pipeline los construye con la misma función),
+	// así que el motor de dibujo, el popup y el coloreado son los mismos y solo
+	// cambia de qué diccionario se leen.
+	let ambitos = $derived(nivel === 'ccaa' ? comunidades : provincias);
+
+	// Gris liso si no hay nada escrutado, rayado con los colores de los
+	// empatados si varios comparten el máximo, color del partido si gana uno
+	// solo. Ver #lib/empates: el estado lo marca el pipeline, aquí no se
+	// recalcula nada.
+	function colorFor(cod: string): string {
+		return fillDe(ambitos?.[cod]?.ganador);
 	}
+
+	let ganadores = $derived(Object.values(ambitos ?? {}).map((p) => p.ganador));
 
 	// Popup con las tres primeras fuerzas de la provincia bajo el cursor.
 	let activeCod = $state<string | null>(null);
@@ -99,7 +142,32 @@
 		activeCod = null;
 	}
 
-	let activeProvincia = $derived(activeCod && provincias ? provincias[activeCod] : null);
+	let activeProvincia = $derived(activeCod && ambitos ? ambitos[activeCod] : null);
+
+	function bajarNivel(cod: string) {
+		activeCod = null;
+		if (nivel === 'ccaa') {
+			codCcaaSel = cod;
+			nivel = 'provincia';
+		} else if (nivel === 'provincia') {
+			codProvSel = cod;
+			nivel = 'municipio';
+		}
+	}
+
+	function volverA(destino: Nivel) {
+		activeCod = null;
+		nivel = destino;
+		if (destino === 'ccaa') {
+			codCcaaSel = null;
+			codProvSel = null;
+		} else if (destino === 'provincia') {
+			codProvSel = null;
+		}
+	}
+
+	let nombreCcaa = $derived(codCcaaSel && comunidades ? comunidades[codCcaaSel]?.nombre : null);
+	let nombreProv = $derived(codProvSel && provincias ? provincias[codProvSel]?.nombre : null);
 
 	const SIZE = 440;
 	const INSET_W = SIZE * 0.3;
@@ -107,8 +175,43 @@
 	const INSET_X = SIZE * 0.04;
 	const INSET_GAP = SIZE * 0.035;
 
-	let mainFeatures = $derived(allFeatures ? allFeatures.filter((f) => !CANARIAS_CODES.has(f.properties.cod_prov)) : []);
-	let canaryFeatures = $derived(allFeatures ? allFeatures.filter((f) => CANARIAS_CODES.has(f.properties.cod_prov)) : []);
+	/**
+	 * Los polígonos del nivel actual, normalizados a `{ cod, nombre }` para que
+	 * el resto del componente no tenga que saber si está pintando comunidades o
+	 * provincias.
+	 */
+	type Dibujable = GeoFeature<{ cod: string; nombre: string }>;
+
+	let featuresNivel = $derived.by<Dibujable[]>(() => {
+		if (nivel === 'ccaa') {
+			return (ccaaFeatures ?? []).map((f) => ({
+				type: 'Feature' as const,
+				properties: { cod: f.properties.cod_ccaa, nombre: f.properties.ccaa },
+				geometry: f.geometry
+			}));
+		}
+		// Dentro de una comunidad: solo sus provincias.
+		return (allFeatures ?? [])
+			.filter((f) => f.properties.cod_ccaa === codCcaaSel)
+			.map((f) => ({
+				type: 'Feature' as const,
+				properties: { cod: f.properties.cod_prov, nombre: f.properties.name },
+				geometry: f.geometry
+			}));
+	});
+
+	// El recuadro de Canarias solo tiene sentido en el mapa de España entera. Al
+	// entrar en Canarias el encuadre ya es el del archipiélago, así que sus dos
+	// provincias se dibujan normales y el recuadro desaparece.
+	let esCanarias = $derived(nivel === 'ccaa' ? false : codCcaaSel === CANARIAS_CCAA);
+	let mainFeatures = $derived(
+		nivel === 'ccaa'
+			? featuresNivel.filter((f) => f.properties.cod !== CANARIAS_CCAA)
+			: featuresNivel
+	);
+	let canaryFeatures = $derived(
+		nivel === 'ccaa' ? featuresNivel.filter((f) => f.properties.cod === CANARIAS_CCAA) : []
+	);
 
 	let mainBounds = $derived(computeBounds(mainFeatures));
 	let mainVp = $derived(mainBounds ? fitBox(mainBounds, SIZE, SIZE) : { w: SIZE, h: SIZE });
@@ -126,33 +229,61 @@
 </script>
 
 <div class="panel">
-	<p class="kicker">Resultados por provincia y municipio</p>
+	<p class="kicker">Resultados por territorio</p>
 
 	<div class="panel-body">
-		{#if !allFeatures || !provincias}
+		<!-- Migas de pan: el único modo de saber dónde estás y de volver. Sin
+		     esto, bajar dos niveles es un callejón sin salida. -->
+		<nav class="migas" aria-label="Nivel del mapa">
+			<button type="button" class="miga" class:activa={nivel === 'ccaa'} onclick={() => volverA('ccaa')}>
+				España
+			</button>
+			{#if nombreCcaa}
+				<span class="sep">›</span>
+				<button
+					type="button"
+					class="miga"
+					class:activa={nivel === 'provincia'}
+					onclick={() => volverA('provincia')}
+				>
+					{nombreCcaa}
+				</button>
+			{/if}
+			{#if nombreProv}
+				<span class="sep">›</span>
+				<span class="miga activa">{nombreProv}</span>
+			{/if}
+		</nav>
+
+		{#if nivel === 'municipio' && codProvSel}
+			<MapaMunicipios cod={codProvSel} />
+		{:else if !allFeatures || !ccaaFeatures || !ambitos}
 			<p class="loading">Cargando mapa…</p>
 		{:else}
 			<div class="wrap">
 				<svg viewBox="0 0 {mainVp.w} {totalH}" class="mapa">
-					{#each mainFeatures as f (f.properties.cod_prov)}
+					<defs>
+						<PatronesEmpate {ganadores} />
+					</defs>
+					{#each mainFeatures as f (f.properties.cod)}
 						{#each featurePaths(f, mainBounds!, mainVp.w, mainVp.h) as d, i (i)}
 							<path
 								{d}
-								fill={colorFor(f.properties.cod_prov)}
+								fill={colorFor(f.properties.cod)}
 								stroke="#d8d8d8"
 								stroke-width="0.6"
 								class="prov"
 								role="img"
-								aria-label={f.properties.name}
-								onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
+								aria-label={f.properties.nombre}
+								onmouseenter={(e) => onProvinceEnter(e, f.properties.cod)}
 								onmousemove={onProvinceMove}
 								onmouseleave={onProvinceLeave}
-								onclick={() => onProvinceClick(f.properties.cod_prov)}
+								onclick={() => bajarNivel(f.properties.cod)}
 							/>
 						{/each}
 					{/each}
 
-					{#if canaryBounds}
+					{#if canaryBounds && nivel === 'ccaa'}
 						<rect
 							x={INSET_X}
 							y={insetY}
@@ -164,26 +295,29 @@
 							stroke-dasharray="2,2"
 						/>
 						<text x={INSET_X + 3} y={insetY + 10} class="inset-label">Canarias</text>
-						{#each canaryFeatures as f (f.properties.cod_prov)}
+						{#each canaryFeatures as f (f.properties.cod)}
 							{#each featurePaths(f, canaryBounds, canaryFit.w, canaryFit.h, canaryOffset.x, canaryOffset.y) as d, i (i)}
 								<path
 									{d}
-									fill={colorFor(f.properties.cod_prov)}
+									fill={colorFor(f.properties.cod)}
 									stroke="#d8d8d8"
 									stroke-width="0.6"
 									class="prov"
 									role="img"
-									aria-label={f.properties.name}
-									onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
+									aria-label={f.properties.nombre}
+									onmouseenter={(e) => onProvinceEnter(e, f.properties.cod)}
 									onmousemove={onProvinceMove}
 									onmouseleave={onProvinceLeave}
-									onclick={() => onProvinceClick(f.properties.cod_prov)}
+									onclick={() => bajarNivel(f.properties.cod)}
 								/>
 							{/each}
 						{/each}
 					{/if}
 				</svg>
-				<p class="nota">Partido ganador por circunscripción — 23J — pasa el ratón para un vistazo, haz clic para ver el detalle completo</p>
+				<p class="nota">
+					Partido ganador por circunscripción — {CONVOCATORIA} — pasa el ratón para un vistazo, haz clic
+					para ver el detalle completo. Gris = sin escrutar; rayado = empate
+				</p>
 			</div>
 		{/if}
 	</div>
@@ -220,7 +354,12 @@
 		<table class="popup-table">
 			<thead>
 				<tr>
-					<th class="th-left popup-title-cell">{activeProvincia.nombre}</th>
+					<th class="th-left popup-title-cell">
+						{activeProvincia.nombre}
+						{#if etiquetaDe(activeProvincia.ganador)}
+							<span class="popup-estado">{etiquetaDe(activeProvincia.ganador)}</span>
+						{/if}
+					</th>
 					<th>Dip.</th>
 					<th>% Voto</th>
 				</tr>
@@ -246,6 +385,41 @@
 		height: 100%;
 		display: flex;
 		flex-direction: column;
+	}
+
+	.migas {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 4px;
+		margin-bottom: 10px;
+		font-size: 10px;
+	}
+
+	.miga {
+		padding: 2px 4px;
+		border: 0;
+		background: none;
+		font: inherit;
+		color: #9ca3af;
+		cursor: pointer;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	.miga:hover {
+		color: var(--ink, #0a0e14);
+	}
+
+	.miga.activa {
+		color: var(--ink, #0a0e14);
+		cursor: default;
+	}
+
+	.sep {
+		color: #d1d5db;
 	}
 
 	.panel-body {
@@ -421,6 +595,16 @@
 	.popup-table td {
 		padding: 2px 0;
 		font-size: 11px;
+	}
+
+	.popup-estado {
+		/* Un empate o un 'sin escrutar' no se deduce del color de la región:
+		   hay que poder leerlo. AGENTS.md pide dejarlo explícito en el popup. */
+		display: block;
+		font-weight: 400;
+		font-size: 9px;
+		color: #9ca3af;
+		letter-spacing: 0.02em;
 	}
 
 	.popup-party {

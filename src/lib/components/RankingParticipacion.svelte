@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getParticipacion23j, type ParticipacionProvincia } from '#lib/data';
+	import { getParticipacion, type ParticipacionProvincia } from '#lib/data';
 
 	// activeIdx viene de ParticipacionView: mismo avance activo que las
 	// cajitas de arriba y el mapa.
@@ -8,7 +8,7 @@
 	let provincias = $state<Record<string, ParticipacionProvincia> | null>(null);
 
 	$effect(() => {
-		getParticipacion23j().then((d) => {
+		getParticipacion().then((d) => {
 			provincias = d.provincias;
 		});
 	});

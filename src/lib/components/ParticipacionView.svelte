@@ -1,16 +1,24 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import { getParticipacion23j, type ParticipacionNacional } from '#lib/data';
+	import { getParticipacion, type ParticipacionNacional } from '#lib/data';
 	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 	import MapaParticipacion from '#lib/components/MapaParticipacion.svelte';
 	import RankingParticipacion from '#lib/components/RankingParticipacion.svelte';
 	import AvancesParticipacion from '#lib/components/AvancesParticipacion.svelte';
+	import MapaParticipacionMunicipios from '#lib/components/MapaParticipacionMunicipios.svelte';
 
 	let nacional = $state<ParticipacionNacional | null>(null);
+	let provincias = $state<Record<string, { nombre: string }> | null>(null);
+
+	// Provincia del mapa municipal. Se elige una porque la geometría municipal
+	// se sirve por provincia (52 ficheros, ~4 MB en total): traerlas todas para
+	// enseñar una sola sería absurdo. Madrid de salida por ser la de más censo.
+	let codProv = $state('28');
 
 	$effect(() => {
-		getParticipacion23j().then((d) => {
+		getParticipacion().then((d) => {
 			nacional = d.nacional;
+			provincias = d.provincias;
 		});
 	});
 
@@ -52,9 +60,54 @@
 			<RankingParticipacion {activeIdx} />
 		</div>
 	</div>
+
+	<div class="municipios">
+		<div class="selector-fila">
+			<label class="selector-label" for="prov-municipios">Provincia</label>
+			<select id="prov-municipios" class="selector" bind:value={codProv}>
+				{#each Object.entries(provincias ?? {}).sort( (a, b) => a[1].nombre.localeCompare(b[1].nombre, 'es') ) as [cod, p] (cod)}
+					<option value={cod}>{p.nombre}</option>
+				{/each}
+			</select>
+		</div>
+
+		<MapaParticipacionMunicipios cod={codProv} {activeIdx} />
+	</div>
 </main>
 
 <style>
+	.municipios {
+		margin-top: 20px;
+		min-width: 0;
+	}
+
+	.selector-fila {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		margin-bottom: 10px;
+	}
+
+	.selector-label {
+		font-size: 9px;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: #9ca3af;
+	}
+
+	.selector {
+		padding: 5px 8px;
+		font: inherit;
+		font-size: 11px;
+		color: var(--ink, #0a0e14);
+		background: #fff;
+		border: 1px solid #e5e7eb;
+		/* Esquinas rectas, como el resto de cards del workspace. */
+		border-radius: 0;
+	}
+
 	.main {
 		padding: 20px 24px 32px;
 		max-width: 900px;

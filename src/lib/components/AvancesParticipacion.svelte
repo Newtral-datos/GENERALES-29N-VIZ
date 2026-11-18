@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { CONVOCATORIA_ANTERIOR } from '#lib/config';
 	import { formatMiles } from '#lib/format';
 	import type { ParticipacionNacional } from '#lib/data';
 
@@ -41,7 +42,7 @@
 					<span class="avance-delta sin-dato">Pendiente</span>
 				{:else if d !== null}
 					<span class="avance-delta" class:up={d > 0} class:down={d < 0}>
-						{d > 0 ? '+' : ''}{d.toLocaleString('es-ES', { minimumFractionDigits: 2 })} respecto a 2019
+						{d > 0 ? '+' : ''}{d.toLocaleString('es-ES', { minimumFractionDigits: 2 })} respecto a {CONVOCATORIA_ANTERIOR}
 					</span>
 				{/if}
 			</div>

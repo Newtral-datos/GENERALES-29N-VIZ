@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 	import { TITULARES_ANTES, generarTitularesDirecto } from '#lib/ticker-content';
-	import { getResultados23j, getParticipacion23j } from '#lib/data';
+	import { getResultados, getParticipacion } from '#lib/data';
 
 	let titulares = $state<string[]>(ESCRUTINIO_ABIERTO ? [] : TITULARES_ANTES);
 
 	$effect(() => {
 		if (!ESCRUTINIO_ABIERTO) return;
-		Promise.all([getResultados23j(), getParticipacion23j()]).then(([resultados, participacion]) => {
+		Promise.all([getResultados(), getParticipacion()]).then(([resultados, participacion]) => {
 			titulares = generarTitularesDirecto(resultados.nacional, participacion);
 		});
 	});

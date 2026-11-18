@@ -1,14 +1,22 @@
 <script lang="ts">
-	import { getResultados23j, type Nacional } from '#lib/data';
+	import { getResultados, type Nacional, type Partido } from '#lib/data';
 	import { formatMiles } from '#lib/format';
+	import { CONVOCATORIA_ANTERIOR } from '#lib/config';
 
 	let nacional = $state<Nacional | null>(null);
 
 	$effect(() => {
-		getResultados23j().then((d) => {
+		getResultados().then((d) => {
 			nacional = d.nacional;
 		});
 	});
+
+	// La tabla es `nacional.partidos` tal cual: el pipeline ya la completa con
+	// quien tuvo representación en la convocatoria anterior y la ordena por
+	// escaños, votos y resultado anterior (ver congreso_29n.con_representacion_anterior
+	// y _comun_29n.ordenar_partidos). Rehacer aquí ese criterio daría dos
+	// fuentes de verdad para el mismo orden, y acabarían separándose.
+	let filas = $derived(nacional?.partidos ?? []);
 </script>
 
 <div class="panel">
@@ -30,7 +38,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each nacional.partidos as p (p.siglas)}
+						{#each filas as p (p.siglas)}
 							{@const dif = p.escanosAnterior === null ? null : p.escanos - p.escanosAnterior}
 							<tr>
 								<td>
@@ -42,14 +50,20 @@
 								<td class="num">{formatMiles(p.votos)}</td>
 								<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 								<td class="num seats">
-									{p.escanos}
-									{#if dif !== null && dif !== 0}
-										<span class="tendencia" class:sube={dif > 0} class:baja={dif < 0}>{dif > 0 ? '▲' : '▼'}</span>
-									{/if}
+									<!-- Número y flecha en dos columnas fijas: con la flecha
+									     dentro de una celda centrada, las filas que la llevan
+									     desplazaban el número y los ceros no quedaban en
+									     línea. El hueco de la flecha se reserva siempre. -->
+									<span class="seats-cell">
+										<span class="seats-num">{p.escanos}</span>
+										<span class="tendencia" class:sube={dif !== null && dif > 0} class:baja={dif !== null && dif < 0}>
+											{#if dif !== null && dif !== 0}{dif > 0 ? '▲' : '▼'}{/if}
+										</span>
+									</span>
 								</td>
 								<td class="num">
 									{#if dif === null}
-										<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+										<span class="dif sin-dato" title="No se presentó con esta marca en {CONVOCATORIA_ANTERIOR}, no es comparable">—</span>
 									{:else}
 										<span class="dif" class:up={dif > 0} class:down={dif < 0}>
 											{dif > 0 ? '+' : ''}{dif}
@@ -177,9 +191,20 @@
 		color: var(--ink);
 	}
 
+	.seats-cell {
+		display: inline-grid;
+		grid-template-columns: 2.4em 0.9em;
+		align-items: baseline;
+	}
+
+	.seats-num {
+		text-align: right;
+	}
+
 	.tendencia {
 		font-size: 8px;
-		margin-left: 2px;
+		text-align: left;
+		padding-left: 2px;
 	}
 
 	.tendencia.sube {

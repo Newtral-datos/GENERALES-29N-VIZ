@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getResultados23j, type Nacional, type Partido } from '#lib/data';
+	import { getResultados, type Nacional, type Partido } from '#lib/data';
 	import logoUrl from '#lib/assets/logo-newtral.png';
 	import {
 		COLOR,
@@ -25,7 +25,7 @@
 	let aliados = $state<Set<string>>(new Set());
 
 	$effect(() => {
-		getResultados23j().then((d) => {
+		getResultados().then((d) => {
 			nacional = d.nacional;
 			presidente = null;
 			aliados = new Set();

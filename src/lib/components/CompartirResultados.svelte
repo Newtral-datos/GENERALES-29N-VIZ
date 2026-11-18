@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getResultados23j, type Nacional, type Provincia } from '#lib/data';
+	import { getResultados, type Nacional, type Provincia } from '#lib/data';
 	import { asset } from '$app/paths';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
 	import logoUrl from '#lib/assets/logo-newtral.png';
@@ -20,7 +20,7 @@
 	let provincias = $state<Record<string, Provincia> | null>(null);
 
 	$effect(() => {
-		getResultados23j().then((d) => {
+		getResultados().then((d) => {
 			nacional = d.nacional;
 			provincias = d.provincias;
 		});
@@ -66,13 +66,18 @@
 			ctx.font = '700 15px "Helvetica Neue", Arial, sans-serif';
 			ctx.textAlign = 'left';
 			ctx.textBaseline = 'alphabetic';
-			// TODO: cuando el pipeline de datos traiga una hora de actualización
-			// real (campo nuevo, se añadirá "con el script"), añadirla aquí
-			// detrás del % de escrutinio — "GENERALES 29N — ESCRUTINIO 92,3% —
-			// ACTUALIZADO 21:45". De momento no hay dato real que mostrar, así
-			// que no se inventa un hueco vacío ni una hora falsa.
+			// El % y la hora salen del propio JSON cuando los trae (los del 29N
+			// llevan `pctEscrutado` y `horaTotalizacion`; los de 23J no). Si no
+			// hay dato real se cae al simulado y se rotula como tal: esta imagen
+			// se comparte fuera del panel, donde nadie ve el resto del contexto,
+			// así que un número inventado sin marcar es peor aquí que en ningún
+			// otro sitio. La hora es la de totalización del Ministerio, no la del
+			// reloj del visitante: es cuándo se generó el dato.
+			const pct = nacional.pctEscrutado ?? ESCRUTINIO_SIMULADO;
+			const marcaSimulado = nacional.pctEscrutado === undefined ? ' (SIMULADO)' : '';
+			const hora = nacional.horaTotalizacion ? ` — ACTUALIZADO ${nacional.horaTotalizacion}` : '';
 			const kicker = ESCRUTINIO_ABIERTO
-				? `GENERALES 29N — ESCRUTINIO ${ESCRUTINIO_SIMULADO.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%`
+				? `GENERALES 29N — ESCRUTINIO ${pct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%${marcaSimulado}${hora}`
 				: 'GENERALES 29N';
 			dibujarTextoEspaciado(ctx, kicker, margen, y, 2.5);
 

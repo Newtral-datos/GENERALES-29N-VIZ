@@ -1,28 +1,47 @@
 <script lang="ts">
-	import { getResultadosSenado23j, type NacionalSenado } from '#lib/data';
+	import { CONVOCATORIA, CONVOCATORIA_ANTERIOR } from '#lib/config';
+	import { getResultadosSenado, type NacionalSenado } from '#lib/data';
 
 	let nacional = $state<NacionalSenado | null>(null);
 
 	$effect(() => {
-		getResultadosSenado23j().then((d) => {
+		getResultadosSenado().then((d) => {
 			nacional = d.nacional;
 		});
 	});
 
-	// La mayoría (134) se calcula sobre los 266 escaños de la Cámara completa,
-	// no sobre los 208 de elección directa que hay el 23J — escalar los
-	// segmentos sobre totalEscanos dejaba la marca de mayoría muy a la
-	// derecha de lo que le correspondía. Igual que en el hemiciclo y el
-	// simulador de pactos: la barra se escala sobre el total de la Cámara
-	// (totalEscanosCamara) y el resto (escanosDesignadosPendientes, los 58
-	// autonómicos) se dibuja como un tramo neutro al final, para que la marca
-	// de mayoría caiga en su sitio real.
+	// La barra se escala sobre los 208 senadores de ELECCIÓN DIRECTA, que es lo
+	// que se decide en las urnas y lo único que el panel puede contar la noche
+	// electoral. Los 58 designados por los parlamentos autonómicos no ocupan
+	// tramo: llegan semanas después, cada parlamento con sus plazos, y su número
+	// depende de la población (han sido 57 y 58 en distintas legislaturas), así
+	// que reservarles sitio en el gráfico daba una Cámara que todavía no existe.
+	// Se mencionan en la nota al pie, no en la escala.
+	//
+	// La marca señala la MITAD DE LOS ELECTOS (105 de 208), que es el umbral que
+	// corresponde a esta escala y por eso cae en el centro de la barra. No es la
+	// mayoría absoluta del Senado: esa son 134 sobre los 266 de la Cámara
+	// completa y, sobre una escala de 208, caería en el 64 % — se explica en la
+	// nota al pie en vez de dibujarse, para no marcar dos umbrales distintos en
+	// el mismo gráfico. Etiquetarla bien es lo que evita que se lea como si el
+	// que pase de 105 ya controlase la Cámara.
+	// Escala de la barra: los escaños que se ELIGEN en las urnas (208), no los
+	// que llevan adjudicados. `totalEscanos` crece de 0 a 208 a lo largo de la
+	// noche, así que usarlo de denominador dejaba la barra siempre llena: a las
+	// 21:00, con 20 escaños repartidos, esos 20 ocupaban el ancho entero y
+	// parecía la Cámara completa. Y con 0 adjudicados era una división por cero.
+	let electos = $derived(
+		nacional ? nacional.totalEscanosCamara - nacional.escanosDesignadosPendientes : 0
+	);
+
+	let sinEscrutinio = $derived(!!nacional && nacional.partidos.length === 0);
+
 	let segmentsLeft = $derived.by(() => {
 		if (!nacional) return [];
 		return nacional.partidos
 			.filter((p) => p.lado === 1)
 			.sort((a, b) => b.escanos - a.escanos)
-			.map((p) => ({ ...p, pct: (p.escanos / nacional!.totalEscanosCamara) * 100 }));
+			.map((p) => ({ ...p, pct: electos ? (p.escanos / electos) * 100 : 0 }));
 	});
 
 	let segmentsRight = $derived.by(() => {
@@ -30,16 +49,36 @@
 		return nacional.partidos
 			.filter((p) => p.lado === 2)
 			.sort((a, b) => a.escanos - b.escanos)
-			.map((p) => ({ ...p, pct: (p.escanos / nacional!.totalEscanosCamara) * 100 }));
+			.map((p) => ({ ...p, pct: electos ? (p.escanos / electos) * 100 : 0 }));
 	});
 
 	let segments = $derived([...segmentsLeft, ...segmentsRight]);
 
-	let pctPendiente = $derived(
-		nacional ? (nacional.escanosDesignadosPendientes / nacional.totalEscanosCamara) * 100 : 0
-	);
+	/**
+	 * Los senadores electos en la convocatoria anterior, a la misma escala.
+	 *
+	 * Es el equivalente del anillo "ant." del hemiciclo del Congreso, que el
+	 * Senado no tenía: su bloque `anterior` traía solo totales. Ahora el
+	 * pipeline emite también el reparto por partido (`anterior.partidos`), que
+	 * sale del fichero `ANT` del Ministerio.
+	 *
+	 * Solo escaños: ese fichero no trae votos ni candidatos, así que la
+	 * comparativa de esta cámara no puede ser de otra cosa.
+	 *
+	 * Misma base de 208 que la barra de arriba, para que las dos se puedan
+	 * comparar a ojo: si cada una se escalara a su propio total, un partido con
+	 * los mismos escaños saldría de distinto ancho.
+	 */
+	let segmentosAnterior = $derived.by(() => {
+		const previo = nacional?.anterior?.partidos ?? [];
+		if (!previo.length || !electos) return [];
+		const izq = previo.filter((p) => p.lado !== 2).sort((a, b) => b.escanos - a.escanos);
+		const der = previo.filter((p) => p.lado === 2).sort((a, b) => a.escanos - b.escanos);
+		return [...izq, ...der].map((p) => ({ ...p, pct: (p.escanos / electos) * 100 }));
+	});
 
-	let mayoriaPct = $derived(nacional ? (nacional.mayoria / nacional.totalEscanosCamara) * 100 : 0);
+	let mitadElectos = $derived(electos ? Math.floor(electos / 2) + 1 : 0);
+	let mayoriaPct = $derived(electos ? (mitadElectos / electos) * 100 : 50);
 
 	let activeSiglas = $state<string | null>(null);
 	let popupPos = $state({ x: 0, y: 0 });
@@ -106,22 +145,34 @@
 					{/if}
 				</div>
 			{/each}
-			<div
-				class="seg pendiente"
-				style="width:{pctPendiente}%"
-				role="img"
-				aria-label="{nacional.escanosDesignadosPendientes} escaños designados por los parlamentos autonómicos, pendientes"
-			></div>
 		</div>
 		<div class="maj-marker" style="left:{mayoriaPct}%">
-			<span class="maj-text">Mayoría<br /><b>{nacional.mayoria}</b></span>
+			<span class="maj-text">Mitad de los electos<br /><b>{mitadElectos}</b></span>
 			<span class="maj-line"></span>
 		</div>
 	</div>
+	{#if segmentosAnterior.length}
+		<div class="fila-anterior">
+			<span class="etiqueta-anterior">{CONVOCATORIA_ANTERIOR}</span>
+			<div class="barra-anterior">
+				{#each segmentosAnterior as s (s.siglas)}
+					<div
+						class="seg-anterior"
+						style="width:{s.pct}%; background:{s.color}"
+						role="img"
+						aria-label="{s.nombre}: {s.escanos} senadores en la elección anterior"
+					></div>
+				{/each}
+			</div>
+		</div>
+	{/if}
+
 	<p class="nota">
-		{nacional.totalEscanos} senadores de elección directa — 23J, sobre un total de {nacional.totalEscanosCamara} en la
-		Cámara completa. El tramo rayado representa los otros {nacional.escanosDesignadosPendientes} designados por los
-		parlamentos autonómicos, aún sin asignar.
+		Los {electos} senadores de elección directa — {CONVOCATORIA}; la marca central es la mitad de
+		esos escaños ({mitadElectos}). A ellos se suman después {nacional.escanosDesignadosPendientes}
+		designados por los parlamentos autonómicos, hasta los {nacional.totalEscanosCamara} de la Cámara
+		completa: la <b>mayoría absoluta del Senado son {nacional.mayoria} escaños</b>, que se cuentan
+		sobre ese total y no sobre los electos.
 	</p>
 {/if}
 
@@ -143,7 +194,11 @@
 
 	.barra-wrap {
 		position: relative;
-		padding-top: 22px;
+		/* Tiene que igualar el alto de .maj-text (2 líneas, 8px + 10px a
+		   line-height 1.1 ≈ 19.8px) más sus 6px de margen inferior: la línea
+		   vertical del marcador se apila justo debajo del texto, así que si aquí
+		   falta espacio el texto baja y pisa la barra. */
+		padding-top: 26px;
 	}
 
 	.barra {
@@ -161,17 +216,6 @@
 		justify-content: center;
 		height: 100%;
 		cursor: pointer;
-	}
-
-	.seg.pendiente {
-		background: repeating-linear-gradient(
-			45deg,
-			rgba(10, 14, 20, 0.06),
-			rgba(10, 14, 20, 0.06) 4px,
-			rgba(10, 14, 20, 0.12) 4px,
-			rgba(10, 14, 20, 0.12) 8px
-		);
-		cursor: default;
 	}
 
 	.seg-label {
@@ -213,6 +257,38 @@
 		width: 1px;
 		height: 26px;
 		background: var(--ink);
+	}
+
+	.fila-anterior {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin-top: 6px;
+	}
+
+	.etiqueta-anterior {
+		flex: none;
+		width: 26px;
+		font-size: 9px;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		color: #9ca3af;
+		text-align: right;
+	}
+
+	.barra-anterior {
+		display: flex;
+		flex: 1;
+		/* Más baja y apagada que la barra principal: es la referencia, no el
+		   dato de la noche. Mismo papel que el anillo interior del hemiciclo
+		   del Congreso. */
+		height: 8px;
+		opacity: 0.55;
+		min-width: 0;
+	}
+
+	.seg-anterior {
+		height: 100%;
 	}
 
 	.nota {

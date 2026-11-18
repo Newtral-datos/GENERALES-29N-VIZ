@@ -21,3 +21,29 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Datos generados por el pipeline de elecciones-datos.
+#
+# No se versionan por dos razones. Una: se regeneran en ~15 s con
+# `./scripts/actualizar_29n.sh`, así que no son fuente, son salida. Dos: la
+# noche electoral se reescriben enteros en cada refresco —14 MB, 8.132
+# municipios— y commitear eso cada pocos minutos llenaría el historial de
+# diffs de medio millón de líneas sin información para nadie.
+#
+# El deploy NO los necesita en git: `gh-pages -d build` publica la carpeta
+# `build/`, donde Vite ya ha copiado todo `static/`. Comprobado el 18/11: un
+# deploy con estos ficheros sin trackear publica los 14 MB igualmente.
+#
+# Antes de desplegar, `npm run predeploy` comprueba que están en disco (ver
+# scripts/comprobar-fuente.mjs) — que es la red que sustituye a tenerlos en git.
+static/data/resultados29n.json
+static/data/participacion29n.json
+static/data/resultadosSenado29n.json
+static/data/resultados-municipios-29n/
+static/data/indice-municipios.json
+static/data/participacion-municipios-29n/
+static/data/resultados-municipios-senado-29n/
+
+# Lo que SÍ se versiona de static/data/, porque no lo genera ningún script y no
+# se puede recuperar de la API: provincias.geojson, municipios/*.geojson,
+# ccaa-provincias.json y escanos-congreso-provincias.json.
