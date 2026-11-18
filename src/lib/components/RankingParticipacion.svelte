@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { CONVOCATORIA_ANTERIOR } from '#lib/config';
 	import { getParticipacion, type ParticipacionProvincia } from '#lib/data';
 
 	// activeIdx viene de ParticipacionView: mismo avance activo que las
@@ -16,8 +17,18 @@
 	let ranking = $derived.by(() => {
 		if (!provincias || activeIdx < 0) return [];
 		return Object.entries(provincias)
-			.map(([cod, p]) => ({ cod, nombre: p.nombre, pct: p.avances[activeIdx]?.participacionPct ?? null }))
-			.filter((p): p is { cod: string; nombre: string; pct: number } => p.pct !== null)
+			.map(([cod, p]) => ({
+				cod,
+				nombre: p.nombre,
+				pct: p.avances[activeIdx]?.participacionPct ?? null,
+				// El mismo corte en la convocatoria anterior. Es el listón que
+				// marca la referencia negra sobre la barra.
+				previo: p.avances[activeIdx]?.participacionPctAnterior ?? null
+			}))
+			.filter(
+				(p): p is { cod: string; nombre: string; pct: number; previo: number | null } =>
+					p.pct !== null
+			)
 			.sort((a, b) => b.pct - a.pct);
 	});
 </script>
@@ -37,6 +48,17 @@
 					<span class="nombre">{p.nombre}</span>
 					<span class="bar-track">
 						<span class="bar-fill" style="width:{p.pct}%"></span>
+						{#if p.previo !== null}
+							<!-- Marca de referencia: dónde estaba esta provincia en el
+							     mismo corte de la convocatoria anterior. Negra y fina a
+							     propósito — no es una segunda serie, es el listón contra
+							     el que se lee la barra. -->
+							<span
+								class="marca-anterior"
+								style="left:{p.previo}%"
+								title={`${CONVOCATORIA_ANTERIOR}: ${p.previo.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%`}
+							></span>
+						{/if}
 					</span>
 					<span class="valor">{p.pct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</span>
 				</li>
@@ -120,6 +142,19 @@
 		bottom: 0;
 		background: var(--c);
 		border-radius: 0 4px 4px 0;
+	}
+
+
+
+	.marca-anterior {
+		position: absolute;
+		top: -2px;
+		bottom: -2px;
+		width: 2px;
+		/* Sobresale un poco por arriba y por abajo para que se distinga del
+		   final de la barra cuando los dos valores casi coinciden. */
+		background: var(--ink);
+		transform: translateX(-1px);
 	}
 
 	.valor {

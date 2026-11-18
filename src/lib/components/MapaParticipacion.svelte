@@ -2,7 +2,7 @@
 	import { CONVOCATORIA } from '#lib/config';
 	import { asset } from '$app/paths';
 	import { getParticipacion, type ParticipacionProvincia } from '#lib/data';
-	import { RAMPA, LEYENDA, colorDeAmbito } from '#lib/escala-participacion';
+	import { RAMPA, escalaDe, colorDeAmbito } from '#lib/escala-participacion';
 	import { formatMiles } from '#lib/format';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
 
@@ -12,7 +12,16 @@
 	// activeIdx viene de ParticipacionView: mismo avance activo que las cajitas
 	// de arriba y el ranking, para que el mapa se mueva junto con el resto del
 	// bloque según avanza la jornada (-1 = todavía sin ningún avance publicado).
-	let { activeIdx }: { activeIdx: number } = $props();
+	let {
+		activeIdx,
+		onElegir
+	}: {
+		activeIdx: number;
+		/** Se llama al pulsar una provincia. La vista la usa para llevar el mapa
+		 *  municipal de abajo a esa provincia, igual que si se hubiera elegido en
+		 *  el selector. */
+		onElegir?: (cod: string) => void;
+	} = $props();
 
 	// Las Palmas (35) y Santa Cruz de Tenerife (38) se dibujan aparte: su posición
 	// geográfica real deja un hueco enorme de océano entre ellas y la Península.
@@ -46,10 +55,17 @@
 		return p.avances[activeIdx]?.participacionPct ?? null;
 	}
 
+	// La escala se recalcula con los valores del corte activo: a las 14:00 toda
+	// España cabe en un tramo de la escala del cierre y el mapa saldría de un
+	// solo color.
+	let escala = $derived(
+		escalaDe(Object.values(provincias ?? {}).map((p) => pctFor(p)))
+	);
+
 	function colorFor(codProv: string): string {
 		const p = provincias?.[codProv];
 		const pct = p ? pctFor(p) : null;
-		return colorDeAmbito(pct);
+		return colorDeAmbito(pct, escala);
 	}
 
 	let activeCod = $state<string | null>(null);
@@ -130,6 +146,7 @@
 								class="prov"
 								role="img"
 								aria-label={f.properties.name}
+								onclick={() => onElegir?.(f.properties.cod_prov)}
 								onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
 								onmousemove={onProvinceMove}
 								onmouseleave={onProvinceLeave}
@@ -159,6 +176,7 @@
 									class="prov"
 									role="img"
 									aria-label={f.properties.name}
+									onclick={() => onElegir?.(f.properties.cod_prov)}
 									onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
 									onmousemove={onProvinceMove}
 									onmouseleave={onProvinceLeave}
@@ -169,7 +187,7 @@
 				</svg>
 
 				<ul class="leyenda">
-					{#each LEYENDA as label, i (label)}
+					{#each escala.leyenda as label, i (label)}
 						<li>
 							<span class="leyenda-swatch" style="background:{RAMPA[i]}"></span>
 							{label}
@@ -251,6 +269,10 @@
 	.mapa {
 		width: 100%;
 		max-width: 400px;
+	}
+
+	.prov {
+		cursor: pointer;
 	}
 
 	.prov:hover {

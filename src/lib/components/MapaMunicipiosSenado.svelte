@@ -200,32 +200,8 @@
 		font-size: 11px;
 	}
 
-	.leyenda {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 4px 12px;
-		margin: 12px 0 0;
-		padding: 0;
-		list-style: none;
-		font-size: 10px;
-		color: #6b7280;
-	}
 
-	.leyenda li {
-		display: flex;
-		align-items: center;
-		gap: 5px;
-	}
 
-	.leyenda-swatch {
-		width: 11px;
-		height: 11px;
-		/* Filete neutro: los tramos claros de la rampa se pierden contra el papel
-		   en una marca de 11px. Mismo criterio que pide el AGENTS.md para los
-		   colores claros del catálogo de partidos. */
-		border: 1px solid #e5e7eb;
-	}
 
 	.nota {
 		margin: 10px 0 0;

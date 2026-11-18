@@ -2,13 +2,14 @@
 	import { resolve } from '$app/paths';
 	import { getResultadosSenado, type ProvinciaSenado } from '#lib/data';
 	import MapaMunicipiosSenado from '#lib/components/MapaMunicipiosSenado.svelte';
+	import SelectorProvincia from '#lib/components/SelectorProvincia.svelte';
 
 	let provincias = $state<Record<string, ProvinciaSenado> | null>(null);
 
-	// Madrid de salida, por ser la de más censo. La geometría municipal se sirve
-	// por provincia, así que hay que elegir una: traer las 52 para enseñar una
-	// sería ~4 MB desperdiciados.
-	let cod = $state('28');
+	// Sin provincia elegida de salida: la geometría municipal se sirve por
+	// provincia y hay que elegir una, pero arrancar siempre en la misma la
+	// convierte en un caso por defecto que no lo es.
+	let cod = $state('');
 
 	$effect(() => {
 		getResultadosSenado().then((d) => {
@@ -35,14 +36,7 @@
 		</p>
 	</div>
 
-	<div class="selector-fila">
-		<label class="selector-label" for="prov-senado">Provincia</label>
-		<select id="prov-senado" class="selector" bind:value={cod}>
-			{#each Object.entries(provincias ?? {}).sort( (a, b) => a[1].nombre.localeCompare(b[1].nombre, 'es') ) as [c, p] (c)}
-				<option value={c}>{p.nombre}</option>
-			{/each}
-		</select>
-	</div>
+	<SelectorProvincia {provincias} bind:cod={cod} />
 
 	{#if activa}
 		<section class="panel">
@@ -65,7 +59,13 @@
 		</section>
 	{/if}
 
-	<MapaMunicipiosSenado {cod} />
+	{#if cod}
+		<MapaMunicipiosSenado {cod} />
+	{:else}
+		<p class="sin-provincia">
+			Elige una provincia para ver el partido más votado al Senado en cada municipio
+		</p>
+	{/if}
 </main>
 
 <style>
@@ -119,30 +119,17 @@
 		color: #6b7280;
 	}
 
-	.selector-fila {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;
-		margin-bottom: 14px;
-	}
 
-	.selector-label {
-		font-size: 9px;
-		font-weight: 700;
-		letter-spacing: 0.12em;
-		text-transform: uppercase;
-		color: #9ca3af;
-	}
 
-	.selector {
-		padding: 5px 8px;
-		font: inherit;
+
+	.sin-provincia {
+		margin: 0;
+		padding: 28px 16px;
+		text-align: center;
 		font-size: 11px;
-		color: var(--ink, #0a0e14);
+		color: #9ca3af;
 		background: #fff;
 		border: 1px solid #e5e7eb;
-		border-radius: 0;
 	}
 
 	.panel {

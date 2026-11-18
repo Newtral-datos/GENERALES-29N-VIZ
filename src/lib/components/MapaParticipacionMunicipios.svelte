@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection } from '#lib/geo';
 	import { assetDinamico, getParticipacionMunicipios, type ParticipacionMunicipio } from '#lib/data';
-	import { RAMPA, LEYENDA, colorDeAmbito } from '#lib/escala-participacion';
+	import { RAMPA, escalaDe, colorDeAmbito } from '#lib/escala-participacion';
+	import { CONVOCATORIA_ANTERIOR } from '#lib/config';
 
 	type MuniProps = { NATCODE: string; NAMEUNIT: string; cod_prov: string };
 	type Feature = GeoFeature<MuniProps>;
@@ -12,7 +13,18 @@
 	 * página, y recalcularlo por separado los dejaría descoordinados cuando
 	 * entre un avance nuevo (ver AGENTS.md, "Participación y avances").
 	 */
-	let { cod, activeIdx }: { cod: string; activeIdx: number } = $props();
+	let {
+		cod,
+		activeIdx,
+		onListo
+	}: {
+		cod: string;
+		activeIdx: number;
+		/** Avisa cuando la geometría y los datos ya están pintados. Quien llama
+		 *  lo necesita para colocar el scroll: hasta que el mapa no existe, este
+		 *  bloque mide lo que mide el texto de "cargando". */
+		onListo?: () => void;
+	} = $props();
 
 	let features = $state<Feature[] | null>(null);
 	let datos = $state<Record<string, ParticipacionMunicipio> | null>(null);
@@ -52,22 +64,44 @@
 		return datos?.[ine(natcode)]?.avances[activeIdx]?.participacionPct ?? null;
 	}
 
+	// Escala propia de esta provincia y de este corte: el reparto entre sus
+	// municipios no tiene por qué parecerse al del mapa nacional.
+	let escala = $derived(
+		escalaDe(
+			Object.keys(datos ?? {}).map((ine) => datos?.[ine]?.avances[activeIdx]?.participacionPct)
+		)
+	);
+
 	function colorFor(natcode: string): string {
-		return colorDeAmbito(pctDe(natcode));
+		return colorDeAmbito(pctDe(natcode), escala);
 	}
 
 	const W = 420;
 	const H = 320;
+
+	// Un solo aviso por provincia, cuando ya están las dos piezas.
+	let avisado = $state('');
+	$effect(() => {
+		if (features && datos && features.length && avisado !== cod) {
+			avisado = cod;
+			onListo?.();
+		}
+	});
 
 	let bounds = $derived(features && features.length ? computeBounds(features) : null);
 	let vp = $derived(bounds ? fitBox(bounds, W, H) : { w: W, h: H });
 
 	// Popup al pasar el ratón: el <title> nativo no se puede maquetar y es
 	// invisible en móvil (AGENTS.md, "Mapas coropléticos").
-	let activo = $state<{ nombre: string; pct: number | null; censo: number | null } | null>(null);
+	let activo = $state<{
+		nombre: string;
+		pct: number | null;
+		censo: number | null;
+		anterior: number | null;
+	} | null>(null);
 	let popupPos = $state({ x: 0, y: 0 });
 	const POPUP_W = 180;
-	const POPUP_H = 86;
+	const POPUP_H = 110;
 
 	function colocar(x: number, y: number) {
 		// Voltea al lado contrario del cursor cuando no cabe, en vez de recortar
@@ -83,10 +117,14 @@
 
 	function onEnter(e: MouseEvent, f: Feature) {
 		const d = datos?.[ine(f.properties.NATCODE)];
+		const corte = activeIdx >= 0 ? d?.avances[activeIdx] : null;
 		activo = {
 			nombre: d?.nombre || f.properties.NAMEUNIT,
 			pct: pctDe(f.properties.NATCODE),
-			censo: d?.censo ?? null
+			censo: d?.censo ?? null,
+			// Solo el cierre trae comparativa: la API no publica los avances de
+			// la convocatoria anterior.
+			anterior: corte?.participacionPctAnterior ?? null
 		};
 		colocar(e.clientX, e.clientY);
 	}
@@ -145,6 +183,16 @@
 						{:else}
 							<span class="popup-pendiente">Corte pendiente</span>
 						{/if}
+						{#if activo.pct !== null && activo.anterior !== null}
+							{@const d = activo.pct - activo.anterior}
+							<span class="popup-delta" class:sube={d > 0} class:baja={d < 0}>
+								{d > 0 ? '+' : ''}{d.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+								pts respecto a {CONVOCATORIA_ANTERIOR}
+								<span class="popup-anterior">
+									({activo.anterior.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%)
+								</span>
+							</span>
+						{/if}
 						{#if activo.censo !== null}
 							<span class="popup-censo">Censo {formatoEntero(activo.censo)}</span>
 						{/if}
@@ -153,7 +201,7 @@
 			</div>
 
 			<ul class="leyenda">
-				{#each LEYENDA as label, i (label)}
+				{#each escala.leyenda as label, i (label)}
 					<li>
 						<span class="leyenda-swatch" style="background:{RAMPA[i]}"></span>
 						{label}
@@ -288,6 +336,25 @@
 	.popup-pendiente {
 		font-size: 11px;
 		font-style: italic;
+		color: #9ca3af;
+	}
+
+	.popup-delta {
+		font-size: 9.5px;
+		font-weight: 700;
+		color: #9ca3af;
+	}
+
+	.popup-delta.sube {
+		color: #0a7a4a;
+	}
+
+	.popup-delta.baja {
+		color: var(--stamp, #e10819);
+	}
+
+	.popup-anterior {
+		font-weight: 400;
 		color: #9ca3af;
 	}
 

@@ -153,6 +153,11 @@
 		font-size: 10px;
 		font-weight: 700;
 		color: var(--grey);
+		/* En móvil las tres cajas miden ~115px y "+2,47 respecto a 23J" parte en
+		   dos líneas. El flex del contenedor centra el bloque, pero no el texto
+		   dentro de él: sin esto, la segunda línea queda pegada a la izquierda. */
+		text-align: center;
+		line-height: 1.3;
 	}
 
 	.avance-delta.up {

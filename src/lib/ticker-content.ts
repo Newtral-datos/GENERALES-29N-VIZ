@@ -6,9 +6,8 @@ import type { Nacional, Participacion } from '#lib/data';
 // Antes de la jornada (ESCRUTINIO_ABIERTO = false): frases fijas, no hay
 // resultados reales que mostrar todavía — nada que parezca un dato en vivo.
 export const TITULARES_ANTES: string[] = [
-	'La jornada electoral es el <b>29 de noviembre</b>',
 	'Los colegios electorales abren a las <b>09:00</b> y cierran a las <b>20:00</b>',
-	'Los resultados se actualizarán con cada avance oficial del Ministerio del Interior',
+	'Los resultados se actualizarán con cada avance oficial',
 	'Consulta cómo votó tu municipio en <b>2023</b>',
 	'Este panel se activará en directo la noche del 29N'
 ];

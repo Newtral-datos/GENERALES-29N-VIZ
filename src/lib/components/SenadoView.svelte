@@ -2,7 +2,21 @@
 	import BarraSenado from '#lib/components/BarraSenado.svelte';
 	import TablaSenado from '#lib/components/TablaSenado.svelte';
 	import HemicicloSenado from '#lib/components/HemicicloSenado.svelte';
-	import MapaSenado from '#lib/components/MapaSenado.svelte';
+	import MapaTerritorios from '#lib/components/MapaTerritorios.svelte';
+	import MapaMunicipiosSenado from '#lib/components/MapaMunicipiosSenado.svelte';
+	import { getResultadosSenado, type ProvinciaSenado } from '#lib/data';
+	import { CONVOCATORIA } from '#lib/config';
+	import { etiquetaDe } from '#lib/empates';
+
+	let comunidadesSenado = $state<Record<string, ProvinciaSenado> | null>(null);
+	let provinciasSenado = $state<Record<string, ProvinciaSenado> | null>(null);
+
+	$effect(() => {
+		getResultadosSenado().then((d) => {
+			comunidadesSenado = d.comunidades;
+			provinciasSenado = d.provincias;
+		});
+	});
 	import ProvinciasSenadoTeaser from '#lib/components/ProvinciasSenadoTeaser.svelte';
 	import ParticipacionTeaser from '#lib/components/ParticipacionTeaser.svelte';
 </script>
@@ -20,7 +34,37 @@
 			<HemicicloSenado />
 		</div>
 		<div class="col-mapa">
-			<MapaSenado />
+			<MapaTerritorios
+				comunidades={comunidadesSenado}
+				provincias={provinciasSenado}
+				nota={`Senadores de elección directa — ${CONVOCATORIA} — pasa el ratón para ver el detalle. Gris = sin escrutar; rayado = empate a escaños`}
+			>
+				{#snippet popup(a)}
+					<div class="popup-senado">
+						<span class="popup-nombre">
+							{a.nombre}
+							{#if etiquetaDe(a.ganador)}
+								<span class="popup-estado"> — {etiquetaDe(a.ganador)}</span>
+							{/if}
+						</span>
+						{#if (a as ProvinciaSenado).composicion.length === 0}
+							<span class="popup-vacio">Sin senadores electos todavía</span>
+						{:else}
+							{#each (a as ProvinciaSenado).composicion.slice(0, 4) as p (p.siglas)}
+								<span class="popup-fila">
+									<span class="popup-swatch" style="background:{p.color}"></span>
+									<span class="popup-siglas">{p.siglas}</span>
+									<span class="popup-escanos">{p.escanos}</span>
+								</span>
+							{/each}
+						{/if}
+					</div>
+				{/snippet}
+
+				{#snippet municipios(codProv)}
+					<MapaMunicipiosSenado cod={codProv} />
+				{/snippet}
+			</MapaTerritorios>
 		</div>
 	</div>
 </main>
@@ -35,6 +79,57 @@
 </div>
 
 <style>
+	.popup-senado {
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+		min-width: 170px;
+	}
+
+	.popup-nombre {
+		font-size: 10px;
+		font-weight: 700;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+		color: var(--ink, #0a0e14);
+	}
+
+	.popup-estado {
+		font-weight: 400;
+		text-transform: none;
+		color: #9ca3af;
+	}
+
+	.popup-vacio {
+		font-size: 10.5px;
+		font-style: italic;
+		color: #9ca3af;
+	}
+
+	.popup-fila {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		font-size: 10.5px;
+	}
+
+	.popup-swatch {
+		width: 8px;
+		height: 8px;
+		flex: none;
+		border: 1px solid #e5e7eb;
+	}
+
+	.popup-siglas {
+		flex: 1;
+		color: var(--ink, #0a0e14);
+	}
+
+	.popup-escanos {
+		font-weight: 700;
+		color: var(--ink, #0a0e14);
+	}
+
 	.teasers {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);

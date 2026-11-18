@@ -6,14 +6,44 @@
 	import RankingParticipacion from '#lib/components/RankingParticipacion.svelte';
 	import AvancesParticipacion from '#lib/components/AvancesParticipacion.svelte';
 	import MapaParticipacionMunicipios from '#lib/components/MapaParticipacionMunicipios.svelte';
+	import SelectorProvincia from '#lib/components/SelectorProvincia.svelte';
 
 	let nacional = $state<ParticipacionNacional | null>(null);
 	let provincias = $state<Record<string, { nombre: string }> | null>(null);
 
-	// Provincia del mapa municipal. Se elige una porque la geometría municipal
-	// se sirve por provincia (52 ficheros, ~4 MB en total): traerlas todas para
-	// enseñar una sola sería absurdo. Madrid de salida por ser la de más censo.
-	let codProv = $state('28');
+	// Provincia del mapa municipal, sin ninguna elegida de salida. La geometría
+	// municipal se sirve por provincia, así que hay que elegir una — pero
+	// arrancar en Madrid daba a entender que Madrid es el caso por defecto de
+	// algo, y no lo es: es una provincia más. Mejor que el lector elija.
+	let codProv = $state('');
+	let zonaMunicipios = $state<HTMLDivElement | null>(null);
+
+	/**
+	 * Pulsar una provincia en el mapa equivale a elegirla en el selector.
+	 *
+	 * Y además lleva la vista hasta el mapa municipal: sin eso el clic parece
+	 * que no ha hecho nada, porque lo que cambia está más abajo, fuera de la
+	 * pantalla. Scroll suave y no instantáneo para que se entienda que te has
+	 * movido tú, no que la página ha saltado.
+	 *
+	 * `block: 'end'` en vez de `'start'`: alinea el final del bloque con el pie
+	 * de la ventana, así el mapa municipal queda entero a la vista. Con
+	 * `'start'` se paraba en el selector y el mapa —que es lo que se ha pedido
+	 * ver— seguía asomando por debajo.
+	 *
+	 * El scroll no se lanza al pulsar sino cuando el mapa avisa de que ya está
+	 * pintado (`onListo`). La geometría municipal se carga por fetch, así que
+	 * en el momento del clic el bloque solo contiene el texto de "cargando":
+	 * al colocar el scroll ahí y llegar después el mapa, el contenido crecía
+	 * 500 px y la vista se quedaba a media altura.
+	 */
+	function elegirProvincia(cod: string) {
+		codProv = cod;
+	}
+
+	function bajarAlMapa() {
+		zonaMunicipios?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+	}
 
 	$effect(() => {
 		getParticipacion().then((d) => {
@@ -54,24 +84,23 @@
 
 	<div class="grid">
 		<div class="col-mapa">
-			<MapaParticipacion {activeIdx} />
+			<MapaParticipacion {activeIdx} onElegir={elegirProvincia} />
 		</div>
 		<div class="col-ranking">
 			<RankingParticipacion {activeIdx} />
 		</div>
 	</div>
 
-	<div class="municipios">
-		<div class="selector-fila">
-			<label class="selector-label" for="prov-municipios">Provincia</label>
-			<select id="prov-municipios" class="selector" bind:value={codProv}>
-				{#each Object.entries(provincias ?? {}).sort( (a, b) => a[1].nombre.localeCompare(b[1].nombre, 'es') ) as [cod, p] (cod)}
-					<option value={cod}>{p.nombre}</option>
-				{/each}
-			</select>
-		</div>
+	<div class="municipios" bind:this={zonaMunicipios}>
+		<SelectorProvincia {provincias} bind:cod={codProv} />
 
-		<MapaParticipacionMunicipios cod={codProv} {activeIdx} />
+		{#if codProv}
+			<MapaParticipacionMunicipios cod={codProv} {activeIdx} onListo={bajarAlMapa} />
+		{:else}
+			<p class="sin-provincia">
+				Elige una provincia para ver la participación de cada uno de sus municipios
+			</p>
+		{/if}
 	</div>
 </main>
 
@@ -81,32 +110,18 @@
 		min-width: 0;
 	}
 
-	.selector-fila {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;
-		margin-bottom: 10px;
-	}
 
-	.selector-label {
-		font-size: 9px;
-		font-weight: 700;
-		letter-spacing: 0.12em;
-		text-transform: uppercase;
-		color: #9ca3af;
-	}
 
-	.selector {
-		padding: 5px 8px;
-		font: inherit;
+	.sin-provincia {
+		margin: 0;
+		padding: 28px 16px;
+		text-align: center;
 		font-size: 11px;
-		color: var(--ink, #0a0e14);
+		color: #9ca3af;
 		background: #fff;
 		border: 1px solid #e5e7eb;
-		/* Esquinas rectas, como el resto de cards del workspace. */
-		border-radius: 0;
 	}
+
 
 	.main {
 		padding: 20px 24px 32px;

@@ -231,6 +231,10 @@ export type AvanceParticipacion = {
 };
 
 export type ParticipacionNacional = {
+	// Sello del envío. Entre las 8:00 y las 20:00 del 29N este es el único
+	// fichero que se regenera, así que es el que da la hora del faldón.
+	fecha?: string;
+	horaTotalizacion?: string;
 	// Solo 29N: `pctSobreCensoTotal` es el crudo sobre el censo completo, que se
 	// publica aparte para poder auditar la diferencia con `participacionPct`
 	// (calculado sobre censo escrutado, ver AGENTS.md).
@@ -336,6 +340,10 @@ export type PartidoAnteriorSenado = {
 
 export type ResultadosSenado = {
 	nacional: NacionalSenado;
+	// Las 19 comunidades con su reparto de senadores electos. Salen de los
+	// registros "CM" del fichero de totales, que el Senado sí trae aunque no
+	// tenga ámbito de provincia (se vota por circunscripción).
+	comunidades: Record<string, ProvinciaSenado>;
 	provincias: Record<string, ProvinciaSenado>;
 };
 
@@ -354,6 +362,12 @@ export type AvanceMunicipio = {
 	participacionPct: number | null;
 	pctMesasNotificadas: number | null;
 	mesasNotificadas: number | null;
+	// Solo en el corte de cierre: la API publica la participación municipal de
+	// 23J pero no sus avances, así que los cortes de 14:00 y 18:00 no tienen
+	// con qué compararse.
+	participacionPctAnterior?: number | null;
+	censoAnterior?: number | null;
+	votantesAnterior?: number | null;
 };
 
 export type ParticipacionMunicipio = {

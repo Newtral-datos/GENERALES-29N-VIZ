@@ -3,10 +3,11 @@
 	import { asset, resolve } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import { getResultados, getIndiceMunicipios, type Provincia, type MunicipioIndice } from '#lib/data';
+	import type { Snippet } from 'svelte';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
-	import { fillDe, etiquetaDe } from '#lib/empates';
+	import { fillDe, etiquetaDe, type Ganador } from '#lib/empates';
 	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
-	import MapaMunicipios from '#lib/components/MapaMunicipios.svelte';
+	import MapaMunicipios, { type MunicipioSeleccionado } from '#lib/components/MapaMunicipios.svelte';
 
 	// Las dos geometrías comparten forma: un código y un nombre. El geojson de
 	// provincias lleva además `cod_ccaa`, que es lo que permite filtrar las de
@@ -19,12 +20,44 @@
 	type FeatureCollection = FC<PropsProv>;
 
 	type Nivel = 'ccaa' | 'provincia' | 'municipio';
+	// Lo único que este mapa necesita saber de un ámbito. Congreso y Senado
+	// traen más campos cada uno; los pinta su propio snippet de popup.
+	type Ambito = { nombre: string; ganador: Ganador };
 
 	// Las Palmas (35) y Santa Cruz de Tenerife (38) se dibujan aparte: su posición
 	// geográfica real deja un hueco enorme de océano entre ellas y la Península.
 	// A nivel de comunidad el archipiélago entero es el código 05.
 	const CANARIAS_CODES = new Set(['35', '38']);
 	const CANARIAS_CCAA = '05';
+
+	/**
+	 * El mismo motor de tres niveles para las dos cámaras.
+	 *
+	 * Lo que cambia entre Congreso y Senado no es la navegación —comunidad,
+	 * provincia, municipio— sino qué se enseña en cada ámbito: diputados y
+	 * porcentaje de voto en uno, senadores electos en el otro. Así que la
+	 * navegación, el encuadre, el recuadro de Canarias y el coloreado viven
+	 * aquí una sola vez, y el contenido del popup y el nivel municipal entran
+	 * como `snippet`.
+	 *
+	 * La alternativa era un segundo mapa calcado para el Senado, que es
+	 * exactamente el gemelo que se separa a la primera corrección.
+	 */
+	let {
+		comunidades,
+		provincias,
+		popup,
+		municipios,
+		nota,
+		buscador = false
+	}: {
+		comunidades: Record<string, Ambito> | null;
+		provincias: Record<string, Ambito> | null;
+		popup: Snippet<[Ambito]>;
+		municipios: Snippet<[string]>;
+		nota: string;
+		buscador?: boolean;
+	} = $props();
 
 	let nivel = $state<Nivel>('ccaa');
 	let codCcaaSel = $state<string | null>(null);
@@ -33,8 +66,6 @@
 	let ccaaFeatures = $state<FeatureCcaa[] | null>(null);
 
 	let allFeatures = $state<Feature[] | null>(null);
-	let provincias = $state<Record<string, Provincia> | null>(null);
-	let comunidades = $state<Record<string, Provincia> | null>(null);
 
 	$effect(() => {
 		fetch(asset('data/provincias.geojson'), { cache: 'no-cache' })
@@ -53,10 +84,6 @@
 	});
 
 	$effect(() => {
-		getResultados().then((d) => {
-			provincias = d.provincias;
-			comunidades = d.comunidades;
-		});
 	});
 
 	// Qué conjunto de ámbitos manda en el nivel actual. Los dos niveles tienen
@@ -169,6 +196,11 @@
 	let nombreCcaa = $derived(codCcaaSel && comunidades ? comunidades[codCcaaSel]?.nombre : null);
 	let nombreProv = $derived(codProvSel && provincias ? provincias[codProvSel]?.nombre : null);
 
+	// Municipio marcado dentro del mapa municipal. El mapa de la home enseña el
+	// reparto de un vistazo; para la tabla completa del municipio está la vista
+	// de /provincias, que ya sabe preseleccionarlo desde la query string.
+	let muniSel = $state<MunicipioSeleccionado | null>(null);
+
 	const SIZE = 440;
 	const INSET_W = SIZE * 0.3;
 	const INSET_H = SIZE * 0.18;
@@ -256,7 +288,7 @@
 		</nav>
 
 		{#if nivel === 'municipio' && codProvSel}
-			<MapaMunicipios cod={codProvSel} />
+			{@render municipios(codProvSel)}
 		{:else if !allFeatures || !ccaaFeatures || !ambitos}
 			<p class="loading">Cargando mapa…</p>
 		{:else}
@@ -314,69 +346,43 @@
 						{/each}
 					{/if}
 				</svg>
-				<p class="nota">
-					Partido ganador por circunscripción — {CONVOCATORIA} — pasa el ratón para un vistazo, haz clic
-					para ver el detalle completo. Gris = sin escrutar; rayado = empate
-				</p>
+				<p class="nota">{nota}</p>
 			</div>
 		{/if}
 	</div>
 
-	<div class="buscador">
-		<input
-			type="text"
-			class="buscador-input"
-			placeholder="Buscar municipio…"
-			bind:value={busqueda}
-			onfocus={() => (dropdownAbierto = true)}
-			onblur={onBuscadorBlur}
-		/>
-		{#if dropdownAbierto && resultadosBusqueda.length}
-			<ul class="buscador-resultados">
-				{#each resultadosBusqueda as m (m.codProv + m.ine)}
-					<li>
-						<button type="button" class="buscador-opcion" onclick={() => irAMunicipio(m)}>
-							{m.nombre} <span class="buscador-provincia">({m.provincia})</span>
-						</button>
-					</li>
-				{/each}
-			</ul>
-		{:else if dropdownAbierto && normalizar(busqueda.trim()).length >= 2}
-			<ul class="buscador-resultados">
-				<li class="buscador-sin-resultados">Sin coincidencias</li>
-			</ul>
-		{/if}
+	{#if buscador}
+		<div class="buscador">
+			<input
+				type="text"
+				class="buscador-input"
+				placeholder="Buscar municipio…"
+				bind:value={busqueda}
+				onfocus={() => (dropdownAbierto = true)}
+				onblur={onBuscadorBlur}
+			/>
+			{#if dropdownAbierto && resultadosBusqueda.length}
+				<ul class="buscador-resultados">
+					{#each resultadosBusqueda as m (m.codProv + m.ine)}
+						<li>
+							<button type="button" class="buscador-opcion" onclick={() => irAMunicipio(m)}>
+								{m.nombre} <span class="buscador-provincia">({m.provincia})</span>
+							</button>
+						</li>
+					{/each}
+				</ul>
+			{:else if dropdownAbierto && normalizar(busqueda.trim()).length >= 2}
+				<ul class="buscador-resultados">
+					<li class="buscador-sin-resultados">Sin coincidencias</li>
+				</ul>
+			{/if}
 	</div>
+	{/if}
 </div>
 
 {#if activeProvincia}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
-		<table class="popup-table">
-			<thead>
-				<tr>
-					<th class="th-left popup-title-cell">
-						{activeProvincia.nombre}
-						{#if etiquetaDe(activeProvincia.ganador)}
-							<span class="popup-estado">{etiquetaDe(activeProvincia.ganador)}</span>
-						{/if}
-					</th>
-					<th>Dip.</th>
-					<th>% Voto</th>
-				</tr>
-			</thead>
-			<tbody>
-				{#each activeProvincia.principales.slice(0, 3) as p (p.siglas)}
-					<tr>
-						<td class="popup-party">
-							<span class="swatch" style="background:{p.color}"></span>
-							{p.siglas}
-						</td>
-						<td class="popup-num">{p.escanos}</td>
-						<td class="popup-num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 1 })}%</td>
-					</tr>
-				{/each}
-			</tbody>
-		</table>
+		{@render popup(activeProvincia)}
 	</div>
 {/if}
 
@@ -386,6 +392,10 @@
 		display: flex;
 		flex-direction: column;
 	}
+
+
+
+
 
 	.migas {
 		display: flex;
@@ -559,72 +569,13 @@
 		box-shadow: var(--shadow-hard);
 	}
 
-	.popup-table {
-		width: 100%;
-		border-collapse: collapse;
-	}
 
-	.popup-table thead tr {
-		border-bottom: 1px solid var(--border);
-	}
 
-	.popup-table th {
-		padding: 0 0 4px 0;
-		font-family: var(--font-body);
-		font-size: 9px;
-		font-weight: 600;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		text-align: right;
-		color: var(--grey);
-	}
 
-	.popup-title-cell {
-		font-family: var(--font-display);
-		font-size: 11px;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		color: var(--ink);
-	}
 
-	.popup-table th.th-left {
-		text-align: left;
-	}
 
-	.popup-table td {
-		padding: 2px 0;
-		font-size: 11px;
-	}
 
-	.popup-estado {
-		/* Un empate o un 'sin escrutar' no se deduce del color de la región:
-		   hay que poder leerlo. AGENTS.md pide dejarlo explícito en el popup. */
-		display: block;
-		font-weight: 400;
-		font-size: 9px;
-		color: #9ca3af;
-		letter-spacing: 0.02em;
-	}
 
-	.popup-party {
-		display: flex;
-		align-items: center;
-		gap: 5px;
-		font-family: var(--font-body);
-		color: var(--ink);
-	}
 
-	.swatch {
-		width: 7px;
-		height: 7px;
-		flex-shrink: 0;
-	}
 
-	.popup-num {
-		text-align: right;
-		font-family: var(--font-mono);
-		color: var(--grey);
-		font-variant-numeric: tabular-nums;
-	}
 </style>
