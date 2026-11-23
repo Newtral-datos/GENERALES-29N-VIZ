@@ -1,6 +1,7 @@
 {
   "02001": {
     "nombre": "ABENGIBRE",
+    "fecha": "2026-11-18",
     "poblacion": 739,
     "censo": 640,
     "mesas": 1,
@@ -13,7 +14,9 @@
         "participacionPct": 7.81,
         "pctSobreCensoTotal": 7.81,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -22,7 +25,9 @@
         "participacionPct": 59.53,
         "pctSobreCensoTotal": 59.53,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
@@ -30,7 +35,7 @@
         "votantes": null,
         "participacionPct": null,
         "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "pctEscrutado": 0.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.7,
@@ -41,6 +46,7 @@
   },
   "02002": {
     "nombre": "ALATOZ",
+    "fecha": "2026-11-18",
     "poblacion": 496,
     "censo": 417,
     "mesas": 1,
@@ -53,7 +59,9 @@
         "participacionPct": 54.67,
         "pctSobreCensoTotal": 54.68,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -62,15 +70,17 @@
         "participacionPct": 71.94,
         "pctSobreCensoTotal": 71.94,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 351,
+        "participacionPct": 84.17,
+        "pctSobreCensoTotal": 84.17,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 84.95,
@@ -81,6 +91,7 @@
   },
   "02003": {
     "nombre": "ALBACETE",
+    "fecha": "2026-11-18",
     "poblacion": 172357,
     "censo": 134328,
     "mesas": 227,
@@ -93,7 +104,9 @@
         "participacionPct": 41.05,
         "pctSobreCensoTotal": 41.05,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 227
+        "mesasNotificadas": 227,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -102,15 +115,17 @@
         "participacionPct": 51.77,
         "pctSobreCensoTotal": 51.77,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 227
+        "mesasNotificadas": 227,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 86106,
+        "participacionPct": 72.01,
+        "pctSobreCensoTotal": 64.1,
+        "pctEscrutado": 89.01,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.17,
@@ -121,6 +136,7 @@
   },
   "02004": {
     "nombre": "ALBATANA",
+    "fecha": "2026-11-18",
     "poblacion": 670,
     "censo": 528,
     "mesas": 1,
@@ -133,7 +149,9 @@
         "participacionPct": 54.16,
         "pctSobreCensoTotal": 54.17,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -142,15 +160,17 @@
         "participacionPct": 61.55,
         "pctSobreCensoTotal": 61.55,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 437,
+        "participacionPct": 82.77,
+        "pctSobreCensoTotal": 82.77,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 83.03,
@@ -161,6 +181,7 @@
   },
   "02005": {
     "nombre": "ALBOREA",
+    "fecha": "2026-11-18",
     "poblacion": 663,
     "censo": 528,
     "mesas": 1,
@@ -173,7 +194,9 @@
         "participacionPct": 49.24,
         "pctSobreCensoTotal": 49.24,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -182,15 +205,17 @@
         "participacionPct": 58.9,
         "pctSobreCensoTotal": 58.9,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 428,
+        "participacionPct": 81.06,
+        "pctSobreCensoTotal": 81.06,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.61,
@@ -201,6 +226,7 @@
   },
   "02006": {
     "nombre": "ALCADOZO",
+    "fecha": "2026-11-18",
     "poblacion": 634,
     "censo": 550,
     "mesas": 1,
@@ -213,7 +239,9 @@
         "participacionPct": 52.0,
         "pctSobreCensoTotal": 52.0,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -222,15 +250,17 @@
         "participacionPct": 58.72,
         "pctSobreCensoTotal": 58.73,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 441,
+        "participacionPct": 80.18,
+        "pctSobreCensoTotal": 80.18,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.05,
@@ -241,6 +271,7 @@
   },
   "02007": {
     "nombre": "ALCALÁ DEL JÚCAR",
+    "fecha": "2026-11-18",
     "poblacion": 1148,
     "censo": 922,
     "mesas": 2,
@@ -253,7 +284,9 @@
         "participacionPct": 51.51,
         "pctSobreCensoTotal": 51.52,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -262,15 +295,17 @@
         "participacionPct": 58.78,
         "pctSobreCensoTotal": 58.79,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 740,
+        "participacionPct": 80.26,
+        "pctSobreCensoTotal": 80.26,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.31,
@@ -281,6 +316,7 @@
   },
   "02008": {
     "nombre": "ALCARAZ",
+    "fecha": "2026-11-18",
     "poblacion": 1307,
     "censo": 1092,
     "mesas": 2,
@@ -293,7 +329,9 @@
         "participacionPct": 39.92,
         "pctSobreCensoTotal": 39.93,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -302,15 +340,17 @@
         "participacionPct": 52.01,
         "pctSobreCensoTotal": 52.01,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 792,
+        "participacionPct": 72.53,
+        "pctSobreCensoTotal": 72.53,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.03,
@@ -321,6 +361,7 @@
   },
   "02009": {
     "nombre": "ALMANSA",
+    "fecha": "2026-11-18",
     "poblacion": 24224,
     "censo": 19140,
     "mesas": 30,
@@ -333,7 +374,9 @@
         "participacionPct": 46.98,
         "pctSobreCensoTotal": 46.98,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 30
+        "mesasNotificadas": 30,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -342,15 +385,17 @@
         "participacionPct": 56.92,
         "pctSobreCensoTotal": 56.92,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 30
+        "mesasNotificadas": 30,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 14109,
+        "participacionPct": 73.71,
+        "pctSobreCensoTotal": 73.71,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.93,
@@ -361,6 +406,7 @@
   },
   "02010": {
     "nombre": "ALPERA",
+    "fecha": "2026-11-18",
     "poblacion": 2245,
     "censo": 1720,
     "mesas": 3,
@@ -373,7 +419,9 @@
         "participacionPct": 53.31,
         "pctSobreCensoTotal": 53.31,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -382,15 +430,17 @@
         "participacionPct": 66.97,
         "pctSobreCensoTotal": 66.98,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1426,
+        "participacionPct": 82.91,
+        "pctSobreCensoTotal": 82.91,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 83.59,
@@ -401,6 +451,7 @@
   },
   "02011": {
     "nombre": "AYNA",
+    "fecha": "2026-11-18",
     "poblacion": 582,
     "censo": 504,
     "mesas": 1,
@@ -413,7 +464,9 @@
         "participacionPct": 58.13,
         "pctSobreCensoTotal": 58.13,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -422,15 +475,17 @@
         "participacionPct": 64.28,
         "pctSobreCensoTotal": 64.29,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 419,
+        "participacionPct": 83.13,
+        "pctSobreCensoTotal": 83.13,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 83.89,
@@ -441,6 +496,7 @@
   },
   "02012": {
     "nombre": "BALAZOTE",
+    "fecha": "2026-11-18",
     "poblacion": 2388,
     "censo": 1808,
     "mesas": 4,
@@ -453,7 +509,9 @@
         "participacionPct": 53.09,
         "pctSobreCensoTotal": 53.1,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -462,15 +520,17 @@
         "participacionPct": 63.6,
         "pctSobreCensoTotal": 63.61,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1513,
+        "participacionPct": 83.68,
+        "pctSobreCensoTotal": 83.68,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 84.4,
@@ -481,6 +541,7 @@
   },
   "02013": {
     "nombre": "BALSA DE VES",
+    "fecha": "2026-11-18",
     "poblacion": 126,
     "censo": 112,
     "mesas": 1,
@@ -493,7 +554,9 @@
         "participacionPct": 50.89,
         "pctSobreCensoTotal": 50.89,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -502,15 +565,17 @@
         "participacionPct": 54.46,
         "pctSobreCensoTotal": 54.46,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 89,
+        "participacionPct": 79.46,
+        "pctSobreCensoTotal": 79.46,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 83.6,
@@ -521,6 +586,7 @@
   },
   "02014": {
     "nombre": "BALLESTERO (EL)",
+    "fecha": "2026-11-18",
     "poblacion": 427,
     "censo": 341,
     "mesas": 1,
@@ -533,7 +599,9 @@
         "participacionPct": 47.5,
         "pctSobreCensoTotal": 47.51,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -542,15 +610,17 @@
         "participacionPct": 55.42,
         "pctSobreCensoTotal": 55.43,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 269,
+        "participacionPct": 78.89,
+        "pctSobreCensoTotal": 78.89,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 79.88,
@@ -561,6 +631,7 @@
   },
   "02015": {
     "nombre": "BARRAX",
+    "fecha": "2026-11-18",
     "poblacion": 1831,
     "censo": 1443,
     "mesas": 2,
@@ -573,7 +644,9 @@
         "participacionPct": 54.88,
         "pctSobreCensoTotal": 54.89,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -582,15 +655,17 @@
         "participacionPct": 65.34,
         "pctSobreCensoTotal": 65.35,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1178,
+        "participacionPct": 81.64,
+        "pctSobreCensoTotal": 81.64,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 82.03,
@@ -601,6 +676,7 @@
   },
   "02016": {
     "nombre": "BIENSERVIDA",
+    "fecha": "2026-11-18",
     "poblacion": 574,
     "censo": 479,
     "mesas": 1,
@@ -613,7 +689,9 @@
         "participacionPct": 49.89,
         "pctSobreCensoTotal": 49.9,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -622,15 +700,17 @@
         "participacionPct": 55.74,
         "pctSobreCensoTotal": 55.74,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 349,
+        "participacionPct": 72.86,
+        "pctSobreCensoTotal": 72.86,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.66,
@@ -641,6 +721,7 @@
   },
   "02017": {
     "nombre": "BOGARRA",
+    "fecha": "2026-11-18",
     "poblacion": 756,
     "censo": 638,
     "mesas": 1,
@@ -653,7 +734,9 @@
         "participacionPct": 47.96,
         "pctSobreCensoTotal": 47.96,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -662,15 +745,17 @@
         "participacionPct": 59.24,
         "pctSobreCensoTotal": 59.25,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 462,
+        "participacionPct": 72.41,
+        "pctSobreCensoTotal": 72.41,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.3,
@@ -681,6 +766,7 @@
   },
   "02018": {
     "nombre": "BONETE",
+    "fecha": "2026-11-18",
     "poblacion": 1006,
     "censo": 743,
     "mesas": 1,
@@ -693,7 +779,9 @@
         "participacionPct": 56.93,
         "pctSobreCensoTotal": 56.93,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -702,15 +790,17 @@
         "participacionPct": 71.46,
         "pctSobreCensoTotal": 71.47,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 633,
+        "participacionPct": 85.2,
+        "pctSobreCensoTotal": 85.2,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 85.49,
@@ -721,6 +811,7 @@
   },
   "02019": {
     "nombre": "BONILLO (EL)",
+    "fecha": "2026-11-18",
     "poblacion": 2698,
     "censo": 2233,
     "mesas": 4,
@@ -733,7 +824,9 @@
         "participacionPct": 44.87,
         "pctSobreCensoTotal": 44.87,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -742,15 +835,17 @@
         "participacionPct": 60.9,
         "pctSobreCensoTotal": 60.9,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1786,
+        "participacionPct": 79.98,
+        "pctSobreCensoTotal": 79.98,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.42,
@@ -761,6 +856,7 @@
   },
   "02020": {
     "nombre": "CARCELÉN",
+    "fecha": "2026-11-18",
     "poblacion": 483,
     "censo": 402,
     "mesas": 1,
@@ -773,7 +869,9 @@
         "participacionPct": 58.45,
         "pctSobreCensoTotal": 58.46,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -782,15 +880,17 @@
         "participacionPct": 62.93,
         "pctSobreCensoTotal": 62.94,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 320,
+        "participacionPct": 79.6,
+        "pctSobreCensoTotal": 79.6,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.43,
@@ -801,6 +901,7 @@
   },
   "02021": {
     "nombre": "CASAS DE JUAN NÚÑEZ",
+    "fecha": "2026-11-18",
     "poblacion": 1356,
     "censo": 1016,
     "mesas": 2,
@@ -813,7 +914,9 @@
         "participacionPct": 50.59,
         "pctSobreCensoTotal": 50.59,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -822,15 +925,17 @@
         "participacionPct": 62.4,
         "pctSobreCensoTotal": 62.4,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 831,
+        "participacionPct": 81.79,
+        "pctSobreCensoTotal": 81.79,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 82.56,
@@ -841,6 +946,7 @@
   },
   "02022": {
     "nombre": "CASAS DE LÁZARO",
+    "fecha": "2026-11-18",
     "poblacion": 321,
     "censo": 292,
     "mesas": 1,
@@ -853,7 +959,9 @@
         "participacionPct": 57.87,
         "pctSobreCensoTotal": 57.88,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -862,15 +970,17 @@
         "participacionPct": 66.43,
         "pctSobreCensoTotal": 66.44,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 232,
+        "participacionPct": 79.45,
+        "pctSobreCensoTotal": 79.45,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.81,
@@ -881,6 +991,7 @@
   },
   "02023": {
     "nombre": "CASAS DE VES",
+    "fecha": "2026-11-18",
     "poblacion": 561,
     "censo": 459,
     "mesas": 1,
@@ -893,7 +1004,9 @@
         "participacionPct": 55.11,
         "pctSobreCensoTotal": 55.12,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -902,15 +1015,17 @@
         "participacionPct": 59.04,
         "pctSobreCensoTotal": 59.04,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 380,
+        "participacionPct": 82.79,
+        "pctSobreCensoTotal": 82.79,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 83.26,
@@ -921,6 +1036,7 @@
   },
   "02024": {
     "nombre": "CASAS-IBÁÑEZ",
+    "fecha": "2026-11-18",
     "poblacion": 4547,
     "censo": 3287,
     "mesas": 5,
@@ -933,7 +1049,9 @@
         "participacionPct": 47.18,
         "pctSobreCensoTotal": 47.19,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 5
+        "mesasNotificadas": 5,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -942,15 +1060,17 @@
         "participacionPct": 59.44,
         "pctSobreCensoTotal": 59.45,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 5
+        "mesasNotificadas": 5,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 2542,
+        "participacionPct": 77.33,
+        "pctSobreCensoTotal": 77.33,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 77.41,
@@ -961,6 +1081,7 @@
   },
   "02025": {
     "nombre": "CAUDETE",
+    "fecha": "2026-11-18",
     "poblacion": 10135,
     "censo": 7574,
     "mesas": 12,
@@ -973,7 +1094,9 @@
         "participacionPct": 45.97,
         "pctSobreCensoTotal": 45.97,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 12
+        "mesasNotificadas": 12,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -982,15 +1105,17 @@
         "participacionPct": 62.08,
         "pctSobreCensoTotal": 62.08,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 12
+        "mesasNotificadas": 12,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 5672,
+        "participacionPct": 74.89,
+        "pctSobreCensoTotal": 74.89,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 75.4,
@@ -1001,6 +1126,7 @@
   },
   "02026": {
     "nombre": "CENIZATE",
+    "fecha": "2026-11-18",
     "poblacion": 1183,
     "censo": 797,
     "mesas": 1,
@@ -1013,7 +1139,9 @@
         "participacionPct": 46.29,
         "pctSobreCensoTotal": 46.3,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1022,15 +1150,17 @@
         "participacionPct": 64.74,
         "pctSobreCensoTotal": 64.74,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 648,
+        "participacionPct": 81.3,
+        "pctSobreCensoTotal": 81.3,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.54,
@@ -1041,6 +1171,7 @@
   },
   "02027": {
     "nombre": "CORRAL-RUBIO",
+    "fecha": "2026-11-18",
     "poblacion": 300,
     "censo": 270,
     "mesas": 1,
@@ -1053,7 +1184,9 @@
         "participacionPct": 57.77,
         "pctSobreCensoTotal": 57.78,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1062,15 +1195,17 @@
         "participacionPct": 67.03,
         "pctSobreCensoTotal": 67.04,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 229,
+        "participacionPct": 84.81,
+        "pctSobreCensoTotal": 84.81,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 85.82,
@@ -1081,6 +1216,7 @@
   },
   "02028": {
     "nombre": "COTILLAS",
+    "fecha": "2026-11-18",
     "poblacion": 129,
     "censo": 117,
     "mesas": 1,
@@ -1093,7 +1229,9 @@
         "participacionPct": 38.46,
         "pctSobreCensoTotal": 38.46,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1102,15 +1240,17 @@
         "participacionPct": 51.28,
         "pctSobreCensoTotal": 51.28,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 88,
+        "participacionPct": 75.21,
+        "pctSobreCensoTotal": 75.21,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 78.51,
@@ -1121,6 +1261,7 @@
   },
   "02029": {
     "nombre": "CHINCHILLA DE MONTE-ARAGÓN",
+    "fecha": "2026-11-18",
     "poblacion": 4497,
     "censo": 3794,
     "mesas": 7,
@@ -1133,7 +1274,9 @@
         "participacionPct": 42.9,
         "pctSobreCensoTotal": 42.91,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 7
+        "mesasNotificadas": 7,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1142,15 +1285,17 @@
         "participacionPct": 51.39,
         "pctSobreCensoTotal": 51.4,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 7
+        "mesasNotificadas": 7,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1312,
+        "participacionPct": 74.63,
+        "pctSobreCensoTotal": 34.58,
+        "pctEscrutado": 46.33,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 74.18,
@@ -1161,6 +1306,7 @@
   },
   "02030": {
     "nombre": "ELCHE DE LA SIERRA",
+    "fecha": "2026-11-18",
     "poblacion": 3553,
     "censo": 2942,
     "mesas": 5,
@@ -1173,7 +1319,9 @@
         "participacionPct": 48.7,
         "pctSobreCensoTotal": 48.71,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 5
+        "mesasNotificadas": 5,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1182,15 +1330,17 @@
         "participacionPct": 58.12,
         "pctSobreCensoTotal": 58.12,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 5
+        "mesasNotificadas": 5,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 2251,
+        "participacionPct": 76.51,
+        "pctSobreCensoTotal": 76.51,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 76.89,
@@ -1201,6 +1351,7 @@
   },
   "02031": {
     "nombre": "FÉREZ",
+    "fecha": "2026-11-18",
     "poblacion": 614,
     "censo": 510,
     "mesas": 1,
@@ -1213,7 +1364,9 @@
         "participacionPct": 53.13,
         "pctSobreCensoTotal": 53.14,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1222,15 +1375,17 @@
         "participacionPct": 65.88,
         "pctSobreCensoTotal": 65.88,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 414,
+        "participacionPct": 81.18,
+        "pctSobreCensoTotal": 81.18,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.81,
@@ -1241,6 +1396,7 @@
   },
   "02032": {
     "nombre": "FUENSANTA",
+    "fecha": "2026-11-18",
     "poblacion": 281,
     "censo": 267,
     "mesas": 1,
@@ -1253,7 +1409,9 @@
         "participacionPct": 56.17,
         "pctSobreCensoTotal": 56.18,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1262,15 +1420,17 @@
         "participacionPct": 61.42,
         "pctSobreCensoTotal": 61.42,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 213,
+        "participacionPct": 79.78,
+        "pctSobreCensoTotal": 79.78,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.55,
@@ -1281,6 +1441,7 @@
   },
   "02033": {
     "nombre": "FUENTE-ÁLAMO",
+    "fecha": "2026-11-18",
     "poblacion": 2461,
     "censo": 1797,
     "mesas": 3,
@@ -1293,7 +1454,9 @@
         "participacionPct": 51.91,
         "pctSobreCensoTotal": 51.92,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1302,15 +1465,17 @@
         "participacionPct": 61.54,
         "pctSobreCensoTotal": 61.55,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1422,
+        "participacionPct": 79.13,
+        "pctSobreCensoTotal": 79.13,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 79.81,
@@ -1321,6 +1486,7 @@
   },
   "02034": {
     "nombre": "FUENTEALBILLA",
+    "fecha": "2026-11-18",
     "poblacion": 1821,
     "censo": 1326,
     "mesas": 2,
@@ -1333,7 +1499,9 @@
         "participacionPct": 55.88,
         "pctSobreCensoTotal": 55.88,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1342,15 +1510,17 @@
         "participacionPct": 64.63,
         "pctSobreCensoTotal": 64.63,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1071,
+        "participacionPct": 80.77,
+        "pctSobreCensoTotal": 80.77,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.25,
@@ -1361,6 +1531,7 @@
   },
   "02035": {
     "nombre": "GINETA (LA)",
+    "fecha": "2026-11-18",
     "poblacion": 2568,
     "censo": 2005,
     "mesas": 4,
@@ -1373,7 +1544,9 @@
         "participacionPct": 48.07,
         "pctSobreCensoTotal": 48.08,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1382,15 +1555,17 @@
         "participacionPct": 61.44,
         "pctSobreCensoTotal": 61.45,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1621,
+        "participacionPct": 80.85,
+        "pctSobreCensoTotal": 80.85,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.41,
@@ -1401,6 +1576,7 @@
   },
   "02036": {
     "nombre": "GOLOSALVO",
+    "fecha": "2026-11-18",
     "poblacion": 98,
     "censo": 80,
     "mesas": 1,
@@ -1413,7 +1589,9 @@
         "participacionPct": 56.25,
         "pctSobreCensoTotal": 56.25,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1422,15 +1600,17 @@
         "participacionPct": 58.75,
         "pctSobreCensoTotal": 58.75,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 64,
+        "participacionPct": 80.0,
+        "pctSobreCensoTotal": 80.0,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.7,
@@ -1441,6 +1621,7 @@
   },
   "02037": {
     "nombre": "HELLÍN",
+    "fecha": "2026-11-18",
     "poblacion": 30492,
     "censo": 22687,
     "mesas": 37,
@@ -1453,7 +1634,9 @@
         "participacionPct": 40.92,
         "pctSobreCensoTotal": 40.92,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 37
+        "mesasNotificadas": 37,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1462,15 +1645,17 @@
         "participacionPct": 50.53,
         "pctSobreCensoTotal": 50.53,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 37
+        "mesasNotificadas": 37,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 13211,
+        "participacionPct": 66.73,
+        "pctSobreCensoTotal": 58.23,
+        "pctEscrutado": 87.27,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 66.49,
@@ -1481,6 +1666,7 @@
   },
   "02038": {
     "nombre": "HERRERA (LA)",
+    "fecha": "2026-11-18",
     "poblacion": 304,
     "censo": 225,
     "mesas": 1,
@@ -1493,7 +1679,9 @@
         "participacionPct": 51.11,
         "pctSobreCensoTotal": 51.11,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1502,15 +1690,17 @@
         "participacionPct": 61.77,
         "pctSobreCensoTotal": 61.78,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 170,
+        "participacionPct": 75.56,
+        "pctSobreCensoTotal": 75.56,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 77.08,
@@ -1521,6 +1711,7 @@
   },
   "02039": {
     "nombre": "HIGUERUELA",
+    "fecha": "2026-11-18",
     "poblacion": 1125,
     "censo": 941,
     "mesas": 2,
@@ -1533,7 +1724,9 @@
         "participacionPct": 50.26,
         "pctSobreCensoTotal": 50.27,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1542,15 +1735,17 @@
         "participacionPct": 65.46,
         "pctSobreCensoTotal": 65.46,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 798,
+        "participacionPct": 84.8,
+        "pctSobreCensoTotal": 84.8,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 85.34,
@@ -1561,6 +1756,7 @@
   },
   "02040": {
     "nombre": "HOYA-GONZALO",
+    "fecha": "2026-11-18",
     "poblacion": 561,
     "censo": 488,
     "mesas": 1,
@@ -1573,7 +1769,9 @@
         "participacionPct": 47.13,
         "pctSobreCensoTotal": 47.13,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1582,15 +1780,17 @@
         "participacionPct": 64.34,
         "pctSobreCensoTotal": 64.34,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 422,
+        "participacionPct": 86.48,
+        "pctSobreCensoTotal": 86.48,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 86.92,
@@ -1601,6 +1801,7 @@
   },
   "02041": {
     "nombre": "JORQUERA",
+    "fecha": "2026-11-18",
     "poblacion": 350,
     "censo": 292,
     "mesas": 1,
@@ -1613,7 +1814,9 @@
         "participacionPct": 45.54,
         "pctSobreCensoTotal": 45.55,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1622,15 +1825,17 @@
         "participacionPct": 63.01,
         "pctSobreCensoTotal": 63.01,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 228,
+        "participacionPct": 78.08,
+        "pctSobreCensoTotal": 78.08,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.12,
@@ -1641,6 +1846,7 @@
   },
   "02042": {
     "nombre": "LETUR",
+    "fecha": "2026-11-18",
     "poblacion": 901,
     "censo": 773,
     "mesas": 1,
@@ -1653,7 +1859,9 @@
         "participacionPct": 39.84,
         "pctSobreCensoTotal": 39.84,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1662,15 +1870,17 @@
         "participacionPct": 50.32,
         "pctSobreCensoTotal": 50.32,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 572,
+        "participacionPct": 74.0,
+        "pctSobreCensoTotal": 74.0,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 74.2,
@@ -1681,6 +1891,7 @@
   },
   "02043": {
     "nombre": "LEZUZA",
+    "fecha": "2026-11-18",
     "poblacion": 1300,
     "censo": 1102,
     "mesas": 2,
@@ -1693,7 +1904,9 @@
         "participacionPct": 43.73,
         "pctSobreCensoTotal": 43.74,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1702,15 +1915,17 @@
         "participacionPct": 61.52,
         "pctSobreCensoTotal": 61.52,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 893,
+        "participacionPct": 81.03,
+        "pctSobreCensoTotal": 81.03,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.69,
@@ -1721,6 +1936,7 @@
   },
   "02044": {
     "nombre": "LIÉTOR",
+    "fecha": "2026-11-18",
     "poblacion": 1096,
     "censo": 949,
     "mesas": 2,
@@ -1733,7 +1949,9 @@
         "participacionPct": 48.05,
         "pctSobreCensoTotal": 48.05,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1742,15 +1960,17 @@
         "participacionPct": 54.37,
         "pctSobreCensoTotal": 54.37,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 704,
+        "participacionPct": 74.18,
+        "pctSobreCensoTotal": 74.18,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 75.02,
@@ -1761,6 +1981,7 @@
   },
   "02045": {
     "nombre": "MADRIGUERAS",
+    "fecha": "2026-11-18",
     "poblacion": 4644,
     "censo": 3550,
     "mesas": 6,
@@ -1773,7 +1994,9 @@
         "participacionPct": 45.46,
         "pctSobreCensoTotal": 45.46,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 6
+        "mesasNotificadas": 6,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1782,15 +2005,17 @@
         "participacionPct": 57.57,
         "pctSobreCensoTotal": 57.58,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 6
+        "mesasNotificadas": 6,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 2869,
+        "participacionPct": 80.82,
+        "pctSobreCensoTotal": 80.82,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.27,
@@ -1801,6 +2026,7 @@
   },
   "02046": {
     "nombre": "MAHORA",
+    "fecha": "2026-11-18",
     "poblacion": 1430,
     "censo": 1156,
     "mesas": 2,
@@ -1813,7 +2039,9 @@
         "participacionPct": 49.39,
         "pctSobreCensoTotal": 49.39,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1822,15 +2050,17 @@
         "participacionPct": 63.49,
         "pctSobreCensoTotal": 63.49,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 943,
+        "participacionPct": 81.57,
+        "pctSobreCensoTotal": 81.57,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 82.29,
@@ -1841,6 +2071,7 @@
   },
   "02047": {
     "nombre": "MASEGOSO",
+    "fecha": "2026-11-18",
     "poblacion": 114,
     "censo": 116,
     "mesas": 1,
@@ -1853,7 +2084,9 @@
         "participacionPct": 56.89,
         "pctSobreCensoTotal": 56.9,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1862,15 +2095,17 @@
         "participacionPct": 63.79,
         "pctSobreCensoTotal": 63.79,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 99,
+        "participacionPct": 85.34,
+        "pctSobreCensoTotal": 85.34,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 88.46,
@@ -1881,6 +2116,7 @@
   },
   "02048": {
     "nombre": "MINAYA",
+    "fecha": "2026-11-18",
     "poblacion": 1442,
     "censo": 1102,
     "mesas": 2,
@@ -1893,7 +2129,9 @@
         "participacionPct": 54.08,
         "pctSobreCensoTotal": 54.08,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1902,7 +2140,9 @@
         "participacionPct": 66.78,
         "pctSobreCensoTotal": 66.79,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
@@ -1910,7 +2150,7 @@
         "votantes": null,
         "participacionPct": null,
         "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "pctEscrutado": 0.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.95,
@@ -1921,6 +2161,7 @@
   },
   "02049": {
     "nombre": "MOLINICOS",
+    "fecha": "2026-11-18",
     "poblacion": 837,
     "censo": 677,
     "mesas": 2,
@@ -1933,7 +2174,9 @@
         "participacionPct": 40.32,
         "pctSobreCensoTotal": 40.32,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1942,15 +2185,17 @@
         "participacionPct": 51.4,
         "pctSobreCensoTotal": 51.4,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 486,
+        "participacionPct": 71.79,
+        "pctSobreCensoTotal": 71.79,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.2,
@@ -1961,6 +2206,7 @@
   },
   "02050": {
     "nombre": "MONTALVOS",
+    "fecha": "2026-11-18",
     "poblacion": 88,
     "censo": 65,
     "mesas": 1,
@@ -1973,7 +2219,9 @@
         "participacionPct": 55.38,
         "pctSobreCensoTotal": 55.38,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -1982,15 +2230,17 @@
         "participacionPct": 60.0,
         "pctSobreCensoTotal": 60.0,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 49,
+        "participacionPct": 75.38,
+        "pctSobreCensoTotal": 75.38,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 79.48,
@@ -2001,6 +2251,7 @@
   },
   "02051": {
     "nombre": "MONTEALEGRE DEL CASTILLO",
+    "fecha": "2026-11-18",
     "poblacion": 2056,
     "censo": 1583,
     "mesas": 3,
@@ -2013,7 +2264,9 @@
         "participacionPct": 44.53,
         "pctSobreCensoTotal": 44.54,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2022,15 +2275,17 @@
         "participacionPct": 56.41,
         "pctSobreCensoTotal": 56.41,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1148,
+        "participacionPct": 72.52,
+        "pctSobreCensoTotal": 72.52,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.22,
@@ -2041,6 +2296,7 @@
   },
   "02052": {
     "nombre": "MOTILLEJA",
+    "fecha": "2026-11-18",
     "poblacion": 660,
     "censo": 567,
     "mesas": 1,
@@ -2053,7 +2309,9 @@
         "participacionPct": 37.91,
         "pctSobreCensoTotal": 37.92,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2062,15 +2320,17 @@
         "participacionPct": 54.49,
         "pctSobreCensoTotal": 54.5,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 440,
+        "participacionPct": 77.6,
+        "pctSobreCensoTotal": 77.6,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 76.77,
@@ -2081,6 +2341,7 @@
   },
   "02053": {
     "nombre": "MUNERA",
+    "fecha": "2026-11-18",
     "poblacion": 3422,
     "censo": 2761,
     "mesas": 6,
@@ -2093,7 +2354,9 @@
         "participacionPct": 43.49,
         "pctSobreCensoTotal": 43.5,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 6
+        "mesasNotificadas": 6,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2102,15 +2365,17 @@
         "participacionPct": 55.7,
         "pctSobreCensoTotal": 55.7,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 6
+        "mesasNotificadas": 6,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 2131,
+        "participacionPct": 77.18,
+        "pctSobreCensoTotal": 77.18,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 77.56,
@@ -2121,6 +2386,7 @@
   },
   "02054": {
     "nombre": "NAVAS DE JORQUERA",
+    "fecha": "2026-11-18",
     "poblacion": 528,
     "censo": 376,
     "mesas": 1,
@@ -2133,7 +2399,9 @@
         "participacionPct": 55.05,
         "pctSobreCensoTotal": 55.05,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2142,15 +2410,17 @@
         "participacionPct": 68.61,
         "pctSobreCensoTotal": 68.62,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 306,
+        "participacionPct": 81.38,
+        "pctSobreCensoTotal": 81.38,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 82.01,
@@ -2161,6 +2431,7 @@
   },
   "02055": {
     "nombre": "NERPIO",
+    "fecha": "2026-11-18",
     "poblacion": 1180,
     "censo": 996,
     "mesas": 3,
@@ -2173,7 +2444,9 @@
         "participacionPct": 38.35,
         "pctSobreCensoTotal": 38.35,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2182,15 +2455,17 @@
         "participacionPct": 47.59,
         "pctSobreCensoTotal": 47.59,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 714,
+        "participacionPct": 71.69,
+        "pctSobreCensoTotal": 71.69,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 72.92,
@@ -2201,6 +2476,7 @@
   },
   "02056": {
     "nombre": "ONTUR",
+    "fecha": "2026-11-18",
     "poblacion": 1934,
     "censo": 1544,
     "mesas": 3,
@@ -2213,7 +2489,9 @@
         "participacionPct": 49.02,
         "pctSobreCensoTotal": 49.03,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2222,15 +2500,17 @@
         "participacionPct": 60.23,
         "pctSobreCensoTotal": 60.23,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1219,
+        "participacionPct": 78.95,
+        "pctSobreCensoTotal": 78.95,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 79.56,
@@ -2241,6 +2521,7 @@
   },
   "02057": {
     "nombre": "OSSA DE MONTIEL",
+    "fecha": "2026-11-18",
     "poblacion": 2215,
     "censo": 1849,
     "mesas": 4,
@@ -2253,7 +2534,9 @@
         "participacionPct": 43.59,
         "pctSobreCensoTotal": 43.59,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2262,15 +2545,17 @@
         "participacionPct": 55.11,
         "pctSobreCensoTotal": 55.11,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1356,
+        "participacionPct": 73.34,
+        "pctSobreCensoTotal": 73.34,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.93,
@@ -2281,6 +2566,7 @@
   },
   "02058": {
     "nombre": "PATERNA DEL MADERA",
+    "fecha": "2026-11-18",
     "poblacion": 329,
     "censo": 288,
     "mesas": 1,
@@ -2293,7 +2579,9 @@
         "participacionPct": 47.91,
         "pctSobreCensoTotal": 47.92,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2302,15 +2590,17 @@
         "participacionPct": 56.25,
         "pctSobreCensoTotal": 56.25,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 210,
+        "participacionPct": 72.92,
+        "pctSobreCensoTotal": 72.92,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 74.34,
@@ -2321,6 +2611,7 @@
   },
   "02059": {
     "nombre": "PEÑASCOSA",
+    "fecha": "2026-11-18",
     "poblacion": 323,
     "censo": 291,
     "mesas": 1,
@@ -2333,7 +2624,9 @@
         "participacionPct": 50.51,
         "pctSobreCensoTotal": 50.52,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2342,15 +2635,17 @@
         "participacionPct": 60.82,
         "pctSobreCensoTotal": 60.82,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 232,
+        "participacionPct": 79.73,
+        "pctSobreCensoTotal": 79.73,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 81.06,
@@ -2361,6 +2656,7 @@
   },
   "02060": {
     "nombre": "PEÑAS DE SAN PEDRO",
+    "fecha": "2026-11-18",
     "poblacion": 1433,
     "censo": 1311,
     "mesas": 2,
@@ -2373,7 +2669,9 @@
         "participacionPct": 45.15,
         "pctSobreCensoTotal": 45.16,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2382,15 +2680,17 @@
         "participacionPct": 55.07,
         "pctSobreCensoTotal": 55.07,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1010,
+        "participacionPct": 77.04,
+        "pctSobreCensoTotal": 77.04,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 77.81,
@@ -2401,6 +2701,7 @@
   },
   "02061": {
     "nombre": "PÉTROLA",
+    "fecha": "2026-11-18",
     "poblacion": 663,
     "censo": 584,
     "mesas": 1,
@@ -2413,7 +2714,9 @@
         "participacionPct": 46.23,
         "pctSobreCensoTotal": 46.23,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2422,15 +2725,17 @@
         "participacionPct": 64.21,
         "pctSobreCensoTotal": 64.21,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 466,
+        "participacionPct": 79.79,
+        "pctSobreCensoTotal": 79.79,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.27,
@@ -2441,6 +2746,7 @@
   },
   "02062": {
     "nombre": "POVEDILLA",
+    "fecha": "2026-11-18",
     "poblacion": 388,
     "censo": 344,
     "mesas": 1,
@@ -2453,7 +2759,9 @@
         "participacionPct": 45.05,
         "pctSobreCensoTotal": 45.06,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2462,7 +2770,9 @@
         "participacionPct": 57.26,
         "pctSobreCensoTotal": 57.27,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
@@ -2470,7 +2780,7 @@
         "votantes": null,
         "participacionPct": null,
         "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "pctEscrutado": 0.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 77.68,
@@ -2481,6 +2791,7 @@
   },
   "02063": {
     "nombre": "POZOHONDO",
+    "fecha": "2026-11-18",
     "poblacion": 1569,
     "censo": 1316,
     "mesas": 3,
@@ -2493,7 +2804,9 @@
         "participacionPct": 46.2,
         "pctSobreCensoTotal": 46.2,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2502,15 +2815,17 @@
         "participacionPct": 57.67,
         "pctSobreCensoTotal": 57.67,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 994,
+        "participacionPct": 75.53,
+        "pctSobreCensoTotal": 75.53,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 76.39,
@@ -2521,6 +2836,7 @@
   },
   "02064": {
     "nombre": "POZO-LORENTE",
+    "fecha": "2026-11-18",
     "poblacion": 391,
     "censo": 347,
     "mesas": 1,
@@ -2533,7 +2849,9 @@
         "participacionPct": 53.6,
         "pctSobreCensoTotal": 53.6,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2542,15 +2860,17 @@
         "participacionPct": 61.95,
         "pctSobreCensoTotal": 61.96,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 292,
+        "participacionPct": 84.15,
+        "pctSobreCensoTotal": 84.15,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 84.55,
@@ -2561,6 +2881,7 @@
   },
   "02065": {
     "nombre": "POZUELO",
+    "fecha": "2026-11-18",
     "poblacion": 461,
     "censo": 436,
     "mesas": 1,
@@ -2573,7 +2894,9 @@
         "participacionPct": 52.98,
         "pctSobreCensoTotal": 52.98,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2582,15 +2905,17 @@
         "participacionPct": 67.66,
         "pctSobreCensoTotal": 67.66,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 368,
+        "participacionPct": 84.4,
+        "pctSobreCensoTotal": 84.4,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 85.58,
@@ -2601,6 +2926,7 @@
   },
   "02066": {
     "nombre": "RECUEJA (LA)",
+    "fecha": "2026-11-18",
     "poblacion": 221,
     "censo": 193,
     "mesas": 1,
@@ -2613,7 +2939,9 @@
         "participacionPct": 51.81,
         "pctSobreCensoTotal": 51.81,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2622,15 +2950,17 @@
         "participacionPct": 69.43,
         "pctSobreCensoTotal": 69.43,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 152,
+        "participacionPct": 78.76,
+        "pctSobreCensoTotal": 78.76,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.88,
@@ -2641,6 +2971,7 @@
   },
   "02067": {
     "nombre": "RIÓPAR",
+    "fecha": "2026-11-18",
     "poblacion": 1318,
     "censo": 1142,
     "mesas": 2,
@@ -2653,7 +2984,9 @@
         "participacionPct": 45.88,
         "pctSobreCensoTotal": 45.88,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2662,15 +2995,17 @@
         "participacionPct": 61.55,
         "pctSobreCensoTotal": 61.56,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 915,
+        "participacionPct": 80.12,
+        "pctSobreCensoTotal": 80.12,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.44,
@@ -2681,6 +3016,7 @@
   },
   "02068": {
     "nombre": "ROBLEDO",
+    "fecha": "2026-11-18",
     "poblacion": 385,
     "censo": 324,
     "mesas": 1,
@@ -2693,7 +3029,9 @@
         "participacionPct": 39.5,
         "pctSobreCensoTotal": 39.51,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2702,15 +3040,17 @@
         "participacionPct": 50.0,
         "pctSobreCensoTotal": 50.0,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 250,
+        "participacionPct": 77.16,
+        "pctSobreCensoTotal": 77.16,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 78.63,
@@ -2721,6 +3061,7 @@
   },
   "02069": {
     "nombre": "RODA (LA)",
+    "fecha": "2026-11-18",
     "poblacion": 15497,
     "censo": 11370,
     "mesas": 18,
@@ -2733,7 +3074,9 @@
         "participacionPct": 45.79,
         "pctSobreCensoTotal": 45.79,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 18
+        "mesasNotificadas": 18,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2742,15 +3085,17 @@
         "participacionPct": 56.46,
         "pctSobreCensoTotal": 56.46,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 18
+        "mesasNotificadas": 18,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 8649,
+        "participacionPct": 76.07,
+        "pctSobreCensoTotal": 76.07,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 76.51,
@@ -2761,6 +3106,7 @@
   },
   "02070": {
     "nombre": "SALOBRE",
+    "fecha": "2026-11-18",
     "poblacion": 438,
     "censo": 353,
     "mesas": 1,
@@ -2773,7 +3119,9 @@
         "participacionPct": 53.25,
         "pctSobreCensoTotal": 53.26,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2782,15 +3130,17 @@
         "participacionPct": 66.0,
         "pctSobreCensoTotal": 66.01,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 301,
+        "participacionPct": 85.27,
+        "pctSobreCensoTotal": 85.27,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 86.36,
@@ -2801,6 +3151,7 @@
   },
   "02071": {
     "nombre": "SAN PEDRO",
+    "fecha": "2026-11-18",
     "poblacion": 1142,
     "censo": 989,
     "mesas": 2,
@@ -2813,7 +3164,9 @@
         "participacionPct": 52.27,
         "pctSobreCensoTotal": 52.28,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2822,15 +3175,17 @@
         "participacionPct": 66.73,
         "pctSobreCensoTotal": 66.73,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 826,
+        "participacionPct": 83.52,
+        "pctSobreCensoTotal": 83.52,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 84.16,
@@ -2841,6 +3196,7 @@
   },
   "02072": {
     "nombre": "SOCOVOS",
+    "fecha": "2026-11-18",
     "poblacion": 1743,
     "censo": 1414,
     "mesas": 2,
@@ -2853,7 +3209,9 @@
         "participacionPct": 38.04,
         "pctSobreCensoTotal": 38.05,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2862,15 +3220,17 @@
         "participacionPct": 49.22,
         "pctSobreCensoTotal": 49.22,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1018,
+        "participacionPct": 71.99,
+        "pctSobreCensoTotal": 71.99,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 72.41,
@@ -2881,6 +3241,7 @@
   },
   "02073": {
     "nombre": "TARAZONA DE LA MANCHA",
+    "fecha": "2026-11-18",
     "poblacion": 6183,
     "censo": 4798,
     "mesas": 9,
@@ -2893,7 +3254,9 @@
         "participacionPct": 47.89,
         "pctSobreCensoTotal": 47.89,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 9
+        "mesasNotificadas": 9,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2902,15 +3265,17 @@
         "participacionPct": 58.75,
         "pctSobreCensoTotal": 58.75,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 9
+        "mesasNotificadas": 9,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 3133,
+        "participacionPct": 76.03,
+        "pctSobreCensoTotal": 65.3,
+        "pctEscrutado": 85.88,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 76.78,
@@ -2921,6 +3286,7 @@
   },
   "02074": {
     "nombre": "TOBARRA",
+    "fecha": "2026-11-18",
     "poblacion": 7758,
     "censo": 5714,
     "mesas": 11,
@@ -2933,7 +3299,9 @@
         "participacionPct": 45.76,
         "pctSobreCensoTotal": 45.76,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 11
+        "mesasNotificadas": 11,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2942,15 +3310,17 @@
         "participacionPct": 53.58,
         "pctSobreCensoTotal": 53.59,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 11
+        "mesasNotificadas": 11,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 4135,
+        "participacionPct": 72.37,
+        "pctSobreCensoTotal": 72.37,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 72.96,
@@ -2961,6 +3331,7 @@
   },
   "02075": {
     "nombre": "VALDEGANGA",
+    "fecha": "2026-11-18",
     "poblacion": 1919,
     "censo": 1638,
     "mesas": 3,
@@ -2973,7 +3344,9 @@
         "participacionPct": 49.75,
         "pctSobreCensoTotal": 49.76,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -2982,15 +3355,17 @@
         "participacionPct": 62.88,
         "pctSobreCensoTotal": 62.88,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 3
+        "mesasNotificadas": 3,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1359,
+        "participacionPct": 82.97,
+        "pctSobreCensoTotal": 82.97,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 83.57,
@@ -3001,6 +3376,7 @@
   },
   "02076": {
     "nombre": "VIANOS",
+    "fecha": "2026-11-18",
     "poblacion": 313,
     "censo": 295,
     "mesas": 1,
@@ -3013,7 +3389,9 @@
         "participacionPct": 41.01,
         "pctSobreCensoTotal": 41.02,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3022,15 +3400,17 @@
         "participacionPct": 56.94,
         "pctSobreCensoTotal": 56.95,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 236,
+        "participacionPct": 80.0,
+        "pctSobreCensoTotal": 80.0,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 80.82,
@@ -3041,6 +3421,7 @@
   },
   "02077": {
     "nombre": "VILLA DE VES",
+    "fecha": "2026-11-18",
     "poblacion": 60,
     "censo": 39,
     "mesas": 1,
@@ -3053,7 +3434,9 @@
         "participacionPct": 35.89,
         "pctSobreCensoTotal": 35.9,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3062,15 +3445,17 @@
         "participacionPct": 43.58,
         "pctSobreCensoTotal": 43.59,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 28,
+        "participacionPct": 71.79,
+        "pctSobreCensoTotal": 71.79,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 83.67,
@@ -3081,6 +3466,7 @@
   },
   "02078": {
     "nombre": "VILLALGORDO DEL JÚCAR",
+    "fecha": "2026-11-18",
     "poblacion": 1072,
     "censo": 877,
     "mesas": 2,
@@ -3093,7 +3479,9 @@
         "participacionPct": 46.97,
         "pctSobreCensoTotal": 46.98,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3102,15 +3490,17 @@
         "participacionPct": 58.6,
         "pctSobreCensoTotal": 58.61,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 2
+        "mesasNotificadas": 2,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 665,
+        "participacionPct": 75.83,
+        "pctSobreCensoTotal": 75.83,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 76.74,
@@ -3121,6 +3511,7 @@
   },
   "02079": {
     "nombre": "VILLAMALEA",
+    "fecha": "2026-11-18",
     "poblacion": 4000,
     "censo": 2663,
     "mesas": 4,
@@ -3133,7 +3524,9 @@
         "participacionPct": 42.05,
         "pctSobreCensoTotal": 42.06,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3142,15 +3535,17 @@
         "participacionPct": 54.97,
         "pctSobreCensoTotal": 54.98,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 2026,
+        "participacionPct": 76.08,
+        "pctSobreCensoTotal": 76.08,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 76.1,
@@ -3161,6 +3556,7 @@
   },
   "02080": {
     "nombre": "VILLAPALACIOS",
+    "fecha": "2026-11-18",
     "poblacion": 555,
     "censo": 431,
     "mesas": 1,
@@ -3173,7 +3569,9 @@
         "participacionPct": 44.31,
         "pctSobreCensoTotal": 44.32,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3182,15 +3580,17 @@
         "participacionPct": 51.74,
         "pctSobreCensoTotal": 51.74,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 329,
+        "participacionPct": 76.33,
+        "pctSobreCensoTotal": 76.33,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 77.05,
@@ -3201,6 +3601,7 @@
   },
   "02081": {
     "nombre": "VILLARROBLEDO",
+    "fecha": "2026-11-18",
     "poblacion": 24886,
     "censo": 18365,
     "mesas": 28,
@@ -3213,7 +3614,9 @@
         "participacionPct": 44.19,
         "pctSobreCensoTotal": 44.19,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 28
+        "mesasNotificadas": 28,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3222,15 +3625,17 @@
         "participacionPct": 55.98,
         "pctSobreCensoTotal": 55.98,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 28
+        "mesasNotificadas": 28,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 13360,
+        "participacionPct": 72.75,
+        "pctSobreCensoTotal": 72.75,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 73.19,
@@ -3241,6 +3646,7 @@
   },
   "02082": {
     "nombre": "VILLATOYA",
+    "fecha": "2026-11-18",
     "poblacion": 106,
     "censo": 105,
     "mesas": 1,
@@ -3253,7 +3659,9 @@
         "participacionPct": 44.76,
         "pctSobreCensoTotal": 44.76,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3262,15 +3670,17 @@
         "participacionPct": 60.95,
         "pctSobreCensoTotal": 60.95,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 80,
+        "participacionPct": 76.19,
+        "pctSobreCensoTotal": 76.19,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 79.59,
@@ -3281,6 +3691,7 @@
   },
   "02083": {
     "nombre": "VILLAVALIENTE",
+    "fecha": "2026-11-18",
     "poblacion": 202,
     "censo": 169,
     "mesas": 1,
@@ -3293,7 +3704,9 @@
         "participacionPct": 56.21,
         "pctSobreCensoTotal": 56.21,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3302,15 +3715,17 @@
         "participacionPct": 66.86,
         "pctSobreCensoTotal": 66.86,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 135,
+        "participacionPct": 79.88,
+        "pctSobreCensoTotal": 79.88,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 82.44,
@@ -3321,6 +3736,7 @@
   },
   "02084": {
     "nombre": "VILLAVERDE DE GUADALIMAR",
+    "fecha": "2026-11-18",
     "poblacion": 321,
     "censo": 277,
     "mesas": 1,
@@ -3333,7 +3749,9 @@
         "participacionPct": 45.84,
         "pctSobreCensoTotal": 45.85,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3342,15 +3760,17 @@
         "participacionPct": 53.79,
         "pctSobreCensoTotal": 53.79,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 195,
+        "participacionPct": 70.4,
+        "pctSobreCensoTotal": 70.4,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 71.63,
@@ -3361,6 +3781,7 @@
   },
   "02085": {
     "nombre": "VIVEROS",
+    "fecha": "2026-11-18",
     "poblacion": 335,
     "censo": 257,
     "mesas": 1,
@@ -3373,7 +3794,9 @@
         "participacionPct": 43.57,
         "pctSobreCensoTotal": 43.58,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3382,15 +3805,17 @@
         "participacionPct": 59.92,
         "pctSobreCensoTotal": 59.92,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 1
+        "mesasNotificadas": 1,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 209,
+        "participacionPct": 81.32,
+        "pctSobreCensoTotal": 81.32,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 82.5,
@@ -3401,6 +3826,7 @@
   },
   "02086": {
     "nombre": "YESTE",
+    "fecha": "2026-11-18",
     "poblacion": 2495,
     "censo": 2138,
     "mesas": 5,
@@ -3413,7 +3839,9 @@
         "participacionPct": 38.11,
         "pctSobreCensoTotal": 38.12,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 5
+        "mesasNotificadas": 5,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3422,15 +3850,17 @@
         "participacionPct": 48.28,
         "pctSobreCensoTotal": 43.41,
         "pctMesasNotificadas": 80.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1500,
+        "participacionPct": 70.16,
+        "pctSobreCensoTotal": 70.16,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 71.2,
@@ -3441,6 +3871,7 @@
   },
   "02901": {
     "nombre": "POZO CAÑADA",
+    "fecha": "2026-11-18",
     "poblacion": 2763,
     "censo": 2182,
     "mesas": 4,
@@ -3453,7 +3884,9 @@
         "participacionPct": 42.43,
         "pctSobreCensoTotal": 42.44,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "18:00",
@@ -3462,15 +3895,17 @@
         "participacionPct": 56.0,
         "pctSobreCensoTotal": 56.0,
         "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 4
+        "mesasNotificadas": 4,
+        "participacionPctAnterior": null,
+        "recuperado": true
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": null,
-        "participacionPct": null,
-        "pctSobreCensoTotal": null,
-        "pctEscrutado": null,
+        "votantes": 1575,
+        "participacionPct": 72.18,
+        "pctSobreCensoTotal": 72.18,
+        "pctEscrutado": 100.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 72.69,

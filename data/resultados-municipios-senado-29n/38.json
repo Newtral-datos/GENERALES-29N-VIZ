@@ -3,51 +3,51 @@
     "nombre": "ADEJE",
     "censo": 22371,
     "mesas": 39,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 12085,
+    "pctEscrutado": 100.0,
+    "blanco": 85,
+    "nulos": 472,
+    "votosCandidatos": 11528,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9585,
+        "pctVotos": 83.15
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 725,
+        "pctVotos": 6.29
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 625,
+        "pctVotos": 5.42
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 593,
+        "pctVotos": 5.14
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -55,58 +55,58 @@
     "nombre": "AGULO",
     "censo": 948,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 631,
+    "pctEscrutado": 100.0,
+    "blanco": 7,
+    "nulos": 10,
+    "votosCandidatos": 614,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ASG",
+      "color": "#7B3FA0",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 437,
+        "pctVotos": 71.17
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 127,
+        "pctVotos": 20.68
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20,
+        "pctVotos": 3.26
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 17,
+        "pctVotos": 2.77
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 2.12
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -114,58 +114,58 @@
     "nombre": "ALAJERÓ",
     "censo": 1617,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1035,
+    "pctEscrutado": 100.0,
+    "blanco": 9,
+    "nulos": 33,
+    "votosCandidatos": 993,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ASG",
+      "color": "#7B3FA0",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 563,
+        "pctVotos": 56.7
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 326,
+        "pctVotos": 32.83
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 48,
+        "pctVotos": 4.83
       },
       {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 33,
+        "pctVotos": 3.32
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 23,
+        "pctVotos": 2.32
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -173,51 +173,51 @@
     "nombre": "ARAFO",
     "censo": 4991,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3076,
+    "pctEscrutado": 91.94,
+    "blanco": 48,
+    "nulos": 223,
+    "votosCandidatos": 2805,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2322,
+        "pctVotos": 82.78
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 189,
+        "pctVotos": 6.74
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 157,
+        "pctVotos": 5.6
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 137,
+        "pctVotos": 4.88
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -225,51 +225,51 @@
     "nombre": "ARICO",
     "censo": 6779,
     "mesas": 12,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1441,
+    "pctEscrutado": 32.95,
+    "blanco": 19,
+    "nulos": 236,
+    "votosCandidatos": 1286,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 930,
+        "pctVotos": 72.32
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 145,
+        "pctVotos": 11.28
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 117,
+        "pctVotos": 9.1
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 94,
+        "pctVotos": 7.31
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -277,51 +277,51 @@
     "nombre": "ARONA",
     "censo": 47318,
     "mesas": 80,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 23566,
+    "pctEscrutado": 98.6,
+    "blanco": 204,
+    "nulos": 1096,
+    "votosCandidatos": 22366,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 18303,
+        "pctVotos": 81.83
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 1383,
+        "pctVotos": 6.18
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 1374,
+        "pctVotos": 6.14
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1306,
+        "pctVotos": 5.84
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -329,58 +329,58 @@
     "nombre": "BARLOVENTO",
     "censo": 1647,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1172,
+    "pctEscrutado": 100.0,
+    "blanco": 3,
+    "nulos": 19,
+    "votosCandidatos": 1150,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 988,
+        "pctVotos": 85.91
+      },
+      {
         "siglas": "PSOE",
         "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 56,
+        "pctVotos": 4.87
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 42,
+        "pctVotos": 3.65
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 41,
+        "pctVotos": 3.57
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 23,
+        "pctVotos": 2.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -388,58 +388,58 @@
     "nombre": "BREÑA ALTA",
     "censo": 6023,
     "mesas": 10,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4319,
+    "pctEscrutado": 100.0,
+    "blanco": 38,
+    "nulos": 86,
+    "votosCandidatos": 4195,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3549,
+        "pctVotos": 84.6
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 233,
+        "pctVotos": 5.55
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 189,
+        "pctVotos": 4.51
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 132,
+        "pctVotos": 3.15
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 92,
+        "pctVotos": 2.19
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -447,58 +447,58 @@
     "nombre": "BREÑA BAJA",
     "censo": 4798,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3400,
+    "pctEscrutado": 100.0,
+    "blanco": 23,
+    "nulos": 48,
+    "votosCandidatos": 3329,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2925,
+        "pctVotos": 87.86
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 146,
+        "pctVotos": 4.39
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 94,
+        "pctVotos": 2.82
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 93,
+        "pctVotos": 2.79
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 71,
+        "pctVotos": 2.13
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -506,51 +506,51 @@
     "nombre": "BUENAVISTA DEL NORTE",
     "censo": 3866,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2601,
+    "pctEscrutado": 100.0,
+    "blanco": 19,
+    "nulos": 104,
+    "votosCandidatos": 2478,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2145,
+        "pctVotos": 86.56
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 115,
+        "pctVotos": 4.64
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 112,
+        "pctVotos": 4.52
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 106,
+        "pctVotos": 4.28
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -558,51 +558,51 @@
     "nombre": "CANDELARIA",
     "censo": 23657,
     "mesas": 36,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 15435,
+    "pctEscrutado": 100.0,
+    "blanco": 131,
+    "nulos": 594,
+    "votosCandidatos": 14710,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 12639,
+        "pctVotos": 85.92
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 711,
+        "pctVotos": 4.83
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 689,
+        "pctVotos": 4.68
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 671,
+        "pctVotos": 4.56
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -610,51 +610,51 @@
     "nombre": "FASNIA",
     "censo": 2568,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1759,
+    "pctEscrutado": 100.0,
+    "blanco": 22,
+    "nulos": 75,
+    "votosCandidatos": 1662,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1330,
+        "pctVotos": 80.02
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 122,
+        "pctVotos": 7.34
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 109,
+        "pctVotos": 6.56
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 101,
+        "pctVotos": 6.08
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -662,58 +662,58 @@
     "nombre": "FRONTERA",
     "censo": 3253,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2198,
+    "pctEscrutado": 100.0,
+    "blanco": 18,
+    "nulos": 63,
+    "votosCandidatos": 2117,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "A.H.I.",
+      "color": "#B5651D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "A.H.I.",
+        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+        "color": "#B5651D",
+        "votos": 1190,
+        "pctVotos": 56.21
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "A.H.I.",
-        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
-        "color": "#B5651D",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 634,
+        "pctVotos": 29.95
       },
       {
         "siglas": "ASAMBLEA HERREÑA",
         "nombre": "ASAMBLEA HERREÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 205,
+        "pctVotos": 9.68
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 47,
+        "pctVotos": 2.22
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 41,
+        "pctVotos": 1.94
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -721,58 +721,58 @@
     "nombre": "FUENCALIENTE DE LA PALMA",
     "censo": 1417,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1005,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 25,
+    "votosCandidatos": 978,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 882,
+        "pctVotos": 90.18
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 39,
+        "pctVotos": 3.99
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 26,
+        "pctVotos": 2.66
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 21,
+        "pctVotos": 2.15
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 10,
+        "pctVotos": 1.02
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -780,51 +780,51 @@
     "nombre": "GARACHICO",
     "censo": 3963,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2695,
+    "pctEscrutado": 100.0,
+    "blanco": 36,
+    "nulos": 67,
+    "votosCandidatos": 2592,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2298,
+        "pctVotos": 88.66
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 107,
+        "pctVotos": 4.13
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 98,
+        "pctVotos": 3.78
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 89,
+        "pctVotos": 3.43
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -832,58 +832,58 @@
     "nombre": "GARAFÍA",
     "censo": 1301,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 756,
+    "pctEscrutado": 100.0,
+    "blanco": 10,
+    "nulos": 16,
+    "votosCandidatos": 730,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 596,
+        "pctVotos": 81.64
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 47,
+        "pctVotos": 6.44
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 37,
+        "pctVotos": 5.07
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 26,
+        "pctVotos": 3.56
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 24,
+        "pctVotos": 3.29
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -891,51 +891,51 @@
     "nombre": "GRANADILLA DE ABONA",
     "censo": 37490,
     "mesas": 60,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 20424,
+    "pctEscrutado": 100.0,
+    "blanco": 204,
+    "nulos": 711,
+    "votosCandidatos": 19515,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15882,
+        "pctVotos": 81.38
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 1339,
+        "pctVotos": 6.86
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1201,
+        "pctVotos": 6.15
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 1093,
+        "pctVotos": 5.6
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -943,51 +943,51 @@
     "nombre": "GUANCHA (LA)",
     "censo": 4644,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3156,
+    "pctEscrutado": 100.0,
+    "blanco": 62,
+    "nulos": 136,
+    "votosCandidatos": 2958,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2559,
+        "pctVotos": 86.51
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 149,
+        "pctVotos": 5.04
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 146,
+        "pctVotos": 4.94
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 104,
+        "pctVotos": 3.52
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -995,51 +995,51 @@
     "nombre": "GUÍA DE ISORA",
     "censo": 14782,
     "mesas": 25,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 8845,
+    "pctEscrutado": 100.0,
+    "blanco": 71,
+    "nulos": 284,
+    "votosCandidatos": 8490,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7167,
+        "pctVotos": 84.42
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 448,
+        "pctVotos": 5.28
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 445,
+        "pctVotos": 5.24
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 430,
+        "pctVotos": 5.06
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1047,51 +1047,51 @@
     "nombre": "GÜÍMAR",
     "censo": 17684,
     "mesas": 32,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 11658,
+    "pctEscrutado": 100.0,
+    "blanco": 119,
+    "nulos": 456,
+    "votosCandidatos": 11083,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9328,
+        "pctVotos": 84.16
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 619,
+        "pctVotos": 5.59
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 592,
+        "pctVotos": 5.34
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 544,
+        "pctVotos": 4.91
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1099,58 +1099,58 @@
     "nombre": "HERMIGUA",
     "censo": 1550,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 982,
+    "pctEscrutado": 100.0,
+    "blanco": 7,
+    "nulos": 35,
+    "votosCandidatos": 940,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ASG",
+      "color": "#7B3FA0",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 547,
+        "pctVotos": 58.19
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 312,
+        "pctVotos": 33.19
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 34,
+        "pctVotos": 3.62
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 34,
+        "pctVotos": 3.62
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 1.38
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1158,51 +1158,51 @@
     "nombre": "ICOD DE LOS VINOS",
     "censo": 19325,
     "mesas": 35,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 12474,
+    "pctEscrutado": 100.0,
+    "blanco": 112,
+    "nulos": 375,
+    "votosCandidatos": 11987,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10438,
+        "pctVotos": 87.08
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 570,
+        "pctVotos": 4.76
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 516,
+        "pctVotos": 4.3
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 463,
+        "pctVotos": 3.86
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1210,51 +1210,51 @@
     "nombre": "SAN CRISTÓBAL DE LA LAGUNA",
     "censo": 132427,
     "mesas": 224,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 86689,
+    "pctEscrutado": 100.0,
+    "blanco": 943,
+    "nulos": 2847,
+    "votosCandidatos": 83549,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 68000,
+        "pctVotos": 81.39
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 5408,
+        "pctVotos": 6.47
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5114,
+        "pctVotos": 6.12
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 5027,
+        "pctVotos": 6.02
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1262,58 +1262,58 @@
     "nombre": "LLANOS DE ARIDANE (LOS)",
     "censo": 15701,
     "mesas": 29,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 9870,
+    "pctEscrutado": 100.0,
+    "blanco": 89,
+    "nulos": 225,
+    "votosCandidatos": 9556,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7965,
+        "pctVotos": 83.35
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 434,
+        "pctVotos": 4.54
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 399,
+        "pctVotos": 4.18
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 386,
+        "pctVotos": 4.04
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 372,
+        "pctVotos": 3.89
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1321,51 +1321,51 @@
     "nombre": "MATANZA DE ACENTEJO (LA)",
     "censo": 7392,
     "mesas": 12,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5020,
+    "pctEscrutado": 100.0,
+    "blanco": 61,
+    "nulos": 185,
+    "votosCandidatos": 4774,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4039,
+        "pctVotos": 84.6
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 259,
+        "pctVotos": 5.43
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 256,
+        "pctVotos": 5.36
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 220,
+        "pctVotos": 4.61
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1373,51 +1373,51 @@
     "nombre": "OROTAVA (LA)",
     "censo": 34652,
     "mesas": 58,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 25213,
+    "pctEscrutado": 100.0,
+    "blanco": 237,
+    "nulos": 804,
+    "votosCandidatos": 24172,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20517,
+        "pctVotos": 84.88
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 1308,
+        "pctVotos": 5.41
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1189,
+        "pctVotos": 4.92
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 1158,
+        "pctVotos": 4.79
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1425,58 +1425,58 @@
     "nombre": "PASO (EL)",
     "censo": 6125,
     "mesas": 11,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4193,
+    "pctEscrutado": 100.0,
+    "blanco": 43,
+    "nulos": 86,
+    "votosCandidatos": 4064,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 3302,
+        "pctVotos": 81.25
+      },
+      {
         "siglas": "PSOE",
         "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 235,
+        "pctVotos": 5.78
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 204,
+        "pctVotos": 5.02
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 177,
+        "pctVotos": 4.36
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 146,
+        "pctVotos": 3.59
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1484,51 +1484,51 @@
     "nombre": "PUERTO DE LA CRUZ",
     "censo": 22115,
     "mesas": 42,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 14817,
+    "pctEscrutado": 100.0,
+    "blanco": 131,
+    "nulos": 511,
+    "votosCandidatos": 14175,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 12169,
+        "pctVotos": 85.85
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 719,
+        "pctVotos": 5.07
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 684,
+        "pctVotos": 4.83
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 603,
+        "pctVotos": 4.25
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1536,58 +1536,58 @@
     "nombre": "PUNTAGORDA",
     "censo": 1521,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 910,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 23,
+    "votosCandidatos": 882,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 724,
+        "pctVotos": 82.09
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 51,
+        "pctVotos": 5.78
+      },
+      {
         "siglas": "PSOE",
         "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 50,
+        "pctVotos": 5.67
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 37,
+        "pctVotos": 4.2
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20,
+        "pctVotos": 2.27
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1595,58 +1595,58 @@
     "nombre": "PUNTALLANA",
     "censo": 2071,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1504,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
+    "nulos": 28,
+    "votosCandidatos": 1472,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1267,
+        "pctVotos": 86.07
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 74,
+        "pctVotos": 5.03
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 58,
+        "pctVotos": 3.94
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 39,
+        "pctVotos": 2.65
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 34,
+        "pctVotos": 2.31
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1654,51 +1654,51 @@
     "nombre": "REALEJOS (LOS)",
     "censo": 30860,
     "mesas": 54,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 22404,
+    "pctEscrutado": 100.0,
+    "blanco": 256,
+    "nulos": 831,
+    "votosCandidatos": 21601,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 19201,
+        "pctVotos": 88.89
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 856,
+        "pctVotos": 3.96
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 816,
+        "pctVotos": 3.78
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 728,
+        "pctVotos": 3.37
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1706,51 +1706,51 @@
     "nombre": "ROSARIO (EL)",
     "censo": 14641,
     "mesas": 23,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 9976,
+    "pctEscrutado": 100.0,
+    "blanco": 127,
+    "nulos": 264,
+    "votosCandidatos": 9585,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8291,
+        "pctVotos": 86.5
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 462,
+        "pctVotos": 4.82
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 425,
+        "pctVotos": 4.43
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 407,
+        "pctVotos": 4.25
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1758,58 +1758,58 @@
     "nombre": "SAN ANDRÉS Y SAUCES",
     "censo": 3591,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2467,
+    "pctEscrutado": 100.0,
+    "blanco": 16,
+    "nulos": 55,
+    "votosCandidatos": 2396,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2035,
+        "pctVotos": 84.93
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 104,
+        "pctVotos": 4.34
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 102,
+        "pctVotos": 4.26
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 94,
+        "pctVotos": 3.92
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 61,
+        "pctVotos": 2.55
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1817,51 +1817,51 @@
     "nombre": "SAN JUAN DE LA RAMBLA",
     "censo": 4119,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2821,
+    "pctEscrutado": 100.0,
+    "blanco": 34,
+    "nulos": 121,
+    "votosCandidatos": 2666,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2292,
+        "pctVotos": 85.97
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 137,
+        "pctVotos": 5.14
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 134,
+        "pctVotos": 5.03
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 103,
+        "pctVotos": 3.86
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1869,51 +1869,51 @@
     "nombre": "SAN MIGUEL DE ABONA",
     "censo": 12975,
     "mesas": 20,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 7553,
+    "pctEscrutado": 100.0,
+    "blanco": 46,
+    "nulos": 266,
+    "votosCandidatos": 7241,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6194,
+        "pctVotos": 85.54
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 399,
+        "pctVotos": 5.51
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 364,
+        "pctVotos": 5.03
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 284,
+        "pctVotos": 3.92
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1921,58 +1921,58 @@
     "nombre": "SAN SEBASTIÁN DE LA GOMERA",
     "censo": 7304,
     "mesas": 13,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4826,
+    "pctEscrutado": 100.0,
+    "blanco": 95,
+    "nulos": 138,
+    "votosCandidatos": 4593,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ASG",
+      "color": "#7B3FA0",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 2952,
+        "pctVotos": 64.27
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1264,
+        "pctVotos": 27.52
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 133,
+        "pctVotos": 2.9
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 123,
+        "pctVotos": 2.68
       },
       {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 121,
+        "pctVotos": 2.63
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -1980,58 +1980,58 @@
     "nombre": "SANTA CRUZ DE LA PALMA",
     "censo": 12727,
     "mesas": 23,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 8286,
+    "pctEscrutado": 100.0,
+    "blanco": 39,
+    "nulos": 192,
+    "votosCandidatos": 8055,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6761,
+        "pctVotos": 83.94
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 409,
+        "pctVotos": 5.08
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 308,
+        "pctVotos": 3.82
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 304,
+        "pctVotos": 3.77
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 273,
+        "pctVotos": 3.39
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2039,51 +2039,51 @@
     "nombre": "SANTA CRUZ DE TENERIFE",
     "censo": 171091,
     "mesas": 292,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 108022,
+    "pctEscrutado": 98.6,
+    "blanco": 1369,
+    "nulos": 3160,
+    "votosCandidatos": 104443,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 88217,
+        "pctVotos": 84.46
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 5635,
+        "pctVotos": 5.4
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 5366,
+        "pctVotos": 5.14
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5225,
+        "pctVotos": 5.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2091,51 +2091,51 @@
     "nombre": "SANTA ÚRSULA",
     "censo": 11959,
     "mesas": 18,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 8248,
+    "pctEscrutado": 100.0,
+    "blanco": 87,
+    "nulos": 265,
+    "votosCandidatos": 7896,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6940,
+        "pctVotos": 87.89
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 371,
+        "pctVotos": 4.7
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 326,
+        "pctVotos": 4.13
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 259,
+        "pctVotos": 3.28
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2143,103 +2143,103 @@
     "nombre": "SANTIAGO DEL TEIDE",
     "censo": 6163,
     "mesas": 10,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3668,
+    "pctEscrutado": 100.0,
+    "blanco": 38,
+    "nulos": 110,
+    "votosCandidatos": 3750,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3391,
+        "pctVotos": 90.43
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 136,
+        "pctVotos": 3.63
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 114,
+        "pctVotos": 3.04
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 109,
+        "pctVotos": 2.91
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
   "38041": {
     "nombre": "SAUZAL (EL)",
-    "censo": 7409,
+    "censo": 7419,
     "mesas": 14,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5113,
+    "pctEscrutado": 100.0,
+    "blanco": 57,
+    "nulos": 128,
+    "votosCandidatos": 4928,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4123,
+        "pctVotos": 83.66
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 289,
+        "pctVotos": 5.86
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 279,
+        "pctVotos": 5.66
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 237,
+        "pctVotos": 4.81
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2247,51 +2247,51 @@
     "nombre": "SILOS (LOS)",
     "censo": 3725,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2500,
+    "pctEscrutado": 100.0,
+    "blanco": 26,
+    "nulos": 107,
+    "votosCandidatos": 2367,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2015,
+        "pctVotos": 85.13
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 134,
+        "pctVotos": 5.66
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 123,
+        "pctVotos": 5.2
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 95,
+        "pctVotos": 4.01
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2299,51 +2299,51 @@
     "nombre": "TACORONTE",
     "censo": 20392,
     "mesas": 32,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 13521,
+    "pctEscrutado": 100.0,
+    "blanco": 184,
+    "nulos": 414,
+    "votosCandidatos": 12926,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11168,
+        "pctVotos": 86.4
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 677,
+        "pctVotos": 5.24
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 541,
+        "pctVotos": 4.19
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 540,
+        "pctVotos": 4.18
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2351,51 +2351,51 @@
     "nombre": "TANQUE (EL)",
     "censo": 2258,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1466,
+    "pctEscrutado": 100.0,
+    "blanco": 8,
+    "nulos": 61,
+    "votosCandidatos": 1397,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1221,
+        "pctVotos": 87.4
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 59,
+        "pctVotos": 4.22
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 59,
+        "pctVotos": 4.22
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 58,
+        "pctVotos": 4.15
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2403,58 +2403,58 @@
     "nombre": "TAZACORTE",
     "censo": 3380,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1977,
+    "pctEscrutado": 100.0,
+    "blanco": 11,
+    "nulos": 35,
+    "votosCandidatos": 1931,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 1397,
+        "pctVotos": 72.35
+      },
+      {
         "siglas": "PSOE",
         "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 165,
+        "pctVotos": 8.54
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 133,
+        "pctVotos": 6.89
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 127,
+        "pctVotos": 6.58
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 109,
+        "pctVotos": 5.64
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2462,51 +2462,51 @@
     "nombre": "TEGUESTE",
     "censo": 9590,
     "mesas": 17,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 7055,
+    "pctEscrutado": 100.0,
+    "blanco": 90,
+    "nulos": 215,
+    "votosCandidatos": 6750,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5964,
+        "pctVotos": 88.36
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 275,
+        "pctVotos": 4.07
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 272,
+        "pctVotos": 4.03
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 239,
+        "pctVotos": 3.54
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2514,58 +2514,58 @@
     "nombre": "TIJARAFE",
     "censo": 1799,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1252,
+    "pctEscrutado": 100.0,
+    "blanco": 8,
+    "nulos": 42,
+    "votosCandidatos": 1202,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 979,
+        "pctVotos": 81.45
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 71,
+        "pctVotos": 5.91
       },
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 68,
+        "pctVotos": 5.66
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 44,
+        "pctVotos": 3.66
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 40,
+        "pctVotos": 3.33
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2573,58 +2573,58 @@
     "nombre": "VALVERDE",
     "censo": 4051,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2740,
+    "pctEscrutado": 100.0,
+    "blanco": 57,
+    "nulos": 77,
+    "votosCandidatos": 2606,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "A.H.I.",
+      "color": "#B5651D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "A.H.I.",
+        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+        "color": "#B5651D",
+        "votos": 1466,
+        "pctVotos": 56.25
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "A.H.I.",
-        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
-        "color": "#B5651D",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 813,
+        "pctVotos": 31.2
       },
       {
         "siglas": "ASAMBLEA HERREÑA",
         "nombre": "ASAMBLEA HERREÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 227,
+        "pctVotos": 8.71
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 53,
+        "pctVotos": 2.03
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 47,
+        "pctVotos": 1.8
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2632,58 +2632,58 @@
     "nombre": "VALLE GRAN REY",
     "censo": 2800,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1645,
+    "pctEscrutado": 100.0,
+    "blanco": 16,
+    "nulos": 60,
+    "votosCandidatos": 1569,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ASG",
+      "color": "#7B3FA0",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 969,
+        "pctVotos": 61.76
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 441,
+        "pctVotos": 28.11
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 64,
+        "pctVotos": 4.08
       },
       {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 51,
+        "pctVotos": 3.25
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 44,
+        "pctVotos": 2.8
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2691,58 +2691,58 @@
     "nombre": "VALLEHERMOSO",
     "censo": 2329,
     "mesas": 5,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1423,
+    "pctEscrutado": 100.0,
+    "blanco": 6,
+    "nulos": 49,
+    "votosCandidatos": 1368,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ASG",
+      "color": "#7B3FA0",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 933,
+        "pctVotos": 68.2
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 341,
+        "pctVotos": 24.93
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 42,
+        "pctVotos": 3.07
       },
       {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 27,
+        "pctVotos": 1.97
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 25,
+        "pctVotos": 1.83
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2750,51 +2750,51 @@
     "nombre": "VICTORIA DE ACENTEJO (LA)",
     "censo": 7745,
     "mesas": 15,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5492,
+    "pctEscrutado": 100.0,
+    "blanco": 45,
+    "nulos": 187,
+    "votosCandidatos": 5262,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4624,
+        "pctVotos": 87.88
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 247,
+        "pctVotos": 4.69
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 204,
+        "pctVotos": 3.88
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 187,
+        "pctVotos": 3.55
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2802,51 +2802,51 @@
     "nombre": "VILAFLOR DE CHASNA",
     "censo": 1451,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 971,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 29,
+    "votosCandidatos": 940,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 831,
+        "pctVotos": 88.4
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 48,
+        "pctVotos": 5.11
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 43,
+        "pctVotos": 4.57
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 18,
+        "pctVotos": 1.91
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2854,58 +2854,58 @@
     "nombre": "VILLA DE MAZO",
     "censo": 4047,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2695,
+    "pctEscrutado": 100.0,
+    "blanco": 14,
+    "nulos": 39,
+    "votosCandidatos": 2642,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 2203,
+        "pctVotos": 83.38
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 131,
+        "pctVotos": 4.96
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 112,
+        "pctVotos": 4.24
       },
       {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 109,
+        "pctVotos": 4.13
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 87,
+        "pctVotos": 3.29
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -2913,58 +2913,58 @@
     "nombre": "PINAR DE EL HIERRO (EL)",
     "censo": 1553,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1046,
+    "pctEscrutado": 100.0,
+    "blanco": 15,
+    "nulos": 30,
+    "votosCandidatos": 1001,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "A.H.I.",
+      "color": "#B5651D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "A.H.I.",
+        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+        "color": "#B5651D",
+        "votos": 540,
+        "pctVotos": 53.95
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "NC-BC, PODEMOS, IU, SUMAR",
-        "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "A.H.I.",
-        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
-        "color": "#B5651D",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 323,
+        "pctVotos": 32.27
       },
       {
         "siglas": "ASAMBLEA HERREÑA",
         "nombre": "ASAMBLEA HERREÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 101,
+        "pctVotos": 10.09
+      },
+      {
+        "siglas": "PSOE",
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "color": "#E10819",
+        "votos": 23,
+        "pctVotos": 2.3
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#AAAAAA",
+        "votos": 14,
+        "pctVotos": 1.4
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   }

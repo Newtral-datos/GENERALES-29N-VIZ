@@ -1,14 +1,159 @@
 {
   "_guia": "Senado 29N. Ojo con tres cosas antes de tocar nada: (1) los 208 son los senadores que se ELIGEN en las urnas; los 58 designados por los parlamentos autonómicos llegan semanas después y no están aquí, pero sí cuentan para la mayoría absoluta de 134 sobre 266. (2) No hay escaños por municipio: se adjudican por circunscripción. (3) La comparativa con 23J solo puede ser de escaños — el fichero ANT del Senado no trae votos ni candidatos. Partidos ordenados por escaños, votos y resultado anterior.",
   "nacional": {
-    "fecha": "2026-11-18",
-    "horaTotalizacion": "00:00",
-    "pctEscrutado": 0.0,
-    "totalEscanos": 0,
+    "fecha": "2026-11-21",
+    "horaTotalizacion": "14:22",
+    "pctEscrutado": 97.28,
+    "totalEscanos": 209,
     "totalEscanosCamara": 266,
     "escanosDesignadosPendientes": 58,
     "mayoria": 134,
-    "partidos": [],
+    "partidos": [
+      {
+        "nombre": "PARTIDO POPULAR",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "escanos": 130,
+        "escanosAnterior": 120
+      },
+      {
+        "nombre": "SENADO DE PROGRESO",
+        "siglas": "SDP (PSOE-IU-MS)",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 32,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "JUNTS PER CATALUNYA - JUNTS",
+        "siglas": "JxCAT - JUNTS",
+        "color": "#0B8457",
+        "lado": 2,
+        "escanos": 10,
+        "escanosAnterior": 1
+      },
+      {
+        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "escanos": 7,
+        "escanosAnterior": 4
+      },
+      {
+        "nombre": "SENADO DE PROGRESO / AURRERA DOAN SENATUA",
+        "siglas": "SDP (PSOE-EZAN IU-MS)",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 5,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "SENADO DE PROGRESO",
+        "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 4,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "SENADO DE PROGRESO DE ARAGÓN",
+        "siglas": "SDP (PSOE-CHA-IU-MS)",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 3,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "SENADO DE PROGRESO",
+        "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 3,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "SENADO DE PROGRESO",
+        "siglas": "SDP (PSOE-MS)",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 3,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "escanos": 2,
+        "escanosAnterior": 73
+      },
+      {
+        "nombre": "SENADO DE PROGRESO",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 2,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "VOX",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "escanos": 2,
+        "escanosAnterior": 0
+      },
+      {
+        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+        "siglas": "A.H.I.",
+        "color": "#B5651D",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": 1
+      },
+      {
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "siglas": "ASG",
+        "color": "#7B3FA0",
+        "lado": 1,
+        "escanos": 1,
+        "escanosAnterior": 1
+      },
+      {
+        "nombre": "ACORD DE PROGRÉS PER MALLORCA",
+        "siglas": "PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "siglas": "PSOE-MS",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "SA UNIÓ DE FORMENTERA (PP-COMPROMÍS)",
+        "siglas": "SA UNIÓ",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "SENADO DE PROGRESO",
+        "siglas": "SDP (PSOE-MM-IU-MS)",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": null
+      }
+    ],
     "anterior": {
       "etiqueta": "Elección anterior (23J, julio 2023)",
       "totalEscanos": 208,
@@ -97,7 +242,7 @@
       "composicion": []
     },
     "03": {
-      "nombre": "Principado de Asturias",
+      "nombre": "Asturias",
       "ganador": {
         "siglas": null,
         "color": null,
@@ -196,7 +341,7 @@
       "composicion": []
     },
     "12": {
-      "nombre": "Comunidad de Madrid",
+      "nombre": "Madrid",
       "ganador": {
         "siglas": null,
         "color": null,
@@ -207,7 +352,7 @@
       "composicion": []
     },
     "13": {
-      "nombre": "Comunidad Foral de Navarra",
+      "nombre": "Navarra",
       "ganador": {
         "siglas": null,
         "color": null,
@@ -229,7 +374,7 @@
       "composicion": []
     },
     "15": {
-      "nombre": "Región de Murcia",
+      "nombre": "Murcia",
       "ganador": {
         "siglas": null,
         "color": null,
@@ -262,7 +407,7 @@
       "composicion": []
     },
     "18": {
-      "nombre": "Ciudad Autónoma de Ceuta",
+      "nombre": "Ceuta",
       "ganador": {
         "siglas": null,
         "color": null,
@@ -273,7 +418,7 @@
       "composicion": []
     },
     "19": {
-      "nombre": "Ciudad Autónoma de Melilla",
+      "nombre": "Melilla",
       "ganador": {
         "siglas": null,
         "color": null,
@@ -288,976 +433,2999 @@
     "01": {
       "nombre": "Araba/Álava",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "SDP (PSOE-EZAN IU-MS)",
+        "color": "#9AA0A6",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "SDP (PSOE-EZAN IU-MS)",
+          "nombre": "SENADO DE PROGRESO / AURRERA DOAN SENATUA",
+          "color": "#9AA0A6",
+          "escanos": 3
+        },
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "color": "#00843D",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Araba/Álava",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Daniel Senderos Oraá",
+              "siglas": "SDP (PSOE-EZAN IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 41651
+            },
+            {
+              "nombre": "Paula Somalo García",
+              "siglas": "SDP (PSOE-EZAN IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 38801
+            },
+            {
+              "nombre": "Adolfo Lander Vera",
+              "siglas": "SDP (PSOE-EZAN IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 38201
+            },
+            {
+              "nombre": "Saray Zárate Fernández de Landa",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 28471
+            }
+          ]
         }
       ]
     },
     "02": {
       "nombre": "Albacete",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Albacete",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Miriam García Navarro",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 82348
+            },
+            {
+              "nombre": "Antonio Martínez Gómez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 80740
+            },
+            {
+              "nombre": "Pilar Milagros Rojo Noguera",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 78952
+            },
+            {
+              "nombre": "Isabel Belén Iniesta Egido",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 70863
+            }
+          ]
         }
       ]
     },
     "03": {
       "nombre": "Alacant/Alicante",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Alacant/Alicante",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Eva Ortiz Vilella",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 338524
+            },
+            {
+              "nombre": "Agustín Almodóbar Barceló",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 326609
+            },
+            {
+              "nombre": "María Francisca Sempere Ripoll",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 322026
+            },
+            {
+              "nombre": "Francisco Miguel Fenollar Iváñez",
+              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+              "color": "#9AA0A6",
+              "votos": 298352
+            }
+          ]
         }
       ]
     },
     "04": {
       "nombre": "Almería",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Almería",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Miguel Ángel Castellón Rubio",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 130512
+            },
+            {
+              "nombre": "Ana María Martínez Labella",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 126464
+            },
+            {
+              "nombre": "Juan José Matarí Sáez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 125466
+            },
+            {
+              "nombre": "José María Martín Fernández",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 91979
+            }
+          ]
         }
       ]
     },
     "05": {
       "nombre": "Ávila",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Ávila",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Alicia García Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 39779
+            },
+            {
+              "nombre": "Carlos García González",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 38724
+            },
+            {
+              "nombre": "María Pilar Rodríguez Aparicio",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 37790
+            },
+            {
+              "nombre": "Carlos Montesino Garro",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 23601
+            }
+          ]
         }
       ]
     },
     "06": {
       "nombre": "Badajoz",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "SDP (PSOE-IU-MS)",
+        "color": "#9AA0A6",
+        "escanos": 2,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "SDP (PSOE-IU-MS)",
+            "color": "#9AA0A6"
+          },
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          }
+        ]
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 2
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Badajoz",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "José Luis Quintana Álvarez",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 146253
+            },
+            {
+              "nombre": "Sandra Caballero Expósito",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 145888
+            },
+            {
+              "nombre": "José Antonio Monago Terraza",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 144389
+            },
+            {
+              "nombre": "Ana Fernández Salguero Elena",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 143013
+            }
+          ]
         }
       ]
     },
     "07": {
       "nombre": "Illes Balears",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 4,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 4
+        },
+        {
+          "siglas": "PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB",
+          "nombre": "ACORD DE PROGRÉS PER MALLORCA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        },
+        {
+          "siglas": "SA UNIÓ",
+          "nombre": "SA UNIÓ DE FORMENTERA (PP-COMPROMÍS)",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Mallorca",
           "escanos": 3,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Sebastià Sagreras Ballester",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 145524
+            },
+            {
+              "nombre": "María Belén Bordils Girona",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 138220
+            },
+            {
+              "nombre": "Catalina Cladera Crespí",
+              "siglas": "PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB",
+              "color": "#9AA0A6",
+              "votos": 122237
+            }
+          ]
         },
         {
           "nombre": "Menorca",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Ramón Sintes Villalonga",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 23973
+            }
+          ]
         },
         {
           "nombre": "Eivissa",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "María del Carmen Ferrer Torres",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 52017
+            }
+          ]
         },
         {
           "nombre": "Formentera",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Vicente Tur Costa",
+              "siglas": "SA UNIÓ",
+              "color": "#9AA0A6",
+              "votos": 3864
+            }
+          ]
         }
       ]
     },
     "08": {
       "nombre": "Barcelona",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "color": "#0B8457",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Barcelona",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Josep Tutusaus Besante",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 376598
+            },
+            {
+              "nombre": "Mónica Parés Centeno",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 365859
+            },
+            {
+              "nombre": "Javier Guasch Torrens",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 350298
+            },
+            {
+              "nombre": "Josep Maria Vida de Abadal i Serra",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 312292
+            }
+          ]
         }
       ]
     },
     "09": {
       "nombre": "Burgos",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Burgos",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Francisco Javier Lacalle Lacalle",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 78136
+            },
+            {
+              "nombre": "María Sandra Moneo Díez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 77341
+            },
+            {
+              "nombre": "Salvador De Foronda Vaquero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 75568
+            },
+            {
+              "nombre": "María Aitana Hernando Ruiz",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 67290
+            }
+          ]
         }
       ]
     },
     "10": {
       "nombre": "Cáceres",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          },
+          {
+            "siglas": "SDP (PSOE-IU-MS)",
+            "color": "#9AA0A6"
+          }
+        ]
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 2
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Cáceres",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Fernando Pizarro García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 85655
+            },
+            {
+              "nombre": "Joaquín Cuello Martínez-Pereda",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 83695
+            },
+            {
+              "nombre": "María Inés Rubio Díaz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 83684
+            },
+            {
+              "nombre": "Inés Mirella Conejero Domínguez",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 83174
+            }
+          ]
         }
       ]
     },
     "11": {
       "nombre": "Cádiz",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Cádiz",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Jacinto Muñoz Madrid",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 219537
+            },
+            {
+              "nombre": "María del Carmen Pérez Becerra",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 211945
+            },
+            {
+              "nombre": "Juan Carlos Ruiz Boix",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 204318
+            },
+            {
+              "nombre": "Enrique José García-Máiquez López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 204195
+            }
+          ]
         }
       ]
     },
     "12": {
       "nombre": "Castelló/Castellón",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Castelló/Castellón",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Alberto Fabra Part",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 111212
+            },
+            {
+              "nombre": "María Nieves Martínez Tarazona",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 109120
+            },
+            {
+              "nombre": "Eva María Redondo Gamero",
+              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+              "color": "#9AA0A6",
+              "votos": 107888
+            },
+            {
+              "nombre": "Miguel Rovira de la Fuente",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 105694
+            }
+          ]
         }
       ]
     },
     "13": {
       "nombre": "Ciudad Real",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Ciudad Real",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Raúl Dalmacio Valero Mejía",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 110878
+            },
+            {
+              "nombre": "Rosa María Romero Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 109243
+            },
+            {
+              "nombre": "Leopoldo Jerónimo Sierra Gallardo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 107271
+            },
+            {
+              "nombre": "Rosa Melchor Quiralte",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 94688
+            }
+          ]
         }
       ]
     },
     "14": {
       "nombre": "Córdoba",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Córdoba",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Salvador Fuentes Lopera",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 170197
+            },
+            {
+              "nombre": "María Dolores Blanco López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 166244
+            },
+            {
+              "nombre": "Florentino Santos Porras",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 162313
+            },
+            {
+              "nombre": "Rafaela Crespín Rubio",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 141356
+            }
+          ]
         }
       ]
     },
     "15": {
       "nombre": "A Coruña",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "A Coruña",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "José Manuel Rey Varela",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 272780
+            },
+            {
+              "nombre": "Marta González Vázquez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 265394
+            },
+            {
+              "nombre": "Adrián Pardo López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 263023
+            },
+            {
+              "nombre": "Gumersindo Guinarte Cabada",
+              "siglas": "SDP (PSOE-MS)",
+              "color": "#9AA0A6",
+              "votos": 184993
+            }
+          ]
         }
       ]
     },
     "16": {
       "nombre": "Cuenca",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Cuenca",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Daniel Pérez Osma",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 44436
+            },
+            {
+              "nombre": "María Jesús Bonilla Domínguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 43500
+            },
+            {
+              "nombre": "Alejo Joaquín Miranda De Larra Arnaiz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 42558
+            },
+            {
+              "nombre": "José López Carrizo",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 39806
+            }
+          ]
         }
       ]
     },
     "17": {
       "nombre": "Girona",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "JxCAT - JUNTS",
+        "color": "#0B8457",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "color": "#0B8457",
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Girona",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Joan Bagué i Roura",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 79985
+            },
+            {
+              "nombre": "Júlia Barceló i Puig",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 71227
+            },
+            {
+              "nombre": "Pau Taberner i Pibernat",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 69847
+            },
+            {
+              "nombre": "Francisco Javier Domínguez García",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 21084
+            }
+          ]
         }
       ]
     },
     "18": {
       "nombre": "Granada",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Granada",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Carlos Rojas García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 185335
+            },
+            {
+              "nombre": "María Eva Martín Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 180703
+            },
+            {
+              "nombre": "Pablo Hispán Iglesias De Ussel",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 179010
+            },
+            {
+              "nombre": "Pedro Fernández Peñalver",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 164941
+            }
+          ]
         }
       ]
     },
     "19": {
       "nombre": "Guadalajara",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Guadalajara",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Lucas Castillo Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 52838
+            },
+            {
+              "nombre": "María Patricio Zafra",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 51400
+            },
+            {
+              "nombre": "Antonio Román Jasanada",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 50156
+            },
+            {
+              "nombre": "Rafael Esteban Santamaría",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 47277
+            }
+          ]
         }
       ]
     },
     "20": {
       "nombre": "Gipuzkoa",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "color": "#00843D",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-EZAN IU-MS)",
+          "nombre": "SENADO DE PROGRESO/AURRERA DOAN SENATUA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Gipuzkoa",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Luke Uribe-Etxebarria Apalategi",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 86561
+            },
+            {
+              "nombre": "María Victoria «Bittori» Zabala Fernández",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 84350
+            },
+            {
+              "nombre": "Alberto Albistegui Zamacola",
+              "siglas": "SDP (PSOE-EZAN IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 83260
+            },
+            {
+              "nombre": "Xabier Insausti Sarasola",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 81432
+            }
+          ]
         }
       ]
     },
     "21": {
       "nombre": "Huelva",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Huelva",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Manuel Alberto Fernández Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 91387
+            },
+            {
+              "nombre": "María Eugenia Limón Bayo",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 89557
+            },
+            {
+              "nombre": "Bella Verano Domínguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 87796
+            },
+            {
+              "nombre": "Juan Manuel González Camacho",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 84886
+            }
+          ]
         }
       ]
     },
     "22": {
       "nombre": "Huesca",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-CHA-IU-MS)",
+          "nombre": "SENADO DE PROGRESO DE ARAGÓN",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Huesca",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Melania Mur Sangra",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 43438
+            },
+            {
+              "nombre": "José Antonio Lagüens Martín",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 42296
+            },
+            {
+              "nombre": "Blanca Mónica Galindo Sanz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 41245
+            },
+            {
+              "nombre": "Tania Solans Raluy",
+              "siglas": "SDP (PSOE-CHA-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 38735
+            }
+          ]
         }
       ]
     },
     "23": {
       "nombre": "Jaén",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Jaén",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Juan Diego Requena Ruiz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 135668
+            },
+            {
+              "nombre": "Encarnación Bienvenida Castro Cano",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 132751
+            },
+            {
+              "nombre": "José Latorre Ruiz",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 129257
+            },
+            {
+              "nombre": "Francisco Javier Márquez Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 127854
+            }
+          ]
         }
       ]
     },
     "24": {
       "nombre": "León",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "León",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Silvia Franco González",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 94245
+            },
+            {
+              "nombre": "Antonio Silván Rodríguez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 92273
+            },
+            {
+              "nombre": "María Asunción Mayo Fernández",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 90659
+            },
+            {
+              "nombre": "Salvador Vidal Varela",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 84254
+            }
+          ]
         }
       ]
     },
     "25": {
       "nombre": "Lleida",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "JxCAT - JUNTS",
+        "color": "#0B8457",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "color": "#0B8457",
+          "escanos": 3
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Lleida",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Rosa Maria Melines i Rius",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 34992
+            },
+            {
+              "nombre": "Emili Gilabert i Roca",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 32296
+            },
+            {
+              "nombre": "Judit Guim i Tarruella",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 30120
+            },
+            {
+              "nombre": "José Ramón Guiu Estopá",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 22304
+            }
+          ]
         }
       ]
     },
     "26": {
       "nombre": "La Rioja",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "La Rioja",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Javier Merino Martínez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 75924
+            },
+            {
+              "nombre": "María del Mar San Martín Ibarra",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 74639
+            },
+            {
+              "nombre": "Carlos Yécora Roca",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 74037
+            },
+            {
+              "nombre": "Concepción Andreu Rodríguez",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 58745
+            }
+          ]
         }
       ]
     },
     "27": {
       "nombre": "Lugo",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Lugo",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "José Manuel Barreiro Fernández",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 88187
+            },
+            {
+              "nombre": "Dolores Castro Ochoa",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 86651
+            },
+            {
+              "nombre": "Juan Carlos Serrano López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 85037
+            },
+            {
+              "nombre": "César Alejandro Mogo Zaro",
+              "siglas": "SDP (PSOE-MS)",
+              "color": "#9AA0A6",
+              "votos": 54473
+            }
+          ]
         }
       ]
     },
     "28": {
       "nombre": "Madrid",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-MM-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Madrid",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Pedro Rollán Ojeda",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 1470653
+            },
+            {
+              "nombre": "María Inmaculada Sanz Otero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 1435616
+            },
+            {
+              "nombre": "Carlos García Adanero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 1420130
+            },
+            {
+              "nombre": "Antonio Hernando Vera",
+              "siglas": "SDP (PSOE-MM-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 1037733
+            }
+          ]
         }
       ]
     },
     "29": {
       "nombre": "Málaga",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Málaga",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "José Francisco Salado Escaño",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 302099
+            },
+            {
+              "nombre": "Margarita del Carmen del Cid Muñoz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 290213
+            },
+            {
+              "nombre": "Mario Cortés Carballo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 285651
+            },
+            {
+              "nombre": "Francisco Javier García León",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 236285
+            }
+          ]
         }
       ]
     },
     "30": {
       "nombre": "Murcia",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Murcia",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Francisco Martín Bernabé Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 305953
+            },
+            {
+              "nombre": "María Hernández Benítez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 297924
+            },
+            {
+              "nombre": "Antonio Luengo Zapata",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 294948
+            },
+            {
+              "nombre": "Irene Jódar Pérez",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 200208
+            }
+          ]
         }
       ]
     },
     "31": {
       "nombre": "Navarra",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
+        "color": "#9AA0A6",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 3
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Navarra",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Antonio Ángel Moleón Segura",
+              "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
+              "color": "#9AA0A6",
+              "votos": 92037
+            },
+            {
+              "nombre": "Ane María Sánchez Jiménez",
+              "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
+              "color": "#9AA0A6",
+              "votos": 87844
+            },
+            {
+              "nombre": "Jesús María Rodríguez Gómez",
+              "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
+              "color": "#9AA0A6",
+              "votos": 81987
+            },
+            {
+              "nombre": "José Javier Esparza Abaurrea",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 61812
+            }
+          ]
         }
       ]
     },
     "32": {
       "nombre": "Ourense",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Ourense",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Miguel Ángel Santalices Vieira",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 79481
+            },
+            {
+              "nombre": "Rosa María Sánchez Gándara",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 78435
+            },
+            {
+              "nombre": "José Antonio Cerdeira Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 76572
+            },
+            {
+              "nombre": "María Fernández Ojea",
+              "siglas": "SDP (PSOE-MS)",
+              "color": "#9AA0A6",
+              "votos": 47693
+            }
+          ]
         }
       ]
     },
     "33": {
       "nombre": "Asturias",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Asturias",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Silverio Argüelles García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 209203
+            },
+            {
+              "nombre": "Iván González Espina",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 206984
+            },
+            {
+              "nombre": "María del Pilar Fernández Pardo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 206526
+            },
+            {
+              "nombre": "José Manuel Fernández Díaz (Chami)",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 202233
+            }
+          ]
         }
       ]
     },
     "34": {
       "nombre": "Palencia",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Palencia",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Roberto Martín Casado",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 36512
+            },
+            {
+              "nombre": "Cristina Sandino Vallejo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 35344
+            },
+            {
+              "nombre": "Jorge Domingo Martínez Antolín",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 35050
+            },
+            {
+              "nombre": "Rosa María Aldea Gómez",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 31574
+            }
+          ]
         }
       ]
     },
     "35": {
       "nombre": "Las Palmas",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 4,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 4
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Gran Canaria",
           "escanos": 3,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Carlos Alberto Sánchez Ojeda",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 163674
+            },
+            {
+              "nombre": "Alba Moreno Santa",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 151444
+            },
+            {
+              "nombre": "Marta Jorgina Saavedra Domenech",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 9940
+            }
+          ]
         },
         {
           "nombre": "Lanzarote",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "José Francisco Hernández García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 48502
+            }
+          ]
         },
         {
           "nombre": "Fuerteventura",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "María Esther Hernández Marrero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 34067
+            }
+          ]
         }
       ]
     },
     "36": {
       "nombre": "Pontevedra",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "PSOE-MS",
+          "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Pontevedra",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Nidia María Arévalo Gómez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 211772
+            },
+            {
+              "nombre": "José Crespo Iglesias",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 206914
+            },
+            {
+              "nombre": "Mónica Domínguez Estévez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 204343
+            },
+            {
+              "nombre": "María del Carmen «Carmela» Silva Rego",
+              "siglas": "PSOE-MS",
+              "color": "#9AA0A6",
+              "votos": 180694
+            }
+          ]
         }
       ]
     },
     "37": {
       "nombre": "Salamanca",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Salamanca",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Bienvenido de Arriba Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 85870
+            },
+            {
+              "nombre": "Marta Labrador Gutiérrez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 83818
+            },
+            {
+              "nombre": "Pedro Samuel Martín García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 83298
+            },
+            {
+              "nombre": "Carlos Fernández Chanca",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 54763
+            }
+          ]
         }
       ]
     },
     "38": {
       "nombre": "Santa Cruz de Tenerife",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "A.H.I.",
+          "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+          "color": "#B5651D",
+          "escanos": 1
+        },
+        {
+          "siglas": "ASG",
+          "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+          "color": "#7B3FA0",
+          "escanos": 1
+        },
+        {
+          "siglas": "PSOE",
+          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "color": "#E10819",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Tenerife",
           "escanos": 3,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "María Inés Vera Goya",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 185517
+            },
+            {
+              "nombre": "Francisco José García Paramio",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 178606
+            },
+            {
+              "nombre": "Pedro Martín Domínguez",
+              "siglas": "PSOE",
+              "color": "#E10819",
+              "votos": 11867
+            }
+          ]
         },
         {
           "nombre": "La Palma",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Jacob Qadri Hijazo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 35573
+            }
+          ]
         },
         {
           "nombre": "La Gomera",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Yaiza Castilla Herrera",
+              "siglas": "ASG",
+              "color": "#7B3FA0",
+              "votos": 6401
+            }
+          ]
         },
         {
           "nombre": "El Hierro",
           "escanos": 1,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Aniceto Javier Armas González",
+              "siglas": "A.H.I.",
+              "color": "#B5651D",
+              "votos": 3196
+            }
+          ]
         }
       ]
     },
     "39": {
       "nombre": "Cantabria",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Cantabria",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Gema Igual Ortiz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 147569
+            },
+            {
+              "nombre": "Luis Venancio Martínez Abad",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 143909
+            },
+            {
+              "nombre": "María Carmen Bedoya Morton",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 142331
+            },
+            {
+              "nombre": "Paz Mercedes de la Cuesta Aguado",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 111610
+            }
+          ]
         }
       ]
     },
     "40": {
       "nombre": "Segovia",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Segovia",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Juan José Sanz Vitorio",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 38958
+            },
+            {
+              "nombre": "María Ángeles García Herrero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 38005
+            },
+            {
+              "nombre": "José María Bravo Gozalo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 37407
+            },
+            {
+              "nombre": "María del Lirio Martín García",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 27329
+            }
+          ]
         }
       ]
     },
     "41": {
       "nombre": "Sevilla",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "SDP (PSOE-IU-MS)",
+        "color": "#9AA0A6",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 3
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Sevilla",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Rosario Andújar Torrejón",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 381316
+            },
+            {
+              "nombre": "Antonio Gutiérrez Limones",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 372719
+            },
+            {
+              "nombre": "Juan Manuel Ávila Gutiérrez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 356434
+            },
+            {
+              "nombre": "Eva Patricia Bueno Campanario",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 355413
+            }
+          ]
         }
       ]
     },
     "42": {
       "nombre": "Soria",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Soria",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Benito Serrano Mata",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 16301
+            },
+            {
+              "nombre": "María Yolanda de Gregorio Pachón",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 15727
+            },
+            {
+              "nombre": "Javier Jiménez Santamaría",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 15237
+            },
+            {
+              "nombre": "Ana Alegre Martínez",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 13256
+            }
+          ]
         }
       ]
     },
     "43": {
       "nombre": "Tarragona",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "JxCAT - JUNTS",
+        "color": "#0B8457",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "JxCAT - JUNTS",
+          "nombre": "JUNTS PER CATALUNYA - JUNTS",
+          "color": "#0B8457",
+          "escanos": 3
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Tarragona",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Josep Andreu i Domingo",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 58525
+            },
+            {
+              "nombre": "Montserrat Vellvé i Foix",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 53751
+            },
+            {
+              "nombre": "Felip Monclús i Arasa",
+              "siglas": "JxCAT - JUNTS",
+              "color": "#0B8457",
+              "votos": 48854
+            },
+            {
+              "nombre": "Ana Belén Rodríguez Ros",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 38366
+            }
+          ]
         }
       ]
     },
     "44": {
       "nombre": "Teruel",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-CHA-IU-MS)",
+          "nombre": "SENADO DE PROGRESO DE ARAGÓN",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Teruel",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Emma Buj Sánchez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 23966
+            },
+            {
+              "nombre": "Carlos Boné Amela",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 22779
+            },
+            {
+              "nombre": "Celia Durbán Solaz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 22457
+            },
+            {
+              "nombre": "María José Villalba Chavarría",
+              "siglas": "SDP (PSOE-CHA-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 18743
+            }
+          ]
         }
       ]
     },
     "45": {
       "nombre": "Toledo",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Toledo",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Agustín Conde Bajén",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 153597
+            },
+            {
+              "nombre": "María Pilar Alía Aguado",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 149869
+            },
+            {
+              "nombre": "Vicente Tirado Ochoa",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 148673
+            },
+            {
+              "nombre": "José Manuel Tofiño Pérez",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 130874
+            }
+          ]
         }
       ]
     },
     "46": {
       "nombre": "València/Valencia",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          },
+          {
+            "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+            "color": "#9AA0A6"
+          }
+        ]
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 2
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "València/Valencia",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Susana Camarero Benítez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 501984
+            },
+            {
+              "nombre": "Juan Antonio Sagredo Marco",
+              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+              "color": "#9AA0A6",
+              "votos": 494305
+            },
+            {
+              "nombre": "José Luís Aguirre Larrauri",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 484697
+            },
+            {
+              "nombre": "Isaura Navarro Casillas",
+              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
+              "color": "#9AA0A6",
+              "votos": 480038
+            }
+          ]
         }
       ]
     },
     "47": {
       "nombre": "Valladolid",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Valladolid",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Jesús Julio Carnero García",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 127321
+            },
+            {
+              "nombre": "María Mercedes Cantalapiedra Álvarez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 125913
+            },
+            {
+              "nombre": "José Ángel Alonso Pérez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 124199
+            },
+            {
+              "nombre": "Sara Maria Galván Lobato",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 102964
+            }
+          ]
         }
       ]
     },
     "48": {
       "nombre": "Bizkaia",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "EAJ-PNV",
+          "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+          "color": "#00843D",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-EZAN IU-MS)",
+          "nombre": "SENADO DE PROGRESO / AURRERA DOAN SENATUA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Bizkaia",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Nerea Ahedo Ceza",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 171735
+            },
+            {
+              "nombre": "Kepa Lambarri Camilo",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 163048
+            },
+            {
+              "nombre": "María Dolores Etxano Varela",
+              "siglas": "EAJ-PNV",
+              "color": "#00843D",
+              "votos": 160160
+            },
+            {
+              "nombre": "Txema Oleaga Zalvidea",
+              "siglas": "SDP (PSOE-EZAN IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 148819
+            }
+          ]
         }
       ]
     },
     "49": {
       "nombre": "Zamora",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-IU-MS)",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Zamora",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "José María Barrios Tejero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 39282
+            },
+            {
+              "nombre": "Óscar Ramajo Prada",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 38383
+            },
+            {
+              "nombre": "Elvira Velasco Morillo",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 38351
+            },
+            {
+              "nombre": "José Fernández Blanco",
+              "siglas": "SDP (PSOE-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 30229
+            }
+          ]
         }
       ]
     },
     "50": {
       "nombre": "Zaragoza",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 3,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 3
+        },
+        {
+          "siglas": "SDP (PSOE-CHA-IU-MS)",
+          "nombre": "SENADO DE PROGRESO DE ARAGÓN",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Zaragoza",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Luis María Beamonte Mesa",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 185359
+            },
+            {
+              "nombre": "María Elena Bondía Pinós",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 178743
+            },
+            {
+              "nombre": "José Manuel Aranda Lassa",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 175577
+            },
+            {
+              "nombre": "Miguel Dalmau Blanco",
+              "siglas": "SDP (PSOE-CHA-IU-MS)",
+              "color": "#9AA0A6",
+              "votos": 161550
+            }
+          ]
         }
       ]
     },
     "51": {
       "nombre": "Ceuta",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#9AA0A6",
+        "escanos": 2,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO",
+          "color": "#9AA0A6",
+          "escanos": 2
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Ceuta",
           "escanos": 2,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Abdel lah Abdel lah Mustafa",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#9AA0A6",
+              "votos": 9606
+            },
+            {
+              "nombre": "Nesrin Haddad Ahmed",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#9AA0A6",
+              "votos": 9167
+            }
+          ]
         }
       ]
     },
     "52": {
       "nombre": "Melilla",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Melilla",
           "escanos": 2,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Fernando Adolfo Gutiérrez Díaz de Otazu",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 12985
+            },
+            {
+              "nombre": "Isabel María Moreno Mohamed",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 12503
+            }
+          ]
         }
       ]
     }

@@ -3,65 +3,65 @@
     "nombre": "ARBO",
     "censo": 2340,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1790,
+    "pctEscrutado": 100.0,
+    "blanco": 30,
+    "nulos": 20,
+    "votosCandidatos": 4665,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2665,
+        "pctVotos": 57.13
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1421,
+        "pctVotos": 30.46
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 412,
+        "pctVotos": 8.83
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 74,
+        "pctVotos": 1.59
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 39,
+        "pctVotos": 0.84
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 30,
+        "pctVotos": 0.64
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 24,
+      "pctVotos": 0.51,
       "numCandidaturas": 1
     }
   },
@@ -69,65 +69,65 @@
     "nombre": "BARRO",
     "censo": 3032,
     "mesas": 5,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2270,
+    "pctEscrutado": 100.0,
+    "blanco": 31,
+    "nulos": 39,
+    "votosCandidatos": 5996,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3409,
+        "pctVotos": 56.85
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1680,
+        "pctVotos": 28.02
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 613,
+        "pctVotos": 10.22
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 133,
+        "pctVotos": 2.22
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 115,
+        "pctVotos": 1.92
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 25,
+        "pctVotos": 0.42
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 21,
+      "pctVotos": 0.35,
       "numCandidaturas": 1
     }
   },
@@ -135,65 +135,65 @@
     "nombre": "BAIONA",
     "censo": 10324,
     "mesas": 14,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 7712,
+    "pctEscrutado": 100.0,
+    "blanco": 102,
+    "nulos": 166,
+    "votosCandidatos": 19333,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10376,
+        "pctVotos": 53.67
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6386,
+        "pctVotos": 33.03
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1797,
+        "pctVotos": 9.29
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 326,
+        "pctVotos": 1.69
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 276,
+        "pctVotos": 1.43
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 89,
+        "pctVotos": 0.46
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 83,
+      "pctVotos": 0.43,
       "numCandidaturas": 1
     }
   },
@@ -201,65 +201,65 @@
     "nombre": "BUEU",
     "censo": 10210,
     "mesas": 17,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1333,
+    "pctEscrutado": 17.96,
+    "blanco": 11,
+    "nulos": 27,
+    "votosCandidatos": 3277,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1448,
+        "pctVotos": 44.19
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1129,
+        "pctVotos": 34.45
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 555,
+        "pctVotos": 16.94
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 65,
+        "pctVotos": 1.98
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 40,
+        "pctVotos": 1.22
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 25,
+        "pctVotos": 0.76
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 15,
+      "pctVotos": 0.46,
       "numCandidaturas": 1
     }
   },
@@ -267,65 +267,65 @@
     "nombre": "CALDAS DE REIS",
     "censo": 8060,
     "mesas": 14,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5827,
+    "pctEscrutado": 100.0,
+    "blanco": 78,
+    "nulos": 145,
+    "votosCandidatos": 14837,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7510,
+        "pctVotos": 50.62
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5350,
+        "pctVotos": 36.06
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1422,
+        "pctVotos": 9.58
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 235,
+        "pctVotos": 1.58
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 194,
+        "pctVotos": 1.31
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 66,
+        "pctVotos": 0.44
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 60,
+      "pctVotos": 0.4,
       "numCandidaturas": 1
     }
   },
@@ -333,65 +333,65 @@
     "nombre": "CAMBADOS",
     "censo": 11495,
     "mesas": 20,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 8742,
+    "pctEscrutado": 100.0,
+    "blanco": 160,
+    "nulos": 214,
+    "votosCandidatos": 22157,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 12203,
+        "pctVotos": 55.08
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6172,
+        "pctVotos": 27.86
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2936,
+        "pctVotos": 13.25
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 329,
+        "pctVotos": 1.48
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 280,
+        "pctVotos": 1.26
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 129,
+        "pctVotos": 0.58
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 108,
+      "pctVotos": 0.49,
       "numCandidaturas": 1
     }
   },
@@ -399,65 +399,65 @@
     "nombre": "CAMPO LAMEIRO, O",
     "censo": 1490,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 570,
+    "pctEscrutado": 52.88,
+    "blanco": 9,
+    "nulos": 15,
+    "votosCandidatos": 1493,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 811,
+        "pctVotos": 54.32
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 525,
+        "pctVotos": 35.16
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 108,
+        "pctVotos": 7.23
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 24,
+        "pctVotos": 1.61
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 19,
+        "pctVotos": 1.27
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 5,
+        "pctVotos": 0.33
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 0.07,
       "numCandidaturas": 1
     }
   },
@@ -465,65 +465,65 @@
     "nombre": "CANGAS DE MORRAZO",
     "censo": 22428,
     "mesas": 33,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 16370,
+    "pctEscrutado": 100.0,
+    "blanco": 206,
+    "nulos": 310,
+    "votosCandidatos": 37783,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15677,
+        "pctVotos": 41.49
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13033,
+        "pctVotos": 34.49
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 7610,
+        "pctVotos": 20.14
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 622,
+        "pctVotos": 1.65
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 416,
+        "pctVotos": 1.1
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 216,
+        "pctVotos": 0.57
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 209,
+      "pctVotos": 0.55,
       "numCandidaturas": 1
     }
   },
@@ -531,65 +531,65 @@
     "nombre": "CANIZA, A",
     "censo": 4313,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2910,
+    "pctEscrutado": 100.0,
+    "blanco": 50,
+    "nulos": 78,
+    "votosCandidatos": 7449,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4163,
+        "pctVotos": 55.89
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2334,
+        "pctVotos": 31.33
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 614,
+        "pctVotos": 8.24
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 129,
+        "pctVotos": 1.73
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 118,
+        "pctVotos": 1.58
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 50,
+        "pctVotos": 0.67
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 41,
+      "pctVotos": 0.55,
       "numCandidaturas": 1
     }
   },
@@ -597,65 +597,65 @@
     "nombre": "CATOIRA",
     "censo": 2779,
     "mesas": 5,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2136,
+    "pctEscrutado": 100.0,
+    "blanco": 28,
+    "nulos": 52,
+    "votosCandidatos": 5451,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2192,
+        "pctVotos": 40.21
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1875,
+        "pctVotos": 34.4
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1220,
+        "pctVotos": 22.38
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 89,
+        "pctVotos": 1.63
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 43,
+        "pctVotos": 0.79
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 21,
+        "pctVotos": 0.39
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 11,
+      "pctVotos": 0.2,
       "numCandidaturas": 1
     }
   },
@@ -663,65 +663,65 @@
     "nombre": "COVELO",
     "censo": 2201,
     "mesas": 5,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1340,
+    "pctEscrutado": 100.0,
+    "blanco": 38,
+    "nulos": 31,
+    "votosCandidatos": 3292,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1903,
+        "pctVotos": 57.81
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 949,
+        "pctVotos": 28.83
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 278,
+        "pctVotos": 8.44
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 68,
+        "pctVotos": 2.07
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 58,
+        "pctVotos": 1.76
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 22,
+        "pctVotos": 0.67
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 0.43,
       "numCandidaturas": 1
     }
   },
@@ -729,65 +729,65 @@
     "nombre": "CRECENTE",
     "censo": 1751,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1304,
+    "pctEscrutado": 100.0,
+    "blanco": 19,
+    "nulos": 17,
+    "votosCandidatos": 3512,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2254,
+        "pctVotos": 64.18
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 908,
+        "pctVotos": 25.85
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 236,
+        "pctVotos": 6.72
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 46,
+        "pctVotos": 1.31
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 27,
+        "pctVotos": 0.77
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 22,
+        "pctVotos": 0.63
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 19,
+      "pctVotos": 0.54,
       "numCandidaturas": 1
     }
   },
@@ -795,65 +795,65 @@
     "nombre": "CUNTIS",
     "censo": 3852,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2792,
+    "pctEscrutado": 100.0,
+    "blanco": 43,
+    "nulos": 85,
+    "votosCandidatos": 7260,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3512,
+        "pctVotos": 48.37
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2662,
+        "pctVotos": 36.67
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 815,
+        "pctVotos": 11.23
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 111,
+        "pctVotos": 1.53
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 78,
+        "pctVotos": 1.07
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 45,
+        "pctVotos": 0.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 37,
+      "pctVotos": 0.51,
       "numCandidaturas": 1
     }
   },
@@ -861,65 +861,65 @@
     "nombre": "DOZÓN",
     "censo": 881,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 624,
+    "pctEscrutado": 100.0,
+    "blanco": 9,
+    "nulos": 13,
+    "votosCandidatos": 1750,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1302,
+        "pctVotos": 74.4
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 284,
+        "pctVotos": 16.23
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 108,
+        "pctVotos": 6.17
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 24,
+        "pctVotos": 1.37
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 13,
+        "pctVotos": 0.74
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 12,
+        "pctVotos": 0.69
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 0.4,
       "numCandidaturas": 1
     }
   },
@@ -927,65 +927,65 @@
     "nombre": "ESTRADA (A)",
     "censo": 16920,
     "mesas": 39,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 12575,
+    "pctEscrutado": 100.0,
+    "blanco": 186,
+    "nulos": 267,
+    "votosCandidatos": 32411,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17084,
+        "pctVotos": 52.71
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10680,
+        "pctVotos": 32.95
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 3572,
+        "pctVotos": 11.02
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 456,
+        "pctVotos": 1.41
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 308,
+        "pctVotos": 0.95
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 158,
+        "pctVotos": 0.49
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 153,
+      "pctVotos": 0.47,
       "numCandidaturas": 1
     }
   },
@@ -993,65 +993,65 @@
     "nombre": "FORCAREI",
     "censo": 2706,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1898,
+    "pctEscrutado": 100.0,
+    "blanco": 24,
+    "nulos": 34,
+    "votosCandidatos": 5131,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2785,
+        "pctVotos": 54.28
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1731,
+        "pctVotos": 33.74
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 415,
+        "pctVotos": 8.09
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 77,
+        "pctVotos": 1.5
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 73,
+        "pctVotos": 1.42
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 25,
+        "pctVotos": 0.49
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 25,
+      "pctVotos": 0.49,
       "numCandidaturas": 1
     }
   },
@@ -1059,65 +1059,65 @@
     "nombre": "FORNELOS DE MONTES",
     "censo": 1418,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 947,
+    "pctEscrutado": 100.0,
+    "blanco": 14,
+    "nulos": 16,
+    "votosCandidatos": 2508,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE-MS",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE-MS",
+        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "color": "#9AA0A6",
+        "votos": 1209,
+        "pctVotos": 48.21
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 988,
+        "pctVotos": 39.39
       },
       {
         "siglas": "B.N.G.",
         "nombre": "BLOQUE NACIONALISTA GALEGO",
         "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 214,
+        "pctVotos": 8.53
       },
       {
-        "siglas": "PSOE-MS",
-        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 37,
+        "pctVotos": 1.48
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 28,
+        "pctVotos": 1.12
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17,
+        "pctVotos": 0.68
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 15,
+      "pctVotos": 0.6,
       "numCandidaturas": 1
     }
   },
@@ -1125,65 +1125,65 @@
     "nombre": "AGOLADA",
     "censo": 1961,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1448,
+    "pctEscrutado": 100.0,
+    "blanco": 31,
+    "nulos": 21,
+    "votosCandidatos": 3810,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2482,
+        "pctVotos": 65.14
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1015,
+        "pctVotos": 26.64
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 213,
+        "pctVotos": 5.59
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 59,
+        "pctVotos": 1.55
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 23,
+        "pctVotos": 0.6
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 11,
+        "pctVotos": 0.29
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 0.18,
       "numCandidaturas": 1
     }
   },
@@ -1191,65 +1191,65 @@
     "nombre": "GONDOMAR",
     "censo": 12705,
     "mesas": 20,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 9343,
+    "pctEscrutado": 100.0,
+    "blanco": 146,
+    "nulos": 190,
+    "votosCandidatos": 22393,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10886,
+        "pctVotos": 48.61
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8035,
+        "pctVotos": 35.88
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2501,
+        "pctVotos": 11.17
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 440,
+        "pctVotos": 1.96
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 299,
+        "pctVotos": 1.34
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 138,
+        "pctVotos": 0.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 94,
+      "pctVotos": 0.42,
       "numCandidaturas": 1
     }
   },
@@ -1257,65 +1257,65 @@
     "nombre": "GROVE (O)",
     "censo": 8977,
     "mesas": 15,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 6256,
+    "pctEscrutado": 100.0,
+    "blanco": 102,
+    "nulos": 169,
+    "votosCandidatos": 14427,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE-MS",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE-MS",
+        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "color": "#9AA0A6",
+        "votos": 5864,
+        "pctVotos": 40.65
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5460,
+        "pctVotos": 37.85
       },
       {
         "siglas": "B.N.G.",
         "nombre": "BLOQUE NACIONALISTA GALEGO",
         "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2433,
+        "pctVotos": 16.86
       },
       {
-        "siglas": "PSOE-MS",
-        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 297,
+        "pctVotos": 2.06
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 218,
+        "pctVotos": 1.51
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 78,
+        "pctVotos": 0.54
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 77,
+      "pctVotos": 0.53,
       "numCandidaturas": 1
     }
   },
@@ -1323,65 +1323,65 @@
     "nombre": "GUARDA (A)",
     "censo": 8122,
     "mesas": 16,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 6007,
+    "pctEscrutado": 100.0,
+    "blanco": 51,
+    "nulos": 136,
+    "votosCandidatos": 14805,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7028,
+        "pctVotos": 47.47
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4515,
+        "pctVotos": 30.5
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2590,
+        "pctVotos": 17.49
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 303,
+        "pctVotos": 2.05
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 241,
+        "pctVotos": 1.63
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 68,
+        "pctVotos": 0.46
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 60,
+      "pctVotos": 0.41,
       "numCandidaturas": 1
     }
   },
@@ -1389,65 +1389,65 @@
     "nombre": "LALÍN",
     "censo": 15733,
     "mesas": 34,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 11938,
+    "pctEscrutado": 100.0,
+    "blanco": 161,
+    "nulos": 262,
+    "votosCandidatos": 31491,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20169,
+        "pctVotos": 64.05
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6975,
+        "pctVotos": 22.15
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 3181,
+        "pctVotos": 10.1
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 416,
+        "pctVotos": 1.32
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 411,
+        "pctVotos": 1.31
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 180,
+        "pctVotos": 0.57
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 159,
+      "pctVotos": 0.5,
       "numCandidaturas": 1
     }
   },
@@ -1455,65 +1455,65 @@
     "nombre": "LAMA (A)",
     "censo": 2103,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1550,
+    "pctEscrutado": 100.0,
+    "blanco": 8,
+    "nulos": 23,
+    "votosCandidatos": 3749,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2457,
+        "pctVotos": 65.54
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 825,
+        "pctVotos": 22.01
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 308,
+        "pctVotos": 8.22
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 66,
+        "pctVotos": 1.76
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 59,
+        "pctVotos": 1.57
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 18,
+        "pctVotos": 0.48
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 16,
+      "pctVotos": 0.43,
       "numCandidaturas": 1
     }
   },
@@ -1521,65 +1521,65 @@
     "nombre": "MARÍN",
     "censo": 19727,
     "mesas": 29,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 13713,
+    "pctEscrutado": 100.0,
+    "blanco": 178,
+    "nulos": 371,
+    "votosCandidatos": 33584,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17457,
+        "pctVotos": 51.98
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10821,
+        "pctVotos": 32.22
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 3572,
+        "pctVotos": 10.64
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 773,
+        "pctVotos": 2.3
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 600,
+        "pctVotos": 1.79
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 190,
+        "pctVotos": 0.57
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 171,
+      "pctVotos": 0.51,
       "numCandidaturas": 1
     }
   },
@@ -1587,65 +1587,65 @@
     "nombre": "MEAÑO",
     "censo": 4368,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3273,
+    "pctEscrutado": 100.0,
+    "blanco": 37,
+    "nulos": 69,
+    "votosCandidatos": 8656,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5233,
+        "pctVotos": 60.46
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2199,
+        "pctVotos": 25.4
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 917,
+        "pctVotos": 10.59
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 131,
+        "pctVotos": 1.51
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 119,
+        "pctVotos": 1.37
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 31,
+        "pctVotos": 0.36
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 26,
+      "pctVotos": 0.3,
       "numCandidaturas": 1
     }
   },
@@ -1653,65 +1653,65 @@
     "nombre": "MEIS",
     "censo": 4015,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3056,
+    "pctEscrutado": 100.0,
+    "blanco": 66,
+    "nulos": 69,
+    "votosCandidatos": 8009,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4446,
+        "pctVotos": 55.51
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2650,
+        "pctVotos": 33.09
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 618,
+        "pctVotos": 7.72
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 114,
+        "pctVotos": 1.42
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 105,
+        "pctVotos": 1.31
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 43,
+        "pctVotos": 0.54
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 33,
+      "pctVotos": 0.41,
       "numCandidaturas": 1
     }
   },
@@ -1719,65 +1719,65 @@
     "nombre": "MOAÑA",
     "censo": 16404,
     "mesas": 26,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 11994,
+    "pctEscrutado": 100.0,
+    "blanco": 152,
+    "nulos": 288,
+    "votosCandidatos": 29154,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11863,
+        "pctVotos": 40.69
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10251,
+        "pctVotos": 35.16
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 5942,
+        "pctVotos": 20.38
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 457,
+        "pctVotos": 1.57
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 324,
+        "pctVotos": 1.11
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 182,
+        "pctVotos": 0.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 135,
+      "pctVotos": 0.46,
       "numCandidaturas": 1
     }
   },
@@ -1785,65 +1785,65 @@
     "nombre": "MONDARIZ",
     "censo": 3904,
     "mesas": 12,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2757,
+    "pctEscrutado": 100.0,
+    "blanco": 38,
+    "nulos": 87,
+    "votosCandidatos": 6665,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3213,
+        "pctVotos": 48.21
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2349,
+        "pctVotos": 35.24
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 815,
+        "pctVotos": 12.23
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 121,
+        "pctVotos": 1.82
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 95,
+        "pctVotos": 1.43
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 40,
+        "pctVotos": 0.6
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 32,
+      "pctVotos": 0.48,
       "numCandidaturas": 1
     }
   },
@@ -1851,65 +1851,65 @@
     "nombre": "MONDARIZ BALNEARIO",
     "censo": 650,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 507,
+    "pctEscrutado": 100.0,
+    "blanco": 16,
+    "nulos": 14,
+    "votosCandidatos": 1256,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 585,
+        "pctVotos": 46.58
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 337,
+        "pctVotos": 26.83
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 276,
+        "pctVotos": 21.97
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 34,
+        "pctVotos": 2.71
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 9,
+        "pctVotos": 0.72
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 8,
+        "pctVotos": 0.64
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 0.56,
       "numCandidaturas": 1
     }
   },
@@ -1917,65 +1917,65 @@
     "nombre": "MORAÑA",
     "censo": 3489,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2689,
+    "pctEscrutado": 100.0,
+    "blanco": 44,
+    "nulos": 50,
+    "votosCandidatos": 7138,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3945,
+        "pctVotos": 55.27
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2143,
+        "pctVotos": 30.02
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 796,
+        "pctVotos": 11.15
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 97,
+        "pctVotos": 1.36
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 92,
+        "pctVotos": 1.29
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 43,
+        "pctVotos": 0.6
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 22,
+      "pctVotos": 0.31,
       "numCandidaturas": 1
     }
   },
@@ -1983,65 +1983,65 @@
     "nombre": "MOS",
     "censo": 12513,
     "mesas": 20,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 9533,
+    "pctEscrutado": 100.0,
+    "blanco": 139,
+    "nulos": 286,
+    "votosCandidatos": 23507,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10952,
+        "pctVotos": 46.59
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8946,
+        "pctVotos": 38.06
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2690,
+        "pctVotos": 11.44
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 368,
+        "pctVotos": 1.57
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 269,
+        "pctVotos": 1.14
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 156,
+        "pctVotos": 0.66
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 126,
+      "pctVotos": 0.54,
       "numCandidaturas": 1
     }
   },
@@ -2049,65 +2049,65 @@
     "nombre": "NEVES (AS)",
     "censo": 3183,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2311,
+    "pctEscrutado": 100.0,
+    "blanco": 46,
+    "nulos": 52,
+    "votosCandidatos": 5734,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2902,
+        "pctVotos": 50.61
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1918,
+        "pctVotos": 33.45
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 692,
+        "pctVotos": 12.07
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 90,
+        "pctVotos": 1.57
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 70,
+        "pctVotos": 1.22
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 34,
+        "pctVotos": 0.59
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 28,
+      "pctVotos": 0.49,
       "numCandidaturas": 1
     }
   },
@@ -2115,65 +2115,65 @@
     "nombre": "NIGRÁN",
     "censo": 15095,
     "mesas": 23,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 11421,
+    "pctEscrutado": 100.0,
+    "blanco": 158,
+    "nulos": 213,
+    "votosCandidatos": 27430,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13765,
+        "pctVotos": 50.18
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9858,
+        "pctVotos": 35.94
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2633,
+        "pctVotos": 9.6
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 475,
+        "pctVotos": 1.73
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 404,
+        "pctVotos": 1.47
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 149,
+        "pctVotos": 0.54
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 146,
+      "pctVotos": 0.53,
       "numCandidaturas": 1
     }
   },
@@ -2181,65 +2181,65 @@
     "nombre": "OIA",
     "censo": 2561,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1914,
+    "pctEscrutado": 100.0,
+    "blanco": 20,
+    "nulos": 39,
+    "votosCandidatos": 4995,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2577,
+        "pctVotos": 51.59
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1627,
+        "pctVotos": 32.57
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 611,
+        "pctVotos": 12.23
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 77,
+        "pctVotos": 1.54
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 63,
+        "pctVotos": 1.26
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 27,
+        "pctVotos": 0.54
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 13,
+      "pctVotos": 0.26,
       "numCandidaturas": 1
     }
   },
@@ -2247,65 +2247,65 @@
     "nombre": "PAZOS DE BORBÉN",
     "censo": 2599,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1851,
+    "pctEscrutado": 100.0,
+    "blanco": 43,
+    "nulos": 101,
+    "votosCandidatos": 4315,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2190,
+        "pctVotos": 50.75
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1319,
+        "pctVotos": 30.57
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 591,
+        "pctVotos": 13.7
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 80,
+        "pctVotos": 1.85
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 78,
+        "pctVotos": 1.81
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 31,
+        "pctVotos": 0.72
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 26,
+      "pctVotos": 0.6,
       "numCandidaturas": 1
     }
   },
@@ -2313,65 +2313,65 @@
     "nombre": "PONTEVEDRA",
     "censo": 67491,
     "mesas": 106,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 50306,
+    "pctEscrutado": 100.0,
+    "blanco": 778,
+    "nulos": 769,
+    "votosCandidatos": 123832,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 56487,
+        "pctVotos": 45.62
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 46661,
+        "pctVotos": 37.68
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 14944,
+        "pctVotos": 12.07
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 2338,
+        "pctVotos": 1.89
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 2083,
+        "pctVotos": 1.68
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 676,
+        "pctVotos": 0.55
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 643,
+      "pctVotos": 0.52,
       "numCandidaturas": 1
     }
   },
@@ -2379,65 +2379,65 @@
     "nombre": "PORRIÑO (O)",
     "censo": 16595,
     "mesas": 26,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 12079,
+    "pctEscrutado": 100.0,
+    "blanco": 190,
+    "nulos": 415,
+    "votosCandidatos": 28701,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13888,
+        "pctVotos": 48.39
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9950,
+        "pctVotos": 34.67
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 3624,
+        "pctVotos": 12.63
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 479,
+        "pctVotos": 1.67
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 428,
+        "pctVotos": 1.49
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 169,
+        "pctVotos": 0.59
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 163,
+      "pctVotos": 0.57,
       "numCandidaturas": 1
     }
   },
@@ -2445,65 +2445,65 @@
     "nombre": "PORTAS",
     "censo": 2380,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1750,
+    "pctEscrutado": 100.0,
+    "blanco": 32,
+    "nulos": 38,
+    "votosCandidatos": 4559,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2550,
+        "pctVotos": 55.93
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1413,
+        "pctVotos": 30.99
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 426,
+        "pctVotos": 9.34
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 69,
+        "pctVotos": 1.51
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 58,
+        "pctVotos": 1.27
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 24,
+        "pctVotos": 0.53
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 19,
+      "pctVotos": 0.42,
       "numCandidaturas": 1
     }
   },
@@ -2511,65 +2511,65 @@
     "nombre": "POIO",
     "censo": 14152,
     "mesas": 26,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 10296,
+    "pctEscrutado": 100.0,
+    "blanco": 124,
+    "nulos": 234,
+    "votosCandidatos": 25415,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13725,
+        "pctVotos": 54.0
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7726,
+        "pctVotos": 30.4
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2632,
+        "pctVotos": 10.36
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 593,
+        "pctVotos": 2.33
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 481,
+        "pctVotos": 1.89
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 133,
+        "pctVotos": 0.52
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 125,
+      "pctVotos": 0.49,
       "numCandidaturas": 1
     }
   },
@@ -2577,65 +2577,65 @@
     "nombre": "PONTEAREAS",
     "censo": 18923,
     "mesas": 36,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 13411,
+    "pctEscrutado": 100.0,
+    "blanco": 226,
+    "nulos": 308,
+    "votosCandidatos": 31787,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 14059,
+        "pctVotos": 44.23
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11492,
+        "pctVotos": 36.15
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 4855,
+        "pctVotos": 15.27
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 503,
+        "pctVotos": 1.58
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 475,
+        "pctVotos": 1.49
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 202,
+        "pctVotos": 0.64
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 201,
+      "pctVotos": 0.63,
       "numCandidaturas": 1
     }
   },
@@ -2643,65 +2643,65 @@
     "nombre": "PONTE CALDELAS",
     "censo": 4788,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3369,
+    "pctEscrutado": 100.0,
+    "blanco": 69,
+    "nulos": 94,
+    "votosCandidatos": 8291,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4097,
+        "pctVotos": 49.42
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2591,
+        "pctVotos": 31.25
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1136,
+        "pctVotos": 13.7
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 211,
+        "pctVotos": 2.54
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 154,
+        "pctVotos": 1.86
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 53,
+        "pctVotos": 0.64
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 49,
+      "pctVotos": 0.59,
       "numCandidaturas": 1
     }
   },
@@ -2709,65 +2709,65 @@
     "nombre": "PONTECESURES",
     "censo": 2590,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1840,
+    "pctEscrutado": 100.0,
+    "blanco": 18,
+    "nulos": 34,
+    "votosCandidatos": 4464,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2268,
+        "pctVotos": 50.81
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1312,
+        "pctVotos": 29.39
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 714,
+        "pctVotos": 15.99
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 63,
+        "pctVotos": 1.41
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 55,
+        "pctVotos": 1.23
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 26,
+        "pctVotos": 0.58
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 26,
+      "pctVotos": 0.58,
       "numCandidaturas": 1
     }
   },
@@ -2775,65 +2775,65 @@
     "nombre": "REDONDELA",
     "censo": 24441,
     "mesas": 42,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 17848,
+    "pctEscrutado": 100.0,
+    "blanco": 238,
+    "nulos": 392,
+    "votosCandidatos": 42865,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE-MS",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE-MS",
+        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "color": "#9AA0A6",
+        "votos": 18243,
+        "pctVotos": 42.56
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 16481,
+        "pctVotos": 38.45
       },
       {
         "siglas": "B.N.G.",
         "nombre": "BLOQUE NACIONALISTA GALEGO",
         "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6365,
+        "pctVotos": 14.85
       },
       {
-        "siglas": "PSOE-MS",
-        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 721,
+        "pctVotos": 1.68
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 588,
+        "pctVotos": 1.37
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 273,
+        "pctVotos": 0.64
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 194,
+      "pctVotos": 0.45,
       "numCandidaturas": 1
     }
   },
@@ -2841,65 +2841,65 @@
     "nombre": "RIBADUMIA",
     "censo": 4180,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3206,
+    "pctEscrutado": 100.0,
+    "blanco": 52,
+    "nulos": 103,
+    "votosCandidatos": 8074,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4437,
+        "pctVotos": 54.95
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2520,
+        "pctVotos": 31.21
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 721,
+        "pctVotos": 8.93
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 165,
+        "pctVotos": 2.04
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 139,
+        "pctVotos": 1.72
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 52,
+        "pctVotos": 0.64
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 40,
+      "pctVotos": 0.5,
       "numCandidaturas": 1
     }
   },
@@ -2907,65 +2907,65 @@
     "nombre": "RODEIRO",
     "censo": 1921,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1368,
+    "pctEscrutado": 100.0,
+    "blanco": 22,
+    "nulos": 38,
+    "votosCandidatos": 3625,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2116,
+        "pctVotos": 58.37
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1149,
+        "pctVotos": 31.7
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 267,
+        "pctVotos": 7.37
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 34,
+        "pctVotos": 0.94
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 29,
+        "pctVotos": 0.8
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 16,
+        "pctVotos": 0.44
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 0.39,
       "numCandidaturas": 1
     }
   },
@@ -2973,65 +2973,65 @@
     "nombre": "ROSAL (O)",
     "censo": 5545,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4021,
+    "pctEscrutado": 100.0,
+    "blanco": 52,
+    "nulos": 147,
+    "votosCandidatos": 9946,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4724,
+        "pctVotos": 47.5
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3318,
+        "pctVotos": 33.36
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1497,
+        "pctVotos": 15.05
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 180,
+        "pctVotos": 1.81
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 131,
+        "pctVotos": 1.32
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 55,
+        "pctVotos": 0.55
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 41,
+      "pctVotos": 0.41,
       "numCandidaturas": 1
     }
   },
@@ -3039,65 +3039,65 @@
     "nombre": "SALCEDA DE CASELAS",
     "censo": 7433,
     "mesas": 12,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5706,
+    "pctEscrutado": 100.0,
+    "blanco": 107,
+    "nulos": 164,
+    "votosCandidatos": 13082,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6833,
+        "pctVotos": 52.23
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3809,
+        "pctVotos": 29.12
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1805,
+        "pctVotos": 13.8
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 245,
+        "pctVotos": 1.87
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 241,
+        "pctVotos": 1.84
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 88,
+        "pctVotos": 0.67
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 61,
+      "pctVotos": 0.47,
       "numCandidaturas": 1
     }
   },
@@ -3105,65 +3105,65 @@
     "nombre": "SALVATERRA DE MIÑO",
     "censo": 8429,
     "mesas": 17,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 6095,
+    "pctEscrutado": 100.0,
+    "blanco": 137,
+    "nulos": 171,
+    "votosCandidatos": 14727,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6247,
+        "pctVotos": 42.42
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5601,
+        "pctVotos": 38.03
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2264,
+        "pctVotos": 15.37
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 248,
+        "pctVotos": 1.68
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 210,
+        "pctVotos": 1.43
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 81,
+        "pctVotos": 0.55
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 76,
+      "pctVotos": 0.52,
       "numCandidaturas": 1
     }
   },
@@ -3171,65 +3171,65 @@
     "nombre": "SANXENXO",
     "censo": 14930,
     "mesas": 24,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 10728,
+    "pctEscrutado": 100.0,
+    "blanco": 167,
+    "nulos": 216,
+    "votosCandidatos": 27241,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15198,
+        "pctVotos": 55.79
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8116,
+        "pctVotos": 29.79
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2732,
+        "pctVotos": 10.03
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 510,
+        "pctVotos": 1.87
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 382,
+        "pctVotos": 1.4
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 161,
+        "pctVotos": 0.59
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 142,
+      "pctVotos": 0.52,
       "numCandidaturas": 1
     }
   },
@@ -3237,65 +3237,65 @@
     "nombre": "SILLEDA",
     "censo": 7133,
     "mesas": 17,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5140,
+    "pctEscrutado": 100.0,
+    "blanco": 95,
+    "nulos": 140,
+    "votosCandidatos": 13282,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7501,
+        "pctVotos": 56.47
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3854,
+        "pctVotos": 29.02
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1371,
+        "pctVotos": 10.32
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 211,
+        "pctVotos": 1.59
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 192,
+        "pctVotos": 1.45
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 83,
+        "pctVotos": 0.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 70,
+      "pctVotos": 0.53,
       "numCandidaturas": 1
     }
   },
@@ -3303,65 +3303,65 @@
     "nombre": "SOUTOMAIOR",
     "censo": 6143,
     "mesas": 10,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4490,
+    "pctEscrutado": 100.0,
+    "blanco": 64,
+    "nulos": 94,
+    "votosCandidatos": 11397,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4768,
+        "pctVotos": 41.84
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3569,
+        "pctVotos": 31.32
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2546,
+        "pctVotos": 22.34
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 208,
+        "pctVotos": 1.83
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 188,
+        "pctVotos": 1.65
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 71,
+        "pctVotos": 0.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 47,
+      "pctVotos": 0.41,
       "numCandidaturas": 1
     }
   },
@@ -3369,65 +3369,65 @@
     "nombre": "TOMIÑO",
     "censo": 11347,
     "mesas": 18,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 8019,
+    "pctEscrutado": 100.0,
+    "blanco": 136,
+    "nulos": 244,
+    "votosCandidatos": 20099,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9544,
+        "pctVotos": 47.48
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6784,
+        "pctVotos": 33.75
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 2784,
+        "pctVotos": 13.85
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 396,
+        "pctVotos": 1.97
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 323,
+        "pctVotos": 1.61
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 148,
+        "pctVotos": 0.74
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 120,
+      "pctVotos": 0.6,
       "numCandidaturas": 1
     }
   },
@@ -3435,65 +3435,65 @@
     "nombre": "TUI",
     "censo": 13940,
     "mesas": 25,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 10402,
+    "pctEscrutado": 100.0,
+    "blanco": 186,
+    "nulos": 321,
+    "votosCandidatos": 25208,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 12710,
+        "pctVotos": 50.42
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8068,
+        "pctVotos": 32.01
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 3303,
+        "pctVotos": 13.1
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 433,
+        "pctVotos": 1.72
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 427,
+        "pctVotos": 1.69
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 150,
+        "pctVotos": 0.6
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 117,
+      "pctVotos": 0.46,
       "numCandidaturas": 1
     }
   },
@@ -3501,65 +3501,65 @@
     "nombre": "VALGA",
     "censo": 4850,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3655,
+    "pctEscrutado": 100.0,
+    "blanco": 61,
+    "nulos": 84,
+    "votosCandidatos": 9385,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5570,
+        "pctVotos": 59.35
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2333,
+        "pctVotos": 24.86
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1129,
+        "pctVotos": 12.03
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 162,
+        "pctVotos": 1.73
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 109,
+        "pctVotos": 1.16
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 47,
+        "pctVotos": 0.5
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 35,
+      "pctVotos": 0.37,
       "numCandidaturas": 1
     }
   },
@@ -3567,65 +3567,65 @@
     "nombre": "VIGO",
     "censo": 236857,
     "mesas": 372,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 170562,
+    "pctEscrutado": 98.86,
+    "blanco": 2107,
+    "nulos": 2672,
+    "votosCandidatos": 400783,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE-MS",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE-MS",
+        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "color": "#9AA0A6",
+        "votos": 180276,
+        "pctVotos": 44.98
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 150104,
+        "pctVotos": 37.45
       },
       {
         "siglas": "B.N.G.",
         "nombre": "BLOQUE NACIONALISTA GALEGO",
         "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 52024,
+        "pctVotos": 12.98
       },
       {
-        "siglas": "PSOE-MS",
-        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 6910,
+        "pctVotos": 1.72
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 6768,
+        "pctVotos": 1.69
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2465,
+        "pctVotos": 0.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2236,
+      "pctVotos": 0.56,
       "numCandidaturas": 1
     }
   },
@@ -3633,65 +3633,65 @@
     "nombre": "VILABOA",
     "censo": 4987,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3435,
+    "pctEscrutado": 100.0,
+    "blanco": 60,
+    "nulos": 108,
+    "votosCandidatos": 8780,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3912,
+        "pctVotos": 44.56
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3726,
+        "pctVotos": 42.44
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 845,
+        "pctVotos": 9.62
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 117,
+        "pctVotos": 1.33
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 94,
+        "pctVotos": 1.07
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 51,
+        "pctVotos": 0.58
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 35,
+      "pctVotos": 0.4,
       "numCandidaturas": 1
     }
   },
@@ -3699,65 +3699,65 @@
     "nombre": "VILA DE CRUCES",
     "censo": 4215,
     "mesas": 11,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2930,
+    "pctEscrutado": 100.0,
+    "blanco": 71,
+    "nulos": 67,
+    "votosCandidatos": 7588,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4691,
+        "pctVotos": 61.82
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1605,
+        "pctVotos": 21.15
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 972,
+        "pctVotos": 12.81
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 128,
+        "pctVotos": 1.69
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 119,
+        "pctVotos": 1.57
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
+        "color": "#9AA0A6",
+        "votos": 38,
+        "pctVotos": 0.5
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 35,
+      "pctVotos": 0.46,
       "numCandidaturas": 1
     }
   },
@@ -3765,65 +3765,65 @@
     "nombre": "VILAGARCÍA DE AROUSA",
     "censo": 30984,
     "mesas": 57,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 22148,
+    "pctEscrutado": 100.0,
+    "blanco": 373,
+    "nulos": 493,
+    "votosCandidatos": 53772,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 24806,
+        "pctVotos": 46.13
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20232,
+        "pctVotos": 37.63
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 6423,
+        "pctVotos": 11.94
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 894,
+        "pctVotos": 1.66
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 819,
+        "pctVotos": 1.52
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 300,
+        "pctVotos": 0.56
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 298,
+      "pctVotos": 0.55,
       "numCandidaturas": 1
     }
   },
@@ -3831,65 +3831,65 @@
     "nombre": "VILANOVA DE AROUSA",
     "censo": 8602,
     "mesas": 14,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 6516,
+    "pctEscrutado": 100.0,
+    "blanco": 86,
+    "nulos": 161,
+    "votosCandidatos": 16510,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10280,
+        "pctVotos": 62.27
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4358,
+        "pctVotos": 26.4
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 1204,
+        "pctVotos": 7.29
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 270,
+        "pctVotos": 1.64
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 269,
+        "pctVotos": 1.63
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 75,
+        "pctVotos": 0.45
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 54,
+      "pctVotos": 0.33,
       "numCandidaturas": 1
     }
   },
@@ -3897,65 +3897,65 @@
     "nombre": "ILLA DE AROUSA (A)",
     "censo": 4098,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3146,
+    "pctEscrutado": 100.0,
+    "blanco": 58,
+    "nulos": 58,
+    "votosCandidatos": 8083,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE-MS",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PSOE-MS",
+        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "color": "#9AA0A6",
+        "votos": 3258,
+        "pctVotos": 40.31
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2956,
+        "pctVotos": 36.57
       },
       {
         "siglas": "B.N.G.",
         "nombre": "BLOQUE NACIONALISTA GALEGO",
         "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1548,
+        "pctVotos": 19.15
       },
       {
-        "siglas": "PSOE-MS",
-        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 130,
+        "pctVotos": 1.61
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 102,
+        "pctVotos": 1.26
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCANOS EN BRANCO PARA DEIXAR ESCANOS BALEIROS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 45,
+        "pctVotos": 0.56
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 44,
+      "pctVotos": 0.54,
       "numCandidaturas": 1
     }
   },
@@ -3963,65 +3963,65 @@
     "nombre": "CERDEDO COTOBADE",
     "censo": 4877,
     "mesas": 15,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3669,
+    "pctEscrutado": 100.0,
+    "blanco": 55,
+    "nulos": 71,
+    "votosCandidatos": 9484,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTG",
-        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "B.N.G.",
-        "nombre": "BLOQUE NACIONALISTA GALEGO",
-        "color": "#860033",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5185,
+        "pctVotos": 54.67
       },
       {
         "siglas": "PSOE-MS",
         "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3171,
+        "pctVotos": 33.44
+      },
+      {
+        "siglas": "B.N.G.",
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "color": "#860033",
+        "votos": 761,
+        "pctVotos": 8.02
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 139,
+        "pctVotos": 1.47
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 128,
+        "pctVotos": 1.35
+      },
+      {
+        "siglas": "PCTG",
+        "nombre": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA",
+        "color": "#9AA0A6",
+        "votos": 58,
+        "pctVotos": 0.61
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 42,
+      "pctVotos": 0.44,
       "numCandidaturas": 1
     }
   }
