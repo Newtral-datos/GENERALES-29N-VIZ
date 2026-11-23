@@ -8,9 +8,9 @@
  * - `sinDatos`: ni un voto escrutado. **Gris liso.** Es el estado real a las
  *   20:00 del 29N y durante todo el simulacro. No lleva rayas: no hay empate,
  *   hay ausencia de datos.
- * - `empate`: varios comparten el máximo. **Rayas diagonales con los colores
- *   de los empatados**, que es más informativo que un gris anónimo: se ve
- *   quiénes se lo están jugando.
+ * - `empate`: varios comparten el máximo. **Hoy se pinta del color de quien
+ *   lleva más votos** (ver `RAYADO_EMPATES`), y que es un empate se dice en el
+ *   popup y en la nota al pie, no con el relleno.
  * - `claro`: uno solo en el máximo. Color del partido.
  *
  * Lo usan los tres mapas (provincias, municipios y Senado), así que vive aquí
@@ -19,6 +19,26 @@
  */
 
 export const GRIS_SIN_DATOS = '#9AA0A6';
+
+/**
+ * Cómo se pinta un empate en los mapas: `false` = color del más votado (lo que
+ * está activo), `true` = rayas diagonales con los colores de los empatados.
+ *
+ * **Poner esto a `true` devuelve el rayado tal cual estaba**, sin tocar nada
+ * más: `idPatron`, `patronesDe` y `PatronesEmpate.svelte` siguen escritos y
+ * conectados a los tres mapas, y son los que generan las rayas a 45° con un
+ * filete blanco de 0,6 px entre color y color (ese filete existe porque dos
+ * colores claros del catálogo juntos —EH Bildu `#A4CE4E`, ERC `#FFB400`— se
+ * quedan en ~1,7:1 contra el papel y serían ilegibles pegados).
+ *
+ * Se cambió al color del más votado el 23/11/2026 por decisión editorial. El
+ * matiz que había detrás del rayado sigue siendo cierto y conviene recordarlo:
+ * el "ganador" de un empate lo decide un desempate por votos, así que pintarlo
+ * como una victoria limpia dice más de lo que el dato sabe. Por eso **el empate
+ * se sigue declarando** en el popup del territorio y en la nota al pie del
+ * mapa: lo que se ha quitado es el relleno, no la información.
+ */
+export const RAYADO_EMPATES = false;
 
 export type EstadoGanador = 'sinDatos' | 'empate' | 'claro';
 
@@ -51,8 +71,13 @@ export function idPatron(ganador: Ganador | null | undefined): string | null {
 export function fillDe(ganador: Ganador | null | undefined): string {
 	if (!ganador) return 'var(--paper)';
 	if (ganador.estado === 'sinDatos') return GRIS_SIN_DATOS;
-	const patron = idPatron(ganador);
-	if (patron) return `url(#${patron})`;
+	if (RAYADO_EMPATES) {
+		const patron = idPatron(ganador);
+		if (patron) return `url(#${patron})`;
+	}
+	// En un empate, `ganador.color` es el del más votado: el pipeline desempata
+	// por votos (ver `_comun_29n.ganador_de`), así que esto ya es "el color de
+	// quien tiene más porcentaje de voto" sin recalcular nada aquí.
 	return ganador.color ?? GRIS_SIN_DATOS;
 }
 
@@ -78,8 +103,7 @@ export function patronesDe(ganadores: (Ganador | null | undefined)[]) {
  * Es lo que necesita el popup del mapa de la home: ahí el subtítulo va pegado
  * al nombre del territorio y encima de una tabla de tres filas, y la lista de
  * siglas lo partía en dos líneas apelotonando el bloque. No se pierde quién
- * empata — están en las propias filas de la tabla y en los colores del rayado
- * de la región.
+ * empata — están en las propias filas de la tabla del popup.
  */
 export function etiquetaDe(
 	ganador: Ganador | null | undefined,

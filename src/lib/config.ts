@@ -25,6 +25,19 @@ export const ESCRUTINIO_ABIERTO = true;
 export const SELLO_PREVIO = { fecha: '2026-11-29', hora: '00:00' };
 
 /**
+ * Cada cuántos minutos se resalta el botón de "Actualizar" del faldón.
+ *
+ * El panel pide los JSON una sola vez, al cargar: quien deje la pestaña abierta
+ * se queda congelado en el envío que hubiera entonces. Esto es el aviso de que
+ * conviene recargar, y va **por reloj**, al ritmo con el que se despliega la
+ * noche electoral (3-4 min). Que sea por reloj significa que a veces pedirá
+ * recargar para ver lo mismo —si una vuelta no trajo envío nuevo—, y por eso el
+ * botón dice "Actualizar" y no "hay datos nuevos": avisa de que el dato que se
+ * está mirando tiene ya unos minutos, que es lo único que sabe de verdad.
+ */
+export const MINUTOS_PARA_AVISAR = 4;
+
+/**
  * De qué convocatoria lee los datos el panel.
  *
  * - `'23j'`: julio de 2023, el contenido de prueba con el que se ha construido

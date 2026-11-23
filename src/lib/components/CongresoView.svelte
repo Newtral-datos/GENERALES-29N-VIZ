@@ -42,7 +42,7 @@
 				{comunidades}
 				{provincias}
 				buscador
-				nota={`Partido ganador por circunscripción — ${CONVOCATORIA} — pasa el ratón para un vistazo, haz clic para ver el detalle completo. Gris = sin escrutar; rayado = empate`}
+				nota={`Partido ganador por circunscripción — ${CONVOCATORIA} — pasa el ratón para un vistazo, haz clic para ver el detalle completo. Gris = sin escrutar; en un empate se pinta el color del más votado y el popup lo indica`}
 			>
 				{#snippet popup(a)}
 					<table class="popup-table">

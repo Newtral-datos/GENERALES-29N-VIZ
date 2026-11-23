@@ -8,6 +8,7 @@
       "siglas": "PP",
       "nombre": "PARTIDO POPULAR",
       "escanos": 137,
+      "pctVotos": 33.06,
       "color": "#0557A1",
       "lado": 2
     },
@@ -15,6 +16,7 @@
       "siglas": "PSOE",
       "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
       "escanos": 121,
+      "pctVotos": 31.68,
       "color": "#E10819",
       "lado": 1
     },
@@ -22,6 +24,7 @@
       "siglas": "VOX",
       "nombre": "VOX",
       "escanos": 33,
+      "pctVotos": 12.38,
       "color": "#02C119",
       "lado": 2
     },
@@ -29,6 +32,7 @@
       "siglas": "SUMAR",
       "nombre": "SUMAR",
       "escanos": 31,
+      "pctVotos": 12.33,
       "color": "#E0218A",
       "lado": 1
     },
@@ -36,6 +40,7 @@
       "siglas": "ERC",
       "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
       "escanos": 7,
+      "pctVotos": 1.89,
       "color": "#FFB400",
       "lado": 1
     },
@@ -43,6 +48,7 @@
       "siglas": "JxCAT - JUNTS",
       "nombre": "JUNTS PER CATALUNYA - JUNTS",
       "escanos": 7,
+      "pctVotos": 1.6,
       "color": "#0B8457",
       "lado": 2
     },
@@ -50,6 +56,7 @@
       "siglas": "EH Bildu",
       "nombre": "EUSKAL HERRIA BILDU",
       "escanos": 6,
+      "pctVotos": 1.36,
       "color": "#A4CE4E",
       "lado": 1
     },
@@ -57,6 +64,7 @@
       "siglas": "EAJ-PNV",
       "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
       "escanos": 5,
+      "pctVotos": 1.12,
       "color": "#00843D",
       "lado": 2
     },
@@ -64,13 +72,15 @@
       "siglas": "B.N.G.",
       "nombre": "BLOQUE NACIONALISTA GALEGO",
       "escanos": 1,
-      "color": "#860033",
+      "pctVotos": 0.62,
+      "color": "#5EB5E5",
       "lado": 1
     },
     {
       "siglas": "CCa",
       "nombre": "COALICIÓN CANARIA",
       "escanos": 1,
+      "pctVotos": 0.47,
       "color": "#FFCC00",
       "lado": 2
     },
@@ -78,6 +88,7 @@
       "siglas": "U.P.N.",
       "nombre": "UNIÓN DEL PUEBLO NAVARRO",
       "escanos": 1,
+      "pctVotos": 0.21,
       "color": "#1B3A6B",
       "lado": 2
     }

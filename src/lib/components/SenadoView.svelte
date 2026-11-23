@@ -37,7 +37,7 @@
 			<MapaTerritorios
 				comunidades={comunidadesSenado}
 				provincias={provinciasSenado}
-				nota={`Senadores de elección directa — ${CONVOCATORIA} — pasa el ratón para ver el detalle. Gris = sin escrutar; rayado = empate a escaños`}
+				nota={`Senadores de elección directa — ${CONVOCATORIA} — pasa el ratón para ver el detalle. Gris = sin escrutar; en un empate a escaños se pinta el color del más votado y el popup lo indica`}
 			>
 				{#snippet popup(a)}
 					<div class="popup-senado">

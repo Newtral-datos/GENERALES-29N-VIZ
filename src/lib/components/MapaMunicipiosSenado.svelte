@@ -42,8 +42,9 @@
 		return natcode.slice(-5);
 	}
 
-	// Gris sin escrutar, rayado si empatan, color del más votado. El estado lo
-	// marca el pipeline (#lib/empates), igual que en los mapas del Congreso.
+	// Gris sin escrutar y color del más votado en todo lo demás, empate incluido
+	// (ver RAYADO_EMPATES en #lib/empates). El estado lo marca el pipeline, igual
+	// que en los mapas del Congreso.
 	function colorFor(natcode: string): string {
 		return fillDe(datos?.[ine(natcode)]?.ganador);
 	}
@@ -141,9 +142,9 @@
 			</div>
 
 			<p class="nota">
-				Partido más votado al Senado en cada municipio — gris = sin escrutar;
-				rayado = empate. Son votos a candidatos, no papeletas: con voto limitado
-				cada votante marca hasta tres
+				Partido más votado al Senado en cada municipio — gris = sin escrutar; en un
+				empate se pinta el color del más votado. Son votos a candidatos, no
+				papeletas: con voto limitado cada votante marca hasta tres
 			</p>
 		{/if}
 	</div>

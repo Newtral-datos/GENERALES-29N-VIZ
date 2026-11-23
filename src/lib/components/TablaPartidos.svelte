@@ -74,6 +74,7 @@
 							<th class="th-left">Partido</th>
 							<th>Votos</th>
 							<th>%</th>
+							<th>Dif. %</th>
 							<th>Escaños</th>
 							<th>Dif.</th>
 						</tr>
@@ -81,6 +82,10 @@
 					<tbody>
 						{#each filas as p (p.siglas)}
 							{@const dif = p.escanosAnterior === null ? null : p.escanos - p.escanosAnterior}
+							{@const difPct =
+								p.pctVotosAnterior === null || p.pctVotosAnterior === undefined
+									? null
+									: Math.round((p.pctVotos - p.pctVotosAnterior) * 100) / 100}
 							<tr>
 								<td>
 									<div class="party-cell">
@@ -90,6 +95,15 @@
 								</td>
 								<td class="num">{formatMiles(p.votos)}</td>
 								<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
+								<td class="num">
+									{#if difPct === null}
+										<span class="dif sin-dato" title="No se presentó con esta marca en {CONVOCATORIA_ANTERIOR}, no es comparable">—</span>
+									{:else}
+										<span class="dif" class:up={difPct > 0} class:down={difPct < 0}>
+											{difPct > 0 ? '+' : ''}{difPct.toLocaleString('es-ES', { minimumFractionDigits: 2 })}
+										</span>
+									{/if}
+								</td>
 								<td class="num seats">
 									<!-- Número y flecha en dos columnas fijas: con la flecha
 									     dentro de una celda centrada, las filas que la llevan

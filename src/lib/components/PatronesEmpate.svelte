@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { patronesDe, type Ganador } from '#lib/empates';
+	import { patronesDe, RAYADO_EMPATES, type Ganador } from '#lib/empates';
 
 	/**
 	 * Los `<pattern>` de rayas que necesitan los mapas para pintar los empates.
@@ -16,7 +16,11 @@
 	 */
 	let { ganadores }: { ganadores: (Ganador | null | undefined)[] } = $props();
 
-	let patrones = $derived(patronesDe(ganadores));
+	// Con el rayado desactivado no se declara ningún `<pattern>`: nadie los
+	// referencia, así que serían peso muerto en el DOM de cada mapa. El
+	// componente se queda conectado para que volver al rayado sea cambiar
+	// `RAYADO_EMPATES` y nada más.
+	let patrones = $derived(RAYADO_EMPATES ? patronesDe(ganadores) : []);
 	const ANCHO = 5;
 </script>
 

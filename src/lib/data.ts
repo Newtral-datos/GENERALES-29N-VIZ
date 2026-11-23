@@ -188,6 +188,9 @@ export type Partido = {
 	// (p. ej. SUMAR no existía en 2019, U.P.N. no se presentó sola) — no hay
 	// cifra "propia" con la que comparar, no es un 0 real.
 	escanosAnterior: number | null;
+	// Mismo criterio de null. Opcional porque los JSON de 23J no lo traen en el
+	// bloque nacional: solo los del 29N.
+	pctVotosAnterior?: number | null;
 };
 
 export type PartidoAnterior = { siglas: string; nombre: string; escanos: number; color: string; lado: number };

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import logo from '#lib/assets/logo-newtral.png';
-	import { ESCRUTINIO_ABIERTO, SELLO_PREVIO } from '#lib/config';
+	import { ESCRUTINIO_ABIERTO, MINUTOS_PARA_AVISAR, SELLO_PREVIO } from '#lib/config';
 	import { getResultados, getParticipacion } from '#lib/data';
 
 	let escrutinio = $state(0);
@@ -11,6 +11,18 @@
 	// es cero, no un número de relleno (ver SELLO_PREVIO en config.ts).
 	let objetivo = $state(0);
 	let sello = $state<Sello | null>(null);
+
+	// Aviso de "esto que ves ya tiene unos minutos". Va por reloj, no comprueba
+	// si hay envío nuevo (ver MINUTOS_PARA_AVISAR en config.ts). Se enciende una
+	// vez y se queda encendido: al pulsar, la página se recarga y vuelve a
+	// empezar la cuenta.
+	let avisoActualizar = $state(false);
+
+	$effect(() => {
+		if (!ESCRUTINIO_ABIERTO) return;
+		const t = setTimeout(() => (avisoActualizar = true), MINUTOS_PARA_AVISAR * 60 * 1000);
+		return () => clearTimeout(t);
+	});
 
 	/**
 	 * El sello de tiempo sale del fichero que se haya actualizado más tarde.
@@ -110,7 +122,31 @@
 			En directo
 		</span>
 
-		<span class="fecha-actualizacion">{fechaActualizacion}</span>
+		<!-- Fecha y botón van juntos en un envoltorio porque en móvil bajan a una
+		     segunda línea: en una sola fila, con el rótulo, "en directo" y el
+		     logo, a 375px se solapaban. En escritorio el envoltorio es
+		     `display:contents`, así que la fila sigue siendo exactamente la
+		     misma de antes. -->
+		<div class="linea-actualizacion">
+			<span class="fecha-actualizacion">{fechaActualizacion}</span>
+
+			{#if ESCRUTINIO_ABIERTO}
+			<!-- Recarga la página entera a propósito: el panel pide los JSON al
+			     montar, así que volver a pedirlos sin recargar exigiría avisar a
+			     los quince componentes que leen datos. La contrapartida conocida
+			     es que el simulador de pactos pierde la apuesta en curso, pero
+			     solo cuando el usuario decide actualizar. -->
+			<button
+				type="button"
+				class="actualizar"
+				class:avisa={avisoActualizar}
+				onclick={() => location.reload()}
+			>
+				{#if avisoActualizar}<span class="actualizar-dot"></span>{/if}
+				Actualizar
+			</button>
+			{/if}
+		</div>
 
 		<span class="logo-badge">
 			<img class="logo" src={logo} alt="Newtral" />
@@ -171,6 +207,12 @@
 		text-transform: uppercase;
 	}
 
+	.linea-actualizacion {
+		/* Transparente: sus dos hijos siguen siendo items del flex del cabecero,
+		   así que en escritorio nada cambia respecto a antes. */
+		display: contents;
+	}
+
 	.fecha-actualizacion {
 		/* Que se recorte la fecha antes que empujar al logo fuera de la fila. */
 		min-width: 0;
@@ -210,6 +252,72 @@
 		height: 4px;
 		background: var(--stamp);
 		flex-shrink: 0;
+	}
+
+	.actualizar {
+		display: inline-flex;
+		align-items: center;
+		gap: 5px;
+		padding: 3px 8px;
+		background: var(--paper);
+		border: 1px solid var(--border);
+		font-family: var(--font-display);
+		font-size: 9px;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--grey);
+		cursor: pointer;
+		flex-shrink: 0;
+		/* Sombra de sello al pasar: es la firma de "esto es clicable" del
+		   workspace (AGENTS.md), no una sombra difuminada nueva. */
+		transition:
+			transform 0.12s ease,
+			box-shadow 0.12s ease,
+			color 0.12s ease,
+			border-color 0.12s ease;
+	}
+
+	.actualizar:hover {
+		color: var(--ink);
+		border-color: var(--ink);
+		transform: translate(-2px, -2px);
+		box-shadow: var(--shadow-hard);
+	}
+
+	/* Encendido: mismo teal del indicador "en directo", con el punto latiendo.
+	   No dice "hay datos nuevos" porque no lo sabe — avisa de que lo que se está
+	   mirando ya tiene unos minutos. */
+	.actualizar.avisa {
+		border-color: var(--c);
+		color: var(--cd);
+	}
+
+	.actualizar-dot {
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		background: var(--c);
+		flex-shrink: 0;
+		animation: latido 1.8s ease-in-out infinite;
+	}
+
+	@keyframes latido {
+		0%,
+		100% {
+			opacity: 1;
+			transform: scale(1);
+		}
+		50% {
+			opacity: 0.45;
+			transform: scale(0.75);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.actualizar-dot {
+			animation: none;
+		}
 	}
 
 	.label {
@@ -289,6 +397,31 @@
 	@media (max-width: 640px) {
 		.masthead {
 			padding: 8px 16px 0;
+			gap: 6px;
+			flex-wrap: wrap;
+		}
+
+		/* A 375px la fila ya lleva rótulo, "en directo", fecha, botón y logo. El
+		   botón se queda en su punto + "Act." para que la fecha no se recorte a
+		   la mitad y nada se salga: la página no debe scrollear en horizontal. */
+		/* El envoltorio ocupa el ancho entero, así que sin `order` el logo —que va
+		   después en el HTML— caía a una tercera línea. Con esto el cabecero
+		   queda en dos: arriba el rótulo, "en directo" y el logo; debajo la
+		   fecha y el botón, que así cae justo bajo el logo. */
+		.logo-badge {
+			order: 1;
+		}
+
+		.linea-actualizacion {
+			order: 2;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 8px;
+			flex-basis: 100%;
+			width: 100%;
+			min-width: 0;
+			padding-top: 2px;
 		}
 
 		.row {
@@ -307,8 +440,5 @@
 			height: 8px;
 		}
 
-		.logo-badge {
-			right: 16px;
-		}
 	}
 </style>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { CONVOCATORIA } from '#lib/config';
 	import { getResultadosSenado, type NacionalSenado } from '#lib/data';
+	import { ordenCamara } from '#lib/orden-camara';
 
 	let nacional = $state<NacionalSenado | null>(null);
 
@@ -100,14 +101,10 @@
 	let grupos = $derived.by<Grupo[]>(() => {
 		if (!nacional) return [];
 
-		const izquierda = nacional.partidos
-			.filter((p) => p.lado === 1)
-			.sort((a, b) => b.escanos - a.escanos);
-		const derecha = nacional.partidos
-			.filter((p) => p.lado === 2)
-			.sort((a, b) => a.escanos - b.escanos);
-
-		const secuencia: Omit<Grupo, 'celdas'>[] = [...izquierda, ...derecha].map((p) => ({
+		const secuencia: Omit<Grupo, 'celdas'>[] = ordenCamara(
+			nacional.partidos,
+			(p) => p.escanos
+		).map((p) => ({
 			clave: p.siglas,
 			siglas: p.siglas,
 			nombre: p.nombre,

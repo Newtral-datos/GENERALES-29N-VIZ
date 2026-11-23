@@ -49,8 +49,9 @@
 
 	// `principales[0]` era el primero al ordenar, que con 0 votos escrutados no
 	// es un ganador. Ahora el estado lo marca el pipeline (ver #lib/empates):
-	// gris liso sin escrutar, rayado con los colores de los empatados si hay
-	// empate real — en municipios pequeños pasa de verdad.
+	// gris liso sin escrutar y color del más votado en el resto. Los empates son
+	// reales en municipios pequeños y se declaran en el popup, no en el relleno
+	// (ver RAYADO_EMPATES en #lib/empates).
 	function colorFor(natcode: string): string {
 		const r = resultadoFor(natcode);
 		if (!r) return 'var(--paper)';
@@ -159,7 +160,8 @@
 			</svg>
 			<p class="nota">
 				Partido ganador por municipio — {CONVOCATORIA} — pasa el ratón para un vistazo, haz clic para el
-				detalle completo. Gris = sin escrutar; rayado = empate
+				detalle completo. Gris = sin escrutar; en un empate se pinta el color del más
+				votado y el popup lo indica
 			</p>
 		</div>
 	{/if}

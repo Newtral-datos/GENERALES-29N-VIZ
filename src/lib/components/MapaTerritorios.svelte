@@ -92,10 +92,10 @@
 	// cambia de qué diccionario se leen.
 	let ambitos = $derived(nivel === 'ccaa' ? comunidades : provincias);
 
-	// Gris liso si no hay nada escrutado, rayado con los colores de los
-	// empatados si varios comparten el máximo, color del partido si gana uno
-	// solo. Ver #lib/empates: el estado lo marca el pipeline, aquí no se
-	// recalcula nada.
+	// Gris liso si no hay nada escrutado y color del partido en el resto —
+	// también en un empate, donde es el del más votado (ver RAYADO_EMPATES en
+	// #lib/empates, que devuelve el rayado si algún día se quiere). El estado lo
+	// marca el pipeline, aquí no se recalcula nada.
 	// Sin un solo ámbito en los datos —el panel desplegado antes de que el
 	// pipeline haya publicado nada, o una petición que falla— el mapa se pinta
 	// entero en el gris de "sin escrutar" en vez de en blanco: a las 20:00 del

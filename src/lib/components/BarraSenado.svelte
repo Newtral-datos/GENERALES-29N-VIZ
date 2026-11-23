@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { CONVOCATORIA, CONVOCATORIA_ANTERIOR } from '#lib/config';
 	import { getResultadosSenado, type NacionalSenado } from '#lib/data';
+	import { ordenCamara } from '#lib/orden-camara';
+	import { tintaSobre } from '#lib/color';
 
 	let nacional = $state<NacionalSenado | null>(null);
 
@@ -36,23 +38,18 @@
 
 	let sinEscrutinio = $derived(!!nacional && nacional.partidos.length === 0);
 
-	let segmentsLeft = $derived.by(() => {
-		if (!nacional) return [];
-		return nacional.partidos
-			.filter((p) => p.lado === 1)
-			.sort((a, b) => b.escanos - a.escanos)
-			.map((p) => ({ ...p, pct: electos ? (p.escanos / electos) * 100 : 0 }));
-	});
-
-	let segmentsRight = $derived.by(() => {
-		if (!nacional) return [];
-		return nacional.partidos
-			.filter((p) => p.lado === 2)
-			.sort((a, b) => a.escanos - b.escanos)
-			.map((p) => ({ ...p, pct: electos ? (p.escanos / electos) * 100 : 0 }));
-	});
-
-	let segments = $derived([...segmentsLeft, ...segmentsRight]);
+	// Mismo orden que el Congreso, del mismo módulo: lado del catálogo, grandes
+	// hacia fuera y VOX fijado al borde derecho (ver #lib/orden-camara). Antes
+	// era esta misma ordenación copiada aquí, así que las dos cámaras podían
+	// acabar leyéndose distinto con solo tocar una.
+	let segments = $derived(
+		nacional
+			? ordenCamara(nacional.partidos, (p) => p.escanos).map((p) => ({
+					...p,
+					pct: electos ? (p.escanos / electos) * 100 : 0
+				}))
+			: []
+	);
 
 	/**
 	 * Los senadores electos en la convocatoria anterior, a la misma escala.
@@ -72,9 +69,10 @@
 	let segmentosAnterior = $derived.by(() => {
 		const previo = nacional?.anterior?.partidos ?? [];
 		if (!previo.length || !electos) return [];
-		const izq = previo.filter((p) => p.lado !== 2).sort((a, b) => b.escanos - a.escanos);
-		const der = previo.filter((p) => p.lado === 2).sort((a, b) => a.escanos - b.escanos);
-		return [...izq, ...der].map((p) => ({ ...p, pct: (p.escanos / electos) * 100 }));
+		return ordenCamara(previo, (p) => p.escanos).map((p) => ({
+			...p,
+			pct: (p.escanos / electos) * 100
+		}));
 	});
 
 	let mitadElectos = $derived(electos ? Math.floor(electos / 2) + 1 : 0);
@@ -115,7 +113,10 @@
 {:else}
 	<div class="barra-wrap">
 		<div class="barra">
-			{#each segmentsLeft as s (s.siglas)}
+			<!-- Un solo recorrido: `segments` ya viene ordenado de izquierda a
+			     derecha (#lib/orden-camara). Antes eran dos bucles idénticos, uno
+			     por bloque, con el mismo marcado copiado. -->
+			{#each segments as s (s.siglas)}
 				<div
 					class="seg"
 					style="width:{s.pct}%; background:{s.color}"
@@ -126,22 +127,7 @@
 					onmouseleave={onSegLeave}
 				>
 					{#if s.pct >= 4}
-						<span class="seg-label">{s.escanos}</span>
-					{/if}
-				</div>
-			{/each}
-			{#each segmentsRight as s (s.siglas)}
-				<div
-					class="seg"
-					style="width:{s.pct}%; background:{s.color}"
-					role="img"
-					aria-label="{s.nombre}: {s.escanos} senadores"
-					onmouseenter={(e) => onSegEnter(e, s.siglas)}
-					onmousemove={onSegMove}
-					onmouseleave={onSegLeave}
-				>
-					{#if s.pct >= 4}
-						<span class="seg-label">{s.escanos}</span>
+						<span class="seg-label" style="color:{tintaSobre(s.color)}">{s.escanos}</span>
 					{/if}
 				</div>
 			{/each}
@@ -219,7 +205,6 @@
 	}
 
 	.seg-label {
-		color: #fff;
 		font-family: var(--font-mono);
 		font-size: 11px;
 		font-weight: 700;

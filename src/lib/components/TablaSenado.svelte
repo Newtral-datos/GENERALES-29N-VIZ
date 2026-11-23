@@ -23,7 +23,7 @@
 					<thead>
 						<tr>
 							<th class="th-left">Partido</th>
-							<th>Escaños</th>
+							<th>Senadores</th>
 							<th>Dif.</th>
 						</tr>
 					</thead>
@@ -46,10 +46,16 @@
 									</div>
 								</td>
 								<td class="num seats">
-									{p.escanos}
-									{#if dif !== null && dif !== 0}
-										<span class="tendencia" class:sube={dif > 0} class:baja={dif < 0}>{dif > 0 ? '▲' : '▼'}</span>
-									{/if}
+									<!-- Mismo patrón que TablaPartidos: número y flecha en dos
+									     columnas fijas. Con la flecha suelta dentro de la celda,
+									     las filas que la llevan desplazaban el número y la
+									     columna no quedaba recta. El hueco se reserva siempre. -->
+									<span class="seats-cell">
+										<span class="seats-num">{p.escanos}</span>
+										<span class="tendencia" class:sube={dif !== null && dif > 0} class:baja={dif !== null && dif < 0}>
+											{#if dif !== null && dif !== 0}{dif > 0 ? '▲' : '▼'}{/if}
+										</span>
+									</span>
 								</td>
 								<td class="num">
 									{#if dif === null}
@@ -66,7 +72,12 @@
 				</table>
 			</div>
 			<p class="nota">Senadores de elección directa — no incluye a los designados por las comunidades autónomas</p>
-			<p class="nota">Columna "Dif." — comparativa con el Senado de {CONVOCATORIA_ANTERIOR}</p>
+			<p class="nota">
+				"Senado de Progreso" agrupa las seis candidaturas con las que el PSOE concurre a la
+				cámara alta: PSOE y PSC, la coalición Senado de Progreso con sus variantes
+				territoriales, y las cuatro de Baleares (Mallorca, Menorca, Eivissa y Formentera).
+				SA UNIÓ de Formentera (PP-Compromís) se cuenta al PP
+			</p>
 		{/if}
 	</div>
 </div>
@@ -183,9 +194,20 @@
 		color: var(--ink);
 	}
 
+	.seats-cell {
+		display: inline-grid;
+		grid-template-columns: 2.4em 0.9em;
+		align-items: baseline;
+	}
+
+	.seats-num {
+		text-align: right;
+	}
+
 	.tendencia {
 		font-size: 8px;
-		margin-left: 2px;
+		text-align: left;
+		padding-left: 2px;
 	}
 
 	.tendencia.sube {
