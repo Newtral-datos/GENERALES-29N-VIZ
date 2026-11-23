@@ -29,7 +29,14 @@ export const LIDERES: Record<string, { nombre: string; foto: string }> = {
 		nombre: 'Santiago Abascal',
 		foto: 'https://live.staticflickr.com/65535/55598714331_8286c5b4cb_t.jpg'
 	},
+	// Misma candidata con las dos claves a propósito: los datos de prueba de 23J
+	// traen la fila como "SUMAR" y los del 29N como "FA", y el mapa se consulta
+	// por la sigla que venga en el JSON.
 	SUMAR: {
+		nombre: 'Ada Colau',
+		foto: 'https://live.staticflickr.com/65535/55598714326_0554aa72c2.jpg'
+	},
+	FA: {
 		nombre: 'Ada Colau',
 		foto: 'https://live.staticflickr.com/65535/55598714326_0554aa72c2.jpg'
 	},

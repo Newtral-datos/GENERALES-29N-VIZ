@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { getResultados, type Nacional } from '#lib/data';
+	import { CONVOCATORIA, CONVOCATORIA_ANTERIOR } from '#lib/config';
+	import { ordenCamara } from '#lib/orden-camara';
+	import { tintaSobre } from '#lib/color';
 
 	let nacional = $state<Nacional | null>(null);
 
@@ -49,9 +52,7 @@
 		ro: number,
 		prefix: string
 	) => {
-		const left = items.filter((p) => p.lado === 1).sort((a, b) => getSeats(b) - getSeats(a));
-		const right = items.filter((p) => p.lado === 2).sort((a, b) => getSeats(a) - getSeats(b));
-		const seq = [...left, ...right];
+		const seq = ordenCamara(items, getSeats);
 		let acc = 0;
 		return seq.map((p, i) => {
 			const seats = getSeats(p);
@@ -75,6 +76,20 @@
 			? buildSegments(nacional.anterior.partidos, (p) => p.escanos, nacional.anterior.totalEscanos, iR2, oR2, 'ant')
 			: []
 	);
+
+	// La leyenda solo lleva a quien tiene escaño esta noche. La tabla nacional
+	// incluye además marcas a cero —las que tuvieron representación en la
+	// convocatoria anterior (PACMA, CCa, U.P.N.)— porque la columna "Dif." de
+	// la tabla las necesita, pero en una leyenda de color son ruido: no pintan
+	// ningún arco, así que su cuadradito no identifica nada en el dibujo.
+	let leyenda = $derived(nacional ? nacional.partidos.filter((p) => p.escanos > 0) : []);
+
+	// Mientras no haya ni un escaño repartido, el único anillo con contenido es
+	// el de la convocatoria anterior (dato fijo, ver data.ts > respaldoCongreso),
+	// así que la leyenda es la suya y lo dice. Sin esto el hemiciclo salía con
+	// los dos arcos dibujados y ninguna referencia de color debajo.
+	let sinJornada = $derived(leyenda.length === 0);
+	let leyendaAnterior = $derived(nacional?.anterior?.partidos ?? []);
 
 	type Segmento = { nombre: string; siglas: string; color: string; seats: number };
 
@@ -136,7 +151,7 @@
 						onmouseleave={onSegLeave}
 					/>
 					{#if s.seats >= 10}
-						<text x={s.lx} y={s.ly} text-anchor="middle" dominant-baseline="middle" class="seg-label">
+						<text x={s.lx} y={s.ly} text-anchor="middle" dominant-baseline="middle" class="seg-label" fill={tintaSobre(s.color)}>
 							{s.seats}
 						</text>
 					{/if}
@@ -157,7 +172,7 @@
 					/>
 					<path d={s.path} fill="url(#hatch)" pointer-events="none" />
 					{#if s.seats >= 15}
-						<text x={s.lx} y={s.ly} text-anchor="middle" dominant-baseline="middle" class="seg-label-sm">
+						<text x={s.lx} y={s.ly} text-anchor="middle" dominant-baseline="middle" class="seg-label-sm" fill={tintaSobre(s.color)}>
 							{s.seats}
 						</text>
 					{/if}
@@ -172,10 +187,14 @@
 			<text x={cx} y={cy + 10} text-anchor="middle" class="centre-number">{nacional.mayoria}</text>
 			<text x={cx} y={cy + 26} text-anchor="middle" class="centre-label">escaños</text>
 
-			<text x={cx - oR + 16} y={cy + 20} text-anchor="middle" class="pole-label">2023</text>
-			<text x={cx + oR - 16} y={cy + 20} text-anchor="middle" class="pole-label">2023</text>
-			<text x={cx - oR2 + 14} y={cy + 16} text-anchor="middle" class="pole-label-sm">ant.</text>
-			<text x={cx + oR2 - 14} y={cy + 16} text-anchor="middle" class="pole-label-sm">ant.</text>
+			<!-- Qué convocatoria es cada anillo. Estaban escritos a mano: el exterior
+			     decía "2023" (cierto cuando los datos de prueba eran los de 23J, falso
+			     desde que el panel lee el 29N) y el interior un "ant." que no dice de
+			     cuándo. Ahora salen de #lib/config, igual que las notas de los mapas. -->
+			<text x={cx - oR + 16} y={cy + 20} text-anchor="middle" class="pole-label">{CONVOCATORIA}</text>
+			<text x={cx + oR - 16} y={cy + 20} text-anchor="middle" class="pole-label">{CONVOCATORIA}</text>
+			<text x={cx - oR2 + 14} y={cy + 16} text-anchor="middle" class="pole-label-sm">{CONVOCATORIA_ANTERIOR}</text>
+			<text x={cx + oR2 - 14} y={cy + 16} text-anchor="middle" class="pole-label-sm">{CONVOCATORIA_ANTERIOR}</text>
 		</svg>
 
 		{#if activeSeg}
@@ -187,7 +206,7 @@
 		{/if}
 
 		<ul class="legend">
-			{#each nacional.partidos as p (p.siglas)}
+			{#each sinJornada ? leyendaAnterior : leyenda as p (p.siglas)}
 				<li class="entry">
 					<span class="swatch" style="background:{p.color}"></span>
 					<span class="entry-name">{p.siglas}</span>
@@ -195,6 +214,9 @@
 				</li>
 			{/each}
 		</ul>
+		{#if sinJornada}
+			<p class="leyenda-nota">Escaños de {CONVOCATORIA_ANTERIOR} — el {CONVOCATORIA} aún sin escrutar</p>
+		{/if}
 	</div>
 	{/if}
 	</div>
@@ -245,7 +267,6 @@
 	}
 
 	.seg-label {
-		fill: #fff;
 		font-family: var(--font-mono);
 		font-size: 14px;
 		font-weight: 700;
@@ -311,7 +332,6 @@
 	}
 
 	.seg-label-sm {
-		fill: #fff;
 		font-family: var(--font-mono);
 		font-size: 10px;
 		font-weight: 700;
@@ -339,6 +359,15 @@
 		padding: 0;
 		list-style: none;
 		width: 100%;
+	}
+
+	.leyenda-nota {
+		margin: -4px 0 12px 0;
+		text-align: center;
+		font-family: var(--font-body);
+		font-size: 10px;
+		font-style: italic;
+		color: var(--grey);
 	}
 
 	.entry {

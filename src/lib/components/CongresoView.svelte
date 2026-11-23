@@ -50,8 +50,8 @@
 							<tr>
 								<th class="th-left popup-title-cell">
 									{a.nombre}
-									{#if etiquetaDe(a.ganador)}
-										<span class="popup-estado">{etiquetaDe(a.ganador)}</span>
+									{#if etiquetaDe(a.ganador, { conEmpatados: false })}
+										<span class="popup-estado">{etiquetaDe(a.ganador, { conEmpatados: false })}</span>
 									{/if}
 								</th>
 								<th>Dip.</th>
@@ -165,6 +165,15 @@
 		font-family: var(--font-mono);
 		color: var(--grey);
 		font-variant-numeric: tabular-nums;
+		/* Las dos columnas de cifras iban pegadas: con una sigla larga
+		   (PP-UPN en Navarra) la tabla aprieta las celdas numéricas hasta que
+		   el "3" de diputados y el "30,54%" de voto se leen como "330,54%".
+		   Separación propia y sin partir el número en dos líneas. */
+		padding-left: 10px;
+		white-space: nowrap;
+	}
+	.popup-table th:not(.th-left) {
+		padding-left: 10px;
 	}
 	.ver-tabla {
 		display: block;

@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { getResultados, type Nacional } from '#lib/data';
+	import { ordenCamara } from '#lib/orden-camara';
+	import { tintaSobre } from '#lib/color';
 
 	let nacional = $state<Nacional | null>(null);
 
@@ -11,9 +13,10 @@
 
 	let segments = $derived.by(() => {
 		if (!nacional) return [];
-		const left = nacional.partidos.filter((p) => p.lado === 1).sort((a, b) => b.escanos - a.escanos);
-		const right = nacional.partidos.filter((p) => p.lado === 2).sort((a, b) => a.escanos - b.escanos);
-		return [...left, ...right].map((p) => ({ ...p, pct: (p.escanos / nacional!.totalEscanos) * 100 }));
+		return ordenCamara(nacional.partidos, (p) => p.escanos).map((p) => ({
+			...p,
+			pct: (p.escanos / nacional!.totalEscanos) * 100
+		}));
 	});
 
 	let mayoriaPct = $derived(nacional ? (nacional.mayoria / nacional.totalEscanos) * 100 : 0);
@@ -53,6 +56,15 @@
 {:else}
 	<div class="barra-wrap">
 		<div class="barra">
+			{#if segments.length === 0}
+				<!-- Las 20:00 del 29N: la cámara existe pero no hay ni un escaño
+				     repartido. Se dibuja la barra entera en gris con el rótulo
+				     puesto, en vez de dejar un hueco blanco que parece un fallo de
+				     carga. El gris es el mismo de "sin escrutar" de los mapas. -->
+				<div class="seg seg-vacio">
+					<span class="seg-label-vacio">Sin escaños repartidos todavía</span>
+				</div>
+			{/if}
 			{#each segments as s (s.siglas)}
 				<div
 					class="seg"
@@ -64,7 +76,7 @@
 					onmouseleave={onSegLeave}
 				>
 					{#if s.pct >= 4}
-						<span class="seg-label">{s.escanos}</span>
+						<span class="seg-label" style="color:{tintaSobre(s.color)}">{s.escanos}</span>
 					{/if}
 				</div>
 			{/each}
@@ -114,8 +126,26 @@
 		cursor: pointer;
 	}
 
+	.seg-vacio {
+		width: 100%;
+		background: repeating-linear-gradient(
+			45deg,
+			#e9ebee,
+			#e9ebee 5px,
+			#e2e5e9 5px,
+			#e2e5e9 10px
+		);
+	}
+
+	.seg-label-vacio {
+		font-family: var(--font-body);
+		font-size: 10px;
+		font-style: italic;
+		color: var(--grey);
+		letter-spacing: 0.02em;
+	}
+
 	.seg-label {
-		color: #fff;
 		font-family: var(--font-mono);
 		font-size: 11px;
 		font-weight: 700;

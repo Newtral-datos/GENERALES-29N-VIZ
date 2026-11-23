@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getResultados, type Nacional, type Partido } from '#lib/data';
 	import { formatMiles } from '#lib/format';
-	import { CONVOCATORIA_ANTERIOR } from '#lib/config';
+	import { CONVOCATORIA, CONVOCATORIA_ANTERIOR } from '#lib/config';
 
 	let nacional = $state<Nacional | null>(null);
 
@@ -17,14 +17,55 @@
 	// y _comun_29n.ordenar_partidos). Rehacer aquí ese criterio daría dos
 	// fuentes de verdad para el mismo orden, y acabarían separándose.
 	let filas = $derived(nacional?.partidos ?? []);
+
+	// Sin un solo escaño repartido esta noche, la tabla enseña la Cámara que
+	// termina: los escaños de 23J, que son un dato fijo y el único que hay a las
+	// 20:00. No se mezcla con las columnas de la jornada —votos, % y "Dif." no
+	// existen todavía— así que es una tabla distinta, de dos columnas, con su
+	// propio rótulo. Mezclarlas daría un "−137" que no es una pérdida: es que
+	// aún no se ha contado nada.
+	let sinJornada = $derived(filas.length === 0);
+	let filasAnteriores = $derived(nacional?.anterior?.partidos ?? []);
 </script>
 
 <div class="panel">
-	<p class="kicker">Resultados por partido</p>
+	<p class="kicker">
+		{sinJornada ? `Composición saliente — ${CONVOCATORIA_ANTERIOR}` : 'Resultados por partido'}
+	</p>
 
 	<div class="panel-body">
 		{#if !nacional}
 			<p class="loading">Cargando datos…</p>
+		{:else if sinJornada}
+			<div class="tabla-scroll">
+				<table class="tabla">
+					<thead>
+						<tr>
+							<th class="th-left">Partido</th>
+							<th>Escaños {CONVOCATORIA_ANTERIOR}</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each filasAnteriores as p (p.siglas)}
+							<tr>
+								<td>
+									<div class="party-cell">
+										<span class="swatch" style="background:{p.color}"></span>
+										<span class="party-name">{p.siglas}</span>
+									</div>
+								</td>
+								<td class="num seats"><span class="seats-num">{p.escanos}</span></td>
+							</tr>
+						{/each}
+						{#if filasAnteriores.length === 0}
+							<tr class="fila-vacia">
+								<td colspan="2">Sin datos de escrutinio todavía</td>
+							</tr>
+						{/if}
+					</tbody>
+				</table>
+			</div>
+			<p class="nota-espera">Esperando los primeros datos del escrutinio del {CONVOCATORIA}</p>
 		{:else}
 			<div class="tabla-scroll">
 				<table class="tabla">
@@ -72,6 +113,14 @@
 								</td>
 							</tr>
 						{/each}
+						{#if filas.length === 0}
+							<!-- Estado de las 20:00: la tabla existe, con su cabecera, y dice
+							     que todavía no hay recuento. Antes aquí no había nada y la
+							     tarjeta se quedaba vacía. -->
+							<tr class="fila-vacia">
+								<td colspan="5">Sin datos de escrutinio todavía</td>
+							</tr>
+						{/if}
 					</tbody>
 				</table>
 			</div>
@@ -103,6 +152,24 @@
 		color: var(--ink);
 		margin: 0 0 10px 0;
 		text-align: center;
+	}
+
+	.nota-espera {
+		margin: 10px 0 0 0;
+		text-align: center;
+		font-family: var(--font-body);
+		font-size: 10px;
+		font-style: italic;
+		color: var(--grey);
+	}
+
+	.fila-vacia td {
+		padding: 18px 0;
+		text-align: center;
+		font-family: var(--font-body);
+		font-size: 11px;
+		font-style: italic;
+		color: var(--grey);
 	}
 
 	.loading {

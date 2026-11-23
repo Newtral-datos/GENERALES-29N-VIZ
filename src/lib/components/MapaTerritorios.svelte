@@ -5,7 +5,7 @@
 	import { getResultados, getIndiceMunicipios, type Provincia, type MunicipioIndice } from '#lib/data';
 	import type { Snippet } from 'svelte';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
-	import { fillDe, etiquetaDe, type Ganador } from '#lib/empates';
+	import { fillDe, etiquetaDe, GRIS_SIN_DATOS, type Ganador } from '#lib/empates';
 	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
 	import MapaMunicipios, { type MunicipioSeleccionado } from '#lib/components/MapaMunicipios.svelte';
 
@@ -96,7 +96,16 @@
 	// empatados si varios comparten el máximo, color del partido si gana uno
 	// solo. Ver #lib/empates: el estado lo marca el pipeline, aquí no se
 	// recalcula nada.
+	// Sin un solo ámbito en los datos —el panel desplegado antes de que el
+	// pipeline haya publicado nada, o una petición que falla— el mapa se pinta
+	// entero en el gris de "sin escrutar" en vez de en blanco: a las 20:00 del
+	// 29N eso es exactamente lo que pasa, y un mapa en blanco parece roto.
+	// `fillDe(undefined)` sigue dando papel para el otro caso, que no es el
+	// mismo: una región que no aparece entre datos que sí existen.
+	let sinAmbitos = $derived(!ambitos || Object.keys(ambitos).length === 0);
+
 	function colorFor(cod: string): string {
+		if (sinAmbitos) return GRIS_SIN_DATOS;
 		return fillDe(ambitos?.[cod]?.ganador);
 	}
 

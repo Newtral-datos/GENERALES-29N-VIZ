@@ -53,6 +53,15 @@
 			});
 	});
 
+	// Qué corte se está pintando, para poder nombrarlo al pie: desde que los
+	// avances ya publicados se conservan, las cajas de arriba enseñan tres
+	// cifras a la vez y un mapa sin rótulo no dice a cuál corresponde. La hora y
+	// la etiqueta son iguales en todos los municipios.
+	let corteActivo = $derived.by(() => {
+		if (activeIdx < 0 || !datos) return null;
+		return Object.values(datos)[0]?.avances[activeIdx] ?? null;
+	});
+
 	function ine(natcode: string): string {
 		// El NATCODE del geojson es el código GISCO; los 5 últimos dígitos son el
 		// INE de provincia + municipio, que es la clave de los resultados.
@@ -210,8 +219,9 @@
 			</ul>
 
 			<p class="nota">
-				Participación por municipio en el corte seleccionado — en blanco, los que
-				todavía no tienen dato de ese corte
+				Participación por municipio{#if corteActivo}
+					— {corteActivo.etiqueta.toLowerCase()}{corteActivo.hora !== 'Cierre' ? ` (${corteActivo.hora})` : ''}
+				{/if} — en blanco, los que todavía no tienen dato de ese corte
 			</p>
 		{/if}
 	</div>

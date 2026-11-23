@@ -14,6 +14,13 @@
 		});
 	});
 
+	// Mismo motivo que el rótulo de los dos mapas: con las tres cajas de arriba
+	// enseñando cifra, el ranking tiene que decir de qué corte es el suyo.
+	let corteActivo = $derived.by(() => {
+		if (!provincias || activeIdx < 0) return null;
+		return Object.values(provincias)[0]?.avances[activeIdx] ?? null;
+	});
+
 	let ranking = $derived.by(() => {
 		if (!provincias || activeIdx < 0) return [];
 		return Object.entries(provincias)
@@ -34,7 +41,11 @@
 </script>
 
 <div class="panel">
-	<p class="kicker">Ranking de provincias</p>
+	<p class="kicker">
+		Ranking de provincias{#if corteActivo}
+			— {corteActivo.etiqueta.toLowerCase()}{corteActivo.hora !== 'Cierre' ? ` (${corteActivo.hora})` : ''}
+		{/if}
+	</p>
 
 	{#if !provincias}
 		<p class="loading">Cargando…</p>

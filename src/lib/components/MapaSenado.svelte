@@ -2,7 +2,7 @@
 	import { CONVOCATORIA } from '#lib/config';
 	import { asset } from '$app/paths';
 	import { getResultadosSenado, type ProvinciaSenado } from '#lib/data';
-	import { fillDe, etiquetaDe } from '#lib/empates';
+	import { fillDe, etiquetaDe, GRIS_SIN_DATOS } from '#lib/empates';
 	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
 
 	type Geometry = { type: string; coordinates: unknown };
@@ -36,6 +36,9 @@
 	// Esto lo recalculaba por su cuenta con `Math.max(...[])`, que con una
 	// provincia sin composición da -Infinity en vez de un empate.
 	function colorFor(codProv: string): string {
+		// Mismo criterio que el mapa de Congreso: sin ningún ámbito en los datos,
+		// gris de "sin escrutar" en vez de blanco (ver MapaTerritorios.colorFor).
+		if (!provincias || Object.keys(provincias).length === 0) return GRIS_SIN_DATOS;
 		return fillDe(provincias?.[codProv]?.ganador);
 	}
 
@@ -399,5 +402,10 @@
 		font-family: var(--font-mono);
 		color: var(--grey);
 		font-variant-numeric: tabular-nums;
+		/* Mismo arreglo que en el popup del mapa de Congreso: sin separación
+		   propia, con una sigla larga las dos columnas de cifras se tocan y se
+		   leen como un solo número. */
+		padding-left: 10px;
+		white-space: nowrap;
 	}
 </style>

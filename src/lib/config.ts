@@ -8,10 +8,21 @@
 // fecha/hora automática, es manual a propósito.
 export const ESCRUTINIO_ABIERTO = true;
 
-// TODO: sustituir por el % de escrutinio real cuando haya datos en vivo de la
-// jornada. Centralizado aquí (en vez de en EscrutinioHeader.svelte) porque el
-// botón de "Compartir resultados" también lo necesita para la imagen.
-export const ESCRUTINIO_SIMULADO = 92.3;
+/**
+ * Qué sello de tiempo enseña el faldón mientras no hay datos de la jornada.
+ *
+ * Es un valor puesto a mano a propósito, igual que `ESCRUTINIO_ABIERTO`: hasta
+ * el 29N el panel anuncia la cita, no un dato. En cuanto el pipeline publica un
+ * JSON con `fecha` y `horaTotalizacion`, manda el fichero y esto deja de usarse
+ * — no hay que volver a tocarlo.
+ *
+ * Aquí había antes un `ESCRUTINIO_SIMULADO = 92.3` que el faldón enseñaba como
+ * porcentaje escrutado cuando faltaban los datos. Iba rotulado "(simulado)",
+ * pero un 92,3 % en la cabecera de un panel electoral es una cifra que se lee
+ * de un vistazo y el rótulo no: antes del escrutinio lo escrutado es 0, y eso
+ * es lo que se enseña.
+ */
+export const SELLO_PREVIO = { fecha: '2026-11-29', hora: '00:00' };
 
 /**
  * De qué convocatoria lee los datos el panel.

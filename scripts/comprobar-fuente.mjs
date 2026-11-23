@@ -45,7 +45,16 @@ const COMUNES = [
 	'indice-municipios.json',
 	'ccaa-provincias.json',
 	'escanos-congreso-provincias.json',
-	'provincias.geojson'
+	'provincias.geojson',
+	// Geometría del nivel de comunidad: es la vista por defecto del mapa de la
+	// home y faltaba en esta lista.
+	'ccaa.geojson',
+	// Composición de la convocatoria anterior. Es dato fijo y además el respaldo
+	// del panel cuando todavía no hay escrutinio: sin estos dos, a las 20:00 del
+	// 29N la tabla y el hemiciclo salen vacíos. Los genera
+	// pipeline/procesado/anterior_29n.py.
+	'anterior-congreso.json',
+	'anterior-senado.json'
 ];
 const CARPETA_MUNICIPIOS = { '23j': 'resultados-municipios', '29n': 'resultados-municipios-29n' };
 // La participación municipal solo existe para el 29N (sale de los ficheros

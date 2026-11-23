@@ -1,16 +1,15 @@
 <script lang="ts">
 	import logo from '#lib/assets/logo-newtral.png';
-	import { ESCRUTINIO_ABIERTO, ESCRUTINIO_SIMULADO } from '#lib/config';
+	import { ESCRUTINIO_ABIERTO, SELLO_PREVIO } from '#lib/config';
 	import { getResultados, getParticipacion } from '#lib/data';
 
 	let escrutinio = $state(0);
 
 	// Dato real de la jornada cuando el JSON lo trae (los del 29N llevan
 	// `pctEscrutado` y `horaTotalizacion`; los de 23J no, porque ese escrutinio
-	// está cerrado). Mientras no haya, se cae al valor simulado — marcado como
-	// tal en config.ts.
-	let objetivo = $state(ESCRUTINIO_SIMULADO);
-	let esSimulado = $state(true);
+	// está cerrado). Mientras no haya, cero: antes del escrutinio lo escrutado
+	// es cero, no un número de relleno (ver SELLO_PREVIO en config.ts).
+	let objetivo = $state(0);
 	let sello = $state<Sello | null>(null);
 
 	/**
@@ -36,7 +35,6 @@
 			.then((d) => {
 				if (typeof d.nacional.pctEscrutado === 'number') {
 					objetivo = d.nacional.pctEscrutado;
-					esSimulado = false;
 				}
 				sello = masReciente(sello, {
 					fecha: d.nacional.fecha ?? null,
@@ -44,8 +42,8 @@
 				});
 			})
 			.catch(() => {
-				// Sin datos no se inventa nada: se queda el valor simulado, que ya
-				// va rotulado como simulado en la UI.
+				// Sin datos no se inventa nada: el escrutinio se queda en 0 y el
+				// sello, en la fecha de la cita.
 			});
 
 		getParticipacion()
@@ -79,9 +77,12 @@
 
 	let fechaActualizacion = $derived.by(() => {
 		const fecha = fechaEs(sello?.fecha ?? null);
-		// Sin dato de la jornada no se inventa un sello de tiempo: los JSON de
-		// 23J no traen hora de totalización porque ese escrutinio está cerrado.
-		if (!fecha || !sello?.hora) return 'Esperando datos de la jornada';
+		// Sin dato de la jornada, el sello de la cita (SELLO_PREVIO): el panel ya
+		// está publicado y tiene que decir a qué hora se refiere lo que enseña,
+		// que de momento es la composición saliente.
+		if (!fecha || !sello?.hora) {
+			return `Actualizado: ${fechaEs(SELLO_PREVIO.fecha)} — ${SELLO_PREVIO.hora}h`;
+		}
 		return `Actualizado: ${fecha} — ${sello.hora}h`;
 	});
 
@@ -121,7 +122,7 @@
 	     cabecero, habría quedado una franja vacía. -->
 	{#if ESCRUTINIO_ABIERTO}
 		<div class="row">
-			<span class="label">Escrutinio{#if esSimulado} <span class="aviso-simulado">(simulado)</span>{/if}</span>
+			<span class="label">Escrutinio</span>
 
 			<span class="number">{escrutinio.toLocaleString('es-ES', { minimumIntegerDigits: 2, maximumFractionDigits: 1 })}<span class="number-unit">%</span></span>
 
@@ -209,15 +210,6 @@
 		height: 4px;
 		background: var(--stamp);
 		flex-shrink: 0;
-	}
-
-	.aviso-simulado {
-		/* Un dato inventado nunca debe poder pasar por real (AGENTS.md): el
-		   rótulo desaparece solo cuando el JSON trae `pctEscrutado`. */
-		font-weight: 400;
-		text-transform: none;
-		letter-spacing: 0;
-		opacity: 0.75;
 	}
 
 	.label {

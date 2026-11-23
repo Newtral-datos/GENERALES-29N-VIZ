@@ -10,21 +10,9 @@
 		type Resultados,
 		type EscanosProvincia
 	} from '#lib/data';
-
-	// Mismo convenio izquierda/derecha que Hemiciclo.svelte y BarraEscanos.svelte.
-	const LADO: Record<string, 1 | 2> = {
-		PSOE: 1,
-		SUMAR: 1,
-		ERC: 1,
-		'EH Bildu': 1,
-		'B.N.G.': 1,
-		PP: 2,
-		VOX: 2,
-		'JxCAT - JUNTS': 2,
-		'EAJ-PNV': 2,
-		CCa: 2,
-		'U.P.N.': 2
-	};
+	import { ordenCamara } from '#lib/orden-camara';
+	import { tintaSobre } from '#lib/color';
+	import { CONVOCATORIA, CONVOCATORIA_ANTERIOR } from '#lib/config';
 
 	let datos = $state<Resultados | null>(null);
 	let escanosProvincias = $state<Record<string, EscanosProvincia> | null>(null);
@@ -94,9 +82,10 @@
 		if (!activa) return [];
 		const conEscanos = activa.principales.filter((p) => p.escanos > 0);
 		const total = conEscanos.reduce((acc, p) => acc + p.escanos, 0);
-		const left = conEscanos.filter((p) => LADO[p.siglas] !== 2).sort((a, b) => b.escanos - a.escanos);
-		const right = conEscanos.filter((p) => LADO[p.siglas] === 2).sort((a, b) => a.escanos - b.escanos);
-		return [...left, ...right].map((p) => ({ ...p, pct: total ? (p.escanos / total) * 100 : 0 }));
+		return ordenCamara(conEscanos, (p) => p.escanos).map((p) => ({
+			...p,
+			pct: total ? (p.escanos / total) * 100 : 0
+		}));
 	});
 
 	function volverAProvincia() {
@@ -197,7 +186,7 @@
 											<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 											<td class="num">
 												{#if difPct === null}
-													<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+													<span class="dif sin-dato" title="No se presentó con esta marca en {CONVOCATORIA_ANTERIOR}, no es comparable">—</span>
 												{:else}
 													<span class="dif" class:up={difPct > 0} class:down={difPct < 0}>
 														{difPct > 0 ? '+' : ''}{difPct.toLocaleString('es-ES', { minimumFractionDigits: 2 })}
@@ -222,14 +211,14 @@
 								</tbody>
 							</table>
 						</div>
-						<p class="nota">Resultados del municipio — 23J</p>
+						<p class="nota">Resultados del municipio — {CONVOCATORIA}</p>
 					{:else}
 						<p class="placeholder">Sin datos para este municipio.</p>
 					{/if}
 				{:else}
 					<p class="sub-kicker">
 						{activa.nombre}{#if escanosTotalActiva !== null}
-							<span class="prov-total-escanos"> · {escanosTotalActiva} diputados</span>
+							<span class="prov-total-escanos"> — {escanosTotalActiva} diputados</span>
 						{/if}
 					</p>
 
@@ -238,7 +227,7 @@
 							{#each barraSegments as s (s.siglas)}
 								<div class="seg" style="width:{s.pct}%; background:{s.color}" title="{s.nombre}: {s.escanos} escaños">
 									{#if s.pct >= 12}
-										<span class="seg-label">{s.escanos}</span>
+										<span class="seg-label" style="color:{tintaSobre(s.color)}">{s.escanos}</span>
 									{/if}
 								</div>
 							{/each}
@@ -272,7 +261,7 @@
 										<td class="num">{p.pctVotos.toLocaleString('es-ES', { minimumFractionDigits: 2 })}%</td>
 										<td class="num">
 											{#if difPct === null}
-												<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+												<span class="dif sin-dato" title="No se presentó con esta marca en {CONVOCATORIA_ANTERIOR}, no es comparable">—</span>
 											{:else}
 												<span class="dif" class:up={difPct > 0} class:down={difPct < 0}>
 													{difPct > 0 ? '+' : ''}{difPct.toLocaleString('es-ES', { minimumFractionDigits: 2 })}
@@ -282,7 +271,7 @@
 										<td class="num seats">{p.escanos}</td>
 										<td class="num">
 											{#if dif === null}
-												<span class="dif sin-dato" title="No se presentó con esta marca en 2019, no es comparable">—</span>
+												<span class="dif sin-dato" title="No se presentó con esta marca en {CONVOCATORIA_ANTERIOR}, no es comparable">—</span>
 											{:else}
 												<span class="dif" class:up={dif > 0} class:down={dif < 0}>
 													{dif > 0 ? '+' : ''}{dif}
@@ -309,7 +298,7 @@
 							</tbody>
 						</table>
 					</div>
-					<p class="nota">Candidaturas con representación y principales minoritarias — 23J</p>
+					<p class="nota">Candidaturas con representación y principales minoritarias — {CONVOCATORIA}</p>
 				{/if}
 
 				{#if activa}
@@ -567,7 +556,6 @@
 	}
 
 	.seg-label {
-		color: #fff;
 		font-family: var(--font-mono);
 		font-size: 10px;
 		font-weight: 700;

@@ -4,7 +4,7 @@
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
 	import logoUrl from '#lib/assets/logo-newtral.png';
 	import faviconUrl from '#lib/assets/favicon.png';
-	import { ESCRUTINIO_ABIERTO, ESCRUTINIO_SIMULADO } from '#lib/config';
+	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 	import { COLOR, URL_COMPARTIR, cargarImagen, dibujarTextoEspaciado, dibujarLinea, recortarCanvas } from '#lib/compartir-imagen';
 	import CompartirMenu from '#lib/components/CompartirMenu.svelte';
 
@@ -73,7 +73,9 @@
 			// así que un número inventado sin marcar es peor aquí que en ningún
 			// otro sitio. La hora es la de totalización del Ministerio, no la del
 			// reloj del visitante: es cuándo se generó el dato.
-			const pct = nacional.pctEscrutado ?? ESCRUTINIO_SIMULADO;
+			// Sin dato de la jornada, 0: la imagen que se comparte no puede llevar
+			// un porcentaje de relleno (ver SELLO_PREVIO en config.ts).
+			const pct = nacional.pctEscrutado ?? 0;
 			const marcaSimulado = nacional.pctEscrutado === undefined ? ' (SIMULADO)' : '';
 			const hora = nacional.horaTotalizacion ? ` — ACTUALIZADO ${nacional.horaTotalizacion}` : '';
 			const kicker = ESCRUTINIO_ABIERTO

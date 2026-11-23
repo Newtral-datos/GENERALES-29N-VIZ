@@ -57,6 +57,125 @@ function leerJson<T>(ruta: string): Promise<T> {
 	});
 }
 
+/**
+ * Lo mismo, pero **sin datos no es un error**: devuelve `respaldo`.
+ *
+ * El 29N a las 20:00 el panel tiene que verse aunque el pipeline todavía no
+ * haya dejado ningún JSON, y tiene que seguir viéndose si una petición falla a
+ * mitad de la noche (un hipo del CDN, un deploy a medio propagar). Antes no:
+ * los getters propagaban el error, los componentes hacían `.then()` sin
+ * `.catch`, su estado se quedaba en `null` para siempre y la pantalla entera se
+ * quedaba en "Cargando datos…" con todo vacío. Y como la promesa fallida se
+ * guardaba en la caché, ni recargar la página lo reintentaba.
+ *
+ * Así que el fallo se convierte en un juego de datos vacío pero bien formado:
+ * cada pieza dibuja su estructura —la barra, los arcos del hemiciclo, la
+ * cabecera de la tabla, el mapa en gris— sin ninguna cifra. Quien mira ve un
+ * panel esperando datos, que es la verdad, en vez de una página en blanco.
+ *
+ * No se cachea el respaldo: la siguiente recarga vuelve a pedirlo de verdad.
+ */
+function leerJsonOVacio<T>(ruta: string, respaldo: T): Promise<T> {
+	return leerJson<T>(ruta).catch((e) => {
+		console.warn(`[panel] sin datos de ${ruta} (${e.message}) — se dibuja el panel vacío`);
+		return respaldo;
+	});
+}
+
+// Tamaño de las cámaras, para poder dibujar el hemiciclo y la marca de mayoría
+// antes de que haya un solo dato. No son cifras "inventadas": las fija la ley
+// (art. 68 y 69 CE) y son las mismas que ya publica el pipeline en cada JSON.
+// En cuanto llega el primer envío mandan las del fichero, no estas.
+const CONGRESO_ESCANOS = 350;
+const SENADO_ELECTOS = 208;
+
+const SIN_ESCRUTINIO = {
+	censo: 0,
+	votantes: 0,
+	participacionPct: 0,
+	validos: 0,
+	votosCandidaturas: 0,
+	blanco: 0,
+	nulos: 0,
+	otros: { votos: 0, pctVotos: 0, numCandidaturas: 0 }
+};
+
+/** Congreso sin un solo dato: estructura completa, cero contenido. */
+const RESULTADOS_VACIOS: Resultados = {
+	nacional: {
+		fecha: '',
+		...SIN_ESCRUTINIO,
+		totalEscanos: CONGRESO_ESCANOS,
+		mayoria: Math.floor(CONGRESO_ESCANOS / 2) + 1,
+		partidos: [],
+		anterior: {
+			etiqueta: '',
+			totalEscanos: CONGRESO_ESCANOS,
+			mayoria: Math.floor(CONGRESO_ESCANOS / 2) + 1,
+			partidos: []
+		}
+	},
+	comunidades: {},
+	provincias: {}
+};
+
+/** Senado sin un solo dato. Ver RESULTADOS_VACIOS. */
+const SENADO_VACIO: ResultadosSenado = {
+	nacional: {
+		fecha: '',
+		totalEscanos: SENADO_ELECTOS,
+		totalEscanosCamara: SENADO_ELECTOS,
+		escanosDesignadosPendientes: 0,
+		mayoria: Math.floor(SENADO_ELECTOS / 2) + 1,
+		partidos: [],
+		anterior: {
+			etiqueta: '',
+			totalEscanos: SENADO_ELECTOS,
+			mayoria: Math.floor(SENADO_ELECTOS / 2) + 1,
+			partidos: []
+		}
+	},
+	comunidades: {},
+	provincias: {}
+};
+
+/**
+ * Qué enseña el panel cuando todavía no hay datos de la jornada.
+ *
+ * **La composición de la convocatoria anterior, que es un dato fijo.** No
+ * depende del escrutinio: son los escaños de julio de 2023, salen de los
+ * ficheros `ant-*` del Ministerio y el pipeline los publica aparte
+ * (`anterior-congreso.json` / `anterior-senado.json`, ver
+ * `pipeline/procesado/anterior_29n.py`). Antes esa lista solo existía dentro
+ * del JSON de la jornada, así que al faltar ese fichero el panel se quedaba sin
+ * el único dato que sí tenía: a las 20:00 del 29N la tabla y el hemiciclo
+ * salían vacíos teniendo 2023 a mano.
+ *
+ * Si tampoco está el fichero fijo, se cae al juego vacío del todo: estructura
+ * sin cifras, nunca una página en blanco.
+ */
+function respaldoCongreso(e: Error): Promise<Resultados> {
+	console.warn(`[panel] sin datos del Congreso (${e.message}) — se dibuja la composición de 2023`);
+	return leerJsonOVacio<Nacional['anterior']>(
+		'data/anterior-congreso.json',
+		RESULTADOS_VACIOS.nacional.anterior
+	).then((anterior) => ({
+		...RESULTADOS_VACIOS,
+		nacional: { ...RESULTADOS_VACIOS.nacional, anterior }
+	}));
+}
+
+function respaldoSenado(e: Error): Promise<ResultadosSenado> {
+	console.warn(`[panel] sin datos del Senado (${e.message}) — se dibuja la composición de 2023`);
+	return leerJsonOVacio<NacionalSenado['anterior']>(
+		'data/anterior-senado.json',
+		SENADO_VACIO.nacional.anterior
+	).then((anterior) => ({
+		...SENADO_VACIO,
+		nacional: { ...SENADO_VACIO.nacional, anterior }
+	}));
+}
+
 export type Partido = {
 	nombre: string;
 	siglas: string;
@@ -105,6 +224,10 @@ export type PartidoProvincia = {
 	escanos: number;
 	pctVotos: number;
 	color: string;
+	// Lado ideológico del catálogo (1 izquierda / 2 derecha), para ordenar la
+	// barra de escaños de la provincia — ver #lib/orden-camara. Solo 29N: los
+	// JSON de 23J no lo traen en los ámbitos territoriales.
+	lado?: number;
 	// null = sin continuidad de marca directa con 2019, o partido local no
 	// verificado uno a uno (ver congreso_2019_provincias.py) — no es un 0 real.
 	escanosAnterior: number | null;
@@ -165,10 +288,15 @@ let cacheIndiceMunicipios: Promise<MunicipioIndice[]> | null = null;
 
 export function getIndiceMunicipios(): Promise<MunicipioIndice[]> {
 	if (!cacheIndiceMunicipios) {
-		cacheIndiceMunicipios = fetch(asset('data/indice-municipios.json'), { cache: 'no-cache' }).then((res) => {
-			if (!res.ok) throw new Error(`HTTP ${res.status}`);
-			return res.json();
-		});
+		// `assetDinamico` y no `asset`: este fichero **lo genera el pipeline**
+		// (congreso_29n_municipios) y no está versionado, así que la lista
+		// literal de ficheros de `static/` con la que `asset()` tipa su
+		// argumento no lo incluye en un clon limpio ni mientras los datos están
+		// por regenerar — y `npm run check` fallaba por un fichero que no falta,
+		// solo que todavía no está. Mismo criterio que el resto de JSON de datos
+		// (ver `leerJson`). El buscador aguanta que falte: devuelve [] y el
+		// desplegable se queda vacío.
+		cacheIndiceMunicipios = leerJsonOVacio<MunicipioIndice[]>('data/indice-municipios.json', []);
 	}
 	return cacheIndiceMunicipios;
 }
@@ -176,6 +304,8 @@ export function getIndiceMunicipios(): Promise<MunicipioIndice[]> {
 export type PartidoMunicipio = {
 	siglas: string;
 	color: string;
+	// Ver PartidoProvincia.lado.
+	lado?: number;
 	votos: number;
 	pctVotos: number;
 	// null = sin continuidad de marca directa con 2019, o partido local no
@@ -215,7 +345,7 @@ export function getResultadosMunicipios(codProv: string): Promise<Record<string,
 let cacheResultados: Promise<Resultados> | null = null;
 
 export function getResultados(): Promise<Resultados> {
-	if (!cacheResultados) cacheResultados = leerJson<Resultados>(rutaDe('congreso'));
+	if (!cacheResultados) cacheResultados = leerJson<Resultados>(rutaDe('congreso')).catch(respaldoCongreso);
 	return cacheResultados;
 }
 
@@ -228,6 +358,11 @@ export type AvanceParticipacion = {
 	votantes: number | null;
 	participacionPct: number | null;
 	participacionPctAnterior: number | null;
+	// `true` si esa cifra no viene del envío actual sino de la publicación
+	// anterior: el fichero del Ministerio deja de traer los avances cuando llega
+	// el cierre, y los cortes ya ocurridos se conservan para poder compararlos
+	// (ver participacion_29n.con_publicados). El dato es igual de real.
+	recuperado?: boolean;
 };
 
 export type ParticipacionNacional = {
@@ -273,10 +408,37 @@ export type Participacion = {
 	provincias: Record<string, ParticipacionProvincia>;
 };
 
+/**
+ * Participación sin datos: los tres cortes existen pero vacíos.
+ *
+ * Importante que estén los tres con `participacionPct: null` y no una lista
+ * vacía: la UI distingue "corte pendiente" (marcador hueco) de "0 %", y con el
+ * array vacío no habría ni cajas que enseñar. Es el mismo criterio que usa el
+ * pipeline antes de que llegue el primer avance.
+ */
+const PARTICIPACION_VACIA: Participacion = {
+	nacional: {
+		censo: 0,
+		votantes: 0,
+		participacionPct: 0,
+		censoAnterior: 0,
+		votantesAnterior: 0,
+		participacionPctAnterior: 0,
+		avances: [
+			{ hora: '14:00', etiqueta: 'Primer avance', votantes: null, participacionPct: null, participacionPctAnterior: null },
+			{ hora: '18:00', etiqueta: 'Segundo avance', votantes: null, participacionPct: null, participacionPctAnterior: null },
+			{ hora: 'Cierre', etiqueta: 'Cierre de la jornada', votantes: null, participacionPct: null, participacionPctAnterior: null }
+		]
+	},
+	provincias: {}
+};
+
 let cacheParticipacion: Promise<Participacion> | null = null;
 
 export function getParticipacion(): Promise<Participacion> {
-	if (!cacheParticipacion) cacheParticipacion = leerJson<Participacion>(rutaDe('participacion'));
+	if (!cacheParticipacion) {
+		cacheParticipacion = leerJsonOVacio<Participacion>(rutaDe('participacion'), PARTICIPACION_VACIA);
+	}
 	return cacheParticipacion;
 }
 
@@ -350,7 +512,7 @@ export type ResultadosSenado = {
 let cacheSenado: Promise<ResultadosSenado> | null = null;
 
 export function getResultadosSenado(): Promise<ResultadosSenado> {
-	if (!cacheSenado) cacheSenado = leerJson<ResultadosSenado>(rutaDe('senado'));
+	if (!cacheSenado) cacheSenado = leerJson<ResultadosSenado>(rutaDe('senado')).catch(respaldoSenado);
 	return cacheSenado;
 }
 
@@ -368,6 +530,11 @@ export type AvanceMunicipio = {
 	participacionPctAnterior?: number | null;
 	censoAnterior?: number | null;
 	votantesAnterior?: number | null;
+	// `true` si esa cifra no viene del envío actual sino de la publicación
+	// anterior: el fichero del Ministerio deja de traer los avances cuando llega
+	// el cierre, y los cortes ya ocurridos se conservan para poder compararlos
+	// (ver participacion_29n.con_publicados). El dato es igual de real.
+	recuperado?: boolean;
 };
 
 export type ParticipacionMunicipio = {

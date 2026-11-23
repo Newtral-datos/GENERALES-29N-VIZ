@@ -71,10 +71,25 @@ export function patronesDe(ganadores: (Ganador | null | undefined)[]) {
 	return [...vistos.entries()].map(([id, colores]) => ({ id, colores }));
 }
 
-/** Texto del popup y de la nota al pie, según el estado. */
-export function etiquetaDe(ganador: Ganador | null | undefined): string | null {
+/**
+ * Texto del popup y de la nota al pie, según el estado.
+ *
+ * `conEmpatados: false` deja la etiqueta en un "Empate" seco, sin las siglas.
+ * Es lo que necesita el popup del mapa de la home: ahí el subtítulo va pegado
+ * al nombre del territorio y encima de una tabla de tres filas, y la lista de
+ * siglas lo partía en dos líneas apelotonando el bloque. No se pierde quién
+ * empata — están en las propias filas de la tabla y en los colores del rayado
+ * de la región.
+ */
+export function etiquetaDe(
+	ganador: Ganador | null | undefined,
+	{ conEmpatados = true }: { conEmpatados?: boolean } = {}
+): string | null {
 	if (!ganador) return null;
 	if (ganador.estado === 'sinDatos') return 'Sin escrutar';
-	if (ganador.estado === 'empate') return `Empate — ${ganador.empatados.map((e) => e.siglas).join(' | ')}`;
+	if (ganador.estado === 'empate') {
+		if (!conEmpatados) return 'Empate';
+		return `Empate — ${ganador.empatados.map((e) => e.siglas).join(' | ')}`;
+	}
 	return null;
 }
