@@ -14,16 +14,16 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "escanos": 130,
+        "escanos": 131,
         "escanosAnterior": 120
       },
       {
-        "nombre": "SENADO DE PROGRESO",
-        "siglas": "SDP (PSOE-IU-MS)",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 32,
-        "escanosAnterior": null
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "lado": 1,
+        "escanos": 57,
+        "escanosAnterior": 73
       },
       {
         "nombre": "JUNTS PER CATALUNYA - JUNTS",
@@ -40,62 +40,6 @@
         "lado": 2,
         "escanos": 7,
         "escanosAnterior": 4
-      },
-      {
-        "nombre": "SENADO DE PROGRESO / AURRERA DOAN SENATUA",
-        "siglas": "SDP (PSOE-EZAN IU-MS)",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 5,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "SENADO DE PROGRESO",
-        "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 4,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "SENADO DE PROGRESO DE ARAGÓN",
-        "siglas": "SDP (PSOE-CHA-IU-MS)",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 3,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "SENADO DE PROGRESO",
-        "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 3,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "SENADO DE PROGRESO",
-        "siglas": "SDP (PSOE-MS)",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 3,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "escanos": 2,
-        "escanosAnterior": 73
-      },
-      {
-        "nombre": "SENADO DE PROGRESO",
-        "siglas": "SENADO DE PROGRESO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 2,
-        "escanosAnterior": null
       },
       {
         "nombre": "VOX",
@@ -120,38 +64,6 @@
         "lado": 1,
         "escanos": 1,
         "escanosAnterior": 1
-      },
-      {
-        "nombre": "ACORD DE PROGRÉS PER MALLORCA",
-        "siglas": "PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 1,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
-        "siglas": "PSOE-MS",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 1,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "SA UNIÓ DE FORMENTERA (PP-COMPROMÍS)",
-        "siglas": "SA UNIÓ",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 1,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "SENADO DE PROGRESO",
-        "siglas": "SDP (PSOE-MM-IU-MS)",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 1,
-        "escanosAnterior": null
       }
     ],
     "anterior": {
@@ -433,17 +345,17 @@
     "01": {
       "nombre": "Araba/Álava",
       "ganador": {
-        "siglas": "SDP (PSOE-EZAN IU-MS)",
-        "color": "#9AA0A6",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
         "escanos": 3,
         "estado": "claro",
         "empatados": []
       },
       "composicion": [
         {
-          "siglas": "SDP (PSOE-EZAN IU-MS)",
-          "nombre": "SENADO DE PROGRESO / AURRERA DOAN SENATUA",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 3
         },
         {
@@ -460,20 +372,20 @@
           "ganadores": [
             {
               "nombre": "Daniel Senderos Oraá",
-              "siglas": "SDP (PSOE-EZAN IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 41651
             },
             {
               "nombre": "Paula Somalo García",
-              "siglas": "SDP (PSOE-EZAN IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 38801
             },
             {
               "nombre": "Adolfo Lander Vera",
-              "siglas": "SDP (PSOE-EZAN IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 38201
             },
             {
@@ -503,9 +415,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -534,8 +446,8 @@
             },
             {
               "nombre": "Isabel Belén Iniesta Egido",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 70863
             }
           ]
@@ -559,9 +471,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -590,8 +502,8 @@
             },
             {
               "nombre": "Francisco Miguel Fenollar Iváñez",
-              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 298352
             }
           ]
@@ -615,9 +527,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -646,8 +558,8 @@
             },
             {
               "nombre": "José María Martín Fernández",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 91979
             }
           ]
@@ -671,9 +583,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -702,8 +614,8 @@
             },
             {
               "nombre": "Carlos Montesino Garro",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 23601
             }
           ]
@@ -713,14 +625,14 @@
     "06": {
       "nombre": "Badajoz",
       "ganador": {
-        "siglas": "SDP (PSOE-IU-MS)",
-        "color": "#9AA0A6",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
         "escanos": 2,
         "estado": "empate",
         "empatados": [
           {
-            "siglas": "SDP (PSOE-IU-MS)",
-            "color": "#9AA0A6"
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
           },
           {
             "siglas": "PP",
@@ -736,9 +648,9 @@
           "escanos": 2
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 2
         }
       ],
@@ -749,14 +661,14 @@
           "ganadores": [
             {
               "nombre": "José Luis Quintana Álvarez",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 146253
             },
             {
               "nombre": "Sandra Caballero Expósito",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 145888
             },
             {
@@ -780,7 +692,7 @@
       "ganador": {
         "siglas": "PP",
         "color": "#0557A1",
-        "escanos": 4,
+        "escanos": 5,
         "estado": "claro",
         "empatados": []
       },
@@ -789,18 +701,12 @@
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "color": "#0557A1",
-          "escanos": 4
+          "escanos": 5
         },
         {
-          "siglas": "PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB",
-          "nombre": "ACORD DE PROGRÉS PER MALLORCA",
-          "color": "#9AA0A6",
-          "escanos": 1
-        },
-        {
-          "siglas": "SA UNIÓ",
-          "nombre": "SA UNIÓ DE FORMENTERA (PP-COMPROMÍS)",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -823,8 +729,8 @@
             },
             {
               "nombre": "Catalina Cladera Crespí",
-              "siglas": "PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 122237
             }
           ]
@@ -859,8 +765,8 @@
           "ganadores": [
             {
               "nombre": "Vicente Tur Costa",
-              "siglas": "SA UNIÓ",
-              "color": "#9AA0A6",
+              "siglas": "PP",
+              "color": "#0557A1",
               "votos": 3864
             }
           ]
@@ -940,9 +846,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -971,8 +877,8 @@
             },
             {
               "nombre": "María Aitana Hernando Ruiz",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 67290
             }
           ]
@@ -992,8 +898,8 @@
             "color": "#0557A1"
           },
           {
-            "siglas": "SDP (PSOE-IU-MS)",
-            "color": "#9AA0A6"
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
           }
         ]
       },
@@ -1005,9 +911,9 @@
           "escanos": 2
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 2
         }
       ],
@@ -1024,8 +930,8 @@
             },
             {
               "nombre": "Joaquín Cuello Martínez-Pereda",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 83695
             },
             {
@@ -1036,8 +942,8 @@
             },
             {
               "nombre": "Inés Mirella Conejero Domínguez",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 83174
             }
           ]
@@ -1061,9 +967,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1086,8 +992,8 @@
             },
             {
               "nombre": "Juan Carlos Ruiz Boix",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 204318
             },
             {
@@ -1117,9 +1023,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1142,8 +1048,8 @@
             },
             {
               "nombre": "Eva María Redondo Gamero",
-              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 107888
             },
             {
@@ -1173,9 +1079,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1204,8 +1110,8 @@
             },
             {
               "nombre": "Rosa Melchor Quiralte",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 94688
             }
           ]
@@ -1229,9 +1135,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1260,8 +1166,8 @@
             },
             {
               "nombre": "Rafaela Crespín Rubio",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 141356
             }
           ]
@@ -1285,9 +1191,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1316,8 +1222,8 @@
             },
             {
               "nombre": "Gumersindo Guinarte Cabada",
-              "siglas": "SDP (PSOE-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 184993
             }
           ]
@@ -1341,9 +1247,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1372,8 +1278,8 @@
             },
             {
               "nombre": "José López Carrizo",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 39806
             }
           ]
@@ -1453,9 +1359,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1484,8 +1390,8 @@
             },
             {
               "nombre": "Pedro Fernández Peñalver",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 164941
             }
           ]
@@ -1509,9 +1415,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1540,8 +1446,8 @@
             },
             {
               "nombre": "Rafael Esteban Santamaría",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 47277
             }
           ]
@@ -1565,9 +1471,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-EZAN IU-MS)",
-          "nombre": "SENADO DE PROGRESO/AURRERA DOAN SENATUA",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1590,8 +1496,8 @@
             },
             {
               "nombre": "Alberto Albistegui Zamacola",
-              "siglas": "SDP (PSOE-EZAN IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 83260
             },
             {
@@ -1621,9 +1527,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1640,8 +1546,8 @@
             },
             {
               "nombre": "María Eugenia Limón Bayo",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 89557
             },
             {
@@ -1677,9 +1583,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-CHA-IU-MS)",
-          "nombre": "SENADO DE PROGRESO DE ARAGÓN",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1708,8 +1614,8 @@
             },
             {
               "nombre": "Tania Solans Raluy",
-              "siglas": "SDP (PSOE-CHA-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 38735
             }
           ]
@@ -1733,9 +1639,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1758,8 +1664,8 @@
             },
             {
               "nombre": "José Latorre Ruiz",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 129257
             },
             {
@@ -1789,9 +1695,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1820,8 +1726,8 @@
             },
             {
               "nombre": "Salvador Vidal Varela",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 84254
             }
           ]
@@ -1901,9 +1807,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1932,8 +1838,8 @@
             },
             {
               "nombre": "Concepción Andreu Rodríguez",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 58745
             }
           ]
@@ -1957,9 +1863,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -1988,8 +1894,8 @@
             },
             {
               "nombre": "César Alejandro Mogo Zaro",
-              "siglas": "SDP (PSOE-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 54473
             }
           ]
@@ -2013,9 +1919,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-MM-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2044,8 +1950,8 @@
             },
             {
               "nombre": "Antonio Hernando Vera",
-              "siglas": "SDP (PSOE-MM-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 1037733
             }
           ]
@@ -2069,9 +1975,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2100,8 +2006,8 @@
             },
             {
               "nombre": "Francisco Javier García León",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 236285
             }
           ]
@@ -2125,9 +2031,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2156,8 +2062,8 @@
             },
             {
               "nombre": "Irene Jódar Pérez",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 200208
             }
           ]
@@ -2167,17 +2073,17 @@
     "31": {
       "nombre": "Navarra",
       "ganador": {
-        "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
-        "color": "#9AA0A6",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
         "escanos": 3,
         "estado": "claro",
         "empatados": []
       },
       "composicion": [
         {
-          "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 3
         },
         {
@@ -2194,20 +2100,20 @@
           "ganadores": [
             {
               "nombre": "Antonio Ángel Moleón Segura",
-              "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 92037
             },
             {
               "nombre": "Ane María Sánchez Jiménez",
-              "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 87844
             },
             {
               "nombre": "Jesús María Rodríguez Gómez",
-              "siglas": "SDP (PSOE-IUN NEB-MS-BATZARRE)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 81987
             },
             {
@@ -2237,9 +2143,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2268,8 +2174,8 @@
             },
             {
               "nombre": "María Fernández Ojea",
-              "siglas": "SDP (PSOE-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 47693
             }
           ]
@@ -2293,9 +2199,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2312,8 +2218,8 @@
             },
             {
               "nombre": "Iván González Espina",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 206984
             },
             {
@@ -2349,9 +2255,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2380,8 +2286,8 @@
             },
             {
               "nombre": "Rosa María Aldea Gómez",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 31574
             }
           ]
@@ -2405,8 +2311,8 @@
           "escanos": 4
         },
         {
-          "siglas": "PSOE",
-          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
           "color": "#E10819",
           "escanos": 1
         }
@@ -2430,7 +2336,7 @@
             },
             {
               "nombre": "Marta Jorgina Saavedra Domenech",
-              "siglas": "PSOE",
+              "siglas": "SENADO DE PROGRESO",
               "color": "#E10819",
               "votos": 9940
             }
@@ -2479,9 +2385,9 @@
           "escanos": 3
         },
         {
-          "siglas": "PSOE-MS",
-          "nombre": "COALICIÓN ELECTORAL SENADO DE PROGRESO SDP",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2510,8 +2416,8 @@
             },
             {
               "nombre": "María del Carmen «Carmela» Silva Rego",
-              "siglas": "PSOE-MS",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 180694
             }
           ]
@@ -2535,9 +2441,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2566,8 +2472,8 @@
             },
             {
               "nombre": "Carlos Fernández Chanca",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 54763
             }
           ]
@@ -2603,8 +2509,8 @@
           "escanos": 1
         },
         {
-          "siglas": "PSOE",
-          "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
           "color": "#E10819",
           "escanos": 1
         }
@@ -2628,7 +2534,7 @@
             },
             {
               "nombre": "Pedro Martín Domínguez",
-              "siglas": "PSOE",
+              "siglas": "SENADO DE PROGRESO",
               "color": "#E10819",
               "votos": 11867
             }
@@ -2689,9 +2595,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2720,8 +2626,8 @@
             },
             {
               "nombre": "Paz Mercedes de la Cuesta Aguado",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 111610
             }
           ]
@@ -2745,9 +2651,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2776,8 +2682,8 @@
             },
             {
               "nombre": "María del Lirio Martín García",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 27329
             }
           ]
@@ -2787,17 +2693,17 @@
     "41": {
       "nombre": "Sevilla",
       "ganador": {
-        "siglas": "SDP (PSOE-IU-MS)",
-        "color": "#9AA0A6",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
         "escanos": 3,
         "estado": "claro",
         "empatados": []
       },
       "composicion": [
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 3
         },
         {
@@ -2814,14 +2720,14 @@
           "ganadores": [
             {
               "nombre": "Rosario Andújar Torrejón",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 381316
             },
             {
               "nombre": "Antonio Gutiérrez Limones",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 372719
             },
             {
@@ -2832,8 +2738,8 @@
             },
             {
               "nombre": "Eva Patricia Bueno Campanario",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 355413
             }
           ]
@@ -2857,9 +2763,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -2888,8 +2794,8 @@
             },
             {
               "nombre": "Ana Alegre Martínez",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 13256
             }
           ]
@@ -2969,9 +2875,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-CHA-IU-MS)",
-          "nombre": "SENADO DE PROGRESO DE ARAGÓN",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -3000,8 +2906,8 @@
             },
             {
               "nombre": "María José Villalba Chavarría",
-              "siglas": "SDP (PSOE-CHA-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 18743
             }
           ]
@@ -3025,9 +2931,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -3056,8 +2962,8 @@
             },
             {
               "nombre": "José Manuel Tofiño Pérez",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 130874
             }
           ]
@@ -3077,8 +2983,8 @@
             "color": "#0557A1"
           },
           {
-            "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-            "color": "#9AA0A6"
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
           }
         ]
       },
@@ -3090,9 +2996,9 @@
           "escanos": 2
         },
         {
-          "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 2
         }
       ],
@@ -3109,8 +3015,8 @@
             },
             {
               "nombre": "Juan Antonio Sagredo Marco",
-              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 494305
             },
             {
@@ -3121,8 +3027,8 @@
             },
             {
               "nombre": "Isaura Navarro Casillas",
-              "siglas": "SDP (PSOE-COMPROMIS-EUPV)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 480038
             }
           ]
@@ -3146,9 +3052,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -3177,8 +3083,8 @@
             },
             {
               "nombre": "Sara Maria Galván Lobato",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 102964
             }
           ]
@@ -3202,9 +3108,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-EZAN IU-MS)",
-          "nombre": "SENADO DE PROGRESO / AURRERA DOAN SENATUA",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -3233,8 +3139,8 @@
             },
             {
               "nombre": "Txema Oleaga Zalvidea",
-              "siglas": "SDP (PSOE-EZAN IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 148819
             }
           ]
@@ -3258,9 +3164,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-IU-MS)",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -3289,8 +3195,8 @@
             },
             {
               "nombre": "José Fernández Blanco",
-              "siglas": "SDP (PSOE-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 30229
             }
           ]
@@ -3314,9 +3220,9 @@
           "escanos": 3
         },
         {
-          "siglas": "SDP (PSOE-CHA-IU-MS)",
-          "nombre": "SENADO DE PROGRESO DE ARAGÓN",
-          "color": "#9AA0A6",
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 1
         }
       ],
@@ -3345,8 +3251,8 @@
             },
             {
               "nombre": "Miguel Dalmau Blanco",
-              "siglas": "SDP (PSOE-CHA-IU-MS)",
-              "color": "#9AA0A6",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
               "votos": 161550
             }
           ]
@@ -3357,7 +3263,7 @@
       "nombre": "Ceuta",
       "ganador": {
         "siglas": "SENADO DE PROGRESO",
-        "color": "#9AA0A6",
+        "color": "#E10819",
         "escanos": 2,
         "estado": "claro",
         "empatados": []
@@ -3365,8 +3271,8 @@
       "composicion": [
         {
           "siglas": "SENADO DE PROGRESO",
-          "nombre": "SENADO DE PROGRESO",
-          "color": "#9AA0A6",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
           "escanos": 2
         }
       ],
@@ -3378,13 +3284,13 @@
             {
               "nombre": "Abdel lah Abdel lah Mustafa",
               "siglas": "SENADO DE PROGRESO",
-              "color": "#9AA0A6",
+              "color": "#E10819",
               "votos": 9606
             },
             {
               "nombre": "Nesrin Haddad Ahmed",
               "siglas": "SENADO DE PROGRESO",
-              "color": "#9AA0A6",
+              "color": "#E10819",
               "votos": 9167
             }
           ]

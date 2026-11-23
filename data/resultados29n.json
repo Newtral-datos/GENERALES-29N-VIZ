@@ -1,5 +1,5 @@
 {
-  "_guia": "Congreso 29N. Lo que más se mira está arriba de cada bloque: fecha, hora de totalización, nº de envío y % escrutado. Los partidos van ordenados por escaños, luego votos, luego resultado de 23J — así los grandes salen siempre primero, incluso antes del primer dato. `escanosAnterior`/`pctVotosAnterior` en null significan 'no comparable' (esa marca no se presentó así en 23J): no los pongas a 0. Este fichero lo regenera scripts/actualizar_29n.sh; si lo editas a mano, la siguiente ejecución se lleva el cambio por delante.",
+  "_guia": "Congreso 29N. Lo que más se mira está arriba de cada bloque: fecha, hora de totalización, nº de envío y % escrutado. Los partidos van ordenados por escaños, luego votos, luego resultado de 23J — así los grandes salen siempre primero, incluso antes del primer dato. Los `pctVotos` van sobre VÁLIDOS (candidaturas + blanco), que es el criterio del Ministerio y el que publican los medios: con el denominador de solo candidaturas salían ~0,8 % relativo más altos. `escanosAnterior`/`pctVotosAnterior` en null significan 'no comparable' (esa marca no se presentó así en 23J): no los pongas a 0. Este fichero lo regenera scripts/actualizar_29n.sh; si lo editas a mano, la siguiente ejecución se lleva el cambio por delante.",
   "nacional": {
     "fecha": "2026-11-21",
     "horaTotalizacion": "14:22",
@@ -23,8 +23,9 @@
         "escanos": 137,
         "color": "#0557A1",
         "lado": 2,
-        "pctVotos": 33.7,
-        "escanosAnterior": 137
+        "pctVotos": 33.46,
+        "escanosAnterior": 137,
+        "pctVotosAnterior": 33.06
       },
       {
         "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
@@ -33,8 +34,9 @@
         "escanos": 126,
         "color": "#E10819",
         "lado": 1,
-        "pctVotos": 32.38,
-        "escanosAnterior": 121
+        "pctVotos": 32.15,
+        "escanosAnterior": 121,
+        "pctVotosAnterior": 31.68
       },
       {
         "nombre": "VOX",
@@ -43,8 +45,9 @@
         "escanos": 34,
         "color": "#02C119",
         "lado": 2,
-        "pctVotos": 12.92,
-        "escanosAnterior": 33
+        "pctVotos": 12.83,
+        "escanosAnterior": 33,
+        "pctVotosAnterior": 12.38
       },
       {
         "nombre": "FRENTE AMPLIO",
@@ -53,8 +56,9 @@
         "escanos": 27,
         "color": "#FF8258",
         "lado": 1,
-        "pctVotos": 10.46,
-        "escanosAnterior": 31
+        "pctVotos": 10.39,
+        "escanosAnterior": 31,
+        "pctVotosAnterior": 12.33
       },
       {
         "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
@@ -63,8 +67,9 @@
         "escanos": 7,
         "color": "#FFB400",
         "lado": 1,
-        "pctVotos": 1.99,
-        "escanosAnterior": 7
+        "pctVotos": 1.97,
+        "escanosAnterior": 7,
+        "pctVotosAnterior": 1.89
       },
       {
         "nombre": "JUNTS PER CATALUNYA - JUNTS",
@@ -73,8 +78,9 @@
         "escanos": 6,
         "color": "#0B8457",
         "lado": 2,
-        "pctVotos": 1.69,
-        "escanosAnterior": 7
+        "pctVotos": 1.68,
+        "escanosAnterior": 7,
+        "pctVotosAnterior": 1.6
       },
       {
         "nombre": "EUSKAL HERRIA BILDU",
@@ -84,7 +90,8 @@
         "color": "#A4CE4E",
         "lado": 1,
         "pctVotos": 1.14,
-        "escanosAnterior": 6
+        "escanosAnterior": 6,
+        "pctVotosAnterior": 1.36
       },
       {
         "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
@@ -93,28 +100,31 @@
         "escanos": 5,
         "color": "#00843D",
         "lado": 2,
-        "pctVotos": 1.12,
-        "escanosAnterior": 5
+        "pctVotos": 1.11,
+        "escanosAnterior": 5,
+        "pctVotosAnterior": 1.12
       },
       {
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "siglas": "NC-BC (+4)",
         "votos": 121008,
         "escanos": 2,
-        "color": "#AAAAAA",
+        "color": "#88B53D",
         "lado": 1,
         "pctVotos": 0.5,
-        "escanosAnterior": null
+        "escanosAnterior": null,
+        "pctVotosAnterior": null
       },
       {
         "nombre": "BLOQUE NACIONALISTA GALEGO",
         "siglas": "B.N.G.",
         "votos": 149324,
         "escanos": 1,
-        "color": "#860033",
+        "color": "#5EB5E5",
         "lado": 1,
         "pctVotos": 0.62,
-        "escanosAnterior": 1
+        "escanosAnterior": 1,
+        "pctVotosAnterior": 0.62
       },
       {
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
@@ -123,8 +133,9 @@
         "escanos": 0,
         "color": "#9AA0A6",
         "lado": 2,
-        "pctVotos": 0.71,
-        "escanosAnterior": null
+        "pctVotos": 0.7,
+        "escanosAnterior": null,
+        "pctVotosAnterior": null
       },
       {
         "nombre": "COALICIÓN CANARIA",
@@ -134,7 +145,8 @@
         "color": "#FFCC00",
         "lado": 2,
         "pctVotos": 0,
-        "escanosAnterior": 1
+        "escanosAnterior": 1,
+        "pctVotosAnterior": 0.47
       },
       {
         "nombre": "UNIÓN DEL PUEBLO NAVARRO",
@@ -144,12 +156,13 @@
         "color": "#1B3A6B",
         "lado": 2,
         "pctVotos": 0,
-        "escanosAnterior": 1
+        "escanosAnterior": 1,
+        "pctVotosAnterior": 0.21
       }
     ],
     "otros": {
       "votos": 667608,
-      "pctVotos": 2.77,
+      "pctVotos": 2.75,
       "numCandidaturas": 36
     },
     "anterior": {
@@ -161,6 +174,7 @@
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "escanos": 137,
+          "pctVotos": 33.06,
           "color": "#0557A1",
           "lado": 2
         },
@@ -168,6 +182,7 @@
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "escanos": 121,
+          "pctVotos": 31.68,
           "color": "#E10819",
           "lado": 1
         },
@@ -175,6 +190,7 @@
           "siglas": "VOX",
           "nombre": "VOX",
           "escanos": 33,
+          "pctVotos": 12.38,
           "color": "#02C119",
           "lado": 2
         },
@@ -182,6 +198,7 @@
           "siglas": "SUMAR",
           "nombre": "SUMAR",
           "escanos": 31,
+          "pctVotos": 12.33,
           "color": "#E0218A",
           "lado": 1
         },
@@ -189,6 +206,7 @@
           "siglas": "ERC",
           "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
           "escanos": 7,
+          "pctVotos": 1.89,
           "color": "#FFB400",
           "lado": 1
         },
@@ -196,6 +214,7 @@
           "siglas": "JxCAT - JUNTS",
           "nombre": "JUNTS PER CATALUNYA - JUNTS",
           "escanos": 7,
+          "pctVotos": 1.6,
           "color": "#0B8457",
           "lado": 2
         },
@@ -203,6 +222,7 @@
           "siglas": "EH Bildu",
           "nombre": "EUSKAL HERRIA BILDU",
           "escanos": 6,
+          "pctVotos": 1.36,
           "color": "#A4CE4E",
           "lado": 1
         },
@@ -210,6 +230,7 @@
           "siglas": "EAJ-PNV",
           "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
           "escanos": 5,
+          "pctVotos": 1.12,
           "color": "#00843D",
           "lado": 2
         },
@@ -217,13 +238,15 @@
           "siglas": "B.N.G.",
           "nombre": "BLOQUE NACIONALISTA GALEGO",
           "escanos": 1,
-          "color": "#860033",
+          "pctVotos": 0.62,
+          "color": "#5EB5E5",
           "lado": 1
         },
         {
           "siglas": "CCa",
           "nombre": "COALICIÓN CANARIA",
           "escanos": 1,
+          "pctVotos": 0.47,
           "color": "#FFCC00",
           "lado": 2
         },
@@ -231,6 +254,7 @@
           "siglas": "U.P.N.",
           "nombre": "UNIÓN DEL PUEBLO NAVARRO",
           "escanos": 1,
+          "pctVotos": 0.21,
           "color": "#1B3A6B",
           "lado": 2
         }
@@ -254,44 +278,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 1588097,
           "escanos": 24,
-          "pctVotos": 36.86,
+          "pctVotos": 36.55,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 25,
-          "pctVotosAnterior": 36.76
+          "pctVotosAnterior": 36.41
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 1458216,
           "escanos": 21,
-          "pctVotos": 33.84,
+          "pctVotos": 33.56,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 21,
-          "pctVotosAnterior": 33.8
+          "pctVotosAnterior": 33.48
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 671821,
           "escanos": 9,
-          "pctVotos": 15.59,
+          "pctVotos": 15.46,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 9,
-          "pctVotosAnterior": 15.47
+          "pctVotosAnterior": 15.32
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 520101,
           "escanos": 6,
-          "pctVotos": 12.07,
+          "pctVotos": 11.97,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 6,
-          "pctVotosAnterior": 12.1
+          "pctVotosAnterior": 11.99
         },
         {
           "siglas": "PACMA",
@@ -318,7 +342,7 @@
       ],
       "otros": {
         "votos": 24347,
-        "pctVotos": 0.57,
+        "pctVotos": 0.56,
         "numCandidaturas": 8
       }
     },
@@ -338,40 +362,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 251573,
           "escanos": 7,
-          "pctVotos": 36.98,
+          "pctVotos": 36.7,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 7,
-          "pctVotosAnterior": 36.59
+          "pctVotosAnterior": 36.27
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 216983,
           "escanos": 4,
-          "pctVotos": 31.89,
+          "pctVotos": 31.65,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 31.4
+          "pctVotosAnterior": 31.12
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 102985,
           "escanos": 1,
-          "pctVotos": 15.14,
+          "pctVotos": 15.02,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.75
+          "pctVotosAnterior": 14.62
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 83123,
           "escanos": 1,
-          "pctVotos": 12.22,
+          "pctVotos": 12.13,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -382,7 +406,7 @@
           "nombre": "AGRUPACIÓN DE ELECTORES ¡TERUEL EXISTE!",
           "votos": 10867,
           "escanos": 0,
-          "pctVotos": 1.6,
+          "pctVotos": 1.59,
           "color": "#5B8C5A",
           "lado": 1,
           "escanosAnterior": null,
@@ -402,7 +426,7 @@
       ],
       "otros": {
         "votos": 11604,
-        "pctVotos": 1.71,
+        "pctVotos": 1.69,
         "numCandidaturas": 7
       }
     },
@@ -422,44 +446,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 206984,
           "escanos": 3,
-          "pctVotos": 36.09,
+          "pctVotos": 35.77,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 36.01
+          "pctVotosAnterior": 35.65
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 198886,
           "escanos": 2,
-          "pctVotos": 34.68,
+          "pctVotos": 34.37,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 34.7
+          "pctVotosAnterior": 34.34
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 86781,
           "escanos": 1,
-          "pctVotos": 15.13,
+          "pctVotos": 15.0,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.0
+          "pctVotosAnterior": 14.85
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 72888,
           "escanos": 1,
-          "pctVotos": 12.71,
+          "pctVotos": 12.59,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 12.62
+          "pctVotosAnterior": 12.49
         },
         {
           "siglas": "PACMA",
@@ -515,29 +539,29 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 184854,
           "escanos": 3,
-          "pctVotos": 36.09,
+          "pctVotos": 35.79,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 35.96
+          "pctVotosAnterior": 35.63
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 156920,
           "escanos": 3,
-          "pctVotos": 30.64,
+          "pctVotos": 30.38,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 30.44
+          "pctVotosAnterior": 30.16
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 86427,
           "escanos": 1,
-          "pctVotos": 16.88,
+          "pctVotos": 16.73,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -548,11 +572,11 @@
           "nombre": "VOX",
           "votos": 79172,
           "escanos": 1,
-          "pctVotos": 15.46,
+          "pctVotos": 15.33,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.35
+          "pctVotosAnterior": 15.21
         },
         {
           "siglas": "FO",
@@ -570,7 +594,7 @@
           "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
           "votos": 1776,
           "escanos": 0,
-          "pctVotos": 0.35,
+          "pctVotos": 0.34,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -608,30 +632,30 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 356532,
           "escanos": 6,
-          "pctVotos": 35.1,
+          "pctVotos": 34.85,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 6,
-          "pctVotosAnterior": 33.6
+          "pctVotosAnterior": 33.34
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 326946,
           "escanos": 6,
-          "pctVotos": 32.19,
+          "pctVotos": 31.96,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 6,
-          "pctVotosAnterior": 30.69
+          "pctVotosAnterior": 30.44
         },
         {
           "siglas": "NC-BC (+4)",
           "nombre": "NC-BC, PODEMOS, IU, SUMAR",
           "votos": 121008,
           "escanos": 2,
-          "pctVotos": 11.91,
-          "color": "#AAAAAA",
+          "pctVotos": 11.83,
+          "color": "#88B53D",
           "lado": 1,
           "escanosAnterior": null,
           "pctVotosAnterior": null
@@ -641,18 +665,18 @@
           "nombre": "VOX",
           "votos": 90044,
           "escanos": 1,
-          "pctVotos": 8.87,
+          "pctVotos": 8.8,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 7.62
+          "pctVotosAnterior": 7.56
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 21834,
           "escanos": 0,
-          "pctVotos": 2.15,
+          "pctVotos": 2.13,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -663,7 +687,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 14502,
           "escanos": 0,
-          "pctVotos": 1.43,
+          "pctVotos": 1.42,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -672,7 +696,7 @@
       ],
       "otros": {
         "votos": 84797,
-        "pctVotos": 8.35,
+        "pctVotos": 8.29,
         "numCandidaturas": 9
       }
     },
@@ -701,44 +725,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 145775,
           "escanos": 2,
-          "pctVotos": 42.82,
+          "pctVotos": 42.47,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 42.47
+          "pctVotosAnterior": 42.08
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 113742,
           "escanos": 2,
-          "pctVotos": 33.41,
+          "pctVotos": 33.13,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 33.61
+          "pctVotosAnterior": 33.3
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 49040,
           "escanos": 1,
-          "pctVotos": 14.4,
+          "pctVotos": 14.29,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.2
+          "pctVotosAnterior": 14.06
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 29132,
           "escanos": 0,
-          "pctVotos": 8.56,
+          "pctVotos": 8.49,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.57
+          "pctVotosAnterior": 8.49
         },
         {
           "siglas": "FO",
@@ -756,7 +780,7 @@
           "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
           "votos": 1010,
           "escanos": 0,
-          "pctVotos": 0.3,
+          "pctVotos": 0.29,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -785,51 +809,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 436401,
           "escanos": 10,
-          "pctVotos": 39.21,
+          "pctVotos": 38.95,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 10,
-          "pctVotosAnterior": 39.22
+          "pctVotosAnterior": 38.91
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 383209,
           "escanos": 8,
-          "pctVotos": 34.43,
+          "pctVotos": 34.2,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 8,
-          "pctVotosAnterior": 34.43
+          "pctVotosAnterior": 34.16
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 202219,
           "escanos": 3,
-          "pctVotos": 18.17,
+          "pctVotos": 18.05,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 17.91
+          "pctVotosAnterior": 17.77
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 83571,
           "escanos": 0,
-          "pctVotos": 7.51,
+          "pctVotos": 7.46,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 7.42
+          "pctVotosAnterior": 7.36
         },
         {
           "siglas": "FO",
           "nombre": "FRENTE OBRERO",
           "votos": 2736,
           "escanos": 0,
-          "pctVotos": 0.25,
+          "pctVotos": 0.24,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -840,7 +864,7 @@
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 1509,
           "escanos": 0,
-          "pctVotos": 0.14,
+          "pctVotos": 0.13,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -869,51 +893,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 569717,
           "escanos": 18,
-          "pctVotos": 42.24,
+          "pctVotos": 41.96,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 18,
-          "pctVotosAnterior": 41.87
+          "pctVotosAnterior": 41.55
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 445603,
           "escanos": 12,
-          "pctVotos": 33.04,
+          "pctVotos": 32.82,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 12,
-          "pctVotosAnterior": 32.59
+          "pctVotosAnterior": 32.34
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 191704,
           "escanos": 1,
-          "pctVotos": 14.21,
+          "pctVotos": 14.12,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.89
+          "pctVotosAnterior": 13.78
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 99985,
           "escanos": 0,
-          "pctVotos": 7.41,
+          "pctVotos": 7.36,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 7.09
+          "pctVotosAnterior": 7.04
         },
         {
           "siglas": "SY",
           "nombre": "SORIA ¡YA!",
           "votos": 8994,
           "escanos": 0,
-          "pctVotos": 0.67,
+          "pctVotos": 0.66,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -933,7 +957,7 @@
       ],
       "otros": {
         "votos": 26781,
-        "pctVotos": 1.99,
+        "pctVotos": 1.97,
         "numCandidaturas": 11
       }
     },
@@ -953,18 +977,18 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 1230885,
           "escanos": 19,
-          "pctVotos": 35.38,
+          "pctVotos": 35.12,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 19,
-          "pctVotosAnterior": 34.76
+          "pctVotosAnterior": 34.47
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 507704,
           "escanos": 7,
-          "pctVotos": 14.59,
+          "pctVotos": 14.49,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -975,49 +999,49 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 482783,
           "escanos": 7,
-          "pctVotos": 13.88,
+          "pctVotos": 13.78,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 6,
-          "pctVotosAnterior": 13.48
+          "pctVotosAnterior": 13.37
         },
         {
           "siglas": "ERC",
           "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
           "votos": 478119,
           "escanos": 7,
-          "pctVotos": 13.74,
+          "pctVotos": 13.64,
           "color": "#FFB400",
           "lado": 1,
           "escanosAnterior": 7,
-          "pctVotosAnterior": 13.26
+          "pctVotosAnterior": 13.15
         },
         {
           "siglas": "JxCAT - JUNTS",
           "nombre": "JUNTS PER CATALUNYA - JUNTS",
           "votos": 407252,
           "escanos": 6,
-          "pctVotos": 11.7,
+          "pctVotos": 11.62,
           "color": "#0B8457",
           "lado": 2,
           "escanosAnterior": 7,
-          "pctVotosAnterior": 11.25
+          "pctVotosAnterior": 11.16
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 287875,
           "escanos": 2,
-          "pctVotos": 8.27,
+          "pctVotos": 8.21,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 7.83
+          "pctVotosAnterior": 7.76
         }
       ],
       "otros": {
         "votos": 84744,
-        "pctVotos": 2.44,
+        "pctVotos": 2.42,
         "numCandidaturas": 8
       }
     },
@@ -1046,44 +1070,44 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 239323,
           "escanos": 4,
-          "pctVotos": 39.5,
+          "pctVotos": 39.24,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 39.39
+          "pctVotosAnterior": 39.08
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 233320,
           "escanos": 4,
-          "pctVotos": 38.51,
+          "pctVotos": 38.26,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 38.19
+          "pctVotosAnterior": 37.89
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 84668,
           "escanos": 1,
-          "pctVotos": 13.98,
+          "pctVotos": 13.88,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.75
+          "pctVotosAnterior": 13.64
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 42798,
           "escanos": 0,
-          "pctVotos": 7.06,
+          "pctVotos": 7.02,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.93
+          "pctVotosAnterior": 6.88
         },
         {
           "siglas": "FO",
@@ -1130,55 +1154,55 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 682463,
           "escanos": 13,
-          "pctVotos": 43.87,
+          "pctVotos": 43.63,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 13,
-          "pctVotosAnterior": 43.89
+          "pctVotosAnterior": 43.58
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 469678,
           "escanos": 7,
-          "pctVotos": 30.19,
+          "pctVotos": 30.02,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 7,
-          "pctVotosAnterior": 29.97
+          "pctVotosAnterior": 29.76
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 173161,
           "escanos": 2,
-          "pctVotos": 11.13,
+          "pctVotos": 11.07,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 11.0
+          "pctVotosAnterior": 10.92
         },
         {
           "siglas": "B.N.G.",
           "nombre": "BLOQUE NACIONALISTA GALEGO",
           "votos": 149324,
           "escanos": 1,
-          "pctVotos": 9.6,
-          "color": "#860033",
+          "pctVotos": 9.55,
+          "color": "#5EB5E5",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 9.48
+          "pctVotosAnterior": 9.41
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 75893,
           "escanos": 0,
-          "pctVotos": 4.88,
+          "pctVotos": 4.85,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 4.91
+          "pctVotosAnterior": 4.87
         },
         {
           "siglas": "FO",
@@ -1214,44 +1238,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 1437061,
           "escanos": 16,
-          "pctVotos": 40.93,
+          "pctVotos": 40.64,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 16,
-          "pctVotosAnterior": 40.87
+          "pctVotosAnterior": 40.55
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 986530,
           "escanos": 11,
-          "pctVotos": 28.1,
+          "pctVotos": 27.9,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 10,
-          "pctVotosAnterior": 28.06
+          "pctVotosAnterior": 27.84
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 546595,
           "escanos": 6,
-          "pctVotos": 15.57,
+          "pctVotos": 15.46,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 6,
-          "pctVotosAnterior": 15.58
+          "pctVotosAnterior": 15.46
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 498827,
           "escanos": 5,
-          "pctVotos": 14.21,
+          "pctVotos": 14.11,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 14.14
+          "pctVotosAnterior": 14.03
         },
         {
           "siglas": "PACMA",
@@ -1298,51 +1322,51 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 101442,
           "escanos": 3,
-          "pctVotos": 30.26,
+          "pctVotos": 30.04,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 27.6
+          "pctVotosAnterior": 27.37
         },
         {
           "siglas": "PP-UPN",
           "nombre": "PARTIDO POPULAR",
           "votos": 65874,
           "escanos": 1,
-          "pctVotos": 19.65,
+          "pctVotos": 19.51,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 16.86
+          "pctVotosAnterior": 16.71
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 52143,
           "escanos": 1,
-          "pctVotos": 15.55,
+          "pctVotos": 15.44,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 12.96
+          "pctVotosAnterior": 12.85
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 27958,
           "escanos": 0,
-          "pctVotos": 8.34,
+          "pctVotos": 8.28,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.75
+          "pctVotosAnterior": 5.7
         },
         {
           "siglas": "GBAI",
           "nombre": "GEROA BAI",
           "votos": 17979,
           "escanos": 0,
-          "pctVotos": 5.36,
+          "pctVotos": 5.32,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1353,7 +1377,7 @@
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 9824,
           "escanos": 0,
-          "pctVotos": 2.93,
+          "pctVotos": 2.91,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1362,7 +1386,7 @@
       ],
       "otros": {
         "votos": 60070,
-        "pctVotos": 17.92,
+        "pctVotos": 17.79,
         "numCandidaturas": 7
       }
     },
@@ -1395,66 +1419,66 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 282119,
           "escanos": 5,
-          "pctVotos": 25.45,
+          "pctVotos": 25.34,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 25.4
+          "pctVotosAnterior": 25.27
         },
         {
           "siglas": "EAJ-PNV",
           "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
           "votos": 269242,
           "escanos": 5,
-          "pctVotos": 24.28,
+          "pctVotos": 24.18,
           "color": "#00843D",
           "lado": 2,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 24.13
+          "pctVotosAnterior": 24.0
         },
         {
           "siglas": "EH Bildu",
           "nombre": "EUSKAL HERRIA BILDU",
           "votos": 267442,
           "escanos": 5,
-          "pctVotos": 24.12,
+          "pctVotos": 24.02,
           "color": "#A4CE4E",
           "lado": 1,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 24.03
+          "pctVotosAnterior": 23.9
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 127907,
           "escanos": 2,
-          "pctVotos": 11.54,
+          "pctVotos": 11.49,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 11.61
+          "pctVotosAnterior": 11.55
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 123945,
           "escanos": 1,
-          "pctVotos": 11.18,
+          "pctVotos": 11.13,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 11.16
+          "pctVotosAnterior": 11.1
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 28645,
           "escanos": 0,
-          "pctVotos": 2.58,
+          "pctVotos": 2.57,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 2.66
+          "pctVotosAnterior": 2.64
         }
       ],
       "otros": {
@@ -1479,44 +1503,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 312328,
           "escanos": 4,
-          "pctVotos": 41.74,
+          "pctVotos": 41.5,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 41.46
+          "pctVotosAnterior": 41.18
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 191539,
           "escanos": 3,
-          "pctVotos": 25.6,
+          "pctVotos": 25.45,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 25.47
+          "pctVotosAnterior": 25.3
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 166583,
           "escanos": 2,
-          "pctVotos": 22.26,
+          "pctVotos": 22.13,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 21.96
+          "pctVotosAnterior": 21.81
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 72358,
           "escanos": 1,
-          "pctVotos": 9.67,
+          "pctVotos": 9.61,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 9.64
+          "pctVotosAnterior": 9.57
         },
         {
           "siglas": "ESCAÑOS EN BLANCO",
@@ -1572,44 +1596,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 77025,
           "escanos": 2,
-          "pctVotos": 46.23,
+          "pctVotos": 45.86,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 46.06
+          "pctVotosAnterior": 45.64
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 59989,
           "escanos": 2,
-          "pctVotos": 36.01,
+          "pctVotos": 35.72,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 36.01
+          "pctVotosAnterior": 35.68
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 16521,
           "escanos": 0,
-          "pctVotos": 9.92,
+          "pctVotos": 9.84,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 9.86
+          "pctVotosAnterior": 9.77
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 11091,
           "escanos": 0,
-          "pctVotos": 6.66,
+          "pctVotos": 6.6,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.63
+          "pctVotosAnterior": 6.57
         },
         {
           "siglas": "PACMA",
@@ -1656,40 +1680,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 963113,
           "escanos": 14,
-          "pctVotos": 36.69,
+          "pctVotos": 36.45,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 13,
-          "pctVotosAnterior": 35.14
+          "pctVotosAnterior": 34.87
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 888188,
           "escanos": 13,
-          "pctVotos": 33.84,
+          "pctVotos": 33.61,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 11,
-          "pctVotosAnterior": 32.38
+          "pctVotosAnterior": 32.13
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 453346,
           "escanos": 6,
-          "pctVotos": 17.27,
+          "pctVotos": 17.16,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 15.76
+          "pctVotosAnterior": 15.65
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 55016,
           "escanos": 0,
-          "pctVotos": 2.1,
+          "pctVotos": 2.08,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1700,7 +1724,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 40861,
           "escanos": 0,
-          "pctVotos": 1.56,
+          "pctVotos": 1.55,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1711,7 +1735,7 @@
           "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
           "votos": 35801,
           "escanos": 0,
-          "pctVotos": 1.36,
+          "pctVotos": 1.35,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1720,7 +1744,7 @@
       ],
       "otros": {
         "votos": 188476,
-        "pctVotos": 7.18,
+        "pctVotos": 7.13,
         "numCandidaturas": 8
       }
     },
@@ -1740,33 +1764,33 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 10771,
           "escanos": 1,
-          "pctVotos": 40.42,
+          "pctVotos": 40.04,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 34.35
+          "pctVotosAnterior": 34.01
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 9203,
           "escanos": 0,
-          "pctVotos": 34.53,
+          "pctVotos": 34.21,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 39.15
+          "pctVotosAnterior": 38.77
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 6246,
           "escanos": 0,
-          "pctVotos": 23.44,
+          "pctVotos": 23.22,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 23.5
+          "pctVotosAnterior": 23.26
         },
         {
           "siglas": "FRENTE OBRERO",
@@ -1784,7 +1808,7 @@
           "nombre": "PODEMOS",
           "votos": 130,
           "escanos": 0,
-          "pctVotos": 0.49,
+          "pctVotos": 0.48,
           "color": "#6E2585",
           "lado": 1,
           "escanosAnterior": null,
@@ -1795,7 +1819,7 @@
           "nombre": "SE ACABO LA FIESTA",
           "votos": 130,
           "escanos": 0,
-          "pctVotos": 0.49,
+          "pctVotos": 0.48,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1824,40 +1848,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 14047,
           "escanos": 1,
-          "pctVotos": 51.71,
+          "pctVotos": 51.06,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 49.62
+          "pctVotosAnterior": 49.16
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 7247,
           "escanos": 0,
-          "pctVotos": 26.68,
+          "pctVotos": 26.34,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 25.62
+          "pctVotosAnterior": 25.39
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 4911,
           "escanos": 0,
-          "pctVotos": 18.08,
+          "pctVotos": 17.85,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 16.09
+          "pctVotosAnterior": 15.94
         },
         {
           "siglas": "FO",
           "nombre": "FRENTE OBRERO",
           "votos": 480,
           "escanos": 0,
-          "pctVotos": 1.77,
+          "pctVotos": 1.74,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1868,7 +1892,7 @@
           "nombre": "SE ACABÓ LA FIESTA",
           "votos": 480,
           "escanos": 0,
-          "pctVotos": 1.77,
+          "pctVotos": 1.74,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -1916,66 +1940,66 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 42804,
           "escanos": 1,
-          "pctVotos": 27.95,
+          "pctVotos": 27.86,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 27.78
+          "pctVotosAnterior": 27.66
         },
         {
           "siglas": "EH Bildu",
           "nombre": "EUSKAL HERRIA BILDU",
           "votos": 29825,
           "escanos": 1,
-          "pctVotos": 19.48,
+          "pctVotos": 19.41,
           "color": "#A4CE4E",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 19.59
+          "pctVotosAnterior": 19.51
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 27530,
           "escanos": 1,
-          "pctVotos": 17.98,
+          "pctVotos": 17.92,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 17.94
+          "pctVotosAnterior": 17.87
         },
         {
           "siglas": "EAJ-PNV",
           "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
           "votos": 25647,
           "escanos": 1,
-          "pctVotos": 16.75,
+          "pctVotos": 16.69,
           "color": "#00843D",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 16.67
+          "pctVotosAnterior": 16.6
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 19727,
           "escanos": 0,
-          "pctVotos": 12.88,
+          "pctVotos": 12.84,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 12.8
+          "pctVotosAnterior": 12.75
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 5932,
           "escanos": 0,
-          "pctVotos": 3.87,
+          "pctVotos": 3.86,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 3.9
+          "pctVotosAnterior": 3.89
         }
       ],
       "otros": {
@@ -2009,51 +2033,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 80562,
           "escanos": 2,
-          "pctVotos": 40.17,
+          "pctVotos": 39.88,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 40.25
+          "pctVotosAnterior": 39.92
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 70319,
           "escanos": 2,
-          "pctVotos": 35.06,
+          "pctVotos": 34.81,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 34.79
+          "pctVotosAnterior": 34.51
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 33496,
           "escanos": 0,
-          "pctVotos": 16.7,
+          "pctVotos": 16.58,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 16.75
+          "pctVotosAnterior": 16.61
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 14329,
           "escanos": 0,
-          "pctVotos": 7.14,
+          "pctVotos": 7.09,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 7.22
+          "pctVotosAnterior": 7.16
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 1138,
           "escanos": 0,
-          "pctVotos": 0.57,
+          "pctVotos": 0.56,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2073,7 +2097,7 @@
       ],
       "otros": {
         "votos": 351,
-        "pctVotos": 0.18,
+        "pctVotos": 0.17,
         "numCandidaturas": 3
       }
     },
@@ -2102,40 +2126,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 345105,
           "escanos": 5,
-          "pctVotos": 38.62,
+          "pctVotos": 38.37,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 37.0
+          "pctVotosAnterior": 36.73
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 300650,
           "escanos": 5,
-          "pctVotos": 33.64,
+          "pctVotos": 33.43,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 32.24
+          "pctVotosAnterior": 32.0
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 160583,
           "escanos": 2,
-          "pctVotos": 17.97,
+          "pctVotos": 17.86,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 16.37
+          "pctVotosAnterior": 16.25
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 20088,
           "escanos": 0,
-          "pctVotos": 2.25,
+          "pctVotos": 2.23,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2146,7 +2170,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 14536,
           "escanos": 0,
-          "pctVotos": 1.63,
+          "pctVotos": 1.62,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2157,7 +2181,7 @@
           "nombre": "PARTIDO AUTÓNOMOS",
           "votos": 14256,
           "escanos": 0,
-          "pctVotos": 1.6,
+          "pctVotos": 1.59,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2166,7 +2190,7 @@
       ],
       "otros": {
         "votos": 38433,
-        "pctVotos": 4.3,
+        "pctVotos": 4.27,
         "numCandidaturas": 3
       }
     },
@@ -2186,44 +2210,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 134061,
           "escanos": 3,
-          "pctVotos": 41.55,
+          "pctVotos": 41.28,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 41.26
+          "pctVotosAnterior": 40.94
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 94545,
           "escanos": 2,
-          "pctVotos": 29.3,
+          "pctVotos": 29.11,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 29.26
+          "pctVotosAnterior": 29.04
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 69685,
           "escanos": 1,
-          "pctVotos": 21.6,
+          "pctVotos": 21.46,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 21.45
+          "pctVotosAnterior": 21.28
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 21603,
           "escanos": 0,
-          "pctVotos": 6.7,
+          "pctVotos": 6.65,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.74
+          "pctVotosAnterior": 6.69
         },
         {
           "siglas": "PACMA",
@@ -2270,51 +2294,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 40951,
           "escanos": 2,
-          "pctVotos": 44.54,
+          "pctVotos": 44.18,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 43.53
+          "pctVotosAnterior": 43.25
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 25911,
           "escanos": 1,
-          "pctVotos": 28.18,
+          "pctVotos": 27.96,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 27.57
+          "pctVotosAnterior": 27.39
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 15072,
           "escanos": 0,
-          "pctVotos": 16.39,
+          "pctVotos": 16.26,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 15.48
+          "pctVotosAnterior": 15.38
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 5353,
           "escanos": 0,
-          "pctVotos": 5.82,
+          "pctVotos": 5.78,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.17
+          "pctVotosAnterior": 5.13
         },
         {
           "siglas": "MUNDO+JUSTO",
           "nombre": "POR UN MUNDO MAS JUSTO",
           "votos": 1140,
           "escanos": 0,
-          "pctVotos": 1.24,
+          "pctVotos": 1.23,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2325,7 +2349,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 755,
           "escanos": 0,
-          "pctVotos": 0.82,
+          "pctVotos": 0.81,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2334,7 +2358,7 @@
       ],
       "otros": {
         "votos": 2768,
-        "pctVotos": 3.01,
+        "pctVotos": 2.99,
         "numCandidaturas": 4
       }
     },
@@ -2363,44 +2387,44 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 151407,
           "escanos": 2,
-          "pctVotos": 39.67,
+          "pctVotos": 39.4,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 39.53
+          "pctVotosAnterior": 39.21
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 146475,
           "escanos": 2,
-          "pctVotos": 38.38,
+          "pctVotos": 38.12,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 38.14
+          "pctVotosAnterior": 37.82
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 53371,
           "escanos": 1,
-          "pctVotos": 13.99,
+          "pctVotos": 13.89,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.78
+          "pctVotosAnterior": 13.66
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 26842,
           "escanos": 0,
-          "pctVotos": 7.03,
+          "pctVotos": 6.99,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.9
+          "pctVotosAnterior": 6.84
         },
         {
           "siglas": "FO",
@@ -2427,7 +2451,7 @@
       ],
       "otros": {
         "votos": 1591,
-        "pctVotos": 0.42,
+        "pctVotos": 0.41,
         "numCandidaturas": 3
       }
     },
@@ -2456,29 +2480,29 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 184854,
           "escanos": 3,
-          "pctVotos": 36.09,
+          "pctVotos": 35.79,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 35.96
+          "pctVotosAnterior": 35.63
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 156920,
           "escanos": 3,
-          "pctVotos": 30.64,
+          "pctVotos": 30.38,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 30.44
+          "pctVotosAnterior": 30.16
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 86427,
           "escanos": 1,
-          "pctVotos": 16.88,
+          "pctVotos": 16.73,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -2489,11 +2513,11 @@
           "nombre": "VOX",
           "votos": 79172,
           "escanos": 1,
-          "pctVotos": 15.46,
+          "pctVotos": 15.33,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.35
+          "pctVotosAnterior": 15.21
         },
         {
           "siglas": "FO",
@@ -2511,7 +2535,7 @@
           "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
           "votos": 1776,
           "escanos": 0,
-          "pctVotos": 0.35,
+          "pctVotos": 0.34,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2540,18 +2564,18 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 958839,
           "escanos": 13,
-          "pctVotos": 36.59,
+          "pctVotos": 36.34,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 13,
-          "pctVotosAnterior": 35.99
+          "pctVotosAnterior": 35.7
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 412755,
           "escanos": 5,
-          "pctVotos": 15.75,
+          "pctVotos": 15.64,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -2562,49 +2586,49 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 373728,
           "escanos": 5,
-          "pctVotos": 14.26,
+          "pctVotos": 14.16,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 13.89
+          "pctVotosAnterior": 13.78
         },
         {
           "siglas": "ERC",
           "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
           "votos": 338236,
           "escanos": 4,
-          "pctVotos": 12.91,
+          "pctVotos": 12.82,
           "color": "#FFB400",
           "lado": 1,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 12.42
+          "pctVotosAnterior": 12.32
         },
         {
           "siglas": "JxCAT - JUNTS",
           "nombre": "JUNTS PER CATALUNYA - JUNTS",
           "votos": 267322,
           "escanos": 3,
-          "pctVotos": 10.2,
+          "pctVotos": 10.13,
           "color": "#0B8457",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 9.76
+          "pctVotosAnterior": 9.68
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 211253,
           "escanos": 2,
-          "pctVotos": 8.06,
+          "pctVotos": 8.01,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 7.62
+          "pctVotosAnterior": 7.56
         }
       ],
       "otros": {
         "votos": 58180,
-        "pctVotos": 2.22,
+        "pctVotos": 2.21,
         "numCandidaturas": 5
       }
     },
@@ -2633,51 +2657,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 80710,
           "escanos": 2,
-          "pctVotos": 41.39,
+          "pctVotos": 41.08,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 41.02
+          "pctVotosAnterior": 40.64
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 68584,
           "escanos": 2,
-          "pctVotos": 35.17,
+          "pctVotos": 34.91,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 34.76
+          "pctVotosAnterior": 34.45
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 25457,
           "escanos": 0,
-          "pctVotos": 13.05,
+          "pctVotos": 12.96,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 12.88
+          "pctVotosAnterior": 12.77
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 17406,
           "escanos": 0,
-          "pctVotos": 8.93,
+          "pctVotos": 8.86,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.72
+          "pctVotosAnterior": 8.64
         },
         {
           "siglas": "FO",
           "nombre": "FRENTE OBRERO",
           "votos": 813,
           "escanos": 0,
-          "pctVotos": 0.42,
+          "pctVotos": 0.41,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2697,7 +2721,7 @@
       ],
       "otros": {
         "votos": 1364,
-        "pctVotos": 0.7,
+        "pctVotos": 0.69,
         "numCandidaturas": 3
       }
     },
@@ -2726,44 +2750,44 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 87916,
           "escanos": 2,
-          "pctVotos": 39.21,
+          "pctVotos": 38.97,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 39.16
+          "pctVotosAnterior": 38.88
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 86845,
           "escanos": 2,
-          "pctVotos": 38.73,
+          "pctVotos": 38.49,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 38.28
+          "pctVotosAnterior": 38.0
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 31297,
           "escanos": 0,
-          "pctVotos": 13.96,
+          "pctVotos": 13.87,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 13.7
+          "pctVotosAnterior": 13.6
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 15956,
           "escanos": 0,
-          "pctVotos": 7.12,
+          "pctVotos": 7.07,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.99
+          "pctVotosAnterior": 6.93
         },
         {
           "siglas": "FO",
@@ -2819,51 +2843,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 219261,
           "escanos": 3,
-          "pctVotos": 35.14,
+          "pctVotos": 34.8,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 35.19
+          "pctVotosAnterior": 34.8
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 209931,
           "escanos": 3,
-          "pctVotos": 33.65,
+          "pctVotos": 33.32,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 33.52
+          "pctVotosAnterior": 33.15
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 96235,
           "escanos": 1,
-          "pctVotos": 15.42,
+          "pctVotos": 15.27,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.35
+          "pctVotosAnterior": 15.18
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 81457,
           "escanos": 1,
-          "pctVotos": 13.06,
+          "pctVotos": 12.93,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.03
+          "pctVotosAnterior": 12.89
         },
         {
           "siglas": "ADELANTE ANDALUCÍA",
           "nombre": "ADELANTE ANDALUCÍA",
           "votos": 8991,
           "escanos": 0,
-          "pctVotos": 1.44,
+          "pctVotos": 1.43,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2874,7 +2898,7 @@
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 5842,
           "escanos": 0,
-          "pctVotos": 0.94,
+          "pctVotos": 0.93,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2912,40 +2936,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 113903,
           "escanos": 2,
-          "pctVotos": 36.81,
+          "pctVotos": 36.53,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 35.48
+          "pctVotosAnterior": 35.17
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 106924,
           "escanos": 2,
-          "pctVotos": 34.56,
+          "pctVotos": 34.29,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 32.93
+          "pctVotosAnterior": 32.65
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 54333,
           "escanos": 1,
-          "pctVotos": 17.56,
+          "pctVotos": 17.43,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 16.02
+          "pctVotosAnterior": 15.88
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 6400,
           "escanos": 0,
-          "pctVotos": 2.07,
+          "pctVotos": 2.05,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2956,7 +2980,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 5171,
           "escanos": 0,
-          "pctVotos": 1.67,
+          "pctVotos": 1.66,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2967,7 +2991,7 @@
           "nombre": "FALANGE ESPAÑOLA DE LAS JONS",
           "votos": 4815,
           "escanos": 0,
-          "pctVotos": 1.56,
+          "pctVotos": 1.54,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -2976,7 +3000,7 @@
       ],
       "otros": {
         "votos": 17862,
-        "pctVotos": 5.77,
+        "pctVotos": 5.73,
         "numCandidaturas": 4
       }
     },
@@ -3005,44 +3029,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 110606,
           "escanos": 2,
-          "pctVotos": 40.92,
+          "pctVotos": 40.63,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 40.88
+          "pctVotosAnterior": 40.54
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 96800,
           "escanos": 2,
-          "pctVotos": 35.81,
+          "pctVotos": 35.55,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 35.67
+          "pctVotosAnterior": 35.37
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 44816,
           "escanos": 1,
-          "pctVotos": 16.58,
+          "pctVotos": 16.46,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 16.41
+          "pctVotosAnterior": 16.27
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 16976,
           "escanos": 0,
-          "pctVotos": 6.28,
+          "pctVotos": 6.24,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.2
+          "pctVotosAnterior": 6.15
         },
         {
           "siglas": "FO",
@@ -3098,51 +3122,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 166323,
           "escanos": 2,
-          "pctVotos": 38.31,
+          "pctVotos": 37.99,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 38.26
+          "pctVotosAnterior": 37.89
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 140636,
           "escanos": 2,
-          "pctVotos": 32.39,
+          "pctVotos": 32.12,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 32.43
+          "pctVotosAnterior": 32.12
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 61876,
           "escanos": 1,
-          "pctVotos": 14.25,
+          "pctVotos": 14.13,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.07
+          "pctVotosAnterior": 13.94
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 58989,
           "escanos": 1,
-          "pctVotos": 13.59,
+          "pctVotos": 13.47,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.86
+          "pctVotosAnterior": 13.73
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 2901,
           "escanos": 0,
-          "pctVotos": 0.67,
+          "pctVotos": 0.66,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -3162,7 +3186,7 @@
       ],
       "otros": {
         "votos": 2461,
-        "pctVotos": 0.57,
+        "pctVotos": 0.56,
         "numCandidaturas": 6
       }
     },
@@ -3182,55 +3206,55 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 283680,
           "escanos": 4,
-          "pctVotos": 43.54,
+          "pctVotos": 43.27,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 43.46
+          "pctVotosAnterior": 43.13
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 185494,
           "escanos": 2,
-          "pctVotos": 28.47,
+          "pctVotos": 28.29,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 28.39
+          "pctVotosAnterior": 28.17
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 80591,
           "escanos": 1,
-          "pctVotos": 12.37,
+          "pctVotos": 12.29,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 12.29
+          "pctVotosAnterior": 12.19
         },
         {
           "siglas": "B.N.G.",
           "nombre": "BLOQUE NACIONALISTA GALEGO",
           "votos": 66321,
           "escanos": 1,
-          "pctVotos": 10.18,
-          "color": "#860033",
+          "pctVotos": 10.12,
+          "color": "#5EB5E5",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 10.06
+          "pctVotosAnterior": 9.98
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 33471,
           "escanos": 0,
-          "pctVotos": 5.14,
+          "pctVotos": 5.11,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.12
+          "pctVotosAnterior": 5.08
         },
         {
           "siglas": "FO",
@@ -3266,44 +3290,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 43681,
           "escanos": 2,
-          "pctVotos": 40.17,
+          "pctVotos": 39.89,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 40.11
+          "pctVotosAnterior": 39.76
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 40924,
           "escanos": 1,
-          "pctVotos": 37.63,
+          "pctVotos": 37.37,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 37.69
+          "pctVotosAnterior": 37.37
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 17101,
           "escanos": 0,
-          "pctVotos": 15.73,
+          "pctVotos": 15.62,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 15.69
+          "pctVotosAnterior": 15.55
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 6059,
           "escanos": 0,
-          "pctVotos": 5.57,
+          "pctVotos": 5.53,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.61
+          "pctVotosAnterior": 5.56
         },
         {
           "siglas": "PACMA",
@@ -3350,40 +3374,40 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 94989,
           "escanos": 2,
-          "pctVotos": 29.89,
+          "pctVotos": 29.64,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 29.2
+          "pctVotosAnterior": 28.93
         },
         {
           "siglas": "JxCAT - JUNTS",
           "nombre": "JUNTS PER CATALUNYA - JUNTS",
           "votos": 65599,
           "escanos": 1,
-          "pctVotos": 20.64,
+          "pctVotos": 20.47,
           "color": "#0B8457",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 19.77
+          "pctVotosAnterior": 19.58
         },
         {
           "siglas": "ERC",
           "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
           "votos": 49448,
           "escanos": 1,
-          "pctVotos": 15.56,
+          "pctVotos": 15.43,
           "color": "#FFB400",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.85
+          "pctVotosAnterior": 14.72
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 37344,
           "escanos": 1,
-          "pctVotos": 11.75,
+          "pctVotos": 11.65,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -3394,27 +3418,27 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 33304,
           "escanos": 1,
-          "pctVotos": 10.48,
+          "pctVotos": 10.39,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 9.79
+          "pctVotosAnterior": 9.7
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 24414,
           "escanos": 0,
-          "pctVotos": 7.68,
+          "pctVotos": 7.62,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 7.1
+          "pctVotosAnterior": 7.03
         }
       ],
       "otros": {
         "votos": 12712,
-        "pctVotos": 4.0,
+        "pctVotos": 3.97,
         "numCandidaturas": 4
       }
     },
@@ -3434,44 +3458,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 184118,
           "escanos": 3,
-          "pctVotos": 37.24,
+          "pctVotos": 36.98,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 37.29
+          "pctVotosAnterior": 36.99
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 164529,
           "escanos": 2,
-          "pctVotos": 33.28,
+          "pctVotos": 33.05,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 33.25
+          "pctVotosAnterior": 32.98
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 80949,
           "escanos": 1,
-          "pctVotos": 16.37,
+          "pctVotos": 16.26,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 16.26
+          "pctVotosAnterior": 16.12
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 57994,
           "escanos": 1,
-          "pctVotos": 11.73,
+          "pctVotos": 11.65,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 11.74
+          "pctVotosAnterior": 11.65
         },
         {
           "siglas": "PACMA",
@@ -3531,44 +3555,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 51511,
           "escanos": 1,
-          "pctVotos": 36.52,
+          "pctVotos": 36.24,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 36.63
+          "pctVotosAnterior": 36.33
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 46825,
           "escanos": 1,
-          "pctVotos": 33.2,
+          "pctVotos": 32.94,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 33.25
+          "pctVotosAnterior": 32.98
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 28022,
           "escanos": 1,
-          "pctVotos": 19.87,
+          "pctVotos": 19.71,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 19.41
+          "pctVotosAnterior": 19.25
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 13283,
           "escanos": 0,
-          "pctVotos": 9.42,
+          "pctVotos": 9.34,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 9.23
+          "pctVotosAnterior": 9.16
         },
         {
           "siglas": "FO",
@@ -3586,7 +3610,7 @@
           "nombre": "POR UN MUNDO MAS JUSTO",
           "votos": 305,
           "escanos": 0,
-          "pctVotos": 0.22,
+          "pctVotos": 0.21,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -3595,7 +3619,7 @@
       ],
       "otros": {
         "votos": 730,
-        "pctVotos": 0.52,
+        "pctVotos": 0.51,
         "numCandidaturas": 4
       }
     },
@@ -3628,66 +3652,66 @@
           "nombre": "EUSKAL HERRIA BILDU",
           "votos": 114731,
           "escanos": 2,
-          "pctVotos": 31.5,
+          "pctVotos": 31.37,
           "color": "#A4CE4E",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 31.32
+          "pctVotosAnterior": 31.15
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 85803,
           "escanos": 2,
-          "pctVotos": 23.56,
+          "pctVotos": 23.46,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 23.41
+          "pctVotosAnterior": 23.29
         },
         {
           "siglas": "EAJ-PNV",
           "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
           "votos": 82401,
           "escanos": 2,
-          "pctVotos": 22.62,
+          "pctVotos": 22.53,
           "color": "#00843D",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 22.7
+          "pctVotosAnterior": 22.58
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 39064,
           "escanos": 0,
-          "pctVotos": 10.73,
+          "pctVotos": 10.68,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 10.7
+          "pctVotosAnterior": 10.64
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 31634,
           "escanos": 0,
-          "pctVotos": 8.69,
+          "pctVotos": 8.65,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.73
+          "pctVotosAnterior": 8.69
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 7472,
           "escanos": 0,
-          "pctVotos": 2.05,
+          "pctVotos": 2.04,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 2.1
+          "pctVotosAnterior": 2.09
         }
       ],
       "otros": {
@@ -3721,51 +3745,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 92928,
           "escanos": 2,
-          "pctVotos": 36.97,
+          "pctVotos": 36.67,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 36.78
+          "pctVotosAnterior": 36.43
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 91269,
           "escanos": 2,
-          "pctVotos": 36.31,
+          "pctVotos": 36.02,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 36.29
+          "pctVotosAnterior": 35.95
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 37671,
           "escanos": 1,
-          "pctVotos": 14.99,
+          "pctVotos": 14.87,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.77
+          "pctVotosAnterior": 14.63
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 26530,
           "escanos": 0,
-          "pctVotos": 10.55,
+          "pctVotos": 10.47,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 10.52
+          "pctVotosAnterior": 10.42
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 1802,
           "escanos": 0,
-          "pctVotos": 0.72,
+          "pctVotos": 0.71,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -3805,40 +3829,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 43688,
           "escanos": 2,
-          "pctVotos": 39.0,
+          "pctVotos": 38.66,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 38.58
+          "pctVotosAnterior": 38.19
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 38400,
           "escanos": 1,
-          "pctVotos": 34.28,
+          "pctVotos": 33.98,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 33.96
+          "pctVotosAnterior": 33.62
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 14564,
           "escanos": 0,
-          "pctVotos": 13.0,
+          "pctVotos": 12.89,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 12.77
+          "pctVotosAnterior": 12.64
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 13328,
           "escanos": 0,
-          "pctVotos": 11.9,
+          "pctVotos": 11.8,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -3869,7 +3893,7 @@
       ],
       "otros": {
         "votos": 1038,
-        "pctVotos": 0.93,
+        "pctVotos": 0.92,
         "numCandidaturas": 5
       }
     },
@@ -3898,44 +3922,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 134787,
           "escanos": 2,
-          "pctVotos": 37.9,
+          "pctVotos": 37.7,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 37.58
+          "pctVotosAnterior": 37.32
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 131449,
           "escanos": 2,
-          "pctVotos": 36.97,
+          "pctVotos": 36.76,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 36.54
+          "pctVotosAnterior": 36.29
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 53792,
           "escanos": 1,
-          "pctVotos": 15.13,
+          "pctVotos": 15.04,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.85
+          "pctVotosAnterior": 14.75
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 29327,
           "escanos": 0,
-          "pctVotos": 8.25,
+          "pctVotos": 8.2,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.04
+          "pctVotosAnterior": 7.99
         },
         {
           "siglas": "PACMA",
@@ -3953,7 +3977,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 947,
           "escanos": 0,
-          "pctVotos": 0.27,
+          "pctVotos": 0.26,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -3991,44 +4015,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 97899,
           "escanos": 2,
-          "pctVotos": 38.19,
+          "pctVotos": 38.01,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 37.13
+          "pctVotosAnterior": 36.92
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 89016,
           "escanos": 2,
-          "pctVotos": 34.72,
+          "pctVotos": 34.56,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 33.83
+          "pctVotosAnterior": 33.64
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 35221,
           "escanos": 0,
-          "pctVotos": 13.74,
+          "pctVotos": 13.68,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 12.95
+          "pctVotosAnterior": 12.88
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 19085,
           "escanos": 0,
-          "pctVotos": 7.44,
+          "pctVotos": 7.41,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.79
+          "pctVotosAnterior": 6.75
         },
         {
           "siglas": "PACMA",
@@ -4055,7 +4079,7 @@
       ],
       "otros": {
         "votos": 10519,
-        "pctVotos": 4.1,
+        "pctVotos": 4.08,
         "numCandidaturas": 6
       }
     },
@@ -4075,51 +4099,51 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 53669,
           "escanos": 2,
-          "pctVotos": 30.53,
+          "pctVotos": 30.23,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 29.82
+          "pctVotosAnterior": 29.49
         },
         {
           "siglas": "ERC",
           "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
           "votos": 33633,
           "escanos": 1,
-          "pctVotos": 19.13,
+          "pctVotos": 18.95,
           "color": "#FFB400",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 18.81
+          "pctVotosAnterior": 18.6
         },
         {
           "siglas": "JxCAT - JUNTS",
           "nombre": "JUNTS PER CATALUNYA - JUNTS",
           "votos": 32532,
           "escanos": 1,
-          "pctVotos": 18.51,
+          "pctVotos": 18.33,
           "color": "#0B8457",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 18.21
+          "pctVotosAnterior": 18.01
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 23788,
           "escanos": 0,
-          "pctVotos": 13.53,
+          "pctVotos": 13.4,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 12.99
+          "pctVotosAnterior": 12.84
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 14772,
           "escanos": 0,
-          "pctVotos": 8.4,
+          "pctVotos": 8.32,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -4130,16 +4154,16 @@
           "nombre": "VOX",
           "votos": 12915,
           "escanos": 0,
-          "pctVotos": 7.35,
+          "pctVotos": 7.27,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.88
+          "pctVotosAnterior": 6.81
         }
       ],
       "otros": {
         "votos": 4470,
-        "pctVotos": 2.54,
+        "pctVotos": 2.52,
         "numCandidaturas": 4
       }
     },
@@ -4168,44 +4192,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 77025,
           "escanos": 2,
-          "pctVotos": 46.23,
+          "pctVotos": 45.86,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 46.06
+          "pctVotosAnterior": 45.64
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 59989,
           "escanos": 2,
-          "pctVotos": 36.01,
+          "pctVotos": 35.72,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 36.01
+          "pctVotosAnterior": 35.68
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 16521,
           "escanos": 0,
-          "pctVotos": 9.92,
+          "pctVotos": 9.84,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 9.86
+          "pctVotosAnterior": 9.77
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 11091,
           "escanos": 0,
-          "pctVotos": 6.66,
+          "pctVotos": 6.6,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.63
+          "pctVotosAnterior": 6.57
         },
         {
           "siglas": "PACMA",
@@ -4252,55 +4276,55 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 93076,
           "escanos": 3,
-          "pctVotos": 50.63,
+          "pctVotos": 50.38,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 50.56
+          "pctVotosAnterior": 50.24
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 56573,
           "escanos": 1,
-          "pctVotos": 30.77,
+          "pctVotos": 30.62,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 30.49
+          "pctVotosAnterior": 30.3
         },
         {
           "siglas": "B.N.G.",
           "nombre": "BLOQUE NACIONALISTA GALEGO",
           "votos": 16271,
           "escanos": 0,
-          "pctVotos": 8.85,
-          "color": "#860033",
+          "pctVotos": 8.81,
+          "color": "#5EB5E5",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.72
+          "pctVotosAnterior": 8.66
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 9607,
           "escanos": 0,
-          "pctVotos": 5.23,
+          "pctVotos": 5.2,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.21
+          "pctVotosAnterior": 5.18
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 7970,
           "escanos": 0,
-          "pctVotos": 4.34,
+          "pctVotos": 4.31,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 4.38
+          "pctVotosAnterior": 4.35
         },
         {
           "siglas": "FO",
@@ -4336,44 +4360,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 1437061,
           "escanos": 16,
-          "pctVotos": 40.93,
+          "pctVotos": 40.64,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 16,
-          "pctVotosAnterior": 40.87
+          "pctVotosAnterior": 40.55
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 986530,
           "escanos": 11,
-          "pctVotos": 28.1,
+          "pctVotos": 27.9,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 10,
-          "pctVotosAnterior": 28.06
+          "pctVotosAnterior": 27.84
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 546595,
           "escanos": 6,
-          "pctVotos": 15.57,
+          "pctVotos": 15.46,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 6,
-          "pctVotosAnterior": 15.58
+          "pctVotosAnterior": 15.46
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 498827,
           "escanos": 5,
-          "pctVotos": 14.21,
+          "pctVotos": 14.11,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 14.14
+          "pctVotosAnterior": 14.03
         },
         {
           "siglas": "PACMA",
@@ -4420,51 +4444,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 303170,
           "escanos": 5,
-          "pctVotos": 38.72,
+          "pctVotos": 38.38,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 38.68
+          "pctVotosAnterior": 38.31
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 239337,
           "escanos": 3,
-          "pctVotos": 30.57,
+          "pctVotos": 30.3,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 30.63
+          "pctVotosAnterior": 30.34
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 130693,
           "escanos": 2,
-          "pctVotos": 16.69,
+          "pctVotos": 16.54,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 16.62
+          "pctVotosAnterior": 16.46
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 96564,
           "escanos": 1,
-          "pctVotos": 12.33,
+          "pctVotos": 12.22,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 12.38
+          "pctVotosAnterior": 12.26
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 8878,
           "escanos": 0,
-          "pctVotos": 1.13,
+          "pctVotos": 1.12,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -4504,44 +4528,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 312328,
           "escanos": 4,
-          "pctVotos": 41.74,
+          "pctVotos": 41.5,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 41.46
+          "pctVotosAnterior": 41.18
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 191539,
           "escanos": 3,
-          "pctVotos": 25.6,
+          "pctVotos": 25.45,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 25.47
+          "pctVotosAnterior": 25.3
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 166583,
           "escanos": 2,
-          "pctVotos": 22.26,
+          "pctVotos": 22.13,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 21.96
+          "pctVotosAnterior": 21.81
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 72358,
           "escanos": 1,
-          "pctVotos": 9.67,
+          "pctVotos": 9.61,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 9.64
+          "pctVotosAnterior": 9.57
         },
         {
           "siglas": "ESCAÑOS EN BLANCO",
@@ -4588,51 +4612,51 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 101442,
           "escanos": 3,
-          "pctVotos": 30.26,
+          "pctVotos": 30.04,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 27.6
+          "pctVotosAnterior": 27.37
         },
         {
           "siglas": "PP-UPN",
           "nombre": "PARTIDO POPULAR",
           "votos": 65874,
           "escanos": 1,
-          "pctVotos": 19.65,
+          "pctVotos": 19.51,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 16.86
+          "pctVotosAnterior": 16.71
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 52143,
           "escanos": 1,
-          "pctVotos": 15.55,
+          "pctVotos": 15.44,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 12.96
+          "pctVotosAnterior": 12.85
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 27958,
           "escanos": 0,
-          "pctVotos": 8.34,
+          "pctVotos": 8.28,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.75
+          "pctVotosAnterior": 5.7
         },
         {
           "siglas": "GBAI",
           "nombre": "GEROA BAI",
           "votos": 17979,
           "escanos": 0,
-          "pctVotos": 5.36,
+          "pctVotos": 5.32,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -4643,7 +4667,7 @@
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 9824,
           "escanos": 0,
-          "pctVotos": 2.93,
+          "pctVotos": 2.91,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -4652,7 +4676,7 @@
       ],
       "otros": {
         "votos": 60070,
-        "pctVotos": 17.92,
+        "pctVotos": 17.79,
         "numCandidaturas": 7
       }
     },
@@ -4672,55 +4696,55 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 84997,
           "escanos": 3,
-          "pctVotos": 50.26,
+          "pctVotos": 50.03,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 50.32
+          "pctVotosAnterior": 50.02
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 52168,
           "escanos": 1,
-          "pctVotos": 30.85,
+          "pctVotos": 30.71,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 30.26
+          "pctVotosAnterior": 30.08
         },
         {
           "siglas": "B.N.G.",
           "nombre": "BLOQUE NACIONALISTA GALEGO",
           "votos": 14046,
           "escanos": 0,
-          "pctVotos": 8.31,
-          "color": "#860033",
+          "pctVotos": 8.27,
+          "color": "#5EB5E5",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.27
+          "pctVotosAnterior": 8.22
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 9105,
           "escanos": 0,
-          "pctVotos": 5.38,
+          "pctVotos": 5.36,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.49
+          "pctVotosAnterior": 5.46
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 7934,
           "escanos": 0,
-          "pctVotos": 4.69,
+          "pctVotos": 4.67,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 4.9
+          "pctVotosAnterior": 4.87
         },
         {
           "siglas": "SALF",
@@ -4756,44 +4780,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 206984,
           "escanos": 3,
-          "pctVotos": 36.09,
+          "pctVotos": 35.77,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 36.01
+          "pctVotosAnterior": 35.65
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 198886,
           "escanos": 2,
-          "pctVotos": 34.68,
+          "pctVotos": 34.37,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 34.7
+          "pctVotosAnterior": 34.34
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 86781,
           "escanos": 1,
-          "pctVotos": 15.13,
+          "pctVotos": 15.0,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.0
+          "pctVotosAnterior": 14.85
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 72888,
           "escanos": 1,
-          "pctVotos": 12.71,
+          "pctVotos": 12.59,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 12.62
+          "pctVotosAnterior": 12.49
         },
         {
           "siglas": "PACMA",
@@ -4840,44 +4864,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 38034,
           "escanos": 2,
-          "pctVotos": 42.54,
+          "pctVotos": 42.24,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 42.35
+          "pctVotosAnterior": 41.98
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 31894,
           "escanos": 1,
-          "pctVotos": 35.67,
+          "pctVotos": 35.42,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 34.97
+          "pctVotosAnterior": 34.67
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 11921,
           "escanos": 0,
-          "pctVotos": 13.33,
+          "pctVotos": 13.24,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 13.01
+          "pctVotosAnterior": 12.9
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 5740,
           "escanos": 0,
-          "pctVotos": 6.42,
+          "pctVotos": 6.37,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 6.11
+          "pctVotosAnterior": 6.06
         },
         {
           "siglas": "FO",
@@ -4904,7 +4928,7 @@
       ],
       "otros": {
         "votos": 1201,
-        "pctVotos": 1.34,
+        "pctVotos": 1.33,
         "numCandidaturas": 5
       }
     },
@@ -4933,41 +4957,41 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 181291,
           "escanos": 3,
-          "pctVotos": 34.74,
+          "pctVotos": 34.57,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 33.38
+          "pctVotosAnterior": 33.19
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 142114,
           "escanos": 3,
-          "pctVotos": 27.23,
+          "pctVotos": 27.1,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 26.0
+          "pctVotosAnterior": 25.85
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 82882,
           "escanos": 1,
-          "pctVotos": 15.88,
+          "pctVotos": 15.81,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.7
+          "pctVotosAnterior": 14.61
         },
         {
           "siglas": "NC-BC (+4)",
           "nombre": "NC-BC, PODEMOS, IU, SUMAR",
           "votos": 59372,
           "escanos": 1,
-          "pctVotos": 11.38,
-          "color": "#AAAAAA",
+          "pctVotos": 11.32,
+          "color": "#88B53D",
           "lado": 1,
           "escanosAnterior": null,
           "pctVotosAnterior": null
@@ -4977,7 +5001,7 @@
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 8519,
           "escanos": 0,
-          "pctVotos": 1.63,
+          "pctVotos": 1.62,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -4988,7 +5012,7 @@
           "nombre": "PARTIDO COMUNISTA DEL PUEBLO CANARIO",
           "votos": 5882,
           "escanos": 0,
-          "pctVotos": 1.13,
+          "pctVotos": 1.12,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -4997,7 +5021,7 @@
       ],
       "otros": {
         "votos": 41753,
-        "pctVotos": 8.0,
+        "pctVotos": 7.96,
         "numCandidaturas": 8
       }
     },
@@ -5026,62 +5050,62 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 220710,
           "escanos": 3,
-          "pctVotos": 40.05,
+          "pctVotos": 39.83,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 39.99
+          "pctVotosAnterior": 39.72
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 175443,
           "escanos": 3,
-          "pctVotos": 31.84,
+          "pctVotos": 31.66,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 31.57
+          "pctVotosAnterior": 31.36
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 73858,
           "escanos": 1,
-          "pctVotos": 13.4,
+          "pctVotos": 13.33,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.28
+          "pctVotosAnterior": 13.19
         },
         {
           "siglas": "B.N.G.",
           "nombre": "BLOQUE NACIONALISTA GALEGO",
           "votos": 52686,
           "escanos": 0,
-          "pctVotos": 9.56,
-          "color": "#860033",
+          "pctVotos": 9.51,
+          "color": "#5EB5E5",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 9.46
+          "pctVotosAnterior": 9.39
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 26518,
           "escanos": 0,
-          "pctVotos": 4.81,
+          "pctVotos": 4.79,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 4.84
+          "pctVotosAnterior": 4.81
         },
         {
           "siglas": "FO",
           "nombre": "FRENTE OBRERO",
           "votos": 912,
           "escanos": 0,
-          "pctVotos": 0.17,
+          "pctVotos": 0.16,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5110,44 +5134,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 86264,
           "escanos": 3,
-          "pctVotos": 47.35,
+          "pctVotos": 47.02,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 47.26
+          "pctVotosAnterior": 46.87
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 56319,
           "escanos": 1,
-          "pctVotos": 30.92,
+          "pctVotos": 30.7,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 30.75
+          "pctVotosAnterior": 30.49
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 27359,
           "escanos": 0,
-          "pctVotos": 15.02,
+          "pctVotos": 14.91,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 14.79
+          "pctVotosAnterior": 14.67
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 10474,
           "escanos": 0,
-          "pctVotos": 5.75,
+          "pctVotos": 5.71,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.58
+          "pctVotosAnterior": 5.53
         },
         {
           "siglas": "PREPAL",
@@ -5203,30 +5227,30 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 184832,
           "escanos": 3,
-          "pctVotos": 37.43,
+          "pctVotos": 37.07,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 35.72
+          "pctVotosAnterior": 35.35
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 175241,
           "escanos": 3,
-          "pctVotos": 35.48,
+          "pctVotos": 35.15,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 33.84
+          "pctVotosAnterior": 33.49
         },
         {
           "siglas": "NC-BC (+4)",
           "nombre": "NC-BC, PODEMOS, IU, SUMAR",
           "votos": 61636,
           "escanos": 1,
-          "pctVotos": 12.48,
-          "color": "#AAAAAA",
+          "pctVotos": 12.36,
+          "color": "#88B53D",
           "lado": 1,
           "escanosAnterior": null,
           "pctVotosAnterior": null
@@ -5236,7 +5260,7 @@
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 13315,
           "escanos": 0,
-          "pctVotos": 2.7,
+          "pctVotos": 2.67,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5247,7 +5271,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 8729,
           "escanos": 0,
-          "pctVotos": 1.77,
+          "pctVotos": 1.75,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5258,7 +5282,7 @@
           "nombre": "SE ACABÓ LA FIESTA",
           "votos": 7247,
           "escanos": 0,
-          "pctVotos": 1.47,
+          "pctVotos": 1.45,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5267,7 +5291,7 @@
       ],
       "otros": {
         "votos": 42850,
-        "pctVotos": 8.68,
+        "pctVotos": 8.59,
         "numCandidaturas": 6
       }
     },
@@ -5296,44 +5320,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 145775,
           "escanos": 2,
-          "pctVotos": 42.82,
+          "pctVotos": 42.47,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 42.47
+          "pctVotosAnterior": 42.08
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 113742,
           "escanos": 2,
-          "pctVotos": 33.41,
+          "pctVotos": 33.13,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 33.61
+          "pctVotosAnterior": 33.3
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 49040,
           "escanos": 1,
-          "pctVotos": 14.4,
+          "pctVotos": 14.29,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 14.2
+          "pctVotosAnterior": 14.06
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 29132,
           "escanos": 0,
-          "pctVotos": 8.56,
+          "pctVotos": 8.49,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.57
+          "pctVotosAnterior": 8.49
         },
         {
           "siglas": "FO",
@@ -5351,7 +5375,7 @@
           "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
           "votos": 1010,
           "escanos": 0,
-          "pctVotos": 0.3,
+          "pctVotos": 0.29,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5380,44 +5404,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 39081,
           "escanos": 2,
-          "pctVotos": 45.27,
+          "pctVotos": 44.88,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 45.47
+          "pctVotosAnterior": 45.02
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 26819,
           "escanos": 1,
-          "pctVotos": 31.07,
+          "pctVotos": 30.8,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 30.9
+          "pctVotosAnterior": 30.6
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 12454,
           "escanos": 0,
-          "pctVotos": 14.43,
+          "pctVotos": 14.3,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 14.26
+          "pctVotosAnterior": 14.12
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 7113,
           "escanos": 0,
-          "pctVotos": 8.24,
+          "pctVotos": 8.17,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.13
+          "pctVotosAnterior": 8.05
         },
         {
           "siglas": "PACMA",
@@ -5444,7 +5468,7 @@
       ],
       "otros": {
         "votos": 325,
-        "pctVotos": 0.38,
+        "pctVotos": 0.37,
         "numCandidaturas": 4
       }
     },
@@ -5464,51 +5488,51 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 386520,
           "escanos": 5,
-          "pctVotos": 37.03,
+          "pctVotos": 36.69,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 36.99
+          "pctVotosAnterior": 36.6
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 353449,
           "escanos": 4,
-          "pctVotos": 33.86,
+          "pctVotos": 33.55,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 4,
-          "pctVotosAnterior": 33.73
+          "pctVotosAnterior": 33.38
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 147637,
           "escanos": 2,
-          "pctVotos": 14.14,
+          "pctVotos": 14.01,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 14.19
+          "pctVotosAnterior": 14.04
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 140920,
           "escanos": 1,
-          "pctVotos": 13.5,
+          "pctVotos": 13.38,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.46
+          "pctVotosAnterior": 13.32
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 9262,
           "escanos": 0,
-          "pctVotos": 0.89,
+          "pctVotos": 0.88,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5528,7 +5552,7 @@
       ],
       "otros": {
         "votos": 4034,
-        "pctVotos": 0.39,
+        "pctVotos": 0.38,
         "numCandidaturas": 5
       }
     },
@@ -5557,29 +5581,29 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 17040,
           "escanos": 1,
-          "pctVotos": 37.2,
+          "pctVotos": 37.03,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 37.43
+          "pctVotosAnterior": 37.22
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 13784,
           "escanos": 1,
-          "pctVotos": 30.09,
+          "pctVotos": 29.96,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 29.65
+          "pctVotosAnterior": 29.48
         },
         {
           "siglas": "SY",
           "nombre": "SORIA ¡YA!",
           "votos": 8994,
           "escanos": 0,
-          "pctVotos": 19.64,
+          "pctVotos": 19.55,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5590,22 +5614,22 @@
           "nombre": "VOX",
           "votos": 4345,
           "escanos": 0,
-          "pctVotos": 9.49,
+          "pctVotos": 9.44,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 9.86
+          "pctVotosAnterior": 9.81
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 1522,
           "escanos": 0,
-          "pctVotos": 3.32,
+          "pctVotos": 3.31,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 3.39
+          "pctVotosAnterior": 3.37
         },
         {
           "siglas": "PCTE",
@@ -5641,40 +5665,40 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 123388,
           "escanos": 2,
-          "pctVotos": 33.76,
+          "pctVotos": 33.51,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 33.2
+          "pctVotosAnterior": 32.91
         },
         {
           "siglas": "ERC",
           "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
           "votos": 56802,
           "escanos": 1,
-          "pctVotos": 15.54,
+          "pctVotos": 15.43,
           "color": "#FFB400",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.2
+          "pctVotosAnterior": 15.07
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 51963,
           "escanos": 1,
-          "pctVotos": 14.22,
+          "pctVotos": 14.11,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 13.99
+          "pctVotosAnterior": 13.87
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 42833,
           "escanos": 1,
-          "pctVotos": 11.72,
+          "pctVotos": 11.63,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -5685,27 +5709,27 @@
           "nombre": "JUNTS PER CATALUNYA - JUNTS",
           "votos": 41799,
           "escanos": 1,
-          "pctVotos": 11.44,
+          "pctVotos": 11.35,
           "color": "#0B8457",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 11.18
+          "pctVotosAnterior": 11.08
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 39293,
           "escanos": 0,
-          "pctVotos": 10.75,
+          "pctVotos": 10.67,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 10.43
+          "pctVotosAnterior": 10.34
         }
       ],
       "otros": {
         "votos": 9382,
-        "pctVotos": 2.57,
+        "pctVotos": 2.55,
         "numCandidaturas": 7
       }
     },
@@ -5725,29 +5749,29 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 24629,
           "escanos": 2,
-          "pctVotos": 36.25,
+          "pctVotos": 36.1,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 35.21
+          "pctVotosAnterior": 35.02
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 20498,
           "escanos": 1,
-          "pctVotos": 30.17,
+          "pctVotos": 30.05,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 29.44
+          "pctVotosAnterior": 29.28
         },
         {
           "siglas": "¡TERUEL EXISTE!",
           "nombre": "AGRUPACIÓN DE ELECTORES ¡TERUEL EXISTE!",
           "votos": 10867,
           "escanos": 0,
-          "pctVotos": 16.0,
+          "pctVotos": 15.93,
           "color": "#5B8C5A",
           "lado": 1,
           "escanosAnterior": null,
@@ -5758,11 +5782,11 @@
           "nombre": "VOX",
           "votos": 9485,
           "escanos": 0,
-          "pctVotos": 13.96,
+          "pctVotos": 13.9,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 13.15
+          "pctVotosAnterior": 13.08
         },
         {
           "siglas": "PACMA",
@@ -5789,7 +5813,7 @@
       ],
       "otros": {
         "votos": 1494,
-        "pctVotos": 2.2,
+        "pctVotos": 2.19,
         "numCandidaturas": 4
       }
     },
@@ -5809,51 +5833,51 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 150041,
           "escanos": 3,
-          "pctVotos": 38.26,
+          "pctVotos": 38.03,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 38.1
+          "pctVotosAnterior": 37.84
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 128341,
           "escanos": 2,
-          "pctVotos": 32.72,
+          "pctVotos": 32.53,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 32.78
+          "pctVotosAnterior": 32.56
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 78784,
           "escanos": 1,
-          "pctVotos": 20.09,
+          "pctVotos": 19.97,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 19.77
+          "pctVotosAnterior": 19.64
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 32924,
           "escanos": 0,
-          "pctVotos": 8.39,
+          "pctVotos": 8.35,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.29
+          "pctVotosAnterior": 8.23
         },
         {
           "siglas": "FO",
           "nombre": "FRENTE OBRERO",
           "votos": 963,
           "escanos": 0,
-          "pctVotos": 0.25,
+          "pctVotos": 0.24,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5893,40 +5917,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 504105,
           "escanos": 7,
-          "pctVotos": 35.46,
+          "pctVotos": 35.22,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 6,
-          "pctVotosAnterior": 33.9
+          "pctVotosAnterior": 33.64
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 480614,
           "escanos": 6,
-          "pctVotos": 33.8,
+          "pctVotos": 33.58,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 5,
-          "pctVotosAnterior": 32.34
+          "pctVotosAnterior": 32.1
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 238430,
           "escanos": 3,
-          "pctVotos": 16.77,
+          "pctVotos": 16.66,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 15.33
+          "pctVotosAnterior": 15.21
         },
         {
           "siglas": "PACMA",
           "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
           "votos": 28528,
           "escanos": 0,
-          "pctVotos": 2.01,
+          "pctVotos": 1.99,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5937,7 +5961,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 21154,
           "escanos": 0,
-          "pctVotos": 1.49,
+          "pctVotos": 1.48,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5948,7 +5972,7 @@
           "nombre": "POR UN MUNDO MAS JUSTO",
           "votos": 19977,
           "escanos": 0,
-          "pctVotos": 1.41,
+          "pctVotos": 1.4,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -5957,7 +5981,7 @@
       ],
       "otros": {
         "votos": 128934,
-        "pctVotos": 9.07,
+        "pctVotos": 9.01,
         "numCandidaturas": 7
       }
     },
@@ -5986,44 +6010,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 127900,
           "escanos": 2,
-          "pctVotos": 41.28,
+          "pctVotos": 41.02,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 41.15
+          "pctVotosAnterior": 40.84
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 102693,
           "escanos": 2,
-          "pctVotos": 33.15,
+          "pctVotos": 32.93,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 33.0
+          "pctVotosAnterior": 32.75
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 47325,
           "escanos": 1,
-          "pctVotos": 15.27,
+          "pctVotos": 15.18,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.28
+          "pctVotosAnterior": 15.16
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 27750,
           "escanos": 0,
-          "pctVotos": 8.96,
+          "pctVotos": 8.9,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 8.94
+          "pctVotosAnterior": 8.87
         },
         {
           "siglas": "PACMA",
@@ -6050,7 +6074,7 @@
       ],
       "otros": {
         "votos": 2040,
-        "pctVotos": 0.66,
+        "pctVotos": 0.65,
         "numCandidaturas": 7
       }
     },
@@ -6083,66 +6107,66 @@
           "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
           "votos": 161194,
           "escanos": 2,
-          "pctVotos": 27.26,
+          "pctVotos": 27.14,
           "color": "#00843D",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 27.08
+          "pctVotosAnterior": 26.93
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 153512,
           "escanos": 2,
-          "pctVotos": 25.96,
+          "pctVotos": 25.84,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 25.97
+          "pctVotosAnterior": 25.82
         },
         {
           "siglas": "EH Bildu",
           "nombre": "EUSKAL HERRIA BILDU",
           "votos": 122886,
           "escanos": 2,
-          "pctVotos": 20.78,
+          "pctVotos": 20.69,
           "color": "#A4CE4E",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 20.76
+          "pctVotosAnterior": 20.64
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 68743,
           "escanos": 1,
-          "pctVotos": 11.62,
+          "pctVotos": 11.57,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 11.63
+          "pctVotosAnterior": 11.57
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 65154,
           "escanos": 1,
-          "pctVotos": 11.02,
+          "pctVotos": 10.97,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 10.98
+          "pctVotosAnterior": 10.92
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 15241,
           "escanos": 0,
-          "pctVotos": 2.58,
+          "pctVotos": 2.57,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 2.65
+          "pctVotosAnterior": 2.64
         }
       ],
       "otros": {
@@ -6167,44 +6191,44 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 41838,
           "escanos": 2,
-          "pctVotos": 45.48,
+          "pctVotos": 45.16,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 45.07
+          "pctVotosAnterior": 44.67
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 30583,
           "escanos": 1,
-          "pctVotos": 33.24,
+          "pctVotos": 33.01,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 32.79
+          "pctVotosAnterior": 32.49
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 12550,
           "escanos": 0,
-          "pctVotos": 13.64,
+          "pctVotos": 13.55,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 13.32
+          "pctVotosAnterior": 13.2
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 5542,
           "escanos": 0,
-          "pctVotos": 6.02,
+          "pctVotos": 5.98,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 5.7
+          "pctVotosAnterior": 5.65
         },
         {
           "siglas": "PREPAL",
@@ -6231,7 +6255,7 @@
       ],
       "otros": {
         "votos": 771,
-        "pctVotos": 0.84,
+        "pctVotos": 0.83,
         "numCandidaturas": 3
       }
     },
@@ -6251,40 +6275,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 183256,
           "escanos": 3,
-          "pctVotos": 36.62,
+          "pctVotos": 36.34,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 3,
-          "pctVotosAnterior": 36.34
+          "pctVotosAnterior": 36.01
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 158085,
           "escanos": 2,
-          "pctVotos": 31.59,
+          "pctVotos": 31.35,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 2,
-          "pctVotosAnterior": 31.1
+          "pctVotosAnterior": 30.82
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 78936,
           "escanos": 1,
-          "pctVotos": 15.77,
+          "pctVotos": 15.65,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 15.44
+          "pctVotosAnterior": 15.3
         },
         {
           "siglas": "FA",
           "nombre": "FRENTE AMPLIO",
           "votos": 69795,
           "escanos": 1,
-          "pctVotos": 13.95,
+          "pctVotos": 13.84,
           "color": "#FF8258",
           "lado": 1,
           "escanosAnterior": null,
@@ -6295,7 +6319,7 @@
           "nombre": "FRENTE OBRERO",
           "votos": 2391,
           "escanos": 0,
-          "pctVotos": 0.48,
+          "pctVotos": 0.47,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -6315,7 +6339,7 @@
       ],
       "otros": {
         "votos": 6085,
-        "pctVotos": 1.22,
+        "pctVotos": 1.21,
         "numCandidaturas": 4
       }
     },
@@ -6335,33 +6359,33 @@
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 10771,
           "escanos": 1,
-          "pctVotos": 40.42,
+          "pctVotos": 40.04,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 34.35
+          "pctVotosAnterior": 34.01
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "votos": 9203,
           "escanos": 0,
-          "pctVotos": 34.53,
+          "pctVotos": 34.21,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 39.15
+          "pctVotosAnterior": 38.77
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 6246,
           "escanos": 0,
-          "pctVotos": 23.44,
+          "pctVotos": 23.22,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 23.5
+          "pctVotosAnterior": 23.26
         },
         {
           "siglas": "FRENTE OBRERO",
@@ -6379,7 +6403,7 @@
           "nombre": "PODEMOS",
           "votos": 130,
           "escanos": 0,
-          "pctVotos": 0.49,
+          "pctVotos": 0.48,
           "color": "#6E2585",
           "lado": 1,
           "escanosAnterior": null,
@@ -6390,7 +6414,7 @@
           "nombre": "SE ACABO LA FIESTA",
           "votos": 130,
           "escanos": 0,
-          "pctVotos": 0.49,
+          "pctVotos": 0.48,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -6419,40 +6443,40 @@
           "nombre": "PARTIDO POPULAR",
           "votos": 14047,
           "escanos": 1,
-          "pctVotos": 51.71,
+          "pctVotos": 51.06,
           "color": "#0557A1",
           "lado": 2,
           "escanosAnterior": 1,
-          "pctVotosAnterior": 49.62
+          "pctVotosAnterior": 49.16
         },
         {
           "siglas": "PSOE",
           "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
           "votos": 7247,
           "escanos": 0,
-          "pctVotos": 26.68,
+          "pctVotos": 26.34,
           "color": "#E10819",
           "lado": 1,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 25.62
+          "pctVotosAnterior": 25.39
         },
         {
           "siglas": "VOX",
           "nombre": "VOX",
           "votos": 4911,
           "escanos": 0,
-          "pctVotos": 18.08,
+          "pctVotos": 17.85,
           "color": "#02C119",
           "lado": 2,
           "escanosAnterior": 0,
-          "pctVotosAnterior": 16.09
+          "pctVotosAnterior": 15.94
         },
         {
           "siglas": "FO",
           "nombre": "FRENTE OBRERO",
           "votos": 480,
           "escanos": 0,
-          "pctVotos": 1.77,
+          "pctVotos": 1.74,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,
@@ -6463,7 +6487,7 @@
           "nombre": "SE ACABÓ LA FIESTA",
           "votos": 480,
           "escanos": 0,
-          "pctVotos": 1.77,
+          "pctVotos": 1.74,
           "color": "#9AA0A6",
           "lado": 2,
           "escanosAnterior": null,

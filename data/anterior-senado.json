@@ -1,0 +1,64 @@
+{
+  "_guia": "Composición de la convocatoria ANTERIOR (23J, julio 2023). Es un dato fijo: no cambia durante la jornada del 29N y sale de los ficheros `ant-*` de data/raw/29n/fijos/. El panel lo usa para poder dibujar la tabla y el anillo del hemiciclo antes de que haya un solo dato del 29N; en cuanto hay escrutinio, manda el bloque `nacional.anterior` de los JSON de la jornada, que es idéntico. Lo regenera python3 -m pipeline.procesado.anterior_29n.",
+  "etiqueta": "Elección anterior (23J, julio 2023)",
+  "totalEscanos": 208,
+  "mayoria": 105,
+  "partidos": [
+    {
+      "siglas": "PP",
+      "nombre": "PARTIDO POPULAR",
+      "escanos": 120,
+      "color": "#0557A1",
+      "lado": 2
+    },
+    {
+      "siglas": "PSOE",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "escanos": 73,
+      "color": "#E10819",
+      "lado": 1
+    },
+    {
+      "siglas": "IZQUIERDAS POR LA INDEPENDENCIA",
+      "nombre": "IZQUIERDAS POR LA INDEPENDENCIA",
+      "escanos": 7,
+      "color": "#9AA0A6",
+      "lado": 2
+    },
+    {
+      "siglas": "EAJ-PNV",
+      "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+      "escanos": 4,
+      "color": "#00843D",
+      "lado": 2
+    },
+    {
+      "siglas": "A.H.I.",
+      "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+      "escanos": 1,
+      "color": "#B5651D",
+      "lado": 2
+    },
+    {
+      "siglas": "ASG",
+      "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+      "escanos": 1,
+      "color": "#7B3FA0",
+      "lado": 1
+    },
+    {
+      "siglas": "JxCAT - JUNTS",
+      "nombre": "JUNTS PER CATALUNYA - JUNTS",
+      "escanos": 1,
+      "color": "#0B8457",
+      "lado": 2
+    },
+    {
+      "siglas": "U.P.N.",
+      "nombre": "UNIÓN DEL PUEBLO NAVARRO",
+      "escanos": 1,
+      "color": "#1B3A6B",
+      "lado": 2
+    }
+  ]
+}
