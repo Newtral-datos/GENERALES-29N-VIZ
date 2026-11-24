@@ -344,7 +344,8 @@
         "votos": 24347,
         "pctVotos": 0.56,
         "numCandidaturas": 8
-      }
+      },
+      "ultimoEscano": null
     },
     "02": {
       "nombre": "Aragón",
@@ -428,7 +429,8 @@
         "votos": 11604,
         "pctVotos": 1.69,
         "numCandidaturas": 7
-      }
+      },
+      "ultimoEscano": null
     },
     "03": {
       "nombre": "Asturias",
@@ -512,7 +514,8 @@
         "votos": 3161,
         "pctVotos": 0.55,
         "numCandidaturas": 5
-      }
+      },
+      "ultimoEscano": null
     },
     "04": {
       "nombre": "Illes Balears",
@@ -605,7 +608,8 @@
         "votos": 926,
         "pctVotos": 0.18,
         "numCandidaturas": 1
-      }
+      },
+      "ultimoEscano": null
     },
     "05": {
       "nombre": "Canarias",
@@ -698,7 +702,8 @@
         "votos": 84797,
         "pctVotos": 8.29,
         "numCandidaturas": 9
-      }
+      },
+      "ultimoEscano": null
     },
     "06": {
       "nombre": "Cantabria",
@@ -791,7 +796,8 @@
         "votos": 506,
         "pctVotos": 0.15,
         "numCandidaturas": 1
-      }
+      },
+      "ultimoEscano": null
     },
     "07": {
       "nombre": "Castilla-La Mancha",
@@ -875,7 +881,8 @@
         "votos": 3230,
         "pctVotos": 0.29,
         "numCandidaturas": 5
-      }
+      },
+      "ultimoEscano": null
     },
     "08": {
       "nombre": "Castilla y León",
@@ -959,7 +966,8 @@
         "votos": 26781,
         "pctVotos": 1.97,
         "numCandidaturas": 11
-      }
+      },
+      "ultimoEscano": null
     },
     "09": {
       "nombre": "Catalunya",
@@ -1043,7 +1051,8 @@
         "votos": 84744,
         "pctVotos": 2.42,
         "numCandidaturas": 8
-      }
+      },
+      "ultimoEscano": null
     },
     "10": {
       "nombre": "Extremadura",
@@ -1136,7 +1145,8 @@
         "votos": 3115,
         "pctVotos": 0.51,
         "numCandidaturas": 4
-      }
+      },
+      "ultimoEscano": null
     },
     "11": {
       "nombre": "Galicia",
@@ -1220,7 +1230,8 @@
         "votos": 2487,
         "pctVotos": 0.16,
         "numCandidaturas": 5
-      }
+      },
+      "ultimoEscano": null
     },
     "12": {
       "nombre": "Madrid",
@@ -1304,7 +1315,8 @@
         "votos": 13771,
         "pctVotos": 0.39,
         "numCandidaturas": 8
-      }
+      },
+      "ultimoEscano": null
     },
     "13": {
       "nombre": "Navarra",
@@ -1388,7 +1400,8 @@
         "votos": 60070,
         "pctVotos": 17.79,
         "numCandidaturas": 7
-      }
+      },
+      "ultimoEscano": null
     },
     "14": {
       "nombre": "País Vasco",
@@ -1485,7 +1498,8 @@
         "votos": 9421,
         "pctVotos": 0.85,
         "numCandidaturas": 8
-      }
+      },
+      "ultimoEscano": null
     },
     "15": {
       "nombre": "Murcia",
@@ -1569,7 +1583,8 @@
         "votos": 1900,
         "pctVotos": 0.25,
         "numCandidaturas": 4
-      }
+      },
+      "ultimoEscano": null
     },
     "16": {
       "nombre": "La Rioja",
@@ -1662,7 +1677,8 @@
         "votos": 651,
         "pctVotos": 0.39,
         "numCandidaturas": 4
-      }
+      },
+      "ultimoEscano": null
     },
     "17": {
       "nombre": "Comunitat Valenciana",
@@ -1746,7 +1762,8 @@
         "votos": 188476,
         "pctVotos": 7.13,
         "numCandidaturas": 8
-      }
+      },
+      "ultimoEscano": null
     },
     "18": {
       "nombre": "Ceuta",
@@ -1830,7 +1847,8 @@
         "votos": 0,
         "pctVotos": 0.0,
         "numCandidaturas": 0
-      }
+      },
+      "ultimoEscano": null
     },
     "19": {
       "nombre": "Melilla",
@@ -1903,7 +1921,8 @@
         "votos": 0,
         "pctVotos": 0.0,
         "numCandidaturas": 0
-      }
+      },
+      "ultimoEscano": null
     }
   },
   "provincias": {
@@ -2006,6 +2025,18 @@
         "votos": 1657,
         "pctVotos": 1.08,
         "numCandidaturas": 8
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "EAJ-PNV",
+          "color": "#00843D"
+        },
+        "aspirante": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "votosFaltantes": 5921,
+        "censoSinEscrutar": 23068
       }
     },
     "02": {
@@ -2099,6 +2130,18 @@
         "votos": 351,
         "pctVotos": 0.17,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 1664,
+        "censoSinEscrutar": 22438
       }
     },
     "03": {
@@ -2192,6 +2235,18 @@
         "votos": 38433,
         "pctVotos": 4.27,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 15676,
+        "censoSinEscrutar": 25663
       }
     },
     "04": {
@@ -2276,6 +2331,18 @@
         "votos": 393,
         "pctVotos": 0.12,
         "numCandidaturas": 6
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 19690,
+        "censoSinEscrutar": 0
       }
     },
     "05": {
@@ -2360,6 +2427,18 @@
         "votos": 2768,
         "pctVotos": 2.99,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 5404,
+        "censoSinEscrutar": 1579
       }
     },
     "06": {
@@ -2453,6 +2532,18 @@
         "votos": 1591,
         "pctVotos": 0.41,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 8707,
+        "censoSinEscrutar": 2964
       }
     },
     "07": {
@@ -2546,6 +2637,18 @@
         "votos": 926,
         "pctVotos": 0.18,
         "numCandidaturas": 1
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "votosFaltantes": 18187,
+        "censoSinEscrutar": 6608
       }
     },
     "08": {
@@ -2630,6 +2733,18 @@
         "votos": 58180,
         "pctVotos": 2.21,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 10018,
+        "censoSinEscrutar": 82435
       }
     },
     "09": {
@@ -2723,6 +2838,18 @@
         "votos": 1364,
         "pctVotos": 0.69,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 8836,
+        "censoSinEscrutar": 2500
       }
     },
     "10": {
@@ -2816,6 +2943,18 @@
         "votos": 1143,
         "pctVotos": 0.51,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 12126,
+        "censoSinEscrutar": 9130
       }
     },
     "11": {
@@ -2909,6 +3048,18 @@
         "votos": 2190,
         "pctVotos": 0.35,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 43720,
+        "censoSinEscrutar": 20394
       }
     },
     "12": {
@@ -3002,6 +3153,18 @@
         "votos": 17862,
         "pctVotos": 5.73,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 46484,
+        "censoSinEscrutar": 4543
       }
     },
     "13": {
@@ -3095,6 +3258,18 @@
         "votos": 0,
         "pctVotos": 0.0,
         "numCandidaturas": 0
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 23843,
+        "censoSinEscrutar": 11549
       }
     },
     "14": {
@@ -3188,6 +3363,18 @@
         "votos": 2461,
         "pctVotos": 0.56,
         "numCandidaturas": 6
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 10645,
+        "censoSinEscrutar": 8906
       }
     },
     "15": {
@@ -3272,6 +3459,18 @@
         "votos": 769,
         "pctVotos": 0.12,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "B.N.G.",
+          "color": "#5EB5E5"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 13470,
+        "censoSinEscrutar": 15882
       }
     },
     "16": {
@@ -3356,6 +3555,18 @@
         "votos": 346,
         "pctVotos": 0.32,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 2758,
+        "censoSinEscrutar": 1633
       }
     },
     "17": {
@@ -3440,6 +3651,18 @@
         "votos": 12712,
         "pctVotos": 3.97,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "JxCAT - JUNTS",
+          "color": "#0B8457"
+        },
+        "votosFaltantes": 1010,
+        "censoSinEscrutar": 19863
       }
     },
     "18": {
@@ -3524,6 +3747,18 @@
         "votos": 2477,
         "pctVotos": 0.5,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 9454,
+        "censoSinEscrutar": 9497
       }
     },
     "19": {
@@ -3621,6 +3856,18 @@
         "votos": 730,
         "pctVotos": 0.51,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 4534,
+        "censoSinEscrutar": 4944
       }
     },
     "20": {
@@ -3718,6 +3965,18 @@
         "votos": 3099,
         "pctVotos": 0.85,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "EAJ-PNV",
+          "color": "#00843D"
+        },
+        "aspirante": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "votosFaltantes": 2137,
+        "censoSinEscrutar": 10375
       }
     },
     "21": {
@@ -3811,6 +4070,18 @@
         "votos": 728,
         "pctVotos": 0.29,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "aspirante": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "votosFaltantes": 11142,
+        "censoSinEscrutar": 6533
       }
     },
     "22": {
@@ -3895,6 +4166,18 @@
         "votos": 1038,
         "pctVotos": 0.92,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 5289,
+        "censoSinEscrutar": 6061
       }
     },
     "23": {
@@ -3988,6 +4271,18 @@
         "votos": 3133,
         "pctVotos": 0.88,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "aspirante": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "votosFaltantes": 24466,
+        "censoSinEscrutar": 1794
       }
     },
     "24": {
@@ -4081,6 +4376,18 @@
         "votos": 10519,
         "pctVotos": 4.08,
         "numCandidaturas": 6
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 9288,
+        "censoSinEscrutar": 9484
       }
     },
     "25": {
@@ -4165,6 +4472,18 @@
         "votos": 4470,
         "pctVotos": 2.52,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 3047,
+        "censoSinEscrutar": 9630
       }
     },
     "26": {
@@ -4258,6 +4577,18 @@
         "votos": 651,
         "pctVotos": 0.39,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 12959,
+        "censoSinEscrutar": 8361
       }
     },
     "27": {
@@ -4342,6 +4673,18 @@
         "votos": 100,
         "pctVotos": 0.05,
         "numCandidaturas": 2
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 5478,
+        "censoSinEscrutar": 7674
       }
     },
     "28": {
@@ -4426,6 +4769,18 @@
         "votos": 13771,
         "pctVotos": 0.39,
         "numCandidaturas": 8
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 39281,
+        "censoSinEscrutar": 191641
       }
     },
     "29": {
@@ -4510,6 +4865,18 @@
         "votos": 1432,
         "pctVotos": 0.18,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 3200,
+        "censoSinEscrutar": 21449
       }
     },
     "30": {
@@ -4594,6 +4961,18 @@
         "votos": 1900,
         "pctVotos": 0.25,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 6904,
+        "censoSinEscrutar": 15501
       }
     },
     "31": {
@@ -4678,6 +5057,18 @@
         "votos": 60070,
         "pctVotos": 17.79,
         "numCandidaturas": 7
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 1755,
+        "censoSinEscrutar": 6327
       }
     },
     "32": {
@@ -4762,6 +5153,18 @@
         "votos": 498,
         "pctVotos": 0.29,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 4497,
+        "censoSinEscrutar": 7949
       }
     },
     "33": {
@@ -4846,6 +5249,18 @@
         "votos": 3161,
         "pctVotos": 0.55,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 8099,
+        "censoSinEscrutar": 5785
       }
     },
     "34": {
@@ -4930,6 +5345,18 @@
         "votos": 1201,
         "pctVotos": 1.33,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 6141,
+        "censoSinEscrutar": 3138
       }
     },
     "35": {
@@ -5023,6 +5450,18 @@
         "votos": 41753,
         "pctVotos": 7.96,
         "numCandidaturas": 8
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 8195,
+        "censoSinEscrutar": 17209
       }
     },
     "36": {
@@ -5116,6 +5555,18 @@
         "votos": 938,
         "pctVotos": 0.17,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "B.N.G.",
+          "color": "#5EB5E5"
+        },
+        "votosFaltantes": 5796,
+        "censoSinEscrutar": 10036
       }
     },
     "37": {
@@ -5200,6 +5651,18 @@
         "votos": 730,
         "pctVotos": 0.4,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 1191,
+        "censoSinEscrutar": 13311
       }
     },
     "38": {
@@ -5293,6 +5756,18 @@
         "votos": 42850,
         "pctVotos": 8.59,
         "numCandidaturas": 6
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 48823,
+        "censoSinEscrutar": 4308
       }
     },
     "39": {
@@ -5386,6 +5861,18 @@
         "votos": 506,
         "pctVotos": 0.15,
         "numCandidaturas": 1
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 1346,
+        "censoSinEscrutar": 8996
       }
     },
     "40": {
@@ -5470,6 +5957,18 @@
         "votos": 325,
         "pctVotos": 0.37,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 7087,
+        "censoSinEscrutar": 1463
       }
     },
     "41": {
@@ -5554,6 +6053,18 @@
         "votos": 4034,
         "pctVotos": 0.38,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 6718,
+        "censoSinEscrutar": 30813
       }
     },
     "42": {
@@ -5647,6 +6158,18 @@
         "votos": 60,
         "pctVotos": 0.13,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "SY",
+          "color": "#9AA0A6"
+        },
+        "votosFaltantes": 4791,
+        "censoSinEscrutar": 3761
       }
     },
     "43": {
@@ -5731,6 +6254,18 @@
         "votos": 9382,
         "pctVotos": 2.55,
         "numCandidaturas": 7
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "JxCAT - JUNTS",
+          "color": "#0B8457"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 2010,
+        "censoSinEscrutar": 10417
       }
     },
     "44": {
@@ -5815,6 +6350,18 @@
         "votos": 1494,
         "pctVotos": 2.19,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "¡TERUEL EXISTE!",
+          "color": "#5B8C5A"
+        },
+        "votosFaltantes": 1448,
+        "censoSinEscrutar": 6917
       }
     },
     "45": {
@@ -5899,6 +6446,18 @@
         "votos": 683,
         "pctVotos": 0.17,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "FA",
+          "color": "#FF8258"
+        },
+        "votosFaltantes": 17090,
+        "censoSinEscrutar": 7091
       }
     },
     "46": {
@@ -5983,6 +6542,18 @@
         "votos": 128934,
         "pctVotos": 9.01,
         "numCandidaturas": 7
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 23492,
+        "censoSinEscrutar": 32626
       }
     },
     "47": {
@@ -6076,6 +6647,18 @@
         "votos": 2040,
         "pctVotos": 0.65,
         "numCandidaturas": 7
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 14076,
+        "censoSinEscrutar": 4439
       }
     },
     "48": {
@@ -6173,6 +6756,18 @@
         "votos": 4665,
         "pctVotos": 0.79,
         "numCandidaturas": 5
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "EH Bildu",
+          "color": "#A4CE4E"
+        },
+        "aspirante": {
+          "siglas": "EAJ-PNV",
+          "color": "#00843D"
+        },
+        "votosFaltantes": 23136,
+        "censoSinEscrutar": 19910
       }
     },
     "49": {
@@ -6257,6 +6852,18 @@
         "votos": 771,
         "pctVotos": 0.83,
         "numCandidaturas": 3
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        "votosFaltantes": 8370,
+        "censoSinEscrutar": 6011
       }
     },
     "50": {
@@ -6341,6 +6948,18 @@
         "votos": 6085,
         "pctVotos": 1.21,
         "numCandidaturas": 4
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 25172,
+        "censoSinEscrutar": 23125
       }
     },
     "51": {
@@ -6425,6 +7044,18 @@
         "votos": 0,
         "pctVotos": 0.0,
         "numCandidaturas": 0
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "aspirante": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "votosFaltantes": 1569,
+        "censoSinEscrutar": 9895
       }
     },
     "52": {
@@ -6498,6 +7129,18 @@
         "votos": 0,
         "pctVotos": 0.0,
         "numCandidaturas": 0
+      },
+      "ultimoEscano": {
+        "tiene": {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        "aspirante": {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        "votosFaltantes": 6801,
+        "censoSinEscrutar": 0
       }
     }
   }
