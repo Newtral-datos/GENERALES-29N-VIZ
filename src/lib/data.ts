@@ -237,6 +237,21 @@ export type PartidoProvincia = {
 	pctVotosAnterior: number | null;
 };
 
+// La batalla por el último escaño de una circunscripción, tal como la publica
+// el Ministerio: quién lo tiene, quién se lo puede arrebatar y por cuántos
+// votos. No lo calcula el panel ni el pipeline — son tres campos del fichero
+// de totales (ver `congreso_29n.ultimo_escano`).
+//
+// `votosFaltantes` no se puede enseñar sin `censoSinEscrutar`: un hueco de
+// 1.010 votos es una batalla viva si quedan 19.863 por contar y está decidida
+// si no queda ninguno.
+export type UltimoEscano = {
+	tiene: { siglas: string; color: string };
+	aspirante: { siglas: string; color: string };
+	votosFaltantes: number;
+	censoSinEscrutar: number;
+};
+
 export type Provincia = {
 	nombre: string;
 	// Solo 29N (ver Nacional).
@@ -246,6 +261,9 @@ export type Provincia = {
 	ganador: Ganador;
 	principales: PartidoProvincia[];
 	otros: { votos: number; pctVotos: number; numCandidaturas: number };
+	// Solo en provincias y solo con escrutinio empezado: el último escaño se
+	// decide por circunscripción, así que en comunidades viene siempre ausente.
+	ultimoEscano?: UltimoEscano | null;
 };
 
 export type Resultados = {

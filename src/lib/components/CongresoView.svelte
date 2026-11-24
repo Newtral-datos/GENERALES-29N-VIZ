@@ -22,6 +22,8 @@
 	import SimuladorTeaser from '#lib/components/SimuladorTeaser.svelte';
 	import ProvinciasTeaser from '#lib/components/ProvinciasTeaser.svelte';
 	import ParticipacionTeaser from '#lib/components/ParticipacionTeaser.svelte';
+	import BatallaTeaser from '#lib/components/BatallaTeaser.svelte';
+	import { ESCRUTINIO_ABIERTO } from '#lib/config';
 	import CompartirResultados from '#lib/components/CompartirResultados.svelte';
 </script>
 
@@ -101,6 +103,13 @@
 	<SimuladorTeaser />
 	<ProvinciasTeaser />
 	<ParticipacionTeaser />
+	<!-- Gateado: la batalla por el último escaño solo existe mientras hay votos
+	     por contar, así que antes de abrir el escrutinio el reclamo prometería
+	     un dato que no está (norma del AGENTS.md para cualquier pieza que
+	     aparente mostrar datos de la jornada). -->
+	{#if ESCRUTINIO_ABIERTO}
+		<BatallaTeaser />
+	{/if}
 </div>
 
 <style>

@@ -147,7 +147,7 @@ Reglas del tramo del panel:
 | `municipios/<cod>.geojson` | Geometría municipal, una por provincia | `generar_geometrias_municipios.sh` |
 
 El recorrido completo al revés —qué script escribe cada JSON y qué
-componentes acaba pintando— está en `GENERALES_29N/MAPA-DATOS.md`, que es el
+componentes acaba pintando— está en `GENERALES_29N/elecciones-datos/docs/flujo-de-datos.md`, que es el
 único sitio donde se cruzan los dos repos.
 
 Los datos que hoy se ven son los de **23J como contenido de prueba**, marcados
