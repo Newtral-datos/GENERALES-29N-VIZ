@@ -3,11 +3,11 @@
     "nombre": "ADEJE",
     "censo": 22371,
     "mesas": 39,
-    "votantes": 12085,
-    "pctEscrutado": 100.0,
-    "blanco": 85,
-    "nulos": 472,
-    "votosCandidatos": 11528,
+    "votantes": 3888,
+    "pctEscrutado": 33.39,
+    "blanco": 33,
+    "nulos": 141,
+    "votosCandidatos": 3714,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -20,29 +20,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 9585,
-        "pctVotos": 83.15
+        "votos": 3083,
+        "pctVotos": 83.01
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 725,
-        "pctVotos": 6.29
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 625,
-        "pctVotos": 5.42
+        "votos": 226,
+        "pctVotos": 6.09
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 593,
-        "pctVotos": 5.14
+        "votos": 225,
+        "pctVotos": 6.06
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 180,
+        "pctVotos": 4.85
       }
     ],
     "otros": {
@@ -55,58 +55,58 @@
     "nombre": "AGULO",
     "censo": 948,
     "mesas": 2,
-    "votantes": 631,
-    "pctEscrutado": 100.0,
-    "blanco": 7,
-    "nulos": 10,
-    "votosCandidatos": 614,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "ASG",
-      "color": "#7B3FA0",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 437,
-        "pctVotos": 71.17
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 127,
-        "pctVotos": 20.68
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 20,
-        "pctVotos": 3.26
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 17,
-        "pctVotos": 2.77
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 13,
-        "pctVotos": 2.12
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -114,58 +114,58 @@
     "nombre": "ALAJERÓ",
     "censo": 1617,
     "mesas": 3,
-    "votantes": 1035,
-    "pctEscrutado": 100.0,
-    "blanco": 9,
-    "nulos": 33,
-    "votosCandidatos": 993,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "ASG",
-      "color": "#7B3FA0",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 563,
-        "pctVotos": 56.7
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 326,
-        "pctVotos": 32.83
-      },
-      {
-        "siglas": "IxLG",
-        "nombre": "INICIATIVA POR LA GOMERA",
-        "color": "#9AA0A6",
-        "votos": 48,
-        "pctVotos": 4.83
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 33,
-        "pctVotos": 3.32
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 23,
-        "pctVotos": 2.32
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "IxLG",
+        "nombre": "INICIATIVA POR LA GOMERA",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -173,11 +173,11 @@
     "nombre": "ARAFO",
     "censo": 4991,
     "mesas": 9,
-    "votantes": 3076,
-    "pctEscrutado": 91.94,
-    "blanco": 48,
-    "nulos": 223,
-    "votosCandidatos": 2805,
+    "votantes": 799,
+    "pctEscrutado": 22.92,
+    "blanco": 9,
+    "nulos": 30,
+    "votosCandidatos": 760,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -190,29 +190,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 2322,
-        "pctVotos": 82.78
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 189,
-        "pctVotos": 6.74
+        "votos": 661,
+        "pctVotos": 86.97
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 157,
-        "pctVotos": 5.6
+        "votos": 38,
+        "pctVotos": 5.0
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 137,
-        "pctVotos": 4.88
+        "votos": 36,
+        "pctVotos": 4.74
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 25,
+        "pctVotos": 3.29
       }
     ],
     "otros": {
@@ -225,51 +225,51 @@
     "nombre": "ARICO",
     "censo": 6779,
     "mesas": 12,
-    "votantes": 1441,
-    "pctEscrutado": 32.95,
-    "blanco": 19,
-    "nulos": 236,
-    "votosCandidatos": 1286,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 930,
-        "pctVotos": 72.32
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 145,
-        "pctVotos": 11.28
-      },
-      {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 117,
-        "pctVotos": 9.1
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 94,
-        "pctVotos": 7.31
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -277,11 +277,11 @@
     "nombre": "ARONA",
     "censo": 47318,
     "mesas": 80,
-    "votantes": 23566,
-    "pctEscrutado": 98.6,
-    "blanco": 204,
-    "nulos": 1096,
-    "votosCandidatos": 22366,
+    "votantes": 6871,
+    "pctEscrutado": 27.39,
+    "blanco": 54,
+    "nulos": 319,
+    "votosCandidatos": 6498,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -294,29 +294,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 18303,
-        "pctVotos": 81.83
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 1383,
-        "pctVotos": 6.18
+        "votos": 5438,
+        "pctVotos": 83.69
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 1374,
-        "pctVotos": 6.14
+        "votos": 390,
+        "pctVotos": 6.0
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 1306,
-        "pctVotos": 5.84
+        "votos": 370,
+        "pctVotos": 5.69
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 300,
+        "pctVotos": 4.62
       }
     ],
     "otros": {
@@ -329,11 +329,11 @@
     "nombre": "BARLOVENTO",
     "censo": 1647,
     "mesas": 3,
-    "votantes": 1172,
-    "pctEscrutado": 100.0,
+    "votantes": 800,
+    "pctEscrutado": 69.58,
     "blanco": 3,
-    "nulos": 19,
-    "votosCandidatos": 1150,
+    "nulos": 15,
+    "votosCandidatos": 782,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -346,36 +346,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 988,
-        "pctVotos": 85.91
+        "votos": 657,
+        "pctVotos": 84.02
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 56,
-        "pctVotos": 4.87
+        "votos": 36,
+        "pctVotos": 4.6
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 42,
-        "pctVotos": 3.65
+        "votos": 36,
+        "pctVotos": 4.6
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 41,
-        "pctVotos": 3.57
+        "votos": 31,
+        "pctVotos": 3.96
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 23,
-        "pctVotos": 2.0
+        "votos": 22,
+        "pctVotos": 2.81
       }
     ],
     "otros": {
@@ -388,11 +388,11 @@
     "nombre": "BREÑA ALTA",
     "censo": 6023,
     "mesas": 10,
-    "votantes": 4319,
-    "pctEscrutado": 100.0,
-    "blanco": 38,
-    "nulos": 86,
-    "votosCandidatos": 4195,
+    "votantes": 1244,
+    "pctEscrutado": 29.02,
+    "blanco": 12,
+    "nulos": 24,
+    "votosCandidatos": 1208,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -405,36 +405,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 3549,
-        "pctVotos": 84.6
+        "votos": 1067,
+        "pctVotos": 88.33
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 233,
-        "pctVotos": 5.55
+        "votos": 62,
+        "pctVotos": 5.13
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 189,
-        "pctVotos": 4.51
+        "votos": 29,
+        "pctVotos": 2.4
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 132,
-        "pctVotos": 3.15
+        "votos": 27,
+        "pctVotos": 2.24
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 92,
-        "pctVotos": 2.19
+        "votos": 23,
+        "pctVotos": 1.9
       }
     ],
     "otros": {
@@ -447,58 +447,58 @@
     "nombre": "BREÑA BAJA",
     "censo": 4798,
     "mesas": 7,
-    "votantes": 3400,
-    "pctEscrutado": 100.0,
-    "blanco": 23,
-    "nulos": 48,
-    "votosCandidatos": 3329,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 2925,
-        "pctVotos": 87.86
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 146,
-        "pctVotos": 4.39
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 94,
-        "pctVotos": 2.82
-      },
-      {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 93,
-        "pctVotos": 2.79
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 71,
-        "pctVotos": 2.13
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -506,11 +506,11 @@
     "nombre": "BUENAVISTA DEL NORTE",
     "censo": 3866,
     "mesas": 8,
-    "votantes": 2601,
-    "pctEscrutado": 100.0,
-    "blanco": 19,
-    "nulos": 104,
-    "votosCandidatos": 2478,
+    "votantes": 949,
+    "pctEscrutado": 36.85,
+    "blanco": 6,
+    "nulos": 29,
+    "votosCandidatos": 914,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -523,29 +523,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 2145,
-        "pctVotos": 86.56
+        "votos": 791,
+        "pctVotos": 86.54
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 115,
-        "pctVotos": 4.64
+        "votos": 49,
+        "pctVotos": 5.36
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 112,
-        "pctVotos": 4.52
+        "votos": 45,
+        "pctVotos": 4.92
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 106,
-        "pctVotos": 4.28
+        "votos": 29,
+        "pctVotos": 3.17
       }
     ],
     "otros": {
@@ -558,11 +558,11 @@
     "nombre": "CANDELARIA",
     "censo": 23657,
     "mesas": 36,
-    "votantes": 15435,
-    "pctEscrutado": 100.0,
-    "blanco": 131,
-    "nulos": 594,
-    "votosCandidatos": 14710,
+    "votantes": 4125,
+    "pctEscrutado": 26.57,
+    "blanco": 33,
+    "nulos": 139,
+    "votosCandidatos": 3953,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -575,29 +575,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 12639,
-        "pctVotos": 85.92
+        "votos": 3351,
+        "pctVotos": 84.77
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 711,
-        "pctVotos": 4.83
+        "votos": 214,
+        "pctVotos": 5.41
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 689,
-        "pctVotos": 4.68
+        "votos": 211,
+        "pctVotos": 5.34
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 671,
-        "pctVotos": 4.56
+        "votos": 177,
+        "pctVotos": 4.48
       }
     ],
     "otros": {
@@ -610,11 +610,11 @@
     "nombre": "FASNIA",
     "censo": 2568,
     "mesas": 4,
-    "votantes": 1759,
-    "pctEscrutado": 100.0,
-    "blanco": 22,
-    "nulos": 75,
-    "votosCandidatos": 1662,
+    "votantes": 1352,
+    "pctEscrutado": 77.57,
+    "blanco": 16,
+    "nulos": 57,
+    "votosCandidatos": 1279,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -627,29 +627,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 1330,
-        "pctVotos": 80.02
+        "votos": 1008,
+        "pctVotos": 78.81
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 122,
-        "pctVotos": 7.34
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 109,
-        "pctVotos": 6.56
+        "votos": 102,
+        "pctVotos": 7.97
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 101,
-        "pctVotos": 6.08
+        "votos": 91,
+        "pctVotos": 7.11
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 78,
+        "pctVotos": 6.1
       }
     ],
     "otros": {
@@ -662,58 +662,58 @@
     "nombre": "FRONTERA",
     "censo": 3253,
     "mesas": 6,
-    "votantes": 2198,
-    "pctEscrutado": 100.0,
-    "blanco": 18,
-    "nulos": 63,
-    "votosCandidatos": 2117,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "A.H.I.",
-      "color": "#B5651D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "A.H.I.",
-        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
-        "color": "#B5651D",
-        "votos": 1190,
-        "pctVotos": 56.21
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 634,
-        "pctVotos": 29.95
-      },
-      {
-        "siglas": "ASAMBLEA HERREÑA",
-        "nombre": "ASAMBLEA HERREÑA",
-        "color": "#9AA0A6",
-        "votos": 205,
-        "pctVotos": 9.68
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 47,
-        "pctVotos": 2.22
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 41,
-        "pctVotos": 1.94
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "A.H.I.",
+        "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+        "color": "#B5651D",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ASAMBLEA HERREÑA",
+        "nombre": "ASAMBLEA HERREÑA",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -721,58 +721,58 @@
     "nombre": "FUENCALIENTE DE LA PALMA",
     "censo": 1417,
     "mesas": 2,
-    "votantes": 1005,
-    "pctEscrutado": 100.0,
-    "blanco": 2,
-    "nulos": 25,
-    "votosCandidatos": 978,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 882,
-        "pctVotos": 90.18
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 39,
-        "pctVotos": 3.99
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 26,
-        "pctVotos": 2.66
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 21,
-        "pctVotos": 2.15
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 10,
-        "pctVotos": 1.02
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -780,11 +780,11 @@
     "nombre": "GARACHICO",
     "censo": 3963,
     "mesas": 8,
-    "votantes": 2695,
-    "pctEscrutado": 100.0,
-    "blanco": 36,
-    "nulos": 67,
-    "votosCandidatos": 2592,
+    "votantes": 884,
+    "pctEscrutado": 33.5,
+    "blanco": 12,
+    "nulos": 15,
+    "votosCandidatos": 857,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -797,29 +797,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 2298,
-        "pctVotos": 88.66
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 107,
-        "pctVotos": 4.13
+        "votos": 759,
+        "pctVotos": 88.56
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 98,
-        "pctVotos": 3.78
+        "votos": 33,
+        "pctVotos": 3.85
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 89,
-        "pctVotos": 3.43
+        "votos": 33,
+        "pctVotos": 3.85
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 32,
+        "pctVotos": 3.73
       }
     ],
     "otros": {
@@ -832,11 +832,11 @@
     "nombre": "GARAFÍA",
     "censo": 1301,
     "mesas": 4,
-    "votantes": 756,
-    "pctEscrutado": 100.0,
-    "blanco": 10,
-    "nulos": 16,
-    "votosCandidatos": 730,
+    "votantes": 362,
+    "pctEscrutado": 50.73,
+    "blanco": 6,
+    "nulos": 10,
+    "votosCandidatos": 346,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -849,36 +849,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 596,
-        "pctVotos": 81.64
+        "votos": 279,
+        "pctVotos": 80.64
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 47,
-        "pctVotos": 6.44
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 37,
-        "pctVotos": 5.07
+        "votos": 24,
+        "pctVotos": 6.94
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 26,
-        "pctVotos": 3.56
+        "votos": 19,
+        "pctVotos": 5.49
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 14,
+        "pctVotos": 4.05
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 24,
-        "pctVotos": 3.29
+        "votos": 10,
+        "pctVotos": 2.89
       }
     ],
     "otros": {
@@ -891,11 +891,11 @@
     "nombre": "GRANADILLA DE ABONA",
     "censo": 37490,
     "mesas": 60,
-    "votantes": 20424,
-    "pctEscrutado": 100.0,
-    "blanco": 204,
-    "nulos": 711,
-    "votosCandidatos": 19515,
+    "votantes": 4940,
+    "pctEscrutado": 23.52,
+    "blanco": 44,
+    "nulos": 151,
+    "votosCandidatos": 4745,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -908,29 +908,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 15882,
-        "pctVotos": 81.38
+        "votos": 3899,
+        "pctVotos": 82.17
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 1339,
-        "pctVotos": 6.86
+        "votos": 296,
+        "pctVotos": 6.24
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 1201,
-        "pctVotos": 6.15
+        "votos": 275,
+        "pctVotos": 5.8
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 1093,
-        "pctVotos": 5.6
+        "votos": 275,
+        "pctVotos": 5.8
       }
     ],
     "otros": {
@@ -943,11 +943,11 @@
     "nombre": "GUANCHA (LA)",
     "censo": 4644,
     "mesas": 8,
-    "votantes": 3156,
-    "pctEscrutado": 100.0,
-    "blanco": 62,
-    "nulos": 136,
-    "votosCandidatos": 2958,
+    "votantes": 1653,
+    "pctEscrutado": 54.3,
+    "blanco": 37,
+    "nulos": 79,
+    "votosCandidatos": 1537,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -960,29 +960,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 2559,
-        "pctVotos": 86.51
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 149,
-        "pctVotos": 5.04
+        "votos": 1315,
+        "pctVotos": 85.56
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 146,
-        "pctVotos": 4.94
+        "votos": 78,
+        "pctVotos": 5.07
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 104,
-        "pctVotos": 3.52
+        "votos": 72,
+        "pctVotos": 4.68
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 72,
+        "pctVotos": 4.68
       }
     ],
     "otros": {
@@ -995,11 +995,11 @@
     "nombre": "GUÍA DE ISORA",
     "censo": 14782,
     "mesas": 25,
-    "votantes": 8845,
-    "pctEscrutado": 100.0,
-    "blanco": 71,
-    "nulos": 284,
-    "votosCandidatos": 8490,
+    "votantes": 2451,
+    "pctEscrutado": 28.79,
+    "blanco": 23,
+    "nulos": 64,
+    "votosCandidatos": 2364,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1012,29 +1012,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 7167,
-        "pctVotos": 84.42
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 448,
-        "pctVotos": 5.28
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 445,
-        "pctVotos": 5.24
+        "votos": 1954,
+        "pctVotos": 82.66
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 430,
-        "pctVotos": 5.06
+        "votos": 148,
+        "pctVotos": 6.26
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 147,
+        "pctVotos": 6.22
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 115,
+        "pctVotos": 4.86
       }
     ],
     "otros": {
@@ -1047,11 +1047,11 @@
     "nombre": "GÜÍMAR",
     "censo": 17684,
     "mesas": 32,
-    "votantes": 11658,
-    "pctEscrutado": 100.0,
-    "blanco": 119,
-    "nulos": 456,
-    "votosCandidatos": 11083,
+    "votantes": 3557,
+    "pctEscrutado": 32.08,
+    "blanco": 40,
+    "nulos": 144,
+    "votosCandidatos": 3373,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1064,29 +1064,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 9328,
-        "pctVotos": 84.16
+        "votos": 2889,
+        "pctVotos": 85.65
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 619,
-        "pctVotos": 5.59
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 592,
-        "pctVotos": 5.34
+        "votos": 199,
+        "pctVotos": 5.9
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 544,
-        "pctVotos": 4.91
+        "votos": 145,
+        "pctVotos": 4.3
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 140,
+        "pctVotos": 4.15
       }
     ],
     "otros": {
@@ -1099,11 +1099,11 @@
     "nombre": "HERMIGUA",
     "censo": 1550,
     "mesas": 3,
-    "votantes": 982,
-    "pctEscrutado": 100.0,
-    "blanco": 7,
-    "nulos": 35,
-    "votosCandidatos": 940,
+    "votantes": 228,
+    "pctEscrutado": 21.48,
+    "blanco": 2,
+    "nulos": 9,
+    "votosCandidatos": 217,
     "ganador": {
       "siglas": "ASG",
       "color": "#7B3FA0",
@@ -1116,36 +1116,36 @@
         "siglas": "ASG",
         "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
         "color": "#7B3FA0",
-        "votos": 547,
-        "pctVotos": 58.19
+        "votos": 137,
+        "pctVotos": 63.13
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 312,
-        "pctVotos": 33.19
+        "votos": 60,
+        "pctVotos": 27.65
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 34,
-        "pctVotos": 3.62
+        "votos": 8,
+        "pctVotos": 3.69
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 34,
-        "pctVotos": 3.62
+        "votos": 6,
+        "pctVotos": 2.76
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 13,
-        "pctVotos": 1.38
+        "votos": 6,
+        "pctVotos": 2.76
       }
     ],
     "otros": {
@@ -1158,11 +1158,11 @@
     "nombre": "ICOD DE LOS VINOS",
     "censo": 19325,
     "mesas": 35,
-    "votantes": 12474,
-    "pctEscrutado": 100.0,
-    "blanco": 112,
-    "nulos": 375,
-    "votosCandidatos": 11987,
+    "votantes": 5207,
+    "pctEscrutado": 41.89,
+    "blanco": 36,
+    "nulos": 180,
+    "votosCandidatos": 4991,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1175,29 +1175,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 10438,
-        "pctVotos": 87.08
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 570,
-        "pctVotos": 4.76
+        "votos": 4357,
+        "pctVotos": 87.3
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 516,
-        "pctVotos": 4.3
+        "votos": 236,
+        "pctVotos": 4.73
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 217,
+        "pctVotos": 4.35
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 463,
-        "pctVotos": 3.86
+        "votos": 181,
+        "pctVotos": 3.63
       }
     ],
     "otros": {
@@ -1210,11 +1210,11 @@
     "nombre": "SAN CRISTÓBAL DE LA LAGUNA",
     "censo": 132427,
     "mesas": 224,
-    "votantes": 86689,
-    "pctEscrutado": 100.0,
-    "blanco": 943,
-    "nulos": 2847,
-    "votosCandidatos": 83549,
+    "votantes": 25489,
+    "pctEscrutado": 29.38,
+    "blanco": 276,
+    "nulos": 852,
+    "votosCandidatos": 24381,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1227,29 +1227,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 68000,
-        "pctVotos": 81.39
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 5408,
-        "pctVotos": 6.47
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 5114,
-        "pctVotos": 6.12
+        "votos": 20181,
+        "pctVotos": 82.77
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 5027,
-        "pctVotos": 6.02
+        "votos": 1430,
+        "pctVotos": 5.87
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1394,
+        "pctVotos": 5.72
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 1376,
+        "pctVotos": 5.64
       }
     ],
     "otros": {
@@ -1262,11 +1262,11 @@
     "nombre": "LLANOS DE ARIDANE (LOS)",
     "censo": 15701,
     "mesas": 29,
-    "votantes": 9870,
-    "pctEscrutado": 100.0,
-    "blanco": 89,
-    "nulos": 225,
-    "votosCandidatos": 9556,
+    "votantes": 2372,
+    "pctEscrutado": 23.7,
+    "blanco": 12,
+    "nulos": 49,
+    "votosCandidatos": 2311,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1279,36 +1279,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 7965,
-        "pctVotos": 83.35
+        "votos": 1923,
+        "pctVotos": 83.21
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 434,
-        "pctVotos": 4.54
+        "votos": 99,
+        "pctVotos": 4.28
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 399,
-        "pctVotos": 4.18
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 386,
-        "pctVotos": 4.04
+        "votos": 99,
+        "pctVotos": 4.28
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 372,
-        "pctVotos": 3.89
+        "votos": 96,
+        "pctVotos": 4.15
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 94,
+        "pctVotos": 4.07
       }
     ],
     "otros": {
@@ -1321,11 +1321,11 @@
     "nombre": "MATANZA DE ACENTEJO (LA)",
     "censo": 7392,
     "mesas": 12,
-    "votantes": 5020,
-    "pctEscrutado": 100.0,
-    "blanco": 61,
-    "nulos": 185,
-    "votosCandidatos": 4774,
+    "votantes": 534,
+    "pctEscrutado": 9.74,
+    "blanco": 12,
+    "nulos": 26,
+    "votosCandidatos": 496,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1338,29 +1338,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 4039,
-        "pctVotos": 84.6
+        "votos": 429,
+        "pctVotos": 86.49
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 259,
-        "pctVotos": 5.43
+        "votos": 32,
+        "pctVotos": 6.45
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 256,
-        "pctVotos": 5.36
+        "votos": 18,
+        "pctVotos": 3.63
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 220,
-        "pctVotos": 4.61
+        "votos": 17,
+        "pctVotos": 3.43
       }
     ],
     "otros": {
@@ -1373,11 +1373,11 @@
     "nombre": "OROTAVA (LA)",
     "censo": 34652,
     "mesas": 58,
-    "votantes": 25213,
-    "pctEscrutado": 100.0,
-    "blanco": 237,
-    "nulos": 804,
-    "votosCandidatos": 24172,
+    "votantes": 7606,
+    "pctEscrutado": 30.46,
+    "blanco": 57,
+    "nulos": 215,
+    "votosCandidatos": 7334,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1390,29 +1390,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 20517,
-        "pctVotos": 84.88
+        "votos": 6294,
+        "pctVotos": 85.82
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 1308,
-        "pctVotos": 5.41
+        "votos": 408,
+        "pctVotos": 5.56
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 1189,
-        "pctVotos": 4.92
+        "votos": 320,
+        "pctVotos": 4.36
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 1158,
-        "pctVotos": 4.79
+        "votos": 312,
+        "pctVotos": 4.25
       }
     ],
     "otros": {
@@ -1425,11 +1425,11 @@
     "nombre": "PASO (EL)",
     "censo": 6125,
     "mesas": 11,
-    "votantes": 4193,
-    "pctEscrutado": 100.0,
-    "blanco": 43,
-    "nulos": 86,
-    "votosCandidatos": 4064,
+    "votantes": 2002,
+    "pctEscrutado": 49.15,
+    "blanco": 23,
+    "nulos": 39,
+    "votosCandidatos": 1940,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1442,36 +1442,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 3302,
-        "pctVotos": 81.25
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 235,
-        "pctVotos": 5.78
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 204,
-        "pctVotos": 5.02
+        "votos": 1523,
+        "pctVotos": 78.51
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 177,
-        "pctVotos": 4.36
+        "votos": 137,
+        "pctVotos": 7.06
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 123,
+        "pctVotos": 6.34
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 146,
-        "pctVotos": 3.59
+        "votos": 80,
+        "pctVotos": 4.12
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 77,
+        "pctVotos": 3.97
       }
     ],
     "otros": {
@@ -1484,11 +1484,11 @@
     "nombre": "PUERTO DE LA CRUZ",
     "censo": 22115,
     "mesas": 42,
-    "votantes": 14817,
-    "pctEscrutado": 100.0,
-    "blanco": 131,
-    "nulos": 511,
-    "votosCandidatos": 14175,
+    "votantes": 3250,
+    "pctEscrutado": 21.73,
+    "blanco": 27,
+    "nulos": 113,
+    "votosCandidatos": 3110,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1501,29 +1501,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 12169,
-        "pctVotos": 85.85
+        "votos": 2687,
+        "pctVotos": 86.4
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 719,
-        "pctVotos": 5.07
+        "votos": 163,
+        "pctVotos": 5.24
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 684,
-        "pctVotos": 4.83
+        "votos": 140,
+        "pctVotos": 4.5
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 603,
-        "pctVotos": 4.25
+        "votos": 120,
+        "pctVotos": 3.86
       }
     ],
     "otros": {
@@ -1536,11 +1536,11 @@
     "nombre": "PUNTAGORDA",
     "censo": 1521,
     "mesas": 4,
-    "votantes": 910,
-    "pctEscrutado": 100.0,
-    "blanco": 5,
-    "nulos": 23,
-    "votosCandidatos": 882,
+    "votantes": 422,
+    "pctEscrutado": 48.19,
+    "blanco": 1,
+    "nulos": 14,
+    "votosCandidatos": 407,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1553,36 +1553,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 724,
-        "pctVotos": 82.09
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 51,
-        "pctVotos": 5.78
+        "votos": 325,
+        "pctVotos": 79.85
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 50,
-        "pctVotos": 5.67
+        "votos": 28,
+        "pctVotos": 6.88
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 22,
+        "pctVotos": 5.41
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 37,
-        "pctVotos": 4.2
+        "votos": 20,
+        "pctVotos": 4.91
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 20,
-        "pctVotos": 2.27
+        "votos": 12,
+        "pctVotos": 2.95
       }
     ],
     "otros": {
@@ -1595,11 +1595,11 @@
     "nombre": "PUNTALLANA",
     "censo": 2071,
     "mesas": 4,
-    "votantes": 1504,
-    "pctEscrutado": 100.0,
+    "votantes": 869,
+    "pctEscrutado": 56.59,
     "blanco": 4,
-    "nulos": 28,
-    "votosCandidatos": 1472,
+    "nulos": 17,
+    "votosCandidatos": 848,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1612,36 +1612,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 1267,
-        "pctVotos": 86.07
+        "votos": 744,
+        "pctVotos": 87.74
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 74,
-        "pctVotos": 5.03
+        "votos": 55,
+        "pctVotos": 6.49
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 58,
-        "pctVotos": 3.94
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 39,
-        "pctVotos": 2.65
+        "votos": 21,
+        "pctVotos": 2.48
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 34,
-        "pctVotos": 2.31
+        "votos": 14,
+        "pctVotos": 1.65
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 14,
+        "pctVotos": 1.65
       }
     ],
     "otros": {
@@ -1654,11 +1654,11 @@
     "nombre": "REALEJOS (LOS)",
     "censo": 30860,
     "mesas": 54,
-    "votantes": 22404,
-    "pctEscrutado": 100.0,
-    "blanco": 256,
-    "nulos": 831,
-    "votosCandidatos": 21601,
+    "votantes": 9121,
+    "pctEscrutado": 41.25,
+    "blanco": 118,
+    "nulos": 302,
+    "votosCandidatos": 8713,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1671,29 +1671,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 19201,
-        "pctVotos": 88.89
+        "votos": 7707,
+        "pctVotos": 88.45
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 856,
-        "pctVotos": 3.96
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 816,
-        "pctVotos": 3.78
+        "votos": 359,
+        "pctVotos": 4.12
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 728,
-        "pctVotos": 3.37
+        "votos": 338,
+        "pctVotos": 3.88
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 309,
+        "pctVotos": 3.55
       }
     ],
     "otros": {
@@ -1706,11 +1706,11 @@
     "nombre": "ROSARIO (EL)",
     "censo": 14641,
     "mesas": 23,
-    "votantes": 9976,
-    "pctEscrutado": 100.0,
-    "blanco": 127,
-    "nulos": 264,
-    "votosCandidatos": 9585,
+    "votantes": 3807,
+    "pctEscrutado": 39.7,
+    "blanco": 49,
+    "nulos": 124,
+    "votosCandidatos": 3634,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1723,29 +1723,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 8291,
-        "pctVotos": 86.5
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 462,
-        "pctVotos": 4.82
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 425,
-        "pctVotos": 4.43
+        "votos": 3075,
+        "pctVotos": 84.62
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 407,
-        "pctVotos": 4.25
+        "votos": 201,
+        "pctVotos": 5.53
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 186,
+        "pctVotos": 5.12
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 172,
+        "pctVotos": 4.73
       }
     ],
     "otros": {
@@ -1758,58 +1758,58 @@
     "nombre": "SAN ANDRÉS Y SAUCES",
     "censo": 3591,
     "mesas": 7,
-    "votantes": 2467,
-    "pctEscrutado": 100.0,
-    "blanco": 16,
-    "nulos": 55,
-    "votosCandidatos": 2396,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 2035,
-        "pctVotos": 84.93
-      },
-      {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 104,
-        "pctVotos": 4.34
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 102,
-        "pctVotos": 4.26
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 94,
-        "pctVotos": 3.92
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 61,
-        "pctVotos": 2.55
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -1817,11 +1817,11 @@
     "nombre": "SAN JUAN DE LA RAMBLA",
     "censo": 4119,
     "mesas": 7,
-    "votantes": 2821,
-    "pctEscrutado": 100.0,
-    "blanco": 34,
-    "nulos": 121,
-    "votosCandidatos": 2666,
+    "votantes": 310,
+    "pctEscrutado": 10.24,
+    "blanco": 2,
+    "nulos": 7,
+    "votosCandidatos": 301,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1834,29 +1834,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 2292,
-        "pctVotos": 85.97
+        "votos": 259,
+        "pctVotos": 86.05
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 137,
-        "pctVotos": 5.14
+        "votos": 22,
+        "pctVotos": 7.31
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 134,
-        "pctVotos": 5.03
+        "votos": 14,
+        "pctVotos": 4.65
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 103,
-        "pctVotos": 3.86
+        "votos": 6,
+        "pctVotos": 1.99
       }
     ],
     "otros": {
@@ -1869,11 +1869,11 @@
     "nombre": "SAN MIGUEL DE ABONA",
     "censo": 12975,
     "mesas": 20,
-    "votantes": 7553,
-    "pctEscrutado": 100.0,
-    "blanco": 46,
-    "nulos": 266,
-    "votosCandidatos": 7241,
+    "votantes": 3091,
+    "pctEscrutado": 39.8,
+    "blanco": 18,
+    "nulos": 107,
+    "votosCandidatos": 2966,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1886,29 +1886,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 6194,
-        "pctVotos": 85.54
+        "votos": 2527,
+        "pctVotos": 85.2
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 399,
-        "pctVotos": 5.51
+        "votos": 176,
+        "pctVotos": 5.93
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 364,
-        "pctVotos": 5.03
+        "votos": 142,
+        "pctVotos": 4.79
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 284,
-        "pctVotos": 3.92
+        "votos": 121,
+        "pctVotos": 4.08
       }
     ],
     "otros": {
@@ -1921,11 +1921,11 @@
     "nombre": "SAN SEBASTIÁN DE LA GOMERA",
     "censo": 7304,
     "mesas": 13,
-    "votantes": 4826,
-    "pctEscrutado": 100.0,
-    "blanco": 95,
-    "nulos": 138,
-    "votosCandidatos": 4593,
+    "votantes": 1961,
+    "pctEscrutado": 41.3,
+    "blanco": 44,
+    "nulos": 59,
+    "votosCandidatos": 1858,
     "ganador": {
       "siglas": "ASG",
       "color": "#7B3FA0",
@@ -1938,36 +1938,36 @@
         "siglas": "ASG",
         "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
         "color": "#7B3FA0",
-        "votos": 2952,
-        "pctVotos": 64.27
+        "votos": 1297,
+        "pctVotos": 69.81
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 1264,
-        "pctVotos": 27.52
+        "votos": 435,
+        "pctVotos": 23.41
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 133,
-        "pctVotos": 2.9
-      },
-      {
-        "siglas": "IxLG",
-        "nombre": "INICIATIVA POR LA GOMERA",
-        "color": "#9AA0A6",
-        "votos": 123,
-        "pctVotos": 2.68
+        "votos": 52,
+        "pctVotos": 2.8
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 121,
-        "pctVotos": 2.63
+        "votos": 45,
+        "pctVotos": 2.42
+      },
+      {
+        "siglas": "IxLG",
+        "nombre": "INICIATIVA POR LA GOMERA",
+        "color": "#9AA0A6",
+        "votos": 29,
+        "pctVotos": 1.56
       }
     ],
     "otros": {
@@ -1980,11 +1980,11 @@
     "nombre": "SANTA CRUZ DE LA PALMA",
     "censo": 12727,
     "mesas": 23,
-    "votantes": 8286,
-    "pctEscrutado": 100.0,
-    "blanco": 39,
-    "nulos": 192,
-    "votosCandidatos": 8055,
+    "votantes": 3177,
+    "pctEscrutado": 38.79,
+    "blanco": 7,
+    "nulos": 78,
+    "votosCandidatos": 3092,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1997,36 +1997,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 6761,
-        "pctVotos": 83.94
+        "votos": 2637,
+        "pctVotos": 85.28
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 409,
-        "pctVotos": 5.08
+        "votos": 147,
+        "pctVotos": 4.75
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 308,
-        "pctVotos": 3.82
+        "votos": 110,
+        "pctVotos": 3.56
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 304,
-        "pctVotos": 3.77
+        "votos": 101,
+        "pctVotos": 3.27
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 273,
-        "pctVotos": 3.39
+        "votos": 97,
+        "pctVotos": 3.14
       }
     ],
     "otros": {
@@ -2039,11 +2039,11 @@
     "nombre": "SANTA CRUZ DE TENERIFE",
     "censo": 171091,
     "mesas": 292,
-    "votantes": 108022,
-    "pctEscrutado": 98.6,
-    "blanco": 1369,
-    "nulos": 3160,
-    "votosCandidatos": 104443,
+    "votantes": 28468,
+    "pctEscrutado": 25.38,
+    "blanco": 282,
+    "nulos": 760,
+    "votosCandidatos": 27745,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2056,29 +2056,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 88217,
-        "pctVotos": 84.46
+        "votos": 24037,
+        "pctVotos": 86.64
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 5635,
-        "pctVotos": 5.4
+        "votos": 1369,
+        "pctVotos": 4.93
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 5366,
-        "pctVotos": 5.14
+        "votos": 1222,
+        "pctVotos": 4.4
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 5225,
-        "pctVotos": 5.0
+        "votos": 1117,
+        "pctVotos": 4.03
       }
     ],
     "otros": {
@@ -2091,62 +2091,10 @@
     "nombre": "SANTA ÚRSULA",
     "censo": 11959,
     "mesas": 18,
-    "votantes": 8248,
-    "pctEscrutado": 100.0,
-    "blanco": 87,
-    "nulos": 265,
-    "votosCandidatos": 7896,
-    "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
-      "escanos": 0,
-      "estado": "claro",
-      "empatados": []
-    },
-    "principales": [
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 6940,
-        "pctVotos": 87.89
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 371,
-        "pctVotos": 4.7
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 326,
-        "pctVotos": 4.13
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 259,
-        "pctVotos": 3.28
-      }
-    ],
-    "otros": {
-      "votos": 0,
-      "pctVotos": 0.0,
-      "numCandidaturas": 0
-    }
-  },
-  "38040": {
-    "nombre": "SANTIAGO DEL TEIDE",
-    "censo": 6163,
-    "mesas": 10,
-    "votantes": 3668,
-    "pctEscrutado": 100.0,
-    "blanco": 38,
-    "nulos": 110,
+    "votantes": 3919,
+    "pctEscrutado": 47.88,
+    "blanco": 49,
+    "nulos": 120,
     "votosCandidatos": 3750,
     "ganador": {
       "siglas": "PP",
@@ -2160,29 +2108,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 3391,
-        "pctVotos": 90.43
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 136,
-        "pctVotos": 3.63
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 114,
-        "pctVotos": 3.04
+        "votos": 3301,
+        "pctVotos": 88.03
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 109,
-        "pctVotos": 2.91
+        "votos": 168,
+        "pctVotos": 4.48
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 164,
+        "pctVotos": 4.37
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 117,
+        "pctVotos": 3.12
       }
     ],
     "otros": {
@@ -2191,15 +2139,15 @@
       "numCandidaturas": 0
     }
   },
-  "38041": {
-    "nombre": "SAUZAL (EL)",
-    "censo": 7419,
-    "mesas": 14,
-    "votantes": 5113,
-    "pctEscrutado": 100.0,
-    "blanco": 57,
-    "nulos": 128,
-    "votosCandidatos": 4928,
+  "38040": {
+    "nombre": "SANTIAGO DEL TEIDE",
+    "censo": 6163,
+    "mesas": 10,
+    "votantes": 1767,
+    "pctEscrutado": 45.18,
+    "blanco": 16,
+    "nulos": 46,
+    "votosCandidatos": 1859,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2212,29 +2160,81 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 4123,
-        "pctVotos": 83.66
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 289,
-        "pctVotos": 5.86
+        "votos": 1683,
+        "pctVotos": 90.53
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 279,
-        "pctVotos": 5.66
+        "votos": 62,
+        "pctVotos": 3.34
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 57,
+        "pctVotos": 3.07
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 237,
-        "pctVotos": 4.81
+        "votos": 57,
+        "pctVotos": 3.07
+      }
+    ],
+    "otros": {
+      "votos": 0,
+      "pctVotos": 0.0,
+      "numCandidaturas": 0
+    }
+  },
+  "38041": {
+    "nombre": "SAUZAL (EL)",
+    "censo": 7409,
+    "mesas": 14,
+    "votantes": 2309,
+    "pctEscrutado": 45.18,
+    "blanco": 28,
+    "nulos": 56,
+    "votosCandidatos": 2225,
+    "ganador": {
+      "siglas": "PP",
+      "color": "#0557A1",
+      "escanos": 0,
+      "estado": "claro",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 1820,
+        "pctVotos": 81.8
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 149,
+        "pctVotos": 6.7
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 145,
+        "pctVotos": 6.52
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 111,
+        "pctVotos": 4.99
       }
     ],
     "otros": {
@@ -2247,11 +2247,11 @@
     "nombre": "SILOS (LOS)",
     "censo": 3725,
     "mesas": 8,
-    "votantes": 2500,
-    "pctEscrutado": 100.0,
-    "blanco": 26,
-    "nulos": 107,
-    "votosCandidatos": 2367,
+    "votantes": 537,
+    "pctEscrutado": 22.14,
+    "blanco": 4,
+    "nulos": 20,
+    "votosCandidatos": 513,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2264,29 +2264,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 2015,
-        "pctVotos": 85.13
+        "votos": 408,
+        "pctVotos": 79.53
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 134,
-        "pctVotos": 5.66
-      },
-      {
-        "siglas": "NC-BC (+4)",
-        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
-        "color": "#88B53D",
-        "votos": 123,
-        "pctVotos": 5.2
+        "votos": 41,
+        "pctVotos": 7.99
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 95,
-        "pctVotos": 4.01
+        "votos": 34,
+        "pctVotos": 6.63
+      },
+      {
+        "siglas": "NC-BC (+4)",
+        "nombre": "NC-BC, PODEMOS, IU, SUMAR",
+        "color": "#88B53D",
+        "votos": 30,
+        "pctVotos": 5.85
       }
     ],
     "otros": {
@@ -2299,11 +2299,11 @@
     "nombre": "TACORONTE",
     "censo": 20392,
     "mesas": 32,
-    "votantes": 13521,
-    "pctEscrutado": 100.0,
-    "blanco": 184,
-    "nulos": 414,
-    "votosCandidatos": 12926,
+    "votantes": 5580,
+    "pctEscrutado": 43.33,
+    "blanco": 79,
+    "nulos": 171,
+    "votosCandidatos": 5330,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2316,29 +2316,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 11168,
-        "pctVotos": 86.4
+        "votos": 4542,
+        "pctVotos": 85.22
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 677,
-        "pctVotos": 5.24
+        "votos": 318,
+        "pctVotos": 5.97
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 541,
-        "pctVotos": 4.19
+        "votos": 243,
+        "pctVotos": 4.56
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 540,
-        "pctVotos": 4.18
+        "votos": 227,
+        "pctVotos": 4.26
       }
     ],
     "otros": {
@@ -2351,11 +2351,11 @@
     "nombre": "TANQUE (EL)",
     "censo": 2258,
     "mesas": 4,
-    "votantes": 1466,
-    "pctEscrutado": 100.0,
-    "blanco": 8,
-    "nulos": 61,
-    "votosCandidatos": 1397,
+    "votantes": 681,
+    "pctEscrutado": 47.91,
+    "blanco": 6,
+    "nulos": 29,
+    "votosCandidatos": 646,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2368,29 +2368,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 1221,
-        "pctVotos": 87.4
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 59,
-        "pctVotos": 4.22
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 59,
-        "pctVotos": 4.22
+        "votos": 590,
+        "pctVotos": 91.33
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 58,
-        "pctVotos": 4.15
+        "votos": 21,
+        "pctVotos": 3.25
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 18,
+        "pctVotos": 2.79
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 17,
+        "pctVotos": 2.63
       }
     ],
     "otros": {
@@ -2403,11 +2403,11 @@
     "nombre": "TAZACORTE",
     "censo": 3380,
     "mesas": 7,
-    "votantes": 1977,
-    "pctEscrutado": 100.0,
-    "blanco": 11,
-    "nulos": 35,
-    "votosCandidatos": 1931,
+    "votantes": 957,
+    "pctEscrutado": 47.78,
+    "blanco": 3,
+    "nulos": 22,
+    "votosCandidatos": 932,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2420,36 +2420,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 1397,
-        "pctVotos": 72.35
+        "votos": 671,
+        "pctVotos": 72.0
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 165,
-        "pctVotos": 8.54
+        "votos": 81,
+        "pctVotos": 8.69
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 133,
-        "pctVotos": 6.89
+        "votos": 70,
+        "pctVotos": 7.51
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 127,
-        "pctVotos": 6.58
+        "votos": 57,
+        "pctVotos": 6.12
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 109,
-        "pctVotos": 5.64
+        "votos": 53,
+        "pctVotos": 5.69
       }
     ],
     "otros": {
@@ -2462,11 +2462,11 @@
     "nombre": "TEGUESTE",
     "censo": 9590,
     "mesas": 17,
-    "votantes": 7055,
-    "pctEscrutado": 100.0,
-    "blanco": 90,
-    "nulos": 215,
-    "votosCandidatos": 6750,
+    "votantes": 1925,
+    "pctEscrutado": 26.85,
+    "blanco": 20,
+    "nulos": 60,
+    "votosCandidatos": 1845,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2479,29 +2479,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 5964,
-        "pctVotos": 88.36
+        "votos": 1588,
+        "pctVotos": 86.07
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 275,
-        "pctVotos": 4.07
-      },
-      {
-        "siglas": "CCa",
-        "nombre": "COALICIÓN CANARIA",
-        "color": "#FFCC00",
-        "votos": 272,
-        "pctVotos": 4.03
+        "votos": 101,
+        "pctVotos": 5.47
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 239,
-        "pctVotos": 3.54
+        "votos": 93,
+        "pctVotos": 5.04
+      },
+      {
+        "siglas": "CCa",
+        "nombre": "COALICIÓN CANARIA",
+        "color": "#FFCC00",
+        "votos": 63,
+        "pctVotos": 3.41
       }
     ],
     "otros": {
@@ -2514,11 +2514,11 @@
     "nombre": "TIJARAFE",
     "censo": 1799,
     "mesas": 4,
-    "votantes": 1252,
-    "pctEscrutado": 100.0,
-    "blanco": 8,
-    "nulos": 42,
-    "votosCandidatos": 1202,
+    "votantes": 230,
+    "pctEscrutado": 18.45,
+    "blanco": 1,
+    "nulos": 6,
+    "votosCandidatos": 223,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2531,36 +2531,36 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 979,
-        "pctVotos": 81.45
+        "votos": 190,
+        "pctVotos": 85.2
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 71,
-        "pctVotos": 5.91
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 68,
-        "pctVotos": 5.66
+        "votos": 12,
+        "pctVotos": 5.38
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 44,
-        "pctVotos": 3.66
+        "votos": 8,
+        "pctVotos": 3.59
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 40,
-        "pctVotos": 3.33
+        "votos": 7,
+        "pctVotos": 3.14
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 6,
+        "pctVotos": 2.69
       }
     ],
     "otros": {
@@ -2573,11 +2573,11 @@
     "nombre": "VALVERDE",
     "censo": 4051,
     "mesas": 9,
-    "votantes": 2740,
-    "pctEscrutado": 100.0,
-    "blanco": 57,
-    "nulos": 77,
-    "votosCandidatos": 2606,
+    "votantes": 273,
+    "pctEscrutado": 9.94,
+    "blanco": 5,
+    "nulos": 6,
+    "votosCandidatos": 262,
     "ganador": {
       "siglas": "A.H.I.",
       "color": "#B5651D",
@@ -2590,36 +2590,36 @@
         "siglas": "A.H.I.",
         "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
         "color": "#B5651D",
-        "votos": 1466,
-        "pctVotos": 56.25
+        "votos": 128,
+        "pctVotos": 48.85
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 813,
-        "pctVotos": 31.2
+        "votos": 96,
+        "pctVotos": 36.64
       },
       {
         "siglas": "ASAMBLEA HERREÑA",
         "nombre": "ASAMBLEA HERREÑA",
         "color": "#9AA0A6",
-        "votos": 227,
-        "pctVotos": 8.71
+        "votos": 29,
+        "pctVotos": 11.07
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 53,
-        "pctVotos": 2.03
+        "votos": 7,
+        "pctVotos": 2.67
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 47,
-        "pctVotos": 1.8
+        "votos": 2,
+        "pctVotos": 0.76
       }
     ],
     "otros": {
@@ -2632,11 +2632,11 @@
     "nombre": "VALLE GRAN REY",
     "censo": 2800,
     "mesas": 6,
-    "votantes": 1645,
-    "pctEscrutado": 100.0,
-    "blanco": 16,
-    "nulos": 60,
-    "votosCandidatos": 1569,
+    "votantes": 678,
+    "pctEscrutado": 41.14,
+    "blanco": 7,
+    "nulos": 15,
+    "votosCandidatos": 656,
     "ganador": {
       "siglas": "ASG",
       "color": "#7B3FA0",
@@ -2649,36 +2649,36 @@
         "siglas": "ASG",
         "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
         "color": "#7B3FA0",
-        "votos": 969,
-        "pctVotos": 61.76
+        "votos": 400,
+        "pctVotos": 60.98
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 441,
-        "pctVotos": 28.11
+        "votos": 194,
+        "pctVotos": 29.57
       },
       {
         "siglas": "IxLG",
         "nombre": "INICIATIVA POR LA GOMERA",
         "color": "#9AA0A6",
-        "votos": 64,
-        "pctVotos": 4.08
+        "votos": 27,
+        "pctVotos": 4.12
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 51,
-        "pctVotos": 3.25
+        "votos": 23,
+        "pctVotos": 3.51
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 44,
-        "pctVotos": 2.8
+        "votos": 12,
+        "pctVotos": 1.83
       }
     ],
     "otros": {
@@ -2691,58 +2691,58 @@
     "nombre": "VALLEHERMOSO",
     "censo": 2329,
     "mesas": 5,
-    "votantes": 1423,
-    "pctEscrutado": 100.0,
-    "blanco": 6,
-    "nulos": 49,
-    "votosCandidatos": 1368,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "ASG",
-      "color": "#7B3FA0",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ASG",
-        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
-        "color": "#7B3FA0",
-        "votos": 933,
-        "pctVotos": 68.2
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 341,
-        "pctVotos": 24.93
-      },
-      {
-        "siglas": "IxLG",
-        "nombre": "INICIATIVA POR LA GOMERA",
-        "color": "#9AA0A6",
-        "votos": 42,
-        "pctVotos": 3.07
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 27,
-        "pctVotos": 1.97
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 25,
-        "pctVotos": 1.83
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "IxLG",
+        "nombre": "INICIATIVA POR LA GOMERA",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ASG",
+        "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+        "color": "#7B3FA0",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -2750,11 +2750,11 @@
     "nombre": "VICTORIA DE ACENTEJO (LA)",
     "censo": 7745,
     "mesas": 15,
-    "votantes": 5492,
-    "pctEscrutado": 100.0,
-    "blanco": 45,
-    "nulos": 187,
-    "votosCandidatos": 5262,
+    "votantes": 1718,
+    "pctEscrutado": 30.6,
+    "blanco": 12,
+    "nulos": 67,
+    "votosCandidatos": 1639,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2767,29 +2767,29 @@
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 4624,
-        "pctVotos": 87.88
+        "votos": 1423,
+        "pctVotos": 86.82
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 247,
-        "pctVotos": 4.69
+        "votos": 82,
+        "pctVotos": 5.0
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 204,
-        "pctVotos": 3.88
+        "votos": 70,
+        "pctVotos": 4.27
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 187,
-        "pctVotos": 3.55
+        "votos": 64,
+        "pctVotos": 3.9
       }
     ],
     "otros": {
@@ -2854,58 +2854,58 @@
     "nombre": "VILLA DE MAZO",
     "censo": 4047,
     "mesas": 9,
-    "votantes": 2695,
-    "pctEscrutado": 100.0,
-    "blanco": 14,
-    "nulos": 39,
-    "votosCandidatos": 2642,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 2203,
-        "pctVotos": 83.38
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PACMA",
         "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 131,
-        "pctVotos": 4.96
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "CCa",
         "nombre": "COALICIÓN CANARIA",
         "color": "#FFCC00",
-        "votos": 112,
-        "pctVotos": 4.24
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 109,
-        "pctVotos": 4.13
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 87,
-        "pctVotos": 3.29
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   },
@@ -2913,11 +2913,11 @@
     "nombre": "PINAR DE EL HIERRO (EL)",
     "censo": 1553,
     "mesas": 3,
-    "votantes": 1046,
-    "pctEscrutado": 100.0,
-    "blanco": 15,
-    "nulos": 30,
-    "votosCandidatos": 1001,
+    "votantes": 334,
+    "pctEscrutado": 33.61,
+    "blanco": 2,
+    "nulos": 8,
+    "votosCandidatos": 324,
     "ganador": {
       "siglas": "A.H.I.",
       "color": "#B5651D",
@@ -2930,36 +2930,36 @@
         "siglas": "A.H.I.",
         "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
         "color": "#B5651D",
-        "votos": 540,
-        "pctVotos": 53.95
+        "votos": 160,
+        "pctVotos": 49.38
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 323,
-        "pctVotos": 32.27
+        "votos": 96,
+        "pctVotos": 29.63
       },
       {
         "siglas": "ASAMBLEA HERREÑA",
         "nombre": "ASAMBLEA HERREÑA",
         "color": "#9AA0A6",
-        "votos": 101,
-        "pctVotos": 10.09
+        "votos": 58,
+        "pctVotos": 17.9
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 23,
-        "pctVotos": 2.3
+        "votos": 8,
+        "pctVotos": 2.47
       },
       {
         "siglas": "NC-BC (+4)",
         "nombre": "NC-BC, PODEMOS, IU, SUMAR",
         "color": "#88B53D",
-        "votos": 14,
-        "pctVotos": 1.4
+        "votos": 2,
+        "pctVotos": 0.62
       }
     ],
     "otros": {

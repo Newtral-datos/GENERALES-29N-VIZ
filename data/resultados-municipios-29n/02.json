@@ -79,73 +79,73 @@
     "poblacion": 496,
     "mesas": 1,
     "censo": 417,
-    "votantes": 351,
-    "validos": 347,
-    "votosCandidaturas": 347,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 4,
-    "participacionPct": 84.17,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 140,
-        "pctVotos": 40.35,
-        "pctVotosAnterior": 40.17
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 136,
-        "pctVotos": 39.19,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 39.02
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 64,
-        "pctVotos": 18.44,
-        "pctVotosAnterior": 18.5
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 4,
-        "pctVotos": 1.15,
-        "pctVotosAnterior": 1.16
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.29,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.29,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 18.5
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 1,
-      "pctVotos": 0.29,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -154,13 +154,13 @@
     "poblacion": 172357,
     "mesas": 227,
     "censo": 134328,
-    "votantes": 86106,
-    "validos": 85357,
-    "votosCandidaturas": 84670,
-    "blanco": 687,
-    "nulos": 749,
-    "participacionPct": 72.0,
-    "pctEscrutado": 89.01,
+    "votantes": 34287,
+    "validos": 33986,
+    "votosCandidaturas": 33736,
+    "blanco": 250,
+    "nulos": 301,
+    "participacionPct": 71.97,
+    "pctEscrutado": 35.46,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -173,54 +173,54 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 35158,
-        "pctVotos": 41.19,
+        "votos": 13724,
+        "pctVotos": 40.38,
         "pctVotosAnterior": 41.44
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 26497,
-        "pctVotos": 31.04,
+        "votos": 10882,
+        "pctVotos": 32.02,
         "pctVotosAnterior": 30.8
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 15225,
-        "pctVotos": 17.84,
+        "votos": 5960,
+        "pctVotos": 17.54,
         "pctVotosAnterior": 17.73
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 6817,
-        "pctVotos": 7.99,
+        "votos": 2711,
+        "pctVotos": 7.98,
         "pctVotosAnterior": 7.96
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 608,
-        "pctVotos": 0.71,
+        "votos": 236,
+        "pctVotos": 0.69,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 188,
-        "pctVotos": 0.22,
+        "votos": 81,
+        "pctVotos": 0.24,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 177,
-      "pctVotos": 0.21,
+      "votos": 142,
+      "pctVotos": 0.42,
       "numCandidaturas": 3
     }
   },
@@ -229,73 +229,73 @@
     "poblacion": 670,
     "mesas": 1,
     "censo": 528,
-    "votantes": 437,
-    "validos": 437,
-    "votosCandidaturas": 434,
-    "blanco": 3,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
     "nulos": 0,
-    "participacionPct": 82.76,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 181,
-        "pctVotos": 41.42,
-        "pctVotosAnterior": 41.29
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 178,
-        "pctVotos": 40.73,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 40.65
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 57,
-        "pctVotos": 13.04,
-        "pctVotosAnterior": 13.12
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 14,
-        "pctVotos": 3.2,
-        "pctVotosAnterior": 3.23
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.69,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.23,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 13.12
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -304,73 +304,73 @@
     "poblacion": 663,
     "mesas": 1,
     "censo": 528,
-    "votantes": 428,
-    "validos": 419,
-    "votosCandidaturas": 414,
-    "blanco": 5,
-    "nulos": 9,
-    "participacionPct": 81.06,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 178,
-        "pctVotos": 42.48,
-        "pctVotosAnterior": 42.35
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 166,
-        "pctVotos": 39.62,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 39.53
       },
       {
-        "siglas": "VOX",
-        "color": "#02C119",
+        "siglas": "FO",
+        "color": "#9AA0A6",
         "lado": 2,
-        "votos": 57,
-        "pctVotos": 13.6,
-        "pctVotosAnterior": 13.65
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
       },
       {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 11,
-        "pctVotos": 2.63,
-        "pctVotosAnterior": 2.59
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.24,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.24,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 13.65
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -529,13 +529,13 @@
     "poblacion": 1307,
     "mesas": 2,
     "censo": 1092,
-    "votantes": 792,
-    "validos": 779,
-    "votosCandidaturas": 774,
-    "blanco": 5,
-    "nulos": 13,
-    "participacionPct": 72.52,
-    "pctEscrutado": 100.0,
+    "votantes": 435,
+    "validos": 426,
+    "votosCandidaturas": 423,
+    "blanco": 3,
+    "nulos": 9,
+    "participacionPct": 71.54,
+    "pctEscrutado": 55.67,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -548,40 +548,40 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 307,
-        "pctVotos": 39.41,
+        "votos": 165,
+        "pctVotos": 38.73,
         "pctVotosAnterior": 39.22
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 278,
-        "pctVotos": 35.69,
+        "votos": 156,
+        "pctVotos": 36.62,
         "pctVotosAnterior": 35.69
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 143,
-        "pctVotos": 18.36,
+        "votos": 74,
+        "pctVotos": 17.37,
         "pctVotosAnterior": 18.28
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 42,
-        "pctVotos": 5.39,
+        "votos": 25,
+        "pctVotos": 5.87,
         "pctVotosAnterior": 5.42
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.39,
+        "votos": 2,
+        "pctVotos": 0.47,
         "pctVotosAnterior": null
       },
       {
@@ -589,7 +589,7 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 1,
-        "pctVotos": 0.13,
+        "pctVotos": 0.23,
         "pctVotosAnterior": null
       }
     ],
@@ -604,163 +604,13 @@
     "poblacion": 24224,
     "mesas": 30,
     "censo": 19140,
-    "votantes": 14109,
-    "validos": 13936,
-    "votosCandidaturas": 13807,
-    "blanco": 129,
-    "nulos": 173,
-    "participacionPct": 73.71,
-    "pctEscrutado": 100.0,
-    "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
-      "escanos": 0,
-      "estado": "claro",
-      "empatados": []
-    },
-    "principales": [
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 5850,
-        "pctVotos": 41.98,
-        "pctVotosAnterior": 41.96
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 5187,
-        "pctVotos": 37.22,
-        "pctVotosAnterior": 37.27
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 1565,
-        "pctVotos": 11.23,
-        "pctVotosAnterior": 11.12
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 1054,
-        "pctVotos": 7.56,
-        "pctVotosAnterior": 7.54
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 100,
-        "pctVotos": 0.72,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 23,
-        "pctVotos": 0.17,
-        "pctVotosAnterior": null
-      }
-    ],
-    "otros": {
-      "votos": 28,
-      "pctVotos": 0.2,
-      "numCandidaturas": 3
-    }
-  },
-  "02010": {
-    "nombre": "ALPERA",
-    "poblacion": 2245,
-    "mesas": 3,
-    "censo": 1720,
-    "votantes": 1426,
-    "validos": 1412,
-    "votosCandidaturas": 1407,
-    "blanco": 5,
-    "nulos": 14,
-    "participacionPct": 82.9,
-    "pctEscrutado": 100.0,
-    "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
-      "escanos": 0,
-      "estado": "claro",
-      "empatados": []
-    },
-    "principales": [
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 596,
-        "pctVotos": 42.21,
-        "pctVotosAnterior": 42.18
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 535,
-        "pctVotos": 37.89,
-        "pctVotosAnterior": 37.7
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 208,
-        "pctVotos": 14.73,
-        "pctVotosAnterior": 14.68
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 63,
-        "pctVotos": 4.46,
-        "pctVotosAnterior": 4.48
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.21,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.07,
-        "pctVotosAnterior": null
-      }
-    ],
-    "otros": {
-      "votos": 1,
-      "pctVotos": 0.07,
-      "numCandidaturas": 3
-    }
-  },
-  "02011": {
-    "nombre": "AYNA",
-    "poblacion": 582,
-    "mesas": 1,
-    "censo": 504,
-    "votantes": 419,
-    "validos": 419,
-    "votosCandidaturas": 417,
-    "blanco": 2,
-    "nulos": 0,
-    "participacionPct": 83.13,
-    "pctEscrutado": 100.0,
+    "votantes": 7046,
+    "validos": 6969,
+    "votosCandidaturas": 6916,
+    "blanco": 53,
+    "nulos": 77,
+    "participacionPct": 73.7,
+    "pctEscrutado": 49.94,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -773,40 +623,91 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 183,
-        "pctVotos": 43.68,
-        "pctVotosAnterior": 43.55
+        "votos": 2770,
+        "pctVotos": 39.75,
+        "pctVotosAnterior": 37.27
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 148,
-        "pctVotos": 35.32,
-        "pctVotosAnterior": 35.1
+        "votos": 2650,
+        "pctVotos": 38.03,
+        "pctVotosAnterior": 41.96
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 67,
-        "pctVotos": 15.99,
-        "pctVotosAnterior": 16.07
+        "votos": 885,
+        "pctVotos": 12.7,
+        "pctVotosAnterior": 11.12
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 19,
-        "pctVotos": 4.53,
-        "pctVotosAnterior": 4.65
+        "votos": 549,
+        "pctVotos": 7.88,
+        "pctVotosAnterior": 7.54
+      },
+      {
+        "siglas": "PACMA",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 38,
+        "pctVotos": 0.55,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 11,
+        "pctVotos": 0.16,
+        "pctVotosAnterior": null
+      }
+    ],
+    "otros": {
+      "votos": 13,
+      "pctVotos": 0.19,
+      "numCandidaturas": 3
+    }
+  },
+  "02010": {
+    "nombre": "ALPERA",
+    "poblacion": 2245,
+    "mesas": 3,
+    "censo": 1720,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
+    "ganador": {
+      "siglas": null,
+      "color": null,
+      "escanos": 0,
+      "estado": "sinDatos",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 42.18
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -814,13 +715,112 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 14.68
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
+      "numCandidaturas": 3
+    }
+  },
+  "02011": {
+    "nombre": "AYNA",
+    "poblacion": 582,
+    "mesas": 1,
+    "censo": 504,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
+    "ganador": {
+      "siglas": null,
+      "color": null,
+      "escanos": 0,
+      "estado": "sinDatos",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 35.1
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 16.07
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      }
+    ],
+    "otros": {
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -904,18 +904,18 @@
     "poblacion": 126,
     "mesas": 1,
     "censo": 112,
-    "votantes": 89,
-    "validos": 88,
-    "votosCandidaturas": 88,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 1,
-    "participacionPct": 79.46,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -923,40 +923,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 34,
-        "pctVotos": 38.64,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 38.0
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 22,
-        "pctVotos": 25.0,
-        "pctVotosAnterior": 25.0
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 22,
-        "pctVotos": 25.0,
-        "pctVotosAnterior": 24.0
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 9,
-        "pctVotos": 10.23,
-        "pctVotosAnterior": 10.0
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 1.14,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -964,13 +940,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 25.0
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -979,18 +979,18 @@
     "poblacion": 427,
     "mesas": 1,
     "censo": 341,
-    "votantes": 269,
-    "validos": 269,
-    "votosCandidaturas": 266,
-    "blanco": 3,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
     "nulos": 0,
-    "participacionPct": 78.88,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -998,54 +998,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 137,
-        "pctVotos": 50.93,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 50.55
       },
       {
-        "siglas": "PP",
-        "color": "#0557A1",
+        "siglas": "FO",
+        "color": "#9AA0A6",
         "lado": 2,
-        "votos": 82,
-        "pctVotos": 30.48,
-        "pctVotosAnterior": 30.4
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
       },
       {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 28,
-        "pctVotos": 10.41,
-        "pctVotosAnterior": 10.26
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
+        "siglas": "SALF",
+        "color": "#9AA0A6",
         "lado": 2,
-        "votos": 17,
-        "pctVotos": 6.32,
-        "pctVotosAnterior": 6.23
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.37,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.37,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 6.23
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1129,73 +1129,73 @@
     "poblacion": 574,
     "mesas": 1,
     "censo": 479,
-    "votantes": 349,
-    "validos": 348,
-    "votosCandidaturas": 346,
-    "blanco": 2,
-    "nulos": 1,
-    "participacionPct": 72.86,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 164,
-        "pctVotos": 47.13,
-        "pctVotosAnterior": 47.03
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 113,
-        "pctVotos": 32.47,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 32.43
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 50,
-        "pctVotos": 14.37,
-        "pctVotosAnterior": 14.32
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 11,
-        "pctVotos": 3.16,
-        "pctVotosAnterior": 3.24
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 4,
-        "pctVotos": 1.15,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
+        "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.86,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 14.32
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 1,
-      "pctVotos": 0.29,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1279,52 +1279,127 @@
     "poblacion": 1006,
     "mesas": 1,
     "censo": 743,
-    "votantes": 633,
-    "validos": 625,
-    "votosCandidaturas": 619,
-    "blanco": 6,
-    "nulos": 8,
-    "participacionPct": 85.19,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
+      "escanos": 0,
+      "estado": "sinDatos",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 36.56
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 11.83
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      }
+    ],
+    "otros": {
+      "votos": 0,
+      "pctVotos": 0,
+      "numCandidaturas": 3
+    }
+  },
+  "02019": {
+    "nombre": "BONILLO (EL)",
+    "poblacion": 2698,
+    "mesas": 4,
+    "censo": 2233,
+    "votantes": 512,
+    "validos": 495,
+    "votosCandidaturas": 493,
+    "blanco": 2,
+    "nulos": 17,
+    "participacionPct": 76.64,
+    "pctEscrutado": 29.91,
+    "ganador": {
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
       "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 295,
-        "pctVotos": 47.2,
-        "pctVotosAnterior": 47.16
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 229,
-        "pctVotos": 36.64,
-        "pctVotosAnterior": 36.56
+        "votos": 210,
+        "pctVotos": 42.42,
+        "pctVotosAnterior": 43.54
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 141,
+        "pctVotos": 28.48,
+        "pctVotosAnterior": 29.83
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 74,
-        "pctVotos": 11.84,
-        "pctVotosAnterior": 11.83
+        "votos": 124,
+        "pctVotos": 25.05,
+        "pctVotosAnterior": 19.27
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 21,
-        "pctVotos": 3.36,
-        "pctVotosAnterior": 3.38
+        "votos": 18,
+        "pctVotos": 3.64,
+        "pctVotosAnterior": 5.96
       },
       {
         "siglas": "FO",
@@ -1349,153 +1424,78 @@
       "numCandidaturas": 3
     }
   },
-  "02019": {
-    "nombre": "BONILLO (EL)",
-    "poblacion": 2698,
-    "mesas": 4,
-    "censo": 2233,
-    "votantes": 1786,
-    "validos": 1733,
-    "votosCandidaturas": 1724,
-    "blanco": 9,
-    "nulos": 53,
-    "participacionPct": 79.98,
-    "pctEscrutado": 100.0,
-    "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
-      "escanos": 0,
-      "estado": "claro",
-      "empatados": []
-    },
-    "principales": [
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 755,
-        "pctVotos": 43.57,
-        "pctVotosAnterior": 43.54
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 518,
-        "pctVotos": 29.89,
-        "pctVotosAnterior": 29.83
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 336,
-        "pctVotos": 19.39,
-        "pctVotosAnterior": 19.27
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 104,
-        "pctVotos": 6.0,
-        "pctVotosAnterior": 5.96
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 4,
-        "pctVotos": 0.23,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 4,
-        "pctVotos": 0.23,
-        "pctVotosAnterior": null
-      }
-    ],
-    "otros": {
-      "votos": 3,
-      "pctVotos": 0.17,
-      "numCandidaturas": 3
-    }
-  },
   "02020": {
     "nombre": "CARCELÉN",
     "poblacion": 483,
     "mesas": 1,
     "censo": 402,
-    "votantes": 320,
-    "validos": 318,
-    "votosCandidaturas": 314,
-    "blanco": 4,
-    "nulos": 2,
-    "participacionPct": 79.6,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 129,
-        "pctVotos": 40.57,
-        "pctVotosAnterior": 40.3
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 128,
-        "pctVotos": 40.25,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 40.0
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 31,
-        "pctVotos": 9.75,
-        "pctVotosAnterior": 9.7
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 24,
-        "pctVotos": 7.55,
-        "pctVotosAnterior": 7.58
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.63,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 9.7
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1579,59 +1579,35 @@
     "poblacion": 321,
     "mesas": 1,
     "censo": 292,
-    "votantes": 232,
-    "validos": 231,
-    "votosCandidaturas": 231,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 1,
-    "participacionPct": 79.45,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 94,
-        "pctVotos": 40.69,
-        "pctVotosAnterior": 40.39
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 78,
-        "pctVotos": 33.77,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 33.73
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 51,
-        "pctVotos": 22.08,
-        "pctVotosAnterior": 21.96
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 8,
-        "pctVotos": 3.46,
-        "pctVotosAnterior": 3.53
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -1639,13 +1615,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 21.96
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1654,73 +1654,73 @@
     "poblacion": 561,
     "mesas": 1,
     "censo": 459,
-    "votantes": 380,
-    "validos": 373,
-    "votosCandidaturas": 369,
-    "blanco": 4,
-    "nulos": 7,
-    "participacionPct": 82.78,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 162,
-        "pctVotos": 43.43,
-        "pctVotosAnterior": 43.33
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 148,
-        "pctVotos": 39.68,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 39.49
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 43,
-        "pctVotos": 11.53,
-        "pctVotosAnterior": 11.54
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 14,
-        "pctVotos": 3.75,
-        "pctVotosAnterior": 3.59
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.54,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 11.54
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1729,13 +1729,13 @@
     "poblacion": 4547,
     "mesas": 5,
     "censo": 3287,
-    "votantes": 2542,
-    "validos": 2512,
-    "votosCandidaturas": 2484,
-    "blanco": 28,
-    "nulos": 30,
-    "participacionPct": 77.33,
-    "pctEscrutado": 100.0,
+    "votantes": 1061,
+    "validos": 1046,
+    "votosCandidaturas": 1041,
+    "blanco": 5,
+    "nulos": 15,
+    "participacionPct": 76.99,
+    "pctEscrutado": 41.92,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -1748,54 +1748,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 1023,
-        "pctVotos": 40.72,
+        "votos": 434,
+        "pctVotos": 41.49,
         "pctVotosAnterior": 40.8
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 837,
-        "pctVotos": 33.32,
+        "votos": 346,
+        "pctVotos": 33.08,
         "pctVotosAnterior": 33.36
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 387,
-        "pctVotos": 15.41,
+        "votos": 172,
+        "pctVotos": 16.44,
         "pctVotosAnterior": 15.35
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 210,
-        "pctVotos": 8.36,
+        "votos": 83,
+        "pctVotos": 7.93,
         "pctVotosAnterior": 8.31
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 18,
-        "pctVotos": 0.72,
+        "votos": 4,
+        "pctVotos": 0.38,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 6,
-        "pctVotos": 0.24,
+        "votos": 2,
+        "pctVotos": 0.19,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 3,
-      "pctVotos": 0.12,
+      "votos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -1804,13 +1804,13 @@
     "poblacion": 10135,
     "mesas": 12,
     "censo": 7574,
-    "votantes": 5672,
-    "validos": 5562,
-    "votosCandidaturas": 5529,
-    "blanco": 33,
-    "nulos": 110,
-    "participacionPct": 74.88,
-    "pctEscrutado": 100.0,
+    "votantes": 1231,
+    "validos": 1207,
+    "votosCandidaturas": 1200,
+    "blanco": 7,
+    "nulos": 24,
+    "participacionPct": 69.11,
+    "pctEscrutado": 23.51,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -1823,54 +1823,54 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 2130,
-        "pctVotos": 38.3,
+        "votos": 493,
+        "pctVotos": 40.85,
         "pctVotosAnterior": 38.16
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 1770,
-        "pctVotos": 31.82,
+        "votos": 356,
+        "pctVotos": 29.49,
         "pctVotosAnterior": 31.74
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 1134,
-        "pctVotos": 20.39,
+        "votos": 249,
+        "pctVotos": 20.63,
         "pctVotosAnterior": 20.33
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 414,
-        "pctVotos": 7.44,
+        "votos": 83,
+        "pctVotos": 6.88,
         "pctVotosAnterior": 7.42
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 60,
-        "pctVotos": 1.08,
+        "votos": 15,
+        "pctVotos": 1.24,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 14,
-        "pctVotos": 0.25,
+        "votos": 4,
+        "pctVotos": 0.33,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 7,
-      "pctVotos": 0.13,
+      "votos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -1954,73 +1954,73 @@
     "poblacion": 300,
     "mesas": 1,
     "censo": 270,
-    "votantes": 229,
-    "validos": 228,
-    "votosCandidaturas": 226,
-    "blanco": 2,
-    "nulos": 1,
-    "participacionPct": 84.81,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 102,
-        "pctVotos": 44.74,
-        "pctVotosAnterior": 44.84
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 72,
-        "pctVotos": 31.58,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 31.39
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 30,
-        "pctVotos": 13.16,
-        "pctVotosAnterior": 13.0
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 17,
-        "pctVotos": 7.46,
-        "pctVotosAnterior": 7.62
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 3,
-        "pctVotos": 1.32,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
+        "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.88,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 13.0
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2029,18 +2029,18 @@
     "poblacion": 129,
     "mesas": 1,
     "censo": 117,
-    "votantes": 88,
-    "validos": 87,
-    "votosCandidaturas": 87,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 1,
-    "participacionPct": 75.21,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -2048,40 +2048,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 35,
-        "pctVotos": 40.23,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 39.78
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 29,
-        "pctVotos": 33.33,
-        "pctVotosAnterior": 33.33
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 17,
-        "pctVotos": 19.54,
-        "pctVotosAnterior": 19.35
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 6,
-        "pctVotos": 6.9,
-        "pctVotosAnterior": 7.53
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -2089,13 +2065,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 19.35
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2104,13 +2104,13 @@
     "poblacion": 4497,
     "mesas": 7,
     "censo": 3794,
-    "votantes": 1312,
-    "validos": 1289,
-    "votosCandidaturas": 1284,
-    "blanco": 5,
-    "nulos": 23,
-    "participacionPct": 74.63,
-    "pctEscrutado": 46.33,
+    "votantes": 682,
+    "validos": 664,
+    "votosCandidaturas": 662,
+    "blanco": 2,
+    "nulos": 18,
+    "participacionPct": 73.88,
+    "pctEscrutado": 24.32,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -2123,48 +2123,48 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 494,
-        "pctVotos": 38.32,
+        "votos": 297,
+        "pctVotos": 44.73,
         "pctVotosAnterior": 33.96
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 410,
-        "pctVotos": 31.81,
+        "votos": 204,
+        "pctVotos": 30.72,
         "pctVotosAnterior": 35.73
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 234,
-        "pctVotos": 18.15,
-        "pctVotosAnterior": 18.07
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 128,
-        "pctVotos": 9.93,
+        "votos": 79,
+        "pctVotos": 11.9,
         "pctVotosAnterior": 10.43
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 10,
-        "pctVotos": 0.78,
-        "pctVotosAnterior": null
+        "votos": 71,
+        "pctVotos": 10.69,
+        "pctVotosAnterior": 18.07
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 8,
-        "pctVotos": 0.62,
+        "votos": 7,
+        "pctVotos": 1.05,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PACMA",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 4,
+        "pctVotos": 0.6,
         "pctVotosAnterior": null
       }
     ],
@@ -2179,13 +2179,13 @@
     "poblacion": 3553,
     "mesas": 5,
     "censo": 2942,
-    "votantes": 2251,
-    "validos": 2215,
-    "votosCandidaturas": 2202,
-    "blanco": 13,
-    "nulos": 36,
-    "participacionPct": 76.51,
-    "pctEscrutado": 100.0,
+    "votantes": 159,
+    "validos": 156,
+    "votosCandidaturas": 156,
+    "blanco": 0,
+    "nulos": 3,
+    "participacionPct": 74.29,
+    "pctEscrutado": 7.27,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -2198,54 +2198,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 982,
-        "pctVotos": 44.33,
+        "votos": 75,
+        "pctVotos": 48.08,
         "pctVotosAnterior": 44.2
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 796,
-        "pctVotos": 35.94,
+        "votos": 47,
+        "pctVotos": 30.13,
         "pctVotosAnterior": 35.98
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 296,
-        "pctVotos": 13.36,
+        "votos": 20,
+        "pctVotos": 12.82,
         "pctVotosAnterior": 13.36
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 113,
-        "pctVotos": 5.1,
+        "votos": 12,
+        "pctVotos": 7.69,
         "pctVotosAnterior": 5.1
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 8,
-        "pctVotos": 0.36,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 4,
-        "pctVotos": 0.18,
+        "votos": 1,
+        "pctVotos": 0.64,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PACMA",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 0.64,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 3,
-      "pctVotos": 0.14,
+      "votos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -2329,18 +2329,18 @@
     "poblacion": 281,
     "mesas": 1,
     "censo": 267,
-    "votantes": 213,
-    "validos": 205,
-    "votosCandidaturas": 204,
-    "blanco": 1,
-    "nulos": 8,
-    "participacionPct": 79.77,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -2348,54 +2348,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 94,
-        "pctVotos": 45.85,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 45.64
       },
       {
-        "siglas": "PP",
-        "color": "#0557A1",
+        "siglas": "FO",
+        "color": "#9AA0A6",
         "lado": 2,
-        "votos": 60,
-        "pctVotos": 29.27,
-        "pctVotosAnterior": 29.23
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
       },
       {
-        "siglas": "VOX",
-        "color": "#02C119",
+        "siglas": "SALF",
+        "color": "#9AA0A6",
         "lado": 2,
-        "votos": 31,
-        "pctVotos": 15.12,
-        "pctVotosAnterior": 15.38
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 17,
-        "pctVotos": 8.29,
-        "pctVotosAnterior": 8.21
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.49,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.49,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 15.38
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2479,18 +2479,18 @@
     "poblacion": 1821,
     "mesas": 2,
     "censo": 1326,
-    "votantes": 1071,
-    "validos": 1066,
-    "votosCandidaturas": 1053,
-    "blanco": 13,
-    "nulos": 5,
-    "participacionPct": 80.76,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -2498,54 +2498,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 517,
-        "pctVotos": 48.5,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 48.41
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 341,
-        "pctVotos": 31.99,
-        "pctVotosAnterior": 31.84
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 121,
-        "pctVotos": 11.35,
-        "pctVotosAnterior": 11.33
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 68,
-        "pctVotos": 6.38,
-        "pctVotosAnterior": 6.37
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 5,
-        "pctVotos": 0.47,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.09,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 11.33
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2554,73 +2554,73 @@
     "poblacion": 2568,
     "mesas": 4,
     "censo": 2005,
-    "votantes": 1621,
-    "validos": 1603,
-    "votosCandidaturas": 1591,
-    "blanco": 12,
-    "nulos": 18,
-    "participacionPct": 80.84,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 605,
-        "pctVotos": 37.74,
-        "pctVotosAnterior": 37.67
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 577,
-        "pctVotos": 36.0,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 36.05
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 319,
-        "pctVotos": 19.9,
-        "pctVotosAnterior": 19.81
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 80,
-        "pctVotos": 4.99,
-        "pctVotosAnterior": 4.98
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 6,
-        "pctVotos": 0.37,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.19,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 19.81
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 1,
-      "pctVotos": 0.06,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2629,60 +2629,35 @@
     "poblacion": 98,
     "mesas": 1,
     "censo": 80,
-    "votantes": 64,
-    "validos": 64,
-    "votosCandidaturas": 64,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 80.0,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "empate",
-      "empatados": [
-        {
-          "siglas": "PSOE",
-          "color": "#E10819"
-        },
-        {
-          "siglas": "PP",
-          "color": "#0557A1"
-        }
-      ]
+      "estado": "sinDatos",
+      "empatados": []
     },
     "principales": [
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 25,
-        "pctVotos": 39.06,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 38.81
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 25,
-        "pctVotos": 39.06,
-        "pctVotosAnterior": 38.81
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 14,
-        "pctVotos": 21.88,
-        "pctVotosAnterior": 22.39
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -2690,7 +2665,7 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -2698,13 +2673,29 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 22.39
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2713,13 +2704,13 @@
     "poblacion": 30492,
     "mesas": 37,
     "censo": 22687,
-    "votantes": 13211,
-    "validos": 13075,
-    "votosCandidaturas": 13009,
-    "blanco": 66,
-    "nulos": 136,
-    "participacionPct": 66.72,
-    "pctEscrutado": 87.27,
+    "votantes": 5879,
+    "validos": 5824,
+    "votosCandidaturas": 5795,
+    "blanco": 29,
+    "nulos": 55,
+    "participacionPct": 65.68,
+    "pctEscrutado": 39.44,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -2732,54 +2723,54 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 5533,
-        "pctVotos": 42.32,
+        "votos": 2583,
+        "pctVotos": 44.35,
         "pctVotosAnterior": 41.06
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 4199,
-        "pctVotos": 32.11,
+        "votos": 1726,
+        "pctVotos": 29.64,
         "pctVotosAnterior": 32.26
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 2518,
-        "pctVotos": 19.26,
+        "votos": 1140,
+        "pctVotos": 19.57,
         "pctVotosAnterior": 20.02
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 670,
-        "pctVotos": 5.12,
+        "votos": 305,
+        "pctVotos": 5.24,
         "pctVotosAnterior": 5.29
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 66,
-        "pctVotos": 0.5,
+        "votos": 27,
+        "pctVotos": 0.46,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 12,
-        "pctVotos": 0.09,
+        "votos": 9,
+        "pctVotos": 0.15,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 11,
-      "pctVotos": 0.08,
+      "votos": 5,
+      "pctVotos": 0.09,
       "numCandidaturas": 3
     }
   },
@@ -2788,73 +2779,73 @@
     "poblacion": 304,
     "mesas": 1,
     "censo": 225,
-    "votantes": 170,
-    "validos": 169,
-    "votosCandidaturas": 169,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 1,
-    "participacionPct": 75.55,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 84,
-        "pctVotos": 49.7,
-        "pctVotosAnterior": 49.18
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 54,
-        "pctVotos": 31.95,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 31.69
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 26,
-        "pctVotos": 15.38,
-        "pctVotosAnterior": 15.3
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 4,
-        "pctVotos": 2.37,
-        "pctVotosAnterior": 2.73
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.59,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 15.3
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2863,13 +2854,13 @@
     "poblacion": 1125,
     "mesas": 2,
     "censo": 941,
-    "votantes": 798,
-    "validos": 790,
-    "votosCandidaturas": 783,
-    "blanco": 7,
-    "nulos": 8,
-    "participacionPct": 84.8,
-    "pctEscrutado": 100.0,
+    "votantes": 433,
+    "validos": 430,
+    "votosCandidaturas": 429,
+    "blanco": 1,
+    "nulos": 3,
+    "participacionPct": 85.91,
+    "pctEscrutado": 53.56,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -2882,48 +2873,48 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 356,
-        "pctVotos": 45.06,
+        "votos": 185,
+        "pctVotos": 43.02,
         "pctVotosAnterior": 44.88
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 315,
-        "pctVotos": 39.87,
+        "votos": 181,
+        "pctVotos": 42.09,
         "pctVotosAnterior": 39.7
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 60,
-        "pctVotos": 7.59,
+        "votos": 34,
+        "pctVotos": 7.91,
         "pctVotosAnterior": 7.52
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 48,
-        "pctVotos": 6.08,
+        "votos": 28,
+        "pctVotos": 6.51,
         "pctVotosAnterior": 6.04
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.38,
+        "votos": 1,
+        "pctVotos": 0.23,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.13,
+        "votos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
@@ -2938,18 +2929,18 @@
     "poblacion": 561,
     "mesas": 1,
     "censo": 488,
-    "votantes": 422,
-    "validos": 418,
-    "votosCandidaturas": 418,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 4,
-    "participacionPct": 86.47,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -2957,40 +2948,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 201,
-        "pctVotos": 48.09,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 47.97
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 166,
-        "pctVotos": 39.71,
-        "pctVotosAnterior": 39.61
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 35,
-        "pctVotos": 8.37,
-        "pctVotosAnterior": 8.35
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 16,
-        "pctVotos": 3.83,
-        "pctVotosAnterior": 3.85
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -2998,13 +2965,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 8.35
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3013,59 +3004,35 @@
     "poblacion": 350,
     "mesas": 1,
     "censo": 292,
-    "votantes": 228,
-    "validos": 221,
-    "votosCandidaturas": 221,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 7,
-    "participacionPct": 78.08,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 130,
-        "pctVotos": 58.82,
-        "pctVotosAnterior": 58.0
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 68,
-        "pctVotos": 30.77,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 30.4
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 21,
-        "pctVotos": 9.5,
-        "pctVotosAnterior": 9.6
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 2,
-        "pctVotos": 0.9,
-        "pctVotosAnterior": 1.2
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -3073,13 +3040,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 9.6
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3163,51 +3154,51 @@
     "poblacion": 1300,
     "mesas": 2,
     "censo": 1102,
-    "votantes": 893,
-    "validos": 881,
-    "votosCandidaturas": 878,
+    "votantes": 554,
+    "validos": 542,
+    "votosCandidaturas": 539,
     "blanco": 3,
     "nulos": 12,
-    "participacionPct": 81.03,
-    "pctEscrutado": 100.0,
+    "participacionPct": 79.59,
+    "pctEscrutado": 63.15,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
       "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 355,
-        "pctVotos": 40.3,
-        "pctVotosAnterior": 40.22
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 353,
-        "pctVotos": 40.07,
+        "votos": 232,
+        "pctVotos": 42.8,
         "pctVotosAnterior": 39.89
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 206,
+        "pctVotos": 38.01,
+        "pctVotosAnterior": 40.22
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 140,
-        "pctVotos": 15.89,
+        "votos": 72,
+        "pctVotos": 13.28,
         "pctVotosAnterior": 15.87
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 28,
-        "pctVotos": 3.18,
+        "votos": 27,
+        "pctVotos": 4.98,
         "pctVotosAnterior": 3.26
       },
       {
@@ -3215,7 +3206,7 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 2,
-        "pctVotos": 0.23,
+        "pctVotos": 0.37,
         "pctVotosAnterior": null
       },
       {
@@ -3238,18 +3229,18 @@
     "poblacion": 1096,
     "mesas": 2,
     "censo": 949,
-    "votantes": 704,
-    "validos": 701,
-    "votosCandidaturas": 697,
-    "blanco": 4,
-    "nulos": 3,
-    "participacionPct": 74.18,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -3257,54 +3248,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 289,
-        "pctVotos": 41.23,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 41.0
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 241,
-        "pctVotos": 34.38,
-        "pctVotosAnterior": 34.35
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 131,
-        "pctVotos": 18.69,
-        "pctVotosAnterior": 18.7
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 34,
-        "pctVotos": 4.85,
-        "pctVotosAnterior": 4.85
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.14,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.14,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 18.7
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3313,13 +3304,13 @@
     "poblacion": 4644,
     "mesas": 6,
     "censo": 3550,
-    "votantes": 2869,
-    "validos": 2830,
-    "votosCandidaturas": 2813,
-    "blanco": 17,
-    "nulos": 39,
-    "participacionPct": 80.81,
-    "pctEscrutado": 100.0,
+    "votantes": 787,
+    "validos": 777,
+    "votosCandidaturas": 776,
+    "blanco": 1,
+    "nulos": 10,
+    "participacionPct": 77.53,
+    "pctEscrutado": 28.59,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -3332,54 +3323,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 1115,
-        "pctVotos": 39.4,
+        "votos": 299,
+        "pctVotos": 38.48,
         "pctVotosAnterior": 39.31
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 884,
-        "pctVotos": 31.24,
+        "votos": 228,
+        "pctVotos": 29.34,
         "pctVotosAnterior": 31.17
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 505,
-        "pctVotos": 17.84,
+        "votos": 168,
+        "pctVotos": 21.62,
         "pctVotosAnterior": 17.83
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 286,
-        "pctVotos": 10.11,
+        "votos": 72,
+        "pctVotos": 9.27,
         "pctVotosAnterior": 10.12
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 11,
-        "pctVotos": 0.39,
+        "votos": 6,
+        "pctVotos": 0.77,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 7,
-        "pctVotos": 0.25,
+        "votos": 3,
+        "pctVotos": 0.39,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 5,
-      "pctVotos": 0.18,
+      "votos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -3463,59 +3454,35 @@
     "poblacion": 114,
     "mesas": 1,
     "censo": 116,
-    "votantes": 99,
-    "validos": 99,
-    "votosCandidaturas": 99,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 85.34,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 56,
-        "pctVotos": 56.57,
-        "pctVotosAnterior": 56.14
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 27,
-        "pctVotos": 27.27,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 27.19
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 12,
-        "pctVotos": 12.12,
-        "pctVotosAnterior": 12.28
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 4,
-        "pctVotos": 4.04,
-        "pctVotosAnterior": 4.39
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -3523,13 +3490,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 12.28
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3613,18 +3604,18 @@
     "poblacion": 837,
     "mesas": 2,
     "censo": 677,
-    "votantes": 486,
-    "validos": 474,
-    "votosCandidaturas": 474,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 12,
-    "participacionPct": 71.78,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -3632,40 +3623,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 234,
-        "pctVotos": 49.37,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 48.98
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 155,
-        "pctVotos": 32.7,
-        "pctVotosAnterior": 32.4
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 54,
-        "pctVotos": 11.39,
-        "pctVotosAnterior": 11.55
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 31,
-        "pctVotos": 6.54,
-        "pctVotosAnterior": 6.7
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -3673,13 +3640,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 11.55
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3688,59 +3679,35 @@
     "poblacion": 88,
     "mesas": 1,
     "censo": 65,
-    "votantes": 49,
-    "validos": 49,
-    "votosCandidaturas": 48,
-    "blanco": 1,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
     "nulos": 0,
-    "participacionPct": 75.38,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 19,
-        "pctVotos": 38.78,
-        "pctVotosAnterior": 37.7
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 14,
-        "pctVotos": 28.57,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 27.87
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 13,
-        "pctVotos": 26.53,
-        "pctVotosAnterior": 26.23
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 2,
-        "pctVotos": 4.08,
-        "pctVotosAnterior": 4.92
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -3748,13 +3715,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 26.23
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3763,73 +3754,73 @@
     "poblacion": 2056,
     "mesas": 3,
     "censo": 1583,
-    "votantes": 1148,
-    "validos": 1135,
-    "votosCandidaturas": 1127,
-    "blanco": 8,
-    "nulos": 13,
-    "participacionPct": 72.52,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 613,
-        "pctVotos": 54.01,
-        "pctVotosAnterior": 53.91
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 275,
-        "pctVotos": 24.23,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 24.13
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 193,
-        "pctVotos": 17.0,
-        "pctVotosAnterior": 16.93
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 42,
-        "pctVotos": 3.7,
-        "pctVotosAnterior": 3.73
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.26,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.09,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 16.93
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3913,13 +3904,13 @@
     "poblacion": 3422,
     "mesas": 6,
     "censo": 2761,
-    "votantes": 2131,
-    "validos": 2098,
-    "votosCandidaturas": 2079,
-    "blanco": 19,
-    "nulos": 33,
-    "participacionPct": 77.18,
-    "pctEscrutado": 100.0,
+    "votantes": 1403,
+    "validos": 1383,
+    "votosCandidaturas": 1371,
+    "blanco": 12,
+    "nulos": 20,
+    "participacionPct": 76.37,
+    "pctEscrutado": 66.53,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -3932,54 +3923,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 840,
-        "pctVotos": 40.04,
+        "votos": 562,
+        "pctVotos": 40.64,
         "pctVotosAnterior": 39.97
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 702,
-        "pctVotos": 33.46,
+        "votos": 456,
+        "pctVotos": 32.97,
         "pctVotosAnterior": 33.52
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 264,
-        "pctVotos": 12.58,
+        "votos": 153,
+        "pctVotos": 11.06,
         "pctVotosAnterior": 12.77
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 207,
-        "pctVotos": 9.87,
+        "votos": 149,
+        "pctVotos": 10.77,
         "pctVotosAnterior": 9.84
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 39,
-        "pctVotos": 1.86,
+        "votos": 36,
+        "pctVotos": 2.6,
         "pctVotosAnterior": null
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 13,
-        "pctVotos": 0.62,
+        "votos": 7,
+        "pctVotos": 0.51,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 14,
-      "pctVotos": 0.67,
+      "votos": 8,
+      "pctVotos": 0.58,
       "numCandidaturas": 3
     }
   },
@@ -3988,13 +3979,163 @@
     "poblacion": 528,
     "mesas": 1,
     "censo": 376,
-    "votantes": 306,
-    "validos": 301,
-    "votosCandidaturas": 298,
-    "blanco": 3,
-    "nulos": 5,
-    "participacionPct": 81.38,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
+    "ganador": {
+      "siglas": null,
+      "color": null,
+      "escanos": 0,
+      "estado": "sinDatos",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 28.38
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 10.81
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      }
+    ],
+    "otros": {
+      "votos": 0,
+      "pctVotos": 0,
+      "numCandidaturas": 3
+    }
+  },
+  "02055": {
+    "nombre": "NERPIO",
+    "poblacion": 1180,
+    "mesas": 3,
+    "censo": 996,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
+    "ganador": {
+      "siglas": null,
+      "color": null,
+      "escanos": 0,
+      "estado": "sinDatos",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 49.86
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 16.26
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      }
+    ],
+    "otros": {
+      "votos": 0,
+      "pctVotos": 0,
+      "numCandidaturas": 3
+    }
+  },
+  "02056": {
+    "nombre": "ONTUR",
+    "poblacion": 1934,
+    "mesas": 3,
+    "censo": 1544,
+    "votantes": 543,
+    "validos": 525,
+    "votosCandidaturas": 518,
+    "blanco": 7,
+    "nulos": 18,
+    "participacionPct": 79.85,
+    "pctEscrutado": 44.04,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -4007,198 +4148,48 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 164,
-        "pctVotos": 54.49,
-        "pctVotosAnterior": 54.39
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 86,
-        "pctVotos": 28.57,
-        "pctVotosAnterior": 28.38
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 32,
-        "pctVotos": 10.63,
-        "pctVotosAnterior": 10.81
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 16,
-        "pctVotos": 5.32,
-        "pctVotosAnterior": 5.41
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0.0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "SALF",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0.0,
-        "pctVotosAnterior": null
-      }
-    ],
-    "otros": {
-      "votos": 0,
-      "pctVotos": 0.0,
-      "numCandidaturas": 3
-    }
-  },
-  "02055": {
-    "nombre": "NERPIO",
-    "poblacion": 1180,
-    "mesas": 3,
-    "censo": 996,
-    "votantes": 714,
-    "validos": 701,
-    "votosCandidaturas": 699,
-    "blanco": 2,
-    "nulos": 13,
-    "participacionPct": 71.68,
-    "pctEscrutado": 100.0,
-    "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
-      "escanos": 0,
-      "estado": "claro",
-      "empatados": []
-    },
-    "principales": [
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 352,
-        "pctVotos": 50.21,
-        "pctVotosAnterior": 49.86
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 196,
-        "pctVotos": 27.96,
-        "pctVotosAnterior": 27.78
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 114,
-        "pctVotos": 16.26,
-        "pctVotosAnterior": 16.26
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 36,
-        "pctVotos": 5.14,
-        "pctVotosAnterior": 5.28
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.14,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0.0,
-        "pctVotosAnterior": null
-      }
-    ],
-    "otros": {
-      "votos": 0,
-      "pctVotos": 0.0,
-      "numCandidaturas": 3
-    }
-  },
-  "02056": {
-    "nombre": "ONTUR",
-    "poblacion": 1934,
-    "mesas": 3,
-    "censo": 1544,
-    "votantes": 1219,
-    "validos": 1190,
-    "votosCandidaturas": 1179,
-    "blanco": 11,
-    "nulos": 29,
-    "participacionPct": 78.95,
-    "pctEscrutado": 100.0,
-    "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
-      "escanos": 0,
-      "estado": "claro",
-      "empatados": []
-    },
-    "principales": [
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 470,
-        "pctVotos": 39.5,
-        "pctVotosAnterior": 39.57
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 458,
-        "pctVotos": 38.49,
+        "votos": 219,
+        "pctVotos": 41.71,
         "pctVotosAnterior": 38.18
       },
       {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 182,
+        "pctVotos": 34.67,
+        "pctVotosAnterior": 39.57
+      },
+      {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 209,
-        "pctVotos": 17.56,
+        "votos": 99,
+        "pctVotos": 18.86,
         "pctVotosAnterior": 17.5
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 36,
-        "pctVotos": 3.03,
+        "votos": 16,
+        "pctVotos": 3.05,
         "pctVotosAnterior": 3.03
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 4,
-        "pctVotos": 0.34,
+        "votos": 2,
+        "pctVotos": 0.38,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.17,
+        "votos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
@@ -4288,18 +4279,18 @@
     "poblacion": 329,
     "mesas": 1,
     "censo": 288,
-    "votantes": 210,
-    "validos": 206,
-    "votosCandidaturas": 206,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 4,
-    "participacionPct": 72.91,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -4307,54 +4298,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 100,
-        "pctVotos": 48.54,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 47.96
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 72,
-        "pctVotos": 34.95,
-        "pctVotosAnterior": 34.84
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 17,
-        "pctVotos": 8.25,
-        "pctVotosAnterior": 8.6
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 16,
-        "pctVotos": 7.77,
-        "pctVotosAnterior": 7.69
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.49,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 7.69
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -4363,18 +4354,18 @@
     "poblacion": 323,
     "mesas": 1,
     "censo": 291,
-    "votantes": 232,
-    "validos": 230,
-    "votosCandidaturas": 230,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 2,
-    "participacionPct": 79.72,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -4382,40 +4373,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 101,
-        "pctVotos": 43.91,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 43.57
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 82,
-        "pctVotos": 35.65,
-        "pctVotosAnterior": 35.68
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 44,
-        "pctVotos": 19.13,
-        "pctVotosAnterior": 19.09
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 3,
-        "pctVotos": 1.3,
-        "pctVotosAnterior": 1.66
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -4423,13 +4390,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 19.09
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -4513,73 +4504,73 @@
     "poblacion": 663,
     "mesas": 1,
     "censo": 584,
-    "votantes": 466,
-    "validos": 464,
-    "votosCandidaturas": 461,
-    "blanco": 3,
-    "nulos": 2,
-    "participacionPct": 79.79,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 206,
-        "pctVotos": 44.4,
-        "pctVotosAnterior": 44.3
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 160,
-        "pctVotos": 34.48,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 34.41
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 79,
-        "pctVotos": 17.03,
-        "pctVotosAnterior": 16.99
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 13,
-        "pctVotos": 2.8,
-        "pctVotosAnterior": 2.8
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.43,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
+        "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.22,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 16.99
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -4663,18 +4654,18 @@
     "poblacion": 1569,
     "mesas": 3,
     "censo": 1316,
-    "votantes": 994,
-    "validos": 985,
-    "votosCandidaturas": 979,
-    "blanco": 6,
-    "nulos": 9,
-    "participacionPct": 75.53,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -4682,54 +4673,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 420,
-        "pctVotos": 42.64,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 42.49
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 334,
-        "pctVotos": 33.91,
-        "pctVotosAnterior": 33.73
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 188,
-        "pctVotos": 19.09,
-        "pctVotosAnterior": 19.1
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 32,
-        "pctVotos": 3.25,
-        "pctVotosAnterior": 3.28
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.3,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.1,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 19.1
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 1,
-      "pctVotos": 0.1,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -4738,73 +4729,73 @@
     "poblacion": 391,
     "mesas": 1,
     "censo": 347,
-    "votantes": 292,
-    "validos": 291,
-    "votosCandidaturas": 284,
-    "blanco": 7,
-    "nulos": 1,
-    "participacionPct": 84.14,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 132,
-        "pctVotos": 45.36,
-        "pctVotosAnterior": 45.15
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 127,
-        "pctVotos": 43.64,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 43.48
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 16,
-        "pctVotos": 5.5,
-        "pctVotosAnterior": 5.35
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 7,
-        "pctVotos": 2.41,
-        "pctVotosAnterior": 2.34
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.69,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 5.35
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -4813,73 +4804,73 @@
     "poblacion": 461,
     "mesas": 1,
     "censo": 436,
-    "votantes": 368,
-    "validos": 368,
-    "votosCandidaturas": 368,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 84.4,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 164,
-        "pctVotos": 44.57,
-        "pctVotosAnterior": 44.24
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 137,
-        "pctVotos": 37.23,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 37.0
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 42,
-        "pctVotos": 11.41,
-        "pctVotosAnterior": 11.53
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 23,
-        "pctVotos": 6.25,
-        "pctVotosAnterior": 6.17
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.27,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
+        "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.27,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 11.53
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -4888,18 +4879,18 @@
     "poblacion": 221,
     "mesas": 1,
     "censo": 193,
-    "votantes": 152,
-    "validos": 152,
-    "votosCandidaturas": 152,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 78.75,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -4907,40 +4898,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 71,
-        "pctVotos": 46.71,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 46.34
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 51,
-        "pctVotos": 33.55,
-        "pctVotosAnterior": 32.93
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 21,
-        "pctVotos": 13.82,
-        "pctVotosAnterior": 14.02
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 9,
-        "pctVotos": 5.92,
-        "pctVotosAnterior": 6.1
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -4948,13 +4915,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 14.02
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -5038,18 +5029,18 @@
     "poblacion": 385,
     "mesas": 1,
     "censo": 324,
-    "votantes": 250,
-    "validos": 250,
-    "votosCandidaturas": 250,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 77.16,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -5057,40 +5048,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 99,
-        "pctVotos": 39.6,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 39.39
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 92,
-        "pctVotos": 36.8,
-        "pctVotosAnterior": 36.74
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 44,
-        "pctVotos": 17.6,
-        "pctVotosAnterior": 17.42
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 15,
-        "pctVotos": 6.0,
-        "pctVotosAnterior": 6.06
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -5098,13 +5065,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 17.42
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -5113,13 +5104,13 @@
     "poblacion": 15497,
     "mesas": 18,
     "censo": 11370,
-    "votantes": 8649,
-    "validos": 8549,
-    "votosCandidaturas": 8495,
-    "blanco": 54,
-    "nulos": 100,
-    "participacionPct": 76.06,
-    "pctEscrutado": 100.0,
+    "votantes": 2941,
+    "validos": 2915,
+    "votosCandidaturas": 2896,
+    "blanco": 19,
+    "nulos": 26,
+    "participacionPct": 72.76,
+    "pctEscrutado": 35.54,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -5132,54 +5123,54 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 3667,
-        "pctVotos": 42.89,
+        "votos": 1207,
+        "pctVotos": 41.41,
         "pctVotosAnterior": 42.85
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 2780,
-        "pctVotos": 32.52,
+        "votos": 1035,
+        "pctVotos": 35.51,
         "pctVotosAnterior": 32.43
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 1547,
-        "pctVotos": 18.1,
+        "votos": 389,
+        "pctVotos": 13.34,
         "pctVotosAnterior": 18.05
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 468,
-        "pctVotos": 5.47,
+        "votos": 171,
+        "pctVotos": 5.87,
         "pctVotosAnterior": 5.48
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 87,
+        "pctVotos": 2.98,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 21,
-        "pctVotos": 0.25,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 7,
-        "pctVotos": 0.08,
+        "votos": 5,
+        "pctVotos": 0.17,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 5,
-      "pctVotos": 0.06,
+      "votos": 2,
+      "pctVotos": 0.07,
       "numCandidaturas": 3
     }
   },
@@ -5188,18 +5179,18 @@
     "poblacion": 438,
     "mesas": 1,
     "censo": 353,
-    "votantes": 301,
-    "validos": 292,
-    "votosCandidaturas": 290,
-    "blanco": 2,
-    "nulos": 9,
-    "participacionPct": 85.26,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -5207,54 +5198,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 202,
-        "pctVotos": 69.18,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 69.05
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 57,
-        "pctVotos": 19.52,
-        "pctVotosAnterior": 19.39
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 16,
-        "pctVotos": 5.48,
-        "pctVotosAnterior": 5.44
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 13,
-        "pctVotos": 4.45,
-        "pctVotosAnterior": 4.42
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.68,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 5.44
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -5263,51 +5254,51 @@
     "poblacion": 1142,
     "mesas": 2,
     "censo": 989,
-    "votantes": 826,
-    "validos": 822,
-    "votosCandidaturas": 821,
+    "votantes": 445,
+    "validos": 443,
+    "votosCandidaturas": 442,
     "blanco": 1,
-    "nulos": 4,
-    "participacionPct": 83.51,
-    "pctEscrutado": 100.0,
+    "nulos": 2,
+    "participacionPct": 83.33,
+    "pctEscrutado": 53.99,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
       "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 334,
-        "pctVotos": 40.63,
-        "pctVotosAnterior": 40.64
-      },
-      {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 328,
-        "pctVotos": 39.9,
+        "votos": 187,
+        "pctVotos": 42.21,
         "pctVotosAnterior": 39.84
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 178,
+        "pctVotos": 40.18,
+        "pctVotosAnterior": 40.64
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 135,
-        "pctVotos": 16.42,
+        "votos": 62,
+        "pctVotos": 14.0,
         "pctVotosAnterior": 16.32
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 22,
-        "pctVotos": 2.68,
+        "votos": 13,
+        "pctVotos": 2.93,
         "pctVotosAnterior": 2.74
       },
       {
@@ -5315,7 +5306,7 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 1,
-        "pctVotos": 0.12,
+        "pctVotos": 0.23,
         "pctVotosAnterior": null
       },
       {
@@ -5323,7 +5314,7 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 1,
-        "pctVotos": 0.12,
+        "pctVotos": 0.23,
         "pctVotosAnterior": null
       }
     ],
@@ -5338,13 +5329,13 @@
     "poblacion": 1743,
     "mesas": 2,
     "censo": 1414,
-    "votantes": 1018,
-    "validos": 1003,
-    "votosCandidaturas": 996,
-    "blanco": 7,
-    "nulos": 15,
-    "participacionPct": 71.99,
-    "pctEscrutado": 100.0,
+    "votantes": 680,
+    "validos": 668,
+    "votosCandidaturas": 663,
+    "blanco": 5,
+    "nulos": 12,
+    "participacionPct": 71.65,
+    "pctEscrutado": 67.11,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -5357,40 +5348,40 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 413,
-        "pctVotos": 41.18,
+        "votos": 267,
+        "pctVotos": 39.97,
         "pctVotosAnterior": 41.15
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 357,
-        "pctVotos": 35.59,
+        "votos": 244,
+        "pctVotos": 36.53,
         "pctVotosAnterior": 35.51
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 155,
-        "pctVotos": 15.45,
+        "votos": 101,
+        "pctVotos": 15.12,
         "pctVotosAnterior": 15.47
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 63,
-        "pctVotos": 6.28,
+        "votos": 47,
+        "pctVotos": 7.04,
         "pctVotosAnterior": 6.23
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 6,
-        "pctVotos": 0.6,
+        "votos": 3,
+        "pctVotos": 0.45,
         "pctVotosAnterior": null
       },
       {
@@ -5398,13 +5389,13 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 1,
-        "pctVotos": 0.1,
+        "pctVotos": 0.15,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 1,
-      "pctVotos": 0.1,
+      "votos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -5413,73 +5404,73 @@
     "poblacion": 6183,
     "mesas": 9,
     "censo": 4798,
-    "votantes": 3133,
-    "validos": 3093,
-    "votosCandidaturas": 3073,
-    "blanco": 20,
-    "nulos": 40,
-    "participacionPct": 76.02,
-    "pctEscrutado": 85.88,
+    "votantes": 1146,
+    "validos": 1131,
+    "votosCandidaturas": 1128,
+    "blanco": 3,
+    "nulos": 15,
+    "participacionPct": 77.06,
+    "pctEscrutado": 30.99,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
       "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 1117,
-        "pctVotos": 36.11,
-        "pctVotosAnterior": 36.37
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 1099,
-        "pctVotos": 35.53,
+        "votos": 419,
+        "pctVotos": 37.05,
         "pctVotosAnterior": 35.81
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 412,
+        "pctVotos": 36.43,
+        "pctVotosAnterior": 36.37
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 529,
-        "pctVotos": 17.1,
+        "votos": 190,
+        "pctVotos": 16.8,
         "pctVotosAnterior": 16.43
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 308,
-        "pctVotos": 9.96,
+        "votos": 102,
+        "pctVotos": 9.02,
         "pctVotosAnterior": 9.98
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 10,
-        "pctVotos": 0.32,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 6,
-        "pctVotos": 0.19,
+        "votos": 3,
+        "pctVotos": 0.27,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PACMA",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 2,
+        "pctVotos": 0.18,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 4,
-      "pctVotos": 0.13,
+      "votos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -5488,13 +5479,13 @@
     "poblacion": 7758,
     "mesas": 11,
     "censo": 5714,
-    "votantes": 4135,
-    "validos": 4093,
-    "votosCandidaturas": 4063,
-    "blanco": 30,
-    "nulos": 42,
-    "participacionPct": 72.36,
-    "pctEscrutado": 100.0,
+    "votantes": 560,
+    "validos": 557,
+    "votosCandidaturas": 554,
+    "blanco": 3,
+    "nulos": 3,
+    "participacionPct": 73.49,
+    "pctEscrutado": 13.33,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -5507,54 +5498,54 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 1678,
-        "pctVotos": 41.0,
+        "votos": 239,
+        "pctVotos": 42.91,
         "pctVotosAnterior": 40.82
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 1472,
-        "pctVotos": 35.96,
+        "votos": 196,
+        "pctVotos": 35.19,
         "pctVotosAnterior": 35.92
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 618,
-        "pctVotos": 15.1,
+        "votos": 94,
+        "pctVotos": 16.88,
         "pctVotosAnterior": 15.1
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 262,
-        "pctVotos": 6.4,
+        "votos": 24,
+        "pctVotos": 4.31,
         "pctVotosAnterior": 6.4
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 24,
-        "pctVotos": 0.59,
+        "votos": 1,
+        "pctVotos": 0.18,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 4,
-        "pctVotos": 0.1,
+        "votos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 5,
-      "pctVotos": 0.12,
+      "votos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -5563,73 +5554,73 @@
     "poblacion": 1919,
     "mesas": 3,
     "censo": 1638,
-    "votantes": 1359,
-    "validos": 1353,
-    "votosCandidaturas": 1348,
-    "blanco": 5,
-    "nulos": 6,
-    "participacionPct": 82.96,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 593,
-        "pctVotos": 43.83,
-        "pctVotosAnterior": 43.65
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 449,
-        "pctVotos": 33.19,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 33.14
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 238,
-        "pctVotos": 17.59,
-        "pctVotosAnterior": 17.59
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 56,
-        "pctVotos": 4.14,
-        "pctVotosAnterior": 4.23
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 6,
-        "pctVotos": 0.44,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
+        "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 5,
-        "pctVotos": 0.37,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 17.59
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 1,
-      "pctVotos": 0.07,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -5638,18 +5629,18 @@
     "poblacion": 313,
     "mesas": 1,
     "censo": 295,
-    "votantes": 236,
-    "validos": 232,
-    "votosCandidaturas": 230,
-    "blanco": 2,
-    "nulos": 4,
-    "participacionPct": 80.0,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -5657,40 +5648,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 110,
-        "pctVotos": 47.41,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 47.41
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 77,
-        "pctVotos": 33.19,
-        "pctVotosAnterior": 33.19
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 33,
-        "pctVotos": 14.22,
-        "pctVotosAnterior": 14.22
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 10,
-        "pctVotos": 4.31,
-        "pctVotosAnterior": 4.31
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -5698,13 +5665,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 14.22
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -5713,18 +5704,18 @@
     "poblacion": 60,
     "mesas": 1,
     "censo": 39,
-    "votantes": 28,
-    "validos": 28,
-    "votosCandidaturas": 28,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 71.79,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -5732,40 +5723,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 15,
-        "pctVotos": 53.57,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 50.0
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 6,
-        "pctVotos": 21.43,
-        "pctVotosAnterior": 22.5
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 4,
-        "pctVotos": 14.29,
-        "pctVotosAnterior": 15.0
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 3,
-        "pctVotos": 10.71,
-        "pctVotosAnterior": 10.0
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -5773,13 +5740,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 10.0
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -5788,18 +5779,18 @@
     "poblacion": 1072,
     "mesas": 2,
     "censo": 877,
-    "votantes": 665,
-    "validos": 650,
-    "votosCandidaturas": 648,
-    "blanco": 2,
-    "nulos": 15,
-    "participacionPct": 75.82,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -5807,54 +5798,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 292,
-        "pctVotos": 44.92,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 44.74
       },
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 187,
-        "pctVotos": 28.77,
-        "pctVotosAnterior": 28.68
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 114,
-        "pctVotos": 17.54,
-        "pctVotosAnterior": 17.57
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 50,
-        "pctVotos": 7.69,
-        "pctVotosAnterior": 7.66
-      },
-      {
-        "siglas": "PACMA",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 3,
-        "pctVotos": 0.46,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.31,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 17.57
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -5938,59 +5929,35 @@
     "poblacion": 555,
     "mesas": 1,
     "censo": 431,
-    "votantes": 329,
-    "validos": 324,
-    "votosCandidaturas": 323,
-    "blanco": 1,
-    "nulos": 5,
-    "participacionPct": 76.33,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 133,
-        "pctVotos": 41.05,
-        "pctVotosAnterior": 40.83
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 109,
-        "pctVotos": 33.64,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 33.61
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 66,
-        "pctVotos": 20.37,
-        "pctVotosAnterior": 20.28
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 15,
-        "pctVotos": 4.63,
-        "pctVotosAnterior": 4.72
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -5998,13 +5965,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 20.28
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -6013,13 +6004,13 @@
     "poblacion": 24886,
     "mesas": 28,
     "censo": 18365,
-    "votantes": 13360,
-    "validos": 13177,
-    "votosCandidaturas": 13087,
-    "blanco": 90,
-    "nulos": 183,
-    "participacionPct": 72.74,
-    "pctEscrutado": 100.0,
+    "votantes": 4496,
+    "validos": 4427,
+    "votosCandidaturas": 4392,
+    "blanco": 35,
+    "nulos": 69,
+    "participacionPct": 71.78,
+    "pctEscrutado": 34.1,
     "ganador": {
       "siglas": "PP",
       "color": "#0557A1",
@@ -6032,54 +6023,54 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 5452,
-        "pctVotos": 41.38,
+        "votos": 1886,
+        "pctVotos": 42.6,
         "pctVotosAnterior": 41.29
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 4366,
-        "pctVotos": 33.13,
+        "votos": 1499,
+        "pctVotos": 33.86,
         "pctVotosAnterior": 33.07
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 2420,
-        "pctVotos": 18.37,
+        "votos": 776,
+        "pctVotos": 17.53,
         "pctVotosAnterior": 18.34
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 763,
-        "pctVotos": 5.79,
+        "votos": 207,
+        "pctVotos": 4.68,
         "pctVotosAnterior": 5.78
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 60,
-        "pctVotos": 0.46,
+        "votos": 18,
+        "pctVotos": 0.41,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 15,
-        "pctVotos": 0.11,
+        "votos": 3,
+        "pctVotos": 0.07,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 11,
-      "pctVotos": 0.08,
+      "votos": 3,
+      "pctVotos": 0.07,
       "numCandidaturas": 3
     }
   },
@@ -6088,18 +6079,18 @@
     "poblacion": 106,
     "mesas": 1,
     "censo": 105,
-    "votantes": 80,
-    "validos": 80,
-    "votosCandidaturas": 79,
-    "blanco": 1,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
     "nulos": 0,
-    "participacionPct": 76.19,
-    "pctEscrutado": 100.0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PSOE",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -6107,40 +6098,16 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 35,
-        "pctVotos": 43.75,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 42.31
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 25,
-        "pctVotos": 31.25,
-        "pctVotosAnterior": 30.77
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 10,
-        "pctVotos": 12.5,
-        "pctVotosAnterior": 12.82
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 9,
-        "pctVotos": 11.25,
-        "pctVotosAnterior": 11.54
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -6148,13 +6115,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 12.82
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -6163,73 +6154,73 @@
     "poblacion": 202,
     "mesas": 1,
     "censo": 169,
-    "votantes": 135,
-    "validos": 134,
-    "votosCandidaturas": 133,
-    "blanco": 1,
-    "nulos": 1,
-    "participacionPct": 79.88,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 58,
-        "pctVotos": 43.28,
-        "pctVotosAnterior": 42.48
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 56,
-        "pctVotos": 41.79,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 41.18
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 13,
-        "pctVotos": 9.7,
-        "pctVotosAnterior": 9.8
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 4,
-        "pctVotos": 2.99,
-        "pctVotosAnterior": 3.27
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.75,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "PACMA",
+        "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.75,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 9.8
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -6238,73 +6229,73 @@
     "poblacion": 321,
     "mesas": 1,
     "censo": 277,
-    "votantes": 195,
-    "validos": 191,
-    "votosCandidaturas": 191,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
     "blanco": 0,
-    "nulos": 4,
-    "participacionPct": 70.39,
-    "pctEscrutado": 100.0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 72,
-        "pctVotos": 37.7,
-        "pctVotosAnterior": 37.56
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 65,
-        "pctVotos": 34.03,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 34.01
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 48,
-        "pctVotos": 25.13,
-        "pctVotosAnterior": 24.87
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 4,
-        "pctVotos": 2.09,
-        "pctVotosAnterior": 2.03
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 2,
-        "pctVotos": 1.05,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 24.87
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -6313,59 +6304,35 @@
     "poblacion": 335,
     "mesas": 1,
     "censo": 257,
-    "votantes": 209,
-    "validos": 208,
-    "votosCandidaturas": 207,
-    "blanco": 1,
-    "nulos": 1,
-    "participacionPct": 81.32,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 103,
-        "pctVotos": 49.52,
-        "pctVotosAnterior": 48.91
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 72,
-        "pctVotos": 34.62,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 34.5
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 30,
-        "pctVotos": 14.42,
-        "pctVotosAnterior": 14.41
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 2,
-        "pctVotos": 0.96,
-        "pctVotosAnterior": 0.87
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
@@ -6373,13 +6340,37 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0.0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 14.41
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -6388,13 +6379,13 @@
     "poblacion": 2495,
     "mesas": 5,
     "censo": 2138,
-    "votantes": 1500,
-    "validos": 1482,
-    "votosCandidaturas": 1478,
+    "votantes": 1377,
+    "validos": 1359,
+    "votosCandidaturas": 1355,
     "blanco": 4,
     "nulos": 18,
-    "participacionPct": 70.15,
-    "pctEscrutado": 100.0,
+    "participacionPct": 70.29,
+    "pctEscrutado": 91.62,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -6407,32 +6398,32 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 647,
-        "pctVotos": 43.66,
+        "votos": 590,
+        "pctVotos": 43.41,
         "pctVotosAnterior": 43.51
       },
       {
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 617,
-        "pctVotos": 41.63,
+        "votos": 571,
+        "pctVotos": 42.02,
         "pctVotosAnterior": 41.41
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 145,
-        "pctVotos": 9.78,
+        "votos": 127,
+        "pctVotos": 9.35,
         "pctVotosAnterior": 9.86
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 64,
-        "pctVotos": 4.32,
+        "votos": 63,
+        "pctVotos": 4.64,
         "pctVotosAnterior": 4.39
       },
       {
@@ -6440,15 +6431,15 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 3,
-        "pctVotos": 0.2,
+        "pctVotos": 0.22,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.13,
+        "votos": 1,
+        "pctVotos": 0.07,
         "pctVotosAnterior": null
       }
     ],
@@ -6463,73 +6454,73 @@
     "poblacion": 2763,
     "mesas": 4,
     "censo": 2182,
-    "votantes": 1575,
-    "validos": 1556,
-    "votosCandidaturas": 1545,
-    "blanco": 11,
-    "nulos": 19,
-    "participacionPct": 72.18,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 643,
-        "pctVotos": 41.32,
-        "pctVotosAnterior": 41.16
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 559,
-        "pctVotos": 35.93,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 35.81
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 296,
-        "pctVotos": 19.02,
-        "pctVotosAnterior": 19.03
-      },
-      {
-        "siglas": "FA",
-        "color": "#FF8258",
-        "lado": 1,
-        "votos": 44,
-        "pctVotos": 2.83,
-        "pctVotosAnterior": 2.9
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 2,
-        "pctVotos": 0.13,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 1,
-        "pctVotos": 0.06,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "SALF",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": 19.03
+      },
+      {
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
+        "lado": 1,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   }

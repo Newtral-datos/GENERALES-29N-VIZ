@@ -3,65 +3,65 @@
     "nombre": "ALEGRÍA-DULANTZI",
     "censo": 2180,
     "mesas": 4,
-    "votantes": 1076,
-    "pctEscrutado": 100.0,
-    "blanco": 10,
-    "nulos": 129,
-    "votosCandidatos": 2008,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "SENADO DE PROGRESO",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 758,
-        "pctVotos": 37.75
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 654,
-        "pctVotos": 32.57
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 340,
-        "pctVotos": 16.93
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 86,
-        "pctVotos": 4.28
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 56,
-        "pctVotos": 2.79
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 44,
-        "pctVotos": 2.19
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 70,
-      "pctVotos": 3.49,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -69,65 +69,65 @@
     "nombre": "AMURRIO",
     "censo": 7939,
     "mesas": 15,
-    "votantes": 3761,
-    "pctEscrutado": 80.92,
-    "blanco": 35,
-    "nulos": 284,
-    "votosCandidatos": 6476,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 2976,
-        "pctVotos": 45.95
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 2437,
-        "pctVotos": 37.63
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 669,
-        "pctVotos": 10.33
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 140,
-        "pctVotos": 2.16
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "EH Bildu",
         "nombre": "EUSKAL HERRIA BILDU",
         "color": "#A4CE4E",
-        "votos": 120,
-        "pctVotos": 1.85
-      },
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 48,
-        "pctVotos": 0.74
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 86,
-      "pctVotos": 1.33,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -135,11 +135,11 @@
     "nombre": "ARAMAIO",
     "censo": 1107,
     "mesas": 2,
-    "votantes": 708,
-    "pctEscrutado": 100.0,
-    "blanco": 1,
-    "nulos": 21,
-    "votosCandidatos": 816,
+    "votantes": 389,
+    "pctEscrutado": 54.11,
+    "blanco": 0,
+    "nulos": 16,
+    "votosCandidatos": 456,
     "ganador": {
       "siglas": "EAJ-PNV",
       "color": "#00843D",
@@ -152,48 +152,48 @@
         "siglas": "EAJ-PNV",
         "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
         "color": "#00843D",
-        "votos": 352,
-        "pctVotos": 43.14
+        "votos": 272,
+        "pctVotos": 59.65
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 171,
-        "pctVotos": 20.96
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 90,
-        "pctVotos": 11.03
+        "votos": 111,
+        "pctVotos": 24.34
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 83,
-        "pctVotos": 10.17
+        "votos": 23,
+        "pctVotos": 5.04
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 20,
+        "pctVotos": 4.39
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 62,
-        "pctVotos": 7.6
+        "votos": 12,
+        "pctVotos": 2.63
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 44,
-        "pctVotos": 5.39
+        "siglas": "PCTE/ELAK",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+        "color": "#9AA0A6",
+        "votos": 11,
+        "pctVotos": 2.41
       }
     ],
     "otros": {
-      "votos": 14,
-      "pctVotos": 1.72,
+      "votos": 7,
+      "pctVotos": 1.54,
       "numCandidaturas": 3
     }
   },
@@ -267,65 +267,65 @@
     "nombre": "ARMIÑÓN",
     "censo": 191,
     "mesas": 1,
-    "votantes": 140,
-    "pctEscrutado": 100.0,
-    "blanco": 3,
-    "nulos": 4,
-    "votosCandidatos": 261,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 97,
-        "pctVotos": 37.16
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 81,
-        "pctVotos": 31.03
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 63,
-        "pctVotos": 24.14
-      },
-      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 13,
-        "pctVotos": 4.98
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 2,
-        "pctVotos": 0.77
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 2,
-        "pctVotos": 0.77
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 3,
-      "pctVotos": 1.15,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -399,65 +399,65 @@
     "nombre": "ASPARRENA",
     "censo": 1265,
     "mesas": 2,
-    "votantes": 891,
-    "pctEscrutado": 100.0,
-    "blanco": 5,
-    "nulos": 25,
-    "votosCandidatos": 1143,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 565,
-        "pctVotos": 49.43
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 367,
-        "pctVotos": 32.11
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 113,
-        "pctVotos": 9.89
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 32,
-        "pctVotos": 2.8
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 25,
-        "pctVotos": 2.19
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 15,
-        "pctVotos": 1.31
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 26,
-      "pctVotos": 2.27,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -531,65 +531,65 @@
     "nombre": "BAÑOS DE EBRO/MAÑUETA",
     "censo": 218,
     "mesas": 1,
-    "votantes": 173,
-    "pctEscrutado": 100.0,
-    "blanco": 4,
-    "nulos": 3,
-    "votosCandidatos": 435,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 177,
-        "pctVotos": 40.69
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 161,
-        "pctVotos": 37.01
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 73,
-        "pctVotos": 16.78
-      },
-      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 10,
-        "pctVotos": 2.3
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 6,
-        "pctVotos": 1.38
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 4,
-        "pctVotos": 0.92
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 4,
-      "pctVotos": 0.92,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -663,65 +663,65 @@
     "nombre": "BERANTEVILLA",
     "censo": 379,
     "mesas": 1,
-    "votantes": 266,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
     "blanco": 0,
-    "nulos": 4,
-    "votosCandidatos": 573,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 226,
-        "pctVotos": 39.44
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 167,
-        "pctVotos": 29.14
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 138,
-        "pctVotos": 24.08
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 14,
-        "pctVotos": 2.44
-      },
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 9,
-        "pctVotos": 1.57
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 7,
-        "pctVotos": 1.22
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 12,
-      "pctVotos": 2.09,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -795,65 +795,65 @@
     "nombre": "CAMPEZO/KANPEZU",
     "censo": 855,
     "mesas": 1,
-    "votantes": 855,
-    "pctEscrutado": 100.0,
-    "blanco": 13,
-    "nulos": 17,
-    "votosCandidatos": 982,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 417,
-        "pctVotos": 42.46
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 287,
-        "pctVotos": 29.23
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 187,
-        "pctVotos": 19.04
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 39,
-        "pctVotos": 3.97
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 24,
-        "pctVotos": 2.44
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 15,
-        "pctVotos": 1.53
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 13,
-      "pctVotos": 1.32,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -861,65 +861,65 @@
     "nombre": "ZIGOITIA",
     "censo": 1492,
     "mesas": 2,
-    "votantes": 1005,
-    "pctEscrutado": 100.0,
-    "blanco": 9,
-    "nulos": 24,
-    "votosCandidatos": 1577,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 573,
-        "pctVotos": 36.33
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 444,
-        "pctVotos": 28.15
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 401,
-        "pctVotos": 25.43
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 52,
-        "pctVotos": 3.3
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 38,
-        "pctVotos": 2.41
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 26,
-        "pctVotos": 1.65
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 43,
-      "pctVotos": 2.73,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -927,65 +927,65 @@
     "nombre": "KRIPAN",
     "censo": 148,
     "mesas": 1,
-    "votantes": 119,
-    "pctEscrutado": 100.0,
-    "blanco": 1,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 255,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 180,
-        "pctVotos": 70.59
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 54,
-        "pctVotos": 21.18
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 14,
-        "pctVotos": 5.49
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 2,
-        "pctVotos": 0.78
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "PCTE/ELAK",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 2,
-        "pctVotos": 0.78
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 2,
-        "pctVotos": 0.78
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 1,
-      "pctVotos": 0.39,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -993,65 +993,65 @@
     "nombre": "KUARTANGO",
     "censo": 322,
     "mesas": 1,
-    "votantes": 233,
-    "pctEscrutado": 100.0,
-    "blanco": 2,
-    "nulos": 1,
-    "votosCandidatos": 360,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 216,
-        "pctVotos": 60.0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 67,
-        "pctVotos": 18.61
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 58,
-        "pctVotos": 16.11
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 4,
-        "pctVotos": 1.11
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "PCTE/ELAK",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 4,
-        "pctVotos": 1.11
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 4,
-        "pctVotos": 1.11
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 7,
-      "pctVotos": 1.94,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1059,65 +1059,65 @@
     "nombre": "ELBURGO/BURGELU",
     "censo": 514,
     "mesas": 1,
-    "votantes": 328,
-    "pctEscrutado": 100.0,
-    "blanco": 3,
-    "nulos": 3,
-    "votosCandidatos": 692,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 299,
-        "pctVotos": 43.21
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 175,
-        "pctVotos": 25.29
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 156,
-        "pctVotos": 22.54
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 17,
-        "pctVotos": 2.46
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 17,
-        "pctVotos": 2.46
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 16,
-        "pctVotos": 2.31
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 12,
-      "pctVotos": 1.73,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1257,65 +1257,65 @@
     "nombre": "IRURAIZ-GAUNA",
     "censo": 469,
     "mesas": 1,
-    "votantes": 285,
-    "pctEscrutado": 100.0,
-    "blanco": 4,
-    "nulos": 6,
-    "votosCandidatos": 442,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 214,
-        "pctVotos": 48.42
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 93,
-        "pctVotos": 21.04
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 92,
-        "pctVotos": 20.81
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 16,
-        "pctVotos": 3.62
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "EH Bildu",
         "nombre": "EUSKAL HERRIA BILDU",
         "color": "#A4CE4E",
-        "votos": 15,
-        "pctVotos": 3.39
-      },
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 8,
-        "pctVotos": 1.81
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 4,
-      "pctVotos": 0.9,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1323,65 +1323,65 @@
     "nombre": "LABASTIDA/BASTIDA",
     "censo": 1187,
     "mesas": 2,
-    "votantes": 863,
-    "pctEscrutado": 100.0,
-    "blanco": 14,
-    "nulos": 28,
-    "votosCandidatos": 1637,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "SENADO DE PROGRESO",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 627,
-        "pctVotos": 38.3
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 626,
-        "pctVotos": 38.24
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 286,
-        "pctVotos": 17.47
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 36,
-        "pctVotos": 2.2
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 29,
-        "pctVotos": 1.77
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "EH Bildu",
         "nombre": "EUSKAL HERRIA BILDU",
         "color": "#A4CE4E",
-        "votos": 15,
-        "pctVotos": 0.92
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 18,
-      "pctVotos": 1.1,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1389,65 +1389,65 @@
     "nombre": "LAGRÁN",
     "censo": 155,
     "mesas": 1,
-    "votantes": 132,
-    "pctEscrutado": 100.0,
-    "blanco": 1,
-    "nulos": 2,
-    "votosCandidatos": 258,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 117,
-        "pctVotos": 45.35
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 78,
-        "pctVotos": 30.23
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 50,
-        "pctVotos": 19.38
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 4,
-        "pctVotos": 1.55
-      },
-      {
-        "siglas": "PCTE/ELAK",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
-        "color": "#9AA0A6",
-        "votos": 3,
-        "pctVotos": 1.16
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "EH Bildu",
         "nombre": "EUSKAL HERRIA BILDU",
         "color": "#A4CE4E",
-        "votos": 3,
-        "pctVotos": 1.16
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 3,
-      "pctVotos": 1.16,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1455,65 +1455,65 @@
     "nombre": "LAGUARDIA",
     "censo": 1131,
     "mesas": 2,
-    "votantes": 928,
-    "pctEscrutado": 100.0,
-    "blanco": 3,
-    "nulos": 40,
-    "votosCandidatos": 1959,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 858,
-        "pctVotos": 43.8
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 533,
-        "pctVotos": 27.21
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 448,
-        "pctVotos": 22.87
-      },
-      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 33,
-        "pctVotos": 1.68
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 31,
-        "pctVotos": 1.58
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 29,
-        "pctVotos": 1.48
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 27,
-      "pctVotos": 1.38,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1653,65 +1653,65 @@
     "nombre": "LEZA",
     "censo": 145,
     "mesas": 1,
-    "votantes": 114,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
     "blanco": 0,
-    "nulos": 4,
-    "votosCandidatos": 209,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "SENADO DE PROGRESO",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 94,
-        "pctVotos": 44.98
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 93,
-        "pctVotos": 44.5
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 13,
-        "pctVotos": 6.22
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 4,
-        "pctVotos": 1.91
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 4,
-        "pctVotos": 1.91
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 1,
-        "pctVotos": 0.48
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1719,11 +1719,11 @@
     "nombre": "LAUDIO/LLODIO",
     "censo": 14390,
     "mesas": 24,
-    "votantes": 9894,
-    "pctEscrutado": 100.0,
-    "blanco": 53,
-    "nulos": 181,
-    "votosCandidatos": 18046,
+    "votantes": 2328,
+    "pctEscrutado": 22.87,
+    "blanco": 17,
+    "nulos": 38,
+    "votosCandidatos": 4559,
     "ganador": {
       "siglas": "EAJ-PNV",
       "color": "#00843D",
@@ -1736,48 +1736,48 @@
         "siglas": "EAJ-PNV",
         "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
         "color": "#00843D",
-        "votos": 7232,
-        "pctVotos": 40.08
+        "votos": 1830,
+        "pctVotos": 40.14
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 7029,
-        "pctVotos": 38.95
+        "votos": 1655,
+        "pctVotos": 36.3
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 2452,
-        "pctVotos": 13.59
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 426,
-        "pctVotos": 2.36
+        "votos": 738,
+        "pctVotos": 16.19
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 419,
-        "pctVotos": 2.32
+        "votos": 96,
+        "pctVotos": 2.11
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 93,
+        "pctVotos": 2.04
       },
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 153,
-        "pctVotos": 0.85
+        "votos": 48,
+        "pctVotos": 1.05
       }
     ],
     "otros": {
-      "votos": 335,
-      "pctVotos": 1.86,
+      "votos": 99,
+      "pctVotos": 2.17,
       "numCandidaturas": 3
     }
   },
@@ -1785,65 +1785,65 @@
     "nombre": "ARRAIA-MAEZTU",
     "censo": 625,
     "mesas": 1,
-    "votantes": 425,
-    "pctEscrutado": 100.0,
-    "blanco": 4,
-    "nulos": 11,
-    "votosCandidatos": 793,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 408,
-        "pctVotos": 51.45
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 171,
-        "pctVotos": 21.56
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 148,
-        "pctVotos": 18.66
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 31,
-        "pctVotos": 3.91
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 16,
-        "pctVotos": 2.02
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 11,
-        "pctVotos": 1.39
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 8,
-      "pctVotos": 1.01,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1851,65 +1851,65 @@
     "nombre": "MOREDA DE ÁLAVA/MOREDA ARABA",
     "censo": 173,
     "mesas": 1,
-    "votantes": 131,
-    "pctEscrutado": 100.0,
-    "blanco": 3,
-    "nulos": 8,
-    "votosCandidatos": 256,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "SENADO DE PROGRESO",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 97,
-        "pctVotos": 37.89
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 91,
-        "pctVotos": 35.55
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 55,
-        "pctVotos": 21.48
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 5,
-        "pctVotos": 1.95
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 4,
-        "pctVotos": 1.56
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 2,
-        "pctVotos": 0.78
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 2,
-      "pctVotos": 0.78,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -1983,65 +1983,65 @@
     "nombre": "OKONDO",
     "censo": 929,
     "mesas": 2,
-    "votantes": 670,
-    "pctEscrutado": 100.0,
-    "blanco": 6,
-    "nulos": 21,
-    "votosCandidatos": 1109,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 725,
-        "pctVotos": 65.37
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 183,
-        "pctVotos": 16.5
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 116,
-        "pctVotos": 10.46
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 33,
-        "pctVotos": 2.98
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 17,
-        "pctVotos": 1.53
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 16,
-        "pctVotos": 1.44
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 19,
-      "pctVotos": 1.71,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2115,65 +2115,65 @@
     "nombre": "PEÑACERRADA-URIZAHARRA",
     "censo": 260,
     "mesas": 1,
-    "votantes": 188,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
     "blanco": 0,
-    "nulos": 2,
-    "votosCandidatos": 366,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "SENADO DE PROGRESO",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 158,
-        "pctVotos": 43.17
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 117,
-        "pctVotos": 31.97
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 58,
-        "pctVotos": 15.85
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 12,
-        "pctVotos": 3.28
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 7,
-        "pctVotos": 1.91
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 6,
-        "pctVotos": 1.64
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 8,
-      "pctVotos": 2.19,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2181,65 +2181,65 @@
     "nombre": "ERRIBERAGOITIA/RIBERA ALTA",
     "censo": 708,
     "mesas": 1,
-    "votantes": 476,
-    "pctEscrutado": 100.0,
-    "blanco": 4,
-    "nulos": 5,
-    "votosCandidatos": 919,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 400,
-        "pctVotos": 43.53
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 249,
-        "pctVotos": 27.09
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 230,
-        "pctVotos": 25.03
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 12,
-        "pctVotos": 1.31
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 12,
-        "pctVotos": 1.31
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "EH Bildu",
         "nombre": "EUSKAL HERRIA BILDU",
         "color": "#A4CE4E",
-        "votos": 9,
-        "pctVotos": 0.98
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 7,
-      "pctVotos": 0.76,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2247,65 +2247,65 @@
     "nombre": "RIBERA BAJA/ERRIBERABEITIA",
     "censo": 1103,
     "mesas": 2,
-    "votantes": 732,
-    "pctEscrutado": 100.0,
-    "blanco": 11,
-    "nulos": 17,
-    "votosCandidatos": 1571,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 562,
-        "pctVotos": 35.77
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 497,
-        "pctVotos": 31.64
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 345,
-        "pctVotos": 21.96
-      },
-      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 57,
-        "pctVotos": 3.63
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 48,
-        "pctVotos": 3.06
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 37,
-        "pctVotos": 2.36
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 25,
-      "pctVotos": 1.59,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2511,65 +2511,65 @@
     "nombre": "SAN MILLÁN/DONEMILIAGA",
     "censo": 584,
     "mesas": 1,
-    "votantes": 371,
-    "pctEscrutado": 100.0,
-    "blanco": 1,
-    "nulos": 8,
-    "votosCandidatos": 542,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 258,
-        "pctVotos": 47.6
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 154,
-        "pctVotos": 28.41
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 78,
-        "pctVotos": 14.39
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 15,
-        "pctVotos": 2.77
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 11,
-        "pctVotos": 2.03
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "PCTE/ELAK",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 10,
-        "pctVotos": 1.85
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 16,
-      "pctVotos": 2.95,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2577,65 +2577,65 @@
     "nombre": "URKABUSTAIZ",
     "censo": 1073,
     "mesas": 2,
-    "votantes": 759,
-    "pctEscrutado": 100.0,
-    "blanco": 3,
-    "nulos": 13,
-    "votosCandidatos": 1077,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 501,
-        "pctVotos": 46.52
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 331,
-        "pctVotos": 30.73
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 127,
-        "pctVotos": 11.79
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 33,
-        "pctVotos": 3.06
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 31,
-        "pctVotos": 2.88
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
         "color": "#9AA0A6",
-        "votos": 16,
-        "pctVotos": 1.49
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 38,
-      "pctVotos": 3.53,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2643,11 +2643,11 @@
     "nombre": "VALDEGOVÍA/GAUBEA",
     "censo": 892,
     "mesas": 2,
-    "votantes": 616,
-    "pctEscrutado": 100.0,
-    "blanco": 10,
-    "nulos": 9,
-    "votosCandidatos": 1232,
+    "votantes": 299,
+    "pctEscrutado": 49.1,
+    "blanco": 5,
+    "nulos": 8,
+    "votosCandidatos": 579,
     "ganador": {
       "siglas": "EAJ-PNV",
       "color": "#00843D",
@@ -2660,48 +2660,48 @@
         "siglas": "EAJ-PNV",
         "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
         "color": "#00843D",
-        "votos": 548,
-        "pctVotos": 44.48
+        "votos": 253,
+        "pctVotos": 43.7
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 307,
-        "pctVotos": 24.92
+        "votos": 153,
+        "pctVotos": 26.42
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 292,
-        "pctVotos": 23.7
+        "votos": 129,
+        "pctVotos": 22.28
       },
       {
         "siglas": "EH Bildu",
         "nombre": "EUSKAL HERRIA BILDU",
         "color": "#A4CE4E",
-        "votos": 26,
-        "pctVotos": 2.11
+        "votos": 13,
+        "pctVotos": 2.25
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 21,
-        "pctVotos": 1.7
+        "votos": 9,
+        "pctVotos": 1.55
       },
       {
-        "siglas": "PCTE/ELAK",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
-        "color": "#9AA0A6",
-        "votos": 13,
-        "pctVotos": 1.06
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 7,
+        "pctVotos": 1.21
       }
     ],
     "otros": {
-      "votos": 25,
-      "pctVotos": 2.03,
+      "votos": 15,
+      "pctVotos": 2.59,
       "numCandidaturas": 3
     }
   },
@@ -2709,65 +2709,65 @@
     "nombre": "HARANA/VALLE DE ARANA",
     "censo": 179,
     "mesas": 1,
-    "votantes": 103,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
     "blanco": 0,
-    "nulos": 1,
-    "votosCandidatos": 194,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 108,
-        "pctVotos": 55.67
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 42,
-        "pctVotos": 21.65
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 26,
-        "pctVotos": 13.4
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 8,
-        "pctVotos": 4.12
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 5,
-        "pctVotos": 2.58
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 3,
-        "pctVotos": 1.55
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 2,
-      "pctVotos": 1.03,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -2907,11 +2907,11 @@
     "nombre": "VITORIA-GASTEIZ",
     "censo": 193746,
     "mesas": 303,
-    "votantes": 117469,
-    "pctEscrutado": 91.33,
-    "blanco": 830,
-    "nulos": 2034,
-    "votosCandidatos": 234056,
+    "votantes": 28696,
+    "pctEscrutado": 22.9,
+    "blanco": 211,
+    "nulos": 570,
+    "votosCandidatos": 57690,
     "ganador": {
       "siglas": "SENADO DE PROGRESO",
       "color": "#E10819",
@@ -2924,48 +2924,48 @@
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 96620,
-        "pctVotos": 41.28
+        "votos": 25000,
+        "pctVotos": 43.34
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 65996,
-        "pctVotos": 28.2
+        "votos": 16033,
+        "pctVotos": 27.79
       },
       {
         "siglas": "EAJ-PNV",
         "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
         "color": "#00843D",
-        "votos": 52524,
-        "pctVotos": 22.44
-      },
-      {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 5121,
-        "pctVotos": 2.19
+        "votos": 12101,
+        "pctVotos": 20.98
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 4986,
-        "pctVotos": 2.13
+        "votos": 1289,
+        "pctVotos": 2.23
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 1279,
+        "pctVotos": 2.22
       },
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 4504,
-        "pctVotos": 1.92
+        "votos": 950,
+        "pctVotos": 1.65
       }
     ],
     "otros": {
-      "votos": 4305,
-      "pctVotos": 1.84,
+      "votos": 1038,
+      "pctVotos": 1.8,
       "numCandidaturas": 3
     }
   },
@@ -2973,65 +2973,65 @@
     "nombre": "YÉCORA/IEKORA",
     "censo": 187,
     "mesas": 1,
-    "votantes": 151,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
     "blanco": 0,
-    "nulos": 6,
-    "votosCandidatos": 347,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 149,
-        "pctVotos": 42.94
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 134,
-        "pctVotos": 38.62
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 45,
-        "pctVotos": 12.97
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 6,
-        "pctVotos": 1.73
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 5,
-        "pctVotos": 1.44
-      },
-      {
-        "siglas": "PCTE/ELAK",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
-        "color": "#9AA0A6",
-        "votos": 3,
-        "pctVotos": 0.86
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 5,
-      "pctVotos": 1.44,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3039,65 +3039,65 @@
     "nombre": "ZALDUONDO",
     "censo": 172,
     "mesas": 1,
-    "votantes": 152,
-    "pctEscrutado": 100.0,
-    "blanco": 1,
-    "nulos": 6,
-    "votosCandidatos": 145,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "EAJ-PNV",
-      "color": "#00843D",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 90,
-        "pctVotos": 62.07
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 38,
-        "pctVotos": 26.21
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 6,
-        "pctVotos": 4.14
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 4,
-        "pctVotos": 2.76
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "PCTE/ELAK",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
-        "color": "#9AA0A6",
-        "votos": 3,
-        "pctVotos": 2.07
-      },
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 2,
-        "pctVotos": 1.38
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 2,
-      "pctVotos": 1.38,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3105,65 +3105,65 @@
     "nombre": "ZAMBRANA",
     "censo": 364,
     "mesas": 1,
-    "votantes": 256,
-    "pctEscrutado": 100.0,
-    "blanco": 4,
-    "nulos": 4,
-    "votosCandidatos": 518,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "SENADO DE PROGRESO",
-      "color": "#E10819",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 215,
-        "pctVotos": 41.51
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 149,
-        "pctVotos": 28.76
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 96,
-        "pctVotos": 18.53
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 20,
-        "pctVotos": 3.86
-      },
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 19,
-        "pctVotos": 3.67
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "EH Bildu",
         "nombre": "EUSKAL HERRIA BILDU",
         "color": "#A4CE4E",
-        "votos": 8,
-        "pctVotos": 1.54
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 11,
-      "pctVotos": 2.12,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   },
@@ -3303,65 +3303,65 @@
     "nombre": "LANTARÓN",
     "censo": 768,
     "mesas": 2,
-    "votantes": 537,
-    "pctEscrutado": 100.0,
-    "blanco": 4,
-    "nulos": 14,
-    "votosCandidatos": 1091,
+    "votantes": 0,
+    "pctEscrutado": 0.0,
+    "blanco": 0,
+    "nulos": 0,
+    "votosCandidatos": 0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 372,
-        "pctVotos": 34.1
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
-        "color": "#00843D",
-        "votos": 325,
-        "pctVotos": 29.79
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 317,
-        "pctVotos": 29.06
-      },
-      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 26,
-        "pctVotos": 2.38
+        "votos": 0,
+        "pctVotos": 0
       },
       {
-        "siglas": "EH Bildu",
-        "nombre": "EUSKAL HERRIA BILDU",
-        "color": "#A4CE4E",
-        "votos": 24,
-        "pctVotos": 2.2
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "color": "#9AA0A6",
+        "votos": 0,
+        "pctVotos": 0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 16,
-        "pctVotos": 1.47
+        "votos": 0,
+        "pctVotos": 0
+      },
+      {
+        "siglas": "EH Bildu",
+        "nombre": "EUSKAL HERRIA BILDU",
+        "color": "#A4CE4E",
+        "votos": 0,
+        "pctVotos": 0
       }
     ],
     "otros": {
-      "votos": 11,
-      "pctVotos": 1.01,
+      "votos": 0,
+      "pctVotos": 0,
       "numCandidaturas": 3
     }
   }
