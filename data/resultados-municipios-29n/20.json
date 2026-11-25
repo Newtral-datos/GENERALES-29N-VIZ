@@ -4,73 +4,73 @@
     "poblacion": 309,
     "mesas": 1,
     "censo": 259,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 150,
+    "validos": 149,
+    "votosCandidaturas": 149,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 1,
+    "participacionPct": 57.91,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EAJ-PNV",
+      "color": "#00843D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "votos": 70,
+        "pctVotos": 46.98,
+        "pctVotosAnterior": 46.67
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 64,
+        "pctVotos": 42.95,
         "pctVotosAnterior": 42.67
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 7,
+        "pctVotos": 4.7,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 3.36,
         "pctVotosAnterior": 3.33
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "color": "#00843D",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 46.67
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 1.34,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 0.67,
+        "pctVotosAnterior": 0.67
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -79,18 +79,18 @@
     "poblacion": 486,
     "mesas": 1,
     "censo": 378,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 248,
+    "validos": 248,
+    "votosCandidaturas": 240,
+    "blanco": 8,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 65.6,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -98,54 +98,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 152,
+        "pctVotos": 61.29,
         "pctVotosAnterior": 61.57
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 6.2
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 49,
+        "pctVotos": 19.76,
         "pctVotosAnterior": 19.83
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 18,
+        "pctVotos": 7.26,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 16,
+        "pctVotos": 6.45,
+        "pctVotosAnterior": 6.2
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 1.21,
+        "pctVotosAnterior": 1.24
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 0.4,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 0.4,
       "numCandidaturas": 5
     }
   },
@@ -154,18 +154,18 @@
     "poblacion": 774,
     "mesas": 1,
     "censo": 609,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 364,
+    "validos": 362,
+    "votosCandidaturas": 360,
+    "blanco": 2,
+    "nulos": 2,
+    "participacionPct": 59.77,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -173,54 +173,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 206,
+        "pctVotos": 56.91,
         "pctVotosAnterior": 56.64
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 10.62
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 90,
+        "pctVotos": 24.86,
         "pctVotosAnterior": 24.78
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 38,
+        "pctVotos": 10.5,
+        "pctVotosAnterior": 10.62
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 16,
+        "pctVotos": 4.42,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 5,
+        "pctVotos": 1.38,
+        "pctVotosAnterior": 1.47
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 0.55,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3,
+      "pctVotos": 0.83,
       "numCandidaturas": 5
     }
   },
@@ -229,73 +229,73 @@
     "poblacion": 316,
     "mesas": 1,
     "censo": 261,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 152,
+    "validos": 152,
+    "votosCandidaturas": 147,
+    "blanco": 5,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 58.23,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EAJ-PNV",
+      "color": "#00843D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "votos": 64,
+        "pctVotos": 42.11,
+        "pctVotosAnterior": 42.14
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 60,
+        "pctVotos": 39.47,
         "pctVotosAnterior": 39.29
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 12,
+        "pctVotos": 7.89,
         "pctVotosAnterior": 7.86
       },
       {
-        "siglas": "EAJ-PNV",
-        "color": "#00843D",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 42.14
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 7,
+        "pctVotos": 4.61,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 2,
+        "pctVotos": 1.32,
+        "pctVotosAnterior": 1.43
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 2,
+        "pctVotos": 1.32,
+        "pctVotosAnterior": 1.43
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -304,18 +304,18 @@
     "poblacion": 1740,
     "mesas": 2,
     "censo": 1270,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 786,
+    "validos": 786,
+    "votosCandidaturas": 785,
+    "blanco": 1,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 61.88,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -323,54 +323,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 383,
+        "pctVotos": 48.73,
         "pctVotosAnterior": 48.43
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 13.17
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 189,
+        "pctVotos": 24.05,
         "pctVotosAnterior": 23.96
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 104,
+        "pctVotos": 13.23,
+        "pctVotosAnterior": 13.17
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 65,
+        "pctVotos": 8.27,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 30,
+        "pctVotos": 3.82,
+        "pctVotosAnterior": 3.76
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 10,
+        "pctVotos": 1.27,
+        "pctVotosAnterior": 1.25
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 4,
+      "pctVotos": 0.51,
       "numCandidaturas": 5
     }
   },
@@ -379,18 +379,18 @@
     "poblacion": 357,
     "mesas": 1,
     "censo": 262,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 148,
+    "validos": 146,
+    "votosCandidaturas": 145,
+    "blanco": 1,
+    "nulos": 2,
+    "participacionPct": 56.48,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -398,54 +398,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 84,
+        "pctVotos": 57.53,
         "pctVotosAnterior": 57.14
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 6.12
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 38,
+        "pctVotos": 26.03,
         "pctVotosAnterior": 25.85
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 9,
+        "pctVotos": 6.16,
+        "pctVotosAnterior": 6.12
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 8,
+        "pctVotos": 5.48,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 3,
+        "pctVotos": 2.05,
+        "pctVotosAnterior": 2.04
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 0.68,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2,
+      "pctVotos": 1.37,
       "numCandidaturas": 5
     }
   },
@@ -454,18 +454,18 @@
     "poblacion": 428,
     "mesas": 1,
     "censo": 358,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 232,
+    "validos": 231,
+    "votosCandidaturas": 228,
+    "blanco": 3,
+    "nulos": 1,
+    "participacionPct": 64.8,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -473,54 +473,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 150,
+        "pctVotos": 64.94,
         "pctVotosAnterior": 64.63
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 2.18
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 49,
+        "pctVotos": 21.21,
         "pctVotosAnterior": 21.4
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 17,
+        "pctVotos": 7.36,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 5,
+        "pctVotos": 2.16,
+        "pctVotosAnterior": 2.18
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 1.3,
+        "pctVotosAnterior": 1.31
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 2,
+        "pctVotos": 0.87,
+        "pctVotosAnterior": 0.87
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2,
+      "pctVotos": 0.87,
       "numCandidaturas": 5
     }
   },
@@ -529,18 +529,18 @@
     "poblacion": 948,
     "mesas": 1,
     "censo": 766,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 441,
+    "validos": 435,
+    "votosCandidaturas": 430,
+    "blanco": 5,
+    "nulos": 6,
+    "participacionPct": 57.57,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -548,54 +548,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 262,
+        "pctVotos": 60.23,
         "pctVotosAnterior": 60.14
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 6.44
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 111,
+        "pctVotos": 25.52,
         "pctVotosAnterior": 25.54
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 28,
+        "pctVotos": 6.44,
+        "pctVotosAnterior": 6.44
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 17,
+        "pctVotos": 3.91,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 10,
+        "pctVotos": 2.3,
+        "pctVotosAnterior": 2.39
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 1,
+        "pctVotos": 0.23,
+        "pctVotosAnterior": 0.24
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 0.23,
       "numCandidaturas": 5
     }
   },
@@ -604,18 +604,18 @@
     "poblacion": 14504,
     "mesas": 20,
     "censo": 11430,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 7176,
+    "validos": 7136,
+    "votosCandidaturas": 7107,
+    "blanco": 29,
+    "nulos": 40,
+    "participacionPct": 62.78,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -623,54 +623,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2285,
+        "pctVotos": 32.02,
         "pctVotosAnterior": 32.69
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2130,
+        "pctVotos": 29.85,
         "pctVotosAnterior": 28.72
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1113,
+        "pctVotos": 15.6,
         "pctVotosAnterior": 16.12
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 873,
+        "pctVotos": 12.23,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 479,
+        "pctVotos": 6.71,
+        "pctVotosAnterior": 6.43
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 166,
+        "pctVotos": 2.33,
+        "pctVotosAnterior": 2.41
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 61,
+      "pctVotos": 0.85,
       "numCandidaturas": 5
     }
   },
@@ -679,18 +679,18 @@
     "poblacion": 2079,
     "mesas": 2,
     "censo": 1620,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1044,
+    "validos": 1041,
+    "votosCandidaturas": 1037,
+    "blanco": 4,
+    "nulos": 3,
+    "participacionPct": 64.44,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -698,54 +698,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 516,
+        "pctVotos": 49.57,
         "pctVotosAnterior": 49.4
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 16.43
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 195,
+        "pctVotos": 18.73,
         "pctVotosAnterior": 18.75
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 171,
+        "pctVotos": 16.43,
+        "pctVotosAnterior": 16.43
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 97,
+        "pctVotos": 9.32,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 41,
+        "pctVotos": 3.94,
+        "pctVotosAnterior": 4.03
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 13,
+        "pctVotos": 1.25,
+        "pctVotosAnterior": 1.31
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 4,
+      "pctVotos": 0.38,
       "numCandidaturas": 5
     }
   },
@@ -754,18 +754,18 @@
     "poblacion": 2071,
     "mesas": 2,
     "censo": 1634,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1168,
+    "validos": 1158,
+    "votosCandidaturas": 1153,
+    "blanco": 5,
+    "nulos": 10,
+    "participacionPct": 71.48,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -773,54 +773,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 573,
+        "pctVotos": 49.48,
         "pctVotosAnterior": 49.34
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 13.76
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 299,
+        "pctVotos": 25.82,
         "pctVotosAnterior": 25.77
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 159,
+        "pctVotos": 13.73,
+        "pctVotosAnterior": 13.76
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 86,
+        "pctVotos": 7.43,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 22,
+        "pctVotos": 1.9,
+        "pctVotosAnterior": 1.93
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 9,
+        "pctVotos": 0.78,
+        "pctVotosAnterior": 0.79
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 5,
+      "pctVotos": 0.43,
       "numCandidaturas": 5
     }
   },
@@ -829,18 +829,18 @@
     "poblacion": 192,
     "mesas": 1,
     "censo": 129,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 92,
+    "validos": 92,
+    "votosCandidaturas": 89,
+    "blanco": 3,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 71.31,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -848,54 +848,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 49,
+        "pctVotos": 53.26,
         "pctVotosAnterior": 53.0
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 8.0
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 26,
+        "pctVotos": 28.26,
         "pctVotosAnterior": 28.0
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 7,
+        "pctVotos": 7.61,
+        "pctVotosAnterior": 8.0
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 4,
+        "pctVotos": 4.35,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 1.09,
         "pctVotosAnterior": null
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 1.09,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 1.09,
       "numCandidaturas": 5
     }
   },
@@ -904,18 +904,18 @@
     "poblacion": 7069,
     "mesas": 8,
     "censo": 5583,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 3833,
+    "validos": 3811,
+    "votosCandidaturas": 3799,
+    "blanco": 12,
+    "nulos": 22,
+    "participacionPct": 68.65,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -923,54 +923,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1607,
+        "pctVotos": 42.17,
         "pctVotosAnterior": 42.05
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 16.64
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1034,
+        "pctVotos": 27.13,
         "pctVotosAnterior": 27.02
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 637,
+        "pctVotos": 16.71,
+        "pctVotosAnterior": 16.64
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 326,
+        "pctVotos": 8.55,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 132,
+        "pctVotos": 3.46,
+        "pctVotosAnterior": 3.47
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 43,
+        "pctVotos": 1.13,
+        "pctVotosAnterior": 1.13
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 20,
+      "pctVotos": 0.52,
       "numCandidaturas": 5
     }
   },
@@ -979,18 +979,18 @@
     "poblacion": 1557,
     "mesas": 2,
     "censo": 1229,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 723,
+    "validos": 722,
+    "votosCandidaturas": 716,
+    "blanco": 6,
+    "nulos": 1,
+    "participacionPct": 58.82,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -998,54 +998,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 389,
+        "pctVotos": 53.88,
         "pctVotosAnterior": 53.67
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 10.31
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 168,
+        "pctVotos": 23.27,
         "pctVotosAnterior": 23.16
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 74,
+        "pctVotos": 10.25,
+        "pctVotosAnterior": 10.31
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 49,
+        "pctVotos": 6.79,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 30,
+        "pctVotos": 4.16,
+        "pctVotosAnterior": 4.24
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 0.42,
+        "pctVotosAnterior": 0.42
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3,
+      "pctVotos": 0.42,
       "numCandidaturas": 5
     }
   },
@@ -1054,18 +1054,18 @@
     "poblacion": 1660,
     "mesas": 3,
     "censo": 1264,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 901,
+    "validos": 896,
+    "votosCandidaturas": 890,
+    "blanco": 6,
+    "nulos": 5,
+    "participacionPct": 71.28,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1073,54 +1073,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 587,
+        "pctVotos": 65.51,
         "pctVotosAnterior": 65.51
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 5.94
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 211,
+        "pctVotos": 23.55,
         "pctVotosAnterior": 23.4
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 53,
+        "pctVotos": 5.92,
+        "pctVotosAnterior": 5.94
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 29,
+        "pctVotos": 3.24,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 6,
+        "pctVotos": 0.67,
+        "pctVotosAnterior": 0.67
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 0.33,
+        "pctVotosAnterior": 0.34
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 0.11,
       "numCandidaturas": 5
     }
   },
@@ -1129,18 +1129,18 @@
     "poblacion": 2094,
     "mesas": 2,
     "censo": 1595,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 924,
+    "validos": 923,
+    "votosCandidaturas": 920,
+    "blanco": 3,
+    "nulos": 1,
+    "participacionPct": 57.93,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1148,54 +1148,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 386,
+        "pctVotos": 41.82,
         "pctVotosAnterior": 41.76
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 6.92
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 367,
+        "pctVotos": 39.76,
         "pctVotosAnterior": 39.34
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 63,
+        "pctVotos": 6.83,
+        "pctVotosAnterior": 6.92
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 58,
+        "pctVotos": 6.28,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 25,
+        "pctVotos": 2.71,
+        "pctVotosAnterior": 2.75
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 11,
+        "pctVotos": 1.19,
+        "pctVotosAnterior": 1.21
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 10,
+      "pctVotos": 1.08,
       "numCandidaturas": 5
     }
   },
@@ -1204,18 +1204,18 @@
     "poblacion": 11617,
     "mesas": 13,
     "censo": 8702,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 5676,
+    "validos": 5656,
+    "votosCandidaturas": 5633,
+    "blanco": 23,
+    "nulos": 20,
+    "participacionPct": 65.22,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1223,54 +1223,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2094,
+        "pctVotos": 37.02,
         "pctVotosAnterior": 36.83
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 16.98
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1872,
+        "pctVotos": 33.1,
         "pctVotosAnterior": 33.05
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 961,
+        "pctVotos": 16.99,
+        "pctVotosAnterior": 16.98
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 384,
+        "pctVotos": 6.79,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 205,
+        "pctVotos": 3.62,
+        "pctVotosAnterior": 3.65
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 81,
+        "pctVotos": 1.43,
+        "pctVotosAnterior": 1.47
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 36,
+      "pctVotos": 0.64,
       "numCandidaturas": 5
     }
   },
@@ -1279,18 +1279,18 @@
     "poblacion": 15154,
     "mesas": 18,
     "censo": 11527,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 7162,
+    "validos": 7119,
+    "votosCandidaturas": 7104,
+    "blanco": 15,
+    "nulos": 43,
+    "participacionPct": 62.13,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1298,54 +1298,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3388,
+        "pctVotos": 47.59,
         "pctVotosAnterior": 47.36
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 9.21
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2517,
+        "pctVotos": 35.36,
         "pctVotosAnterior": 35.15
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 650,
+        "pctVotos": 9.13,
+        "pctVotosAnterior": 9.21
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 256,
+        "pctVotos": 3.6,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 205,
+        "pctVotos": 2.88,
+        "pctVotosAnterior": 2.95
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 58,
+        "pctVotos": 0.81,
+        "pctVotosAnterior": 0.83
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 30,
+      "pctVotos": 0.42,
       "numCandidaturas": 5
     }
   },
@@ -1354,73 +1354,73 @@
     "poblacion": 13877,
     "mesas": 14,
     "censo": 9987,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 6283,
+    "validos": 6239,
+    "votosCandidaturas": 6205,
+    "blanco": 34,
+    "nulos": 44,
+    "participacionPct": 62.91,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EAJ-PNV",
+      "color": "#00843D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "votos": 1900,
+        "pctVotos": 30.45,
+        "pctVotosAnterior": 30.37
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1758,
+        "pctVotos": 28.18,
         "pctVotosAnterior": 28.09
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1427,
+        "pctVotos": 22.87,
         "pctVotosAnterior": 22.78
       },
       {
-        "siglas": "EAJ-PNV",
-        "color": "#00843D",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 30.37
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 672,
+        "pctVotos": 10.77,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 324,
+        "pctVotos": 5.19,
+        "pctVotosAnterior": 5.18
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 78,
+        "pctVotos": 1.25,
+        "pctVotosAnterior": 1.23
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 46,
+      "pctVotos": 0.74,
       "numCandidaturas": 5
     }
   },
@@ -1429,18 +1429,18 @@
     "poblacion": 136,
     "mesas": 1,
     "censo": 106,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 64,
+    "validos": 64,
+    "votosCandidaturas": 64,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 60.37,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1448,54 +1448,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 34,
+        "pctVotos": 53.12,
         "pctVotosAnterior": 52.24
+      },
+      {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "votos": 26,
+        "pctVotos": 40.62,
+        "pctVotosAnterior": 40.3
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 2,
+        "pctVotos": 3.12,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PACMA",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 1.56,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "ELAK/PCTE",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 1.56,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": 0.0
-      },
-      {
-        "siglas": "EAJ-PNV",
-        "color": "#00843D",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 40.3
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -1504,18 +1504,18 @@
     "poblacion": 269,
     "mesas": 1,
     "censo": 204,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 117,
+    "validos": 117,
+    "votosCandidaturas": 117,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 57.35,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1523,54 +1523,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 55,
+        "pctVotos": 47.01,
         "pctVotosAnterior": 46.61
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 5.93
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 42,
+        "pctVotos": 35.9,
         "pctVotosAnterior": 35.59
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 8,
+        "pctVotos": 6.84,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 7,
+        "pctVotos": 5.98,
+        "pctVotosAnterior": 5.93
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 4,
+        "pctVotos": 3.42,
+        "pctVotosAnterior": 3.39
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 0.85,
+        "pctVotosAnterior": 0.85
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -1579,18 +1579,18 @@
     "poblacion": 1102,
     "mesas": 2,
     "censo": 908,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 605,
+    "validos": 604,
+    "votosCandidaturas": 600,
+    "blanco": 4,
+    "nulos": 1,
+    "participacionPct": 66.62,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1598,54 +1598,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 341,
+        "pctVotos": 56.46,
         "pctVotosAnterior": 56.28
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 8.04
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 174,
+        "pctVotos": 28.81,
         "pctVotosAnterior": 28.81
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 48,
+        "pctVotos": 7.95,
+        "pctVotosAnterior": 8.04
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 26,
+        "pctVotos": 4.3,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 9,
+        "pctVotos": 1.49,
+        "pctVotosAnterior": 1.51
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 2,
+        "pctVotos": 0.33,
+        "pctVotosAnterior": 0.34
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -1654,18 +1654,18 @@
     "poblacion": 581,
     "mesas": 1,
     "censo": 438,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 233,
+    "validos": 233,
+    "votosCandidaturas": 232,
+    "blanco": 1,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 53.19,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1673,54 +1673,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 127,
+        "pctVotos": 54.51,
         "pctVotosAnterior": 54.01
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 11.81
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 49,
+        "pctVotos": 21.03,
         "pctVotosAnterior": 21.1
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 27,
+        "pctVotos": 11.59,
+        "pctVotosAnterior": 11.81
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 17,
+        "pctVotos": 7.3,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 6,
+        "pctVotos": 2.58,
+        "pctVotosAnterior": 2.53
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 5,
+        "pctVotos": 2.15,
+        "pctVotosAnterior": 2.11
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 0.43,
       "numCandidaturas": 5
     }
   },
@@ -1729,18 +1729,18 @@
     "poblacion": 527,
     "mesas": 1,
     "censo": 412,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 226,
+    "validos": 226,
+    "votosCandidaturas": 226,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 54.85,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1748,54 +1748,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 124,
+        "pctVotos": 54.87,
         "pctVotosAnterior": 54.04
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 6.38
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 58,
+        "pctVotos": 25.66,
         "pctVotosAnterior": 25.53
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 20,
+        "pctVotos": 8.85,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 14,
+        "pctVotos": 6.19,
+        "pctVotosAnterior": 6.38
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 4,
+        "pctVotos": 1.77,
+        "pctVotosAnterior": 1.7
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 4,
+        "pctVotos": 1.77,
+        "pctVotosAnterior": 2.13
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2,
+      "pctVotos": 0.88,
       "numCandidaturas": 5
     }
   },
@@ -1804,18 +1804,18 @@
     "poblacion": 1538,
     "mesas": 2,
     "censo": 1118,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 779,
+    "validos": 779,
+    "votosCandidaturas": 779,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 69.67,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1823,54 +1823,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 408,
+        "pctVotos": 52.37,
         "pctVotosAnterior": 51.78
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 7.11
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 261,
+        "pctVotos": 33.5,
         "pctVotosAnterior": 33.25
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 55,
+        "pctVotos": 7.06,
+        "pctVotosAnterior": 7.11
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 40,
+        "pctVotos": 5.13,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 6,
+        "pctVotos": 0.77,
+        "pctVotosAnterior": 0.89
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 0.64,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 4,
+      "pctVotos": 0.51,
       "numCandidaturas": 5
     }
   },
@@ -1879,18 +1879,18 @@
     "poblacion": 276,
     "mesas": 1,
     "censo": 227,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 162,
+    "validos": 158,
+    "votosCandidaturas": 157,
+    "blanco": 1,
+    "nulos": 4,
+    "participacionPct": 71.36,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1898,32 +1898,40 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 83,
+        "pctVotos": 52.53,
         "pctVotosAnterior": 52.56
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 3.21
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 62,
+        "pctVotos": 39.24,
         "pctVotosAnterior": 39.1
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 7,
+        "pctVotos": 4.43,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 5,
+        "pctVotos": 3.16,
+        "pctVotosAnterior": 3.21
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       },
       {
@@ -1931,21 +1939,13 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -1954,18 +1954,18 @@
     "poblacion": 3750,
     "mesas": 5,
     "censo": 2935,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1822,
+    "validos": 1814,
+    "votosCandidaturas": 1802,
+    "blanco": 12,
+    "nulos": 8,
+    "participacionPct": 62.07,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -1973,54 +1973,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 982,
+        "pctVotos": 54.13,
         "pctVotosAnterior": 54.27
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 10.32
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 487,
+        "pctVotos": 26.85,
         "pctVotosAnterior": 26.87
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 194,
+        "pctVotos": 10.69,
+        "pctVotosAnterior": 10.32
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 91,
+        "pctVotos": 5.02,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 25,
+        "pctVotos": 1.38,
+        "pctVotosAnterior": 1.38
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 11,
+        "pctVotos": 0.61,
+        "pctVotosAnterior": 0.58
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 12,
+      "pctVotos": 0.66,
       "numCandidaturas": 5
     }
   },
@@ -2029,18 +2029,18 @@
     "poblacion": 2996,
     "mesas": 3,
     "censo": 2256,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1413,
+    "validos": 1401,
+    "votosCandidaturas": 1396,
+    "blanco": 5,
+    "nulos": 12,
+    "participacionPct": 62.63,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2048,54 +2048,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 626,
+        "pctVotos": 44.68,
         "pctVotosAnterior": 44.21
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 306,
+        "pctVotos": 21.84,
         "pctVotosAnterior": 21.89
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 281,
+        "pctVotos": 20.06,
         "pctVotosAnterior": 19.81
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 102,
+        "pctVotos": 7.28,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 61,
+        "pctVotos": 4.35,
+        "pctVotosAnterior": 4.51
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 10,
+        "pctVotos": 0.71,
+        "pctVotosAnterior": 0.79
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 10,
+      "pctVotos": 0.71,
       "numCandidaturas": 5
     }
   },
@@ -2104,18 +2104,18 @@
     "poblacion": 5395,
     "mesas": 6,
     "censo": 4360,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 3053,
+    "validos": 3042,
+    "votosCandidaturas": 3027,
+    "blanco": 15,
+    "nulos": 11,
+    "participacionPct": 70.02,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2123,54 +2123,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1171,
+        "pctVotos": 38.49,
         "pctVotosAnterior": 38.42
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 13.95
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1064,
+        "pctVotos": 34.98,
         "pctVotosAnterior": 34.84
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 426,
+        "pctVotos": 14.0,
+        "pctVotosAnterior": 13.95
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 247,
+        "pctVotos": 8.12,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 93,
+        "pctVotos": 3.06,
+        "pctVotosAnterior": 3.06
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 17,
+        "pctVotos": 0.56,
+        "pctVotosAnterior": 0.56
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 9,
+      "pctVotos": 0.3,
       "numCandidaturas": 5
     }
   },
@@ -2179,73 +2179,73 @@
     "poblacion": 27282,
     "mesas": 37,
     "censo": 20595,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 13820,
+    "validos": 13763,
+    "votosCandidaturas": 13727,
+    "blanco": 36,
+    "nulos": 57,
+    "participacionPct": 67.1,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 24.27
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 4771,
+        "pctVotos": 34.67,
         "pctVotosAnterior": 34.64
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 3367,
+        "pctVotos": 24.46,
+        "pctVotosAnterior": 24.27
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2857,
+        "pctVotos": 20.76,
         "pctVotosAnterior": 20.52
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 1426,
+        "pctVotos": 10.36,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 1001,
+        "pctVotos": 7.27,
+        "pctVotosAnterior": 7.33
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 223,
+        "pctVotos": 1.62,
+        "pctVotosAnterior": 1.69
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 82,
+      "pctVotos": 0.6,
       "numCandidaturas": 5
     }
   },
@@ -2254,18 +2254,18 @@
     "poblacion": 247,
     "mesas": 1,
     "censo": 195,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 109,
+    "validos": 109,
+    "votosCandidaturas": 107,
+    "blanco": 2,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 55.89,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2273,54 +2273,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 65,
+        "pctVotos": 59.63,
         "pctVotosAnterior": 59.22
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 4.85
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 32,
+        "pctVotos": 29.36,
         "pctVotosAnterior": 29.13
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 5,
+        "pctVotos": 4.59,
+        "pctVotosAnterior": 4.85
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 3,
+        "pctVotos": 2.75,
         "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 1.83,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -2329,73 +2329,73 @@
     "poblacion": 11480,
     "mesas": 17,
     "censo": 8616,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 5795,
+    "validos": 5760,
+    "votosCandidaturas": 5741,
+    "blanco": 19,
+    "nulos": 35,
+    "participacionPct": 67.25,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EAJ-PNV",
+      "color": "#00843D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "votos": 1799,
+        "pctVotos": 31.23,
+        "pctVotosAnterior": 31.1
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1765,
+        "pctVotos": 30.64,
         "pctVotosAnterior": 30.48
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1299,
+        "pctVotos": 22.55,
         "pctVotosAnterior": 22.45
       },
       {
-        "siglas": "EAJ-PNV",
-        "color": "#00843D",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 31.1
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 427,
+        "pctVotos": 7.41,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 341,
+        "pctVotos": 5.92,
+        "pctVotosAnterior": 5.95
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 74,
+        "pctVotos": 1.28,
+        "pctVotosAnterior": 1.32
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 36,
+      "pctVotos": 0.62,
       "numCandidaturas": 5
     }
   },
@@ -2404,18 +2404,18 @@
     "poblacion": 1122,
     "mesas": 1,
     "censo": 868,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 623,
+    "validos": 613,
+    "votosCandidaturas": 610,
+    "blanco": 3,
+    "nulos": 10,
+    "participacionPct": 71.77,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2423,54 +2423,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 313,
+        "pctVotos": 51.06,
         "pctVotosAnterior": 50.99
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 9.38
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 169,
+        "pctVotos": 27.57,
         "pctVotosAnterior": 27.47
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 58,
+        "pctVotos": 9.46,
+        "pctVotosAnterior": 9.38
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 47,
+        "pctVotos": 7.67,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 12,
+        "pctVotos": 1.96,
+        "pctVotosAnterior": 1.97
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 8,
+        "pctVotos": 1.31,
+        "pctVotosAnterior": 1.32
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3,
+      "pctVotos": 0.49,
       "numCandidaturas": 5
     }
   },
@@ -2479,18 +2479,18 @@
     "poblacion": 4160,
     "mesas": 4,
     "censo": 3237,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 2131,
+    "validos": 2119,
+    "votosCandidaturas": 2114,
+    "blanco": 5,
+    "nulos": 12,
+    "participacionPct": 65.83,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2498,54 +2498,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 866,
+        "pctVotos": 40.87,
         "pctVotosAnterior": 40.79
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 20.44
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 495,
+        "pctVotos": 23.36,
         "pctVotosAnterior": 23.36
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 435,
+        "pctVotos": 20.53,
+        "pctVotosAnterior": 20.44
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 203,
+        "pctVotos": 9.58,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 86,
+        "pctVotos": 4.06,
+        "pctVotosAnterior": 4.04
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 18,
+        "pctVotos": 0.85,
+        "pctVotosAnterior": 0.85
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 11,
+      "pctVotos": 0.52,
       "numCandidaturas": 5
     }
   },
@@ -2554,18 +2554,18 @@
     "poblacion": 609,
     "mesas": 1,
     "censo": 469,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 333,
+    "validos": 333,
+    "votosCandidaturas": 332,
+    "blanco": 1,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 71.0,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2573,54 +2573,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 175,
+        "pctVotos": 52.55,
         "pctVotosAnterior": 52.2
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 8.8
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 96,
+        "pctVotos": 28.83,
         "pctVotosAnterior": 28.74
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 29,
+        "pctVotos": 8.71,
+        "pctVotosAnterior": 8.8
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 23,
+        "pctVotos": 6.91,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 6,
+        "pctVotos": 1.8,
+        "pctVotosAnterior": 1.76
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 0.9,
+        "pctVotosAnterior": 0.88
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -2629,73 +2629,73 @@
     "poblacion": 16904,
     "mesas": 21,
     "censo": 13456,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 9234,
+    "validos": 9188,
+    "votosCandidaturas": 9119,
+    "blanco": 69,
+    "nulos": 46,
+    "participacionPct": 68.62,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EAJ-PNV",
+      "color": "#00843D",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "EAJ-PNV",
+        "color": "#00843D",
+        "lado": 2,
+        "votos": 3050,
+        "pctVotos": 33.2,
+        "pctVotosAnterior": 32.99
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2244,
+        "pctVotos": 24.42,
         "pctVotosAnterior": 24.23
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1749,
+        "pctVotos": 19.04,
         "pctVotosAnterior": 18.96
       },
       {
-        "siglas": "EAJ-PNV",
-        "color": "#00843D",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 32.99
-      },
-      {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 935,
+        "pctVotos": 10.18,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 848,
+        "pctVotos": 9.23,
+        "pctVotosAnterior": 9.17
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 171,
+        "pctVotos": 1.86,
+        "pctVotosAnterior": 1.79
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 122,
+      "pctVotos": 1.33,
       "numCandidaturas": 5
     }
   },
@@ -2704,18 +2704,18 @@
     "poblacion": 128,
     "mesas": 1,
     "censo": 101,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 60,
+    "validos": 60,
+    "votosCandidaturas": 60,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 59.4,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2723,32 +2723,40 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 32,
+        "pctVotos": 53.33,
         "pctVotosAnterior": 51.56
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 1.56
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 21,
+        "pctVotos": 35.0,
         "pctVotosAnterior": 34.38
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 6,
+        "pctVotos": 10.0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 1,
+        "pctVotos": 1.67,
+        "pctVotosAnterior": 1.56
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       },
       {
@@ -2756,21 +2764,13 @@
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -2779,18 +2779,18 @@
     "poblacion": 503,
     "mesas": 1,
     "censo": 401,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 265,
+    "validos": 265,
+    "votosCandidaturas": 265,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 66.08,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2798,54 +2798,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 158,
+        "pctVotos": 59.62,
         "pctVotosAnterior": 59.26
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 5.93
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 78,
+        "pctVotos": 29.43,
         "pctVotosAnterior": 29.26
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 15,
+        "pctVotos": 5.66,
+        "pctVotosAnterior": 5.93
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 9,
+        "pctVotos": 3.4,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 1.13,
+        "pctVotosAnterior": 1.11
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 2,
+        "pctVotos": 0.75,
+        "pctVotosAnterior": 0.74
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -2854,18 +2854,18 @@
     "poblacion": 2825,
     "mesas": 3,
     "censo": 2143,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1587,
+    "validos": 1581,
+    "votosCandidaturas": 1574,
+    "blanco": 7,
+    "nulos": 6,
+    "participacionPct": 74.05,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2873,54 +2873,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 799,
+        "pctVotos": 50.54,
         "pctVotosAnterior": 50.37
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 7.06
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 565,
+        "pctVotos": 35.74,
         "pctVotosAnterior": 35.63
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 111,
+        "pctVotos": 7.02,
+        "pctVotosAnterior": 7.06
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 68,
+        "pctVotos": 4.3,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 19,
+        "pctVotos": 1.2,
+        "pctVotosAnterior": 1.18
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 0.38,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 6,
+      "pctVotos": 0.38,
       "numCandidaturas": 5
     }
   },
@@ -2929,18 +2929,18 @@
     "poblacion": 20375,
     "mesas": 23,
     "censo": 15752,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 10319,
+    "validos": 10251,
+    "votosCandidaturas": 10210,
+    "blanco": 41,
+    "nulos": 68,
+    "participacionPct": 65.5,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -2948,54 +2948,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 4516,
+        "pctVotos": 44.05,
         "pctVotosAnterior": 43.87
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2057,
+        "pctVotos": 20.07,
         "pctVotosAnterior": 19.99
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1651,
+        "pctVotos": 16.11,
         "pctVotosAnterior": 16.1
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 1275,
+        "pctVotos": 12.44,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 479,
+        "pctVotos": 4.67,
+        "pctVotosAnterior": 4.7
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 148,
+        "pctVotos": 1.44,
+        "pctVotosAnterior": 1.47
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 84,
+      "pctVotos": 0.82,
       "numCandidaturas": 5
     }
   },
@@ -3004,18 +3004,18 @@
     "poblacion": 314,
     "mesas": 1,
     "censo": 270,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 163,
+    "validos": 160,
+    "votosCandidaturas": 159,
+    "blanco": 1,
+    "nulos": 3,
+    "participacionPct": 60.37,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3023,54 +3023,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 77,
+        "pctVotos": 48.12,
         "pctVotosAnterior": 47.47
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 8.23
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 46,
+        "pctVotos": 28.75,
         "pctVotosAnterior": 28.48
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 13,
+        "pctVotos": 8.12,
+        "pctVotosAnterior": 8.23
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 11,
+        "pctVotos": 6.88,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 7,
+        "pctVotos": 4.38,
+        "pctVotosAnterior": 4.43
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 1.25,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3,
+      "pctVotos": 1.88,
       "numCandidaturas": 5
     }
   },
@@ -3079,18 +3079,18 @@
     "poblacion": 4143,
     "mesas": 5,
     "censo": 3138,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1860,
+    "validos": 1850,
+    "votosCandidaturas": 1842,
+    "blanco": 8,
+    "nulos": 10,
+    "participacionPct": 59.27,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3098,54 +3098,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 792,
+        "pctVotos": 42.81,
         "pctVotosAnterior": 42.59
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 20.03
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 398,
+        "pctVotos": 21.51,
         "pctVotosAnterior": 21.54
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 372,
+        "pctVotos": 20.11,
+        "pctVotosAnterior": 20.03
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 169,
+        "pctVotos": 9.14,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 81,
+        "pctVotos": 4.38,
+        "pctVotosAnterior": 4.46
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 21,
+        "pctVotos": 1.14,
+        "pctVotosAnterior": 1.24
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 9,
+      "pctVotos": 0.49,
       "numCandidaturas": 5
     }
   },
@@ -3154,18 +3154,18 @@
     "poblacion": 2271,
     "mesas": 3,
     "censo": 1678,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1120,
+    "validos": 1118,
+    "votosCandidaturas": 1112,
+    "blanco": 6,
+    "nulos": 2,
+    "participacionPct": 66.74,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3173,54 +3173,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 553,
+        "pctVotos": 49.46,
         "pctVotosAnterior": 49.17
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 7.05
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 407,
+        "pctVotos": 36.4,
         "pctVotosAnterior": 36.21
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 79,
+        "pctVotos": 7.07,
+        "pctVotosAnterior": 7.05
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 36,
+        "pctVotos": 3.22,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 27,
+        "pctVotos": 2.42,
+        "pctVotosAnterior": 2.44
       },
       {
         "siglas": "ESCAÑOS EN BLANCO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 0.45,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 5,
+      "pctVotos": 0.45,
       "numCandidaturas": 5
     }
   },
@@ -3229,18 +3229,18 @@
     "poblacion": 483,
     "mesas": 1,
     "censo": 346,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 204,
+    "validos": 204,
+    "votosCandidaturas": 204,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 58.95,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3248,54 +3248,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 128,
+        "pctVotos": 62.75,
         "pctVotosAnterior": 61.9
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 9.05
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 38,
+        "pctVotos": 18.63,
         "pctVotosAnterior": 18.57
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 18,
+        "pctVotos": 8.82,
+        "pctVotosAnterior": 9.05
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 9,
+        "pctVotos": 4.41,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 8,
+        "pctVotos": 3.92,
+        "pctVotosAnterior": 3.81
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 1.47,
+        "pctVotosAnterior": 1.43
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -3304,73 +3304,73 @@
     "poblacion": 62635,
     "mesas": 75,
     "censo": 47827,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 30750,
+    "validos": 30558,
+    "votosCandidaturas": 30415,
+    "blanco": 143,
+    "nulos": 192,
+    "participacionPct": 64.29,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 14.03
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 10818,
+        "pctVotos": 35.4,
         "pctVotosAnterior": 35.26
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5491,
+        "pctVotos": 17.97,
         "pctVotosAnterior": 17.82
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 4308,
+        "pctVotos": 14.1,
+        "pctVotosAnterior": 14.03
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 4159,
+        "pctVotos": 13.61,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3873,
+        "pctVotos": 12.67,
+        "pctVotosAnterior": 12.64
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 1431,
+        "pctVotos": 4.68,
+        "pctVotosAnterior": 4.71
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 335,
+      "pctVotos": 1.1,
       "numCandidaturas": 5
     }
   },
@@ -3379,18 +3379,18 @@
     "poblacion": 1885,
     "mesas": 2,
     "censo": 1346,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 786,
+    "validos": 782,
+    "votosCandidaturas": 778,
+    "blanco": 4,
+    "nulos": 4,
+    "participacionPct": 58.39,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3398,54 +3398,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 317,
+        "pctVotos": 40.54,
         "pctVotosAnterior": 40.4
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 17.47
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 189,
+        "pctVotos": 24.17,
         "pctVotosAnterior": 24.13
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 137,
+        "pctVotos": 17.52,
+        "pctVotosAnterior": 17.47
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 66,
+        "pctVotos": 8.44,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 38,
+        "pctVotos": 4.86,
+        "pctVotosAnterior": 4.93
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 24,
+        "pctVotos": 3.07,
+        "pctVotosAnterior": 3.2
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 0.9,
       "numCandidaturas": 5
     }
   },
@@ -3454,18 +3454,18 @@
     "poblacion": 643,
     "mesas": 1,
     "censo": 466,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 300,
+    "validos": 300,
+    "votosCandidaturas": 299,
+    "blanco": 1,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 64.37,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3473,54 +3473,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 185,
+        "pctVotos": 61.67,
         "pctVotosAnterior": 61.51
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 8.59
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 59,
+        "pctVotos": 19.67,
         "pctVotosAnterior": 19.59
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 26,
+        "pctVotos": 8.67,
+        "pctVotosAnterior": 8.59
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 17,
+        "pctVotos": 5.67,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 6,
+        "pctVotos": 2.0,
+        "pctVotosAnterior": 2.06
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 3,
+        "pctVotos": 1.0,
+        "pctVotosAnterior": 1.03
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3,
+      "pctVotos": 1.0,
       "numCandidaturas": 5
     }
   },
@@ -3529,18 +3529,18 @@
     "poblacion": 258,
     "mesas": 1,
     "censo": 211,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 130,
+    "validos": 129,
+    "votosCandidaturas": 127,
+    "blanco": 2,
+    "nulos": 1,
+    "participacionPct": 61.61,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3548,54 +3548,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 77,
+        "pctVotos": 59.69,
         "pctVotosAnterior": 59.17
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 10.83
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 20,
+        "pctVotos": 15.5,
         "pctVotosAnterior": 15.83
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 14,
+        "pctVotos": 10.85,
+        "pctVotosAnterior": 10.83
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 10,
+        "pctVotos": 7.75,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 3,
+        "pctVotos": 2.33,
+        "pctVotosAnterior": 2.5
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 0.78,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2,
+      "pctVotos": 1.55,
       "numCandidaturas": 5
     }
   },
@@ -3604,18 +3604,18 @@
     "poblacion": 5962,
     "mesas": 6,
     "censo": 4400,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 2883,
+    "validos": 2856,
+    "votosCandidaturas": 2844,
+    "blanco": 12,
+    "nulos": 27,
+    "participacionPct": 65.52,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3623,54 +3623,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1269,
+        "pctVotos": 44.43,
         "pctVotosAnterior": 44.28
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 16.71
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 723,
+        "pctVotos": 25.32,
         "pctVotosAnterior": 25.19
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 476,
+        "pctVotos": 16.67,
+        "pctVotosAnterior": 16.71
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 232,
+        "pctVotos": 8.12,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 103,
+        "pctVotos": 3.61,
+        "pctVotosAnterior": 3.68
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 30,
+        "pctVotos": 1.05,
+        "pctVotosAnterior": 1.08
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 11,
+      "pctVotos": 0.39,
       "numCandidaturas": 5
     }
   },
@@ -3679,18 +3679,18 @@
     "poblacion": 385,
     "mesas": 1,
     "censo": 305,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 200,
+    "validos": 200,
+    "votosCandidaturas": 196,
+    "blanco": 4,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 65.57,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3698,54 +3698,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 127,
+        "pctVotos": 63.5,
         "pctVotosAnterior": 63.24
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 3.78
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 46,
+        "pctVotos": 23.0,
         "pctVotosAnterior": 22.7
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 10,
+        "pctVotos": 5.0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 7,
+        "pctVotos": 3.5,
+        "pctVotosAnterior": 3.78
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 1.5,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 2,
+        "pctVotos": 1.0,
+        "pctVotosAnterior": 1.08
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 0.5,
       "numCandidaturas": 5
     }
   },
@@ -3754,18 +3754,18 @@
     "poblacion": 8337,
     "mesas": 12,
     "censo": 6427,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 4438,
+    "validos": 4414,
+    "votosCandidaturas": 4391,
+    "blanco": 23,
+    "nulos": 24,
+    "participacionPct": 69.05,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3773,54 +3773,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1608,
+        "pctVotos": 36.43,
         "pctVotosAnterior": 36.33
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 22.55
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1044,
+        "pctVotos": 23.65,
         "pctVotosAnterior": 23.58
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 1000,
+        "pctVotos": 22.66,
+        "pctVotosAnterior": 22.55
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 439,
+        "pctVotos": 9.95,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 225,
+        "pctVotos": 5.1,
+        "pctVotosAnterior": 5.1
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 54,
+        "pctVotos": 1.22,
+        "pctVotosAnterior": 1.27
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 21,
+      "pctVotos": 0.48,
       "numCandidaturas": 5
     }
   },
@@ -3829,18 +3829,18 @@
     "poblacion": 1432,
     "mesas": 2,
     "censo": 1029,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 683,
+    "validos": 682,
+    "votosCandidaturas": 681,
+    "blanco": 1,
+    "nulos": 1,
+    "participacionPct": 66.37,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3848,54 +3848,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 312,
+        "pctVotos": 45.75,
         "pctVotosAnterior": 45.45
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 14.14
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 195,
+        "pctVotos": 28.59,
         "pctVotosAnterior": 28.43
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 96,
+        "pctVotos": 14.08,
+        "pctVotosAnterior": 14.14
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 42,
+        "pctVotos": 6.16,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 24,
+        "pctVotos": 3.52,
+        "pctVotosAnterior": 3.46
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 6,
+        "pctVotos": 0.88,
+        "pctVotosAnterior": 0.87
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 6,
+      "pctVotos": 0.88,
       "numCandidaturas": 5
     }
   },
@@ -3904,18 +3904,18 @@
     "poblacion": 6011,
     "mesas": 7,
     "censo": 4971,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 3246,
+    "validos": 3213,
+    "votosCandidaturas": 3202,
+    "blanco": 11,
+    "nulos": 33,
+    "participacionPct": 65.29,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3923,54 +3923,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1410,
+        "pctVotos": 43.88,
         "pctVotosAnterior": 43.66
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 662,
+        "pctVotos": 20.6,
         "pctVotosAnterior": 20.52
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 538,
+        "pctVotos": 16.74,
         "pctVotosAnterior": 16.68
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 383,
+        "pctVotos": 11.92,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 143,
+        "pctVotos": 4.45,
+        "pctVotosAnterior": 4.47
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 48,
+        "pctVotos": 1.49,
+        "pctVotosAnterior": 1.5
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 18,
+      "pctVotos": 0.56,
       "numCandidaturas": 5
     }
   },
@@ -3979,18 +3979,18 @@
     "poblacion": 629,
     "mesas": 1,
     "censo": 488,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 287,
+    "validos": 283,
+    "votosCandidaturas": 283,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 4,
+    "participacionPct": 58.81,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -3998,54 +3998,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 222,
+        "pctVotos": 78.45,
         "pctVotosAnterior": 78.18
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 2.91
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 37,
+        "pctVotos": 13.07,
         "pctVotosAnterior": 13.09
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 10,
+        "pctVotos": 3.53,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 8,
+        "pctVotos": 2.83,
+        "pctVotosAnterior": 2.91
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 3,
+        "pctVotos": 1.06,
+        "pctVotosAnterior": 1.09
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 0.35,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2,
+      "pctVotos": 0.71,
       "numCandidaturas": 5
     }
   },
@@ -4054,18 +4054,18 @@
     "poblacion": 21760,
     "mesas": 30,
     "censo": 17028,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 11164,
+    "validos": 11106,
+    "votosCandidaturas": 11080,
+    "blanco": 26,
+    "nulos": 58,
+    "participacionPct": 65.56,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -4073,54 +4073,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 4102,
+        "pctVotos": 36.93,
         "pctVotosAnterior": 36.56
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2511,
+        "pctVotos": 22.61,
         "pctVotosAnterior": 22.49
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2434,
+        "pctVotos": 21.92,
         "pctVotosAnterior": 21.92
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 1293,
+        "pctVotos": 11.64,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 526,
+        "pctVotos": 4.74,
+        "pctVotosAnterior": 4.85
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 130,
+        "pctVotos": 1.17,
+        "pctVotosAnterior": 1.18
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 84,
+      "pctVotos": 0.76,
       "numCandidaturas": 5
     }
   },
@@ -4129,18 +4129,18 @@
     "poblacion": 5304,
     "mesas": 7,
     "censo": 4118,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 2699,
+    "validos": 2680,
+    "votosCandidaturas": 2679,
+    "blanco": 1,
+    "nulos": 19,
+    "participacionPct": 65.54,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -4148,54 +4148,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1248,
+        "pctVotos": 46.57,
         "pctVotosAnterior": 46.26
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 9.41
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 884,
+        "pctVotos": 32.99,
         "pctVotosAnterior": 32.81
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 252,
+        "pctVotos": 9.4,
+        "pctVotosAnterior": 9.41
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 192,
+        "pctVotos": 7.16,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 82,
+        "pctVotos": 3.06,
+        "pctVotosAnterior": 3.15
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 0.22,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 15,
+      "pctVotos": 0.56,
       "numCandidaturas": 5
     }
   },
@@ -4204,18 +4204,18 @@
     "poblacion": 259,
     "mesas": 1,
     "censo": 202,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 139,
+    "validos": 139,
+    "votosCandidaturas": 139,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 68.81,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -4223,54 +4223,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 81,
+        "pctVotos": 58.27,
         "pctVotosAnterior": 57.24
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 10.34
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 31,
+        "pctVotos": 22.3,
         "pctVotosAnterior": 22.07
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 14,
+        "pctVotos": 10.07,
+        "pctVotosAnterior": 10.34
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 11,
+        "pctVotos": 7.91,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 1,
+        "pctVotos": 0.72,
+        "pctVotosAnterior": 0.69
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 1,
+        "pctVotos": 0.72,
+        "pctVotosAnterior": 0.69
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 5
     }
   },
@@ -4279,18 +4279,18 @@
     "poblacion": 914,
     "mesas": 2,
     "censo": 711,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 474,
+    "validos": 472,
+    "votosCandidaturas": 469,
+    "blanco": 3,
+    "nulos": 2,
+    "participacionPct": 66.66,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -4298,54 +4298,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 162,
+        "pctVotos": 34.32,
         "pctVotosAnterior": 33.55
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 19.32
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 137,
+        "pctVotos": 29.03,
         "pctVotosAnterior": 28.66
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 88,
+        "pctVotos": 18.64,
+        "pctVotosAnterior": 19.32
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 48,
+        "pctVotos": 10.17,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 23,
+        "pctVotos": 4.87,
+        "pctVotosAnterior": 5.1
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 7,
+        "pctVotos": 1.48,
+        "pctVotosAnterior": 1.49
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 4,
+      "pctVotos": 0.85,
       "numCandidaturas": 5
     }
   },
@@ -4354,18 +4354,18 @@
     "poblacion": 11515,
     "mesas": 15,
     "censo": 8818,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 5675,
+    "validos": 5660,
+    "votosCandidaturas": 5648,
+    "blanco": 12,
+    "nulos": 15,
+    "participacionPct": 68.51,
+    "pctEscrutado": 93.93,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -4373,54 +4373,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2842,
+        "pctVotos": 50.21,
         "pctVotosAnterior": 50.92
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 11.01
       },
       {
         "siglas": "EAJ-PNV",
         "color": "#00843D",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1616,
+        "pctVotos": 28.55,
         "pctVotosAnterior": 28.03
       },
       {
-        "siglas": "PACMA",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 642,
+        "pctVotos": 11.34,
+        "pctVotosAnterior": 11.01
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 358,
+        "pctVotos": 6.33,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "FO",
-        "color": "#9AA0A6",
+        "siglas": "PP",
+        "color": "#0557A1",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 146,
+        "pctVotos": 2.58,
+        "pctVotosAnterior": 2.55
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 22,
+        "pctVotos": 0.39,
+        "pctVotosAnterior": 0.38
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 22,
+      "pctVotos": 0.39,
       "numCandidaturas": 5
     }
   },
