@@ -4,65 +4,65 @@
     "poblacion": 85170,
     "mesas": 87,
     "censo": 57087,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 28528,
+    "validos": 28260,
+    "votosCandidaturas": 28035,
+    "blanco": 225,
+    "nulos": 268,
+    "participacionPct": 49.97,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 14416,
+        "pctVotos": 51.01,
+        "pctVotosAnterior": 49.2
+      },
+      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 7627,
+        "pctVotos": 26.99,
         "pctVotosAnterior": 25.36
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 5016,
+        "pctVotos": 17.75,
+        "pctVotosAnterior": 15.99
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 488,
+        "pctVotos": 1.73,
         "pctVotosAnterior": null
       },
       {
         "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 488,
+        "pctVotos": 1.73,
         "pctVotosAnterior": null
-      },
-      {
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 15.99
-      },
-      {
-        "siglas": "PP",
-        "color": "#0557A1",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 49.2
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   }
