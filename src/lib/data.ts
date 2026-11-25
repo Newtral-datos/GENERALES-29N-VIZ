@@ -363,10 +363,29 @@ export type ResultadoMunicipio = {
 
 const cacheResultadosMunicipios = new Map<string, Promise<Record<string, ResultadoMunicipio>>>();
 
+/**
+ * Los tres juegos municipales van por `leerJsonOVacio` como todo lo demás.
+ *
+ * Faltaban: eran los únicos getters que propagaban el error, y eso dejaba los
+ * mapas municipales —el de la home, el de /provincias, el de /participacion y el
+ * del Senado— esperando para siempre en el estado sin datos de la jornada, con
+ * la promesa rechazada **cacheada**, así que ni recargando el nivel se
+ * reintentaba. Es el mismo fallo que se arregló el 23/11 para los getters
+ * principales; estos se quedaron fuera porque son por provincia y están en otra
+ * parte del fichero.
+ *
+ * Un `{}` vacío es lo correcto aquí: el mapa municipal ya sabe pintar en gris
+ * un municipio sin resultado (es lo que hace durante el escrutinio con los que
+ * aún no han entrado), así que sin datos pinta la provincia entera en gris en
+ * vez de no pintarla.
+ */
 export function getResultadosMunicipios(codProv: string): Promise<Record<string, ResultadoMunicipio>> {
 	let promise = cacheResultadosMunicipios.get(codProv);
 	if (!promise) {
-		promise = leerJson<Record<string, ResultadoMunicipio>>(`${rutaDe('municipios')}/${codProv}.json`);
+		promise = leerJsonOVacio<Record<string, ResultadoMunicipio>>(
+			`${rutaDe('municipios')}/${codProv}.json`,
+			{}
+		);
 		cacheResultadosMunicipios.set(codProv, promise);
 	}
 	return promise;
@@ -584,8 +603,9 @@ export function getParticipacionMunicipios(
 ): Promise<Record<string, ParticipacionMunicipio>> {
 	let promise = cacheParticipacionMunicipios.get(codProv);
 	if (!promise) {
-		promise = leerJson<Record<string, ParticipacionMunicipio>>(
-			`${rutaDe('participacionMunicipios')}/${codProv}.json`
+		promise = leerJsonOVacio<Record<string, ParticipacionMunicipio>>(
+			`${rutaDe('participacionMunicipios')}/${codProv}.json`,
+			{}
 		);
 		cacheParticipacionMunicipios.set(codProv, promise);
 	}
@@ -625,8 +645,9 @@ export function getMunicipiosSenado(
 ): Promise<Record<string, ResultadoMunicipioSenado>> {
 	let promise = cacheMunicipiosSenado.get(codProv);
 	if (!promise) {
-		promise = leerJson<Record<string, ResultadoMunicipioSenado>>(
-			`${rutaDe('municipiosSenado')}/${codProv}.json`
+		promise = leerJsonOVacio<Record<string, ResultadoMunicipioSenado>>(
+			`${rutaDe('municipiosSenado')}/${codProv}.json`,
+			{}
 		);
 		cacheMunicipiosSenado.set(codProv, promise);
 	}

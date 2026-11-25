@@ -8,7 +8,7 @@
 
 	<div class="intro">
 		<p class="kicker">Resultados por provincia y municipio</p>
-		<h1 class="titulo">Elige una provincia o municipio para ver sus resultados</h1>
+		<h1 class="titulo">Pulsa una provincia para ver sus municipios</h1>
 	</div>
 
 	<SelectorProvincias />
@@ -17,7 +17,7 @@
 <style>
 	.main {
 		padding: 20px 24px 32px;
-		max-width: 900px;
+		max-width: 1040px;
 		margin: 0 auto;
 	}
 

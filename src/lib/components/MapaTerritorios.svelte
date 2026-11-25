@@ -49,7 +49,12 @@
 		popup,
 		municipios,
 		nota,
-		buscador = false
+		buscador = false,
+		nivelInicial = 'ccaa',
+		nivel = $bindable(nivelInicial),
+		codProvSel = $bindable(null),
+		onCambioDeNivel,
+		onMunicipio
 	}: {
 		comunidades: Record<string, Ambito> | null;
 		provincias: Record<string, Ambito> | null;
@@ -57,11 +62,56 @@
 		municipios: Snippet<[string]>;
 		nota: string;
 		buscador?: boolean;
+		/**
+		 * Nivel en el que abre el mapa, y **suelo** del que no se puede subir.
+		 *
+		 * La home abre en comunidades, que es su vista por defecto. `/provincias`
+		 * abre directamente en provincias: ahí el nivel de comunidad no aporta
+		 * —la pregunta de esa vista es "qué pasó en mi provincia"— y una miga
+		 * para "volver a España" llevaría a un nivel en el que nunca se estuvo.
+		 */
+		nivelInicial?: Nivel;
+		/**
+		 * El nivel y la provincia abierta, hacia fuera.
+		 *
+		 * Hacen falta porque `/provincias` pinta la tabla **al lado** del mapa, y
+		 * esa tabla tiene que saber qué hay abierto. Son `$bindable` y opcionales:
+		 * quien no los pase —la home y el Senado— se comporta igual que antes,
+		 * porque el estado sigue viviendo aquí.
+		 */
+		nivel?: Nivel;
+		codProvSel?: string | null;
+		/**
+		 * Se llama cada vez que cambia el nivel, al bajar y al subir, con la
+		 * provincia abierta o `null`.
+		 *
+		 * Es para que `/provincias` escriba la query string (`?cod=`) **desde el
+		 * manejador del clic**. No se puede hacer con un `$effect` que mire
+		 * `codProvSel` y llame a `replaceState`: ese efecto depende de `page.url`
+		 * y además lo modifica, así que se vuelve a disparar a sí mismo en bucle
+		 * y cuelga la pestaña — pasó exactamente así en este proyecto (ver
+		 * AGENTS.md, "Resultados por municipio").
+		 *
+		 * Cubre las dos direcciones a propósito: si solo avisara al bajar, las
+		 * migas de pan devolverían el mapa al nivel de provincias dejando el
+		 * `?cod=` puesto, y al recargar se volvería a entrar en la provincia que
+		 * el lector acababa de cerrar.
+		 */
+		onCambioDeNivel?: (nivel: Nivel, codProv: string | null) => void;
+		/**
+		 * Qué hacer cuando el buscador encuentra un municipio.
+		 *
+		 * Por defecto `goto('/provincias?cod=…&muni=…')`, que es lo que hace
+		 * falta desde la home. Pero **dentro de `/provincias` eso navega a sí
+		 * misma**: el componente no se remonta, la lectura de la query string
+		 * corre una sola vez a propósito y el buscador no hacía nada. Esa vista
+		 * pasa su propio manejador y se lleva al lector al municipio sin
+		 * recargar.
+		 */
+		onMunicipio?: (m: MunicipioIndice) => void;
 	} = $props();
 
-	let nivel = $state<Nivel>('ccaa');
 	let codCcaaSel = $state<string | null>(null);
-	let codProvSel = $state<string | null>(null);
 
 	let ccaaFeatures = $state<FeatureCcaa[] | null>(null);
 
@@ -136,10 +186,6 @@
 		setPopupPos(e.clientX, e.clientY);
 	}
 
-	function onProvinceClick(codProv: string) {
-		goto(`${resolve('/provincias')}?cod=${codProv}`);
-	}
-
 	// Buscador de municipios: lleva directo al resultado de la provincia con el municipio preseleccionado.
 	let indiceMunicipios = $state<MunicipioIndice[] | null>(null);
 	let busqueda = $state('');
@@ -165,7 +211,8 @@
 	});
 
 	function irAMunicipio(m: MunicipioIndice) {
-		goto(`${resolve('/provincias')}?cod=${m.codProv}&muni=${m.ine}`);
+		if (onMunicipio) onMunicipio(m);
+		else goto(`${resolve('/provincias')}?cod=${m.codProv}&muni=${m.ine}`);
 		busqueda = '';
 		dropdownAbierto = false;
 	}
@@ -188,6 +235,11 @@
 		} else if (nivel === 'provincia') {
 			codProvSel = cod;
 			nivel = 'municipio';
+			// Aquí había además un `onProvinceClick()` que hacía
+			// `goto('/provincias?cod=…')` y que **no lo llamaba nadie**: los
+			// polígonos siempre han llamado a `bajarNivel`. Se ha quitado al
+			// añadir este aviso, que es lo que esa función intentaba hacer.
+			onCambioDeNivel?.('municipio', cod);
 		}
 	}
 
@@ -200,7 +252,12 @@
 		} else if (destino === 'provincia') {
 			codProvSel = null;
 		}
+		onCambioDeNivel?.(destino, codProvSel);
 	}
+
+	// Con `nivelInicial = 'provincia'` el nivel de comunidad no existe para esta
+	// vista: la miga de España sobra y el de provincias es el suelo.
+	let hayNivelCcaa = $derived(nivelInicial === 'ccaa');
 
 	let nombreCcaa = $derived(codCcaaSel && comunidades ? comunidades[codCcaaSel]?.nombre : null);
 	let nombreProv = $derived(codProvSel && provincias ? provincias[codProvSel]?.nombre : null);
@@ -231,9 +288,15 @@
 				geometry: f.geometry
 			}));
 		}
-		// Dentro de una comunidad: solo sus provincias.
+		// Dentro de una comunidad, solo sus provincias. **Sin comunidad
+		// seleccionada, las 52**: es el caso de `/provincias`, que abre
+		// directamente en este nivel sin pasar por ninguna comunidad. Antes el
+		// filtro comparaba contra un `codCcaaSel` nulo y no devolvía ni un
+		// polígono, así que el mapa de esa vista salía vacío — se leía como "el
+		// mapa no se pinta de gris", cuando lo que pasaba es que no se pintaba
+		// nada.
 		return (allFeatures ?? [])
-			.filter((f) => f.properties.cod_ccaa === codCcaaSel)
+			.filter((f) => !codCcaaSel || f.properties.cod_ccaa === codCcaaSel)
 			.map((f) => ({
 				type: 'Feature' as const,
 				properties: { cod: f.properties.cod_prov, nombre: f.properties.name },
@@ -241,17 +304,27 @@
 			}));
 	});
 
-	// El recuadro de Canarias solo tiene sentido en el mapa de España entera. Al
-	// entrar en Canarias el encuadre ya es el del archipiélago, así que sus dos
-	// provincias se dibujan normales y el recuadro desaparece.
-	let esCanarias = $derived(nivel === 'ccaa' ? false : codCcaaSel === CANARIAS_CCAA);
+	/**
+	 * ¿Se está dibujando el país entero? Dos casos: el mapa de comunidades, y el
+	 * de las 52 provincias de `/provincias`.
+	 *
+	 * Es lo que decide si hace falta el recuadro de Canarias. Al entrar en una
+	 * comunidad el encuadre ya es el de esa comunidad, así que si es Canarias sus
+	 * dos provincias se dibujan normales y el recuadro desaparece.
+	 */
+	let vistaNacional = $derived(nivel === 'ccaa' || (nivel === 'provincia' && !codCcaaSel));
+
+	// Qué código identifica al archipiélago cambia con el nivel: una comunidad
+	// (05) o dos provincias (35 y 38).
+	function esDeCanarias(cod: string): boolean {
+		return nivel === 'ccaa' ? cod === CANARIAS_CCAA : CANARIAS_CODES.has(cod);
+	}
+
 	let mainFeatures = $derived(
-		nivel === 'ccaa'
-			? featuresNivel.filter((f) => f.properties.cod !== CANARIAS_CCAA)
-			: featuresNivel
+		vistaNacional ? featuresNivel.filter((f) => !esDeCanarias(f.properties.cod)) : featuresNivel
 	);
 	let canaryFeatures = $derived(
-		nivel === 'ccaa' ? featuresNivel.filter((f) => f.properties.cod === CANARIAS_CCAA) : []
+		vistaNacional ? featuresNivel.filter((f) => esDeCanarias(f.properties.cod)) : []
 	);
 
 	let mainBounds = $derived(computeBounds(mainFeatures));
@@ -276,9 +349,20 @@
 		<!-- Migas de pan: el único modo de saber dónde estás y de volver. Sin
 		     esto, bajar dos niveles es un callejón sin salida. -->
 		<nav class="migas" aria-label="Nivel del mapa">
-			<button type="button" class="miga" class:activa={nivel === 'ccaa'} onclick={() => volverA('ccaa')}>
-				España
-			</button>
+			{#if hayNivelCcaa}
+				<button type="button" class="miga" class:activa={nivel === 'ccaa'} onclick={() => volverA('ccaa')}>
+					España
+				</button>
+			{:else}
+				<button
+					type="button"
+					class="miga"
+					class:activa={nivel === 'provincia'}
+					onclick={() => volverA('provincia')}
+				>
+					Provincias
+				</button>
+			{/if}
 			{#if nombreCcaa}
 				<span class="sep">›</span>
 				<button

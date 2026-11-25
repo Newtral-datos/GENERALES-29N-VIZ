@@ -190,9 +190,24 @@ petición falla.
 
 Como el fallo que eso evita es invisible en build (`vite build` no hace `fetch`
 y `svelte-check` no mira `static/`), hay una comprobación aparte en
-`scripts/comprobar-fuente.mjs`, enganchada a `predeploy`: si `FUENTE_DATOS`
-pide unos ficheros que no están en `static/data/`, aborta con código 1 y el
-`gh-pages` no llega a correr.
+`scripts/comprobar-fuente.mjs`, enganchada a `predeploy`.
+
+**Y no es "faltan ficheros, aborta": distingue tres casos**, porque el riesgo de
+cada uno es distinto.
+
+| Caso | Qué hace | Por qué |
+|---|---|---|
+| Faltan **todos** los datos de la jornada | Pasa, con un aviso grande | Es el panel previo: tabla y hemiciclo enseñan la Cámara saliente desde los `anterior-*.json` y los mapas van al gris de "sin escrutar". Es lo que se publica antes de que empiece el escrutinio |
+| Faltan **algunos** | Aborta con código 1 | Es el caso peligroso: publica una mezcla de piezas con datos y piezas vacías, o con los de la vuelta anterior. Es el fallo que llevó a escribir esta comprobación |
+| Falta algo **del repo** (geometría, tablas fijas, `anterior-*`) | Aborta con código 1 | Eso no lo genera ningún script: si falta, alguien lo ha borrado |
+
+Hasta el 25/11 el primer caso también abortaba, y eso dejaba **el panel previo
+sin poder desplegarse** — justo el estado para el que se hizo todo el trabajo de
+"verse sin datos de la jornada". La distinción no necesita un interruptor nuevo:
+"todos ausentes" es un estado coherente y "algunos ausentes" no lo es nunca.
+
+Lo que la lista **no** comprueba todavía: `municipios/` (la geometría
+municipal) y el municipal del Senado. Es el punto I1 de la auditoría.
 
 ### De qué carpeta se leen: `DATOS_SIMULADOS`
 

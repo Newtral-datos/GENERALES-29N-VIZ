@@ -3,7 +3,7 @@
 	import { page } from '$app/state';
 	import { replaceState } from '$app/navigation';
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection } from '#lib/geo';
-	import { fillDe, etiquetaDe } from '#lib/empates';
+	import { fillDe, etiquetaDe, GRIS_SIN_DATOS } from '#lib/empates';
 	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
 	import { assetDinamico, getResultadosMunicipios, type ResultadoMunicipio } from '#lib/data';
 
@@ -52,7 +52,17 @@
 	// gris liso sin escrutar y color del más votado en el resto. Los empates son
 	// reales en municipios pequeños y se declaran en el popup, no en el relleno
 	// (ver RAYADO_EMPATES en #lib/empates).
+	// Sin un solo resultado —antes de que empiece el escrutinio, o si falla la
+	// petición de esa provincia— la provincia entera va al gris de "sin
+	// escrutar", igual que el mapa de territorios. En blanco parece que el mapa
+	// está roto, y a las 20:00 del 29N es exactamente lo que pasa.
+	//
+	// Es distinto de que falte UN municipio habiendo datos de los demás: eso sí
+	// es papel, porque ahí el hueco es del municipio y no del escrutinio.
+	let sinResultados = $derived(!resultados || Object.keys(resultados).length === 0);
+
 	function colorFor(natcode: string): string {
+		if (sinResultados) return GRIS_SIN_DATOS;
 		const r = resultadoFor(natcode);
 		if (!r) return 'var(--paper)';
 		return fillDe(r.ganador ?? null);

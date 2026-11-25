@@ -52,18 +52,18 @@ if (simulados === 'true') {
 	process.exit(1);
 }
 
-const ESPERADOS = {
-	'23j': ['resultados23j.json', 'participacion23j.json', 'resultadosSenado23j.json'],
-	'29n': ['resultados29n.json', 'participacion29n.json', 'resultadosSenado29n.json']
-};
-
-// Comunes a las dos convocatorias. `indice-municipios.json` está aquí porque se
-// escapó de la primera versión de esta comprobación: faltaba, el deploy pasó, y
-// el buscador de municipios quedó publicado con un 404 en consola. Lo que no se
-// comprueba, no está.
-const COMUNES = [
-	'indice-municipios.json',
+// Dos grupos, y el trato es distinto porque el riesgo es distinto.
+//
+// **Del repo**: geometría y tablas fijas. No las escribe ningún script del
+// pipeline, así que si falta una es que alguien la ha borrado. Aborta siempre.
+const DEL_REPO = [
 	'ccaa-provincias.json',
+	// Índice del buscador de municipios. Es estructura —nombre, provincia y
+	// código INE— y no resultados, así que está versionado y tiene que existir
+	// también sin datos de la jornada: si falta, el buscador no devuelve nada y
+	// no hay ningún error visible. Lo genera
+	// `elecciones-datos/scripts/generar_indice_municipios.py`.
+	'indice-municipios.json',
 	'escanos-congreso-provincias.json',
 	'provincias.geojson',
 	// Geometría del nivel de comunidad: es la vista por defecto del mapa de la
@@ -76,47 +76,92 @@ const COMUNES = [
 	'anterior-congreso.json',
 	'anterior-senado.json'
 ];
-const CARPETA_MUNICIPIOS = { '23j': 'resultados-municipios', '29n': 'resultados-municipios-29n' };
-// La participación municipal solo existe para el 29N (sale de los ficheros
-// `avances-municipios-*` de la jornada, que no tienen equivalente en 23J).
-const CARPETA_PARTICIPACION_MUNICIPIOS = 'participacion-municipios-29n';
 
-const faltan = [...ESPERADOS[fuente], ...COMUNES].filter((f) => !existsSync(join(DATA, f)));
+// **De la jornada**: lo que regenera el pipeline en cada vuelta.
+//
+// `indice-municipios.json` está aquí porque se escapó de la primera versión de
+// esta comprobación: faltaba, el deploy pasó, y el buscador de municipios quedó
+// publicado con un 404 en consola. Lo que no se comprueba, no está.
+const DE_LA_JORNADA = {
+	'23j': [
+		'resultados23j.json',
+		'participacion23j.json',
+		'resultadosSenado23j.json',
+		'resultados-municipios/',
+		'participacion-municipios-29n/'
+	],
+	'29n': [
+		'resultados29n.json',
+		'participacion29n.json',
+		'resultadosSenado29n.json',
+		'resultados-municipios-29n/',
+		// La participación municipal solo existe para el 29N (sale de los
+		// ficheros `avances-municipios-*` de la jornada, que no tienen
+		// equivalente en 23J).
+		'participacion-municipios-29n/'
+	]
+};
 
-const dirMunicipios = join(DATA, CARPETA_MUNICIPIOS[fuente]);
-let avisoMunicipios = null;
-if (!existsSync(dirMunicipios)) {
-	faltan.push(`${CARPETA_MUNICIPIOS[fuente]}/`);
-} else {
-	const n = readdirSync(dirMunicipios).filter((f) => f.endsWith('.json')).length;
-	// 52 provincias. Menos no es necesariamente un error durante la jornada (el
-	// Ministerio publica por ámbitos), pero conviene verlo antes de publicar.
-	if (n < 52) avisoMunicipios = `${CARPETA_MUNICIPIOS[fuente]}/ tiene ${n} de 52 provincias`;
-}
+// Cuál de esas carpetas debería tener 52 provincias.
+const CARPETA_MUNICIPIOS = { '23j': 'resultados-municipios/', '29n': 'resultados-municipios-29n/' };
+
+const faltanRepo = DEL_REPO.filter((f) => !existsSync(join(DATA, f)));
+const jornada = DE_LA_JORNADA[fuente];
+const faltanJornada = jornada.filter((f) => !existsSync(join(DATA, f.replace(/\/$/, ''))));
 
 console.log(`FUENTE_DATOS = '${fuente}'`);
 
-if (faltan.length) {
-	console.error(`\nFaltan en static/data/ los datos que pide esa fuente:`);
-	for (const f of faltan) console.error(`  - ${f}`);
+if (faltanRepo.length) {
+	console.error('\nFaltan ficheros que NO genera el pipeline, así que alguien los ha borrado:');
+	for (const f of faltanRepo) console.error(`  - ${f}`);
+	console.error('\nLos dos `anterior-*.json` los regenera `python3 -m pipeline.procesado.anterior_29n`.');
+	console.error('La geometría y las tablas fijas están versionadas: `git checkout -- static/data`.');
+	process.exit(1);
+}
+
+// **Ausentes TODOS: es el estado vacío, y es un estado válido.**
+//
+// El panel está construido a propósito para verse sin datos de la jornada: el
+// getter devuelve un juego vacío bien formado, la tabla y el hemiciclo enseñan
+// la Cámara saliente desde los `anterior-*.json` y los mapas van al gris de "sin
+// escrutar". Es lo que hay que publicar antes de que empiece el escrutinio, así
+// que esto no puede abortar — antes lo hacía, y dejaba el panel previo sin poder
+// desplegarse.
+//
+// **Ausentes ALGUNOS: eso sí aborta.** Es el caso peligroso de verdad: una
+// vuelta del pipeline a medias, o una receta de limpieza que se dejó ficheros
+// por el camino, publica una mezcla de datos nuevos y viejos. Que es
+// exactamente el fallo que llevó a escribir esta comprobación.
+if (faltanJornada.length === jornada.length) {
+	console.warn('\n  ⚠ SIN DATOS DE LA JORNADA — se despliega el panel previo.');
+	console.warn('    La tabla y el hemiciclo enseñarán la Cámara saliente, y los mapas');
+	console.warn('    saldrán en el gris de "sin escrutar". Es el estado correcto antes de');
+	console.warn('    que empiece el escrutinio.');
+	console.warn('    Si esto NO es lo que querías, lanza el pipeline antes de desplegar:');
+	console.warn('      cd ../elecciones-datos && ./scripts/actualizar_29n.sh');
+	process.exit(0);
+}
+
+if (faltanJornada.length) {
+	console.error('\nFaltan SOLO ALGUNOS de los datos de la jornada:');
+	for (const f of faltanJornada) console.error(`  - ${f}`);
 	console.error(
-		`\nEl panel se desplegaría con la portada vacía y 404 en consola.\n` +
+		'\nEso publica una mezcla: unas piezas con datos y otras vacías, o peor, con\n' +
+			'los de la vuelta anterior. O se completa la vuelta, o se vacía del todo\n' +
+			'(receta en ESTADO.md, "Volver al punto de partida").\n' +
 			(fuente === '29n'
-				? 'Lánzalo primero: cd ../elecciones-datos && ./scripts/actualizar_29n.sh\n' +
+				? 'Completar: cd ../elecciones-datos && ./scripts/actualizar_29n.sh\n' +
 					'(sin --pruebas: con ese flag los JSON van a static/data-simulado/, no al panel)'
 				: 'Los JSON de 23J los generan los scripts de pipeline/procesado/historico/.')
 	);
 	process.exit(1);
 }
 
-const dirPartMuni = join(DATA, CARPETA_PARTICIPACION_MUNICIPIOS);
-if (!existsSync(dirPartMuni)) {
-	console.error(
-		`\nFalta static/data/${CARPETA_PARTICIPACION_MUNICIPIOS}/ — el mapa municipal de /participacion\n` +
-			'se quedaría sin datos. Lo genera pipeline.procesado.participacion_29n_municipios.'
-	);
-	process.exit(1);
-}
+// Con todo presente, el único aviso que queda es de completitud.
+const dirMunicipios = join(DATA, CARPETA_MUNICIPIOS[fuente].replace(/\/$/, ''));
+const n = readdirSync(dirMunicipios).filter((f) => f.endsWith('.json')).length;
+// 52 provincias. Menos no es necesariamente un error durante la jornada (el
+// Ministerio publica por ámbitos), pero conviene verlo antes de publicar.
+if (n < 52) console.warn(`  aviso: ${CARPETA_MUNICIPIOS[fuente]} tiene ${n} de 52 provincias`);
 
-if (avisoMunicipios) console.warn(`  aviso: ${avisoMunicipios}`);
 console.log('  los datos de esa fuente están completos en static/data/');

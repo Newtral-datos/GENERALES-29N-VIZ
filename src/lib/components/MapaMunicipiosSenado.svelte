@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection } from '#lib/geo';
 	import { assetDinamico, getMunicipiosSenado, type ResultadoMunicipioSenado } from '#lib/data';
-	import { fillDe, etiquetaDe } from '#lib/empates';
+	import { fillDe, etiquetaDe, GRIS_SIN_DATOS } from '#lib/empates';
 	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
 
 	type MuniProps = { NATCODE: string; NAMEUNIT: string; cod_prov: string };
@@ -45,7 +45,14 @@
 	// Gris sin escrutar y color del más votado en todo lo demás, empate incluido
 	// (ver RAYADO_EMPATES en #lib/empates). El estado lo marca el pipeline, igual
 	// que en los mapas del Congreso.
+	// Mismo criterio que MapaMunicipios: sin un solo resultado, la provincia
+	// entera al gris de "sin escrutar". `fillDe(undefined)` da papel, y eso es
+	// para el otro caso —un municipio que falta habiendo datos de los demás—, no
+	// para una provincia sin escrutar: en blanco el mapa parece roto.
+	let sinResultados = $derived(!datos || Object.keys(datos).length === 0);
+
 	function colorFor(natcode: string): string {
+		if (sinResultados) return GRIS_SIN_DATOS;
 		return fillDe(datos?.[ine(natcode)]?.ganador);
 	}
 
