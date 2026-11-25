@@ -2,9 +2,9 @@
   "_guia": "Senado 29N. Ojo con tres cosas antes de tocar nada: (1) los 208 son los senadores que se ELIGEN en las urnas; los 58 designados por los parlamentos autonómicos llegan semanas después y no están aquí, pero sí cuentan para la mayoría absoluta de 134 sobre 266. (2) No hay escaños por municipio: se adjudican por circunscripción. (3) La comparativa con 23J solo puede ser de escaños — el fichero ANT del Senado no trae votos ni candidatos. Partidos ordenados por escaños, votos y resultado anterior.",
   "nacional": {
     "fecha": "2026-11-25",
-    "horaTotalizacion": "17:33",
-    "pctEscrutado": 10.68,
-    "totalEscanos": 30,
+    "horaTotalizacion": "17:36",
+    "pctEscrutado": 17.94,
+    "totalEscanos": 34,
     "totalEscanosCamara": 266,
     "escanosDesignadosPendientes": 58,
     "mayoria": 134,
@@ -14,7 +14,7 @@
         "siglas": "SENADO DE PROGRESO",
         "color": "#E10819",
         "lado": 1,
-        "escanos": 13,
+        "escanos": 15,
         "escanosAnterior": 73
       },
       {
@@ -26,19 +26,19 @@
         "escanosAnterior": 120
       },
       {
+        "nombre": "EUSKAL HERRIA BILDU",
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "escanos": 3,
+        "escanosAnterior": null
+      },
+      {
         "nombre": "PODEMOS",
         "siglas": "PODEMOS",
         "color": "#6E2585",
         "lado": 1,
         "escanos": 2,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "EUSKAL HERRIA BILDU",
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "escanos": 1,
         "escanosAnterior": null
       },
       {
@@ -311,13 +311,35 @@
     "09": {
       "nombre": "Catalunya",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 2,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          },
+          {
+            "siglas": "EH Bildu",
+            "color": "#A4CE4E"
+          }
+        ]
       },
-      "composicion": []
+      "composicion": [
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 2
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ]
     },
     "10": {
       "nombre": "Extremadura",
@@ -952,18 +974,65 @@
     "08": {
       "nombre": "Barcelona",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 2,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          },
+          {
+            "siglas": "EH Bildu",
+            "color": "#A4CE4E"
+          }
+        ]
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 2
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Barcelona",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Raquel Sánchez Jimenez",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 90382
+            },
+            {
+              "nombre": "Cristobalina Albéndiz Pérez",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 89594
+            },
+            {
+              "nombre": "Mercedes Vidal Lago",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 88771
+            },
+            {
+              "nombre": "Francesc-Marc Álvaro i Vidal",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 88760
+            }
+          ]
         }
       ]
     },
