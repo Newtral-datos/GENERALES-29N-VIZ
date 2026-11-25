@@ -1,0 +1,1 @@
+var e={1:[`FA`,`SUMAR`],2:[`VOX`]},t=e=>e.lado===1?1:2;function n(t,n,r){let i=(e[n]??[]).map(e=>t.find(t=>t.siglas===e)).filter(e=>e!==void 0),a=t.filter(e=>!i.includes(e)).sort((e,t)=>r(t)-r(e)),o=[...i,...a];return n===1?o:o.reverse()}function r(e,r){return[...n(e.filter(e=>t(e)===1),1,r),...n(e.filter(e=>t(e)===2),2,r)]}export{r as t};

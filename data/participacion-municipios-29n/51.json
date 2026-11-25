@@ -1,0 +1,43 @@
+{
+  "51001": {
+    "nombre": "CEUTA",
+    "fecha": "2026-11-25",
+    "poblacion": 83117,
+    "censo": 62231,
+    "mesas": 96,
+    "mesasConstituidas": 96,
+    "avances": [
+      {
+        "hora": "14:00",
+        "etiqueta": "Primer avance",
+        "votantes": 16896,
+        "participacionPct": 27.15,
+        "pctSobreCensoTotal": 27.15,
+        "pctMesasNotificadas": 100.0,
+        "mesasNotificadas": 96
+      },
+      {
+        "hora": "18:00",
+        "etiqueta": "Segundo avance",
+        "votantes": 24301,
+        "participacionPct": 39.05,
+        "pctSobreCensoTotal": 39.05,
+        "pctMesasNotificadas": 100.0,
+        "mesasNotificadas": 96
+      },
+      {
+        "hora": "Cierre",
+        "etiqueta": "Cierre de la jornada",
+        "votantes": null,
+        "participacionPct": null,
+        "pctSobreCensoTotal": null,
+        "pctEscrutado": null,
+        "pctMesasNotificadas": null,
+        "mesasNotificadas": null,
+        "participacionPctAnterior": 55.66,
+        "censoAnterior": 60335,
+        "votantesAnterior": 33585
+      }
+    ]
+  }
+}

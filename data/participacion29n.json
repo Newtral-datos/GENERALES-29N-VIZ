@@ -1,0 +1,2600 @@
+{
+  "_guia": "Participación 29N. Tres cortes por ámbito: 14:00, 18:00 y cierre. Un corte con `participacionPct` en null es un corte PENDIENTE, no un 0 % — si lo pones a 0 el panel lo pinta como dato real. El % de cierre se calcula sobre censo escrutado, no sobre el censo total (si no, empieza la noche muy bajo y parece que la participación baja); el crudo sobre censo total va aparte en `pctSobreCensoTotal`. Los `participacionPctAnterior` salen de referencia/avances-23j.json, porque la API no publica avances de la convocatoria anterior.",
+  "nacional": {
+    "fecha": "2026-11-25",
+    "horaTotalizacion": "16:21",
+    "censo": 35953542,
+    "votantes": null,
+    "participacionPct": null,
+    "pctSobreCensoTotal": null,
+    "pctEscrutado": null,
+    "censoAnterior": 37469458,
+    "votantesAnterior": 24952447,
+    "participacionPctAnterior": 66.59,
+    "mesas": 61033,
+    "mesasConstituidas": 61033,
+    "avances": [
+      {
+        "hora": "14:00",
+        "etiqueta": "Primer avance",
+        "votantes": 14514445,
+        "participacionPct": 40.37,
+        "pctSobreCensoTotal": 40.37,
+        "pctMesasNotificadas": 100.0,
+        "mesasNotificadas": 61033,
+        "participacionPctAnterior": 37.97
+      },
+      {
+        "hora": "18:00",
+        "etiqueta": "Segundo avance",
+        "votantes": 19055377,
+        "participacionPct": 53.0,
+        "pctSobreCensoTotal": 53.0,
+        "pctMesasNotificadas": 100.0,
+        "mesasNotificadas": 61033,
+        "participacionPctAnterior": 49.83
+      },
+      {
+        "hora": "Cierre",
+        "etiqueta": "Cierre de la jornada",
+        "votantes": null,
+        "participacionPct": null,
+        "pctSobreCensoTotal": null,
+        "pctEscrutado": null,
+        "pctMesasNotificadas": null,
+        "mesasNotificadas": null,
+        "participacionPctAnterior": 66.59
+      }
+    ]
+  },
+  "provincias": {
+    "01": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 256960,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 260214,
+      "votantesAnterior": 170538,
+      "participacionPctAnterior": 65.53,
+      "mesas": 422,
+      "mesasConstituidas": 422,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 92480,
+          "participacionPct": 35.99,
+          "pctSobreCensoTotal": 35.99,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 422,
+          "participacionPctAnterior": 35.1
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 123264,
+          "participacionPct": 47.97,
+          "pctSobreCensoTotal": 47.97,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 422,
+          "participacionPctAnterior": 46.66
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 65.54
+        }
+      ],
+      "nombre": "Araba/Álava",
+      "poblacion": 334412
+    },
+    "02": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 299550,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 307988,
+      "votantesAnterior": 223917,
+      "participacionPctAnterior": 72.7,
+      "mesas": 527,
+      "mesasConstituidas": 527,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 133210,
+          "participacionPct": 44.47,
+          "pctSobreCensoTotal": 44.47,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 527,
+          "participacionPctAnterior": 43.4
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 163494,
+          "participacionPct": 54.58,
+          "pctSobreCensoTotal": 54.58,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 527,
+          "participacionPctAnterior": 53.24
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.7
+        }
+      ],
+      "nombre": "Albacete",
+      "poblacion": 385727
+    },
+    "03": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 1303575,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 1306311,
+      "votantesAnterior": 908842,
+      "participacionPctAnterior": 69.57,
+      "mesas": 2234,
+      "mesasConstituidas": 2234,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 588955,
+          "participacionPct": 45.18,
+          "pctSobreCensoTotal": 45.18,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 2234,
+          "participacionPctAnterior": 43.79
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 737432,
+          "participacionPct": 56.57,
+          "pctSobreCensoTotal": 56.57,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 2234,
+          "participacionPctAnterior": 54.75
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 69.57
+        }
+      ],
+      "nombre": "Alacant/Alicante",
+      "poblacion": 1901594
+    },
+    "04": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 487775,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 516114,
+      "votantesAnterior": 324405,
+      "participacionPctAnterior": 62.85,
+      "mesas": 850,
+      "mesasConstituidas": 850,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 198963,
+          "participacionPct": 40.79,
+          "pctSobreCensoTotal": 40.79,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 850,
+          "participacionPctAnterior": 37.39
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 254521,
+          "participacionPct": 52.18,
+          "pctSobreCensoTotal": 52.18,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 850,
+          "participacionPctAnterior": 47.84
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 62.86
+        }
+      ],
+      "nombre": "Almería",
+      "poblacion": 740534
+    },
+    "05": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 127004,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 136669,
+      "votantesAnterior": 99120,
+      "participacionPctAnterior": 72.52,
+      "mesas": 354,
+      "mesasConstituidas": 354,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 54790,
+          "participacionPct": 43.14,
+          "pctSobreCensoTotal": 43.14,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 354,
+          "participacionPctAnterior": 40.6
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 73904,
+          "participacionPct": 58.19,
+          "pctSobreCensoTotal": 58.19,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 354,
+          "participacionPctAnterior": 54.81
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.53
+        }
+      ],
+      "nombre": "Ávila",
+      "poblacion": 158140
+    },
+    "06": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 538937,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 550702,
+      "votantesAnterior": 398233,
+      "participacionPctAnterior": 72.31,
+      "mesas": 904,
+      "mesasConstituidas": 904,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 241336,
+          "participacionPct": 44.78,
+          "pctSobreCensoTotal": 44.78,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 904,
+          "participacionPctAnterior": 43.91
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 298032,
+          "participacionPct": 55.3,
+          "pctSobreCensoTotal": 55.3,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 904,
+          "participacionPctAnterior": 54.18
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.31
+        }
+      ],
+      "nombre": "Badajoz",
+      "poblacion": 666971
+    },
+    "07": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 828523,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 828755,
+      "votantesAnterior": 508233,
+      "participacionPctAnterior": 61.32,
+      "mesas": 1275,
+      "mesasConstituidas": 1275,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 308128,
+          "participacionPct": 37.19,
+          "pctSobreCensoTotal": 37.19,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1275,
+          "participacionPctAnterior": 35.79
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 401668,
+          "participacionPct": 48.48,
+          "pctSobreCensoTotal": 48.48,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1275,
+          "participacionPctAnterior": 46.66
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 61.32
+        }
+      ],
+      "nombre": "Illes Balears",
+      "poblacion": 1176659
+    },
+    "08": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 4132494,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 4243500,
+      "votantesAnterior": 2688720,
+      "participacionPctAnterior": 63.36,
+      "mesas": 6548,
+      "mesasConstituidas": 6548,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 1529023,
+          "participacionPct": 37.0,
+          "pctSobreCensoTotal": 37.0,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 6548,
+          "participacionPctAnterior": 35.18
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 2029055,
+          "participacionPct": 49.1,
+          "pctSobreCensoTotal": 49.1,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 6548,
+          "participacionPctAnterior": 46.68
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 63.36
+        }
+      ],
+      "nombre": "Barcelona",
+      "poblacion": 5727615
+    },
+    "09": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 278214,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 296401,
+      "votantesAnterior": 204886,
+      "participacionPctAnterior": 69.12,
+      "mesas": 753,
+      "mesasConstituidas": 753,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 111480,
+          "participacionPct": 40.07,
+          "pctSobreCensoTotal": 40.07,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 753,
+          "participacionPctAnterior": 37.7
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 144922,
+          "participacionPct": 52.09,
+          "pctSobreCensoTotal": 52.09,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 753,
+          "participacionPctAnterior": 48.96
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 69.12
+        }
+      ],
+      "nombre": "Burgos",
+      "poblacion": 355045
+    },
+    "10": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 321039,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 339491,
+      "votantesAnterior": 239747,
+      "participacionPctAnterior": 70.61,
+      "mesas": 513,
+      "mesasConstituidas": 513,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 145752,
+          "participacionPct": 45.4,
+          "pctSobreCensoTotal": 45.4,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 513,
+          "participacionPctAnterior": 43.35
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 180970,
+          "participacionPct": 56.37,
+          "pctSobreCensoTotal": 56.37,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 513,
+          "participacionPctAnterior": 53.71
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 70.62
+        }
+      ],
+      "nombre": "Cáceres",
+      "poblacion": 387805
+    },
+    "11": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 1007030,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 1017958,
+      "votantesAnterior": 644801,
+      "participacionPctAnterior": 63.34,
+      "mesas": 1617,
+      "mesasConstituidas": 1617,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 395058,
+          "participacionPct": 39.23,
+          "pctSobreCensoTotal": 39.23,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1617,
+          "participacionPctAnterior": 38.12
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 517513,
+          "participacionPct": 51.39,
+          "pctSobreCensoTotal": 51.39,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1617,
+          "participacionPctAnterior": 50.01
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 63.34
+        }
+      ],
+      "nombre": "Cádiz",
+      "poblacion": 1246781
+    },
+    "12": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 435013,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 430830,
+      "votantesAnterior": 311581,
+      "participacionPctAnterior": 72.32,
+      "mesas": 754,
+      "mesasConstituidas": 754,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 201281,
+          "participacionPct": 46.27,
+          "pctSobreCensoTotal": 46.27,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 754,
+          "participacionPctAnterior": 45.28
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 255309,
+          "participacionPct": 58.69,
+          "pctSobreCensoTotal": 58.69,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 754,
+          "participacionPctAnterior": 57.37
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.32
+        }
+      ],
+      "nombre": "Castelló/Castellón",
+      "poblacion": 590616
+    },
+    "13": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 385578,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 391495,
+      "votantesAnterior": 286895,
+      "participacionPctAnterior": 73.28,
+      "mesas": 711,
+      "mesasConstituidas": 711,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 174705,
+          "participacionPct": 45.31,
+          "pctSobreCensoTotal": 45.31,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 711,
+          "participacionPctAnterior": 44.65
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 216888,
+          "participacionPct": 56.25,
+          "pctSobreCensoTotal": 56.25,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 711,
+          "participacionPctAnterior": 55.38
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 73.28
+        }
+      ],
+      "nombre": "Ciudad Real",
+      "poblacion": 490806
+    },
+    "14": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 627827,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 645288,
+      "votantesAnterior": 455564,
+      "participacionPctAnterior": 70.59,
+      "mesas": 956,
+      "mesasConstituidas": 956,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 288800,
+          "participacionPct": 46.0,
+          "pctSobreCensoTotal": 46.0,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 956,
+          "participacionPctAnterior": 44.7
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 352211,
+          "participacionPct": 56.1,
+          "pctSobreCensoTotal": 56.1,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 956,
+          "participacionPctAnterior": 54.5
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 70.6
+        }
+      ],
+      "nombre": "Córdoba",
+      "poblacion": 772464
+    },
+    "15": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 928060,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 1085673,
+      "votantesAnterior": 683187,
+      "participacionPctAnterior": 62.92,
+      "mesas": 1528,
+      "mesasConstituidas": 1528,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 355447,
+          "participacionPct": 38.3,
+          "pctSobreCensoTotal": 38.3,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1528,
+          "participacionPctAnterior": 32.64
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 518229,
+          "participacionPct": 55.84,
+          "pctSobreCensoTotal": 55.84,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1528,
+          "participacionPctAnterior": 47.54
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 62.93
+        }
+      ],
+      "nombre": "A Coruña",
+      "poblacion": 1119180
+    },
+    "16": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 147724,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 152694,
+      "votantesAnterior": 115280,
+      "participacionPctAnterior": 75.49,
+      "mesas": 379,
+      "mesasConstituidas": 379,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 66683,
+          "participacionPct": 45.14,
+          "pctSobreCensoTotal": 45.14,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 379,
+          "participacionPctAnterior": 44.44
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 84779,
+          "participacionPct": 57.39,
+          "pctSobreCensoTotal": 57.39,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 379,
+          "participacionPctAnterior": 56.39
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 75.5
+        }
+      ],
+      "nombre": "Cuenca",
+      "poblacion": 195215
+    },
+    "17": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 545015,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 546370,
+      "votantesAnterior": 327159,
+      "participacionPctAnterior": 59.87,
+      "mesas": 894,
+      "mesasConstituidas": 894,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 188357,
+          "participacionPct": 34.56,
+          "pctSobreCensoTotal": 34.56,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 894,
+          "participacionPctAnterior": 33.14
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 252669,
+          "participacionPct": 46.36,
+          "pctSobreCensoTotal": 46.36,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 894,
+          "participacionPctAnterior": 44.44
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 59.88
+        }
+      ],
+      "nombre": "Girona",
+      "poblacion": 793478
+    },
+    "18": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 728577,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 765478,
+      "votantesAnterior": 509486,
+      "participacionPctAnterior": 66.55,
+      "mesas": 1143,
+      "mesasConstituidas": 1143,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 316202,
+          "participacionPct": 43.4,
+          "pctSobreCensoTotal": 43.4,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1143,
+          "participacionPctAnterior": 40.44
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 392412,
+          "participacionPct": 53.86,
+          "pctSobreCensoTotal": 53.86,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1143,
+          "participacionPctAnterior": 50.21
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 66.56
+        }
+      ],
+      "nombre": "Granada",
+      "poblacion": 921987
+    },
+    "19": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 202513,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 196983,
+      "votantesAnterior": 142744,
+      "participacionPctAnterior": 72.46,
+      "mesas": 588,
+      "mesasConstituidas": 588,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 82565,
+          "participacionPct": 40.77,
+          "pctSobreCensoTotal": 40.77,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 588,
+          "participacionPctAnterior": 39.96
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 109013,
+          "participacionPct": 53.83,
+          "pctSobreCensoTotal": 53.83,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 588,
+          "participacionPctAnterior": 52.65
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.47
+        }
+      ],
+      "nombre": "Guadalajara",
+      "poblacion": 268127
+    },
+    "20": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 561839,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 585873,
+      "votantesAnterior": 378965,
+      "participacionPctAnterior": 64.68,
+      "mesas": 867,
+      "mesasConstituidas": 867,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 216477,
+          "participacionPct": 38.53,
+          "pctSobreCensoTotal": 38.53,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 867,
+          "participacionPctAnterior": 36.66
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 296202,
+          "participacionPct": 52.72,
+          "pctSobreCensoTotal": 52.72,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 867,
+          "participacionPctAnterior": 50.14
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 64.68
+        }
+      ],
+      "nombre": "Gipuzkoa",
+      "poblacion": 724418
+    },
+    "21": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 399651,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 402504,
+      "votantesAnterior": 260861,
+      "participacionPctAnterior": 64.8,
+      "mesas": 656,
+      "mesasConstituidas": 656,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 157063,
+          "participacionPct": 39.3,
+          "pctSobreCensoTotal": 39.3,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 656,
+          "participacionPctAnterior": 38.58
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 198067,
+          "participacionPct": 49.56,
+          "pctSobreCensoTotal": 49.56,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 656,
+          "participacionPctAnterior": 48.58
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 64.81
+        }
+      ],
+      "nombre": "Huelva",
+      "poblacion": 528763
+    },
+    "22": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 166250,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 173391,
+      "votantesAnterior": 121148,
+      "participacionPctAnterior": 69.86,
+      "mesas": 404,
+      "mesasConstituidas": 404,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 68345,
+          "participacionPct": 41.11,
+          "pctSobreCensoTotal": 41.11,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 404,
+          "participacionPctAnterior": 39.35
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 87015,
+          "participacionPct": 52.34,
+          "pctSobreCensoTotal": 52.34,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 404,
+          "participacionPctAnterior": 50.05
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 69.87
+        }
+      ],
+      "nombre": "Huesca",
+      "poblacion": 225456
+    },
+    "23": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 500508,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 518371,
+      "votantesAnterior": 373657,
+      "participacionPctAnterior": 72.08,
+      "mesas": 870,
+      "mesasConstituidas": 870,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 229233,
+          "participacionPct": 45.8,
+          "pctSobreCensoTotal": 45.8,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 870,
+          "participacionPctAnterior": 44.7
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 276230,
+          "participacionPct": 55.19,
+          "pctSobreCensoTotal": 55.19,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 870,
+          "participacionPctAnterior": 53.85
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.08
+        }
+      ],
+      "nombre": "Jaén",
+      "poblacion": 623761
+    },
+    "24": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 370867,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 422917,
+      "votantesAnterior": 277726,
+      "participacionPctAnterior": 65.66,
+      "mesas": 676,
+      "mesasConstituidas": 676,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 146530,
+          "participacionPct": 39.51,
+          "pctSobreCensoTotal": 39.51,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 676,
+          "participacionPctAnterior": 35.0
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 200824,
+          "participacionPct": 54.15,
+          "pctSobreCensoTotal": 54.15,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 676,
+          "participacionPctAnterior": 48.01
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 65.67
+        }
+      ],
+      "nombre": "León",
+      "poblacion": 448179
+    },
+    "25": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 304354,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 317225,
+      "votantesAnterior": 186929,
+      "participacionPctAnterior": 58.92,
+      "mesas": 562,
+      "mesasConstituidas": 562,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 106402,
+          "participacionPct": 34.96,
+          "pctSobreCensoTotal": 34.96,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 562,
+          "participacionPctAnterior": 33.04
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 136929,
+          "participacionPct": 44.99,
+          "pctSobreCensoTotal": 44.99,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 562,
+          "participacionPctAnterior": 42.51
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 58.93
+        }
+      ],
+      "nombre": "Lleida",
+      "poblacion": 441443
+    },
+    "26": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 238458,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 252091,
+      "votantesAnterior": 176945,
+      "participacionPctAnterior": 70.19,
+      "mesas": 518,
+      "mesasConstituidas": 518,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 108641,
+          "participacionPct": 45.56,
+          "pctSobreCensoTotal": 45.56,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 518,
+          "participacionPctAnterior": 42.54
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 135706,
+          "participacionPct": 56.91,
+          "pctSobreCensoTotal": 56.91,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 518,
+          "participacionPctAnterior": 53.11
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 70.19
+        }
+      ],
+      "nombre": "La Rioja",
+      "poblacion": 319892
+    },
+    "27": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 264082,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 337755,
+      "votantesAnterior": 200709,
+      "participacionPctAnterior": 59.42,
+      "mesas": 517,
+      "mesasConstituidas": 517,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 98212,
+          "participacionPct": 37.19,
+          "pctSobreCensoTotal": 37.19,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 517,
+          "participacionPctAnterior": 29.64
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 142314,
+          "participacionPct": 53.89,
+          "pctSobreCensoTotal": 53.89,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 517,
+          "participacionPctAnterior": 43.01
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 59.42
+        }
+      ],
+      "nombre": "Lugo",
+      "poblacion": 323989
+    },
+    "28": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 5036558,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 5224561,
+      "votantesAnterior": 3639500,
+      "participacionPctAnterior": 69.66,
+      "mesas": 7608,
+      "mesasConstituidas": 7608,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 2053405,
+          "participacionPct": 40.77,
+          "pctSobreCensoTotal": 40.77,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 7608,
+          "participacionPctAnterior": 37.89
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 2702113,
+          "participacionPct": 53.65,
+          "pctSobreCensoTotal": 53.65,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 7608,
+          "participacionPctAnterior": 49.83
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 69.66
+        }
+      ],
+      "nombre": "Madrid",
+      "poblacion": 6750336
+    },
+    "29": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 1218788,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 1239846,
+      "votantesAnterior": 798557,
+      "participacionPctAnterior": 64.4,
+      "mesas": 1778,
+      "mesasConstituidas": 1778,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 488490,
+          "participacionPct": 40.08,
+          "pctSobreCensoTotal": 40.08,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1778,
+          "participacionPctAnterior": 38.15
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 644495,
+          "participacionPct": 52.88,
+          "pctSobreCensoTotal": 52.88,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1778,
+          "participacionPctAnterior": 50.32
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 64.41
+        }
+      ],
+      "nombre": "Málaga",
+      "poblacion": 1717504
+    },
+    "30": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 1099584,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 1099703,
+      "votantesAnterior": 755255,
+      "participacionPctAnterior": 68.67,
+      "mesas": 1743,
+      "mesasConstituidas": 1743,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 485686,
+          "participacionPct": 44.17,
+          "pctSobreCensoTotal": 44.17,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1743,
+          "participacionPctAnterior": 42.72
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 604881,
+          "participacionPct": 55.01,
+          "pctSobreCensoTotal": 55.01,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1743,
+          "participacionPctAnterior": 53.2
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 68.68
+        }
+      ],
+      "nombre": "Murcia",
+      "poblacion": 1531878
+    },
+    "31": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 500298,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 519918,
+      "votantesAnterior": 345095,
+      "participacionPctAnterior": 66.37,
+      "mesas": 956,
+      "mesasConstituidas": 956,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 206123,
+          "participacionPct": 41.2,
+          "pctSobreCensoTotal": 41.2,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 956,
+          "participacionPctAnterior": 38.9
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 258404,
+          "participacionPct": 51.65,
+          "pctSobreCensoTotal": 51.65,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 956,
+          "participacionPctAnterior": 48.79
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 66.37
+        }
+      ],
+      "nombre": "Navarra",
+      "poblacion": 664117
+    },
+    "32": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 249092,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 355765,
+      "votantesAnterior": 188065,
+      "participacionPctAnterior": 52.86,
+      "mesas": 523,
+      "mesasConstituidas": 523,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 96872,
+          "participacionPct": 38.89,
+          "pctSobreCensoTotal": 38.89,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 523,
+          "participacionPctAnterior": 27.74
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 132641,
+          "participacionPct": 53.25,
+          "pctSobreCensoTotal": 53.25,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 523,
+          "participacionPctAnterior": 38.01
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 52.86
+        }
+      ],
+      "nombre": "Ourense",
+      "poblacion": 304280
+    },
+    "33": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 835351,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 959023,
+      "votantesAnterior": 603183,
+      "participacionPctAnterior": 62.89,
+      "mesas": 1443,
+      "mesasConstituidas": 1443,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 325035,
+          "participacionPct": 38.91,
+          "pctSobreCensoTotal": 38.91,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1443,
+          "participacionPctAnterior": 34.02
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 451173,
+          "participacionPct": 54.01,
+          "pctSobreCensoTotal": 54.01,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1443,
+          "participacionPctAnterior": 47.15
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 62.9
+        }
+      ],
+      "nombre": "Asturias",
+      "poblacion": 1004686
+    },
+    "34": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 128712,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 137642,
+      "votantesAnterior": 98079,
+      "participacionPctAnterior": 71.25,
+      "mesas": 342,
+      "mesasConstituidas": 342,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 52605,
+          "participacionPct": 40.87,
+          "pctSobreCensoTotal": 40.87,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 342,
+          "participacionPctAnterior": 38.84
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 69968,
+          "participacionPct": 54.36,
+          "pctSobreCensoTotal": 54.36,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 342,
+          "participacionPctAnterior": 51.7
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 71.26
+        }
+      ],
+      "nombre": "Palencia",
+      "poblacion": 158008
+    },
+    "35": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 872890,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 898882,
+      "votantesAnterior": 534912,
+      "participacionPctAnterior": 59.5,
+      "mesas": 1559,
+      "mesasConstituidas": 1559,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 249821,
+          "participacionPct": 28.62,
+          "pctSobreCensoTotal": 28.62,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1559,
+          "participacionPctAnterior": 26.97
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 391578,
+          "participacionPct": 44.86,
+          "pctSobreCensoTotal": 44.86,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1559,
+          "participacionPctAnterior": 42.21
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 59.51
+        }
+      ],
+      "nombre": "Las Palmas",
+      "poblacion": 1129395
+    },
+    "36": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 776140,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 909434,
+      "votantesAnterior": 579125,
+      "participacionPctAnterior": 63.67,
+      "mesas": 1344,
+      "mesasConstituidas": 1344,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 312008,
+          "participacionPct": 40.2,
+          "pctSobreCensoTotal": 40.2,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1344,
+          "participacionPctAnterior": 34.25
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 445039,
+          "participacionPct": 57.34,
+          "pctSobreCensoTotal": 57.34,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1344,
+          "participacionPctAnterior": 48.81
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 63.68
+        }
+      ],
+      "nombre": "Pontevedra",
+      "poblacion": 943015
+    },
+    "37": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 268150,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 300506,
+      "votantesAnterior": 201419,
+      "participacionPctAnterior": 67.02,
+      "mesas": 633,
+      "mesasConstituidas": 633,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 111309,
+          "participacionPct": 41.51,
+          "pctSobreCensoTotal": 41.51,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 633,
+          "participacionPctAnterior": 37.35
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 145927,
+          "participacionPct": 54.42,
+          "pctSobreCensoTotal": 54.42,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 633,
+          "participacionPctAnterior": 48.92
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 67.03
+        }
+      ],
+      "nombre": "Salamanca",
+      "poblacion": 325898
+    },
+    "38": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 801955,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 881217,
+      "votantesAnterior": 500777,
+      "participacionPctAnterior": 56.82,
+      "mesas": 1382,
+      "mesasConstituidas": 1382,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 231765,
+          "participacionPct": 28.9,
+          "pctSobreCensoTotal": 28.9,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1382,
+          "participacionPctAnterior": 25.54
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 365932,
+          "participacionPct": 45.63,
+          "pctSobreCensoTotal": 45.63,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1382,
+          "participacionPctAnterior": 40.26
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 56.83
+        }
+      ],
+      "nombre": "Santa Cruz de Tenerife",
+      "poblacion": 1048306
+    },
+    "39": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 473141,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 507818,
+      "votantesAnterior": 355145,
+      "participacionPctAnterior": 69.93,
+      "mesas": 742,
+      "mesasConstituidas": 742,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 202788,
+          "participacionPct": 42.86,
+          "pctSobreCensoTotal": 42.86,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 742,
+          "participacionPctAnterior": 39.51
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 285588,
+          "participacionPct": 60.36,
+          "pctSobreCensoTotal": 60.36,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 742,
+          "participacionPctAnterior": 55.54
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 69.94
+        }
+      ],
+      "nombre": "Cantabria",
+      "poblacion": 585402
+    },
+    "40": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 117269,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 119454,
+      "votantesAnterior": 89945,
+      "participacionPctAnterior": 75.29,
+      "mesas": 328,
+      "mesasConstituidas": 328,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 51129,
+          "participacionPct": 43.6,
+          "pctSobreCensoTotal": 43.6,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 328,
+          "participacionPctAnterior": 42.54
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 67676,
+          "participacionPct": 57.71,
+          "pctSobreCensoTotal": 57.71,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 328,
+          "participacionPctAnterior": 56.23
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 75.3
+        }
+      ],
+      "nombre": "Segovia",
+      "poblacion": 153803
+    },
+    "41": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 1563228,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 1564082,
+      "votantesAnterior": 1075133,
+      "participacionPctAnterior": 68.73,
+      "mesas": 2625,
+      "mesasConstituidas": 2625,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 667029,
+          "participacionPct": 42.67,
+          "pctSobreCensoTotal": 42.67,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 2625,
+          "participacionPctAnterior": 41.72
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 832106,
+          "participacionPct": 53.23,
+          "pctSobreCensoTotal": 53.23,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 2625,
+          "participacionPctAnterior": 52.02
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 68.74
+        }
+      ],
+      "nombre": "Sevilla",
+      "poblacion": 1948393
+    },
+    "42": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 68010,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 75768,
+      "votantesAnterior": 51157,
+      "participacionPctAnterior": 67.51,
+      "mesas": 257,
+      "mesasConstituidas": 257,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 27530,
+          "participacionPct": 40.48,
+          "pctSobreCensoTotal": 40.48,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 257,
+          "participacionPctAnterior": 36.78
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 35800,
+          "participacionPct": 52.64,
+          "pctSobreCensoTotal": 52.64,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 257,
+          "participacionPctAnterior": 47.81
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 67.52
+        }
+      ],
+      "nombre": "Soria",
+      "poblacion": 88377
+    },
+    "43": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 599500,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 596689,
+      "votantesAnterior": 372426,
+      "participacionPctAnterior": 62.41,
+      "mesas": 1072,
+      "mesasConstituidas": 1072,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 224513,
+          "participacionPct": 37.45,
+          "pctSobreCensoTotal": 37.45,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1072,
+          "participacionPctAnterior": 36.19
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 295014,
+          "participacionPct": 49.21,
+          "pctSobreCensoTotal": 49.21,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1072,
+          "participacionPctAnterior": 47.54
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 62.42
+        }
+      ],
+      "nombre": "Tarragona",
+      "poblacion": 830075
+    },
+    "44": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 100354,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 106352,
+      "votantesAnterior": 76561,
+      "participacionPctAnterior": 71.98,
+      "mesas": 328,
+      "mesasConstituidas": 328,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 41878,
+          "participacionPct": 41.73,
+          "pctSobreCensoTotal": 41.73,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 328,
+          "participacionPctAnterior": 39.92
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 54241,
+          "participacionPct": 54.05,
+          "pctSobreCensoTotal": 54.05,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 328,
+          "participacionPctAnterior": 51.66
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 71.99
+        }
+      ],
+      "nombre": "Teruel",
+      "poblacion": 134421
+    },
+    "45": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 553837,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 542567,
+      "votantesAnterior": 392988,
+      "participacionPctAnterior": 72.43,
+      "mesas": 932,
+      "mesasConstituidas": 932,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 249891,
+          "participacionPct": 45.12,
+          "pctSobreCensoTotal": 45.12,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 932,
+          "participacionPctAnterior": 44.24
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 317404,
+          "participacionPct": 57.31,
+          "pctSobreCensoTotal": 57.31,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 932,
+          "participacionPctAnterior": 56.14
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.43
+        }
+      ],
+      "nombre": "Toledo",
+      "poblacion": 713453
+    },
+    "46": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 1984250,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 1999340,
+      "votantesAnterior": 1451187,
+      "participacionPctAnterior": 72.58,
+      "mesas": 3207,
+      "mesasConstituidas": 3207,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 926248,
+          "participacionPct": 46.68,
+          "pctSobreCensoTotal": 46.68,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 3207,
+          "participacionPctAnterior": 45.12
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 1159596,
+          "participacionPct": 58.44,
+          "pctSobreCensoTotal": 58.44,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 3207,
+          "participacionPctAnterior": 56.47
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 72.58
+        }
+      ],
+      "nombre": "València/Valencia",
+      "poblacion": 2605757
+    },
+    "47": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 422416,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 431381,
+      "votantesAnterior": 319312,
+      "participacionPctAnterior": 74.02,
+      "mesas": 774,
+      "mesasConstituidas": 774,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 179780,
+          "participacionPct": 42.56,
+          "pctSobreCensoTotal": 42.56,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 774,
+          "participacionPctAnterior": 41.14
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 234906,
+          "participacionPct": 55.61,
+          "pctSobreCensoTotal": 55.61,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 774,
+          "participacionPctAnterior": 53.82
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 74.02
+        }
+      ],
+      "nombre": "Valladolid",
+      "poblacion": 517975
+    },
+    "48": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 909176,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 942983,
+      "votantesAnterior": 614944,
+      "participacionPctAnterior": 65.21,
+      "mesas": 1402,
+      "mesasConstituidas": 1402,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 331758,
+          "participacionPct": 36.49,
+          "pctSobreCensoTotal": 36.49,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1402,
+          "participacionPctAnterior": 34.95
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 484591,
+          "participacionPct": 53.3,
+          "pctSobreCensoTotal": 53.3,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1402,
+          "participacionPctAnterior": 50.99
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 65.21
+        }
+      ],
+      "nombre": "Bizkaia",
+      "poblacion": 1149344
+    },
+    "49": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 138140,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 162998,
+      "votantesAnterior": 104671,
+      "participacionPctAnterior": 64.21,
+      "mesas": 368,
+      "mesasConstituidas": 368,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 56237,
+          "participacionPct": 40.71,
+          "pctSobreCensoTotal": 40.71,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 368,
+          "participacionPctAnterior": 35.65
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 75038,
+          "participacionPct": 54.32,
+          "pctSobreCensoTotal": 54.32,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 368,
+          "participacionPctAnterior": 47.51
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 64.22
+        }
+      ],
+      "nombre": "Zamora",
+      "poblacion": 167215
+    },
+    "50": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 729968,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 740060,
+      "votantesAnterior": 523410,
+      "participacionPctAnterior": 70.72,
+      "mesas": 1484,
+      "mesasConstituidas": 1484,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 307390,
+          "participacionPct": 42.11,
+          "pctSobreCensoTotal": 42.11,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1484,
+          "participacionPctAnterior": 40.77
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 380605,
+          "participacionPct": 52.14,
+          "pctSobreCensoTotal": 52.14,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 1484,
+          "participacionPctAnterior": 50.45
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 70.73
+        }
+      ],
+      "nombre": "Zaragoza",
+      "poblacion": 966438
+    },
+    "51": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 62231,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 63310,
+      "votantesAnterior": 33674,
+      "participacionPctAnterior": 53.18,
+      "mesas": 96,
+      "mesasConstituidas": 96,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 16896,
+          "participacionPct": 27.15,
+          "pctSobreCensoTotal": 27.15,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 96,
+          "participacionPctAnterior": 26.15
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 24301,
+          "participacionPct": 39.05,
+          "pctSobreCensoTotal": 39.05,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 96,
+          "participacionPctAnterior": 37.46
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 53.19
+        }
+      ],
+      "nombre": "Ceuta",
+      "poblacion": 83117
+    },
+    "52": {
+      "fecha": "2026-11-25",
+      "horaTotalizacion": "16:21",
+      "censo": 57087,
+      "votantes": null,
+      "participacionPct": null,
+      "pctSobreCensoTotal": null,
+      "pctEscrutado": null,
+      "censoAnterior": 61118,
+      "votantesAnterior": 27649,
+      "participacionPctAnterior": 45.23,
+      "mesas": 87,
+      "mesasConstituidas": 87,
+      "avances": [
+        {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 13318,
+          "participacionPct": 23.33,
+          "pctSobreCensoTotal": 23.33,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 87,
+          "participacionPctAnterior": 21.02
+        },
+        {
+          "hora": "18:00",
+          "etiqueta": "Segundo avance",
+          "votantes": 18274,
+          "participacionPct": 32.01,
+          "pctSobreCensoTotal": 32.01,
+          "pctMesasNotificadas": 100.0,
+          "mesasNotificadas": 87,
+          "participacionPctAnterior": 28.82
+        },
+        {
+          "hora": "Cierre",
+          "etiqueta": "Cierre de la jornada",
+          "votantes": null,
+          "participacionPct": null,
+          "pctSobreCensoTotal": null,
+          "pctEscrutado": null,
+          "pctMesasNotificadas": null,
+          "mesasNotificadas": null,
+          "participacionPctAnterior": 45.24
+        }
+      ],
+      "nombre": "Melilla",
+      "poblacion": 85170
+    }
+  }
+}
