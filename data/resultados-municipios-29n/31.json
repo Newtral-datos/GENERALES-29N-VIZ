@@ -16169,13 +16169,13 @@
     "poblacion": 4882,
     "mesas": 5,
     "censo": 3881,
-    "votantes": 1006,
-    "validos": 994,
-    "votosCandidaturas": 982,
-    "blanco": 12,
-    "nulos": 12,
-    "participacionPct": 69.57,
-    "pctEscrutado": 37.25,
+    "votantes": 2600,
+    "validos": 2569,
+    "votosCandidaturas": 2531,
+    "blanco": 38,
+    "nulos": 31,
+    "participacionPct": 66.99,
+    "pctEscrutado": 100.0,
     "ganador": {
       "siglas": "PSOE",
       "color": "#E10819",
@@ -16188,54 +16188,54 @@
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 332,
-        "pctVotos": 33.4,
+        "votos": 877,
+        "pctVotos": 34.14,
         "pctVotosAnterior": 30.8
       },
       {
         "siglas": "FA",
         "color": "#FF8258",
         "lado": 1,
-        "votos": 187,
-        "pctVotos": 18.81,
+        "votos": 459,
+        "pctVotos": 17.87,
         "pctVotosAnterior": null
       },
       {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 155,
-        "pctVotos": 15.59,
+        "votos": 424,
+        "pctVotos": 16.5,
         "pctVotosAnterior": 14.51
       },
       {
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "votos": 62,
-        "pctVotos": 6.24,
+        "votos": 173,
+        "pctVotos": 6.73,
         "pctVotosAnterior": 4.52
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 42,
-        "pctVotos": 4.23,
+        "votos": 107,
+        "pctVotos": 4.17,
         "pctVotosAnterior": null
       },
       {
         "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 29,
-        "pctVotos": 2.92,
+        "votos": 73,
+        "pctVotos": 2.84,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 175,
-      "pctVotos": 17.61,
+      "votos": 418,
+      "pctVotos": 16.27,
       "numCandidaturas": 7
     }
   },
@@ -16244,73 +16244,73 @@
     "poblacion": 370,
     "mesas": 1,
     "censo": 276,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 201,
+    "validos": 195,
+    "votosCandidaturas": 193,
+    "blanco": 2,
+    "nulos": 6,
+    "participacionPct": 72.82,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 14.6
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 58,
+        "pctVotos": 29.74,
         "pctVotosAnterior": 26.99
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 34,
+        "pctVotos": 17.44,
+        "pctVotosAnterior": 14.6
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 34,
+        "pctVotos": 17.44,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 16,
+        "pctVotos": 8.21,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 10,
+        "pctVotos": 5.13,
+        "pctVotosAnterior": 2.65
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 3.08,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 35,
+      "pctVotos": 17.95,
       "numCandidaturas": 7
     }
   },
@@ -16319,73 +16319,73 @@
     "poblacion": 101,
     "mesas": 1,
     "censo": 82,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 59,
+    "validos": 58,
+    "votosCandidaturas": 57,
+    "blanco": 1,
+    "nulos": 1,
+    "participacionPct": 71.95,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 22,
+        "pctVotos": 37.93,
+        "pctVotosAnterior": 32.26
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 15,
+        "pctVotos": 25.86,
         "pctVotosAnterior": 20.97
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 6,
+        "pctVotos": 10.34,
+        "pctVotosAnterior": 8.06
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 5,
+        "pctVotos": 8.62,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 1.72,
         "pctVotosAnterior": null
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 32.26
       },
       {
         "siglas": "EGUZKILORE",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "GBAI",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 1.72,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 12.07,
       "numCandidaturas": 7
     }
   },
@@ -16394,73 +16394,73 @@
     "poblacion": 868,
     "mesas": 1,
     "censo": 716,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 499,
+    "validos": 494,
+    "votosCandidaturas": 492,
+    "blanco": 2,
+    "nulos": 5,
+    "participacionPct": 69.69,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 3.86
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 193,
+        "pctVotos": 39.07,
         "pctVotosAnterior": 35.52
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 58,
+        "pctVotos": 11.74,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 52,
+        "pctVotos": 10.53,
+        "pctVotosAnterior": 7.14
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 35,
+        "pctVotos": 7.09,
+        "pctVotosAnterior": 3.86
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 20,
+        "pctVotos": 4.05,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 19,
+        "pctVotos": 3.85,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 115,
+      "pctVotos": 23.28,
       "numCandidaturas": 7
     }
   },
@@ -16469,18 +16469,18 @@
     "poblacion": 1823,
     "mesas": 2,
     "censo": 1298,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 804,
+    "validos": 791,
+    "votosCandidaturas": 790,
+    "blanco": 1,
+    "nulos": 13,
+    "participacionPct": 61.94,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -16488,54 +16488,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 328,
+        "pctVotos": 41.47,
         "pctVotosAnterior": 39.55
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 185,
+        "pctVotos": 23.39,
         "pctVotosAnterior": 21.65
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 75,
+        "pctVotos": 9.48,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 62,
+        "pctVotos": 7.84,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 34,
+        "pctVotos": 4.3,
+        "pctVotosAnterior": 2.63
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 14,
+        "pctVotos": 1.77,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 92,
+      "pctVotos": 11.63,
       "numCandidaturas": 7
     }
   },
@@ -16544,73 +16544,73 @@
     "poblacion": 58,
     "mesas": 1,
     "censo": 56,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 34,
+    "validos": 34,
+    "votosCandidaturas": 34,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 60.71,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 18.92
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 22,
+        "pctVotos": 64.71,
         "pctVotosAnterior": 59.46
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 7,
+        "pctVotos": 20.59,
+        "pctVotosAnterior": 18.92
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 3,
+        "pctVotos": 8.82,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 5.88,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EGUZKILORE",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -16619,73 +16619,73 @@
     "poblacion": 1312,
     "mesas": 2,
     "censo": 892,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 640,
+    "validos": 630,
+    "votosCandidaturas": 629,
+    "blanco": 1,
+    "nulos": 10,
+    "participacionPct": 71.74,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 18.1
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 240,
+        "pctVotos": 38.1,
         "pctVotosAnterior": 35.29
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 130,
+        "pctVotos": 20.63,
+        "pctVotosAnterior": 18.1
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 61,
+        "pctVotos": 9.68,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 52,
+        "pctVotos": 8.25,
+        "pctVotosAnterior": 5.73
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 21,
+        "pctVotos": 3.33,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 20,
+        "pctVotos": 3.17,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 105,
+      "pctVotos": 16.67,
       "numCandidaturas": 7
     }
   },
@@ -16694,73 +16694,73 @@
     "poblacion": 1186,
     "mesas": 1,
     "censo": 847,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 627,
+    "validos": 619,
+    "votosCandidaturas": 615,
+    "blanco": 4,
+    "nulos": 8,
+    "participacionPct": 74.02,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 7.44
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 240,
+        "pctVotos": 38.77,
         "pctVotosAnterior": 35.44
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 69,
+        "pctVotos": 11.15,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 66,
+        "pctVotos": 10.66,
+        "pctVotosAnterior": 7.44
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 49,
+        "pctVotos": 7.92,
+        "pctVotosAnterior": 4.59
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 29,
+        "pctVotos": 4.68,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 21,
+        "pctVotos": 3.39,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 141,
+      "pctVotos": 22.78,
       "numCandidaturas": 7
     }
   },
@@ -16769,73 +16769,73 @@
     "poblacion": 45,
     "mesas": 1,
     "censo": 30,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 13,
+    "validos": 12,
+    "votosCandidaturas": 11,
+    "blanco": 1,
+    "nulos": 1,
+    "participacionPct": 43.33,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 6,
+        "pctVotos": 50.0,
+        "pctVotosAnterior": 30.0
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 25.0,
         "pctVotosAnterior": 15.0
+      },
+      {
+        "siglas": "GBAI",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 8.33,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 1,
+        "pctVotos": 8.33,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 30.0
       },
       {
         "siglas": "EGUZKILORE",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "GBAI",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -16844,18 +16844,18 @@
     "poblacion": 677,
     "mesas": 1,
     "censo": 586,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 384,
+    "validos": 379,
+    "votosCandidaturas": 376,
+    "blanco": 3,
+    "nulos": 5,
+    "participacionPct": 65.52,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -16863,54 +16863,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 198,
+        "pctVotos": 52.24,
         "pctVotosAnterior": 50.91
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 99,
+        "pctVotos": 26.12,
         "pctVotosAnterior": 25.07
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 26,
+        "pctVotos": 6.86,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 25,
+        "pctVotos": 6.6,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 10,
+        "pctVotos": 2.64,
+        "pctVotosAnterior": 2.09
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 0.79,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 15,
+      "pctVotos": 3.96,
       "numCandidaturas": 7
     }
   },
@@ -16919,73 +16919,73 @@
     "poblacion": 10576,
     "mesas": 12,
     "censo": 8036,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 5680,
+    "validos": 5614,
+    "votosCandidaturas": 5572,
+    "blanco": 42,
+    "nulos": 66,
+    "participacionPct": 70.68,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 21.59
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1934,
+        "pctVotos": 34.45,
         "pctVotosAnterior": 33.04
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 1350,
+        "pctVotos": 24.05,
+        "pctVotosAnterior": 21.59
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 968,
+        "pctVotos": 17.24,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 277,
+        "pctVotos": 4.93,
+        "pctVotosAnterior": 3.32
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 216,
+        "pctVotos": 3.85,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 151,
+        "pctVotos": 2.69,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 676,
+      "pctVotos": 12.04,
       "numCandidaturas": 7
     }
   },
@@ -16994,73 +16994,73 @@
     "poblacion": 635,
     "mesas": 1,
     "censo": 546,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 359,
+    "validos": 356,
+    "votosCandidaturas": 353,
+    "blanco": 3,
+    "nulos": 3,
+    "participacionPct": 65.75,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 14.08
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 105,
+        "pctVotos": 29.49,
         "pctVotosAnterior": 26.98
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 75,
+        "pctVotos": 21.07,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 58,
+        "pctVotos": 16.29,
+        "pctVotosAnterior": 14.08
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 29,
+        "pctVotos": 8.15,
+        "pctVotosAnterior": 5.87
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 23,
+        "pctVotos": 6.46,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 11,
+        "pctVotos": 3.09,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 52,
+      "pctVotos": 14.61,
       "numCandidaturas": 7
     }
   },
@@ -17069,18 +17069,18 @@
     "poblacion": 56,
     "mesas": 1,
     "censo": 42,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 26,
+    "validos": 26,
+    "votosCandidaturas": 26,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 61.9,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -17088,54 +17088,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 12,
+        "pctVotos": 46.15,
         "pctVotosAnterior": 34.15
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 19.23,
         "pctVotosAnterior": 14.63
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 4,
+        "pctVotos": 15.38,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 3,
+        "pctVotos": 11.54,
+        "pctVotosAnterior": 7.32
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 3.85,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 3.85,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -17144,73 +17144,73 @@
     "poblacion": 99,
     "mesas": 1,
     "censo": 82,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 53,
+    "validos": 53,
+    "votosCandidaturas": 53,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 64.63,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 12.5
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 17,
+        "pctVotos": 32.08,
         "pctVotosAnterior": 23.61
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 13,
+        "pctVotos": 24.53,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 9,
+        "pctVotos": 16.98,
+        "pctVotosAnterior": 12.5
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 4,
+        "pctVotos": 7.55,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 2,
+        "pctVotos": 3.77,
+        "pctVotosAnterior": 1.39
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 1.89,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 13.21,
       "numCandidaturas": 7
     }
   },
@@ -17219,73 +17219,73 @@
     "poblacion": 121,
     "mesas": 1,
     "censo": 92,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 55,
+    "validos": 52,
+    "votosCandidaturas": 52,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 3,
+    "participacionPct": 59.78,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 4.84
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 18,
+        "pctVotos": 34.62,
         "pctVotosAnterior": 27.42
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 11.54,
+        "pctVotosAnterior": 6.45
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 5,
+        "pctVotos": 9.62,
+        "pctVotosAnterior": 4.84
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 4,
+        "pctVotos": 7.69,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 5.77,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 3.85,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 26.92,
       "numCandidaturas": 7
     }
   },
@@ -17294,73 +17294,73 @@
     "poblacion": 37247,
     "mesas": 44,
     "censo": 26229,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 18399,
+    "validos": 18245,
+    "votosCandidaturas": 18101,
+    "blanco": 144,
+    "nulos": 154,
+    "participacionPct": 70.14,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 3.82
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5865,
+        "pctVotos": 32.15,
         "pctVotosAnterior": 29.06
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 2784,
+        "pctVotos": 15.26,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 2640,
+        "pctVotos": 14.47,
+        "pctVotosAnterior": 11.25
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 1263,
+        "pctVotos": 6.92,
+        "pctVotosAnterior": 3.82
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 697,
+        "pctVotos": 3.82,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 667,
+        "pctVotos": 3.66,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 4185,
+      "pctVotos": 22.94,
       "numCandidaturas": 7
     }
   },
@@ -17369,73 +17369,73 @@
     "poblacion": 152,
     "mesas": 1,
     "censo": 129,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 90,
+    "validos": 87,
+    "votosCandidaturas": 86,
+    "blanco": 1,
+    "nulos": 3,
+    "participacionPct": 69.76,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 24,
+        "pctVotos": 27.59,
+        "pctVotosAnterior": 23.94
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 21,
+        "pctVotos": 24.14,
+        "pctVotosAnterior": 21.13
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 10,
+        "pctVotos": 11.49,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "PCTE",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 4,
+        "pctVotos": 4.6,
+        "pctVotosAnterior": null
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 3.45,
         "pctVotosAnterior": 0.0
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 21.13
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "GBAI",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 3.45,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 21,
+      "pctVotos": 24.14,
       "numCandidaturas": 7
     }
   },
@@ -17444,73 +17444,73 @@
     "poblacion": 191,
     "mesas": 1,
     "censo": 157,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 105,
+    "validos": 105,
+    "votosCandidaturas": 105,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 66.87,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 11.11
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 27,
+        "pctVotos": 25.71,
         "pctVotosAnterior": 22.22
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 19,
+        "pctVotos": 18.1,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 15,
+        "pctVotos": 14.29,
+        "pctVotosAnterior": 11.11
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 13,
+        "pctVotos": 12.38,
+        "pctVotosAnterior": 9.26
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 7,
+        "pctVotos": 6.67,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 2.86,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 21,
+      "pctVotos": 20.0,
       "numCandidaturas": 7
     }
   },
@@ -17519,18 +17519,18 @@
     "poblacion": 175,
     "mesas": 1,
     "censo": 145,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 90,
+    "validos": 89,
+    "votosCandidaturas": 89,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 1,
+    "participacionPct": 62.06,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -17538,54 +17538,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 28,
+        "pctVotos": 31.46,
         "pctVotosAnterior": 28.28
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 23,
+        "pctVotos": 25.84,
         "pctVotosAnterior": 23.23
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 16,
+        "pctVotos": 17.98,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 9,
+        "pctVotos": 10.11,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 4,
+        "pctVotos": 4.49,
+        "pctVotosAnterior": 3.03
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 2.25,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 7.87,
       "numCandidaturas": 7
     }
   },
@@ -17594,18 +17594,18 @@
     "poblacion": 1647,
     "mesas": 2,
     "censo": 1279,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 774,
+    "validos": 772,
+    "votosCandidaturas": 768,
+    "blanco": 4,
+    "nulos": 2,
+    "participacionPct": 60.51,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -17613,54 +17613,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 248,
+        "pctVotos": 32.12,
         "pctVotosAnterior": 29.54
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 162,
+        "pctVotos": 20.98,
         "pctVotosAnterior": 18.52
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 116,
+        "pctVotos": 15.03,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 67,
+        "pctVotos": 8.68,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 39,
+        "pctVotos": 5.05,
+        "pctVotosAnterior": 2.88
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 20,
+        "pctVotos": 2.59,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 116,
+      "pctVotos": 15.03,
       "numCandidaturas": 7
     }
   },
@@ -17669,73 +17669,73 @@
     "poblacion": 234,
     "mesas": 1,
     "censo": 217,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 145,
+    "validos": 142,
+    "votosCandidaturas": 141,
+    "blanco": 1,
+    "nulos": 3,
+    "participacionPct": 66.82,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 44,
+        "pctVotos": 30.99,
+        "pctVotosAnterior": 26.67
+      },
+      {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 28,
+        "pctVotos": 19.72,
         "pctVotosAnterior": 15.56
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 21,
+        "pctVotos": 14.79,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "PSOE",
-        "color": "#E10819",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 26.67
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 7,
+        "pctVotos": 4.93,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 7,
+        "pctVotos": 4.93,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 5,
+        "pctVotos": 3.52,
+        "pctVotosAnterior": 0.74
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 29,
+      "pctVotos": 20.42,
       "numCandidaturas": 7
     }
   },
@@ -17744,18 +17744,18 @@
     "poblacion": 157,
     "mesas": 1,
     "censo": 133,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 105,
+    "validos": 105,
+    "votosCandidaturas": 103,
+    "blanco": 2,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 78.94,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -17763,54 +17763,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 35,
+        "pctVotos": 33.33,
         "pctVotosAnterior": 30.77
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 26,
+        "pctVotos": 24.76,
         "pctVotosAnterior": 23.08
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 21,
+        "pctVotos": 20.0,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 2.86,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 1.9,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EGUZKILORE",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 2,
+        "pctVotos": 1.9,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 13.33,
       "numCandidaturas": 7
     }
   },
@@ -17819,18 +17819,18 @@
     "poblacion": 330,
     "mesas": 1,
     "censo": 301,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 213,
+    "validos": 211,
+    "votosCandidaturas": 208,
+    "blanco": 3,
+    "nulos": 2,
+    "participacionPct": 70.76,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -17838,54 +17838,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 78,
+        "pctVotos": 36.97,
         "pctVotosAnterior": 33.97
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 52,
+        "pctVotos": 24.64,
         "pctVotosAnterior": 22.01
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 15,
+        "pctVotos": 7.11,
+        "pctVotosAnterior": 4.78
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 13,
+        "pctVotos": 6.16,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 10,
+        "pctVotos": 4.74,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 2.37,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 35,
+      "pctVotos": 16.59,
       "numCandidaturas": 7
     }
   },
@@ -17894,18 +17894,18 @@
     "poblacion": 636,
     "mesas": 1,
     "censo": 535,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 337,
+    "validos": 335,
+    "votosCandidaturas": 334,
+    "blanco": 1,
+    "nulos": 2,
+    "participacionPct": 62.99,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -17913,54 +17913,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 206,
+        "pctVotos": 61.49,
         "pctVotosAnterior": 60.8
       },
       {
-        "siglas": "FO",
+        "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 44,
+        "pctVotos": 13.13,
         "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 34,
+        "pctVotos": 10.15,
         "pctVotosAnterior": 9.57
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 32,
+        "pctVotos": 9.55,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 2,
+        "pctVotos": 0.6,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "EGUZKILORE",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "GBAI",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 0.6,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 4.18,
       "numCandidaturas": 7
     }
   },
@@ -17969,73 +17969,73 @@
     "poblacion": 138,
     "mesas": 1,
     "censo": 111,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 72,
+    "validos": 72,
+    "votosCandidaturas": 72,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 64.86,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 16.48
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 18,
+        "pctVotos": 25.0,
         "pctVotosAnterior": 19.78
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 15,
+        "pctVotos": 20.83,
+        "pctVotosAnterior": 16.48
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 13,
+        "pctVotos": 18.06,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 8.33,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 4,
+        "pctVotos": 5.56,
+        "pctVotosAnterior": 2.2
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 2.78,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 19.44,
       "numCandidaturas": 7
     }
   },
@@ -18044,18 +18044,18 @@
     "poblacion": 324,
     "mesas": 1,
     "censo": 273,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 172,
+    "validos": 170,
+    "votosCandidaturas": 169,
+    "blanco": 1,
+    "nulos": 2,
+    "participacionPct": 63.0,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18063,54 +18063,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 50,
+        "pctVotos": 29.41,
         "pctVotosAnterior": 25.95
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 42,
+        "pctVotos": 24.71,
         "pctVotosAnterior": 21.62
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 25,
+        "pctVotos": 14.71,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 13,
+        "pctVotos": 7.65,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 7,
+        "pctVotos": 4.12,
+        "pctVotosAnterior": 1.62
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 4,
+        "pctVotos": 2.35,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 28,
+      "pctVotos": 16.47,
       "numCandidaturas": 7
     }
   },
@@ -18119,18 +18119,18 @@
     "poblacion": 399,
     "mesas": 1,
     "censo": 325,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 230,
+    "validos": 226,
+    "votosCandidaturas": 223,
+    "blanco": 3,
+    "nulos": 4,
+    "participacionPct": 70.76,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18138,54 +18138,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 86,
+        "pctVotos": 38.05,
         "pctVotosAnterior": 36.24
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 40,
+        "pctVotos": 17.7,
         "pctVotosAnterior": 15.6
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 34,
+        "pctVotos": 15.04,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 11,
+        "pctVotos": 4.87,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 10,
+        "pctVotos": 4.42,
+        "pctVotosAnterior": 2.29
+      },
+      {
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 7,
+        "pctVotos": 3.1,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 35,
+      "pctVotos": 15.49,
       "numCandidaturas": 7
     }
   },
@@ -18194,18 +18194,18 @@
     "poblacion": 177,
     "mesas": 1,
     "censo": 150,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 70,
+    "validos": 67,
+    "votosCandidaturas": 66,
+    "blanco": 1,
+    "nulos": 3,
+    "participacionPct": 46.66,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18213,54 +18213,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 18,
+        "pctVotos": 26.87,
         "pctVotosAnterior": 24.29
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 17,
+        "pctVotos": 25.37,
         "pctVotosAnterior": 22.86
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 11,
+        "pctVotos": 16.42,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 6,
+        "pctVotos": 8.96,
+        "pctVotosAnterior": 7.14
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 5,
+        "pctVotos": 7.46,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 2.99,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 10.45,
       "numCandidaturas": 7
     }
   },
@@ -18269,18 +18269,18 @@
     "poblacion": 85,
     "mesas": 1,
     "censo": 65,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 48,
+    "validos": 48,
+    "votosCandidaturas": 44,
+    "blanco": 4,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 73.84,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18288,54 +18288,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 17,
+        "pctVotos": 35.42,
         "pctVotosAnterior": 30.36
       },
       {
-        "siglas": "FO",
+        "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 9,
+        "pctVotos": 18.75,
         "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 10.42,
         "pctVotosAnterior": 7.14
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 4,
+        "pctVotos": 8.33,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 2.08,
+        "pctVotosAnterior": null
       },
       {
         "siglas": "EGUZKILORE",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "GBAI",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 2.08,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 14.58,
       "numCandidaturas": 7
     }
   },
@@ -18344,73 +18344,73 @@
     "poblacion": 165,
     "mesas": 1,
     "censo": 150,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 101,
+    "validos": 99,
+    "votosCandidaturas": 98,
+    "blanco": 1,
+    "nulos": 2,
+    "participacionPct": 67.33,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 16.67
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 26,
+        "pctVotos": 26.26,
         "pctVotosAnterior": 22.55
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 20,
+        "pctVotos": 20.2,
+        "pctVotosAnterior": 16.67
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 15,
+        "pctVotos": 15.15,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 13,
+        "pctVotos": 13.13,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 8,
+        "pctVotos": 8.08,
+        "pctVotosAnterior": 5.88
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 2.02,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 14.14,
       "numCandidaturas": 7
     }
   },
@@ -18419,18 +18419,18 @@
     "poblacion": 147,
     "mesas": 1,
     "censo": 122,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 86,
+    "validos": 84,
+    "votosCandidaturas": 84,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 2,
+    "participacionPct": 70.49,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18438,54 +18438,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 53,
+        "pctVotos": 63.1,
         "pctVotosAnterior": 55.1
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 13,
+        "pctVotos": 15.48,
         "pctVotosAnterior": 12.24
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 6,
+        "pctVotos": 7.14,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 3.57,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 1.19,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EGUZKILORE",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 1.19,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 8.33,
       "numCandidaturas": 7
     }
   },
@@ -18494,18 +18494,18 @@
     "poblacion": 317,
     "mesas": 1,
     "censo": 240,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 139,
+    "validos": 139,
+    "votosCandidaturas": 136,
+    "blanco": 3,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 57.91,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18513,54 +18513,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 44,
+        "pctVotos": 31.65,
         "pctVotosAnterior": 29.05
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 34,
+        "pctVotos": 24.46,
         "pctVotosAnterior": 21.62
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 15,
+        "pctVotos": 10.79,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 13,
+        "pctVotos": 9.35,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 6,
+        "pctVotos": 4.32,
+        "pctVotosAnterior": 2.03
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 2.16,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 21,
+      "pctVotos": 15.11,
       "numCandidaturas": 7
     }
   },
@@ -18569,73 +18569,73 @@
     "poblacion": 2439,
     "mesas": 3,
     "censo": 1761,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1275,
+    "validos": 1272,
+    "votosCandidaturas": 1257,
+    "blanco": 15,
+    "nulos": 3,
+    "participacionPct": 72.4,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 1.17
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 664,
+        "pctVotos": 52.2,
         "pctVotosAnterior": 49.3
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 113,
+        "pctVotos": 8.88,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 91,
+        "pctVotos": 7.15,
+        "pctVotosAnterior": 4.23
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 50,
+        "pctVotos": 3.93,
+        "pctVotosAnterior": 1.17
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 45,
+        "pctVotos": 3.54,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 40,
+        "pctVotos": 3.14,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 254,
+      "pctVotos": 19.97,
       "numCandidaturas": 7
     }
   },
@@ -18644,18 +18644,18 @@
     "poblacion": 3771,
     "mesas": 4,
     "censo": 2812,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1777,
+    "validos": 1752,
+    "votosCandidaturas": 1743,
+    "blanco": 9,
+    "nulos": 25,
+    "participacionPct": 63.19,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18663,54 +18663,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 777,
+        "pctVotos": 44.35,
         "pctVotosAnterior": 42.78
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 461,
+        "pctVotos": 26.31,
         "pctVotosAnterior": 25.0
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 212,
+        "pctVotos": 12.1,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 116,
+        "pctVotos": 6.62,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 43,
+        "pctVotos": 2.45,
+        "pctVotosAnterior": 1.53
+      },
+      {
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 20,
+        "pctVotos": 1.14,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 114,
+      "pctVotos": 6.51,
       "numCandidaturas": 7
     }
   },
@@ -18719,73 +18719,73 @@
     "poblacion": 4366,
     "mesas": 5,
     "censo": 3127,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 2205,
+    "validos": 2177,
+    "votosCandidaturas": 2171,
+    "blanco": 6,
+    "nulos": 28,
+    "participacionPct": 70.51,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 9.67
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 838,
+        "pctVotos": 38.49,
         "pctVotosAnterior": 35.55
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 273,
+        "pctVotos": 12.54,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 268,
+        "pctVotos": 12.31,
+        "pctVotosAnterior": 9.67
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 196,
+        "pctVotos": 9.0,
+        "pctVotosAnterior": 6.41
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 142,
+        "pctVotos": 6.52,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 63,
+        "pctVotos": 2.89,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 391,
+      "pctVotos": 17.96,
       "numCandidaturas": 7
     }
   },
@@ -18794,18 +18794,18 @@
     "poblacion": 80,
     "mesas": 1,
     "censo": 67,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 36,
+    "validos": 35,
+    "votosCandidaturas": 35,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 1,
+    "participacionPct": 53.73,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18813,54 +18813,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 25,
+        "pctVotos": 71.43,
         "pctVotosAnterior": 54.0
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 17.14,
         "pctVotosAnterior": 12.0
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 2,
+        "pctVotos": 5.71,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 2.86,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 1,
+        "pctVotos": 2.86,
+        "pctVotosAnterior": 2.0
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -18869,18 +18869,18 @@
     "poblacion": 167,
     "mesas": 1,
     "censo": 142,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 106,
+    "validos": 106,
+    "votosCandidaturas": 105,
+    "blanco": 1,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 74.64,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -18888,54 +18888,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 58,
+        "pctVotos": 54.72,
         "pctVotosAnterior": 51.43
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 26,
+        "pctVotos": 24.53,
         "pctVotosAnterior": 22.86
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 13,
+        "pctVotos": 12.26,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 8,
+        "pctVotos": 7.55,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EGUZKILORE",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -18944,73 +18944,73 @@
     "poblacion": 2945,
     "mesas": 3,
     "censo": 1941,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1324,
+    "validos": 1310,
+    "votosCandidaturas": 1307,
+    "blanco": 3,
+    "nulos": 14,
+    "participacionPct": 68.21,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 5.41
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 573,
+        "pctVotos": 43.74,
         "pctVotosAnterior": 40.62
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 166,
+        "pctVotos": 12.67,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 107,
+        "pctVotos": 8.17,
+        "pctVotosAnterior": 5.41
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 103,
+        "pctVotos": 7.86,
+        "pctVotosAnterior": 5.11
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 45,
+        "pctVotos": 3.44,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 45,
+        "pctVotos": 3.44,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 268,
+      "pctVotos": 20.46,
       "numCandidaturas": 7
     }
   },
@@ -19019,73 +19019,82 @@
     "poblacion": 114,
     "mesas": 1,
     "censo": 102,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 69,
+    "validos": 67,
+    "votosCandidaturas": 67,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 2,
+    "participacionPct": 67.64,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        },
+        {
+          "siglas": "FA",
+          "color": "#FF8258"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 9.46
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 18,
+        "pctVotos": 26.87,
         "pctVotosAnterior": 21.62
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 18,
+        "pctVotos": 26.87,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 9,
+        "pctVotos": 13.43,
+        "pctVotosAnterior": 9.46
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 4.48,
         "pctVotosAnterior": null
       },
       {
         "siglas": "MUNDO+JUSTO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3,
+        "pctVotos": 4.48,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 2,
+        "pctVotos": 2.99,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 20.9,
       "numCandidaturas": 7
     }
   },
@@ -19094,18 +19103,18 @@
     "poblacion": 99,
     "mesas": 1,
     "censo": 88,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 47,
+    "validos": 47,
+    "votosCandidaturas": 47,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 53.4,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -19113,54 +19122,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 28,
+        "pctVotos": 59.57,
         "pctVotosAnterior": 52.63
       },
       {
-        "siglas": "FO",
+        "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 10,
+        "pctVotos": 21.28,
         "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 10.64,
         "pctVotosAnterior": 8.77
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 3,
+        "pctVotos": 6.38,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "GBAI",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 1,
+        "pctVotos": 2.13,
+        "pctVotosAnterior": 1.75
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -19169,73 +19178,73 @@
     "poblacion": 1272,
     "mesas": 2,
     "censo": 972,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 693,
+    "validos": 682,
+    "votosCandidaturas": 674,
+    "blanco": 8,
+    "nulos": 11,
+    "participacionPct": 71.29,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 14.6
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 237,
+        "pctVotos": 34.75,
         "pctVotosAnterior": 31.82
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 133,
+        "pctVotos": 19.5,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 117,
+        "pctVotos": 17.16,
+        "pctVotosAnterior": 14.6
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 35,
+        "pctVotos": 5.13,
+        "pctVotosAnterior": 2.92
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 33,
+        "pctVotos": 4.84,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 20,
+        "pctVotos": 2.93,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 99,
+      "pctVotos": 14.52,
       "numCandidaturas": 7
     }
   },
@@ -19244,18 +19253,18 @@
     "poblacion": 10022,
     "mesas": 12,
     "censo": 7768,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 5576,
+    "validos": 5542,
+    "votosCandidaturas": 5512,
+    "blanco": 30,
+    "nulos": 34,
+    "participacionPct": 71.78,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -19263,54 +19272,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1805,
+        "pctVotos": 32.57,
         "pctVotosAnterior": 30.69
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1556,
+        "pctVotos": 28.08,
         "pctVotosAnterior": 26.47
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 880,
+        "pctVotos": 15.88,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 301,
+        "pctVotos": 5.43,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 264,
+        "pctVotos": 4.76,
+        "pctVotosAnterior": 3.23
+      },
+      {
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 104,
+        "pctVotos": 1.88,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 602,
+      "pctVotos": 10.86,
       "numCandidaturas": 7
     }
   },
@@ -19319,18 +19328,18 @@
     "poblacion": 583,
     "mesas": 1,
     "censo": 453,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
+    "votantes": 291,
+    "validos": 291,
+    "votosCandidaturas": 287,
+    "blanco": 4,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 64.23,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -19338,54 +19347,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 130,
+        "pctVotos": 44.67,
         "pctVotosAnterior": 43.62
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 73,
+        "pctVotos": 25.09,
         "pctVotosAnterior": 24.16
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 41,
+        "pctVotos": 14.09,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 26,
+        "pctVotos": 8.93,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 9,
+        "pctVotos": 3.09,
+        "pctVotosAnterior": 2.68
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 0.34,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 2.41,
       "numCandidaturas": 7
     }
   },
@@ -19394,18 +19403,18 @@
     "poblacion": 1568,
     "mesas": 3,
     "censo": 1295,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 840,
+    "validos": 831,
+    "votosCandidaturas": 827,
+    "blanco": 4,
+    "nulos": 9,
+    "participacionPct": 64.86,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -19413,54 +19422,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 243,
+        "pctVotos": 29.24,
         "pctVotosAnterior": 26.27
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 197,
+        "pctVotos": 23.71,
         "pctVotosAnterior": 20.71
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 120,
+        "pctVotos": 14.44,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 47,
+        "pctVotos": 5.66,
+        "pctVotosAnterior": 3.08
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 45,
+        "pctVotos": 5.42,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 24,
+        "pctVotos": 2.89,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 151,
+      "pctVotos": 18.17,
       "numCandidaturas": 7
     }
   },
@@ -19469,73 +19478,73 @@
     "poblacion": 304,
     "mesas": 1,
     "censo": 232,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 165,
+    "validos": 164,
+    "votosCandidaturas": 163,
+    "blanco": 1,
+    "nulos": 1,
+    "participacionPct": 71.12,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 7.69
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 50,
+        "pctVotos": 30.49,
         "pctVotosAnterior": 27.47
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 31,
+        "pctVotos": 18.9,
+        "pctVotosAnterior": 15.93
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 27,
+        "pctVotos": 16.46,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 17,
+        "pctVotos": 10.37,
+        "pctVotosAnterior": 7.69
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 3.05,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PCTE",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 5,
+        "pctVotos": 3.05,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 28,
+      "pctVotos": 17.07,
       "numCandidaturas": 7
     }
   },
@@ -19544,73 +19553,73 @@
     "poblacion": 297,
     "mesas": 1,
     "censo": 236,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 174,
+    "validos": 172,
+    "votosCandidaturas": 172,
     "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "nulos": 2,
+    "participacionPct": 73.72,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "FA",
+      "color": "#FF8258",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
+        "siglas": "FA",
+        "color": "#FF8258",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 19.89
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 55,
+        "pctVotos": 31.98,
         "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 42,
+        "pctVotos": 24.42,
         "pctVotosAnterior": 21.51
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 39,
+        "pctVotos": 22.67,
+        "pctVotosAnterior": 19.89
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
+        "votos": 10,
+        "pctVotos": 5.81,
+        "pctVotosAnterior": 4.3
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 3.49,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 4,
+        "pctVotos": 2.33,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 16,
+      "pctVotos": 9.3,
       "numCandidaturas": 7
     }
   },
@@ -19619,18 +19628,18 @@
     "poblacion": 296,
     "mesas": 1,
     "censo": 223,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 132,
+    "validos": 132,
+    "votosCandidaturas": 132,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 59.19,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -19638,54 +19647,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 94,
+        "pctVotos": 71.21,
         "pctVotosAnterior": 68.61
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 15,
+        "pctVotos": 11.36,
         "pctVotosAnterior": 10.95
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 11,
+        "pctVotos": 8.33,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 6,
+        "pctVotos": 4.55,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 6,
+        "pctVotos": 4.55,
+        "pctVotosAnterior": 4.38
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
         "votos": 0,
-        "pctVotos": 0,
+        "pctVotos": 0.0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -19694,18 +19703,18 @@
     "poblacion": 202,
     "mesas": 1,
     "censo": 179,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 99,
+    "validos": 97,
+    "votosCandidaturas": 94,
+    "blanco": 3,
+    "nulos": 2,
+    "participacionPct": 55.3,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -19713,54 +19722,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 39,
+        "pctVotos": 40.21,
         "pctVotosAnterior": 38.1
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 19,
+        "pctVotos": 19.59,
         "pctVotosAnterior": 18.1
-      },
-      {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 12,
+        "pctVotos": 12.37,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 12,
+        "pctVotos": 12.37,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 4,
+        "pctVotos": 4.12,
+        "pctVotosAnterior": 2.86
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 1.03,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 7.22,
       "numCandidaturas": 7
     }
   },
@@ -19769,73 +19778,82 @@
     "poblacion": 74,
     "mesas": 1,
     "censo": 64,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
+    "votantes": 27,
+    "validos": 27,
+    "votosCandidaturas": 27,
     "blanco": 0,
     "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "participacionPct": 42.18,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "EH Bildu",
+          "color": "#A4CE4E"
+        },
+        {
+          "siglas": "PSOE",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 7,
+        "pctVotos": 25.93,
         "pctVotosAnterior": 19.05
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 7,
+        "pctVotos": 25.93,
         "pctVotosAnterior": 19.05
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 6,
+        "pctVotos": 22.22,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 4,
+        "pctVotos": 14.81,
+        "pctVotosAnterior": 9.52
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2,
+        "pctVotos": 7.41,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1,
+        "pctVotos": 3.7,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 7
     }
   },
@@ -19844,73 +19862,73 @@
     "poblacion": 19537,
     "mesas": 24,
     "censo": 15246,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 10844,
+    "validos": 10774,
+    "votosCandidaturas": 10697,
+    "blanco": 77,
+    "nulos": 70,
+    "participacionPct": 71.12,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 15.78
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 3446,
+        "pctVotos": 31.98,
         "pctVotosAnterior": 30.37
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 1964,
+        "pctVotos": 18.23,
+        "pctVotosAnterior": 15.78
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 1801,
+        "pctVotos": 16.72,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 819,
+        "pctVotos": 7.6,
+        "pctVotosAnterior": 5.14
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 542,
+        "pctVotos": 5.03,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 305,
+        "pctVotos": 2.83,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1820,
+      "pctVotos": 16.89,
       "numCandidaturas": 7
     }
   },
@@ -19919,73 +19937,73 @@
     "poblacion": 7453,
     "mesas": 7,
     "censo": 5213,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 3481,
+    "validos": 3464,
+    "votosCandidaturas": 3422,
+    "blanco": 42,
+    "nulos": 17,
+    "participacionPct": 66.77,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 17.09
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 902,
+        "pctVotos": 26.04,
         "pctVotosAnterior": 23.65
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 678,
+        "pctVotos": 19.57,
+        "pctVotosAnterior": 17.09
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 615,
+        "pctVotos": 17.75,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 330,
+        "pctVotos": 9.53,
+        "pctVotosAnterior": 7.31
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 215,
+        "pctVotos": 6.21,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 100,
+        "pctVotos": 2.89,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 582,
+      "pctVotos": 16.8,
       "numCandidaturas": 7
     }
   },
@@ -19994,73 +20012,73 @@
     "poblacion": 10765,
     "mesas": 12,
     "censo": 7829,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 4928,
+    "validos": 4880,
+    "votosCandidaturas": 4841,
+    "blanco": 39,
+    "nulos": 48,
+    "participacionPct": 62.94,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 23.66
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 1656,
+        "pctVotos": 33.93,
         "pctVotosAnterior": 32.12
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 1221,
+        "pctVotos": 25.02,
+        "pctVotosAnterior": 23.66
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 842,
+        "pctVotos": 17.25,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 369,
+        "pctVotos": 7.56,
+        "pctVotosAnterior": 6.2
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 153,
+        "pctVotos": 3.14,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 102,
+        "pctVotos": 2.09,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 498,
+      "pctVotos": 10.2,
       "numCandidaturas": 7
     }
   },
@@ -20069,18 +20087,18 @@
     "poblacion": 2299,
     "mesas": 2,
     "censo": 1594,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 980,
+    "validos": 972,
+    "votosCandidaturas": 961,
+    "blanco": 11,
+    "nulos": 8,
+    "participacionPct": 61.48,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -20088,54 +20106,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 300,
+        "pctVotos": 30.86,
         "pctVotosAnterior": 29.47
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 278,
+        "pctVotos": 28.6,
         "pctVotosAnterior": 27.21
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 155,
+        "pctVotos": 15.95,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 51,
+        "pctVotos": 5.25,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 49,
+        "pctVotos": 5.04,
+        "pctVotosAnterior": 3.49
+      },
+      {
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 21,
+        "pctVotos": 2.16,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 107,
+      "pctVotos": 11.01,
       "numCandidaturas": 7
     }
   },
@@ -20144,73 +20162,73 @@
     "poblacion": 4100,
     "mesas": 4,
     "censo": 3169,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 2142,
+    "validos": 2124,
+    "votosCandidaturas": 2109,
+    "blanco": 15,
+    "nulos": 18,
+    "participacionPct": 67.59,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 8.46
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 795,
+        "pctVotos": 37.43,
         "pctVotosAnterior": 35.21
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 395,
+        "pctVotos": 18.6,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 225,
+        "pctVotos": 10.59,
+        "pctVotosAnterior": 8.46
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 208,
+        "pctVotos": 9.79,
+        "pctVotosAnterior": 7.64
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 77,
+        "pctVotos": 3.63,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 75,
+        "pctVotos": 3.53,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 334,
+      "pctVotos": 15.73,
       "numCandidaturas": 7
     }
   },
@@ -20219,73 +20237,73 @@
     "poblacion": 4095,
     "mesas": 4,
     "censo": 2960,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 1999,
+    "validos": 1986,
+    "votosCandidaturas": 1967,
+    "blanco": 19,
+    "nulos": 13,
+    "participacionPct": 67.53,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 15.83
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 576,
+        "pctVotos": 29.0,
         "pctVotosAnterior": 26.66
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 359,
+        "pctVotos": 18.08,
+        "pctVotosAnterior": 15.83
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 357,
+        "pctVotos": 17.98,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 219,
+        "pctVotos": 11.03,
+        "pctVotosAnterior": 8.85
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 94,
+        "pctVotos": 4.73,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "FO",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 49,
+        "pctVotos": 2.47,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 313,
+      "pctVotos": 15.76,
       "numCandidaturas": 7
     }
   },
@@ -20294,73 +20312,73 @@
     "poblacion": 15497,
     "mesas": 20,
     "censo": 12460,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 9052,
+    "validos": 8985,
+    "votosCandidaturas": 8914,
+    "blanco": 71,
+    "nulos": 67,
+    "participacionPct": 72.64,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PSOE",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": 17.04
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
-      },
-      {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 2456,
+        "pctVotos": 27.33,
         "pctVotosAnterior": 25.01
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "votos": 1794,
+        "pctVotos": 19.97,
+        "pctVotosAnterior": 17.04
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 1593,
+        "pctVotos": 17.73,
         "pctVotosAnterior": null
+      },
+      {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 689,
+        "pctVotos": 7.67,
+        "pctVotosAnterior": 5.56
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 605,
+        "pctVotos": 6.73,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 258,
+        "pctVotos": 2.87,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1519,
+      "pctVotos": 16.91,
       "numCandidaturas": 7
     }
   },
@@ -20369,18 +20387,18 @@
     "poblacion": 1656,
     "mesas": 2,
     "censo": 1267,
-    "votantes": 0,
-    "validos": 0,
-    "votosCandidaturas": 0,
-    "blanco": 0,
-    "nulos": 0,
-    "participacionPct": 0.0,
-    "pctEscrutado": 0.0,
+    "votantes": 849,
+    "validos": 838,
+    "votosCandidaturas": 833,
+    "blanco": 5,
+    "nulos": 11,
+    "participacionPct": 67.0,
+    "pctEscrutado": 100.0,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "EH Bildu",
+      "color": "#A4CE4E",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -20388,54 +20406,54 @@
         "siglas": "EH Bildu",
         "color": "#A4CE4E",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 312,
+        "pctVotos": 37.23,
         "pctVotosAnterior": 35.75
-      },
-      {
-        "siglas": "FO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 178,
+        "pctVotos": 21.24,
         "pctVotosAnterior": 20.0
       },
       {
-        "siglas": "EGUZKILORE",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 147,
+        "pctVotos": 17.54,
         "pctVotosAnterior": null
       },
       {
         "siglas": "GBAI",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 85,
+        "pctVotos": 10.14,
         "pctVotosAnterior": null
       },
       {
-        "siglas": "MUNDO+JUSTO",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 31,
+        "pctVotos": 3.7,
+        "pctVotosAnterior": 2.5
+      },
+      {
+        "siglas": "PACMA",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 0,
-        "pctVotos": 0,
+        "votos": 13,
+        "pctVotos": 1.55,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 67,
+      "pctVotos": 8.0,
       "numCandidaturas": 7
     }
   }
