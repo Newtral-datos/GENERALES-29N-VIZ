@@ -2,13 +2,62 @@
   "_guia": "Senado 29N. Ojo con tres cosas antes de tocar nada: (1) los 208 son los senadores que se ELIGEN en las urnas; los 58 designados por los parlamentos autonómicos llegan semanas después y no están aquí, pero sí cuentan para la mayoría absoluta de 134 sobre 266. (2) No hay escaños por municipio: se adjudican por circunscripción. (3) La comparativa con 23J solo puede ser de escaños — el fichero ANT del Senado no trae votos ni candidatos. Partidos ordenados por escaños, votos y resultado anterior.",
   "nacional": {
     "fecha": "2026-11-25",
-    "horaTotalizacion": "16:36",
-    "pctEscrutado": 0.0,
-    "totalEscanos": 0,
+    "horaTotalizacion": "17:30",
+    "pctEscrutado": 3.79,
+    "totalEscanos": 12,
     "totalEscanosCamara": 266,
     "escanosDesignadosPendientes": 58,
     "mayoria": 134,
-    "partidos": [],
+    "partidos": [
+      {
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "lado": 1,
+        "escanos": 5,
+        "escanosAnterior": 73
+      },
+      {
+        "nombre": "PARTIDO POPULAR",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "escanos": 3,
+        "escanosAnterior": 120
+      },
+      {
+        "nombre": "EUSKAL HERRIA BILDU",
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "escanos": 1,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PCTE",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+        "siglas": "PCTE/ELAK",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "VOX",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "escanos": 1,
+        "escanosAnterior": 0
+      }
+    ],
     "anterior": {
       "etiqueta": "Elección anterior (23J, julio 2023)",
       "totalEscanos": 208,
@@ -143,13 +192,35 @@
     "07": {
       "nombre": "Castilla-La Mancha",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 2,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          },
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          }
+        ]
       },
-      "composicion": []
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ]
     },
     "08": {
       "nombre": "Castilla y León",
@@ -220,13 +291,32 @@
     "14": {
       "nombre": "País Vasco",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 2,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": []
+      "composicion": [
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 1
+        },
+        {
+          "siglas": "PCTE/ELAK",
+          "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ]
     },
     "15": {
       "nombre": "Murcia",
@@ -253,13 +343,55 @@
     "17": {
       "nombre": "Comunitat Valenciana",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "PCTE",
+        "color": "#9AA0A6",
+        "escanos": 1,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "PCTE",
+            "color": "#9AA0A6"
+          },
+          {
+            "siglas": "VOX",
+            "color": "#02C119"
+          },
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          },
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          }
+        ]
       },
-      "composicion": []
+      "composicion": [
+        {
+          "siglas": "PCTE",
+          "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
+        }
+      ]
     },
     "18": {
       "nombre": "Ceuta",
@@ -288,54 +420,212 @@
     "01": {
       "nombre": "Araba/Álava",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 2,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 1
+        },
+        {
+          "siglas": "PCTE/ELAK",
+          "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Araba/Álava",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Ainhize Solaun Mendiguren",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 8898
+            },
+            {
+              "nombre": "Daniel Senderos Oraá",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 8887
+            },
+            {
+              "nombre": "Aimar Rodríguez Soto",
+              "siglas": "PCTE/ELAK",
+              "color": "#9AA0A6",
+              "votos": 8611
+            },
+            {
+              "nombre": "Paula Somalo García",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 8551
+            }
+          ]
         }
       ]
     },
     "02": {
       "nombre": "Albacete",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 2,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          },
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          }
+        ]
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Albacete",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Francisco José Requena Terol",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 17514
+            },
+            {
+              "nombre": "Antonio Martínez Gómez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 17376
+            },
+            {
+              "nombre": "María Rosario Herrera Gómez",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 17161
+            },
+            {
+              "nombre": "Miriam García Navarro",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 17108
+            }
+          ]
         }
       ]
     },
     "03": {
       "nombre": "Alacant/Alicante",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
+        "siglas": "PCTE",
+        "color": "#9AA0A6",
+        "escanos": 1,
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "PCTE",
+            "color": "#9AA0A6"
+          },
+          {
+            "siglas": "VOX",
+            "color": "#02C119"
+          },
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          },
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          }
+        ]
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PCTE",
+          "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Alacant/Alicante",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Miguel Arsen Kerobyan Arshakyan",
+              "siglas": "PCTE",
+              "color": "#9AA0A6",
+              "votos": 72465
+            },
+            {
+              "nombre": "Aurora Rodil Martínez",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 71600
+            },
+            {
+              "nombre": "Inmaculada Orozco Ripoll",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 71230
+            },
+            {
+              "nombre": "Eva Ortiz Vilella",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 71219
+            }
+          ]
         }
       ]
     },
