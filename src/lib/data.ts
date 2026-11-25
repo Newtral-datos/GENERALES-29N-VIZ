@@ -1,5 +1,5 @@
 import { asset } from '$app/paths';
-import { FUENTE_DATOS } from '#lib/config';
+import { DATOS_SIMULADOS, FUENTE_DATOS } from '#lib/config';
 import type { Ganador } from '#lib/empates';
 
 /**
@@ -44,9 +44,18 @@ const FICHEROS = {
 	}
 } as const;
 
+/**
+ * Carpeta de la que se leen los JSON que regenera el pipeline.
+ *
+ * Solo la cambia `DATOS_SIMULADOS` (ver `#lib/config`). La geometría y las
+ * tablas fijas NO pasan por aquí: se piden a `data/` directamente desde los
+ * componentes que las usan, porque las deja el repo y no el pipeline.
+ */
+const DIR_DATOS = DATOS_SIMULADOS ? 'data-simulado' : 'data';
+
 /** Ruta del fichero de un juego de datos para la convocatoria configurada. */
 function rutaDe(juego: keyof typeof FICHEROS) {
-	return `data/${FICHEROS[juego][FUENTE_DATOS]}`;
+	return `${DIR_DATOS}/${FICHEROS[juego][FUENTE_DATOS]}`;
 }
 
 /** `fetch` + JSON con el mismo tratamiento de error en todos los getters. */

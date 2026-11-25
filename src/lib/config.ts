@@ -63,6 +63,31 @@ export const MINUTOS_PARA_AVISAR = 4;
 export const FUENTE_DATOS: '23j' | '29n' = '29n';
 
 /**
+ * Lee los JSON de `static/data-simulado/` en vez de `static/data/`.
+ *
+ * Es para trabajar en local antes de que el servicio del Ministerio sirva
+ * envíos con contenido: `elecciones-datos/scripts/simular_desde_23j.py` genera
+ * un snapshot de prueba a partir de los resultados reales de 23J (marcas,
+ * colores y geografía de verdad, cifras movidas), y el procesado lo escribe en
+ * esa carpeta porque su `meta.json` lleva `simulado: true` — ver
+ * `_comun_29n.salida()`. Lo mismo vale para los snapshots marcados `pruebas`:
+ * el rodaje previo y el simulacro, que vienen del endpoint real pero no son
+ * resultados.
+ *
+ * **Ortogonal a `FUENTE_DATOS` a propósito.** Esta constante dice de qué
+ * CARPETA se lee; `FUENTE_DATOS`, de qué CONVOCATORIA. Los nombres de fichero
+ * dentro de `data-simulado/` son los mismos, así que el panel entero funciona
+ * igual sin que ningún componente sepa de esto.
+ *
+ * **El `predeploy` se niega a construir con esto en `true`.** Es la red que
+ * faltaba: el 23/11 un snapshot de rodaje acabó publicado en el panel como si
+ * fueran resultados porque no se bajó con `--pruebas`, y nada lo impidió. La
+ * geometría y las tablas fijas siguen leyéndose de `static/data/`, que es donde
+ * las deja el repo: esta carpeta solo lleva lo que regenera el pipeline.
+ */
+export const DATOS_SIMULADOS = false;
+
+/**
  * Cómo se nombran las dos convocatorias en los textos de la UI.
  *
  * Estaban escritas a mano en seis sitios ("— 23J", "respecto a 2019") y se
@@ -76,3 +101,25 @@ export const FUENTE_DATOS: '23j' | '29n' = '29n';
  */
 export const CONVOCATORIA = '29N';
 export const CONVOCATORIA_ANTERIOR = '23J';
+
+/**
+ * A partir de qué % escrutado la vista `/batalla` se fía de sí misma.
+ *
+ * El dato que publica el Ministerio —cuántos votos le faltan al segundo para
+ * quitarle el último escaño al primero— es correcto en cada envío, pero al
+ * principio de la noche no dice lo que parece: con el 39 % escrutado quedan
+ * 22 millones de electores por contar, así que **cualquier** diferencia cabe
+ * en lo que falta y las 52 provincias salen "en disputa". Medido con datos
+ * reales: ni bajando el umbral al 1 % de lo pendiente se filtraba nada
+ * razonable, seguían quedando 23 provincias.
+ *
+ * Así que por debajo de este número la vista no finge haber seleccionado unas
+ * pocas: enseña la más ajustada, el escrutinio y un aviso en prosa de que esas
+ * cifras se van a mover. Por encima, vuelve el recuento de escaños en disputa,
+ * que es cuando significa algo.
+ *
+ * **Es un número a mano y a propósito**, para poder moverlo la propia noche
+ * electoral sin tocar lógica: si a las 23:00 con el 92 % ya se ve que el
+ * ranking se ha estabilizado, se baja y se despliega.
+ */
+export const ESCRUTINIO_BATALLA_FIABLE = 80;

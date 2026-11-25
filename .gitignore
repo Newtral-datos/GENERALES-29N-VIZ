@@ -47,3 +47,10 @@ static/data/resultados-municipios-senado-29n/
 # Lo que SÍ se versiona de static/data/, porque no lo genera ningún script y no
 # se puede recuperar de la API: provincias.geojson, municipios/*.geojson,
 # ccaa-provincias.json y escanos-congreso-provincias.json.
+
+# Salida de las ejecuciones NO publicables: el snapshot de prueba generado
+# desde 23J (`elecciones-datos/scripts/simular_desde_23j.py`) y los del rodaje
+# y el simulacro. El panel la lee solo con `DATOS_SIMULADOS = true` en
+# src/lib/config.ts, y `npm run predeploy` se niega a construir con eso puesto.
+# Nunca debe versionarse: son cifras que no son resultados.
+static/data-simulado/

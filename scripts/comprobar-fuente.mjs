@@ -32,6 +32,26 @@ if (!fuente) {
 	process.exit(1);
 }
 
+// `DATOS_SIMULADOS` apunta el panel a `static/data-simulado/`, que es donde el
+// pipeline deja lo que NO es publicable: el snapshot de prueba generado desde
+// 23J y los del rodaje y el simulacro. Desplegar con eso activado publicaría
+// cifras que no son resultados con toda la apariencia de serlo, que es
+// exactamente lo que pasó el 23/11 sin que nada avisara. Así que aquí no se
+// avisa: se para.
+const simulados = config.match(/DATOS_SIMULADOS[^=]*=\s*(true|false)/)?.[1];
+
+if (!simulados) {
+	console.error('No encuentro DATOS_SIMULADOS en src/lib/config.ts — ¿se ha renombrado?');
+	process.exit(1);
+}
+
+if (simulados === 'true') {
+	console.error('\nDATOS_SIMULADOS está en `true`: el panel lee de static/data-simulado/.');
+	console.error('Esa carpeta lleva datos que NO son resultados (snapshot de prueba,');
+	console.error('rodaje o simulacro). Ponlo en `false` antes de desplegar.');
+	process.exit(1);
+}
+
 const ESPERADOS = {
 	'23j': ['resultados23j.json', 'participacion23j.json', 'resultadosSenado23j.json'],
 	'29n': ['resultados29n.json', 'participacion29n.json', 'resultadosSenado29n.json']
@@ -83,7 +103,7 @@ if (faltan.length) {
 		`\nEl panel se desplegaría con la portada vacía y 404 en consola.\n` +
 			(fuente === '29n'
 				? 'Lánzalo primero: cd ../elecciones-datos && ./scripts/actualizar_29n.sh\n' +
-					'(sin --pruebas: con ese flag los JSON van a salida-no-publicable/, no al panel)'
+					'(sin --pruebas: con ese flag los JSON van a static/data-simulado/, no al panel)'
 				: 'Los JSON de 23J los generan los scripts de pipeline/procesado/historico/.')
 	);
 	process.exit(1);

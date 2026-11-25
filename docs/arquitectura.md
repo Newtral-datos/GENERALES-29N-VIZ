@@ -194,6 +194,36 @@ y `svelte-check` no mira `static/`), hay una comprobación aparte en
 pide unos ficheros que no están en `static/data/`, aborta con código 1 y el
 `gh-pages` no llega a correr.
 
+### De qué carpeta se leen: `DATOS_SIMULADOS`
+
+Un tercer interruptor manual, ortogonal a los otros dos:
+
+```ts
+export const DATOS_SIMULADOS = false;
+```
+
+`FUENTE_DATOS` dice de qué **convocatoria** se lee; esto, de qué **carpeta**:
+`static/data-simulado/` en vez de `static/data/`. Los nombres de fichero dentro
+son los mismos, así que es un cambio de prefijo en `rutaDe()` (`DIR_DATOS` en
+`data.ts`) y ningún componente sabe de esto.
+
+Ahí escribe el pipeline cuando el snapshot no es publicable — el generado por
+`elecciones-datos/scripts/simular_desde_23j.py` y los del rodaje y el simulacro
+(`meta.json` con `simulado` o `pruebas`). Es lo que permite revisar el panel con
+marcas, colores y geografía reales antes de que el servicio del Ministerio sirva
+envíos con contenido. Qué contiene y cómo se genera, en
+`elecciones-datos/docs/flujo-de-datos.md`.
+
+**La geometría y las tablas fijas siguen leyéndose de `static/data/`**: las deja
+el repo, no el pipeline, y los componentes las piden por su ruta directa sin
+pasar por `rutaDe()`.
+
+`scripts/comprobar-fuente.mjs` **aborta el `predeploy`** si este interruptor
+está en `true`. No es un aviso: desplegar así publicaría cifras que no son
+resultados con toda la apariencia de serlo, que es lo que pasó el 23/11 cuando
+un snapshot de rodaje se bajó sin `--pruebas` y entró directo al panel sin que
+nada lo impidiera.
+
 ### `null` no es `0`
 
 `escanosAnterior` y `pctVotosAnterior` son `number | null`. `null` significa
@@ -218,6 +248,7 @@ testeable y reutilizable, y el router no acumula layout.
 | `/provincias` | `provincias/+page.svelte` | `ProvinciasView` | `SelectorProvincias` (que a su vez monta `MapaMunicipios`) |
 | `/participacion` | `participacion/+page.svelte` | `ParticipacionView` | `AvancesParticipacion`, `MapaParticipacion`, `RankingParticipacion` |
 | `/pactos` | `pactos/+page.svelte` | `PactosView` | `SimuladorPactos` |
+| `/batalla` | `batalla/+page.svelte` | `BatallaView` | todo en un componente: portada, tira de las tres más reñidas, mapa de aspirantes, lista de 52 y nota metodológica |
 
 `+layout.svelte` monta lo compartido y no se remonta al navegar:
 `EscrutinioHeader` (faldón con logo y "en directo"), `ChamberTabs` (pestañas
@@ -230,6 +261,31 @@ inyecta el favicon y carga `app.css`.
 **Varias vistas = varias rutas, no condicionales.** Congreso y Senado son
 rutas distintas con URL propia y botón atrás del navegador, no un `{#if}`
 dentro de un componente gigante.
+
+### `/batalla` — por qué no lleva ninguna barra
+
+La vista ordena las 52 provincias por `votosFaltantes / censoSinEscrutar` (lo
+que ordena y lo que se publica, en "votos de cada mil electores pendientes") y
+**no tiene ni una representación gráfica de esa magnitud**. No es un olvido: se
+intentaron tres y las tres se descartaron con los datos delante.
+
+| Intento | Por qué no |
+|---|---|
+| Barra parte-sobre-total (ancho = pendientes, relleno = hueco) | La proporción arranca en 1,1 por mil, o sea un relleno del 0,11 %: todas las barras salían vacías. Y se leía al revés — más vacía, más reñida. |
+| La misma barra normalizada al máximo de la lista | La proporción va de 1,1 a 344 por mil, un factor 300: las cinco primeras filas, que son las que importan, se pegaban todas al suelo de la escala. |
+| Filete de ancho variable entre las dos marcas | Igual, y separarlas exigía escala no lineal (raíz), con la que un largo ya no se puede comparar como cantidad. |
+
+La conclusión, que vale para cualquier pieza futura: **una longitud no puede
+representar una magnitud cuya distribución abarca dos órdenes de magnitud y
+cuyo interés está en la cola corta.** La fila se resolvió en prosa —"FA está a
+167 votos de quitarle el escaño a PSOE", con las dos marcas en pastillas de su
+color— y la proporción va como cifra en la esquina del pie, para poder auditar
+el orden desde la propia fila.
+
+El umbral `ESCRUTINIO_BATALLA_FIABLE` (en `config.ts`) decide cuándo la vista
+publica el recuento de escaños en disputa: por debajo no lo publica, porque con
+el escrutinio bajo salen las 52. El porqué, medido, está en el propio
+`config.ts`.
 
 ### El Senado va a escala de 208, no de 266
 

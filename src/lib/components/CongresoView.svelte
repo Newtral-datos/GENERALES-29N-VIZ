@@ -278,9 +278,21 @@
 		grid-template-columns: 1fr;
 	}
 
-	@media (min-width: 900px) {
+	/* 2x2. Con tres columnas los cuatro reclamos dejaban uno descolgado en una
+	   segunda fila, y a 900 px de ancho repartido entre tres cada uno se queda
+	   en unos 300 px: el titular de dos líneas no cabía. El breakpoint baja a
+	   760 porque a dos columnas cada celda tiene el doble de sitio. */
+	@media (min-width: 760px) {
 		.teasers {
-			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr;
+		}
+
+		/* Antes de abrir el escrutinio el de `/batalla` está gateado y quedan
+		   tres: el último ocupa la fila entera en vez de dejar media celda vacía.
+		   `:global()` porque el hijo es la raíz de otro componente y el ámbito de
+		   Svelte no llega ahí. */
+		.teasers > :global(.teaser:nth-child(3):last-child) {
+			grid-column: 1 / -1;
 		}
 	}
 
