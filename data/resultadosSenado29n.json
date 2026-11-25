@@ -2,9 +2,9 @@
   "_guia": "Senado 29N. Ojo con tres cosas antes de tocar nada: (1) los 208 son los senadores que se ELIGEN en las urnas; los 58 designados por los parlamentos autonómicos llegan semanas después y no están aquí, pero sí cuentan para la mayoría absoluta de 134 sobre 266. (2) No hay escaños por municipio: se adjudican por circunscripción. (3) La comparativa con 23J solo puede ser de escaños — el fichero ANT del Senado no trae votos ni candidatos. Partidos ordenados por escaños, votos y resultado anterior.",
   "nacional": {
     "fecha": "2026-11-25",
-    "horaTotalizacion": "17:48",
-    "pctEscrutado": 44.8,
-    "totalEscanos": 106,
+    "horaTotalizacion": "17:51",
+    "pctEscrutado": 51.31,
+    "totalEscanos": 114,
     "totalEscanosCamara": 266,
     "escanosDesignadosPendientes": 58,
     "mayoria": 134,
@@ -14,7 +14,7 @@
         "siglas": "SENADO DE PROGRESO",
         "color": "#E10819",
         "lado": 1,
-        "escanos": 39,
+        "escanos": 40,
         "escanosAnterior": 73
       },
       {
@@ -22,7 +22,7 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "escanos": 25,
+        "escanos": 30,
         "escanosAnterior": 120
       },
       {
@@ -30,7 +30,7 @@
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "escanos": 11,
+        "escanos": 13,
         "escanosAnterior": 0
       },
       {
@@ -82,16 +82,16 @@
         "escanosAnterior": null
       },
       {
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
-        "siglas": "ESCAÑOS EN BLANCO",
-        "color": "#9AA0A6",
-        "lado": 2,
+        "nombre": "BLOQUE NACIONALISTA GALEGO",
+        "siglas": "B.N.G.",
+        "color": "#5EB5E5",
+        "lado": 1,
         "escanos": 1,
-        "escanosAnterior": null
+        "escanosAnterior": 0
       },
       {
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+        "siglas": "ESCAÑOS EN BLANCO",
         "color": "#9AA0A6",
         "lado": 2,
         "escanos": 1,
@@ -504,20 +504,47 @@
     "11": {
       "nombre": "Galicia",
       "ganador": {
-        "siglas": "SENADO DE PROGRESO",
-        "color": "#E10819",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 4,
+        "estado": "claro",
+        "empatados": []
+      },
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 4
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        },
+        {
+          "siglas": "B.N.G.",
+          "nombre": "BLOQUE NACIONALISTA GALEGO",
+          "color": "#5EB5E5",
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
+        }
+      ]
+    },
+    "12": {
+      "nombre": "Madrid",
+      "ganador": {
+        "siglas": "PP",
+        "color": "#0557A1",
         "escanos": 2,
-        "estado": "empate",
-        "empatados": [
-          {
-            "siglas": "SENADO DE PROGRESO",
-            "color": "#E10819"
-          },
-          {
-            "siglas": "PP",
-            "color": "#0557A1"
-          }
-        ]
+        "estado": "claro",
+        "empatados": []
       },
       "composicion": [
         {
@@ -530,20 +557,15 @@
           "siglas": "SENADO DE PROGRESO",
           "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
           "color": "#E10819",
-          "escanos": 2
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
         }
       ]
-    },
-    "12": {
-      "nombre": "Madrid",
-      "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
-      },
-      "composicion": []
     },
     "13": {
       "nombre": "Navarra",
@@ -615,15 +637,11 @@
     "16": {
       "nombre": "La Rioja",
       "ganador": {
-        "siglas": "VOX",
-        "color": "#02C119",
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
         "escanos": 1,
         "estado": "empate",
         "empatados": [
-          {
-            "siglas": "VOX",
-            "color": "#02C119"
-          },
           {
             "siglas": "PODEMOS",
             "color": "#6E2585"
@@ -633,22 +651,26 @@
             "color": "#E10819"
           },
           {
-            "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-            "color": "#9AA0A6"
+            "siglas": "VOX",
+            "color": "#02C119"
+          },
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
           }
         ]
       },
       "composicion": [
         {
-          "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-          "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-          "color": "#9AA0A6",
-          "escanos": 1
-        },
-        {
           "siglas": "PODEMOS",
           "nombre": "PODEMOS",
           "color": "#6E2585",
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
           "escanos": 1
         },
         {
@@ -2414,15 +2436,11 @@
     "26": {
       "nombre": "La Rioja",
       "ganador": {
-        "siglas": "VOX",
-        "color": "#02C119",
+        "siglas": "PODEMOS",
+        "color": "#6E2585",
         "escanos": 1,
         "estado": "empate",
         "empatados": [
-          {
-            "siglas": "VOX",
-            "color": "#02C119"
-          },
           {
             "siglas": "PODEMOS",
             "color": "#6E2585"
@@ -2432,22 +2450,26 @@
             "color": "#E10819"
           },
           {
-            "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-            "color": "#9AA0A6"
+            "siglas": "VOX",
+            "color": "#02C119"
+          },
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
           }
         ]
       },
       "composicion": [
         {
-          "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-          "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-          "color": "#9AA0A6",
-          "escanos": 1
-        },
-        {
           "siglas": "PODEMOS",
           "nombre": "PODEMOS",
           "color": "#6E2585",
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
           "escanos": 1
         },
         {
@@ -2469,28 +2491,28 @@
           "escanos": 4,
           "ganadores": [
             {
-              "nombre": "Jésica Fernández Villoslada",
-              "siglas": "VOX",
-              "color": "#02C119",
-              "votos": 10395
-            },
-            {
               "nombre": "Victorino Pablo Pascual",
               "siglas": "PODEMOS",
               "color": "#6E2585",
-              "votos": 10390
+              "votos": 11033
             },
             {
               "nombre": "Diego Mendiola García",
               "siglas": "SENADO DE PROGRESO",
               "color": "#E10819",
-              "votos": 10342
+              "votos": 11028
             },
             {
-              "nombre": "Encarnación Villalba Ale",
-              "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-              "color": "#9AA0A6",
-              "votos": 10245
+              "nombre": "Jésica Fernández Villoslada",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 11019
+            },
+            {
+              "nombre": "Javier Merino Martínez",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 10851
             }
           ]
         }
@@ -2499,36 +2521,124 @@
     "27": {
       "nombre": "Lugo",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "B.N.G.",
+          "nombre": "BLOQUE NACIONALISTA GALEGO",
+          "color": "#5EB5E5",
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Lugo",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "José Manuel Barreiro Fernández",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 13210
+            },
+            {
+              "nombre": "Candela López Piñeiro",
+              "siglas": "B.N.G.",
+              "color": "#5EB5E5",
+              "votos": 12563
+            },
+            {
+              "nombre": "Manuel Menéndez Mato",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 12538
+            },
+            {
+              "nombre": "Juan Carlos Serrano López",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 12394
+            }
+          ]
         }
       ]
     },
     "28": {
       "nombre": "Madrid",
       "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
+        "siglas": "PP",
+        "color": "#0557A1",
+        "escanos": 2,
+        "estado": "claro",
         "empatados": []
       },
-      "composicion": [],
+      "composicion": [
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 2
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 1
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 1
+        }
+      ],
       "circunscripciones": [
         {
           "nombre": "Madrid",
           "escanos": 4,
-          "ganadores": []
+          "ganadores": [
+            {
+              "nombre": "Pedro Rollán Ojeda",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 74226
+            },
+            {
+              "nombre": "María Acín Carrera",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 74098
+            },
+            {
+              "nombre": "Carlos García Adanero",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 72972
+            },
+            {
+              "nombre": "Iñigo Henríquez de Luna Losada",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 72730
+            }
+          ]
         }
       ]
     },

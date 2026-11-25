@@ -9280,65 +9280,74 @@
     "nombre": "SANTURDE DE RIOJA",
     "censo": 230,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 194,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
+    "nulos": 7,
+    "votosCandidatos": 183,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        },
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        }
+      ]
     },
     "principales": [
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 47,
+        "pctVotos": 25.68
+      },
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 47,
+        "pctVotos": 25.68
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 36,
+        "pctVotos": 19.67
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 29,
+        "pctVotos": 15.85
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 7.1
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 11,
+        "pctVotos": 6.01
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9346,65 +9355,78 @@
     "nombre": "SANTURDEJO",
     "censo": 85,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 64,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 64,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PODEMOS",
+          "color": "#6E2585"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17,
+        "pctVotos": 26.56
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 17,
+        "pctVotos": 26.56
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 17,
+        "pctVotos": 26.56
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "color": "#9AA0A6",
+        "votos": 10,
+        "pctVotos": 15.62
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 3,
+        "pctVotos": 4.69
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9412,65 +9434,65 @@
     "nombre": "SAN VICENTE DE LA SONSIERRA",
     "censo": 775,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 606,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
+    "nulos": 14,
+    "votosCandidatos": 588,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 131,
+        "pctVotos": 22.28
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 129,
+        "pctVotos": 21.94
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 121,
+        "pctVotos": 20.58
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 113,
+        "pctVotos": 19.22
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 93,
+        "pctVotos": 15.82
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 0.17
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9478,65 +9500,65 @@
     "nombre": "SOJUELA",
     "censo": 559,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 395,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
+    "nulos": 12,
+    "votosCandidatos": 379,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 96,
+        "pctVotos": 25.33
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 95,
+        "pctVotos": 25.07
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 92,
+        "pctVotos": 24.27
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 53,
+        "pctVotos": 13.98
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 39,
+        "pctVotos": 10.29
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 4,
+        "pctVotos": 1.06
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9544,16 +9566,16 @@
     "nombre": "SORZANO",
     "censo": 198,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 160,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 1,
+    "votosCandidatos": 159,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -9561,48 +9583,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 42,
+        "pctVotos": 26.42
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 36,
+        "pctVotos": 22.64
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 35,
+        "pctVotos": 22.01
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 23,
+        "pctVotos": 14.47
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 22,
+        "pctVotos": 13.84
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 0.63
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9610,16 +9632,16 @@
     "nombre": "SOTÉS",
     "censo": 232,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 196,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 9,
+    "votosCandidatos": 182,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -9627,48 +9649,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 60,
+        "pctVotos": 32.97
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 49,
+        "pctVotos": 26.92
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 40,
+        "pctVotos": 21.98
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17,
+        "pctVotos": 9.34
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 11,
+        "pctVotos": 6.04
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 5,
+        "pctVotos": 2.75
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9676,65 +9698,65 @@
     "nombre": "SOTO EN CAMEROS",
     "censo": 73,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 57,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 1,
+    "votosCandidatos": 56,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 24,
+        "pctVotos": 42.86
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 10,
+        "pctVotos": 17.86
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 10,
+        "pctVotos": 17.86
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "color": "#9AA0A6",
+        "votos": 9,
+        "pctVotos": 16.07
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3,
+        "pctVotos": 5.36
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9742,65 +9764,78 @@
     "nombre": "TERROBA",
     "censo": 31,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 27,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 27,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 22.22
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 22.22
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 22.22
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 5,
+        "pctVotos": 18.52
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 11.11
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 3.7
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9808,16 +9843,16 @@
     "nombre": "TIRGO",
     "censo": 157,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 126,
+    "pctEscrutado": 100.0,
+    "blanco": 3,
+    "nulos": 2,
+    "votosCandidatos": 121,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -9825,48 +9860,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 43,
+        "pctVotos": 35.54
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 22,
+        "pctVotos": 18.18
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 17,
+        "pctVotos": 14.05
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 15,
+        "pctVotos": 12.4
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 10.74
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 11,
+        "pctVotos": 9.09
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9874,65 +9909,82 @@
     "nombre": "TOBÍA",
     "censo": 40,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 29,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 29,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PODEMOS",
+          "color": "#6E2585"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 20.69
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 20.69
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 20.69
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 20.69
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4,
+        "pctVotos": 13.79
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 3.45
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -9940,16 +9992,16 @@
     "nombre": "TORMANTOS",
     "censo": 82,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 82,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 82,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -9957,48 +10009,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 24,
+        "pctVotos": 29.27
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17,
+        "pctVotos": 20.73
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17,
+        "pctVotos": 20.73
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 10,
+        "pctVotos": 12.2
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10,
+        "pctVotos": 12.2
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 4,
+        "pctVotos": 4.88
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10006,65 +10058,65 @@
     "nombre": "TORRECILLA EN CAMEROS",
     "censo": 415,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 361,
+    "pctEscrutado": 100.0,
+    "blanco": 6,
+    "nulos": 4,
+    "votosCandidatos": 351,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 123,
+        "pctVotos": 35.04
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 67,
+        "pctVotos": 19.09
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 59,
+        "pctVotos": 16.81
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 49,
+        "pctVotos": 13.96
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 32,
+        "pctVotos": 9.12
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 21,
+        "pctVotos": 5.98
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10072,65 +10124,74 @@
     "nombre": "TORRECILLA SOBRE ALESANCO",
     "censo": 31,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 25,
+    "pctEscrutado": 100.0,
+    "blanco": 1,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 24,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 25.0
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 25.0
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 5,
+        "pctVotos": 20.83
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3,
+        "pctVotos": 12.5
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 12.5
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 4.17
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10138,65 +10199,74 @@
     "nombre": "TORRE EN CAMEROS",
     "censo": 8,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 7,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 7,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 42.86
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 3,
+        "pctVotos": 42.86
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 1,
+        "pctVotos": 14.29
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10204,65 +10274,65 @@
     "nombre": "TORREMONTALBO",
     "censo": 4,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 4,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 4,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 3,
+        "pctVotos": 75.0
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1,
+        "pctVotos": 25.0
+      },
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10270,65 +10340,65 @@
     "nombre": "TREVIANA",
     "censo": 132,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 108,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 4,
+    "votosCandidatos": 104,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 30,
+        "pctVotos": 28.85
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "color": "#9AA0A6",
+        "votos": 23,
+        "pctVotos": 22.12
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 19,
+        "pctVotos": 18.27
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 19,
+        "pctVotos": 18.27
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 12.5
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10336,65 +10406,65 @@
     "nombre": "TRICIO",
     "censo": 276,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 227,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 5,
+    "votosCandidatos": 217,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 49,
+        "pctVotos": 22.58
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 43,
+        "pctVotos": 19.82
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 42,
+        "pctVotos": 19.35
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 40,
+        "pctVotos": 18.43
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 25,
+        "pctVotos": 11.52
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 18,
+        "pctVotos": 8.29
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10402,65 +10472,65 @@
     "nombre": "TUDELILLA",
     "censo": 239,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 197,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 4,
+    "votosCandidatos": 193,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 45,
+        "pctVotos": 23.32
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 42,
+        "pctVotos": 21.76
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 37,
+        "pctVotos": 19.17
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 37,
+        "pctVotos": 19.17
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 26,
+        "pctVotos": 13.47
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 6,
+        "pctVotos": 3.11
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10468,65 +10538,65 @@
     "nombre": "URUÑUELA",
     "censo": 752,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 575,
+    "pctEscrutado": 100.0,
+    "blanco": 9,
+    "nulos": 9,
+    "votosCandidatos": 557,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 150,
+        "pctVotos": 26.93
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 148,
+        "pctVotos": 26.57
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 115,
+        "pctVotos": 20.65
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 76,
+        "pctVotos": 13.64
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 67,
+        "pctVotos": 12.03
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 0.18
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10534,65 +10604,82 @@
     "nombre": "VALDEMADERA",
     "censo": 12,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 12,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 12,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PODEMOS",
+          "color": "#6E2585"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 25.0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 25.0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3,
+        "pctVotos": 25.0
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 3,
+        "pctVotos": 25.0
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10600,65 +10687,65 @@
     "nombre": "VALGAÑÓN",
     "censo": 112,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 96,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 1,
+    "votosCandidatos": 90,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 22,
+        "pctVotos": 24.44
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 19,
+        "pctVotos": 21.11
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 19,
+        "pctVotos": 21.11
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 14,
+        "pctVotos": 15.56
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 9,
+        "pctVotos": 10.0
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 7,
+        "pctVotos": 7.78
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10666,65 +10753,65 @@
     "nombre": "VENTOSA",
     "censo": 166,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 139,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 7,
+    "votosCandidatos": 130,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "color": "#9AA0A6",
+        "votos": 37,
+        "pctVotos": 28.46
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 24,
+        "pctVotos": 18.46
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 22,
+        "pctVotos": 16.92
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 22,
+        "pctVotos": 16.92
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 14,
+        "pctVotos": 10.77
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 11,
+        "pctVotos": 8.46
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10732,65 +10819,78 @@
     "nombre": "VENTROSA",
     "censo": 45,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 45,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 3,
+    "votosCandidatos": 42,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 21.43
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 21.43
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 21.43
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 7,
+        "pctVotos": 16.67
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 14.29
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 2,
+        "pctVotos": 4.76
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10798,16 +10898,16 @@
     "nombre": "VIGUERA",
     "censo": 329,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 258,
+    "pctEscrutado": 100.0,
+    "blanco": 6,
+    "nulos": 7,
+    "votosCandidatos": 245,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -10815,48 +10915,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 64,
+        "pctVotos": 26.12
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 61,
+        "pctVotos": 24.9
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 53,
+        "pctVotos": 21.63
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 32,
+        "pctVotos": 13.06
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 20,
+        "pctVotos": 8.16
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 15,
+        "pctVotos": 6.12
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10864,65 +10964,65 @@
     "nombre": "VILLALBA DE RIOJA",
     "censo": 125,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 118,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 3,
+    "votosCandidatos": 115,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 28,
+        "pctVotos": 24.35
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 27,
+        "pctVotos": 23.48
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 18,
+        "pctVotos": 15.65
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 15,
+        "pctVotos": 13.04
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 14,
+        "pctVotos": 12.17
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 13,
+        "pctVotos": 11.3
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10930,16 +11030,16 @@
     "nombre": "VILLALOBAR DE RIOJA",
     "censo": 56,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 40,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 1,
+    "votosCandidatos": 39,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -10947,48 +11047,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 12,
+        "pctVotos": 30.77
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 23.08
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 6,
+        "pctVotos": 15.38
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 6,
+        "pctVotos": 15.38
+      },
+      {
+        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "color": "#9AA0A6",
+        "votos": 6,
+        "pctVotos": 15.38
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -10996,65 +11096,65 @@
     "nombre": "VILLAMEDIANA DE IREGUA",
     "censo": 6637,
     "mesas": 12,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4700,
+    "pctEscrutado": 100.0,
+    "blanco": 54,
+    "nulos": 90,
+    "votosCandidatos": 4556,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 992,
+        "pctVotos": 21.77
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 888,
+        "pctVotos": 19.49
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 868,
+        "pctVotos": 19.05
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 802,
+        "pctVotos": 17.6
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 793,
+        "pctVotos": 17.41
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 213,
+        "pctVotos": 4.68
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11062,65 +11162,65 @@
     "nombre": "VILLANUEVA DE CAMEROS",
     "censo": 60,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 45,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 43,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "color": "#9AA0A6",
+        "votos": 12,
+        "pctVotos": 27.91
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 20.93
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 20.93
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 13.95
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 13.95
       },
       {
-        "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
-        "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1,
+        "pctVotos": 2.33
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11128,65 +11228,65 @@
     "nombre": "VILLAR DE ARNEDO (EL)",
     "censo": 365,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 274,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 6,
+    "votosCandidatos": 263,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 67,
+        "pctVotos": 25.48
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 63,
+        "pctVotos": 23.95
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 45,
+        "pctVotos": 17.11
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 39,
+        "pctVotos": 14.83
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 26,
+        "pctVotos": 9.89
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 23,
+        "pctVotos": 8.75
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11194,65 +11294,65 @@
     "nombre": "VILLAR DE TORRE",
     "censo": 132,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 122,
+    "pctEscrutado": 100.0,
+    "blanco": 1,
+    "nulos": 3,
+    "votosCandidatos": 118,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 39,
+        "pctVotos": 33.05
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20,
+        "pctVotos": 16.95
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20,
+        "pctVotos": 16.95
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 20,
+        "pctVotos": 16.95
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 18,
+        "pctVotos": 15.25
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 0.85
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11260,65 +11360,65 @@
     "nombre": "VILLAREJO",
     "censo": 28,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 21,
+    "pctEscrutado": 100.0,
+    "blanco": 1,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 20,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 30.0
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4,
+        "pctVotos": 20.0
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 3,
+        "pctVotos": 15.0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3,
+        "pctVotos": 15.0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 15.0
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 5.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11326,65 +11426,74 @@
     "nombre": "VILLARROYA",
     "censo": 9,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 9,
+    "pctEscrutado": 100.0,
+    "blanco": 3,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 6,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 3,
+        "pctVotos": 50.0
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 3,
+        "pctVotos": 50.0
+      },
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11392,65 +11501,65 @@
     "nombre": "VILLARTA-QUINTANA",
     "censo": 120,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 91,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 4,
+    "votosCandidatos": 85,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 30,
+        "pctVotos": 35.29
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20,
+        "pctVotos": 23.53
       },
       {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 14,
+        "pctVotos": 16.47
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 10,
+        "pctVotos": 11.76
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 7.06
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 5,
+        "pctVotos": 5.88
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11458,65 +11567,65 @@
     "nombre": "VILLAVELAYO",
     "censo": 38,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 35,
+    "pctEscrutado": 100.0,
+    "blanco": 1,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 34,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8,
+        "pctVotos": 23.53
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 6,
+        "pctVotos": 17.65
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 17.65
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 17.65
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 17.65
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 2,
+        "pctVotos": 5.88
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11524,65 +11633,74 @@
     "nombre": "VILLAVERDE DE RIOJA",
     "censo": 63,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 60,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 2,
+    "votosCandidatos": 58,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+          "color": "#9AA0A6"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 18,
+        "pctVotos": 31.03
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 18,
+        "pctVotos": 31.03
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 8,
+        "pctVotos": 13.79
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 8,
+        "pctVotos": 13.79
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 3,
+        "pctVotos": 5.17
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3,
+        "pctVotos": 5.17
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11590,65 +11708,65 @@
     "nombre": "VILLOSLADA DE CAMEROS",
     "censo": 304,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 238,
+    "pctEscrutado": 100.0,
+    "blanco": 6,
+    "nulos": 8,
+    "votosCandidatos": 224,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 60,
+        "pctVotos": 26.79
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 58,
+        "pctVotos": 25.89
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 41,
+        "pctVotos": 18.3
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 38,
+        "pctVotos": 16.96
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 23,
+        "pctVotos": 10.27
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 4,
+        "pctVotos": 1.79
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11656,65 +11774,65 @@
     "nombre": "VINIEGRA DE ABAJO",
     "censo": 74,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 57,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
+    "nulos": 1,
+    "votosCandidatos": 52,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 21,
+        "pctVotos": 40.38
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 12,
+        "pctVotos": 23.08
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 12,
+        "pctVotos": 23.08
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 3,
+        "pctVotos": 5.77
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3,
+        "pctVotos": 5.77
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 1,
+        "pctVotos": 1.92
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11722,65 +11840,86 @@
     "nombre": "VINIEGRA DE ARRIBA",
     "censo": 38,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 32,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 32,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PODEMOS",
+          "color": "#6E2585"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        },
+        {
+          "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+          "color": "#9AA0A6"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 18.75
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 18.75
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 18.75
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 18.75
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 18.75
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 2,
+        "pctVotos": 6.25
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11788,65 +11927,65 @@
     "nombre": "ZARRATÓN",
     "censo": 210,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 162,
+    "pctEscrutado": 100.0,
+    "blanco": 3,
+    "nulos": 4,
+    "votosCandidatos": 155,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 42,
+        "pctVotos": 27.1
       },
       {
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 29,
+        "pctVotos": 18.71
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 26,
+        "pctVotos": 16.77
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 22,
+        "pctVotos": 14.19
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 18,
+        "pctVotos": 11.61
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 18,
+        "pctVotos": 11.61
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11854,65 +11993,82 @@
     "nombre": "ZARZOSA",
     "censo": 12,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 12,
+    "pctEscrutado": 100.0,
     "blanco": 0,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 12,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PODEMOS",
+          "color": "#6E2585"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 25.0
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 25.0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3,
+        "pctVotos": 25.0
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 3,
+        "pctVotos": 25.0
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   },
@@ -11920,16 +12076,16 @@
     "nombre": "ZORRAQUÍN",
     "censo": 70,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 52,
+    "pctEscrutado": 100.0,
+    "blanco": 1,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 51,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -11937,48 +12093,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 34,
+        "pctVotos": 66.67
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 14,
+        "pctVotos": 27.45
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 3,
+        "pctVotos": 5.88
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
         "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "SENADO DE PROGRESO",
-        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-        "color": "#E10819",
-        "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       },
       {
         "siglas": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
         "color": "#9AA0A6",
         "votos": 0,
-        "pctVotos": 0
+        "pctVotos": 0.0
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 0
     }
   }
