@@ -2,9 +2,9 @@
   "_guia": "Senado 29N. Ojo con tres cosas antes de tocar nada: (1) los 208 son los senadores que se ELIGEN en las urnas; los 58 designados por los parlamentos autonómicos llegan semanas después y no están aquí, pero sí cuentan para la mayoría absoluta de 134 sobre 266. (2) No hay escaños por municipio: se adjudican por circunscripción. (3) La comparativa con 23J solo puede ser de escaños — el fichero ANT del Senado no trae votos ni candidatos. Partidos ordenados por escaños, votos y resultado anterior.",
   "nacional": {
     "fecha": "2026-11-25",
-    "horaTotalizacion": "17:36",
-    "pctEscrutado": 17.94,
-    "totalEscanos": 34,
+    "horaTotalizacion": "17:39",
+    "pctEscrutado": 24.35,
+    "totalEscanos": 46,
     "totalEscanosCamara": 266,
     "escanosDesignadosPendientes": 58,
     "mayoria": 134,
@@ -14,7 +14,7 @@
         "siglas": "SENADO DE PROGRESO",
         "color": "#E10819",
         "lado": 1,
-        "escanos": 15,
+        "escanos": 20,
         "escanosAnterior": 73
       },
       {
@@ -22,36 +22,52 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "escanos": 9,
+        "escanos": 11,
         "escanosAnterior": 120
-      },
-      {
-        "nombre": "EUSKAL HERRIA BILDU",
-        "siglas": "EH Bildu",
-        "color": "#A4CE4E",
-        "lado": 1,
-        "escanos": 3,
-        "escanosAnterior": null
       },
       {
         "nombre": "PODEMOS",
         "siglas": "PODEMOS",
         "color": "#6E2585",
         "lado": 1,
+        "escanos": 3,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "VOX",
+        "siglas": "VOX",
+        "color": "#02C119",
+        "lado": 2,
+        "escanos": 3,
+        "escanosAnterior": 0
+      },
+      {
+        "nombre": "ADELANTE ANDALUCÍA",
+        "siglas": "ADELANTE ANDALUCÍA",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "escanos": 2,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "EUSKAL HERRIA BILDU",
+        "siglas": "EH Bildu",
+        "color": "#A4CE4E",
+        "lado": 1,
+        "escanos": 2,
+        "escanosAnterior": null
+      },
+      {
+        "nombre": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA",
+        "siglas": "NEX",
+        "color": "#9AA0A6",
+        "lado": 2,
         "escanos": 2,
         "escanosAnterior": null
       },
       {
         "nombre": "FORMENTERA VIVA",
         "siglas": "FV",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "escanos": 1,
-        "escanosAnterior": null
-      },
-      {
-        "nombre": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA",
-        "siglas": "NEX",
         "color": "#9AA0A6",
         "lado": 2,
         "escanos": 1,
@@ -72,14 +88,6 @@
         "lado": 2,
         "escanos": 1,
         "escanosAnterior": null
-      },
-      {
-        "nombre": "VOX",
-        "siglas": "VOX",
-        "color": "#02C119",
-        "lado": 2,
-        "escanos": 1,
-        "escanosAnterior": 0
       }
     ],
     "anterior": {
@@ -152,7 +160,7 @@
       "ganador": {
         "siglas": "SENADO DE PROGRESO",
         "color": "#E10819",
-        "escanos": 3,
+        "escanos": 5,
         "estado": "claro",
         "empatados": []
       },
@@ -161,7 +169,13 @@
           "siglas": "SENADO DE PROGRESO",
           "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
           "color": "#E10819",
-          "escanos": 3
+          "escanos": 5
+        },
+        {
+          "siglas": "ADELANTE ANDALUCÍA",
+          "nombre": "ADELANTE ANDALUCÍA",
+          "color": "#9AA0A6",
+          "escanos": 2
         },
         {
           "siglas": "PP",
@@ -283,7 +297,7 @@
       "ganador": {
         "siglas": "PODEMOS",
         "color": "#6E2585",
-        "escanos": 2,
+        "escanos": 3,
         "estado": "claro",
         "empatados": []
       },
@@ -292,13 +306,19 @@
           "siglas": "PODEMOS",
           "nombre": "PODEMOS",
           "color": "#6E2585",
-          "escanos": 2
+          "escanos": 3
         },
         {
           "siglas": "PP",
           "nombre": "PARTIDO POPULAR",
           "color": "#0557A1",
-          "escanos": 1
+          "escanos": 2
+        },
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 2
         },
         {
           "siglas": "SENADO DE PROGRESO",
@@ -313,40 +333,7 @@
       "ganador": {
         "siglas": "SENADO DE PROGRESO",
         "color": "#E10819",
-        "escanos": 2,
-        "estado": "empate",
-        "empatados": [
-          {
-            "siglas": "SENADO DE PROGRESO",
-            "color": "#E10819"
-          },
-          {
-            "siglas": "EH Bildu",
-            "color": "#A4CE4E"
-          }
-        ]
-      },
-      "composicion": [
-        {
-          "siglas": "EH Bildu",
-          "nombre": "EUSKAL HERRIA BILDU",
-          "color": "#A4CE4E",
-          "escanos": 2
-        },
-        {
-          "siglas": "SENADO DE PROGRESO",
-          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
-          "color": "#E10819",
-          "escanos": 2
-        }
-      ]
-    },
-    "10": {
-      "nombre": "Extremadura",
-      "ganador": {
-        "siglas": "SENADO DE PROGRESO",
-        "color": "#E10819",
-        "escanos": 2,
+        "escanos": 3,
         "estado": "claro",
         "empatados": []
       },
@@ -355,12 +342,42 @@
           "siglas": "SENADO DE PROGRESO",
           "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
           "color": "#E10819",
-          "escanos": 2
+          "escanos": 3
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 1
+        }
+      ]
+    },
+    "10": {
+      "nombre": "Extremadura",
+      "ganador": {
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 4,
+        "estado": "claro",
+        "empatados": []
+      },
+      "composicion": [
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 4
         },
         {
           "siglas": "NEX",
           "nombre": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA",
           "color": "#9AA0A6",
+          "escanos": 2
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
           "escanos": 1
         },
         {
@@ -976,6 +993,186 @@
       "ganador": {
         "siglas": "SENADO DE PROGRESO",
         "color": "#E10819",
+        "escanos": 3,
+        "estado": "claro",
+        "empatados": []
+      },
+      "composicion": [
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 3
+        },
+        {
+          "siglas": "EH Bildu",
+          "nombre": "EUSKAL HERRIA BILDU",
+          "color": "#A4CE4E",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Barcelona",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Cristobalina Albéndiz Pérez",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 142558
+            },
+            {
+              "nombre": "Francesc-Marc Álvaro i Vidal",
+              "siglas": "EH Bildu",
+              "color": "#A4CE4E",
+              "votos": 141622
+            },
+            {
+              "nombre": "Raquel Sánchez Jimenez",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 141509
+            },
+            {
+              "nombre": "Gabriel Colomé Garcia",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 140848
+            }
+          ]
+        }
+      ]
+    },
+    "09": {
+      "nombre": "Burgos",
+      "ganador": {
+        "siglas": "VOX",
+        "color": "#02C119",
+        "escanos": 2,
+        "estado": "claro",
+        "empatados": []
+      },
+      "composicion": [
+        {
+          "siglas": "VOX",
+          "nombre": "VOX",
+          "color": "#02C119",
+          "escanos": 2
+        },
+        {
+          "siglas": "PODEMOS",
+          "nombre": "PODEMOS",
+          "color": "#6E2585",
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Burgos",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "Francisco Javier Lacalle Lacalle",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 14483
+            },
+            {
+              "nombre": "María Ángeles Castrillo Martínez",
+              "siglas": "PODEMOS",
+              "color": "#6E2585",
+              "votos": 14480
+            },
+            {
+              "nombre": "José Manuel Gutiérrez Martínez",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 14420
+            },
+            {
+              "nombre": "María Teresa Alonso Ortega",
+              "siglas": "VOX",
+              "color": "#02C119",
+              "votos": 14262
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "nombre": "Cáceres",
+      "ganador": {
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
+        "escanos": 2,
+        "estado": "claro",
+        "empatados": []
+      },
+      "composicion": [
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+          "color": "#E10819",
+          "escanos": 2
+        },
+        {
+          "siglas": "NEX",
+          "nombre": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA",
+          "color": "#9AA0A6",
+          "escanos": 1
+        },
+        {
+          "siglas": "PP",
+          "nombre": "PARTIDO POPULAR",
+          "color": "#0557A1",
+          "escanos": 1
+        }
+      ],
+      "circunscripciones": [
+        {
+          "nombre": "Cáceres",
+          "escanos": 4,
+          "ganadores": [
+            {
+              "nombre": "María Inés Rubio Díaz",
+              "siglas": "PP",
+              "color": "#0557A1",
+              "votos": 18215
+            },
+            {
+              "nombre": "Inés Mirella Conejero Domínguez",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 18012
+            },
+            {
+              "nombre": "Jesús Montero Melchor",
+              "siglas": "NEX",
+              "color": "#9AA0A6",
+              "votos": 17763
+            },
+            {
+              "nombre": "Joaquín Cuello Martínez-Pereda",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 17652
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "nombre": "Cádiz",
+      "ganador": {
+        "siglas": "SENADO DE PROGRESO",
+        "color": "#E10819",
         "escanos": 2,
         "estado": "empate",
         "empatados": [
@@ -984,16 +1181,16 @@
             "color": "#E10819"
           },
           {
-            "siglas": "EH Bildu",
-            "color": "#A4CE4E"
+            "siglas": "ADELANTE ANDALUCÍA",
+            "color": "#9AA0A6"
           }
         ]
       },
       "composicion": [
         {
-          "siglas": "EH Bildu",
-          "nombre": "EUSKAL HERRIA BILDU",
-          "color": "#A4CE4E",
+          "siglas": "ADELANTE ANDALUCÍA",
+          "nombre": "ADELANTE ANDALUCÍA",
+          "color": "#9AA0A6",
           "escanos": 2
         },
         {
@@ -1005,88 +1202,34 @@
       ],
       "circunscripciones": [
         {
-          "nombre": "Barcelona",
+          "nombre": "Cádiz",
           "escanos": 4,
           "ganadores": [
             {
-              "nombre": "Raquel Sánchez Jimenez",
+              "nombre": "Violeta Márquez Ruiz",
               "siglas": "SENADO DE PROGRESO",
               "color": "#E10819",
-              "votos": 90382
+              "votos": 7644
             },
             {
-              "nombre": "Cristobalina Albéndiz Pérez",
+              "nombre": "Juan Carlos Ruiz Boix",
               "siglas": "SENADO DE PROGRESO",
               "color": "#E10819",
-              "votos": 89594
+              "votos": 7434
             },
             {
-              "nombre": "Mercedes Vidal Lago",
-              "siglas": "EH Bildu",
-              "color": "#A4CE4E",
-              "votos": 88771
+              "nombre": "Francisca Delgado Ruiz",
+              "siglas": "ADELANTE ANDALUCÍA",
+              "color": "#9AA0A6",
+              "votos": 7389
             },
             {
-              "nombre": "Francesc-Marc Álvaro i Vidal",
-              "siglas": "EH Bildu",
-              "color": "#A4CE4E",
-              "votos": 88760
+              "nombre": "Soulaima Otilia Vázquez Noune",
+              "siglas": "ADELANTE ANDALUCÍA",
+              "color": "#9AA0A6",
+              "votos": 7387
             }
           ]
-        }
-      ]
-    },
-    "09": {
-      "nombre": "Burgos",
-      "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
-      },
-      "composicion": [],
-      "circunscripciones": [
-        {
-          "nombre": "Burgos",
-          "escanos": 4,
-          "ganadores": []
-        }
-      ]
-    },
-    "10": {
-      "nombre": "Cáceres",
-      "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
-      },
-      "composicion": [],
-      "circunscripciones": [
-        {
-          "nombre": "Cáceres",
-          "escanos": 4,
-          "ganadores": []
-        }
-      ]
-    },
-    "11": {
-      "nombre": "Cádiz",
-      "ganador": {
-        "siglas": null,
-        "color": null,
-        "escanos": 0,
-        "estado": "sinDatos",
-        "empatados": []
-      },
-      "composicion": [],
-      "circunscripciones": [
-        {
-          "nombre": "Cádiz",
-          "escanos": 4,
-          "ganadores": []
         }
       ]
     },

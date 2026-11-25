@@ -3,16 +3,16 @@
     "nombre": "ALCALÁ DE LOS GAZULES",
     "censo": 4412,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2807,
+    "pctEscrutado": 100.0,
+    "blanco": 60,
+    "nulos": 135,
+    "votosCandidatos": 2612,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ADELANTE ANDALUCÍA",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -20,48 +20,48 @@
         "siglas": "ADELANTE ANDALUCÍA",
         "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 642,
+        "pctVotos": 24.58
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 518,
+        "pctVotos": 19.83
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 488,
+        "pctVotos": 18.68
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 425,
+        "pctVotos": 16.27
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 196,
+        "pctVotos": 7.5
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 192,
+        "pctVotos": 7.35
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 151,
+      "pctVotos": 5.78,
       "numCandidaturas": 1
     }
   },
@@ -69,65 +69,65 @@
     "nombre": "ALCALÁ DEL VALLE",
     "censo": 4035,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2997,
+    "pctEscrutado": 100.0,
+    "blanco": 23,
+    "nulos": 60,
+    "votosCandidatos": 2914,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ADELANTE ANDALUCÍA",
-        "nombre": "ADELANTE ANDALUCÍA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 626,
+        "pctVotos": 21.48
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "ADELANTE ANDALUCÍA",
+        "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 558,
+        "pctVotos": 19.15
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 529,
+        "pctVotos": 18.15
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 460,
+        "pctVotos": 15.79
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 288,
+        "pctVotos": 9.88
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 239,
+        "pctVotos": 8.2
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 214,
+      "pctVotos": 7.34,
       "numCandidaturas": 1
     }
   },
@@ -135,65 +135,65 @@
     "nombre": "ALGAR",
     "censo": 1186,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 818,
+    "pctEscrutado": 100.0,
+    "blanco": 18,
+    "nulos": 34,
+    "votosCandidatos": 766,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 198,
+        "pctVotos": 25.85
+      },
+      {
         "siglas": "ADELANTE ANDALUCÍA",
         "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 170,
+        "pctVotos": 22.19
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 151,
+        "pctVotos": 19.71
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 144,
+        "pctVotos": 18.8
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 50,
+        "pctVotos": 6.53
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 41,
+        "pctVotos": 5.35
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 12,
+      "pctVotos": 1.57,
       "numCandidaturas": 1
     }
   },
@@ -201,65 +201,65 @@
     "nombre": "ALGECIRAS",
     "censo": 93502,
     "mesas": 152,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 57017,
+    "pctEscrutado": 100.0,
+    "blanco": 967,
+    "nulos": 1334,
+    "votosCandidatos": 54716,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 11098,
+        "pctVotos": 20.28
+      },
+      {
         "siglas": "ADELANTE ANDALUCÍA",
         "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11089,
+        "pctVotos": 20.27
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11082,
+        "pctVotos": 20.25
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10751,
+        "pctVotos": 19.65
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 3650,
+        "pctVotos": 6.67
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 3540,
+        "pctVotos": 6.47
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3506,
+      "pctVotos": 6.41,
       "numCandidaturas": 1
     }
   },
@@ -267,65 +267,65 @@
     "nombre": "ALGODONALES",
     "censo": 4462,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2942,
+    "pctEscrutado": 100.0,
+    "blanco": 74,
+    "nulos": 161,
+    "votosCandidatos": 2707,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ADELANTE ANDALUCÍA",
-        "nombre": "ADELANTE ANDALUCÍA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 652,
+        "pctVotos": 24.09
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 546,
+        "pctVotos": 20.17
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "ADELANTE ANDALUCÍA",
+        "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 495,
+        "pctVotos": 18.29
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 459,
+        "pctVotos": 16.96
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 240,
+        "pctVotos": 8.87
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 189,
+        "pctVotos": 6.98
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 126,
+      "pctVotos": 4.65,
       "numCandidaturas": 1
     }
   },
@@ -333,65 +333,65 @@
     "nombre": "ARCOS DE LA FRONTERA",
     "censo": 25887,
     "mesas": 43,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 16670,
+    "pctEscrutado": 100.0,
+    "blanco": 341,
+    "nulos": 614,
+    "votosCandidatos": 15715,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ADELANTE ANDALUCÍA",
-        "nombre": "ADELANTE ANDALUCÍA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 3224,
+        "pctVotos": 20.52
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3214,
+        "pctVotos": 20.45
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 3169,
+        "pctVotos": 20.17
+      },
+      {
+        "siglas": "ADELANTE ANDALUCÍA",
+        "nombre": "ADELANTE ANDALUCÍA",
+        "color": "#9AA0A6",
+        "votos": 2952,
+        "pctVotos": 18.78
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 1130,
+        "pctVotos": 7.19
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1017,
+        "pctVotos": 6.47
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1009,
+      "pctVotos": 6.42,
       "numCandidaturas": 1
     }
   },
@@ -399,65 +399,65 @@
     "nombre": "BARBATE",
     "censo": 18432,
     "mesas": 29,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 10716,
+    "pctEscrutado": 100.0,
+    "blanco": 261,
+    "nulos": 399,
+    "votosCandidatos": 10056,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 2103,
+        "pctVotos": 20.91
+      },
+      {
         "siglas": "ADELANTE ANDALUCÍA",
         "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2015,
+        "pctVotos": 20.04
       },
       {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1940,
+        "pctVotos": 19.29
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1892,
+        "pctVotos": 18.81
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 779,
+        "pctVotos": 7.75
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 749,
+        "pctVotos": 7.45
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 578,
+      "pctVotos": 5.75,
       "numCandidaturas": 1
     }
   },
@@ -465,16 +465,16 @@
     "nombre": "BARRIOS (LOS)",
     "censo": 19457,
     "mesas": 29,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 12585,
+    "pctEscrutado": 100.0,
+    "blanco": 275,
+    "nulos": 455,
+    "votosCandidatos": 11855,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "ADELANTE ANDALUCÍA",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -482,48 +482,48 @@
         "siglas": "ADELANTE ANDALUCÍA",
         "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2651,
+        "pctVotos": 22.36
       },
       {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 2446,
+        "pctVotos": 20.63
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2284,
+        "pctVotos": 19.27
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2175,
+        "pctVotos": 18.35
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 857,
+        "pctVotos": 7.23
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 761,
+        "pctVotos": 6.42
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 681,
+      "pctVotos": 5.74,
       "numCandidaturas": 1
     }
   },
@@ -531,65 +531,65 @@
     "nombre": "BENAOCAZ",
     "censo": 658,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 491,
+    "pctEscrutado": 100.0,
+    "blanco": 18,
+    "nulos": 2,
+    "votosCandidatos": 471,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ADELANTE ANDALUCÍA",
-        "nombre": "ADELANTE ANDALUCÍA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 166,
+        "pctVotos": 35.24
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 111,
+        "pctVotos": 23.57
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 61,
+        "pctVotos": 12.95
+      },
+      {
+        "siglas": "ADELANTE ANDALUCÍA",
+        "nombre": "ADELANTE ANDALUCÍA",
+        "color": "#9AA0A6",
+        "votos": 60,
+        "pctVotos": 12.74
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 47,
+        "pctVotos": 9.98
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 24,
+        "pctVotos": 5.1
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2,
+      "pctVotos": 0.42,
       "numCandidaturas": 1
     }
   },
@@ -597,65 +597,65 @@
     "nombre": "BORNOS",
     "censo": 6322,
     "mesas": 11,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4054,
+    "pctEscrutado": 100.0,
+    "blanco": 107,
+    "nulos": 125,
+    "votosCandidatos": 3822,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 848,
+        "pctVotos": 22.19
+      },
+      {
         "siglas": "ADELANTE ANDALUCÍA",
         "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 807,
+        "pctVotos": 21.11
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 746,
+        "pctVotos": 19.52
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 681,
+        "pctVotos": 17.82
+      },
+      {
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+        "color": "#9AA0A6",
+        "votos": 329,
+        "pctVotos": 8.61
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 231,
+        "pctVotos": 6.04
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 180,
+      "pctVotos": 4.71,
       "numCandidaturas": 1
     }
   },
@@ -663,65 +663,65 @@
     "nombre": "BOSQUE (EL)",
     "censo": 1841,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1243,
+    "pctEscrutado": 100.0,
+    "blanco": 13,
+    "nulos": 60,
+    "votosCandidatos": 1170,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "ADELANTE ANDALUCÍA",
-        "nombre": "ADELANTE ANDALUCÍA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 276,
+        "pctVotos": 23.59
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 267,
+        "pctVotos": 22.82
+      },
+      {
+        "siglas": "ADELANTE ANDALUCÍA",
+        "nombre": "ADELANTE ANDALUCÍA",
+        "color": "#9AA0A6",
+        "votos": 219,
+        "pctVotos": 18.72
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 177,
+        "pctVotos": 15.13
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 99,
+        "pctVotos": 8.46
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 83,
+        "pctVotos": 7.09
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 49,
+      "pctVotos": 4.19,
       "numCandidaturas": 1
     }
   },
@@ -729,65 +729,65 @@
     "nombre": "CÁDIZ",
     "censo": 93101,
     "mesas": 148,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1140,
+    "pctEscrutado": 1.85,
+    "blanco": 17,
+    "nulos": 37,
+    "votosCandidatos": 1086,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 288,
+        "pctVotos": 26.52
+      },
+      {
         "siglas": "ADELANTE ANDALUCÍA",
         "nombre": "ADELANTE ANDALUCÍA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 257,
+        "pctVotos": 23.66
       },
       {
-        "siglas": "PACMA",
-        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 223,
+        "pctVotos": 20.53
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 140,
+        "pctVotos": 12.89
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "PACMA",
+        "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 71,
+        "pctVotos": 6.54
       },
       {
         "siglas": "PCTE",
         "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 70,
+        "pctVotos": 6.45
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 37,
+      "pctVotos": 3.41,
       "numCandidaturas": 1
     }
   },
