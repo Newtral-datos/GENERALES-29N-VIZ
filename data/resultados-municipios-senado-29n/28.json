@@ -5120,11 +5120,11 @@
     "nombre": "MADRID",
     "censo": 2424110,
     "mesas": 3635,
-    "votantes": 536965,
-    "pctEscrutado": 28.72,
-    "blanco": 5740,
-    "nulos": 5194,
-    "votosCandidatos": 526031,
+    "votantes": 1775079,
+    "pctEscrutado": 100.0,
+    "blanco": 19915,
+    "nulos": 22051,
+    "votosCandidatos": 1733182,
     "ganador": {
       "siglas": "SENADO DE PROGRESO",
       "color": "#E10819",
@@ -5137,48 +5137,48 @@
         "siglas": "SENADO DE PROGRESO",
         "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
         "color": "#E10819",
-        "votos": 76485,
-        "pctVotos": 14.54
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 75999,
-        "pctVotos": 14.45
+        "votos": 253681,
+        "pctVotos": 14.64
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 75447,
-        "pctVotos": 14.34
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 75054,
-        "pctVotos": 14.27
+        "votos": 253504,
+        "pctVotos": 14.63
       },
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 75040,
-        "pctVotos": 14.27
+        "votos": 247891,
+        "pctVotos": 14.3
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 247138,
+        "pctVotos": 14.26
       },
       {
         "siglas": "PH",
         "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 74466,
-        "pctVotos": 14.16
+        "votos": 244355,
+        "pctVotos": 14.1
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 243644,
+        "pctVotos": 14.06
       }
     ],
     "otros": {
-      "votos": 73540,
-      "pctVotos": 13.98,
+      "votos": 242969,
+      "pctVotos": 14.02,
       "numCandidaturas": 3
     }
   },
@@ -5186,65 +5186,65 @@
     "nombre": "MAJADAHONDA",
     "censo": 53391,
     "mesas": 87,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 42665,
+    "pctEscrutado": 100.0,
+    "blanco": 500,
+    "nulos": 357,
+    "votosCandidatos": 41808,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 6517,
+        "pctVotos": 15.59
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6153,
+        "pctVotos": 14.72
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6100,
+        "pctVotos": 14.59
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 6026,
+        "pctVotos": 14.41
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 5773,
+        "pctVotos": 13.81
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 5696,
+        "pctVotos": 13.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 5543,
+      "pctVotos": 13.26,
       "numCandidaturas": 3
     }
   },
@@ -5252,65 +5252,65 @@
     "nombre": "MANZANARES EL REAL",
     "censo": 7127,
     "mesas": 10,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5356,
+    "pctEscrutado": 100.0,
+    "blanco": 65,
+    "nulos": 95,
+    "votosCandidatos": 5196,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 795,
+        "pctVotos": 15.3
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 793,
+        "pctVotos": 15.26
       },
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 773,
+        "pctVotos": 14.88
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 735,
+        "pctVotos": 14.15
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 726,
+        "pctVotos": 13.97
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 615,
+        "pctVotos": 11.84
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 759,
+      "pctVotos": 14.61,
       "numCandidaturas": 3
     }
   },
@@ -5318,16 +5318,16 @@
     "nombre": "MECO",
     "censo": 11330,
     "mesas": 18,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 8334,
+    "pctEscrutado": 100.0,
+    "blanco": 103,
+    "nulos": 208,
+    "votosCandidatos": 8023,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -5335,48 +5335,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1216,
+        "pctVotos": 15.16
       },
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1189,
+        "pctVotos": 14.82
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1170,
+        "pctVotos": 14.58
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 1116,
+        "pctVotos": 13.91
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1071,
+        "pctVotos": 13.35
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1054,
+        "pctVotos": 13.14
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1207,
+      "pctVotos": 15.04,
       "numCandidaturas": 3
     }
   },
@@ -5384,65 +5384,65 @@
     "nombre": "MEJORADA DEL CAMPO",
     "censo": 17421,
     "mesas": 25,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 12197,
+    "pctEscrutado": 100.0,
+    "blanco": 148,
+    "nulos": 277,
+    "votosCandidatos": 11772,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1883,
+        "pctVotos": 16.0
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1827,
+        "pctVotos": 15.52
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1708,
+        "pctVotos": 14.51
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 1525,
+        "pctVotos": 12.95
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1483,
+        "pctVotos": 12.6
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1408,
+        "pctVotos": 11.96
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1938,
+      "pctVotos": 16.46,
       "numCandidaturas": 3
     }
   },
@@ -5450,65 +5450,65 @@
     "nombre": "MIRAFLORES DE LA SIERRA",
     "censo": 5191,
     "mesas": 7,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3920,
+    "pctEscrutado": 100.0,
+    "blanco": 70,
+    "nulos": 96,
+    "votosCandidatos": 3754,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 649,
+        "pctVotos": 17.29
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 648,
+        "pctVotos": 17.26
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 558,
+        "pctVotos": 14.86
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 468,
+        "pctVotos": 12.47
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 440,
+        "pctVotos": 11.72
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 423,
+        "pctVotos": 11.27
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 568,
+      "pctVotos": 15.13,
       "numCandidaturas": 3
     }
   },
@@ -5516,65 +5516,74 @@
     "nombre": "MOLAR (EL)",
     "censo": 6306,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4200,
+    "pctEscrutado": 100.0,
+    "blanco": 49,
+    "nulos": 96,
+    "votosCandidatos": 4055,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "PH",
+          "color": "#9AA0A6"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 631,
+        "pctVotos": 15.56
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 631,
+        "pctVotos": 15.56
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 622,
+        "pctVotos": 15.34
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 616,
+        "pctVotos": 15.19
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 592,
+        "pctVotos": 14.6
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 480,
+        "pctVotos": 11.84
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 483,
+      "pctVotos": 11.91,
       "numCandidaturas": 3
     }
   },
@@ -5582,65 +5591,65 @@
     "nombre": "MOLINOS (LOS)",
     "censo": 3737,
     "mesas": 5,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2924,
+    "pctEscrutado": 100.0,
+    "blanco": 53,
+    "nulos": 56,
+    "votosCandidatos": 2815,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 517,
+        "pctVotos": 18.37
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 490,
+        "pctVotos": 17.41
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 446,
+        "pctVotos": 15.84
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 360,
+        "pctVotos": 12.79
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 359,
+        "pctVotos": 12.75
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 321,
+        "pctVotos": 11.4
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 322,
+      "pctVotos": 11.44,
       "numCandidaturas": 3
     }
   },
@@ -5648,65 +5657,65 @@
     "nombre": "MONTEJO DE LA SIERRA",
     "censo": 298,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 211,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 3,
+    "votosCandidatos": 206,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 43,
+        "pctVotos": 20.87
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 35,
+        "pctVotos": 16.99
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 34,
+        "pctVotos": 16.5
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 29,
+        "pctVotos": 14.08
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 18,
+        "pctVotos": 8.74
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 14,
+        "pctVotos": 6.8
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 33,
+      "pctVotos": 16.02,
       "numCandidaturas": 3
     }
   },
@@ -5714,65 +5723,65 @@
     "nombre": "MORALEJA DE ENMEDIO",
     "censo": 4315,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3233,
+    "pctEscrutado": 100.0,
+    "blanco": 38,
+    "nulos": 94,
+    "votosCandidatos": 3101,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 483,
+        "pctVotos": 15.58
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 478,
+        "pctVotos": 15.41
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 475,
+        "pctVotos": 15.32
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 460,
+        "pctVotos": 14.83
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 432,
+        "pctVotos": 13.93
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 395,
+        "pctVotos": 12.74
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 378,
+      "pctVotos": 12.19,
       "numCandidaturas": 3
     }
   },
@@ -5780,65 +5789,65 @@
     "nombre": "MORALZARZAL",
     "censo": 11067,
     "mesas": 17,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 8732,
+    "pctEscrutado": 100.0,
+    "blanco": 158,
+    "nulos": 132,
+    "votosCandidatos": 8442,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1380,
+        "pctVotos": 16.35
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1326,
+        "pctVotos": 15.71
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 1245,
+        "pctVotos": 14.75
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1111,
+        "pctVotos": 13.16
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1086,
+        "pctVotos": 12.86
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 1029,
+        "pctVotos": 12.19
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1265,
+      "pctVotos": 14.98,
       "numCandidaturas": 3
     }
   },
@@ -5846,65 +5855,65 @@
     "nombre": "MORATA DE TAJUÑA",
     "censo": 6107,
     "mesas": 8,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4164,
+    "pctEscrutado": 100.0,
+    "blanco": 71,
+    "nulos": 97,
+    "votosCandidatos": 3996,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 643,
+        "pctVotos": 16.09
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 633,
+        "pctVotos": 15.84
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 625,
+        "pctVotos": 15.64
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 580,
+        "pctVotos": 14.51
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 546,
+        "pctVotos": 13.66
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 472,
+        "pctVotos": 11.81
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 497,
+      "pctVotos": 12.44,
       "numCandidaturas": 3
     }
   },
@@ -5912,65 +5921,65 @@
     "nombre": "MÓSTOLES",
     "censo": 157086,
     "mesas": 234,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 113423,
+    "pctEscrutado": 100.0,
+    "blanco": 1587,
+    "nulos": 2006,
+    "votosCandidatos": 109830,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 16143,
+        "pctVotos": 14.7
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15999,
+        "pctVotos": 14.57
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 15950,
+        "pctVotos": 14.52
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15616,
+        "pctVotos": 14.22
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15584,
+        "pctVotos": 14.19
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15440,
+        "pctVotos": 14.06
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 15098,
+      "pctVotos": 13.75,
       "numCandidaturas": 3
     }
   },
@@ -5978,65 +5987,65 @@
     "nombre": "NAVACERRADA",
     "censo": 2384,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1935,
+    "pctEscrutado": 100.0,
+    "blanco": 38,
+    "nulos": 36,
+    "votosCandidatos": 1861,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 316,
+        "pctVotos": 16.98
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 279,
+        "pctVotos": 14.99
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 265,
+        "pctVotos": 14.24
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 253,
+        "pctVotos": 13.59
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 245,
+        "pctVotos": 13.16
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 231,
+        "pctVotos": 12.41
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 272,
+      "pctVotos": 14.62,
       "numCandidaturas": 3
     }
   },
@@ -6044,65 +6053,65 @@
     "nombre": "NAVALAFUENTE",
     "censo": 1212,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 885,
+    "pctEscrutado": 100.0,
+    "blanco": 14,
+    "nulos": 13,
+    "votosCandidatos": 858,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 166,
+        "pctVotos": 19.35
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 152,
+        "pctVotos": 17.72
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 125,
+        "pctVotos": 14.57
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 116,
+        "pctVotos": 13.52
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 104,
+        "pctVotos": 12.12
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 85,
+        "pctVotos": 9.91
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 110,
+      "pctVotos": 12.82,
       "numCandidaturas": 3
     }
   },
@@ -6110,65 +6119,65 @@
     "nombre": "NAVALAGAMELLA",
     "censo": 2018,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1425,
+    "pctEscrutado": 100.0,
+    "blanco": 14,
+    "nulos": 29,
+    "votosCandidatos": 1382,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 221,
+        "pctVotos": 15.99
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 220,
+        "pctVotos": 15.92
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 207,
+        "pctVotos": 14.98
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 181,
+        "pctVotos": 13.1
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 162,
+        "pctVotos": 11.72
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 149,
+        "pctVotos": 10.78
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 242,
+      "pctVotos": 17.51,
       "numCandidaturas": 3
     }
   },
@@ -6176,16 +6185,16 @@
     "nombre": "NAVALCARNERO",
     "censo": 24226,
     "mesas": 35,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 17810,
+    "pctEscrutado": 100.0,
+    "blanco": 246,
+    "nulos": 398,
+    "votosCandidatos": 17166,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -6193,48 +6202,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2617,
+        "pctVotos": 15.25
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2586,
+        "pctVotos": 15.06
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 2485,
+        "pctVotos": 14.48
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2464,
+        "pctVotos": 14.35
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 2360,
+        "pctVotos": 13.75
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 2190,
+        "pctVotos": 12.76
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2464,
+      "pctVotos": 14.35,
       "numCandidaturas": 3
     }
   },
@@ -6242,65 +6251,65 @@
     "nombre": "NAVARREDONDA Y SAN MAMÉS",
     "censo": 144,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 111,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 107,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 28,
+        "pctVotos": 26.17
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 17,
+        "pctVotos": 15.89
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 14,
+        "pctVotos": 13.08
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 14,
+        "pctVotos": 13.08
       },
       {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 11,
+        "pctVotos": 10.28
       },
       {
         "siglas": "FE de las JONS",
         "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 8.41
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 13.08,
       "numCandidaturas": 3
     }
   },
@@ -6308,65 +6317,65 @@
     "nombre": "NAVAS DEL REY",
     "censo": 2297,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1740,
+    "pctEscrutado": 100.0,
+    "blanco": 6,
+    "nulos": 49,
+    "votosCandidatos": 1685,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 282,
+        "pctVotos": 16.74
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 279,
+        "pctVotos": 16.56
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 272,
+        "pctVotos": 16.14
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 230,
+        "pctVotos": 13.65
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 224,
+        "pctVotos": 13.29
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 151,
+        "pctVotos": 8.96
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 247,
+      "pctVotos": 14.66,
       "numCandidaturas": 3
     }
   },
@@ -6374,65 +6383,65 @@
     "nombre": "NUEVO BAZTÁN",
     "censo": 5322,
     "mesas": 9,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3864,
+    "pctEscrutado": 100.0,
+    "blanco": 58,
+    "nulos": 87,
+    "votosCandidatos": 3719,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 627,
+        "pctVotos": 16.86
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 603,
+        "pctVotos": 16.21
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 561,
+        "pctVotos": 15.08
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 536,
+        "pctVotos": 14.41
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 512,
+        "pctVotos": 13.77
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 480,
+        "pctVotos": 12.91
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 400,
+      "pctVotos": 10.76,
       "numCandidaturas": 3
     }
   },
@@ -6440,65 +6449,65 @@
     "nombre": "OLMEDA DE LAS FUENTES",
     "censo": 293,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 228,
+    "pctEscrutado": 100.0,
+    "blanco": 3,
+    "nulos": 3,
+    "votosCandidatos": 222,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PH",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 50,
+        "pctVotos": 22.52
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 40,
+        "pctVotos": 18.02
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 40,
+        "pctVotos": 18.02
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 30,
+        "pctVotos": 13.51
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 22,
+        "pctVotos": 9.91
       },
       {
         "siglas": "FE de las JONS",
         "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20,
+        "pctVotos": 9.01
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 20,
+      "pctVotos": 9.01,
       "numCandidaturas": 3
     }
   },
@@ -6506,65 +6515,65 @@
     "nombre": "ORUSCO DE TAJUÑA",
     "censo": 1053,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 713,
+    "pctEscrutado": 100.0,
+    "blanco": 12,
+    "nulos": 24,
+    "votosCandidatos": 677,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 132,
+        "pctVotos": 19.5
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 118,
+        "pctVotos": 17.43
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 83,
+        "pctVotos": 12.26
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 82,
+        "pctVotos": 12.11
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 70,
+        "pctVotos": 10.34
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 69,
+        "pctVotos": 10.19
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 123,
+      "pctVotos": 18.17,
       "numCandidaturas": 3
     }
   },
@@ -6572,16 +6581,16 @@
     "nombre": "PARACUELLOS DE JARAMA",
     "censo": 18402,
     "mesas": 27,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 14496,
+    "pctEscrutado": 100.0,
+    "blanco": 201,
+    "nulos": 205,
+    "votosCandidatos": 14090,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -6589,48 +6598,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2132,
+        "pctVotos": 15.13
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 2122,
+        "pctVotos": 15.06
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2073,
+        "pctVotos": 14.71
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 2054,
+        "pctVotos": 14.58
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1825,
+        "pctVotos": 12.95
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1823,
+        "pctVotos": 12.94
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 2061,
+      "pctVotos": 14.63,
       "numCandidaturas": 3
     }
   },
@@ -6638,65 +6647,65 @@
     "nombre": "PARLA",
     "censo": 84053,
     "mesas": 129,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 55910,
+    "pctEscrutado": 100.0,
+    "blanco": 882,
+    "nulos": 1386,
+    "votosCandidatos": 53642,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8164,
+        "pctVotos": 15.22
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 7824,
+        "pctVotos": 14.59
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 7606,
+        "pctVotos": 14.18
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7504,
+        "pctVotos": 13.99
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7501,
+        "pctVotos": 13.98
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 7448,
+        "pctVotos": 13.88
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7595,
+      "pctVotos": 14.16,
       "numCandidaturas": 3
     }
   },
@@ -6704,65 +6713,65 @@
     "nombre": "PATONES",
     "censo": 489,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 358,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 18,
+    "votosCandidatos": 335,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 75,
+        "pctVotos": 22.39
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 60,
+        "pctVotos": 17.91
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 48,
+        "pctVotos": 14.33
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 40,
+        "pctVotos": 11.94
       },
       {
         "siglas": "FE de las JONS",
         "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 35,
+        "pctVotos": 10.45
+      },
+      {
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "color": "#9AA0A6",
+        "votos": 31,
+        "pctVotos": 9.25
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 46,
+      "pctVotos": 13.73,
       "numCandidaturas": 3
     }
   },
@@ -6770,65 +6779,65 @@
     "nombre": "PEDREZUELA",
     "censo": 4337,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 3178,
+    "pctEscrutado": 100.0,
+    "blanco": 60,
+    "nulos": 56,
+    "votosCandidatos": 3062,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 542,
+        "pctVotos": 17.7
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 446,
+        "pctVotos": 14.57
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 435,
+        "pctVotos": 14.21
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 416,
+        "pctVotos": 13.59
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 391,
+        "pctVotos": 12.77
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 384,
+        "pctVotos": 12.54
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 448,
+      "pctVotos": 14.63,
       "numCandidaturas": 3
     }
   },
@@ -6836,65 +6845,65 @@
     "nombre": "PELAYOS DE LA PRESA",
     "censo": 2073,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1449,
+    "pctEscrutado": 100.0,
+    "blanco": 24,
+    "nulos": 28,
+    "votosCandidatos": 1397,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 266,
+        "pctVotos": 19.04
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 215,
+        "pctVotos": 15.39
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 192,
+        "pctVotos": 13.74
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 191,
+        "pctVotos": 13.67
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 180,
+        "pctVotos": 12.88
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 141,
+        "pctVotos": 10.09
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 212,
+      "pctVotos": 15.18,
       "numCandidaturas": 3
     }
   },
@@ -6902,16 +6911,16 @@
     "nombre": "PERALES DE TAJUÑA",
     "censo": 2224,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1680,
+    "pctEscrutado": 100.0,
+    "blanco": 10,
+    "nulos": 47,
+    "votosCandidatos": 1623,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -6919,48 +6928,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 281,
+        "pctVotos": 17.31
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 250,
+        "pctVotos": 15.4
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 242,
+        "pctVotos": 14.91
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 232,
+        "pctVotos": 14.29
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 226,
+        "pctVotos": 13.92
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 174,
+        "pctVotos": 10.72
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 218,
+      "pctVotos": 13.43,
       "numCandidaturas": 3
     }
   },
@@ -6968,65 +6977,65 @@
     "nombre": "PEZUELA DE LAS TORRES",
     "censo": 770,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 604,
+    "pctEscrutado": 100.0,
+    "blanco": 10,
+    "nulos": 7,
+    "votosCandidatos": 587,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 125,
+        "pctVotos": 21.29
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 114,
+        "pctVotos": 19.42
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 88,
+        "pctVotos": 14.99
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 78,
+        "pctVotos": 13.29
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 62,
+        "pctVotos": 10.56
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 57,
+        "pctVotos": 9.71
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 63,
+      "pctVotos": 10.73,
       "numCandidaturas": 3
     }
   },
@@ -7034,65 +7043,65 @@
     "nombre": "PINILLA DEL VALLE",
     "censo": 186,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 147,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
+    "nulos": 2,
+    "votosCandidatos": 141,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 40,
+        "pctVotos": 28.37
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 27,
+        "pctVotos": 19.15
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 19,
+        "pctVotos": 13.48
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 14,
+        "pctVotos": 9.93
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 14,
+        "pctVotos": 9.93
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 13,
+        "pctVotos": 9.22
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 14,
+      "pctVotos": 9.93,
       "numCandidaturas": 3
     }
   },
@@ -7100,16 +7109,16 @@
     "nombre": "PINTO",
     "censo": 40783,
     "mesas": 61,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 30026,
+    "pctEscrutado": 100.0,
+    "blanco": 437,
+    "nulos": 610,
+    "votosCandidatos": 28979,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -7117,48 +7126,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4571,
+        "pctVotos": 15.77
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 4305,
+        "pctVotos": 14.86
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 4297,
+        "pctVotos": 14.83
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 4197,
+        "pctVotos": 14.48
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3903,
+        "pctVotos": 13.47
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 3820,
+        "pctVotos": 13.18
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3886,
+      "pctVotos": 13.41,
       "numCandidaturas": 3
     }
   },
@@ -7166,65 +7175,65 @@
     "nombre": "PIÑUÉCAR-GANDULLAS",
     "censo": 157,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 124,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 2,
+    "votosCandidatos": 120,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 42,
+        "pctVotos": 35.0
       },
       {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 27,
+        "pctVotos": 22.5
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 18,
+        "pctVotos": 15.0
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 11,
+        "pctVotos": 9.17
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 7,
+        "pctVotos": 5.83
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7,
+        "pctVotos": 5.83
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 8,
+      "pctVotos": 6.67,
       "numCandidaturas": 3
     }
   },
@@ -7232,65 +7241,65 @@
     "nombre": "POZUELO DE ALARCÓN",
     "censo": 66089,
     "mesas": 100,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 53781,
+    "pctEscrutado": 100.0,
+    "blanco": 543,
+    "nulos": 382,
+    "votosCandidatos": 52856,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 7904,
+        "pctVotos": 14.95
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7798,
+        "pctVotos": 14.75
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7767,
+        "pctVotos": 14.69
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7467,
+        "pctVotos": 14.13
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 7411,
+        "pctVotos": 14.02
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7288,
+        "pctVotos": 13.79
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7221,
+      "pctVotos": 13.66,
       "numCandidaturas": 3
     }
   },
@@ -7298,65 +7307,65 @@
     "nombre": "POZUELO DEL REY",
     "censo": 909,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 658,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 14,
+    "votosCandidatos": 639,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 114,
+        "pctVotos": 17.84
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 103,
+        "pctVotos": 16.12
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 101,
+        "pctVotos": 15.81
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 67,
+        "pctVotos": 10.49
       },
       {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 65,
+        "pctVotos": 10.17
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "IE",
+        "nombre": "IUSTITIA EUROPA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 64,
+        "pctVotos": 10.02
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 125,
+      "pctVotos": 19.56,
       "numCandidaturas": 3
     }
   },
@@ -7364,65 +7373,65 @@
     "nombre": "PRÁDENA DEL RINCÓN",
     "censo": 125,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 109,
+    "pctEscrutado": 100.0,
+    "blanco": 3,
+    "nulos": 1,
+    "votosCandidatos": 105,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 24,
+        "pctVotos": 22.86
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 20,
+        "pctVotos": 19.05
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 17,
+        "pctVotos": 16.19
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 12.38
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 10,
+        "pctVotos": 9.52
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 9,
+        "pctVotos": 8.57
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 12,
+      "pctVotos": 11.43,
       "numCandidaturas": 3
     }
   },
@@ -7430,65 +7439,82 @@
     "nombre": "PUEBLA DE LA SIERRA",
     "censo": 84,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 69,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 1,
+    "votosCandidatos": 66,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "MUNDO+JUSTO",
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PODEMOS",
+          "color": "#6E2585"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 19.7
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 19.7
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 13,
+        "pctVotos": 19.7
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 13,
+        "pctVotos": 19.7
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 8,
+        "pctVotos": 12.12
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5,
+        "pctVotos": 7.58
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 1.52,
       "numCandidaturas": 3
     }
   },
@@ -7496,65 +7522,65 @@
     "nombre": "QUIJORNA",
     "censo": 2941,
     "mesas": 4,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2227,
+    "pctEscrutado": 100.0,
+    "blanco": 25,
+    "nulos": 48,
+    "votosCandidatos": 2154,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 354,
+        "pctVotos": 16.43
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 336,
+        "pctVotos": 15.6
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 316,
+        "pctVotos": 14.67
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 289,
+        "pctVotos": 13.42
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 269,
+        "pctVotos": 12.49
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 230,
+        "pctVotos": 10.68
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 360,
+      "pctVotos": 16.71,
       "numCandidaturas": 3
     }
   },
@@ -7562,65 +7588,65 @@
     "nombre": "RASCAFRÍA",
     "censo": 1269,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 992,
+    "pctEscrutado": 100.0,
+    "blanco": 21,
+    "nulos": 23,
+    "votosCandidatos": 948,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PH",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 173,
+        "pctVotos": 18.25
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 147,
+        "pctVotos": 15.51
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 143,
+        "pctVotos": 15.08
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 141,
+        "pctVotos": 14.87
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 110,
+        "pctVotos": 11.6
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 110,
+        "pctVotos": 11.6
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 124,
+      "pctVotos": 13.08,
       "numCandidaturas": 3
     }
   },
@@ -7628,16 +7654,16 @@
     "nombre": "REDUEÑA",
     "censo": 241,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 185,
+    "pctEscrutado": 100.0,
+    "blanco": 4,
+    "nulos": 7,
+    "votosCandidatos": 174,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -7645,48 +7671,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 36,
+        "pctVotos": 20.69
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 27,
+        "pctVotos": 15.52
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 26,
+        "pctVotos": 14.94
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 23,
+        "pctVotos": 13.22
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 22,
+        "pctVotos": 12.64
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15,
+        "pctVotos": 8.62
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 25,
+      "pctVotos": 14.37,
       "numCandidaturas": 3
     }
   },
@@ -7694,16 +7720,16 @@
     "nombre": "RIBATEJADA",
     "censo": 717,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 521,
+    "pctEscrutado": 100.0,
+    "blanco": 13,
+    "nulos": 12,
+    "votosCandidatos": 496,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -7711,48 +7737,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 102,
+        "pctVotos": 20.56
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 85,
+        "pctVotos": 17.14
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 72,
+        "pctVotos": 14.52
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 66,
+        "pctVotos": 13.31
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 60,
+        "pctVotos": 12.1
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 48,
+        "pctVotos": 9.68
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 63,
+      "pctVotos": 12.7,
       "numCandidaturas": 3
     }
   },
@@ -7760,16 +7786,16 @@
     "nombre": "RIVAS-VACIAMADRID",
     "censo": 75104,
     "mesas": 114,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 59238,
+    "pctEscrutado": 100.0,
+    "blanco": 701,
+    "nulos": 861,
+    "votosCandidatos": 57676,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -7777,48 +7803,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8614,
+        "pctVotos": 14.94
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8550,
+        "pctVotos": 14.82
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 8545,
+        "pctVotos": 14.82
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8274,
+        "pctVotos": 14.35
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7921,
+        "pctVotos": 13.73
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 7755,
+        "pctVotos": 13.45
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 8017,
+      "pctVotos": 13.9,
       "numCandidaturas": 3
     }
   },
@@ -7826,65 +7852,74 @@
     "nombre": "ROBLEDILLO DE LA JARA",
     "censo": 85,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
+    "votantes": 64,
+    "pctEscrutado": 100.0,
+    "blanco": 1,
     "nulos": 0,
-    "votosCandidatos": 0,
+    "votosCandidatos": 63,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        },
+        {
+          "siglas": "SENADO DE PROGRESO",
+          "color": "#E10819"
+        }
+      ]
     },
     "principales": [
       {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 15,
+        "pctVotos": 23.81
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 15,
+        "pctVotos": 23.81
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 14.29
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 14.29
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 14.29
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5,
+        "pctVotos": 7.94
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1,
+      "pctVotos": 1.59,
       "numCandidaturas": 3
     }
   },
@@ -7892,65 +7927,65 @@
     "nombre": "ROBLEDO DE CHAVELA",
     "censo": 3775,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2749,
+    "pctEscrutado": 100.0,
+    "blanco": 30,
+    "nulos": 52,
+    "votosCandidatos": 2667,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PH",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 462,
+        "pctVotos": 17.32
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 451,
+        "pctVotos": 16.91
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 433,
+        "pctVotos": 16.24
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 325,
+        "pctVotos": 12.19
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 320,
+        "pctVotos": 12.0
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 311,
+        "pctVotos": 11.66
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 365,
+      "pctVotos": 13.69,
       "numCandidaturas": 3
     }
   },
@@ -7958,65 +7993,74 @@
     "nombre": "ROBREGORDO",
     "censo": 58,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 43,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 1,
+    "votosCandidatos": 42,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "MUNDO+JUSTO",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "MUNDO+JUSTO",
+          "color": "#9AA0A6"
+        },
+        {
+          "siglas": "PODEMOS",
+          "color": "#6E2585"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 21.43
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 21.43
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 7,
+        "pctVotos": 16.67
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 7,
+        "pctVotos": 16.67
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 7,
+        "pctVotos": 16.67
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3,
+        "pctVotos": 7.14
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0,
+      "pctVotos": 0.0,
       "numCandidaturas": 3
     }
   },
@@ -8024,65 +8068,65 @@
     "nombre": "ROZAS DE MADRID (LAS)",
     "censo": 73814,
     "mesas": 114,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 58841,
+    "pctEscrutado": 100.0,
+    "blanco": 667,
+    "nulos": 553,
+    "votosCandidatos": 57621,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 8657,
+        "pctVotos": 15.02
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8495,
+        "pctVotos": 14.74
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8439,
+        "pctVotos": 14.65
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 8303,
+        "pctVotos": 14.41
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 8082,
+        "pctVotos": 14.03
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7951,
+        "pctVotos": 13.8
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7694,
+      "pctVotos": 13.35,
       "numCandidaturas": 3
     }
   },
@@ -8090,16 +8134,16 @@
     "nombre": "ROZAS DE PUERTO REAL",
     "censo": 496,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 358,
+    "pctEscrutado": 100.0,
+    "blanco": 5,
+    "nulos": 5,
+    "votosCandidatos": 348,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -8107,48 +8151,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 57,
+        "pctVotos": 16.38
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 54,
+        "pctVotos": 15.52
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 48,
+        "pctVotos": 13.79
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 48,
+        "pctVotos": 13.79
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 48,
+        "pctVotos": 13.79
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 48,
+        "pctVotos": 13.79
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 45,
+      "pctVotos": 12.93,
       "numCandidaturas": 3
     }
   },
@@ -8156,65 +8200,65 @@
     "nombre": "SAN AGUSTÍN DEL GUADALIX",
     "censo": 9901,
     "mesas": 16,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 7433,
+    "pctEscrutado": 100.0,
+    "blanco": 99,
+    "nulos": 137,
+    "votosCandidatos": 7197,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 1127,
+        "pctVotos": 15.66
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 1112,
+        "pctVotos": 15.45
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1076,
+        "pctVotos": 14.95
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1072,
+        "pctVotos": 14.9
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1019,
+        "pctVotos": 14.16
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1011,
+        "pctVotos": 14.05
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 780,
+      "pctVotos": 10.84,
       "numCandidaturas": 3
     }
   },
@@ -8222,65 +8266,65 @@
     "nombre": "SAN FERNANDO DE HENARES",
     "censo": 28657,
     "mesas": 45,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 21577,
+    "pctEscrutado": 100.0,
+    "blanco": 307,
+    "nulos": 428,
+    "votosCandidatos": 20842,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3172,
+        "pctVotos": 15.22
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 3096,
+        "pctVotos": 14.85
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 3036,
+        "pctVotos": 14.57
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 2971,
+        "pctVotos": 14.25
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 2789,
+        "pctVotos": 13.38
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 2689,
+        "pctVotos": 12.9
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 3089,
+      "pctVotos": 14.82,
       "numCandidaturas": 3
     }
   },
@@ -8288,65 +8332,65 @@
     "nombre": "SAN LORENZO DE EL ESCORIAL",
     "censo": 14456,
     "mesas": 20,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 10455,
+    "pctEscrutado": 100.0,
+    "blanco": 147,
+    "nulos": 194,
+    "votosCandidatos": 10114,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1528,
+        "pctVotos": 15.11
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 1502,
+        "pctVotos": 14.85
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1485,
+        "pctVotos": 14.68
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1393,
+        "pctVotos": 13.77
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1391,
+        "pctVotos": 13.75
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1288,
+        "pctVotos": 12.73
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1527,
+      "pctVotos": 15.1,
       "numCandidaturas": 3
     }
   },
@@ -8354,65 +8398,65 @@
     "nombre": "SAN MARTÍN DE LA VEGA",
     "censo": 13874,
     "mesas": 22,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 9811,
+    "pctEscrutado": 100.0,
+    "blanco": 116,
+    "nulos": 193,
+    "votosCandidatos": 9502,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 1462,
+        "pctVotos": 15.39
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1456,
+        "pctVotos": 15.32
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 1441,
+        "pctVotos": 15.17
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1349,
+        "pctVotos": 14.2
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 1163,
+        "pctVotos": 12.24
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 1112,
+        "pctVotos": 11.7
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 1519,
+      "pctVotos": 15.99,
       "numCandidaturas": 3
     }
   },
@@ -8420,65 +8464,65 @@
     "nombre": "SAN MARTÍN DE VALDEIGLESIAS",
     "censo": 6709,
     "mesas": 10,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 4721,
+    "pctEscrutado": 100.0,
+    "blanco": 64,
+    "nulos": 174,
+    "votosCandidatos": 4483,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 761,
+        "pctVotos": 16.98
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 644,
+        "pctVotos": 14.37
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 643,
+        "pctVotos": 14.34
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 639,
+        "pctVotos": 14.25
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 599,
+        "pctVotos": 13.36
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 532,
+        "pctVotos": 11.87
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 665,
+      "pctVotos": 14.83,
       "numCandidaturas": 3
     }
   },
@@ -8486,65 +8530,65 @@
     "nombre": "SAN SEBASTIÁN DE LOS REYES",
     "censo": 70145,
     "mesas": 106,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 53042,
+    "pctEscrutado": 100.0,
+    "blanco": 782,
+    "nulos": 791,
+    "votosCandidatos": 51469,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 8010,
+        "pctVotos": 15.56
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7592,
+        "pctVotos": 14.75
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7472,
+        "pctVotos": 14.52
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7343,
+        "pctVotos": 14.27
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 7271,
+        "pctVotos": 14.13
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6968,
+        "pctVotos": 13.54
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 6813,
+      "pctVotos": 13.24,
       "numCandidaturas": 3
     }
   },
@@ -8552,65 +8596,65 @@
     "nombre": "SANTA MARÍA DE LA ALAMEDA",
     "censo": 1262,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 941,
+    "pctEscrutado": 100.0,
+    "blanco": 8,
+    "nulos": 17,
+    "votosCandidatos": 916,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PH",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 161,
+        "pctVotos": 17.58
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 159,
+        "pctVotos": 17.36
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 146,
+        "pctVotos": 15.94
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 145,
+        "pctVotos": 15.83
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 111,
+        "pctVotos": 12.12
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 95,
+        "pctVotos": 10.37
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 99,
+      "pctVotos": 10.81,
       "numCandidaturas": 3
     }
   },
@@ -8618,65 +8662,65 @@
     "nombre": "SANTORCAZ",
     "censo": 801,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 645,
+    "pctEscrutado": 100.0,
+    "blanco": 3,
+    "nulos": 20,
+    "votosCandidatos": 622,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PH",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 125,
+        "pctVotos": 20.1
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 87,
+        "pctVotos": 13.99
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 87,
+        "pctVotos": 13.99
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 83,
+        "pctVotos": 13.34
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 73,
+        "pctVotos": 11.74
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 73,
+        "pctVotos": 11.74
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 94,
+      "pctVotos": 15.11,
       "numCandidaturas": 3
     }
   },
@@ -8684,65 +8728,65 @@
     "nombre": "SANTOS DE LA HUMOSA (LOS)",
     "censo": 2051,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1487,
+    "pctEscrutado": 100.0,
+    "blanco": 16,
+    "nulos": 50,
+    "votosCandidatos": 1421,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PH",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PP",
-        "nombre": "PARTIDO POPULAR",
-        "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 269,
+        "pctVotos": 18.93
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 246,
+        "pctVotos": 17.31
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 203,
+        "pctVotos": 14.29
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 200,
+        "pctVotos": 14.07
+      },
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 198,
+        "pctVotos": 13.93
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 137,
+        "pctVotos": 9.64
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 168,
+      "pctVotos": 11.82,
       "numCandidaturas": 3
     }
   },
@@ -8750,65 +8794,65 @@
     "nombre": "SERNA DEL MONTE (LA)",
     "censo": 88,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
+    "votantes": 72,
+    "pctEscrutado": 100.0,
     "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "nulos": 5,
+    "votosCandidatos": 67,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PH",
+      "color": "#9AA0A6",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 15,
+        "pctVotos": 22.39
+      },
+      {
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11,
+        "pctVotos": 16.42
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11,
+        "pctVotos": 16.42
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 11,
+        "pctVotos": 16.42
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 7,
+        "pctVotos": 10.45
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PCTE",
+        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5,
+        "pctVotos": 7.46
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 7,
+      "pctVotos": 10.45,
       "numCandidaturas": 3
     }
   },
@@ -8816,65 +8860,65 @@
     "nombre": "SERRANILLOS DEL VALLE",
     "censo": 3658,
     "mesas": 6,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2708,
+    "pctEscrutado": 100.0,
+    "blanco": 24,
+    "nulos": 72,
+    "votosCandidatos": 2612,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 443,
+        "pctVotos": 16.96
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 441,
+        "pctVotos": 16.88
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 432,
+        "pctVotos": 16.54
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 411,
+        "pctVotos": 15.74
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 293,
+        "pctVotos": 11.22
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 243,
+        "pctVotos": 9.3
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 349,
+      "pctVotos": 13.36,
       "numCandidaturas": 3
     }
   },
@@ -8882,65 +8926,65 @@
     "nombre": "SEVILLA LA NUEVA",
     "censo": 7315,
     "mesas": 12,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5345,
+    "pctEscrutado": 100.0,
+    "blanco": 86,
+    "nulos": 112,
+    "votosCandidatos": 5147,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PODEMOS",
+      "color": "#6E2585",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 852,
+        "pctVotos": 16.55
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 764,
+        "pctVotos": 14.84
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 749,
+        "pctVotos": 14.55
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 728,
+        "pctVotos": 14.14
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 711,
+        "pctVotos": 13.81
       },
       {
-        "siglas": "PODEMOS",
-        "nombre": "PODEMOS",
-        "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 658,
+        "pctVotos": 12.78
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 685,
+      "pctVotos": 13.31,
       "numCandidaturas": 3
     }
   },
@@ -8948,65 +8992,74 @@
     "nombre": "SOMOSIERRA",
     "censo": 81,
     "mesas": 1,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 70,
+    "pctEscrutado": 100.0,
+    "blanco": 2,
+    "nulos": 1,
+    "votosCandidatos": 67,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
-      "empatados": []
+      "estado": "empate",
+      "empatados": [
+        {
+          "siglas": "PP",
+          "color": "#0557A1"
+        },
+        {
+          "siglas": "VOX",
+          "color": "#02C119"
+        }
+      ]
     },
     "principales": [
-      {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 12,
+        "pctVotos": 17.91
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 12,
+        "pctVotos": 17.91
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 10,
+        "pctVotos": 14.93
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 9,
+        "pctVotos": 13.43
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 8.96
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 6,
+        "pctVotos": 8.96
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 12,
+      "pctVotos": 17.91,
       "numCandidaturas": 3
     }
   },
@@ -9014,65 +9067,65 @@
     "nombre": "SOTO DEL REAL",
     "censo": 7292,
     "mesas": 11,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 5674,
+    "pctEscrutado": 100.0,
+    "blanco": 91,
+    "nulos": 109,
+    "votosCandidatos": 5474,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 867,
+        "pctVotos": 15.84
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 816,
+        "pctVotos": 14.91
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 806,
+        "pctVotos": 14.72
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 803,
+        "pctVotos": 14.67
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 685,
+        "pctVotos": 12.51
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 672,
+        "pctVotos": 12.28
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 825,
+      "pctVotos": 15.07,
       "numCandidaturas": 3
     }
   },
@@ -9080,65 +9133,65 @@
     "nombre": "TALAMANCA DE JARAMA",
     "censo": 3373,
     "mesas": 5,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 2472,
+    "pctEscrutado": 100.0,
+    "blanco": 51,
+    "nulos": 64,
+    "votosCandidatos": 2357,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 383,
+        "pctVotos": 16.25
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 368,
+        "pctVotos": 15.61
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 320,
+        "pctVotos": 13.58
       },
       {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 320,
+        "pctVotos": 13.58
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 295,
+        "pctVotos": 12.52
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 294,
+        "pctVotos": 12.47
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 377,
+      "pctVotos": 15.99,
       "numCandidaturas": 3
     }
   },
@@ -9146,16 +9199,16 @@
     "nombre": "TIELMES",
     "censo": 2003,
     "mesas": 3,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 1414,
+    "pctEscrutado": 100.0,
+    "blanco": 9,
+    "nulos": 36,
+    "votosCandidatos": 1369,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "VOX",
+      "color": "#02C119",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
@@ -9163,48 +9216,48 @@
         "siglas": "VOX",
         "nombre": "VOX",
         "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 231,
+        "pctVotos": 16.87
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 225,
+        "pctVotos": 16.44
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 225,
+        "pctVotos": 16.44
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
+        "color": "#9AA0A6",
+        "votos": 188,
+        "pctVotos": 13.73
       },
       {
         "siglas": "MUNDO+JUSTO",
         "nombre": "POR UN MUNDO MAS JUSTO",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 182,
+        "pctVotos": 13.29
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 174,
+        "pctVotos": 12.71
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 144,
+      "pctVotos": 10.52,
       "numCandidaturas": 3
     }
   },
@@ -9212,65 +9265,65 @@
     "nombre": "TITULCIA",
     "censo": 1062,
     "mesas": 2,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 734,
+    "pctEscrutado": 100.0,
+    "blanco": 18,
+    "nulos": 7,
+    "votosCandidatos": 709,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "PP",
+      "color": "#0557A1",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 181,
+        "pctVotos": 25.53
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 98,
+        "pctVotos": 13.82
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 97,
+        "pctVotos": 13.68
+      },
+      {
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 78,
+        "pctVotos": 11.0
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 73,
+        "pctVotos": 10.3
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 70,
+        "pctVotos": 9.87
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 112,
+      "pctVotos": 15.8,
       "numCandidaturas": 3
     }
   },
@@ -9278,65 +9331,65 @@
     "nombre": "TORREJÓN DE ARDOZ",
     "censo": 99549,
     "mesas": 155,
-    "votantes": 0,
-    "pctEscrutado": 0.0,
-    "blanco": 0,
-    "nulos": 0,
-    "votosCandidatos": 0,
+    "votantes": 38195,
+    "pctEscrutado": 51.8,
+    "blanco": 505,
+    "nulos": 705,
+    "votosCandidatos": 36985,
     "ganador": {
-      "siglas": null,
-      "color": null,
+      "siglas": "SENADO DE PROGRESO",
+      "color": "#E10819",
       "escanos": 0,
-      "estado": "sinDatos",
+      "estado": "claro",
       "empatados": []
     },
     "principales": [
       {
-        "siglas": "VOX",
-        "nombre": "VOX",
-        "color": "#02C119",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 5501,
+        "pctVotos": 14.87
       },
       {
         "siglas": "PP",
         "nombre": "PARTIDO POPULAR",
         "color": "#0557A1",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5482,
+        "pctVotos": 14.82
       },
       {
-        "siglas": "MUNDO+JUSTO",
-        "nombre": "POR UN MUNDO MAS JUSTO",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
-      },
-      {
-        "siglas": "PCTE",
-        "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
-        "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 5352,
+        "pctVotos": 14.47
       },
       {
         "siglas": "PODEMOS",
         "nombre": "PODEMOS",
         "color": "#6E2585",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5313,
+        "pctVotos": 14.37
       },
       {
-        "siglas": "FE de las JONS",
-        "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+        "siglas": "PH",
+        "nombre": "PARTIDO HUMANISTA",
         "color": "#9AA0A6",
-        "votos": 0,
-        "pctVotos": 0
+        "votos": 5311,
+        "pctVotos": 14.36
+      },
+      {
+        "siglas": "MUNDO+JUSTO",
+        "nombre": "POR UN MUNDO MAS JUSTO",
+        "color": "#9AA0A6",
+        "votos": 5040,
+        "pctVotos": 13.63
       }
     ],
     "otros": {
-      "votos": 0,
-      "pctVotos": 0,
+      "votos": 4986,
+      "pctVotos": 13.48,
       "numCandidaturas": 3
     }
   },

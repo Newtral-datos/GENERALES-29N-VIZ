@@ -2,8 +2,8 @@
   "_guia": "Senado 29N. Ojo con tres cosas antes de tocar nada: (1) los 208 son los senadores que se ELIGEN en las urnas; los 58 designados por los parlamentos autonómicos llegan semanas después y no están aquí, pero sí cuentan para la mayoría absoluta de 134 sobre 266. (2) No hay escaños por municipio: se adjudican por circunscripción. (3) La comparativa con 23J solo puede ser de escaños — el fichero ANT del Senado no trae votos ni candidatos. Partidos ordenados por escaños, votos y resultado anterior.",
   "nacional": {
     "fecha": "2026-11-25",
-    "horaTotalizacion": "17:51",
-    "pctEscrutado": 51.31,
+    "horaTotalizacion": "17:54",
+    "pctEscrutado": 58.69,
     "totalEscanos": 114,
     "totalEscanosCamara": 266,
     "escanosDesignadosPendientes": 58,
@@ -14,7 +14,7 @@
         "siglas": "SENADO DE PROGRESO",
         "color": "#E10819",
         "lado": 1,
-        "escanos": 40,
+        "escanos": 41,
         "escanosAnterior": 73
       },
       {
@@ -30,7 +30,7 @@
         "siglas": "VOX",
         "color": "#02C119",
         "lado": 2,
-        "escanos": 13,
+        "escanos": 12,
         "escanosAnterior": 0
       },
       {
@@ -543,8 +543,17 @@
         "siglas": "PP",
         "color": "#0557A1",
         "escanos": 2,
-        "estado": "claro",
-        "empatados": []
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          },
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          }
+        ]
       },
       "composicion": [
         {
@@ -557,13 +566,7 @@
           "siglas": "SENADO DE PROGRESO",
           "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
           "color": "#E10819",
-          "escanos": 1
-        },
-        {
-          "siglas": "VOX",
-          "nombre": "VOX",
-          "color": "#02C119",
-          "escanos": 1
+          "escanos": 2
         }
       ]
     },
@@ -2586,8 +2589,17 @@
         "siglas": "PP",
         "color": "#0557A1",
         "escanos": 2,
-        "estado": "claro",
-        "empatados": []
+        "estado": "empate",
+        "empatados": [
+          {
+            "siglas": "PP",
+            "color": "#0557A1"
+          },
+          {
+            "siglas": "SENADO DE PROGRESO",
+            "color": "#E10819"
+          }
+        ]
       },
       "composicion": [
         {
@@ -2600,13 +2612,7 @@
           "siglas": "SENADO DE PROGRESO",
           "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
           "color": "#E10819",
-          "escanos": 1
-        },
-        {
-          "siglas": "VOX",
-          "nombre": "VOX",
-          "color": "#02C119",
-          "escanos": 1
+          "escanos": 2
         }
       ],
       "circunscripciones": [
@@ -2618,25 +2624,25 @@
               "nombre": "Pedro Rollán Ojeda",
               "siglas": "PP",
               "color": "#0557A1",
-              "votos": 74226
+              "votos": 166451
             },
             {
               "nombre": "María Acín Carrera",
               "siglas": "SENADO DE PROGRESO",
               "color": "#E10819",
-              "votos": 74098
+              "votos": 166427
             },
             {
-              "nombre": "Carlos García Adanero",
+              "nombre": "Antonio Hernando Vera",
+              "siglas": "SENADO DE PROGRESO",
+              "color": "#E10819",
+              "votos": 165267
+            },
+            {
+              "nombre": "María Inmaculada Sanz Otero",
               "siglas": "PP",
               "color": "#0557A1",
-              "votos": 72972
-            },
-            {
-              "nombre": "Iñigo Henríquez de Luna Losada",
-              "siglas": "VOX",
-              "color": "#02C119",
-              "votos": 72730
+              "votos": 164803
             }
           ]
         }
