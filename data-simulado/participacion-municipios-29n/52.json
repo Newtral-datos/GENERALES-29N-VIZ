@@ -1,0 +1,43 @@
+{
+  "52001": {
+    "nombre": "MELILLA",
+    "fecha": "2026-11-29",
+    "poblacion": 85170,
+    "censo": 55150,
+    "mesas": 87,
+    "mesasConstituidas": 87,
+    "avances": [
+      {
+        "hora": "14:00",
+        "etiqueta": "Primer avance",
+        "votantes": 15657,
+        "participacionPct": 28.39,
+        "pctSobreCensoTotal": 28.39,
+        "pctMesasNotificadas": 100.0,
+        "mesasNotificadas": 87
+      },
+      {
+        "hora": "18:00",
+        "etiqueta": "Segundo avance",
+        "votantes": 20604,
+        "participacionPct": 37.36,
+        "pctSobreCensoTotal": 37.36,
+        "pctMesasNotificadas": 100.0,
+        "mesasNotificadas": 87
+      },
+      {
+        "hora": "Cierre",
+        "etiqueta": "Cierre de la jornada",
+        "votantes": 20027,
+        "participacionPct": 50.44,
+        "pctSobreCensoTotal": 36.31,
+        "pctEscrutado": 72.0,
+        "pctMesasNotificadas": null,
+        "mesasNotificadas": null,
+        "participacionPctAnterior": 49.81,
+        "censoAnterior": 55150,
+        "votantesAnterior": 27472
+      }
+    ]
+  }
+}

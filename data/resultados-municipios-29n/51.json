@@ -4,18 +4,18 @@
     "poblacion": 83117,
     "mesas": 96,
     "censo": 62231,
-    "votantes": 34279,
-    "validos": 33959,
-    "votosCandidaturas": 33657,
-    "blanco": 302,
-    "nulos": 320,
-    "participacionPct": 55.08,
-    "pctEscrutado": 100.0,
+    "votantes": 0,
+    "validos": 0,
+    "votosCandidaturas": 0,
+    "blanco": 0,
+    "nulos": 0,
+    "participacionPct": 0.0,
+    "pctEscrutado": 0.0,
     "ganador": {
-      "siglas": "PP",
-      "color": "#0557A1",
+      "siglas": null,
+      "color": null,
       "escanos": 0,
-      "estado": "claro",
+      "estado": "sinDatos",
       "empatados": []
     },
     "principales": [
@@ -23,54 +23,54 @@
         "siglas": "PP",
         "color": "#0557A1",
         "lado": 2,
-        "votos": 13200,
-        "pctVotos": 38.87,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 38.78
       },
       {
         "siglas": "PSOE",
         "color": "#E10819",
         "lado": 1,
-        "votos": 11972,
-        "pctVotos": 35.25,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 34.0
       },
       {
-        "siglas": "VOX",
+        "siglas": "Vox",
         "color": "#02C119",
         "lado": 2,
-        "votos": 7937,
-        "pctVotos": 23.37,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": 23.3
-      },
-      {
-        "siglas": "FRENTE OBRERO",
-        "color": "#9AA0A6",
-        "lado": 2,
-        "votos": 216,
-        "pctVotos": 0.64,
-        "pctVotosAnterior": null
       },
       {
         "siglas": "PODEMOS",
         "color": "#6E2585",
         "lado": 1,
-        "votos": 166,
-        "pctVotos": 0.49,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       },
       {
         "siglas": "SALF",
         "color": "#9AA0A6",
         "lado": 2,
-        "votos": 166,
-        "pctVotos": 0.49,
+        "votos": 0,
+        "pctVotos": 0,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FRENTE OBRERO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 0,
+        "pctVotos": 0,
         "pctVotosAnterior": null
       }
     ],
     "otros": {
       "votos": 0,
-      "pctVotos": 0.0,
+      "pctVotos": 0,
       "numCandidaturas": 0
     }
   }

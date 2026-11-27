@@ -1,0 +1,77 @@
+{
+  "51001": {
+    "nombre": "CEUTA",
+    "poblacion": 83117,
+    "mesas": 96,
+    "censo": 60335,
+    "votantes": 24753,
+    "validos": 24500,
+    "votosCandidaturas": 24264,
+    "blanco": 236,
+    "nulos": 253,
+    "participacionPct": 56.98,
+    "pctEscrutado": 72.0,
+    "ganador": {
+      "siglas": "PP",
+      "color": "#0557A1",
+      "escanos": 0,
+      "estado": "claro",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PP",
+        "color": "#0557A1",
+        "lado": 2,
+        "votos": 9789,
+        "pctVotos": 39.96,
+        "pctVotosAnterior": 38.78
+      },
+      {
+        "siglas": "PSOE",
+        "color": "#E10819",
+        "lado": 1,
+        "votos": 8261,
+        "pctVotos": 33.72,
+        "pctVotosAnterior": 34.0
+      },
+      {
+        "siglas": "Vox",
+        "color": "#02C119",
+        "lado": 2,
+        "votos": 5545,
+        "pctVotos": 22.63,
+        "pctVotosAnterior": 23.3
+      },
+      {
+        "siglas": "FA",
+        "color": "#FF8258",
+        "lado": 1,
+        "votos": 546,
+        "pctVotos": 2.23,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "LB",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 40,
+        "pctVotos": 0.16,
+        "pctVotosAnterior": null
+      },
+      {
+        "siglas": "FO",
+        "color": "#9AA0A6",
+        "lado": 2,
+        "votos": 38,
+        "pctVotos": 0.16,
+        "pctVotosAnterior": null
+      }
+    ],
+    "otros": {
+      "votos": 45,
+      "pctVotos": 0.18,
+      "numCandidaturas": 2
+    }
+  }
+}

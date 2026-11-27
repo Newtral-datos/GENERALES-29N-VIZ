@@ -1,0 +1,54 @@
+{
+  "51001": {
+    "nombre": "CEUTA",
+    "censo": 62231,
+    "mesas": 96,
+    "votantes": 34577,
+    "pctEscrutado": 100.0,
+    "blanco": 402,
+    "nulos": 944,
+    "votosCandidatos": 33231,
+    "ganador": {
+      "siglas": "PP",
+      "color": "#0557A1",
+      "escanos": 0,
+      "estado": "claro",
+      "empatados": []
+    },
+    "principales": [
+      {
+        "siglas": "PP",
+        "nombre": "PARTIDO POPULAR",
+        "color": "#0557A1",
+        "votos": 8755,
+        "pctVotos": 26.35
+      },
+      {
+        "siglas": "VOX",
+        "nombre": "VOX",
+        "color": "#02C119",
+        "votos": 8529,
+        "pctVotos": 25.67
+      },
+      {
+        "siglas": "SENADO DE PROGRESO",
+        "nombre": "SENADO DE PROGRESO (PSOE Y ALIADOS)",
+        "color": "#E10819",
+        "votos": 8309,
+        "pctVotos": 25.0
+      },
+      {
+        "siglas": "PODEMOS",
+        "nombre": "PODEMOS",
+        "color": "#6E2585",
+        "votos": 7638,
+        "pctVotos": 22.98
+      }
+    ],
+    "otros": {
+      "votos": 0,
+      "pctVotos": 0.0,
+      "numCandidaturas": 0
+    }
+  }
+}

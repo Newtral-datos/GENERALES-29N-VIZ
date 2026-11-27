@@ -1,7 +1,7 @@
 {
   "52001": {
     "nombre": "MELILLA",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-27",
     "poblacion": 85170,
     "censo": 57087,
     "mesas": 87,
@@ -10,28 +10,34 @@
       {
         "hora": "14:00",
         "etiqueta": "Primer avance",
-        "votantes": 13318,
-        "participacionPct": 23.33,
-        "pctSobreCensoTotal": 23.33,
-        "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 87
+        "votantes": 1786,
+        "participacionPct": 47.18,
+        "pctSobreCensoTotal": 3.13,
+        "pctMesasNotificadas": 6.9,
+        "mesasNotificadas": 6
       },
       {
         "hora": "18:00",
         "etiqueta": "Segundo avance",
-        "votantes": 18274,
-        "participacionPct": 32.01,
-        "pctSobreCensoTotal": 32.01,
-        "pctMesasNotificadas": 100.0,
-        "mesasNotificadas": 87
+        "votantes": null,
+        "participacionPct": null,
+        "pctSobreCensoTotal": null,
+        "pctMesasNotificadas": null,
+        "mesasNotificadas": null,
+        "arrastrado": {
+          "hora": "14:00",
+          "etiqueta": "Primer avance",
+          "votantes": 1786,
+          "participacionPct": 47.18
+        }
       },
       {
         "hora": "Cierre",
         "etiqueta": "Cierre de la jornada",
-        "votantes": 28528,
-        "participacionPct": 49.97,
-        "pctSobreCensoTotal": 49.97,
-        "pctEscrutado": 100.0,
+        "votantes": null,
+        "participacionPct": null,
+        "pctSobreCensoTotal": null,
+        "pctEscrutado": 0.0,
         "pctMesasNotificadas": null,
         "mesasNotificadas": null,
         "participacionPctAnterior": 49.81,
