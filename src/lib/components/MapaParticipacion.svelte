@@ -1,42 +1,34 @@
 <script lang="ts">
 	import { CONVOCATORIA } from '#lib/config';
-	import { asset } from '$app/paths';
 	import { getParticipacion, type ParticipacionProvincia } from '#lib/data';
 	import { RAMPA, escalaDe, colorDeAmbito } from '#lib/escala-participacion';
 	import { formatMiles } from '#lib/format';
-	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection as FC } from '#lib/geo';
+	import { pctDelCorte } from '#lib/participacion';
+	import MapaTerritorios from '#lib/components/MapaTerritorios.svelte';
+	import MapaParticipacionMunicipios from '#lib/components/MapaParticipacionMunicipios.svelte';
 
-	type Feature = GeoFeature<{ name: string; cod_prov: string }>;
-	type FeatureCollection = FC<{ name: string; cod_prov: string }>;
+	/**
+	 * Mapa de participación, con sus dos niveles en el mismo mapa.
+	 *
+	 * Antes eran dos mapas independientes: este, con las 52 provincias, y el
+	 * municipal **debajo**, precedido de un desplegable de provincia y con un
+	 * `scrollIntoView` para bajar hasta él. Cada uno llevaba su propio recuadro de
+	 * Canarias, su encuadre y su proyección — 765 líneas entre los dos para
+	 * resolver dos veces lo mismo.
+	 *
+	 * Ahora se reutiliza `MapaTerritorios`, el motor que ya usan la home, el
+	 * Senado y `/provincias`: migas de pan, bajada provincia → municipios,
+	 * recuadro de Canarias y encuadre, una sola vez. Lo único propio de esta
+	 * vista es cómo colorea —escala secuencial de porcentaje, no color de
+	 * partido—, su popup y su leyenda, que entran como `color` y como `snippet`.
+	 */
 
-	// activeIdx viene de ParticipacionView: mismo avance activo que las cajitas
+	// `activeIdx` viene de ParticipacionView: mismo avance activo que las cajitas
 	// de arriba y el ranking, para que el mapa se mueva junto con el resto del
 	// bloque según avanza la jornada (-1 = todavía sin ningún avance publicado).
-	let {
-		activeIdx,
-		onElegir
-	}: {
-		activeIdx: number;
-		/** Se llama al pulsar una provincia. La vista la usa para llevar el mapa
-		 *  municipal de abajo a esa provincia, igual que si se hubiera elegido en
-		 *  el selector. */
-		onElegir?: (cod: string) => void;
-	} = $props();
+	let { activeIdx }: { activeIdx: number } = $props();
 
-	// Las Palmas (35) y Santa Cruz de Tenerife (38) se dibujan aparte: su posición
-	// geográfica real deja un hueco enorme de océano entre ellas y la Península.
-	const CANARIAS_CODES = new Set(['35', '38']);
-
-	let allFeatures = $state<Feature[] | null>(null);
 	let provincias = $state<Record<string, ParticipacionProvincia> | null>(null);
-
-	$effect(() => {
-		fetch(asset('data/provincias.geojson'), { cache: 'no-cache' })
-			.then((res) => res.json())
-			.then((d: FeatureCollection) => {
-				allFeatures = d.features;
-			});
-	});
 
 	$effect(() => {
 		getParticipacion().then((d) => {
@@ -44,249 +36,148 @@
 		});
 	});
 
-	// La escala vive en #lib/escala-participacion: la comparte con el mapa
-	// municipal de esta misma página, y dos rampas distintas para la misma
-	// medida harían que el mismo porcentaje saliera de dos colores.
+	// El nivel en el que está el mapa, para saber si toca enseñar esta leyenda:
+	// en el municipal manda la del mapa de municipios, que tiene su propia
+	// escala.
+	let nivel = $state<'ccaa' | 'provincia' | 'municipio'>('provincia');
 
 	// Valor del avance activo para una provincia; null si ese corte todavía no
 	// tiene dato (antes de que se publique, o antes del primer avance de todos).
+	//
+	// Si la provincia no ha notificado ese corte pero tiene el anterior, se pinta
+	// el anterior: `pctDelCorte` resuelve eso en un solo sitio para el mapa, el
+	// mapa municipal y el ranking (ver #lib/participacion). El popup lo rotula.
 	function pctFor(p: ParticipacionProvincia): number | null {
 		if (activeIdx < 0) return null;
-		return p.avances[activeIdx]?.participacionPct ?? null;
+		return pctDelCorte(p.avances[activeIdx]).pct;
 	}
 
-	// La escala se recalcula con los valores del corte activo: a las 14:00 toda
-	// España cabe en un tramo de la escala del cierre y el mapa saldría de un
-	// solo color.
-	let escala = $derived(
-		escalaDe(Object.values(provincias ?? {}).map((p) => pctFor(p)))
-	);
+	/**
+	 * La escala se recalcula con los valores del corte activo **y del nivel que
+	 * se está viendo**.
+	 *
+	 * Por corte, porque a las 14:00 toda España cabe en un tramo de la escala del
+	 * cierre y el mapa saldría de un solo color. Y por nivel, porque dentro de una
+	 * provincia los municipios se reparten en un rango estrecho: con la escala
+	 * nacional saldrían todos del mismo tono (decidido el 25/11).
+	 *
+	 * El precio es que **el mismo color significa cosas distintas en provincias y
+	 * en municipios**, así que la leyenda tiene que decir qué rango está
+	 * representando — es lo que hace la línea de abajo. Sin eso, comparar los dos
+	 * niveles a ojo lleva a conclusiones falsas.
+	 */
+	let escala = $derived(escalaDe(Object.values(provincias ?? {}).map((p) => pctFor(p))));
 
 	function colorFor(codProv: string): string {
 		const p = provincias?.[codProv];
-		const pct = p ? pctFor(p) : null;
-		return colorDeAmbito(pct, escala);
+		return colorDeAmbito(p ? pctFor(p) : null, escala);
 	}
 
-	let activeCod = $state<string | null>(null);
-	let popupPos = $state({ x: 0, y: 0 });
-
-	const POPUP_W = 170;
-	const POPUP_H = 108;
-
-	function setPopupPos(x: number, y: number) {
-		const cabeHueco = window.innerWidth - x >= POPUP_W + 20;
-		const left = cabeHueco ? x + 12 : x - POPUP_W - 12;
-		popupPos = {
-			x: Math.min(Math.max(left, 8), window.innerWidth - POPUP_W - 8),
-			y: Math.min(Math.max(y + 12, 8), window.innerHeight - POPUP_H - 8)
-		};
-	}
-
-	function onProvinceEnter(e: MouseEvent, codProv: string) {
-		activeCod = codProv;
-		setPopupPos(e.clientX, e.clientY);
-	}
-
-	function onProvinceMove(e: MouseEvent) {
-		setPopupPos(e.clientX, e.clientY);
-	}
-
-	function onProvinceLeave() {
-		activeCod = null;
-	}
-
-	let activeProvincia = $derived(activeCod && provincias ? provincias[activeCod] : null);
-
-	// hora/etiqueta del avance activo son iguales en todas las provincias —
-	// cogemos cualquiera para rotular el mapa.
 	let avanceActivo = $derived.by(() => {
 		if (activeIdx < 0 || !provincias) return null;
-		return Object.values(provincias)[0]?.avances[activeIdx] ?? null;
+		const alguna = Object.values(provincias)[0];
+		return alguna?.avances[activeIdx] ?? null;
 	});
 
-	const SIZE = 440;
-	const INSET_W = SIZE * 0.3;
-	const INSET_H = SIZE * 0.18;
-	const INSET_X = SIZE * 0.04;
-	const INSET_GAP = SIZE * 0.035;
+	// Cuántas provincias se están pintando con el avance anterior porque no han
+	// notificado el corte activo. Va al pie del mapa: el color de esas provincias
+	// no es de la hora que dice el rótulo, y eso hay que leerlo sin pasar el ratón
+	// por encima. Es la situación normal durante los primeros minutos de un
+	// avance, así que la línea se pone y se quita sola según entran las mesas.
+	let arrastradas = $derived(
+		Object.values(provincias ?? {}).filter(
+			(p) => activeIdx >= 0 && pctDelCorte(p.avances[activeIdx]).arrastrado
+		).length
+	);
 
-	let mainFeatures = $derived(allFeatures ? allFeatures.filter((f) => !CANARIAS_CODES.has(f.properties.cod_prov)) : []);
-	let canaryFeatures = $derived(allFeatures ? allFeatures.filter((f) => CANARIAS_CODES.has(f.properties.cod_prov)) : []);
-
-	let mainBounds = $derived(computeBounds(mainFeatures));
-	let mainVp = $derived(mainBounds ? fitBox(mainBounds, SIZE, SIZE) : { w: SIZE, h: SIZE });
-
-	let canaryBounds = $derived(computeBounds(canaryFeatures));
-	let canaryFit = $derived(canaryBounds ? fitBox(canaryBounds, INSET_W, INSET_H) : { w: 0, h: 0 });
-	let insetY = $derived(mainVp.h + INSET_GAP);
-	let totalH = $derived(mainVp.h + INSET_GAP + INSET_H);
-	let canaryOffset = $derived({
-		x: INSET_X + (INSET_W - canaryFit.w) / 2,
-		y: insetY + (INSET_H - canaryFit.h) / 2
-	});
+	let nota = $derived(
+		`${CONVOCATORIA}` +
+			(avanceActivo
+				? ` — ${avanceActivo.etiqueta.toLowerCase()}${avanceActivo.hora !== 'Cierre' ? ` (${avanceActivo.hora})` : ''}`
+				: '') +
+			(arrastradas > 0
+				? ` — ${arrastradas === 1 ? '1 provincia' : `${arrastradas} provincias`} sin notificar este corte: se pinta${arrastradas === 1 ? '' : 'n'} con el avance anterior`
+				: '') +
+			' — pasa el ratón por una provincia para ver el detalle, pulsa para bajar a sus municipios'
+	);
 </script>
 
-<div class="panel">
-	<p class="kicker">Participación por provincia</p>
-
-	<div class="panel-body">
-		{#if !allFeatures || !provincias}
-			<p class="loading">Cargando mapa…</p>
-		{:else}
-			<div class="wrap">
-				<svg viewBox="0 0 {mainVp.w} {totalH}" class="mapa">
-					{#each mainFeatures as f (f.properties.cod_prov)}
-						{#each featurePaths(f, mainBounds!, mainVp.w, mainVp.h) as d, i (i)}
-							<path
-								{d}
-								fill={colorFor(f.properties.cod_prov)}
-								stroke="#d8d8d8"
-								stroke-width="0.6"
-								class="prov"
-								role="img"
-								aria-label={f.properties.name}
-								onclick={() => onElegir?.(f.properties.cod_prov)}
-								onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
-								onmousemove={onProvinceMove}
-								onmouseleave={onProvinceLeave}
-							/>
-						{/each}
-					{/each}
-
-					{#if canaryBounds}
-						<rect
-							x={INSET_X}
-							y={insetY}
-							width={INSET_W}
-							height={INSET_H}
-							fill="none"
-							stroke="var(--border)"
-							stroke-width="0.6"
-							stroke-dasharray="2,2"
-						/>
-						<text x={INSET_X + 3} y={insetY + 10} class="inset-label">Canarias</text>
-						{#each canaryFeatures as f (f.properties.cod_prov)}
-							{#each featurePaths(f, canaryBounds, canaryFit.w, canaryFit.h, canaryOffset.x, canaryOffset.y) as d, i (i)}
-								<path
-									{d}
-									fill={colorFor(f.properties.cod_prov)}
-									stroke="#d8d8d8"
-									stroke-width="0.6"
-									class="prov"
-									role="img"
-									aria-label={f.properties.name}
-									onclick={() => onElegir?.(f.properties.cod_prov)}
-									onmouseenter={(e) => onProvinceEnter(e, f.properties.cod_prov)}
-									onmousemove={onProvinceMove}
-									onmouseleave={onProvinceLeave}
-								/>
-							{/each}
-						{/each}
-					{/if}
-				</svg>
-
-				<ul class="leyenda">
-					{#each escala.leyenda as label, i (label)}
-						<li>
-							<span class="leyenda-swatch" style="background:{RAMPA[i]}"></span>
-							{label}
-						</li>
-					{/each}
-				</ul>
-
-				<p class="nota">
-					{CONVOCATORIA}{#if avanceActivo}
-						— {avanceActivo.etiqueta.toLowerCase()}{avanceActivo.hora !== 'Cierre' ? ` (${avanceActivo.hora})` : ''}
-					{/if} — pasa el ratón por una provincia para ver el detalle
-				</p>
-			</div>
-		{/if}
-	</div>
-</div>
-
-{#if activeProvincia}
-	{@const avance = activeIdx >= 0 ? activeProvincia.avances[activeIdx] : null}
-	{@const pct = avance?.participacionPct ?? null}
-	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
-		<p class="popup-title">{activeProvincia.nombre}</p>
-		{#if pct !== null && avance}
+<MapaTerritorios
+	comunidades={null}
+	{provincias}
+	nivelInicial="provincia"
+	bind:nivel
+	color={colorFor}
+	{nota}
+>
+	{#snippet popup(a)}
+		<!-- `a as ParticipacionProvincia`: el motor solo se compromete con
+		     `{nombre}` —es lo que comparten los cuatro mapas— y cada vista añade
+		     lo suyo en su propio popup. Mismo casteo que hacen la home y
+		     /provincias. -->
+		{@const prov = a as ParticipacionProvincia}
+		{@const avance = activeIdx >= 0 ? prov.avances[activeIdx] : null}
+		{@const resuelto = pctDelCorte(avance)}
+		{@const pct = resuelto.pct}
+		<!-- De qué corte sale la cifra: el activo, o el anterior si esta provincia
+		     todavía no ha notificado el activo (ver pctDelCorte). -->
+		{@const origen = resuelto.arrastrado ?? avance}
+		<p class="popup-title">{prov.nombre}</p>
+		{#if pct !== null && origen}
 			<p class="popup-pct">
-				{pct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}<span class="popup-pct-unit">%</span>
+				{pct.toLocaleString('es-ES', { minimumFractionDigits: 1 })}<span class="popup-pct-unit"
+					>%</span
+				>
 			</p>
-			<p class="popup-sub">{formatMiles(avance.votantes!)} de {formatMiles(activeProvincia.censo)} censados — {avance.hora}</p>
-			{#if avance.participacionPctAnterior !== null}
+			<p class="popup-sub">
+				{formatMiles(origen.votantes!)} de {formatMiles(prov.censo)} censados — {origen.hora}
+			</p>
+			{#if resuelto.arrastrado && avance}
+				<!-- Lo primero que hay que explicar cuando el número no es del corte
+				     que el resto del bloque está enseñando. Sin esta línea el mapa
+				     diría "18:00" arriba y aquí un porcentaje de las 14:00. -->
+				<p class="popup-aviso">
+					Aún sin notificar el corte de {avance.hora}: cifra de {resuelto.arrastrado.hora}
+				</p>
+			{:else if avance?.participacionPctAnterior != null}
+				<!-- La comparativa solo con cifra propia del corte: el
+				     `participacionPctAnterior` es el de ESTE corte en 2019, así que
+				     restarle un porcentaje arrastrado de otra hora daría un delta
+				     entre dos cortes distintos. -->
 				{@const delta = Math.round((pct - avance.participacionPctAnterior) * 100) / 100}
 				<p class="popup-delta" class:up={delta > 0} class:down={delta < 0}>
-					{delta > 0 ? '+' : ''}{delta.toLocaleString('es-ES', { minimumFractionDigits: 1 })} pts vs {avance.hora} de 2019
+					{delta > 0 ? '+' : ''}{delta.toLocaleString('es-ES', { minimumFractionDigits: 1 })} pts vs
+					{avance.hora} de 2019
 				</p>
 			{/if}
 		{:else}
 			<p class="popup-sub">Sin datos todavía</p>
 		{/if}
-	</div>
-{/if}
+	{/snippet}
+
+	{#snippet leyenda()}
+		{#if nivel !== 'municipio'}
+			<ul class="leyenda">
+				{#each escala.leyenda as label, i (label)}
+					<li>
+						<span class="leyenda-swatch" style="background:{RAMPA[i]}"></span>
+						{label}
+					</li>
+				{/each}
+			</ul>
+			<p class="leyenda-rango">Escala ajustada a las 52 provincias en este corte</p>
+		{/if}
+	{/snippet}
+
+	{#snippet municipios(cod)}
+		{#key cod}
+			<MapaParticipacionMunicipios {cod} {activeIdx} />
+		{/key}
+	{/snippet}
+</MapaTerritorios>
 
 <style>
-	.panel {
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.panel-body {
-		flex: 1;
-		min-height: 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.kicker {
-		font-family: var(--font-display);
-		font-size: 10px;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink);
-		margin: 0 0 8px 0;
-		text-align: center;
-	}
-
-	.loading {
-		font-size: 12px;
-		color: var(--grey);
-		font-family: var(--font-body);
-		padding: 24px 0;
-	}
-
-	.wrap {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.mapa {
-		width: 100%;
-		max-width: 400px;
-	}
-
-	.prov {
-		cursor: pointer;
-	}
-
-	.prov:hover {
-		filter: brightness(0.92);
-	}
-
-	.inset-label {
-		font-family: var(--font-body);
-		font-size: 6px;
-		font-style: italic;
-		fill: var(--grey);
-	}
-
-	.leyenda {
+.leyenda {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -295,8 +186,7 @@
 		margin: 10px 0 0 0;
 		padding: 0;
 	}
-
-	.leyenda li {
+.leyenda li {
 		display: inline-flex;
 		align-items: center;
 		gap: 4px;
@@ -304,34 +194,13 @@
 		font-size: 9px;
 		color: var(--grey);
 	}
-
-	.leyenda-swatch {
+.leyenda-swatch {
 		width: 9px;
 		height: 9px;
 		flex-shrink: 0;
 		border: 1px solid var(--border);
 	}
-
-	.nota {
-		font-size: 9px;
-		color: var(--grey);
-		font-family: var(--font-body);
-		font-style: italic;
-		margin: 6px 0 0 0;
-		text-align: center;
-	}
-
-	.popup {
-		position: fixed;
-		z-index: 60;
-		width: 170px;
-		background: var(--paper);
-		border: 1px solid var(--ink);
-		padding: 8px 10px;
-		box-shadow: var(--shadow-hard);
-	}
-
-	.popup-title {
+.popup-title {
 		font-family: var(--font-display);
 		font-size: 11px;
 		font-weight: 700;
@@ -342,8 +211,7 @@
 		padding-bottom: 4px;
 		border-bottom: 1px solid var(--border);
 	}
-
-	.popup-pct {
+.popup-pct {
 		font-family: var(--font-mono);
 		font-size: 20px;
 		font-weight: 700;
@@ -352,33 +220,51 @@
 		margin: 0;
 		font-variant-numeric: tabular-nums;
 	}
-
-	.popup-pct-unit {
+.popup-pct-unit {
 		font-size: 12px;
 		font-weight: 500;
 		color: var(--grey);
 	}
-
-	.popup-sub {
+.popup-sub {
 		font-family: var(--font-body);
 		font-size: 10px;
 		color: var(--grey);
 		margin: 3px 0 0 0;
 	}
-
-	.popup-delta {
+.popup-delta {
 		font-family: var(--font-mono);
 		font-size: 10px;
 		font-weight: 700;
 		color: var(--grey);
 		margin: 4px 0 0 0;
 	}
-
-	.popup-delta.up {
+.popup-delta.up {
 		color: #0a7a4a;
 	}
-
-	.popup-delta.down {
+.popup-delta.down {
 		color: var(--stamp);
+	}
+
+	/* El aviso de que la cifra es del corte anterior. En cursiva y del tamaño de
+	   `.popup-sub`, no en el rojo del sello: no es una alarma ni un error, es una
+	   nota de procedencia del dato — esa provincia no ha notificado todavía. */
+	.popup-aviso {
+		font-family: var(--font-body);
+		font-size: 10px;
+		font-style: italic;
+		color: var(--grey);
+		margin: 4px 0 0 0;
+	}
+
+	/* Qué rango representa la escala. Hace falta porque la escala se recalcula
+	   por nivel y por corte: sin esta línea, dos mapas con los mismos colores
+	   parecen comparables y no lo son. */
+	.leyenda-rango {
+		margin: 4px 0 0;
+		text-align: center;
+		font-family: var(--font-body);
+		font-size: 9px;
+		font-style: italic;
+		color: #9ca3af;
 	}
 </style>

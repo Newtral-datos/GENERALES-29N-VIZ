@@ -8,7 +8,7 @@
 
 	<div class="intro">
 		<p class="kicker">Simulador de pactos</p>
-		<h1 class="titulo">¿Quién sumará los 176 escaños?</h1>
+		<h1 class="titulo">¿Quién sumará mayoría?</h1>
 		<p class="lead">Selecciona primero a quien crees líder del Gobierno.</p>
 	</div>
 

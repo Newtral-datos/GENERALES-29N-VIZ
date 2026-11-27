@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { getResultados, type Nacional } from '#lib/data';
-	import { ordenCamara } from '#lib/orden-camara';
+	import { bloquesCamara } from '#lib/orden-camara';
 	import { tintaSobre } from '#lib/color';
 
 	let nacional = $state<Nacional | null>(null);
@@ -11,13 +11,33 @@
 		});
 	});
 
-	let segments = $derived.by(() => {
-		if (!nacional) return [];
-		return ordenCamara(nacional.partidos, (p) => p.escanos).map((p) => ({
-			...p,
-			pct: (p.escanos / nacional!.totalEscanos) * 100
-		}));
+	/**
+	 * Los dos bloques y el hueco de lo que falta por repartir, en el centro.
+	 *
+	 * Durante el escrutinio no están los 350 escaños asignados, y con una sola
+	 * secuencia de izquierda a derecha el hueco quedaba **al final de la barra**:
+	 * se leía como que la derecha había sacado menos, cuando lo que pasa es que
+	 * aún no se ha contado. Cada bloque crece desde su borde hacia el centro y lo
+	 * pendiente queda en medio, que es donde está el centro de la cámara.
+	 *
+	 * Al cerrar el escrutinio `huecoPct` es 0 y la barra queda idéntica a antes.
+	 */
+	let bloques = $derived.by(() => {
+		if (!nacional) return { izquierda: [], derecha: [], huecoPct: 0 };
+		const total = nacional.totalEscanos;
+		const { izquierda, derecha } = bloquesCamara(nacional.partidos, (p) => p.escanos);
+		const conPct = (ps: typeof izquierda) =>
+			ps.map((p) => ({ ...p, pct: (p.escanos / total) * 100 }));
+		const repartidos = [...izquierda, ...derecha].reduce((t, p) => t + p.escanos, 0);
+		return {
+			izquierda: conPct(izquierda),
+			derecha: conPct(derecha),
+			huecoPct: Math.max(0, ((total - repartidos) / total) * 100)
+		};
 	});
+
+	// Para el popup y la leyenda, que no saben de bloques.
+	let segments = $derived([...bloques.izquierda, ...bloques.derecha]);
 
 	let mayoriaPct = $derived(nacional ? (nacional.mayoria / nacional.totalEscanos) * 100 : 0);
 
@@ -65,7 +85,34 @@
 					<span class="seg-label-vacio">Sin escaños repartidos todavía</span>
 				</div>
 			{/if}
-			{#each segments as s (s.siglas)}
+			{#each bloques.izquierda as s (s.siglas)}
+				<div
+					class="seg"
+					style="width:{s.pct}%; background:{s.color}"
+					role="img"
+					aria-label="{s.nombre}: {s.escanos} escaños"
+					onmouseenter={(e) => onSegEnter(e, s.siglas)}
+					onmousemove={onSegMove}
+					onmouseleave={onSegLeave}
+				>
+					{#if s.pct >= 4}
+						<span class="seg-label" style="color:{tintaSobre(s.color)}">{s.escanos}</span>
+					{/if}
+				</div>
+			{/each}
+
+			<!-- Lo que falta por repartir, en el centro. Mismo rayado que la barra
+			     entera cuando no hay ni un escaño: dice "pendiente", no "de nadie". -->
+			{#if bloques.huecoPct > 0 && segments.length > 0}
+				<div
+					class="seg seg-pendiente"
+					style="width:{bloques.huecoPct}%"
+					role="img"
+					aria-label="{Math.round((bloques.huecoPct / 100) * nacional.totalEscanos)} escaños sin repartir todavía"
+				></div>
+			{/if}
+
+			{#each bloques.derecha as s (s.siglas)}
 				<div
 					class="seg"
 					style="width:{s.pct}%; background:{s.color}"
@@ -91,7 +138,12 @@
 {#if activePartido}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 		<span class="popup-swatch" style="background:{activePartido.color}"></span>
-		<span class="popup-name">{activePartido.nombre}</span>
+		<!-- La sigla y no el nombre completo: el popup es una etiqueta de un trozo
+			     de gráfico, no una ficha del partido, y "EUZKO ALDERDI
+			     JELTZALEA-PARTIDO NACIONALISTA VASCO" ocupaba tres líneas para decir
+			     EAJ-PNV. Las siglas son las que el lector acaba de ver en la leyenda,
+			     en la tabla y en el mapa. -->
+			<span class="popup-name">{activePartido.siglas}</span>
 	</div>
 {/if}
 
@@ -114,8 +166,6 @@
 		width: 100%;
 		height: 26px;
 		overflow: hidden;
-		border-top: 1px solid var(--border);
-		border-bottom: 1px solid var(--border);
 	}
 
 	.seg {
@@ -124,6 +174,33 @@
 		justify-content: center;
 		height: 100%;
 		cursor: pointer;
+	}
+
+	/* Filete blanco entre segmentos, en vez del encuadre gris que llevaba la
+	   barra arriba y abajo (26/11). El encuadre metía dos rayas que no
+	   significaban nada y, al ser más oscuras que varios colores del catálogo,
+	   pesaban más que el propio dato; lo que de verdad hay que separar es un
+	   partido del siguiente, no la barra del papel.
+
+	   Va como `box-shadow` interior y no como `border-left`: los anchos son
+	   porcentajes calculados sobre los escaños, y un borde de verdad se sumaría
+	   a cada uno, así que la barra dejaría de medir 100 % y los segmentos no
+	   serían proporcionales. El filete no entra en el primero porque ahí no
+	   separa nada: sería un recorte del borde izquierdo de la barra. */
+	.seg:not(:first-child) {
+		box-shadow: inset 1px 0 0 var(--paper);
+	}
+
+	/* El rayado de "pendiente", el mismo de la barra vacía: así el hueco del
+	   centro y la barra sin escrutar hablan el mismo idioma. */
+	.seg-pendiente {
+		background: repeating-linear-gradient(
+			45deg,
+			#e9ebee,
+			#e9ebee 5px,
+			#e2e5e9 5px,
+			#e2e5e9 10px
+		);
 	}
 
 	.seg-vacio {
@@ -164,7 +241,7 @@
 	.maj-text {
 		white-space: nowrap;
 		font-family: var(--font-body);
-		font-size: 8px;
+		font-size: 9px;
 		font-weight: 600;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
@@ -176,12 +253,18 @@
 
 	.maj-text b {
 		font-family: var(--font-mono);
-		font-size: 10px;
+		font-size: 12px;
 	}
 
+	/* La marca de mayoría, un punto más grande desde el 26/11. Es el único
+	   elemento del gráfico que no es un partido y la referencia contra la que se
+	   lee todo lo demás, así que con 1px de filete competía en peso con los
+	   bordes de los segmentos. La altura se pasa de 26 a 34: 26 era exactamente
+	   la altura de la barra, así que la raya acababa a ras y no se veía rebasar
+	   por abajo — ahora sobresale 8px y se lee como una marca puesta encima. */
 	.maj-line {
-		width: 1px;
-		height: 26px;
+		width: 2px;
+		height: 34px;
 		background: var(--ink);
 	}
 

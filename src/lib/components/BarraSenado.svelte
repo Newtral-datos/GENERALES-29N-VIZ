@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { CONVOCATORIA, CONVOCATORIA_ANTERIOR } from '#lib/config';
 	import { getResultadosSenado, type NacionalSenado } from '#lib/data';
-	import { ordenCamara } from '#lib/orden-camara';
+	import { bloquesCamara, ordenCamara } from '#lib/orden-camara';
 	import { tintaSobre } from '#lib/color';
 
 	let nacional = $state<NacionalSenado | null>(null);
@@ -12,29 +12,22 @@
 		});
 	});
 
-	// La barra se escala sobre los 208 senadores de ELECCIÓN DIRECTA, que es lo
-	// que se decide en las urnas y lo único que el panel puede contar la noche
-	// electoral. Los 58 designados por los parlamentos autonómicos no ocupan
-	// tramo: llegan semanas después, cada parlamento con sus plazos, y su número
-	// depende de la población (han sido 57 y 58 en distintas legislaturas), así
-	// que reservarles sitio en el gráfico daba una Cámara que todavía no existe.
-	// Se mencionan en la nota al pie, no en la escala.
+	// La barra se escala sobre los 209 senadores de ELECCIÓN DIRECTA, que es lo
+	// que se decide en las urnas y lo único que el panel publica. `totalEscanos`
+	// no vale de denominador: son los YA adjudicados y crece de 0 a 209 durante
+	// la noche, así que a las 21:00, con 20 repartidos, esos 20 ocupaban el
+	// ancho entero y parecía la cámara completa. Y con 0, división por cero.
 	//
-	// La marca señala la MITAD DE LOS ELECTOS (105 de 208), que es el umbral que
-	// corresponde a esta escala y por eso cae en el centro de la barra. No es la
-	// mayoría absoluta del Senado: esa son 134 sobre los 266 de la Cámara
-	// completa y, sobre una escala de 208, caería en el 64 % — se explica en la
-	// nota al pie en vez de dibujarse, para no marcar dos umbrales distintos en
-	// el mismo gráfico. Etiquetarla bien es lo que evita que se lea como si el
-	// que pase de 105 ya controlase la Cámara.
-	// Escala de la barra: los escaños que se ELIGEN en las urnas (208), no los
-	// que llevan adjudicados. `totalEscanos` crece de 0 a 208 a lo largo de la
-	// noche, así que usarlo de denominador dejaba la barra siempre llena: a las
-	// 21:00, con 20 escaños repartidos, esos 20 ocupaban el ancho entero y
-	// parecía la Cámara completa. Y con 0 adjudicados era una división por cero.
-	let electos = $derived(
-		nacional ? nacional.totalEscanosCamara - nacional.escanosDesignadosPendientes : 0
-	);
+	// **Los designados por los parlamentos autonómicos no se publican** (ver
+	// `senado_29n.py`): su número no está confirmado y afirmarlo arrastraría un
+	// total de Cámara y una mayoría absoluta construidos sobre un supuesto.
+	//
+	// Por eso la marca señala la MITAD DE LOS ELECTOS (105 de 209) y se rotula
+	// así, sin la palabra "mayoría" en ninguna parte: es el umbral que
+	// corresponde a esta escala, cae en el centro de la barra, y es un hecho.
+	// Quien pase de 105 NO controla el Senado, y el rótulo es lo único que lo
+	// impide leer al revés.
+	let electos = $derived(nacional?.electosTotales ?? 0);
 
 	let sinEscrutinio = $derived(!!nacional && nacional.partidos.length === 0);
 
@@ -42,14 +35,23 @@
 	// hacia fuera y VOX fijado al borde derecho (ver #lib/orden-camara). Antes
 	// era esta misma ordenación copiada aquí, así que las dos cámaras podían
 	// acabar leyéndose distinto con solo tocar una.
-	let segments = $derived(
-		nacional
-			? ordenCamara(nacional.partidos, (p) => p.escanos).map((p) => ({
-					...p,
-					pct: electos ? (p.escanos / electos) * 100 : 0
-				}))
-			: []
-	);
+	// Igual que la barra del Congreso: los dos bloques desde su borde y lo que
+	// falta por escrutar en el centro. Con el hueco al final, el lado derecho
+	// parecía haber sacado menos de lo que tiene.
+	let bloques = $derived.by(() => {
+		if (!nacional || !electos) return { izquierda: [], derecha: [], huecoPct: 0 };
+		const { izquierda, derecha } = bloquesCamara(nacional.partidos, (p) => p.escanos);
+		const conPct = (ps: typeof izquierda) =>
+			ps.map((p) => ({ ...p, pct: (p.escanos / electos) * 100 }));
+		const repartidos = [...izquierda, ...derecha].reduce((t, p) => t + p.escanos, 0);
+		return {
+			izquierda: conPct(izquierda),
+			derecha: conPct(derecha),
+			huecoPct: Math.max(0, ((electos - repartidos) / electos) * 100)
+		};
+	});
+
+	let segments = $derived([...bloques.izquierda, ...bloques.derecha]);
 
 	/**
 	 * Los senadores electos en la convocatoria anterior, a la misma escala.
@@ -62,7 +64,7 @@
 	 * Solo escaños: ese fichero no trae votos ni candidatos, así que la
 	 * comparativa de esta cámara no puede ser de otra cosa.
 	 *
-	 * Misma base de 208 que la barra de arriba, para que las dos se puedan
+	 * Misma base de 209 que la barra de arriba, para que las dos se puedan
 	 * comparar a ojo: si cada una se escalara a su propio total, un partido con
 	 * los mismos escaños saldría de distinto ancho.
 	 */
@@ -75,7 +77,9 @@
 		}));
 	});
 
-	let mitadElectos = $derived(electos ? Math.floor(electos / 2) + 1 : 0);
+	// Del JSON, no recalculado: el umbral se decide en un solo sitio (el
+	// pipeline), que es el mismo criterio que el resto del panel.
+	let mitadElectos = $derived(nacional?.mitadElectos ?? 0);
 	let mayoriaPct = $derived(electos ? (mitadElectos / electos) * 100 : 50);
 
 	let activeSiglas = $state<string | null>(null);
@@ -113,10 +117,32 @@
 {:else}
 	<div class="barra-wrap">
 		<div class="barra">
-			<!-- Un solo recorrido: `segments` ya viene ordenado de izquierda a
-			     derecha (#lib/orden-camara). Antes eran dos bucles idénticos, uno
-			     por bloque, con el mismo marcado copiado. -->
-			{#each segments as s (s.siglas)}
+			{#each bloques.izquierda as s (s.siglas)}
+				<div
+					class="seg"
+					style="width:{s.pct}%; background:{s.color}"
+					role="img"
+					aria-label="{s.nombre}: {s.escanos} senadores"
+					onmouseenter={(e) => onSegEnter(e, s.siglas)}
+					onmousemove={onSegMove}
+					onmouseleave={onSegLeave}
+				>
+					{#if s.pct >= 4}
+						<span class="seg-label" style="color:{tintaSobre(s.color)}">{s.escanos}</span>
+					{/if}
+				</div>
+			{/each}
+
+			{#if bloques.huecoPct > 0 && segments.length > 0}
+				<div
+					class="seg seg-pendiente"
+					style="width:{bloques.huecoPct}%"
+					role="img"
+					aria-label="{Math.round((bloques.huecoPct / 100) * electos)} senadores sin repartir todavía"
+				></div>
+			{/if}
+
+			{#each bloques.derecha as s (s.siglas)}
 				<div
 					class="seg"
 					style="width:{s.pct}%; background:{s.color}"
@@ -155,17 +181,21 @@
 
 	<p class="nota">
 		Los {electos} senadores de elección directa — {CONVOCATORIA}; la marca central es la mitad de
-		esos escaños ({mitadElectos}). A ellos se suman después {nacional.escanosDesignadosPendientes}
-		designados por los parlamentos autonómicos, hasta los {nacional.totalEscanosCamara} de la Cámara
-		completa: la <b>mayoría absoluta del Senado son {nacional.mayoria} escaños</b>, que se cuentan
-		sobre ese total y no sobre los electos.
+		esos escaños ({mitadElectos}). <b>No es la mayoría absoluta del Senado</b>: a estos se suman
+		después los senadores que designan los parlamentos autonómicos, y la mayoría se cuenta sobre
+		la Cámara completa.
 	</p>
 {/if}
 
 {#if activePartido}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 		<span class="popup-swatch" style="background:{activePartido.color}"></span>
-		<span class="popup-name">{activePartido.nombre}</span>
+		<!-- La sigla y no el nombre completo: el popup es una etiqueta de un trozo
+			     de gráfico, no una ficha del partido, y "EUZKO ALDERDI
+			     JELTZALEA-PARTIDO NACIONALISTA VASCO" ocupaba tres líneas para decir
+			     EAJ-PNV. Las siglas son las que el lector acaba de ver en la leyenda,
+			     en la tabla y en el mapa. -->
+			<span class="popup-name">{activePartido.siglas}</span>
 	</div>
 {/if}
 
@@ -192,8 +222,6 @@
 		width: 100%;
 		height: 26px;
 		overflow: hidden;
-		border-top: 1px solid var(--border);
-		border-bottom: 1px solid var(--border);
 	}
 
 	.seg {
@@ -202,6 +230,25 @@
 		justify-content: center;
 		height: 100%;
 		cursor: pointer;
+	}
+
+	/* Filete blanco entre segmentos, igual que la barra del Congreso (ver
+	   BarraEscanos.svelte, donde está el razonamiento y el por qué va como
+	   `box-shadow` y no como borde). Las dos barras tienen que separar los
+	   partidos de la misma forma: son la misma pieza con otra cámara. */
+	.seg:not(:first-child) {
+		box-shadow: inset 1px 0 0 var(--paper);
+	}
+
+	/* El rayado de "pendiente", el mismo que la barra del Congreso. */
+	.seg-pendiente {
+		background: repeating-linear-gradient(
+			45deg,
+			#e9ebee,
+			#e9ebee 5px,
+			#e2e5e9 5px,
+			#e2e5e9 10px
+		);
 	}
 
 	.seg-label {
@@ -274,6 +321,13 @@
 
 	.seg-anterior {
 		height: 100%;
+	}
+
+	/* La barra de referencia separa igual que la de arriba. Con 8px de alto y al
+	   55 % de opacidad el filete casi no se ve, y es lo que toca: tiene que
+	   partir los tramos sin llamar la atención sobre el dato viejo. */
+	.seg-anterior:not(:first-child) {
+		box-shadow: inset 1px 0 0 var(--paper);
 	}
 
 	.nota {

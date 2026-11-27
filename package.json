@@ -1,31 +1,32 @@
 {
-  "name": "elecciones-panel",
-  "private": true,
-  "version": "0.0.1",
-  "type": "module",
-  "homepage": "https://newtral-datos.github.io/GENERALES-29N-VIZ/",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build && npm run comprobar:datos",
-    "deploy": "gh-pages -d build --nojekyll",
-    "prepare": "svelte-kit sync || echo ''",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "comprobar:datos": "node scripts/comprobar-fuente.mjs"
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-static": "^4.0.0",
-    "@sveltejs/kit": "^3.0.0",
-    "@sveltejs/vite-plugin-svelte": "^7.2.0",
-    "gh-pages": "^6.3.0",
-    "svelte": "^5.57.1",
-    "svelte-check": "^4.6.0",
-    "typescript": "^6.0.3",
-    "vite": "^8.3.0"
-  },
-  "imports": {
-    "#lib/*": "./src/lib/*"
-  }
+	"name": "elecciones-panel",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"homepage": "https://newtral-datos.github.io/GENERALES-29N-VIZ/",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"predeploy": "npm run build && npm run sin-simulados && npm run comprobar:datos",
+		"deploy": "gh-pages -d build --nojekyll",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"comprobar:datos": "node scripts/comprobar-fuente.mjs",
+		"sin-simulados": "node scripts/sin-simulados.mjs"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^4.0.0",
+		"@sveltejs/kit": "^3.0.0",
+		"@sveltejs/vite-plugin-svelte": "^7.2.0",
+		"gh-pages": "^6.3.0",
+		"svelte": "^5.57.1",
+		"svelte-check": "^4.6.0",
+		"typescript": "^6.0.3",
+		"vite": "^8.3.0"
+	},
+	"imports": {
+		"#lib/*": "./src/lib/*"
+	}
 }

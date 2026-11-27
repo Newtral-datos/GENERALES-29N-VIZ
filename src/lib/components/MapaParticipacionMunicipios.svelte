@@ -2,6 +2,7 @@
 	import { computeBounds, fitBox, featurePaths, type GeoFeature, type FeatureCollection } from '#lib/geo';
 	import { assetDinamico, getParticipacionMunicipios, type ParticipacionMunicipio } from '#lib/data';
 	import { RAMPA, escalaDe, colorDeAmbito } from '#lib/escala-participacion';
+	import { pctDelCorte } from '#lib/participacion';
 	import { CONVOCATORIA_ANTERIOR } from '#lib/config';
 
 	type MuniProps = { NATCODE: string; NAMEUNIT: string; cod_prov: string };
@@ -68,16 +69,28 @@
 		return natcode.slice(-5);
 	}
 
+	// Si el municipio no ha notificado este corte pero tiene el anterior, se
+	// pinta el anterior y el popup lo rotula — aquí pesa más que en el mapa de
+	// provincias, porque los municipios notifican muy escalonados y el mapa de
+	// una provincia se quedaba medio gris cada vez que entraba un avance. La
+	// resolución es la misma en los tres sitios (ver #lib/participacion).
+	function corteDe(natcode: string) {
+		if (activeIdx < 0) return pctDelCorte(null);
+		return pctDelCorte(datos?.[ine(natcode)]?.avances[activeIdx]);
+	}
+
 	function pctDe(natcode: string): number | null {
-		if (activeIdx < 0) return null;
-		return datos?.[ine(natcode)]?.avances[activeIdx]?.participacionPct ?? null;
+		return corteDe(natcode).pct;
 	}
 
 	// Escala propia de esta provincia y de este corte: el reparto entre sus
-	// municipios no tiene por qué parecerse al del mapa nacional.
+	// municipios no tiene por qué parecerse al del mapa nacional. Entran también
+	// los valores arrastrados, que son los que se van a pintar: con la escala
+	// calculada solo sobre los que han notificado, los arrastrados caerían fuera
+	// del rango y saldrían todos del tono del extremo.
 	let escala = $derived(
 		escalaDe(
-			Object.keys(datos ?? {}).map((ine) => datos?.[ine]?.avances[activeIdx]?.participacionPct)
+			Object.keys(datos ?? {}).map((ine) => pctDelCorte(datos?.[ine]?.avances[activeIdx]).pct)
 		)
 	);
 
@@ -107,6 +120,7 @@
 		pct: number | null;
 		censo: number | null;
 		anterior: number | null;
+		horaArrastrada: string | null;
 	} | null>(null);
 	let popupPos = $state({ x: 0, y: 0 });
 	const POPUP_W = 180;
@@ -127,13 +141,17 @@
 	function onEnter(e: MouseEvent, f: Feature) {
 		const d = datos?.[ine(f.properties.NATCODE)];
 		const corte = activeIdx >= 0 ? d?.avances[activeIdx] : null;
+		const resuelto = corteDe(f.properties.NATCODE);
 		activo = {
 			nombre: d?.nombre || f.properties.NAMEUNIT,
-			pct: pctDe(f.properties.NATCODE),
+			pct: resuelto.pct,
 			censo: d?.censo ?? null,
 			// Solo el cierre trae comparativa: la API no publica los avances de
-			// la convocatoria anterior.
-			anterior: corte?.participacionPctAnterior ?? null
+			// la convocatoria anterior. Y solo con cifra propia del corte: contra
+			// una arrastrada compararía dos horas distintas.
+			anterior: resuelto.arrastrado ? null : (corte?.participacionPctAnterior ?? null),
+			// De qué hora es la cifra, cuando no es la del corte activo.
+			horaArrastrada: resuelto.arrastrado?.hora ?? null
 		};
 		colocar(e.clientX, e.clientY);
 	}
@@ -192,6 +210,14 @@
 						{:else}
 							<span class="popup-pendiente">Corte pendiente</span>
 						{/if}
+						{#if activo.horaArrastrada && corteActivo}
+							<!-- La cifra no es del corte que el mapa nombra al pie: este
+							     municipio no ha notificado todavía y lo que se pinta es su
+							     avance anterior (ver pctDelCorte). -->
+							<span class="popup-arrastre">
+								Aún sin notificar el corte de {corteActivo.hora}: cifra de {activo.horaArrastrada}
+							</span>
+						{/if}
 						{#if activo.pct !== null && activo.anterior !== null}
 							{@const d = activo.pct - activo.anterior}
 							<span class="popup-delta" class:sube={d > 0} class:baja={d < 0}>
@@ -217,6 +243,11 @@
 					</li>
 				{/each}
 			</ul>
+			<!-- La escala se recalcula con los municipios de ESTA provincia: dentro de
+			     una, el rango es estrecho y con la escala nacional saldrían todos del
+			     mismo tono. El precio es que el mismo color significa cosas distintas
+			     que en el mapa de provincias, así que hay que decir qué rango es. -->
+			<p class="leyenda-rango">Escala ajustada a los municipios de esta provincia</p>
 
 			<p class="nota">
 				Participación por municipio{#if corteActivo}
@@ -234,17 +265,23 @@
 		min-width: 0;
 	}
 
+	/* El rótulo del mapa, con el kicker de la casa (27/11): el mismo que llevan
+	   el hemiciclo, el ranking y las tablas. Antes era una franja gris a todo
+	   lo ancho con un filete teal en el canto izquierdo, y desentonaba por dos
+	   motivos: el teal es el color de "esto está pasando ahora" —el punto de
+	   "en directo", la barra de escrutinio—, no un adorno de encabezado, y la
+	   franja metía una caja dentro de otra caja justo debajo de las migas de
+	   pan. Sin fondo ni filetes, el rótulo se lee como lo que es: el título de
+	   lo que hay debajo. */
 	.kicker {
-		margin: 0;
-		padding: 7px 0;
-		background: #fafafa;
-		border-bottom: 1px solid #f0f0f0;
-		border-left: 3px solid var(--c, #01f3b3);
-		font-size: 9px;
+		font-family: var(--font-display);
+		font-size: 10px;
 		font-weight: 700;
-		letter-spacing: 0.12em;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: #9ca3af;
+		color: var(--ink);
+		margin: 0;
+		padding: 14px 20px 0;
 		text-align: center;
 	}
 
@@ -294,6 +331,15 @@
 		display: flex;
 		align-items: center;
 		gap: 5px;
+	}
+
+	.leyenda-rango {
+		margin: 4px 0 0;
+		text-align: center;
+		font-family: var(--font-body);
+		font-size: 9px;
+		font-style: italic;
+		color: #9ca3af;
 	}
 
 	.leyenda-swatch {
@@ -347,6 +393,16 @@
 		font-size: 11px;
 		font-style: italic;
 		color: #9ca3af;
+	}
+
+	/* Nota de procedencia, no una alarma: mismo registro que `.popup-pendiente`
+	   —cursiva y gris— porque dice lo mismo (este municipio no ha notificado)
+	   con el añadido de que sí hay una cifra anterior que enseñar. */
+	.popup-arrastre {
+		font-size: 9.5px;
+		font-style: italic;
+		color: #9ca3af;
+		line-height: 1.25;
 	}
 
 	.popup-delta {

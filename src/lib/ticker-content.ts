@@ -56,7 +56,15 @@ export function generarTitularesDirecto(nacional: Nacional, participacion: Parti
 
 	// 3. Mayor vuelco de escaños respecto a la convocatoria anterior (solo partidos con
 	// continuidad de marca verificada — ver data.ts).
+	//
+	// **Las marcas que no concurren quedan fuera** (`concurre === false`): SUMAR
+	// defiende 31 escaños y se presenta a ninguno, así que su −31 es el mayor
+	// movimiento de la noche de principio a fin y el titular era siempre el
+	// mismo, "SUMAR pierde 31 escaños". No es un vuelco electoral sino una
+	// ausencia, y el panel ya la cuenta donde toca: en la columna "Dif." de la
+	// tabla, con su nota al pie.
 	const conSwing = nacional.partidos
+		.filter((p) => p.concurre !== false)
 		.filter((p): p is typeof p & { escanosAnterior: number } => p.escanosAnterior !== null)
 		.map((p) => ({ siglas: p.siglas, dif: p.escanos - p.escanosAnterior }))
 		.sort((a, b) => Math.abs(b.dif) - Math.abs(a.dif));

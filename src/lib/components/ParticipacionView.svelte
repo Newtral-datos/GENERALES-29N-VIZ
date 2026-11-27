@@ -5,65 +5,35 @@
 	import MapaParticipacion from '#lib/components/MapaParticipacion.svelte';
 	import RankingParticipacion from '#lib/components/RankingParticipacion.svelte';
 	import AvancesParticipacion from '#lib/components/AvancesParticipacion.svelte';
-	import MapaParticipacionMunicipios from '#lib/components/MapaParticipacionMunicipios.svelte';
-	import SelectorProvincia from '#lib/components/SelectorProvincia.svelte';
+	import { indiceAvanceActivo } from '#lib/participacion';
 
 	let nacional = $state<ParticipacionNacional | null>(null);
-	let provincias = $state<Record<string, { nombre: string }> | null>(null);
 
-	// Provincia del mapa municipal, sin ninguna elegida de salida. La geometría
-	// municipal se sirve por provincia, así que hay que elegir una — pero
-	// arrancar en Madrid daba a entender que Madrid es el caso por defecto de
-	// algo, y no lo es: es una provincia más. Mejor que el lector elija.
-	let codProv = $state('');
-	let zonaMunicipios = $state<HTMLDivElement | null>(null);
-
-	/**
-	 * Pulsar una provincia en el mapa equivale a elegirla en el selector.
+	/*
+	 * Aquí vivían `codProv`, `elegirProvincia()` y `bajarAlMapa()`: el mapa
+	 * municipal estaba **debajo**, con su propio desplegable de provincia, y al
+	 * pulsar en el mapa de arriba había que llevar la vista hasta él con un
+	 * `scrollIntoView` —y esperar a que el mapa avisara de estar pintado, porque
+	 * si no el bloque crecía 500 px después de colocar el scroll y la vista
+	 * quedaba a media altura.
 	 *
-	 * Y además lleva la vista hasta el mapa municipal: sin eso el clic parece
-	 * que no ha hecho nada, porque lo que cambia está más abajo, fuera de la
-	 * pantalla. Scroll suave y no instantáneo para que se entienda que te has
-	 * movido tú, no que la página ha saltado.
-	 *
-	 * `block: 'end'` en vez de `'start'`: alinea el final del bloque con el pie
-	 * de la ventana, así el mapa municipal queda entero a la vista. Con
-	 * `'start'` se paraba en el selector y el mapa —que es lo que se ha pedido
-	 * ver— seguía asomando por debajo.
-	 *
-	 * El scroll no se lanza al pulsar sino cuando el mapa avisa de que ya está
-	 * pintado (`onListo`). La geometría municipal se carga por fetch, así que
-	 * en el momento del clic el bloque solo contiene el texto de "cargando":
-	 * al colocar el scroll ahí y llegar después el mapa, el contenido crecía
-	 * 500 px y la vista se quedaba a media altura.
+	 * Todo eso se ha ido: los municipios entran en el mismo mapa, como un nivel
+	 * más, igual que en `/provincias`. Pulsar una provincia ya no manda la vista
+	 * a otro sitio porque lo que cambia está donde estabas mirando.
 	 */
-	function elegirProvincia(cod: string) {
-		codProv = cod;
-	}
-
-	function bajarAlMapa() {
-		zonaMunicipios?.scrollIntoView({ behavior: 'smooth', block: 'end' });
-	}
 
 	$effect(() => {
 		getParticipacion().then((d) => {
 			nacional = d.nacional;
-			provincias = d.provincias;
 		});
 	});
 
-	// Qué avance manda en todo el bloque de participación (cajitas, mapa y
-	// ranking a la vez): el último publicado a nivel nacional. Se calcula una
-	// sola vez aquí y se reparte hacia abajo para que todo el bloque se mueva
-	// junto según avanza la jornada, no cada pieza por su cuenta.
-	let activeIdx = $derived.by(() => {
-		if (!nacional) return -1;
-		let idx = -1;
-		nacional.avances.forEach((a, i) => {
-			if (a.participacionPct !== null) idx = i;
-		});
-		return idx;
-	});
+	// Qué avance manda en todo el bloque (cajitas, mapa y ranking a la vez): el
+	// último publicado a nivel nacional. La regla vive en `#lib/participacion`
+	// porque la comparte con la cifra de contexto de las portadas de Congreso y
+	// Senado; aquí se calcula una sola vez y se reparte hacia abajo, para que
+	// todo el bloque se mueva junto según avanza la jornada.
+	let activeIdx = $derived(indiceAvanceActivo(nacional));
 </script>
 
 <main class="main">
@@ -84,45 +54,16 @@
 
 	<div class="grid">
 		<div class="col-mapa">
-			<MapaParticipacion {activeIdx} onElegir={elegirProvincia} />
+			<MapaParticipacion {activeIdx} />
 		</div>
 		<div class="col-ranking">
 			<RankingParticipacion {activeIdx} />
 		</div>
 	</div>
 
-	<div class="municipios" bind:this={zonaMunicipios}>
-		<SelectorProvincia {provincias} bind:cod={codProv} />
-
-		{#if codProv}
-			<MapaParticipacionMunicipios cod={codProv} {activeIdx} onListo={bajarAlMapa} />
-		{:else}
-			<p class="sin-provincia">
-				Elige una provincia para ver la participación de cada uno de sus municipios
-			</p>
-		{/if}
-	</div>
 </main>
 
 <style>
-	.municipios {
-		margin-top: 20px;
-		min-width: 0;
-	}
-
-
-
-	.sin-provincia {
-		margin: 0;
-		padding: 28px 16px;
-		text-align: center;
-		font-size: 11px;
-		color: #9ca3af;
-		background: #fff;
-		border: 1px solid #e5e7eb;
-	}
-
-
 	.main {
 		padding: 20px 24px 32px;
 		max-width: 900px;

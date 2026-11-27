@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { getResultados, type Provincia } from '#lib/data';
+	import { ESCRUTINIO_BATALLA_FIABLE } from '#lib/config';
 	import { formatMiles } from '#lib/format';
 
 	// El teaser enseña el dato, no solo el enlace: cuántos escaños están de
@@ -16,16 +17,33 @@
 		});
 	});
 
+	// Se conserva el `pctEscrutado` de la provincia, no solo su `ultimoEscano`:
+	// hace falta para saber si el hueco de esa provincia significa algo (ver
+	// abajo).
 	let batallas = $derived(
 		Object.values(provincias ?? {})
-			.map((p) => p.ultimoEscano)
-			.filter((u): u is NonNullable<typeof u> => Boolean(u))
+			.filter((p) => p.ultimoEscano)
+			.map((p) => ({ ...p.ultimoEscano!, pctEscrutado: p.pctEscrutado }))
 	);
 
-	// "En disputa" = el hueco cabe en los votos que quedan por contar. Mismo
+	// "En disputa" = el hueco cabe en los votos que quedan por contar **y** esa
+	// provincia lleva escrutinio suficiente para que eso signifique algo. Mismo
 	// criterio que la vista, para que las dos cifras no se contradigan.
+	//
+	// El segundo filtro es el que faltaba, y sin él esta cifra de la home era la
+	// más engañosa del panel: al principio de la noche el hueco cabe en lo
+	// pendiente en **todas** las provincias —porque queda casi todo por contar—,
+	// así que el teaser anunciaba "52 escaños se deciden por unos pocos votos".
+	// Y el Ministerio no escruta de forma uniforme: cierra provincia por
+	// provincia, así que el % nacional no sirve para decidirlo (ver BatallaView).
 	let abiertas = $derived(
-		batallas.filter((u) => u.censoSinEscrutar > 0 && u.votosFaltantes <= u.censoSinEscrutar)
+		batallas.filter(
+			(u) =>
+				u.censoSinEscrutar > 0 &&
+				u.votosFaltantes <= u.censoSinEscrutar &&
+				u.pctEscrutado != null &&
+				u.pctEscrutado >= ESCRUTINIO_BATALLA_FIABLE
+		)
 	);
 	let masAjustada = $derived(
 		[...abiertas].sort((a, b) => a.votosFaltantes - b.votosFaltantes)[0] ?? null

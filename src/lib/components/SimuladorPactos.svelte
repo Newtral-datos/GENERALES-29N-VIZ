@@ -41,7 +41,14 @@
 	let conEscano = $derived(
 		nacional ? [...nacional.partidos].filter((p) => p.escanos > 0).sort((a, b) => b.escanos - a.escanos) : []
 	);
-	let sinEscano = $derived(nacional ? nacional.partidos.filter((p) => p.escanos === 0) : []);
+	// Las marcas que no concurren quedan fuera de las dos listas: SUMAR está en
+	// la tabla nacional para defender sus 31 escaños de 2023 en la columna
+	// "Dif." (ver `concurre` en #lib/data), pero un partido que no se presenta
+	// no puede entrar en ningún pacto de esta legislatura, así que no tiene nada
+	// que hacer en el simulador — ni como aliado ni en el listado de abajo.
+	let sinEscano = $derived(
+		nacional ? nacional.partidos.filter((p) => p.escanos === 0 && p.concurre !== false) : []
+	);
 
 	function toggle(siglas: string) {
 		if (siglas === presidente) {
@@ -420,9 +427,14 @@
 		background: color-mix(in srgb, var(--pc) 6%, var(--paper));
 	}
 
+	/* Avatares más grandes desde el 26/11 (36 -> 48 en la rejilla de fichas,
+	   48 -> 64 en la cabecera del candidato elegido). La foto es lo que hace que
+	   una ficha se reconozca de un vistazo —antes que la sigla, que va debajo en
+	   10px—, y a 36px la cara quedaba por debajo del tamaño en el que se
+	   identifica a alguien. El recorte sigue al 50% 20% por lo de la barbilla. */
 	.ficha-avatar {
-		width: 36px;
-		height: 36px;
+		width: 48px;
+		height: 48px;
 		border-radius: 50%;
 		overflow: hidden;
 		border: 2px solid var(--border);
@@ -501,8 +513,8 @@
 	}
 
 	.hero-avatar {
-		width: 48px;
-		height: 48px;
+		width: 64px;
+		height: 64px;
 		border-radius: 50%;
 		overflow: hidden;
 		border: 2px solid var(--pc);
@@ -602,13 +614,15 @@
 		padding-top: 30px;
 	}
 
+	/* Sin filete arriba ni abajo (26/11). Los dos bordes encajonaban la barra y
+	   le añadían dos líneas que no son dato: el color de cada segmento ya define
+	   su propio alto, y el tramo libre se distingue por su trama. Es el mismo
+	   criterio que se aplicó a la barra de escaños y al hemiciclo. */
 	.barra-track {
 		display: flex;
 		width: 100%;
 		height: 34px;
 		background: #f0f0f0;
-		border-top: 1px solid var(--border);
-		border-bottom: 1px solid var(--border);
 		overflow: hidden;
 	}
 
@@ -709,9 +723,11 @@
 		opacity: 0.7;
 	}
 
+	/* El del listado de abajo sube menos (20 -> 26): son filas de una línea sin
+	   interacción, y una foto grande ahí les daría más peso del que tienen. */
 	.sin-escano-avatar {
-		width: 20px;
-		height: 20px;
+		width: 26px;
+		height: 26px;
 		border-radius: 50%;
 		overflow: hidden;
 		background: #f0f0f0;

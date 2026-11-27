@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { getResultados, type Nacional } from '#lib/data';
 	import { CONVOCATORIA, CONVOCATORIA_ANTERIOR } from '#lib/config';
-	import { ordenCamara } from '#lib/orden-camara';
+	import { bloquesCamara } from '#lib/orden-camara';
 	import { tintaSobre } from '#lib/color';
 
 	let nacional = $state<Nacional | null>(null);
@@ -52,17 +52,69 @@
 		ro: number,
 		prefix: string
 	) => {
-		const seq = ordenCamara(items, getSeats);
+		/**
+		 * Cada bloque arranca en **su** borde, no los dos en el izquierdo.
+		 *
+		 * Durante el escrutinio no están los 350 escaños repartidos. Con una sola
+		 * secuencia, los arcos se iban apilando desde la izquierda y el hueco
+		 * quedaba en el borde derecho: parecía que la derecha había sacado menos,
+		 * cuando lo que pasaba es que faltaba contar. Así que la izquierda acumula
+		 * desde 0 y la derecha se coloca para **acabar en el total**, dejando lo
+		 * pendiente en el centro del hemiciclo.
+		 *
+		 * Con el escrutinio cerrado los dos bloques se tocan en el centro y el
+		 * dibujo es el mismo de siempre.
+		 */
+		const { izquierda, derecha } = bloquesCamara(items, getSeats);
+		const sumar = (ps: T[]) => ps.reduce((t, p) => t + getSeats(p), 0);
+		const arcos: {
+			p: T;
+			seats: number;
+			a0: number;
+			a1: number;
+		}[] = [];
+
 		let acc = 0;
-		return seq.map((p, i) => {
+		for (const p of izquierda) {
 			const seats = getSeats(p);
-			const a0 = 180 - (acc / total) * 180;
-			const a1 = 180 - ((acc + seats) / total) * 180;
+			arcos.push({ p, seats, a0: 180 - (acc / total) * 180, a1: 180 - ((acc + seats) / total) * 180 });
 			acc += seats;
+		}
+
+		acc = total - sumar(derecha);
+		for (const p of derecha) {
+			const seats = getSeats(p);
+			arcos.push({ p, seats, a0: 180 - (acc / total) * 180, a1: 180 - ((acc + seats) / total) * 180 });
+			acc += seats;
+		}
+
+		return arcos.map(({ p, seats, a0, a1 }, i) => {
 			const lp = polar(cx, cy, (ri + ro) / 2, (a0 + a1) / 2);
 			return { ...p, seats, path: arcPath(cx, cy, ri, ro, a0, a1), lx: lp.x, ly: lp.y, key: `${prefix}${i}` };
 		});
 	};
+
+	/**
+	 * El arco de lo que falta por repartir, en el centro.
+	 *
+	 * Sin esto el hueco del centro se quedaba en blanco y seguía pareciendo un
+	 * fallo de dibujo — solo cambiado de sitio. Gris liso y no el rayado de la
+	 * barra: en SVG el rayado pide un `<pattern>` y aquí ya hay uno para los
+	 * empates; un gris plano dice lo mismo sin añadir otra textura al dibujo.
+	 */
+	let pendiente = $derived.by(() => {
+		if (!nacional) return null;
+		const total = nacional.totalEscanos;
+		const repartidos = nacional.partidos.reduce((t, p) => t + p.escanos, 0);
+		if (repartidos <= 0 || repartidos >= total) return null;
+		const { izquierda, derecha } = bloquesCamara(nacional.partidos, (p) => p.escanos);
+		const sumaIzq = izquierda.reduce((t, p) => t + p.escanos, 0);
+		const sumaDer = derecha.reduce((t, p) => t + p.escanos, 0);
+		return {
+			path: arcPath(cx, cy, iR, oR, 180 - (sumaIzq / total) * 180, 180 - ((total - sumaDer) / total) * 180),
+			escanos: total - repartidos
+		};
+	});
 
 	let majAngle = $derived(nacional ? 180 - (nacional.mayoria / nacional.totalEscanos) * 180 : 180);
 	let majStart = $derived(polar(cx, cy, iR2 - 14, majAngle));
@@ -135,8 +187,24 @@
 				</pattern>
 			</defs>
 
-			<path d={arcPath(cx, cy, iR, oR, 180, 0)} fill="none" stroke="var(--border)" stroke-width="1" />
-			<path d={arcPath(cx, cy, iR2, oR2, 180, 0)} fill="none" stroke="var(--border)" stroke-width="1" />
+			<!-- Los dos arcos de contorno (uno por anillo) se quitaron el 26/11: el
+			     filete gris encuadraba el dibujo entero y pesaba más que los
+			     propios escaños, y lo que hay que separar es un partido del
+			     siguiente. Eso lo hace ahora el filete blanco de `.seg-hover`.
+
+			     El contorno no se sustituye por nada: con el escrutinio a cero no
+			     queda un anillo vacío que marcar, porque ese caso ya lo cubren el
+			     arco gris de `pendiente` (lo que falta por repartir) y el anillo de
+			     la convocatoria anterior, que sí tiene contenido desde días antes. -->
+
+			{#if pendiente}
+				<path
+					d={pendiente.path}
+					fill="#e9ebee"
+					role="img"
+					aria-label="{pendiente.escanos} escaños sin repartir todavía"
+				/>
+			{/if}
 
 			{#each segments as s (s.key)}
 				<g>
@@ -179,9 +247,13 @@
 				</g>
 			{/each}
 
-			<line x1={majStart.x} y1={majStart.y} x2={majEnd.x} y2={majEnd.y} stroke="var(--ink)" stroke-width="1.5" />
-			<circle cx={majStart.x} cy={majStart.y} r="2" fill="var(--ink)" />
-			<circle cx={majEnd.x} cy={majEnd.y} r="2" fill="var(--ink)" />
+			<!-- Marca de mayoría, un punto más gruesa desde el 26/11 (1,5 -> 2,5 y
+			     los topes de r=2 a r=3). Es la referencia contra la que se lee el
+			     reparto entero y es el único trazo del dibujo que no es un partido:
+			     con 1,5px pesaba lo mismo que la separación entre dos arcos. -->
+			<line x1={majStart.x} y1={majStart.y} x2={majEnd.x} y2={majEnd.y} stroke="var(--ink)" stroke-width="2.5" />
+			<circle cx={majStart.x} cy={majStart.y} r="3" fill="var(--ink)" />
+			<circle cx={majEnd.x} cy={majEnd.y} r="3" fill="var(--ink)" />
 
 			<text x={cx} y={cy - 18} text-anchor="middle" class="centre-label">Mayoría</text>
 			<text x={cx} y={cy + 10} text-anchor="middle" class="centre-number">{nacional.mayoria}</text>
@@ -200,7 +272,12 @@
 		{#if activeSeg}
 			<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 				<span class="popup-swatch" style="background:{activeSeg.color}"></span>
-				<span class="popup-name">{activeSeg.nombre}</span>
+				<!-- La sigla y no el nombre completo: el popup es una etiqueta de un trozo
+			     de gráfico, no una ficha del partido, y "EUZKO ALDERDI
+			     JELTZALEA-PARTIDO NACIONALISTA VASCO" ocupaba tres líneas para decir
+			     EAJ-PNV. Las siglas son las que el lector acaba de ver en la leyenda,
+			     en la tabla y en el mapa. -->
+			<span class="popup-name">{activeSeg.siglas}</span>
 				<span class="popup-seats">{activeSeg.seats} esc.</span>
 			</div>
 		{/if}
@@ -272,8 +349,17 @@
 		font-weight: 700;
 	}
 
+	/* Filete blanco entre arcos (26/11). Sustituye al contorno gris de los dos
+	   anillos: separa partido de partido en vez de encuadrar el dibujo.
+
+	   Va en el `stroke` del propio arco, así que el filete queda a caballo entre
+	   los dos vecinos y ninguno pierde superficie respecto al otro — el reparto
+	   sigue siendo proporcional a los escaños. 1px en un viewBox de 400 de ancho
+	   es un pelo a cualquier tamaño de pantalla. */
 	.seg-hover {
 		cursor: pointer;
+		stroke: var(--paper);
+		stroke-width: 1;
 	}
 
 	.seg-hover:hover {

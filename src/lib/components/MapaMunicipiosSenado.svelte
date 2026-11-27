@@ -3,6 +3,7 @@
 	import { assetDinamico, getMunicipiosSenado, type ResultadoMunicipioSenado } from '#lib/data';
 	import { fillDe, etiquetaDe, GRIS_SIN_DATOS } from '#lib/empates';
 	import PatronesEmpate from '#lib/components/PatronesEmpate.svelte';
+	import { page } from '$app/state';
 
 	type MuniProps = { NATCODE: string; NAMEUNIT: string; cod_prov: string };
 	type Feature = GeoFeature<MuniProps>;
@@ -57,6 +58,26 @@
 	}
 
 	let ganadores = $derived(Object.values(datos ?? {}).map((m) => m.ganador));
+
+	/**
+	 * El municipio que viene marcado en la URL (`?muni=<ine>`), resaltado.
+	 *
+	 * Lo escribe el buscador del mapa del Senado, y sin esto buscar un municipio
+	 * te dejaba en el mapa de su provincia **sin señalar cuál era** — en una
+	 * provincia con 300 municipios eso es no haber encontrado nada. Es el mismo
+	 * comportamiento que ya tenía el mapa municipal del Congreso.
+	 *
+	 * Se deriva de la URL en vez de guardarse en un estado propio: aquí no hay
+	 * clic que lo mueva (este mapa es solo de consulta), así que no hay nada que
+	 * sincronizar y un `$derived` no puede desincronizarse.
+	 */
+	let ineMarcado = $derived(page.url.searchParams.get('muni'));
+	let natcodeMarcado = $derived(
+		ineMarcado && features
+			? (features.find((f) => f.properties.NATCODE.endsWith(ineMarcado))?.properties.NATCODE ??
+					null)
+			: null
+	);
 
 	const W = 420;
 	const H = 320;
@@ -117,8 +138,8 @@
 							<path
 								{d}
 								fill={colorFor(f.properties.NATCODE)}
-								stroke="#d8d8d8"
-								stroke-width="0.4"
+								stroke={f.properties.NATCODE === natcodeMarcado ? 'var(--ink)' : '#d8d8d8'}
+								stroke-width={f.properties.NATCODE === natcodeMarcado ? 1.5 : 0.4}
 								class="muni"
 								role="img"
 								aria-label={f.properties.NAMEUNIT}
@@ -135,6 +156,14 @@
 						<span class="popup-nombre">
 							{activo.nombre}{#if etiquetaDe(activo.ganador)}<span class="popup-estado"> — {etiquetaDe(activo.ganador)}</span>{/if}
 						</span>
+						<!-- El escrutinio del municipio: sin él los porcentajes de abajo no
+						     se pueden interpretar (el Ministerio cierra mesa a mesa). Mismo
+						     añadido que en el mapa municipal del Congreso. -->
+						{#if activo.pctEscrutado != null}
+							<span class="popup-escrutado">
+								{activo.pctEscrutado.toLocaleString('es-ES', { maximumFractionDigits: 1 })}% escrutado
+							</span>
+						{/if}
 						{#each activo.principales.slice(0, 3) as p (p.siglas)}
 							<span class="popup-fila">
 								<span class="popup-swatch" style="background:{p.color}"></span>
@@ -164,17 +193,23 @@
 		min-width: 0;
 	}
 
+	/* El rótulo del mapa, con el kicker de la casa (27/11): el mismo que llevan
+	   el hemiciclo, el ranking y las tablas. Antes era una franja gris a todo
+	   lo ancho con un filete teal en el canto izquierdo, y desentonaba por dos
+	   motivos: el teal es el color de "esto está pasando ahora" —el punto de
+	   "en directo", la barra de escrutinio—, no un adorno de encabezado, y la
+	   franja metía una caja dentro de otra caja justo debajo de las migas de
+	   pan. Sin fondo ni filetes, el rótulo se lee como lo que es: el título de
+	   lo que hay debajo. */
 	.kicker {
-		margin: 0;
-		padding: 7px 0;
-		background: #fafafa;
-		border-bottom: 1px solid #f0f0f0;
-		border-left: 3px solid var(--c, #01f3b3);
-		font-size: 9px;
+		font-family: var(--font-display);
+		font-size: 10px;
 		font-weight: 700;
-		letter-spacing: 0.12em;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: #9ca3af;
+		color: var(--ink);
+		margin: 0;
+		padding: 14px 20px 0;
 		text-align: center;
 	}
 
@@ -241,6 +276,15 @@
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
 		color: var(--ink, #0a0e14);
+	}
+
+	/* Recesivo: es contexto para leer las cifras, no una cifra más. */
+	.popup-escrutado {
+		font-size: 9px;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: var(--grey, #6b7280);
+		margin-bottom: 2px;
 	}
 
 	.popup-fila {

@@ -4,9 +4,19 @@
 	import HemicicloSenado from '#lib/components/HemicicloSenado.svelte';
 	import MapaTerritorios from '#lib/components/MapaTerritorios.svelte';
 	import MapaMunicipiosSenado from '#lib/components/MapaMunicipiosSenado.svelte';
-	import { getResultadosSenado, type ProvinciaSenado } from '#lib/data';
+	import { getResultadosSenado, type ProvinciaSenado, type MunicipioIndice } from '#lib/data';
 	import { CONVOCATORIA } from '#lib/config';
 	import { etiquetaDe } from '#lib/empates';
+	import { goto } from '$app/navigation';
+	import { resolve } from '$app/paths';
+
+	// A dónde lleva un municipio del buscador: a la vista de provincia **del
+	// Senado**, no a la del Congreso, que es a donde va el motor por defecto.
+	// Mismos parámetros que usa el Congreso (`?cod=` y `?muni=`), que es lo que
+	// `SenadoProvinciasView` y `MapaMunicipiosSenado` saben leer.
+	function irAMunicipioDelSenado(m: MunicipioIndice) {
+		goto(`${resolve('/senado/provincias')}?cod=${m.codProv}&muni=${m.ine}`);
+	}
 
 	let comunidadesSenado = $state<Record<string, ProvinciaSenado> | null>(null);
 	let provinciasSenado = $state<Record<string, ProvinciaSenado> | null>(null);
@@ -26,6 +36,7 @@
 		<BarraSenado />
 	</div>
 
+
 	<div class="grid">
 		<div class="col-tabla">
 			<TablaSenado />
@@ -34,10 +45,17 @@
 			<HemicicloSenado />
 		</div>
 		<div class="col-mapa">
+			<!-- `buscador` y `onMunicipio`, como el mapa del Congreso. El motor es el
+			     mismo desde el principio; lo que le faltaba al Senado era activar el
+			     buscador y decirle a dónde lleva un municipio encontrado: por defecto
+			     va a `/provincias`, que es la vista del CONGRESO, así que buscar
+			     "Alcalá" desde la cámara alta habría sacado al lector de ella. -->
 			<MapaTerritorios
 				comunidades={comunidadesSenado}
 				provincias={provinciasSenado}
-				nota={`Senadores de elección directa — ${CONVOCATORIA} — pasa el ratón para ver el detalle. Gris = sin escrutar; en un empate a escaños se pinta el color del más votado y el popup lo indica`}
+				buscador
+				onMunicipio={irAMunicipioDelSenado}
+				nota={`Senadores de elección directa — ${CONVOCATORIA} — busca tu municipio o pasa el ratón para ver el detalle. Gris = sin escrutar; en un empate a escaños se pinta el color del más votado y el popup lo indica`}
 			>
 				{#snippet popup(a)}
 					<div class="popup-senado">

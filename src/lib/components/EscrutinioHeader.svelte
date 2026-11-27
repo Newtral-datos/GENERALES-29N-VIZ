@@ -1,7 +1,8 @@
 <script lang="ts">
 	import logo from '#lib/assets/logo-newtral.png';
 	import { ESCRUTINIO_ABIERTO, MINUTOS_PARA_AVISAR, SELLO_PREVIO } from '#lib/config';
-	import { getResultados, getParticipacion } from '#lib/data';
+	import { getResultados, getParticipacion, getResultadosSenado } from '#lib/data';
+	import { avanceActivo } from '#lib/participacion';
 
 	let escrutinio = $state(0);
 
@@ -11,6 +12,7 @@
 	// es cero, no un número de relleno (ver SELLO_PREVIO en config.ts).
 	let objetivo = $state(0);
 	let sello = $state<Sello | null>(null);
+	let participacion = $state<number | null>(null);
 
 	// Aviso de "esto que ves ya tiene unos minutos". Va por reloj, no comprueba
 	// si hay envío nuevo (ver MINUTOS_PARA_AVISAR en config.ts). Se enciende una
@@ -31,6 +33,13 @@
 	 * que se regenera es `participacion29n.json`; a partir de las 20:00 manda el
 	 * de resultados. Mirando solo uno de los dos, el faldón se queda con la hora
 	 * congelada media jornada — que es justo lo que pasaba.
+	 *
+	 * **Y el Senado cuenta igual que los otros dos** (arreglado el 26/11). Son
+	 * tres ficheros con su propio sello, y el servicio los numera por separado:
+	 * el envío de Congreso y el de Senado no van acompasados (en los snapshots
+	 * del simulacro se ven pares como c37-s5 o c59-s27). Así que cuando el que
+	 * llega más tarde es el del Senado, el faldón enseñaba la hora anterior del
+	 * Congreso y decía que el panel estaba más viejo de lo que estaba.
 	 */
 	function masReciente(a: Sello | null, b: Sello | null): Sello | null {
 		if (!a?.fecha || !a?.hora) return b;
@@ -59,6 +68,26 @@
 			});
 
 		getParticipacion()
+			.then((d) => {
+				sello = masReciente(sello, {
+					fecha: d.nacional.fecha ?? null,
+					hora: d.nacional.horaTotalizacion ?? null
+				});
+				// La participación del último corte publicado, al lado del
+				// escrutinio: es el otro dato de contexto de la jornada y hacen
+				// falta los dos para leer un reparto de escaños. Qué corte es el
+				// bueno lo decide `#lib/participacion`, el mismo módulo que usa la
+				// vista de participación (norma del AGENTS.md: eso se calcula en un
+				// solo sitio).
+				participacion = avanceActivo(d.nacional)?.participacionPct ?? null;
+			})
+			.catch(() => {});
+
+		// El Senado solo aporta su sello: el `pctEscrutado` del faldón es el del
+		// Congreso a propósito (es el escrutinio que el lector asocia a "cuánto
+		// va contado"), y mezclar dos porcentajes distintos en una sola cifra no
+		// significaría nada.
+		getResultadosSenado()
 			.then((d) => {
 				sello = masReciente(sello, {
 					fecha: d.nacional.fecha ?? null,
@@ -153,23 +182,40 @@
 		</span>
 	</div>
 
-	<!-- La fila del escrutinio desaparece entera mientras el panel está cerrado:
-	     antes se quedaba con el sello "En directo" dentro y, al subirlo al
-	     cabecero, habría quedado una franja vacía. -->
-	{#if ESCRUTINIO_ABIERTO}
+	<!-- La fila de contexto de la jornada. Desaparece entera si no hay nada que
+	     enseñar: antes se quedaba con el sello "En directo" dentro y, al subirlo
+	     al cabecero, habría quedado una franja vacía.
+	
+	     La participación **no va gateada por `ESCRUTINIO_ABIERTO`**, y es a
+	     propósito: existe desde las 14:00 y el escrutinio no empieza hasta las
+	     20:00, o sea que hay seis horas en las que es el único dato de la jornada
+	     que hay. Antes del primer avance no hay cifra y no se dibuja nada, así
+	     que el flag no hace falta para protegerla. -->
+	{#if ESCRUTINIO_ABIERTO || participacion !== null}
 		<div class="row">
-			<span class="label">Escrutinio</span>
+			{#if ESCRUTINIO_ABIERTO}
+				<span class="label">Escrutinio</span>
 
-			<span class="number">{escrutinio.toLocaleString('es-ES', { minimumIntegerDigits: 2, maximumFractionDigits: 1 })}<span class="number-unit">%</span></span>
+				<span class="number">{escrutinio.toLocaleString('es-ES', { minimumIntegerDigits: 2, maximumFractionDigits: 1 })}<span class="number-unit">%</span></span>
 
-			<div class="bar">
-				<div class="fill" style="width:{escrutinio}%"></div>
-				<div class="ticks">
-					{#each [25, 50, 75] as t (t)}
-						<span class="tick" style="left:{t}%"></span>
-					{/each}
+				<div class="bar">
+					<div class="fill" style="width:{escrutinio}%"></div>
+					<div class="ticks">
+						{#each [25, 50, 75] as t (t)}
+							<span class="tick" style="left:{t}%"></span>
+						{/each}
+					</div>
 				</div>
-			</div>
+			{/if}
+
+			{#if participacion !== null}
+				<span class="label label-part">Participación</span>
+				<span class="number number-part"
+					>{participacion.toLocaleString('es-ES', { maximumFractionDigits: 1 })}<span
+						class="number-unit">%</span
+					></span
+				>
+			{/if}
 		</div>
 	{/if}
 </header>
@@ -314,6 +360,30 @@
 		}
 	}
 
+	/* A 375 px la barra, dos rótulos y dos cifras no caben en una línea: la fila
+	   envuelve y la participación baja entera, con su rótulo. La barra se queda
+	   con el ancho completo arriba, que es donde se lee. */
+	@media (max-width: 640px) {
+		.row {
+			flex-wrap: wrap;
+			gap: 8px 10px;
+		}
+
+		.bar {
+			flex-basis: 100%;
+			order: 3;
+		}
+
+		.label-part,
+		.number-part {
+			order: 4;
+		}
+
+		.number-part {
+			font-size: 15px;
+		}
+	}
+
 	@media (prefers-reduced-motion: reduce) {
 		.actualizar-dot {
 			animation: none;
@@ -346,6 +416,24 @@
 		font-weight: 500;
 		color: rgba(1, 243, 179, 0.6);
 		margin-left: 1px;
+	}
+
+	/* La participación es dato de contexto, no el titular de la franja: la mitad
+	   de cuerpo que el escrutinio y en la tinta normal en vez del teal, que aquí
+	   marca "esto es lo que está pasando ahora". Sin barra: la de al lado mide un
+	   avance de 0 a 100 que termina, y la participación no avanza igual — darle
+	   otra barra invitaría a leerlas como la misma cosa.
+
+	   `margin-left: auto` cuando va sola (sin escrutinio, por la tarde) no hace
+	   falta: la fila tiene `gap` y el rótulo manda. Va pegada a la derecha solo
+	   cuando comparte fila con la barra, que es lo que la empuja. */
+	.label-part {
+		margin-left: 4px;
+	}
+
+	.number-part {
+		font-size: 17px;
+		color: var(--ink);
 	}
 
 	.bar {

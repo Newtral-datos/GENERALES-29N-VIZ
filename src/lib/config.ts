@@ -103,7 +103,8 @@ export const CONVOCATORIA = '29N';
 export const CONVOCATORIA_ANTERIOR = '23J';
 
 /**
- * A partir de qué % escrutado la vista `/batalla` se fía de sí misma.
+ * A partir de qué % escrutado **de una provincia** su batalla por el último
+ * escaño se puede clasificar.
  *
  * El dato que publica el Ministerio —cuántos votos le faltan al segundo para
  * quitarle el último escaño al primero— es correcto en cada envío, pero al
@@ -113,13 +114,22 @@ export const CONVOCATORIA_ANTERIOR = '23J';
  * reales: ni bajando el umbral al 1 % de lo pendiente se filtraba nada
  * razonable, seguían quedando 23 provincias.
  *
- * Así que por debajo de este número la vista no finge haber seleccionado unas
- * pocas: enseña la más ajustada, el escrutinio y un aviso en prosa de que esas
- * cifras se van a mover. Por encima, vuelve el recuento de escaños en disputa,
- * que es cuando significa algo.
+ * **Se compara contra el escrutinio de cada provincia, no contra el nacional**,
+ * y eso es lo que se corrigió el 26/11. El Ministerio no reparte el escrutinio
+ * de forma uniforme: **cierra provincia por provincia**. Medido en los
+ * snapshots del simulacro del 25/11, con el 51,86 % nacional había ya 27 de 52
+ * provincias al 100 % —y con el 45,24 %, 26 al 100 % con Madrid todavía a 0—.
+ * Así que el porcentaje nacional no dice nada del estado de una provincia
+ * concreta: con él, provincias ya cerradas se contaban como "en disputa" y
+ * provincias casi sin contar se colaban en la cabeza del ranking con la
+ * proporción más baja de las 52, precisamente por no haber contado nada.
+ *
+ * Las que no llegan al umbral no se clasifican ni en un sentido ni en otro:
+ * van al final de la lista, en gris en el mapa y con su propio corte y su
+ * propio texto, distinto del de las decididas.
  *
  * **Es un número a mano y a propósito**, para poder moverlo la propia noche
- * electoral sin tocar lógica: si a las 23:00 con el 92 % ya se ve que el
- * ranking se ha estabilizado, se baja y se despliega.
+ * electoral sin tocar lógica: si a las 23:00 se ve que el ranking se ha
+ * estabilizado antes, se baja y se despliega.
  */
-export const ESCRUTINIO_BATALLA_FIABLE = 80;
+export const ESCRUTINIO_BATALLA_FIABLE = 20;

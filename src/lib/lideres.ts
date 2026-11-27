@@ -5,9 +5,10 @@
 // nombre con el que uno llama al partido: el mapa se consulta con
 // `LIDERES[p.siglas]` y una diferencia de mayúsculas lo deja sin foto en
 // silencio. Salen de `config/partidos.py` en elecciones-datos, y por eso aquí
-// hay cosas como `B.N.G.` con puntos, `JxCAT - JUNTS` con espacios alrededor del
-// guion o `PODEMOS` en mayúsculas — esta última estuvo escrita como "Podemos" y
-// nunca llegó a enseñar la foto.
+// hay cosas como `JxCAT - JUNTS` con espacios alrededor del guion, `PODEMOS` en
+// mayúsculas o `Vox` en minúsculas — la de Podemos estuvo escrita como
+// "Podemos" y nunca llegó a enseñar la foto, y las de Vox y el BNG cambiaron de
+// clave el 26/11 al rotular las siglas (`VOX` → `Vox`, `B.N.G.` → `BNG`).
 //
 // Cada URL está comprobada con una petición HEAD (AGENTS.md: nunca inventar un
 // avatar ni buscar la foto fuera de una fuente de confianza) — las once dan 200.
@@ -28,7 +29,7 @@ export const LIDERES: Record<string, { nombre: string; foto: string }> = {
 		nombre: 'Alberto Núñez Feijóo',
 		foto: 'https://live.staticflickr.com/65535/55597696582_a1af1a748c.jpg'
 	},
-	VOX: {
+	Vox: {
 		nombre: 'Santiago Abascal',
 		foto: 'https://live.staticflickr.com/65535/55598714331_8286c5b4cb_t.jpg'
 	},
@@ -58,7 +59,7 @@ export const LIDERES: Record<string, { nombre: string; foto: string }> = {
 		nombre: 'Maribel Vaquero',
 		foto: 'https://live.staticflickr.com/65535/55655978068_bd64938a61_t.jpg'
 	},
-	'B.N.G.': {
+	BNG: {
 		nombre: 'Néstor Rego',
 		foto: 'https://live.staticflickr.com/65535/55654860712_04719df68f_t.jpg'
 	},

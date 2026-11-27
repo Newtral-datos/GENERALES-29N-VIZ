@@ -180,6 +180,19 @@
 {#if activeMuni}
 	<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 		<p class="popup-title">{activeMuni.properties.NAMEUNIT}</p>
+		<!-- El escrutinio del municipio, debajo del nombre: sin él los
+		     porcentajes de abajo no se pueden interpretar. El Ministerio cierra
+		     mesa a mesa, así que un municipio puede ir al 20 % con su provincia
+		     al 70 %, y un "PP 48,1 %" significa cosas muy distintas en cada
+		     caso. Va en el popup y no en el relleno del mapa porque el color ya
+		     codifica al ganador. -->
+		{#if activeResultado?.pctEscrutado != null}
+			<p class="popup-escrutado">
+				{activeResultado.pctEscrutado.toLocaleString('es-ES', {
+					maximumFractionDigits: 1
+				})}% escrutado
+			</p>
+		{/if}
 		{#if activeResultado}
 			{#each activeResultado.principales.slice(0, 3) as p (p.siglas)}
 				<div class="popup-row">
@@ -252,6 +265,18 @@
 		letter-spacing: 0.02em;
 		color: var(--ink);
 		margin: 0 0 4px 0;
+		white-space: nowrap;
+	}
+
+	/* Recesivo y en una línea: es contexto para leer las cifras de abajo, no
+	   una cifra más. Por eso no lleva el tratamiento de dato (mono, grande). */
+	.popup-escrutado {
+		font-family: var(--font-body);
+		font-size: 9px;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: var(--grey);
+		margin: -2px 0 5px 0;
 		white-space: nowrap;
 	}
 

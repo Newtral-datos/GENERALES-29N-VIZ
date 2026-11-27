@@ -24,7 +24,25 @@
 		// Barcelona y Madrid —de las más vivas— se caen del ranking.
 		esfuerzo: number;
 		alcanzable: boolean;
+		// Si el escrutinio DE ESA PROVINCIA da para interpretar su hueco.
+		//
+		// Hace falta por cómo avanza el Ministerio, que no es como uno supone:
+		// **no reparte el escrutinio de forma uniforme, cierra provincia por
+		// provincia**. Medido en el simulacro del 25/11: con el 51,86 % nacional
+		// había ya 27 de 52 provincias al 100 %, y con el 45,24 % eran 26 al
+		// 100 % con Madrid todavía a 0. Así que el % nacional no dice nada del
+		// estado de una provincia concreta, y era el único que se miraba.
+		fiable: boolean;
 	};
+
+	// Los tres estados de una batalla, que antes eran dos. El de en medio es el
+	// que faltaba: una provincia con el 3 % escrutado no es "en disputa" (su
+	// hueco cabe en lo que queda por contar, pero eso es cierto de cualquier
+	// hueco con el 97 % sin contar) ni es "decidida". Es que todavía no se sabe.
+	type Estado = 'viva' | 'pronto' | 'decidida';
+	const estadoDe = (b: { alcanzable: boolean; fiable: boolean }): Estado =>
+		!b.fiable ? 'pronto' : b.alcanzable ? 'viva' : 'decidida';
+	const ORDEN_ESTADO: Record<Estado, number> = { viva: 0, pronto: 1, decidida: 2 };
 
 	let provincias = $state<Record<string, Provincia> | null>(null);
 	let pctEscrutado = $state<number | null>(null);
@@ -53,24 +71,39 @@
 				nombre: p.nombre,
 				pctEscrutado: p.pctEscrutado,
 				esfuerzo,
-				alcanzable: esfuerzo <= 1
+				alcanzable: esfuerzo <= 1,
+				fiable: p.pctEscrutado != null && p.pctEscrutado >= ESCRUTINIO_BATALLA_FIABLE
 			});
 		}
-		return lista.sort((a, b) => a.esfuerzo - b.esfuerzo || a.votosFaltantes - b.votosFaltantes);
+		// Primero por estado y luego por esfuerzo. El orden dentro de cada grupo
+		// es el de siempre; lo que cambia es que una provincia con el 2 %
+		// escrutado y un hueco minúsculo ya no se cuela en la cabeza del ranking:
+		// su proporción es la más baja de las 52 precisamente porque no se ha
+		// contado nada, que es lo contrario de lo que el ranking dice medir.
+		return lista.sort(
+			(a, b) =>
+				ORDEN_ESTADO[estadoDe(a)] - ORDEN_ESTADO[estadoDe(b)] ||
+				a.esfuerzo - b.esfuerzo ||
+				a.votosFaltantes - b.votosFaltantes
+		);
 	});
 
-	let fueraDeAlcance = $derived(batallas.filter((b) => !b.alcanzable).length);
+	let fueraDeAlcance = $derived(batallas.filter((b) => estadoDe(b) === 'decidida').length);
+	// Cuántas no se pueden clasificar todavía porque su propio escrutinio va
+	// demasiado bajo. Es la cifra que explica el aviso en prosa: con el
+	// escrutinio a medias, decir "casi todas siguen en juego" era contar como
+	// disputa lo que solo es falta de datos.
+	let sinClasificar = $derived(batallas.filter((b) => estadoDe(b) === 'pronto').length);
 	let masAjustada = $derived(batallas[0]);
-	// Las tres de cabecera. Solo las que siguen al alcance: una provincia
-	// decidida no es "reñida" por mucho que su hueco sea pequeño, y la lista ya
-	// viene ordenada por esfuerzo.
-	let masRenidas = $derived(batallas.filter((b) => b.alcanzable).slice(0, 3));
+	// Las tres de cabecera. Solo las vivas: una provincia decidida no es
+	// "reñida" por mucho que su hueco sea pequeño, y una que apenas se ha
+	// contado tampoco — la lista ya viene ordenada por estado y esfuerzo.
+	let masRenidas = $derived(batallas.filter((b) => estadoDe(b) === 'viva').slice(0, 3));
 	let censoPendiente = $derived(batallas.reduce((t, b) => t + b.censoSinEscrutar, 0));
-	// Por debajo de este escrutinio el ranking es cierto pero volátil (ver el
-	// porqué en #lib/config). El umbral está ahí para poder moverlo la noche
-	// electoral sin tocar este componente.
-	let asentado = $derived(pctEscrutado != null && pctEscrutado >= ESCRUTINIO_BATALLA_FIABLE);
-	let enDisputa = $derived(batallas.filter((b) => b.alcanzable).length);
+	let enDisputa = $derived(batallas.filter((b) => estadoDe(b) === 'viva').length);
+	// Las provincias cuyo escaño ya se puede clasificar: vivas más decididas.
+	// Es el denominador honesto del recuento de la portada.
+	let clasificables = $derived(batallas.length - sinClasificar);
 
 	let porCod = $derived(new Map(batallas.map((b) => [b.cod, b])));
 
@@ -99,9 +132,21 @@
 	// geografía de quién está a punto de arrebatar algo. Las provincias donde el
 	// escaño ya está decidido van en gris: no son un cero, están fuera de
 	// juego.
+	// El estado de una provincia por su código, para el mapa: sin dato de último
+	// escaño no hay batalla que clasificar y cuenta como "pronto" — es lo que
+	// pasa a mitad de recuento, cuando unas provincias traen los campos 20-22 y
+	// otras no.
+	function estadoDeCod(cod: string): Estado {
+		const b = porCod.get(cod);
+		return b ? estadoDe(b) : 'pronto';
+	}
+
 	function colorDe(cod: string): string {
 		const b = porCod.get(cod);
-		if (!b || !b.alcanzable) return GRIS_DECIDIDA;
+		// En gris las decididas y también las que aún no se pueden clasificar: en
+		// las dos, pintar el color del aspirante afirmaría una disputa que no
+		// consta. El pie del mapa distingue los dos casos al pasar por encima.
+		if (!b || estadoDe(b) !== 'viva') return GRIS_DECIDIDA;
 		return b.aspirante.color;
 	}
 
@@ -153,7 +198,9 @@
 	let aspirantes = $derived.by(() => {
 		const cuenta = new Map<string, { siglas: string; color: string; n: number }>();
 		for (const b of batallas) {
-			if (!b.alcanzable) continue;
+			// Solo las vivas, que son las únicas que el mapa pinta de color: una
+			// leyenda tiene que contar lo que se ve en el mapa y nada más.
+			if (estadoDe(b) !== 'viva') continue;
 			const k = b.aspirante.siglas;
 			const e = cuenta.get(k) ?? { siglas: k, color: b.aspirante.color, n: 0 };
 			e.n += 1;
@@ -219,14 +266,24 @@
 			     líneas más abajo, encima del mapa (`.aviso-escrutinio`), que además es
 			     su sitio natural porque es donde el lector va a interpretar las cifras.
 
-			     Lo único que se queda es el recuento de escaños en disputa, y solo con
-			     el escrutinio asentado: por debajo de ese umbral no se publica (serían
-			     las 52 provincias) y por encima no está en ninguna otra pieza. -->
-			{#if asentado}
+			     Lo único que se queda es el recuento de escaños en disputa, que no está
+			     en ninguna otra pieza.
+
+			     Ya no va gateado por el escrutinio nacional, y es el arreglo del
+			     26/11: ese gateo existía porque por debajo del umbral el recuento
+			     eran "las 52 provincias", y eso pasaba porque se comparaba el hueco
+			     de cada provincia contra el escrutinio del país. Ahora cada provincia
+			     se clasifica con el suyo (ver ESCRUTINIO_BATALLA_FIABLE), así que el
+			     recuento solo cuenta provincias donde el dato significa algo y se
+			     puede publicar desde el primer envío. El denominador son las
+			     clasificables, no las 52: decir "3 de 52" cuando 40 no se han
+			     contado todavía sugiere que las otras 49 están decididas. -->
+			{#if clasificables}
 				<p class="portada-dato">
 					<strong>{enDisputa}</strong>
 					{enDisputa === 1 ? 'escaño sigue en disputa' : 'escaños siguen en disputa'} de
-					{batallas.length} provincias
+					{clasificables}
+					{clasificables === 1 ? 'provincia escrutada' : 'provincias ya escrutadas'}
 				</p>
 			{/if}
 		</section>
@@ -291,10 +348,22 @@
 			</section>
 		{/if}
 
-		{#if !asentado && pctEscrutado != null}
+		<!-- El aviso cuenta el escrutinio **por provincias**, no el porcentaje
+		     nacional. Decía "con el X % escrutado casi todos los últimos escaños
+		     siguen en juego", y con el escrutinio real eso es falso por los dos
+		     lados: el Ministerio cierra provincia por provincia, así que con el
+		     51,86 % nacional hay provincias con el escaño ya decidido y otras sin
+		     empezar. El % nacional sigue dicho porque es el contexto de la noche,
+		     pero lo que explica la lista es cuántas se pueden clasificar. -->
+		{#if sinClasificar && pctEscrutado != null}
 			<p class="aviso-escrutinio">
-				Con el {pctEscrutado.toFixed(1).replace('.', ',')} % escrutado casi todos los
-				últimos escaños siguen en juego: queda mucho voto por contar. Estas cifras se moverán mucho.
+				{sinClasificar === 1
+					? 'Una provincia va'
+					: `${sinClasificar} provincias van`} todavía con poco escrutinio, así que su
+				último escaño no se puede clasificar: el hueco en votos cabe en lo que queda por
+				contar simplemente porque queda casi todo. Van al final de la lista y en gris en el
+				mapa. El escrutinio nacional es del {pctEscrutado.toFixed(1).replace('.', ',')} %, y
+				el Ministerio no lo reparte por igual — cierra unas provincias antes que otras.
 			</p>
 		{/if}
 
@@ -316,7 +385,7 @@
 									class="prov"
 									class:activa={activa === f.properties.cod_prov ||
 										seleccionada === f.properties.cod_prov}
-									class:sin-batalla={!porCod.get(f.properties.cod_prov)?.alcanzable}
+									class:sin-batalla={estadoDeCod(f.properties.cod_prov) !== 'viva'}
 									role="button"
 									tabindex="0"
 									aria-label={f.properties.name}
@@ -345,7 +414,7 @@
 										class="prov"
 										class:activa={activa === f.properties.cod_prov ||
 										seleccionada === f.properties.cod_prov}
-										class:sin-batalla={!porCod.get(f.properties.cod_prov)?.alcanzable}
+										class:sin-batalla={estadoDeCod(f.properties.cod_prov) !== 'viva'}
 										role="button"
 										tabindex="0"
 										aria-label={f.properties.name}
@@ -387,11 +456,23 @@
 								</span>
 							</span>
 						{/if}
+						<!-- Las dos filas grises van separadas aunque compartan color: el gris
+						     del mapa significa "no hay disputa que pintar", y eso pasa por dos
+						     razones muy distintas —el escaño ya está cerrado, o esa provincia
+						     apenas se ha contado—. Juntarlas en una sola fila "Sin batalla"
+						     hacía pasar por decidido lo que solo estaba sin contar. -->
 						{#if fueraDeAlcance}
 							<span class="leyenda-fila">
 								<span class="swatch" style="background:{GRIS_DECIDIDA}"></span>
 								<span class="leyenda-siglas">Sin batalla</span>
 								<span class="leyenda-n">{fueraDeAlcance}</span>
+							</span>
+						{/if}
+						{#if sinClasificar}
+							<span class="leyenda-fila">
+								<span class="swatch" style="background:{GRIS_DECIDIDA}"></span>
+								<span class="leyenda-siglas">Aún sin contar</span>
+								<span class="leyenda-n">{sinClasificar}</span>
 							</span>
 						{/if}
 					</div>
@@ -409,7 +490,7 @@
 						{#if enfocada && porCod.get(enfocada)}
 							{@const b = porCod.get(enfocada)!}
 							<strong>{b.nombre}</strong> —
-							{#if b.alcanzable}
+							{#if estadoDe(b) === 'viva'}
 								a <span class="marca" style="color:{tintaDeMarca(b.aspirante.color)}"
 									>{b.aspirante.siglas}</span
 								> le faltan <span class="pie-votos">{formatMiles(b.votosFaltantes)}</span> votos
@@ -417,6 +498,13 @@
 								<span class="marca" style="color:{tintaDeMarca(b.tiene.color)}"
 									>{b.tiene.siglas}</span
 								>
+							{:else if estadoDe(b) === 'pronto'}
+								<!-- El gris de esta provincia NO significa lo mismo que el de una
+								     decidida, y era el fallo de lectura que había: las dos salían
+								     con "no hay batalla" aunque una esté cerrada y la otra sin
+								     empezar a contar. -->
+								con el {(b.pctEscrutado ?? 0).toFixed(1).replace('.', ',')} % escrutado todavía
+								no se puede saber si hay batalla
 							{:else}
 								<!-- "No hay batalla" y no "el escaño está decidido": con el voto
 								     exterior pendiente, decir que algo está decidido afirma más de
@@ -443,16 +531,22 @@
 				     diferencia entre "esto se puede dar la vuelta" y "esto ya no" es la
 				     más importante de la lista: sin el corte, el lector la tiene que
 				     deducir del gris de las filas. -->
-				{#if !b.alcanzable && i > 0 && batallas[i - 1].alcanzable}
+				{#if i > 0 && estadoDe(b) !== estadoDe(batallas[i - 1])}
 					<li class="corte">
-						<span>Sin batalla — el hueco ya no cabe en lo que queda por escrutar</span>
+						<span>
+							{#if estadoDe(b) === 'pronto'}
+								Todavía con poco escrutinio — aquí el hueco en votos aún no dice nada
+							{:else}
+								Sin batalla — el hueco ya no cabe en lo que queda por escrutar
+							{/if}
+						</span>
 					</li>
 				{/if}
 
 				<li
 					id="batalla-{b.cod}"
 					class="fila"
-					class:fuera={!b.alcanzable}
+					class:fuera={estadoDe(b) !== 'viva'}
 					class:resaltada={seleccionada === b.cod}
 				>
 					<!-- El puesto, en su columna. Numerar solo vale si el orden dice algo,
@@ -461,7 +555,7 @@
 					     filas de tres líneas de texto, y empareja la lista con la tira de
 					     las tres de arriba, que ya numera. -->
 					<span class="fila-puesto" aria-hidden="true">
-						{#if b.alcanzable}{i + 1}{/if}
+						{#if estadoDe(b) === 'viva'}{i + 1}{/if}
 					</span>
 
 					<div class="fila-cuerpo">
@@ -549,21 +643,13 @@
 		</h2>
 
 		<p>
-			La lista no se ordena por el número de votos del hueco, sino por su proporción frente a
-			lo que queda por escrutar — cuántos votos le faltan al aspirante de cada mil electores
-			pendientes, que son el censo de la provincia menos la parte ya contada. Así, un hueco
-			de 4.000 votos en Madrid es una batalla más apretada que uno de 500 en Teruel: 1,3
-			votos de cada mil pendientes frente a 6,6. Arriba están las proporciones más pequeñas,
-			que son los escaños que se deciden por menos; cuando el hueco ya es mayor que el censo
-			que queda por escrutar, la provincia aparece como «sin batalla».
+			La lista no se ordena por el número de votos del hueco sino por su proporción frente a
+			lo que queda por escrutar. Así, un hueco de 4.000 votos en Madrid es una batalla más
+			apretada que uno de 500 en Teruel: 1,3 votos de cada mil pendientes frente a 6,6.
+			Arriba están las proporciones más pequeñas, que son los escaños que se deciden por menos.
+			Cuando el hueco es mayor que los votos que faltan por contar la provincia aparece como "sin batalla".
 		</p>
-
-		<p>
-			Al principio de la noche la proporción apenas distingue: queda tanto por contar que
-			cualquier diferencia cabe en lo pendiente. Por debajo del {ESCRUTINIO_BATALLA_FIABLE} %
-			escrutado esta página no cuenta escaños en disputa — enseña la más ajustada, lo contado
-			y un aviso de que las cifras se van a mover.
-		</p>
+		
 	</section>
 </main>
 

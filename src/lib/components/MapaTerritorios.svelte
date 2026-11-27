@@ -22,7 +22,10 @@
 	type Nivel = 'ccaa' | 'provincia' | 'municipio';
 	// Lo único que este mapa necesita saber de un ámbito. Congreso y Senado
 	// traen más campos cada uno; los pinta su propio snippet de popup.
-	type Ambito = { nombre: string; ganador: Ganador };
+	// `ganador` es opcional: los mapas de partido lo traen y colorean con él, y
+	// el de participación no tiene ganador —colorea por escala— así que pasa su
+	// propia función de color (ver el prop `color`).
+	type Ambito = { nombre: string; ganador?: Ganador };
 
 	// Las Palmas (35) y Santa Cruz de Tenerife (38) se dibujan aparte: su posición
 	// geográfica real deja un hueco enorme de océano entre ellas y la Península.
@@ -50,6 +53,8 @@
 		municipios,
 		nota,
 		buscador = false,
+		color,
+		leyenda,
 		nivelInicial = 'ccaa',
 		nivel = $bindable(nivelInicial),
 		codProvSel = $bindable(null),
@@ -62,6 +67,22 @@
 		municipios: Snippet<[string]>;
 		nota: string;
 		buscador?: boolean;
+		/**
+		 * Con qué color se rellena cada ámbito. Por defecto, el del partido
+		 * ganador.
+		 *
+		 * Lo inyecta `/participacion`, que no colorea por ganador sino por una
+		 * **escala secuencial** de porcentaje. Es lo único que impedía que esa
+		 * vista usara este motor y tuviera que llevar su propio mapa con su
+		 * recuadro de Canarias, su encuadre y sus migas duplicados.
+		 */
+		color?: (cod: string) => string;
+		/**
+		 * Leyenda bajo el mapa. Los mapas de partido no la llevan —el popup y la
+		 * nota hacen ese trabajo— pero una escala secuencial no se puede leer sin
+		 * ella.
+		 */
+		leyenda?: Snippet;
 		/**
 		 * Nivel en el que abre el mapa, y **suelo** del que no se puede subir.
 		 *
@@ -155,17 +176,28 @@
 	let sinAmbitos = $derived(!ambitos || Object.keys(ambitos).length === 0);
 
 	function colorFor(cod: string): string {
+		if (color) return color(cod);
 		if (sinAmbitos) return GRIS_SIN_DATOS;
 		return fillDe(ambitos?.[cod]?.ganador);
 	}
 
-	let ganadores = $derived(Object.values(ambitos ?? {}).map((p) => p.ganador));
+	// Solo para los patrones de empate, que son cosa de los mapas de partido.
+	let ganadores = $derived(
+		Object.values(ambitos ?? {})
+			.map((p) => p.ganador)
+			.filter((g): g is Ganador => !!g)
+	);
 
 	// Popup con las tres primeras fuerzas de la provincia bajo el cursor.
 	let activeCod = $state<string | null>(null);
 	let popupPos = $state({ x: 0, y: 0 });
 
-	const POPUP_W = 190;
+	// 208 y no 190 desde el 26/11: las cabeceras del popup pasaron de "Dip." y
+	// "% Voto" a "Escaños" y "Voto (%)", que ocupan ~28px más entre las dos. Con
+	// el ancho anterior esos píxeles los perdía la celda del nombre, que es la
+	// que ya se parte en dos líneas en los topónimos largos (Santa Cruz de
+	// Tenerife). El número tiene que cuadrar con el `width` del `.popup`.
+	const POPUP_W = 208;
 	const POPUP_H = 150;
 
 	function setPopupPos(x: number, y: number) {
@@ -374,9 +406,19 @@
 					{nombreCcaa}
 				</button>
 			{/if}
+			<!-- La provincia deja de ser el final del camino cuando se baja a sus
+			     municipios: ahí el nivel que se está viendo son los municipios, y
+			     la provincia pasa a ser el escalón por el que se ha llegado. Antes
+			     la última miga era la provincia marcada como actual, así que el
+			     mapa municipal no aparecía en las migas y no había nada que
+			     dijera dónde pulsar para subir. -->
 			{#if nombreProv}
 				<span class="sep">›</span>
-				<span class="miga activa">{nombreProv}</span>
+				<button type="button" class="miga" onclick={() => volverA('provincia')}>
+					{nombreProv}
+				</button>
+				<span class="sep">›</span>
+				<span class="miga activa">Municipios</span>
 			{/if}
 		</nav>
 
@@ -439,6 +481,9 @@
 						{/each}
 					{/if}
 				</svg>
+				<!-- La leyenda va entre el mapa y la nota: explica lo que se acaba de
+				     ver, antes de las cautelas. -->
+				{#if leyenda}{@render leyenda()}{/if}
 				<p class="nota">{nota}</p>
 			</div>
 		{/if}
@@ -500,8 +545,19 @@
 		font-size: 10px;
 	}
 
+	/* **La miga pulsable tiene que parecerlo en reposo, no solo al pasar el
+	   ratón** (27/11). Antes la única diferencia entre "aquí estás" y "pulsa
+	   para volver" era un cambio de color al hacer hover: en móvil, que es
+	   donde se ve esto la noche electoral, no existe, así que las migas
+	   parecían un rótulo y nadie sabía que se podía subir. Ahora el subrayado
+	   punteado las marca desde el primer momento.
+
+	   Punteado y no continuo a propósito: continuo las convierte en enlaces de
+	   cuerpo de texto y compiten con el rótulo del mapa que va justo debajo.
+	   Al pasar el ratón pasa a continuo y la tinta se oscurece, que es el
+	   refuerzo. */
 	.miga {
-		padding: 2px 4px;
+		padding: 3px 5px;
 		border: 0;
 		background: none;
 		font: inherit;
@@ -510,15 +566,35 @@
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		font-weight: 700;
+		border-bottom: 1px dotted rgba(10, 14, 20, 0.3);
+		transition:
+			color 0.12s ease,
+			border-color 0.12s ease,
+			background 0.12s ease;
 	}
 
 	.miga:hover {
 		color: var(--ink, #0a0e14);
+		border-bottom-color: var(--ink, #0a0e14);
+		border-bottom-style: solid;
+		background: rgba(10, 14, 20, 0.04);
 	}
 
+	/* Teclado: el mismo resaltado que el ratón más el anillo del navegador, que
+	   no se quita. */
+	.miga:focus-visible {
+		color: var(--ink, #0a0e14);
+		border-bottom-color: var(--ink, #0a0e14);
+		border-bottom-style: solid;
+	}
+
+	/* Dónde estás: tinta plena y sin subrayado, que es lo que la distingue de
+	   las que llevan a algún sitio. No es un botón. */
 	.miga.activa {
 		color: var(--ink, #0a0e14);
 		cursor: default;
+		border-bottom: 0;
+		background: none;
 	}
 
 	.sep {
@@ -655,7 +731,8 @@
 	.popup {
 		position: fixed;
 		z-index: 60;
-		width: 190px;
+		/* Cuadra con POPUP_W, que es lo que usa el cálculo de posición. */
+		width: 208px;
 		background: var(--paper);
 		border: 1px solid var(--ink);
 		padding: 8px 10px;

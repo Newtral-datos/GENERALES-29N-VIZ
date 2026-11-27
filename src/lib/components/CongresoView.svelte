@@ -32,6 +32,7 @@
 		<BarraEscanos />
 	</div>
 
+
 	<div class="grid">
 		<div class="col-tabla">
 			<TablaPartidos />
@@ -56,8 +57,8 @@
 										<span class="popup-estado">{etiquetaDe(a.ganador, { conEmpatados: false })}</span>
 									{/if}
 								</th>
-								<th>Dip.</th>
-								<th>% Voto</th>
+								<th>Escaños</th>
+								<th>Voto (%)</th>
 							</tr>
 						</thead>
 						<tbody>

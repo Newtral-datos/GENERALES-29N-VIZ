@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { CONVOCATORIA } from '#lib/config';
 	import { getResultadosSenado, type NacionalSenado } from '#lib/data';
-	import { ordenCamara } from '#lib/orden-camara';
+	import { bloquesCamara } from '#lib/orden-camara';
 
 	let nacional = $state<NacionalSenado | null>(null);
 
@@ -17,22 +17,23 @@
 	// por voto limitado, candidato a candidato, no por reparto proporcional de
 	// una lista.
 	//
-	// La escala son los 208 de ELECCIÓN DIRECTA, que es lo que se decide en las
-	// urnas. Los 58 designados por los parlamentos autonómicos no se dibujan:
-	// llegan semanas después, cada parlamento con sus plazos, y su número
-	// depende de la población (57 o 58 según la legislatura). Se explican en la
-	// nota al pie. La marca señala la MITAD DE LOS ELECTOS (105 de 208), que es
-	// el umbral propio de esta escala y por eso cae justo en la vertical del
-	// hemiciclo. La mayoría absoluta del Senado (134 sobre los 266 de la Cámara
-	// completa) no se dibuja: sobre una escala de 208 caería en el 64 % y
-	// marcar dos umbrales distintos en el mismo gráfico confunde más que ayuda.
+	// La escala son los 209 de ELECCIÓN DIRECTA, que es lo que se decide en las
+	// urnas y lo único que el panel publica. Los designados por los parlamentos
+	// autonómicos no se dibujan ni se cuentan: llegan semanas después y su
+	// número no está confirmado (ver `senado_29n.py`, sobre ESCANOS_DIRECTOS).
+	//
+	// La marca señala la MITAD DE LOS ELECTOS (105 de 209), que es el umbral
+	// propio de esta escala y por eso cae justo en la vertical del hemiciclo.
+	// **No es la mayoría absoluta del Senado**, que se cuenta sobre la Cámara
+	// completa: por eso se rotula "mitad de los electos" y la palabra "mayoría"
+	// no aparece en esta pieza.
 
 	const cx = 200;
 	const cy = 206;
 
 	// Geometría: 6 filas concéntricas entre r=110 y r=180 (el radio exterior es
 	// el mismo que el del hemiciclo del Congreso, para que las dos cámaras se
-	// vean del mismo tamaño). Con 208 celdas, el paso de 14px da cuadrados de
+	// vean del mismo tamaño). Con 209 celdas, el paso de 14px da cuadrados de
 	// 10px con ~3px de aire tangencial y 4px entre filas — por encima del hueco
 	// mínimo entre marcas que pide la guía de dataviz, y con la celda lo más
 	// grande posible, que es lo que hace legible un cuadrado de este tamaño.
@@ -101,36 +102,49 @@
 	let grupos = $derived.by<Grupo[]>(() => {
 		if (!nacional) return [];
 
-		const secuencia: Omit<Grupo, 'celdas'>[] = ordenCamara(
-			nacional.partidos,
-			(p) => p.escanos
-		).map((p) => ({
+		type Fuerza = { siglas: string; nombre: string; color: string; escanos: number };
+		const ficha = (p: Fuerza) => ({
 			clave: p.siglas,
 			siglas: p.siglas,
 			nombre: p.nombre,
 			color: p.color,
 			escanos: p.escanos
-		}));
+		});
+		const { izquierda, derecha } = bloquesCamara(nacional.partidos, (p) => p.escanos);
 
-		// Siempre las 208 celdas de la cámara que se elige, no las adjudicadas:
+		// Siempre las 209 celdas de la cámara que se elige, no las adjudicadas:
 		// así los cuadrados no cambian de tamaño según avanza el escrutinio y
 		// las que todavía no tienen dueño se ven vacías, que es el dato.
 		const celdas = construirCeldas(electos);
+
+		// **Cada bloque desde su borde.** La izquierda ocupa celdas desde la
+		// primera; la derecha, las últimas, así que las libres quedan en el
+		// centro. Antes se repartían todas en secuencia desde la primera celda y
+		// los huecos acababan amontonados en el borde derecho: parecía que la
+		// derecha tenía menos senadores, cuando lo que faltaba era contar.
+		const sumaDer = derecha.reduce((t, p) => t + p.escanos, 0);
 		let i = 0;
-		return secuencia.map((g) => {
+		const gruposIzq = izquierda.map((p) => {
+			const g = ficha(p);
 			const suyas = celdas.slice(i, i + g.escanos);
 			i += g.escanos;
 			return { ...g, celdas: suyas };
 		});
+		let j = Math.max(i, electos - sumaDer);
+		const gruposDer = derecha.map((p) => {
+			const g = ficha(p);
+			const suyas = celdas.slice(j, j + g.escanos);
+			j += g.escanos;
+			return { ...g, celdas: suyas };
+		});
+		return [...gruposIzq, ...gruposDer];
 	});
 
-	// Escala del gráfico: los 208 que se eligen en las urnas (ver AGENTS.md,
-	// "Senado"), no los ya adjudicados. `totalEscanos` crece de 0 a 208 durante
+	// Escala del gráfico: los 209 que se eligen en las urnas (ver AGENTS.md,
+	// "Senado"), no los ya adjudicados. `totalEscanos` crece de 0 a 209 durante
 	// la noche: usarlo dejaba la cámara siempre "completa" y, con 0, dividía
 	// por cero.
-	let electos = $derived(
-		nacional ? nacional.totalEscanosCamara - nacional.escanosDesignadosPendientes : 0
-	);
+	let electos = $derived(nacional?.electosTotales ?? 0);
 
 	// Las celdas que todavía no tiene nadie. Durante la noche son el dato que
 	// falta —cuántos escaños quedan por decidir—, así que se dibujan vacías en
@@ -138,32 +152,25 @@
 	// lienzo en blanco parece un error de carga.
 	let celdasLibres = $derived.by(() => {
 		const todas = construirCeldas(electos);
-		const asignadas = grupos.reduce((n, g) => n + g.celdas.length, 0);
-		return todas.slice(asignadas);
+		// Las libres son las del centro: las que no se ha llevado ningún grupo.
+		// Se calcula por diferencia de conjuntos y no con un `slice`, porque los
+		// dos bloques ocupan los dos extremos y el hueco está en medio.
+		const ocupadas = new Set(grupos.flatMap((g) => g.celdas));
+		return todas.filter((c) => !ocupadas.has(c));
 	});
 
-	let mitadElectos = $derived(electos ? Math.floor(electos / 2) + 1 : 0);
+	// Del JSON, no recalculado: el umbral se decide en un solo sitio.
+	let mitadElectos = $derived(nacional?.mitadElectos ?? 0);
 	let angMayoria = $derived(electos ? 180 - (mitadElectos / electos) * 180 : 90);
 	let mayInicio = $derived(polar(R_INT - 9, angMayoria));
 	let mayFin = $derived(polar(R_EXT + 11, angMayoria));
-	let mayEtiqueta = $derived(polar(R_EXT + 22, angMayoria));
 
-	// Cifra protagonista: la fuerza más votada frente a la mayoría absoluta, que
-	// es la lectura real de esta cámara.
-	//
-	// `reduce` sin valor inicial revienta con un array vacío ("Reduce of empty
-	// array with no initial value"), y `partidos` está vacío durante toda la
-	// fase previa al escrutinio: antes de las 20:00 del 29N, y durante el
-	// simulacro entero. Eso tumbaba la vista del Senado con un 500, no la
-	// dejaba a medias. Sin escrutinio no hay líder: es `null`, y la vista lo
-	// trata como "sin datos".
-	let lider = $derived(
-		nacional && nacional.partidos.length
-			? nacional.partidos.reduce((a, b) => (b.escanos > a.escanos ? b : a))
-			: null
-	);
-
+	// `partidos` está vacío durante toda la fase previa al escrutinio: antes de
+	// las 20:00 del 29N y durante el simulacro entero. El centro del hemiciclo
+	// distingue los dos estados (umbral de mayoría / "sin escrutar"), así que
+	// hace falta tenerlo declarado y no leer `.length` en la plantilla.
 	let sinEscrutinio = $derived(!!nacional && nacional.partidos.length === 0);
+	let conEscrutinio = $derived(!!nacional && nacional.partidos.length > 0);
 
 	let activo = $state<Grupo | null>(null);
 	let popupPos = $state({ x: 0, y: 0 });
@@ -199,11 +206,13 @@
 			<p class="loading">Cargando datos…</p>
 		{:else}
 			<div class="wrap">
-				<!-- El viewBox arranca en y=-24 para dejar hueco a la etiqueta del
-				     umbral: al caer en el 50 % la marca queda vertical, justo en lo
-				     alto del arco, y con el origen en 0 el texto se salía del lienzo.
-				     Se gana aire arriba sin dejar espacio muerto abajo. -->
-				<svg viewBox="0 -24 400 272" class="hemiciclo">
+				<!-- El viewBox arrancaba en y=-24 para dejar hueco a la etiqueta del
+				     umbral, que caía justo en lo alto del arco y se salía del lienzo.
+				     Al mover ese rótulo al centro (27/11) esas 24 unidades se
+				     quedaban como aire muerto, encogiendo el dibujo sin motivo: lo
+				     más alto que hay ahora es el extremo de la raya del umbral, en
+				     y≈15 con el marcador vertical. -->
+				<svg viewBox="0 0 400 248" class="hemiciclo">
 					{#each celdasLibres as c, i (i)}
 						<rect
 							x={c.x - CELDA / 2}
@@ -252,29 +261,40 @@
 						stroke-width="1.5"
 					/>
 					<circle cx={mayFin.x} cy={mayFin.y} r="2" fill="var(--ink)" />
-					<!-- Las dos líneas se apilan hacia ARRIBA del punto del marcador: puestas
-					     debajo caían justo sobre él y el texto se comía el extremo de la línea. -->
-					<text
-						x={mayEtiqueta.x}
-						y={mayEtiqueta.y - 10}
-						text-anchor="middle"
-						class="may-label"
-					>
-						Mitad de los electos
-					</text>
-					<text x={mayEtiqueta.x} y={mayEtiqueta.y} text-anchor="middle" class="may-label-sm">
-						{mitadElectos} de {electos}
-					</text>
 
-					{#if lider}
-						<text x={cx} y={cy - 54} text-anchor="middle" class="centro-siglas">{lider.siglas}</text>
-						<text x={cx} y={cy - 18} text-anchor="middle" class="centro-numero">{lider.escanos}</text>
-						<text x={cx} y={cy - 2} text-anchor="middle" class="centro-label">
-							de {nacional.totalEscanos} electos
+					<!-- **El umbral se rotula en el centro, no sobre el arco** (27/11).
+					     La raya y su punto se quedan, que son los que sitúan la mitad de
+					     los electos sobre las celdas; lo que se quitó es el rótulo que
+					     llevaban encima, porque decía exactamente lo mismo que ahora dice
+					     el centro y dos veces el mismo número se lee como dos umbrales
+					     distintos. Es además la disposición del hemiciclo del Congreso:
+					     una raya en su ángulo y el número grande en medio.
+
+					     **Y es "mitad de los electos", no "mayoría".** La mayoría absoluta
+					     del Senado se cuenta sobre la Cámara completa, que incluye a los
+					     designados por los parlamentos autonómicos, y ese número no se
+					     publica porque no está confirmado (razonamiento en
+					     `senado_29n.py`, sobre ESCANOS_DIRECTOS). Quien pase de 105 no
+					     controla el Senado, y el rótulo es lo único que impide leerlo al
+					     revés.
+
+					     Lo que NO puede ir aquí es el más votado, que es lo que había
+					     hace dos iteraciones: el centro de un hemiciclo no es el sitio de
+					     "quién va primero" —eso lo dicen la tabla y la barra— y el
+					     denominador acababa siendo una cifra que cambia con cada envío. -->
+					{#if conEscrutinio}
+						<text x={cx} y={cy - 46} text-anchor="middle" class="centro-label">
+							Mitad de los electos
+						</text>
+						<text x={cx} y={cy - 12} text-anchor="middle" class="centro-numero">
+							{mitadElectos}
+						</text>
+						<text x={cx} y={cy + 4} text-anchor="middle" class="centro-label">
+							de {electos}
 						</text>
 					{:else if sinEscrutinio}
 						<!-- La cámara dibujada y vacía dice la verdad del momento: hay
-						     208 escaños que repartir y todavía no se ha repartido
+						     209 escaños que repartir y todavía no se ha repartido
 						     ninguno. Mejor que un hueco en blanco, que parece un fallo. -->
 						<text x={cx} y={cy - 26} text-anchor="middle" class="centro-vacio">Sin escrutar</text>
 						<text x={cx} y={cy - 6} text-anchor="middle" class="centro-label">
@@ -287,7 +307,12 @@
 				{#if activo}
 					<div class="popup" style="left:{popupPos.x}px; top:{popupPos.y}px;">
 						<span class="popup-swatch" style="background:{activo.color}"></span>
-						<span class="popup-name">{activo.nombre}</span>
+						<!-- La sigla y no el nombre completo: el popup es una etiqueta de un trozo
+			     de gráfico, no una ficha del partido, y "EUZKO ALDERDI
+			     JELTZALEA-PARTIDO NACIONALISTA VASCO" ocupaba tres líneas para decir
+			     EAJ-PNV. Las siglas son las que el lector acaba de ver en la leyenda,
+			     en la tabla y en el mapa. -->
+			<span class="popup-name">{activo.siglas}</span>
 						<span class="popup-seats">
 							{activo.escanos}
 							{activo.escanos === 1 ? 'senador' : 'senadores'}
@@ -307,11 +332,10 @@
 
 				<p class="nota">
 					Cada cuadrado es un senador de elección directa — los {electos} que se
-					eligen en las urnas ({CONVOCATORIA}); la marca central es la mitad de esos escaños ({mitadElectos}).
-					A ellos se suman después {nacional.escanosDesignadosPendientes} designados por los
-					parlamentos autonómicos, hasta los {nacional.totalEscanosCamara} de la Cámara completa:
-					la <b>mayoría absoluta del Senado son {nacional.mayoria} escaños</b>, que se cuentan sobre
-					ese total y no sobre los electos.
+					eligen en las urnas ({CONVOCATORIA}); la marca del arco es la mitad de esos escaños
+					({mitadElectos}). <b>No es la mayoría absoluta del Senado</b>: a estos se suman después
+					los senadores que designan los parlamentos autonómicos, y la mayoría se cuenta sobre
+					la Cámara completa.
 				</p>
 			</div>
 		{/if}
@@ -379,40 +403,21 @@
 		opacity: 0.25;
 	}
 
-	/* Filete neutro en todas las celdas. No es decoración: con 8px de lado, los
-	   colores claros del catálogo (EH Bildu #A4CE4E y ERC #FFB400 quedan en
-	   1.7:1 contra el papel, por debajo del 3:1 que pide la guía de dataviz) se
-	   perderían sobre fondo blanco. El filete da el borde sin tocar el color
-	   del partido, que no es nuestro para cambiarlo. */
+	/* Filete blanco en todas las celdas (26/11), por coherencia con la barra y el
+	   hemiciclo del Congreso, que esa misma tarde dejaron el gris por el blanco.
+
+	   **Y aquí tiene una contrapartida que conviene no perder de vista**, porque
+	   es el motivo por el que el filete era gris: las celdas ya van separadas por
+	   geometría (10px de lado con 14 de paso, o sea 4 de papel entre filas), así
+	   que un filete blanco no separa nada que no estuviera separado — lo que hacía
+	   el gris era dar borde a los colores claros del catálogo, que sobre papel
+	   blanco se quedan en 1,7:1 (EH Bildu #A4CE4E, ERC #FFB400) cuando la guía de
+	   dataviz pide 3:1. Sin él, un senador de EH Bildu y una celda libre se
+	   distinguen solo por el tono del relleno. Volver atrás es cambiar este
+	   `stroke` por `rgba(10, 14, 20, 0.28)`: no depende de nada más. */
 	.celda {
-		stroke: rgba(10, 14, 20, 0.28);
+		stroke: var(--paper);
 		stroke-width: 0.6;
-	}
-
-	.may-label {
-		fill: var(--ink);
-		font-family: var(--font-display);
-		font-size: 9px;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-	}
-
-	.may-label-sm {
-		fill: var(--grey);
-		font-family: var(--font-body);
-		font-size: 8px;
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-	}
-
-	.centro-siglas {
-		fill: var(--grey);
-		font-family: var(--font-display);
-		font-size: 11px;
-		font-weight: 700;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
 	}
 
 	.centro-numero {

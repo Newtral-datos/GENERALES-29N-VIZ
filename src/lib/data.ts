@@ -96,7 +96,7 @@ function leerJsonOVacio<T>(ruta: string, respaldo: T): Promise<T> {
 // (art. 68 y 69 CE) y son las mismas que ya publica el pipeline en cada JSON.
 // En cuanto llega el primer envío mandan las del fichero, no estas.
 const CONGRESO_ESCANOS = 350;
-const SENADO_ELECTOS = 208;
+const SENADO_ELECTOS = 209;
 
 const SIN_ESCRUTINIO = {
 	censo: 0,
@@ -132,15 +132,15 @@ const RESULTADOS_VACIOS: Resultados = {
 const SENADO_VACIO: ResultadosSenado = {
 	nacional: {
 		fecha: '',
-		totalEscanos: SENADO_ELECTOS,
-		totalEscanosCamara: SENADO_ELECTOS,
-		escanosDesignadosPendientes: 0,
-		mayoria: Math.floor(SENADO_ELECTOS / 2) + 1,
+		// Sin datos no hay ningún escaño adjudicado, pero la cámara ya tiene su
+		// tamaño: así el hemiciclo dibuja sus 209 celdas vacías en vez de nada.
+		totalEscanos: 0,
+		electosTotales: SENADO_ELECTOS,
+		mitadElectos: Math.floor(SENADO_ELECTOS / 2) + 1,
 		partidos: [],
 		anterior: {
 			etiqueta: '',
 			totalEscanos: SENADO_ELECTOS,
-			mayoria: Math.floor(SENADO_ELECTOS / 2) + 1,
 			partidos: []
 		}
 	},
@@ -200,6 +200,16 @@ export type Partido = {
 	// Mismo criterio de null. Opcional porque los JSON de 23J no lo traen en el
 	// bloque nacional: solo los del 29N.
 	pctVotosAnterior?: number | null;
+	// `false` = la marca NO concurre en esta convocatoria y está en la tabla
+	// solo para enseñar en "Dif." los escaños que defendía (SUMAR el 29N). Lo
+	// declara el pipeline en `congreso_29n.con_representacion_anterior`;
+	// ausente o `true` significa que se presenta.
+	//
+	// Quien ordene por "cuánto se mueve respecto a la convocatoria anterior"
+	// tiene que descartarlas: perder 31 escaños por no presentarse no es un
+	// vuelco electoral, y es además el mayor "movimiento" de la noche, así que
+	// gana cualquier ranking de ese tipo de principio a fin.
+	concurre?: boolean;
 };
 
 export type PartidoAnterior = { siglas: string; nombre: string; escanos: number; color: string; lado: number };
@@ -357,6 +367,10 @@ export type ResultadoMunicipio = {
 	blanco: number;
 	nulos: number;
 	participacionPct: number;
+	// Solo 29N. El escrutinio del propio municipio, que es el único contexto con
+	// el que se pueden leer sus porcentajes: el Ministerio va cerrando mesas y un
+	// municipio puede estar al 20 % mientras su provincia va al 70 %.
+	pctEscrutado?: number;
 	principales: PartidoMunicipio[];
 	otros: { votos: number; pctVotos: number; numCandidaturas: number };
 };
@@ -398,6 +412,29 @@ export function getResultados(): Promise<Resultados> {
 	return cacheResultados;
 }
 
+/**
+ * El avance ANTERIOR de un ámbito, colgado del corte que todavía no tiene cifra
+ * propia porque sus mesas no han notificado (lo escribe
+ * `participacion_29n.con_arrastre`).
+ *
+ * Es lo que el mapa y el ranking pintan mientras un corte entra: los avances no
+ * llegan de golpe, así que durante un buen rato el 18:00 tiene dato nacional y
+ * le faltan provincias, y el corte activo se decide **una sola vez y a nivel
+ * nacional** (norma del AGENTS.md). Sin esto, esas provincias devolvían `null` y
+ * el mapa se vaciaba justo cuando entra un avance.
+ *
+ * **Es el dato de otra hora**, así que `participacionPct` del corte sigue en
+ * `null` —nada de lo que mira ese campo para saber si un corte está publicado
+ * cambia de comportamiento— y toda pieza que lo pinte tiene que rotular de qué
+ * corte viene. Los cortes de cierre nunca lo llevan.
+ */
+export type ArrastreAvance = {
+	hora: string;
+	etiqueta: string;
+	votantes: number | null;
+	participacionPct: number;
+};
+
 export type AvanceParticipacion = {
 	hora: string;
 	etiqueta: string;
@@ -412,6 +449,9 @@ export type AvanceParticipacion = {
 	// el cierre, y los cortes ya ocurridos se conservan para poder compararlos
 	// (ver participacion_29n.con_publicados). El dato es igual de real.
 	recuperado?: boolean;
+	// El avance anterior de este mismo ámbito, cuando el corte no tiene cifra
+	// propia todavía. Ver ArrastreAvance.
+	arrastrado?: ArrastreAvance;
 };
 
 export type ParticipacionNacional = {
@@ -526,17 +566,25 @@ export type NacionalSenado = {
 	// Solo 29N (ver Nacional).
 	pctEscrutado?: number;
 	horaTotalizacion?: string;
+	// Los escaños YA adjudicados: crece con cada envío a lo largo de la noche.
 	totalEscanos: number;
-	totalEscanosCamara: number;
-	escanosDesignadosPendientes: number;
-	mayoria: number;
+	// Los 209 que se eligen en las urnas, fijo toda la noche. Es el
+	// denominador de la barra y del hemiciclo — `totalEscanos` no sirve, porque
+	// con 20 adjudicados esos 20 ocuparían la cámara entera.
+	electosTotales: number;
+	// La mitad de los electos (105). **No es la mayoría absoluta del Senado**:
+	// esa se cuenta sobre la Cámara completa, que incluye a los designados por
+	// los parlamentos autonómicos, y ese número no se publica (decisión del
+	// 27/11; el razonamiento está en `senado_29n.py`, sobre ESCANOS_DIRECTOS).
+	// Rotularlo bien es lo único que impide que se lea como "quien pase de 105
+	// controla la Cámara", que es falso.
+	mitadElectos: number;
 	partidos: PartidoSenado[];
 	// `partidos`: los senadores electos en la convocatoria anterior, por marca.
 	// Solo escaños — el fichero `ANT` del Senado no trae votos ni candidatos.
 	anterior: {
 		etiqueta: string;
 		totalEscanos: number;
-		mayoria: number;
 		partidos: PartidoAnteriorSenado[];
 	};
 };
@@ -584,6 +632,9 @@ export type AvanceMunicipio = {
 	// el cierre, y los cortes ya ocurridos se conservan para poder compararlos
 	// (ver participacion_29n.con_publicados). El dato es igual de real.
 	recuperado?: boolean;
+	// El avance anterior de este mismo ámbito, cuando el corte no tiene cifra
+	// propia todavía. Ver ArrastreAvance.
+	arrastrado?: ArrastreAvance;
 };
 
 export type ParticipacionMunicipio = {
